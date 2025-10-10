@@ -1,0 +1,159 @@
+---
+title: "zone shaping"
+output: html_document
+date: "2025-10-10"
+---
+
+```{r}
+library(dplyr)
+
+setwd('/users/coop/desktop/hoops')
+```
+
+```{r}
+shots <- read.csv('all_shots.csv')
+
+shots <- shots %>% 
+  rename(x = left,
+         y = top)
+```
+
+```{r}
+##layup circle
+
+shots <- shots %>%
+  mutate(
+    layup = ifelse(sqrt((x - 245.5)^2 + (y - 41)^2) <= 79,1,0)
+  )
+
+```
+
+```{r}
+
+# params
+cx <- 245.5; cy <- 41          # hoop center
+r_layup <- 79                  # inner radius
+r_mid_outer <- 160             # outer radius of circular mid-range (adjust as needed)
+theta_mid <- 35 * pi/180       # half-angle of center wedge in radians (adjust)
+
+shots <- shots %>%
+  mutate(
+    dx = x - cx,
+    dy = y - cy,
+    r = sqrt(dx^2 + dy^2),
+    ang = atan2(dy, dx),                               # radians
+
+    in_mid = r > r_layup & r <= r_mid_outer,           # annulus
+    is_mid_center = in_mid & abs(ang - pi/2) <= theta_mid,
+
+    mid_zone = case_when(                              
+      is_mid_center ~ "mid_center",
+      in_mid & dx < 0 ~ "mid_left",                    # symmetric split about x = cx
+      in_mid & dx >= 0 ~ "mid_right",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  select(-dx, -dy, -r, -ang, -in_mid, -is_mid_center)
+
+
+```
+
+```{r}
+rad_center <- 20 * pi/180   # half-angle for "top"
+rad_wing   <- 50 * pi/180   # boundary between wings and corners
+
+cx <- 245.5; cy <- 41
+
+shots <- shots %>%
+  mutate(
+    dx  = x - cx,
+    dy  = y - cy,
+    ang = atan2(dy, dx),                 # radians
+    phi = abs(ang - pi/2),               # distance from vertical
+
+    is_three_band = shot_type == 3 & layup == 0 & is.na(mid_zone),
+
+    three_zone = case_when(
+      !is_three_band                      ~ NA_character_,
+      phi <= rad_center                   ~ "3_top",
+      phi <= rad_wing  & dx < 0           ~ "3_left_wing",
+      phi <= rad_wing  & dx >= 0          ~ "3_right_wing",
+      phi >  rad_wing  & dx < 0           ~ "3_left_corner",
+      phi >  rad_wing  & dx >= 0          ~ "3_right_corner"
+    )
+  ) %>%
+  select(-dx, -dy, -ang, -phi, -is_three_band)
+
+
+```
+
+```{r}
+
+
+# same center and angle params used earlier
+cx <- 245.5; cy <- 41
+rad_center <- 20 * pi/180    # half-angle for "top"
+rad_wing   <- 50 * pi/180    # wings vs corners
+
+shots <- shots %>%
+  mutate(
+    dx  = x - cx,
+    dy  = y - cy,
+    ang = atan2(dy, dx),
+    phi = abs(ang - pi/2),
+
+    in_long2_band = shot_type == 2 & layup == 0 & is.na(mid_zone),
+
+    long2_zone = case_when(
+      !in_long2_band               ~ NA_character_,
+      phi <= rad_center            ~ "2_top",
+      phi <= rad_wing & dx < 0     ~ "2_left_wing",
+      phi <= rad_wing & dx >= 0    ~ "2_right_wing",
+      phi >  rad_wing & dx < 0     ~ "2_left_corner",
+      phi >  rad_wing & dx >= 0    ~ "2_right_corner"
+    )
+  ) %>%
+  select(-dx, -dy, -ang, -phi, -in_long2_band)
+```
+
+```{r}
+
+check <- shots %>% 
+  filter(is.na(mid_zone) &
+           is.na(three_zone) &
+           is.na(long2_zone) &
+           layup == 0)
+```
+
+```{r}
+
+shots <- shots %>% 
+  mutate(zone = case_when(
+    layup == 1 ~ "lu",
+    mid_zone == "mid_left" ~ "s2l",
+    mid_zone == "mid_center" ~ "s2m",
+    mid_zone == "mid_right" ~ "s2r",
+    long2_zone == "2_left_corner" ~ "l2lw",
+    long2_zone == "2_left_wing" ~ "l2l",
+    long2_zone == "2_top" ~ "l2m",
+    long2_zone == "2_right_wing" ~ "l2r",
+    long2_zone == "2_right_corner" ~ "l2rw",
+    three_zone == "3_left_corner" ~ "3lw",
+    three_zone == "3_left_wing" ~ "3l",
+    three_zone == "3_top" ~ "3m",
+    three_zone == "3_right_wing" ~ "3r",
+    three_zone == "3_right_corner" ~ "3rw"
+  ))
+
+```
+
+```{r}
+
+shots <- shots %>% 
+  mutate(make = ifelse(result == "made",1,0),
+         three = ifelse(shot_type == 3,1,0))
+
+new_shots <- shots %>% 
+  select(shooter, zone, distance, three, make, quarter, time, team, opp, game_id)
+```
+
