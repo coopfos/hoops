@@ -15,6 +15,7 @@ library(stringi)
 library(fuzzyjoin)
 library(tibble)
 library(purrr)
+library(stats)
 
 
 setwd('/users/coop/desktop/hoops')
@@ -159,7 +160,73 @@ box_score_uni <- bs %>%
 ```
 
 ```{r}
-ir_sc <- read.csv('irregular_names_sc.csv')
-ir_bs <- read.csv('irregular_names_bs.csv')
+bs <- read.csv('/Users/cooperfoster/Desktop/hoops/rolled_basic.csv')
+```
+
+```{r}
+
+bs <- bs %>% 
+  left_join(game_log %>% select(game_id, date), by = "game_id")
+
+```
+
+```{r}
+
+bs$pts <- as.numeric(bs$pts)
+
+shooter_ppg10 <- bs %>% 
+  group_by(player) %>% 
+  arrange(date, game_id, .by_group = T) %>% 
+  mutate(
+    ppg_prev10 = 
+      slide_dbl(lag(pts), ~mean(.x, na.rm = T), .before = 10 - 1, .complete = T)
+  ) %>% 
+  ungroup() %>% 
+  select(game_id, team_code, player, pts, ppg_prev10)
+
+
+```
+
+```{r}
+tagged_players <- tagged %>% 
+  select(shooter) %>% 
+  unique()
+
+bs_players <- bs %>% 
+  select(player) %>% 
+  unique()
+
+bs_players <- bs_players %>% 
+  mutate(check = ifelse(player %in% tagged_players$shooter,1,0))
+
+bs_players_0 <- bs_players %>% 
+  filter(check == 0)
+```
+
+```{r}
+test1 <- shooter_ppg10 %>% 
+  select(-team_code) %>% 
+  right_join(matchups_filt1, by = c('game_id', 'player' = 'shooter')) %>% 
+  mutate(pts_oe = pts - ppg_prev10)
+
+lm1 <- lm(pts_oe ~ w_diff_gap, test1)
+
+```
+
+```{r}
+test2 <- test1 %>% 
+  filter(w_sum > 150)
+
+lm2 <- lm(pts_oe ~ w_diff_gap, test2)
+```
+
+```{r}
+test1 <- test1 %>% 
+  mutate(tp = ifelse((pts_oe > 0) & (w_diff_gap > 0),1,0),
+         tn = ifelse((pts_oe < 0) & (w_diff_gap < 0),1,0),
+         fp = ifelse((pts_oe < 0) & (w_diff_gap > 0),1,0),
+         fn = ifelse((pts_oe > 0) & (w_diff_gap < 0),1,0))
+         
+
 ```
 
