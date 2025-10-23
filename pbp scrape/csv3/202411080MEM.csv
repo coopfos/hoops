@@ -1,0 +1,513 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text,clock
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: sarral01 vs. jacksja02 ( clarkbr01 gains possession),12:00.0
+2,fg_make,,,0.0,2.0,2.0,clarkbr01,2.0,jump shot,11.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,11:44.0 0-2 +2 clarkbr01 makes 2-pt jump shot from 11 ft (assist by pippesc02 ),11:44.0
+3,fg_make,,,2.0,2.0,2.0,carrica01,2.0,jump shot,20.0,poolejo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:20.0 carrica01 makes 2-pt jump shot from 20 ft (assist by poolejo01 ) +2 2-2,11:20.0
+4,fg_miss,,,2.0,2.0,,clarkbr01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:12.0 2-2 clarkbr01 misses 2-pt layup from 2 ft,11:12.0
+5,rebound,,,2.0,2.0,,,,,,,,,,,defensive,valanjo01,False,,,,,,,,,,,,,,,,,,,11:09.0 Defensive rebound by valanjo01 2-2,11:09.0
+6,foul,,,2.0,2.0,,,,,,,,,,,,,,personal,pippesc02,carrica01,,,,,,,,,,,,,,,,11:05.0 Personal foul by pippesc02 (drawn by carrica01 ) 2-2,11:05.0
+7,foul,,,2.0,2.0,,,,,,,,,,,,,,shooting,jacksja02,poolejo01,,,,,,,,,,,,,,,,10:58.0 Shooting foul by jacksja02 (drawn by poolejo01 ) 2-2,10:58.0
+8,free_throw,,,3.0,2.0,1.0,poolejo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:58.0 poolejo01 makes free throw 1 of 2 +1 3-2,10:58.0
+9,free_throw,,,4.0,2.0,1.0,poolejo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:58.0 poolejo01 makes free throw 2 of 2 +1 4-2,10:58.0
+10,fg_make,,,4.0,4.0,2.0,jacksja02,2.0,jump shot,8.0,wellsja01,,,,,,,,,,,,,,,,,,,,,,,,,,10:38.0 4-4 +2 jacksja02 makes 2-pt jump shot from 8 ft (assist by wellsja01 ),10:38.0
+11,fg_miss,,,4.0,4.0,,poolejo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:25.0 poolejo01 misses 3-pt jump shot from 26 ft 4-4,10:25.0
+12,rebound,,,4.0,4.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:24.0 4-4 Defensive rebound by Team,10:24.0
+13,fg_miss,,,4.0,4.0,,clarkbr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:16.0 4-4 clarkbr01 misses 3-pt jump shot from 23 ft,10:16.0
+14,rebound,,,4.0,4.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,10:12.0 Defensive rebound by sarral01 4-4,10:12.0
+15,fg_make,,,6.0,4.0,2.0,coulibi01,2.0,dunk,1.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 coulibi01 makes 2-pt dunk from 1 ft (assist by sarral01 ) +2 6-4,10:08.0
+16,fg_miss,,,6.0,4.0,,aldamsa01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:58.0 6-4 aldamsa01 misses 2-pt jump shot from 11 ft,9:58.0
+17,rebound,,,6.0,4.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,9:54.0 Defensive rebound by carrica01 6-4,9:54.0
+18,turnover,,,6.0,4.0,,,,,,,,,,,,,,,,,carrica01,bad pass; steal by aldamsa01,aldamsa01,,,,,,,,,,,,,9:43.0 Turnover by carrica01 (bad pass; steal by aldamsa01 ) 6-4,9:43.0
+19,fg_make,,,6.0,6.0,2.0,aldamsa01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:39.0 6-6 +2 aldamsa01 makes 2-pt layup from 5 ft,9:39.0
+20,foul,,,6.0,6.0,,,,,,,,,,,,,,shooting,aldamsa01,sarral01,,,,,,,,,,,,,,,,9:11.0 Shooting foul by aldamsa01 (drawn by sarral01 ) 6-6,9:11.0
+21,free_throw,,,7.0,6.0,1.0,sarral01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:11.0 sarral01 makes free throw 1 of 2 +1 7-6,9:11.0
+22,free_throw,,,8.0,6.0,1.0,sarral01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:11.0 sarral01 makes free throw 2 of 2 +1 8-6,9:11.0
+23,fg_miss,,,8.0,6.0,,jacksja02,2.0,layup,3.0,,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,8:54.0 8-6 jacksja02 misses 2-pt layup from 3 ft (block by sarral01 ),8:54.0
+24,rebound,,,8.0,6.0,,,,,,,,,,,offensive,jacksja02,False,,,,,,,,,,,,,,,,,,,8:48.0 8-6 Offensive rebound by jacksja02,8:48.0
+25,fg_make,,,8.0,8.0,2.0,jacksja02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:48.0 8-8 +2 jacksja02 makes 2-pt layup at rim,8:48.0
+26,fg_miss,,,8.0,8.0,,carrica01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:40.0 carrica01 misses 3-pt jump shot from 28 ft 8-8,8:40.0
+27,rebound,,,8.0,8.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,8:39.0 8-8 Defensive rebound by pippesc02,8:39.0
+28,fg_make,,,8.0,11.0,3.0,jacksja02,3.0,jump shot,25.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 8-11 +3 jacksja02 makes 3-pt jump shot from 25 ft (assist by pippesc02 ),8:34.0
+29,fg_miss,,,8.0,11.0,,carrica01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:22.0 carrica01 misses 2-pt layup from 1 ft 8-11,8:22.0
+30,rebound,,,8.0,11.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,8:21.0 8-11 Defensive rebound by Team,8:21.0
+31,foul,,,8.0,11.0,,,,,,,,,,,,,,shooting,sarral01,jacksja02,,,,,,,,,,,,,,,,8:15.0 8-11 Shooting foul by sarral01 (drawn by jacksja02 ),8:15.0
+32,free_throw,,,8.0,12.0,1.0,jacksja02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:15.0 8-12 +1 jacksja02 makes free throw 1 of 2,8:15.0
+33,substitution,,,8.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:15.0 8-12 edeyza01 enters the game for clarkbr01,8:15.0
+34,substitution,,,8.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:15.0 8-12 kennalu01 enters the game for pippesc02,8:15.0
+35,free_throw,,,8.0,13.0,1.0,jacksja02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:15.0 8-13 +1 jacksja02 makes free throw 2 of 2,8:15.0
+36,turnover,,,8.0,13.0,,,,,,,,,,,,,,,,,coulibi01,bad pass; steal by jacksja02,jacksja02,,,,,,,,,,,,,8:05.0 Turnover by coulibi01 (bad pass; steal by jacksja02 ) 8-13,8:05.0
+37,fg_miss,,,8.0,13.0,,wellsja01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 8-13 wellsja01 misses 3-pt jump shot from 26 ft,7:56.0
+38,rebound,,,8.0,13.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,7:54.0 Defensive rebound by carrica01 8-13,7:54.0
+39,fg_make,,,10.0,13.0,2.0,sarral01,2.0,dunk,1.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,7:51.0 sarral01 makes 2-pt dunk from 1 ft (assist by carrica01 ) +2 10-13,7:51.0
+40,turnover,,,10.0,13.0,,,,,,,,,,,,,,,,,edeyza01,lost ball; steal by carrica01,carrica01,,,,,,,,,,,,,7:36.0 10-13 Turnover by edeyza01 (lost ball; steal by carrica01 ),7:36.0
+41,fg_miss,,,10.0,13.0,,sarral01,2.0,layup,1.0,,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,7:31.0 sarral01 misses 2-pt layup from 1 ft (block by edeyza01 ) 10-13,7:31.0
+42,rebound,,,10.0,13.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:31.0 Offensive rebound by Team 10-13,7:31.0
+43,substitution,,,10.0,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:31.0 georgky01 enters the game for sarral01 10-13,7:31.0
+44,substitution,,,10.0,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:31.0 10-13 laravja01 enters the game for jacksja02,7:31.0
+45,fg_make,,,12.0,13.0,2.0,valanjo01,2.0,jump shot,11.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,7:21.0 valanjo01 makes 2-pt jump shot from 11 ft (assist by carrica01 ) +2 12-13,7:21.0
+46,turnover,,,12.0,13.0,,,,,,,,,,,,,,,,,wellsja01,bad pass; steal by carrica01,carrica01,,,,,,,,,,,,,7:05.0 12-13 Turnover by wellsja01 (bad pass; steal by carrica01 ),7:05.0
+47,fg_miss,,,12.0,13.0,,georgky01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 georgky01 misses 3-pt jump shot from 26 ft 12-13,7:01.0
+48,rebound,,,12.0,13.0,,,,,,,,,,,offensive,coulibi01,False,,,,,,,,,,,,,,,,,,,6:57.0 Offensive rebound by coulibi01 12-13,6:57.0
+49,fg_miss,,,12.0,13.0,,poolejo01,2.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:48.0 poolejo01 misses 2-pt jump shot from 22 ft 12-13,6:48.0
+50,rebound,,,12.0,13.0,,,,,,,,,,,defensive,kennalu01,False,,,,,,,,,,,,,,,,,,,6:44.0 12-13 Defensive rebound by kennalu01,6:44.0
+51,turnover,,,12.0,13.0,,,,,,,,,,,,,,,,,edeyza01,bad pass; steal by valanjo01,valanjo01,,,,,,,,,,,,,6:34.0 12-13 Turnover by edeyza01 (bad pass; steal by valanjo01 ),6:34.0
+52,turnover,,,12.0,13.0,,,,,,,,,,,,,,,,,poolejo01,palming,,,,,,,,,,,,,,6:15.0 Turnover by poolejo01 (palming) 12-13,6:15.0
+53,timeout,,,12.0,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,6:15.0 12-13 Memphis full timeout,6:15.0
+54,substitution,,,12.0,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:15.0 kispeco01 enters the game for carrica01 12-13,6:15.0
+55,fg_make,,,12.0,15.0,2.0,laravja01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:03.0 12-15 +2 laravja01 makes 2-pt jump shot from 4 ft,6:03.0
+56,foul,,,12.0,15.0,,,,,,,,,,,,,,shooting,kispeco01,laravja01,,,,,,,,,,,,,,,,6:03.0 12-15 Shooting foul by kispeco01 (drawn by laravja01 ),6:03.0
+57,free_throw,,,12.0,16.0,1.0,laravja01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:03.0 12-16 +1 laravja01 makes free throw 1 of 1,6:03.0
+58,fg_miss,,,12.0,16.0,,poolejo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:46.0 poolejo01 misses 2-pt layup from 2 ft 12-16,5:46.0
+59,rebound,,,12.0,16.0,,,,,,,,,,,offensive,valanjo01,False,,,,,,,,,,,,,,,,,,,5:45.0 Offensive rebound by valanjo01 12-16,5:45.0
+60,fg_miss,,,12.0,16.0,,valanjo01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 valanjo01 misses 2-pt layup from 1 ft 12-16,5:45.0
+61,rebound,,,12.0,16.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,5:44.0 12-16 Defensive rebound by edeyza01,5:44.0
+62,fg_make,,,12.0,18.0,2.0,aldamsa01,2.0,dunk,,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 12-18 +2 aldamsa01 makes 2-pt dunk at rim (assist by kennalu01 ),5:42.0
+63,fg_make,,,14.0,18.0,2.0,valanjo01,2.0,dunk,1.0,kispeco01,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 valanjo01 makes 2-pt dunk from 1 ft (assist by kispeco01 ) +2 14-18,5:31.0
+64,fg_miss,,,14.0,18.0,,wellsja01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:17.0 14-18 wellsja01 misses 3-pt jump shot from 25 ft,5:17.0
+65,rebound,,,14.0,18.0,,,,,,,,,,,offensive,kennalu01,False,,,,,,,,,,,,,,,,,,,5:14.0 14-18 Offensive rebound by kennalu01,5:14.0
+66,fg_make,,,14.0,21.0,3.0,laravja01,3.0,jump shot,25.0,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,5:11.0 14-21 +3 laravja01 makes 3-pt jump shot from 25 ft (assist by kennalu01 ),5:11.0
+67,foul,,,14.0,21.0,,,,,,,,,,,,,,personal,valanjo01,edeyza01,,,,,,,,,,,,,,,,5:11.0 14-21 Personal foul by valanjo01 (drawn by edeyza01 ),5:11.0
+68,free_throw,,,14.0,22.0,1.0,edeyza01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,5:11.0 14-22 +1 edeyza01 makes free throw 1 of 1,5:11.0
+69,fg_miss,,,14.0,22.0,,valanjo01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:53.0 valanjo01 misses 2-pt jump shot from 5 ft 14-22,4:53.0
+70,rebound,,,14.0,22.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,4:49.0 14-22 Defensive rebound by edeyza01,4:49.0
+71,fg_make,,,14.0,24.0,2.0,aldamsa01,2.0,dunk,,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,4:46.0 14-24 +2 aldamsa01 makes 2-pt dunk at rim (assist by kennalu01 ),4:46.0
+72,timeout,,,14.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,4:45.0 Washington full timeout 14-24,4:45.0
+73,fg_miss,,,14.0,24.0,,coulibi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:22.0 coulibi01 misses 3-pt jump shot from 25 ft 14-24,4:22.0
+74,rebound,,,14.0,24.0,,,,,,,,,,,defensive,laravja01,False,,,,,,,,,,,,,,,,,,,4:19.0 14-24 Defensive rebound by laravja01,4:19.0
+75,fg_make,,,14.0,26.0,2.0,wellsja01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:02.0 14-26 +2 wellsja01 makes 2-pt layup from 3 ft,4:02.0
+76,fg_make,,,16.0,26.0,2.0,coulibi01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:43.0 coulibi01 makes 2-pt jump shot from 9 ft +2 16-26,3:43.0
+77,fg_make,,,16.0,28.0,2.0,edeyza01,2.0,hook shot,10.0,laravja01,,,,,,,,,,,,,,,,,,,,,,,,,,3:20.0 16-28 +2 edeyza01 makes 2-pt hook shot from 10 ft (assist by laravja01 ),3:20.0
+78,turnover,,,16.0,28.0,,,,,,,,,,,,,,,,,poolejo01,bad pass; steal by wellsja01,wellsja01,,,,,,,,,,,,,3:08.0 Turnover by poolejo01 (bad pass; steal by wellsja01 ) 16-28,3:08.0
+79,fg_make,,,16.0,31.0,3.0,laravja01,3.0,jump shot,25.0,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,,2:52.0 16-31 +3 laravja01 makes 3-pt jump shot from 25 ft (assist by edeyza01 ),2:52.0
+80,fg_miss,,,16.0,31.0,,valanjo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:36.0 valanjo01 misses 3-pt jump shot from 26 ft 16-31,2:36.0
+81,rebound,,,16.0,31.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,2:34.0 16-31 Defensive rebound by edeyza01,2:34.0
+82,fg_make,,,16.0,34.0,3.0,edeyza01,3.0,jump shot,25.0,laravja01,,,,,,,,,,,,,,,,,,,,,,,,,,2:27.0 16-34 +3 edeyza01 makes 3-pt jump shot from 25 ft (assist by laravja01 ),2:27.0
+83,timeout,,,16.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,2:25.0 Washington full timeout 16-34,2:25.0
+84,substitution,,,16.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 carrica01 enters the game for poolejo01 16-34,2:25.0
+85,substitution,,,16.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 sarral01 enters the game for valanjo01 16-34,2:25.0
+86,substitution,,,16.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 16-34 huffja01 enters the game for aldamsa01,2:25.0
+87,substitution,,,16.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 16-34 jacksja02 enters the game for edeyza01,2:25.0
+88,substitution,,,16.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 16-34 pippesc02 enters the game for wellsja01,2:25.0
+89,fg_make,,,19.0,34.0,3.0,georgky01,3.0,jump shot,26.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,2:12.0 georgky01 makes 3-pt jump shot from 26 ft (assist by coulibi01 ) +3 19-34,2:12.0
+90,fg_miss,,,19.0,34.0,,huffja01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 19-34 huffja01 misses 3-pt jump shot from 24 ft,1:59.0
+91,rebound,,,19.0,34.0,,,,,,,,,,,offensive,laravja01,False,,,,,,,,,,,,,,,,,,,1:55.0 19-34 Offensive rebound by laravja01,1:55.0
+92,turnover,,,19.0,34.0,,,,,,,,,,,,,,,,,pippesc02,bad pass; steal by coulibi01,coulibi01,,,,,,,,,,,,,1:49.0 19-34 Turnover by pippesc02 (bad pass; steal by coulibi01 ),1:49.0
+93,fg_miss,,,19.0,34.0,,carrica01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:45.0 carrica01 misses 3-pt jump shot from 25 ft 19-34,1:45.0
+94,rebound,,,19.0,34.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,1:42.0 19-34 Defensive rebound by pippesc02,1:42.0
+95,fg_miss,,,19.0,34.0,,huffja01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:28.0 19-34 huffja01 misses 3-pt jump shot from 23 ft,1:28.0
+96,rebound,,,19.0,34.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,1:24.0 Defensive rebound by coulibi01 19-34,1:24.0
+97,fg_miss,,,19.0,34.0,,sarral01,2.0,dunk,2.0,,huffja01,,,,,,,,,,,,,,,,,,,,,,,,,1:11.0 sarral01 misses 2-pt dunk from 2 ft (block by huffja01 ) 19-34,1:11.0
+98,rebound,,,19.0,34.0,,,,,,,,,,,defensive,huffja01,False,,,,,,,,,,,,,,,,,,,1:08.0 19-34 Defensive rebound by huffja01,1:08.0
+99,fg_miss,,,19.0,34.0,,laravja01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:04.0 19-34 laravja01 misses 3-pt jump shot from 23 ft,1:04.0
+100,rebound,,,19.0,34.0,,,,,,,,,,,offensive,huffja01,False,,,,,,,,,,,,,,,,,,,1:01.0 19-34 Offensive rebound by huffja01,1:01.0
+101,fg_miss,,,19.0,34.0,,pippesc02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:59.0 19-34 pippesc02 misses 3-pt jump shot from 25 ft,0:59.0
+102,rebound,,,19.0,34.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,0:57.0 Defensive rebound by carrica01 19-34,0:57.0
+103,fg_make,,,22.0,34.0,3.0,georgky01,3.0,jump shot,25.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,0:44.0 georgky01 makes 3-pt jump shot from 25 ft (assist by carrica01 ) +3 22-34,0:44.0
+104,fg_miss,,,22.0,34.0,,kennalu01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:33.0 22-34 kennalu01 misses 3-pt jump shot from 25 ft,0:33.0
+105,rebound,,,22.0,34.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,0:30.0 Defensive rebound by sarral01 22-34,0:30.0
+106,turnover,,,22.0,34.0,,,,,,,,,,,,,,,,,sarral01,bad pass; steal by laravja01,laravja01,,,,,,,,,,,,,0:22.0 Turnover by sarral01 (bad pass; steal by laravja01 ) 22-34,0:22.0
+107,foul,,,22.0,34.0,,,,,,,,,,,,,,personal,georgky01,jacksja02,,,,,,,,,,,,,,,,0:05.0 22-34 Personal foul by georgky01 (drawn by jacksja02 ),0:05.0
+108,turnover,,,22.0,34.0,,,,,,,,,,,,,,,,,laravja01,bad pass; steal by sarral01,sarral01,,,,,,,,,,,,,0:04.0 22-34 Turnover by laravja01 (bad pass; steal by sarral01 ),0:04.0
+109,fg_make,,,24.0,34.0,2.0,coulibi01,2.0,dunk,1.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 coulibi01 makes 2-pt dunk from 1 ft (assist by carrica01 ) +2 24-34,0:00.0
+110,fg_miss,,,24.0,34.0,,laravja01,3.0,jump shot,58.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 24-34 laravja01 misses 3-pt jump shot from 58 ft,0:00.0
+111,rebound,,,24.0,34.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 24-34 Offensive rebound by Team,0:00.0
+112,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter,0:00.0
+113,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter,12:00.0
+114,turnover,,,24.0,34.0,,,,,,,,,,,,,,,,,kispeco01,bad pass; steal by clarkbr01,clarkbr01,,,,,,,,,,,,,11:41.0 Turnover by kispeco01 (bad pass; steal by clarkbr01 ) 24-34,11:41.0
+115,turnover,,,24.0,34.0,,,,,,,,,,,,,,,,,jacksja02,bad pass; steal by carrica01,carrica01,,,,,,,,,,,,,11:22.0 24-34 Turnover by jacksja02 (bad pass; steal by carrica01 ),11:22.0
+116,turnover,,,24.0,34.0,,,,,,,,,,,,,,,,,carrica01,lost ball; steal by pippesc02,pippesc02,,,,,,,,,,,,,11:13.0 Turnover by carrica01 (lost ball; steal by pippesc02 ) 24-34,11:13.0
+117,foul,,,24.0,34.0,,,,,,,,,,,,,,personal,carrica01,konchjo01,,,,,,,,,,,,,,,,11:04.0 24-34 Personal foul by carrica01 (drawn by konchjo01 ),11:04.0
+118,fg_miss,,,24.0,34.0,,laravja01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:58.0 24-34 laravja01 misses 2-pt jump shot from 4 ft,10:58.0
+119,rebound,,,24.0,34.0,,,,,,,,,,,defensive,kispeco01,False,,,,,,,,,,,,,,,,,,,10:55.0 Defensive rebound by kispeco01 24-34,10:55.0
+120,fg_miss,,,24.0,34.0,,kispeco01,2.0,layup,2.0,,konchjo01,,,,,,,,,,,,,,,,,,,,,,,,,10:49.0 kispeco01 misses 2-pt layup from 2 ft (block by konchjo01 ) 24-34,10:49.0
+121,rebound,,,24.0,34.0,,,,,,,,,,,defensive,laravja01,False,,,,,,,,,,,,,,,,,,,10:44.0 24-34 Defensive rebound by laravja01,10:44.0
+122,fg_miss,,,24.0,34.0,,jacksja02,2.0,layup,1.0,,georgky01,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 24-34 jacksja02 misses 2-pt layup from 1 ft (block by georgky01 ),10:41.0
+123,rebound,,,24.0,34.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:41.0 24-34 Offensive rebound by Team,10:41.0
+124,substitution,,,24.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 24-34 aldamsa01 enters the game for laravja01,10:41.0
+125,fg_miss,,,24.0,34.0,,jacksja02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:35.0 24-34 jacksja02 misses 3-pt jump shot from 25 ft,10:35.0
+126,rebound,,,24.0,34.0,,,,,,,,,,,offensive,konchjo01,False,,,,,,,,,,,,,,,,,,,10:34.0 24-34 Offensive rebound by konchjo01,10:34.0
+127,fg_make,,,24.0,36.0,2.0,aldamsa01,2.0,jump shot,7.0,konchjo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:31.0 24-36 +2 aldamsa01 makes 2-pt jump shot from 7 ft (assist by konchjo01 ),10:31.0
+128,fg_miss,,,24.0,36.0,,georgky01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:14.0 georgky01 misses 3-pt jump shot from 26 ft 24-36,10:14.0
+129,rebound,,,24.0,36.0,,,,,,,,,,,offensive,carrica01,False,,,,,,,,,,,,,,,,,,,10:11.0 Offensive rebound by carrica01 24-36,10:11.0
+130,fg_miss,,,24.0,36.0,,kispeco01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 kispeco01 misses 3-pt jump shot from 23 ft 24-36,10:08.0
+131,rebound,,,24.0,36.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,10:05.0 24-36 Defensive rebound by pippesc02,10:05.0
+132,fg_make,,,24.0,38.0,2.0,jacksja02,2.0,dunk,1.0,aldamsa01,,,,,,,,,,,,,,,,,,,,,,,,,,9:55.0 24-38 +2 jacksja02 makes 2-pt dunk from 1 ft (assist by aldamsa01 ),9:55.0
+133,fg_miss,,,24.0,38.0,,carrica01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:40.0 carrica01 misses 2-pt jump shot from 10 ft 24-38,9:40.0
+134,rebound,,,24.0,38.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:40.0 Offensive rebound by Team 24-38,9:40.0
+135,foul,,,24.0,38.0,,,,,,,,,,,,,,loose ball,pippesc02,sarral01,,,,,,,,,,,,,,,,9:40.0 24-38 Loose ball foul by pippesc02 (drawn by sarral01 ),9:40.0
+136,turnover,,,24.0,38.0,,,,,,,,,,,,,,,,,georgky01,bad pass,,,,,,,,,,,,,,9:28.0 Turnover by georgky01 (bad pass) 24-38,9:28.0
+137,fg_miss,,,24.0,38.0,,jacksja02,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 24-38 jacksja02 misses 2-pt jump shot from 8 ft,9:21.0
+138,rebound,,,24.0,38.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,9:17.0 Defensive rebound by georgky01 24-38,9:17.0
+139,fg_make,,,26.0,38.0,2.0,carrica01,2.0,layup,2.0,georgky01,,,,,,,,,,,,,,,,,,,,,,,,,,9:13.0 carrica01 makes 2-pt layup from 2 ft (assist by georgky01 ) +2 26-38,9:13.0
+140,fg_make,,,26.0,40.0,2.0,clarkbr01,2.0,dunk,1.0,aldamsa01,,,,,,,,,,,,,,,,,,,,,,,,,,9:05.0 26-40 +2 clarkbr01 makes 2-pt dunk from 1 ft (assist by aldamsa01 ),9:05.0
+141,fg_make,,,29.0,40.0,3.0,davisjo06,3.0,jump shot,26.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,8:52.0 davisjo06 makes 3-pt jump shot from 26 ft (assist by sarral01 ) +3 29-40,8:52.0
+142,fg_miss,,,29.0,40.0,,jacksja02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:41.0 29-40 jacksja02 misses 3-pt jump shot from 25 ft,8:41.0
+143,rebound,,,29.0,40.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,8:38.0 Defensive rebound by carrica01 29-40,8:38.0
+144,turnover,,,29.0,40.0,,,,,,,,,,,,,,,,,sarral01,out of bounds lost ball,,,,,,,,,,,,,,8:35.0 Turnover by sarral01 (out of bounds lost ball) 29-40,8:35.0
+145,fg_make,,,29.0,42.0,2.0,pippesc02,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:16.0 29-42 +2 pippesc02 makes 2-pt layup from 1 ft,8:16.0
+146,fg_make,,,32.0,42.0,3.0,georgky01,3.0,jump shot,30.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,8:07.0 georgky01 makes 3-pt jump shot from 30 ft (assist by carrica01 ) +3 32-42,8:07.0
+147,fg_make,,,32.0,44.0,2.0,jacksja02,2.0,dunk,1.0,aldamsa01,,,,,,,,,,,,,,,,,,,,,,,,,,7:54.0 32-44 +2 jacksja02 makes 2-pt dunk from 1 ft (assist by aldamsa01 ),7:54.0
+148,fg_miss,,,32.0,44.0,,sarral01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:42.0 sarral01 misses 3-pt jump shot from 26 ft 32-44,7:42.0
+149,rebound,,,32.0,44.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:41.0 32-44 Defensive rebound by Team,7:41.0
+150,foul,,,32.0,44.0,,,,,,,,,,,,,,loose ball,davisjo06,clarkbr01,,,,,,,,,,,,,,,,7:41.0 Loose ball foul by davisjo06 (drawn by clarkbr01 ) 32-44,7:41.0
+151,substitution,,,32.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:41.0 valanjo01 enters the game for sarral01 32-44,7:41.0
+152,substitution,,,32.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:41.0 32-44 edeyza01 enters the game for clarkbr01,7:41.0
+153,fg_make,,,32.0,46.0,2.0,jacksja02,2.0,hook shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 32-46 +2 jacksja02 makes 2-pt hook shot from 10 ft,7:28.0
+154,fg_miss,,,32.0,46.0,,georgky01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 georgky01 misses 3-pt jump shot from 25 ft 32-46,7:20.0
+155,rebound,,,32.0,46.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,7:18.0 32-46 Defensive rebound by pippesc02,7:18.0
+156,fg_miss,,,32.0,46.0,,aldamsa01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:09.0 32-46 aldamsa01 misses 3-pt jump shot from 25 ft,7:09.0
+157,rebound,,,32.0,46.0,,,,,,,,,,,offensive,jacksja02,False,,,,,,,,,,,,,,,,,,,7:07.0 32-46 Offensive rebound by jacksja02,7:07.0
+158,foul,,,32.0,46.0,,,,,,,,,,,,,,shooting,davisjo06,jacksja02,,,,,,,,,,,,,,,,7:01.0 32-46 Shooting foul by davisjo06 (drawn by jacksja02 ),7:01.0
+159,free_throw,,,32.0,47.0,1.0,jacksja02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:01.0 32-47 +1 jacksja02 makes free throw 1 of 2,7:01.0
+160,substitution,,,32.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 coulibi01 enters the game for davisjo06 32-47,7:01.0
+161,substitution,,,32.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 poolejo01 enters the game for kispeco01 32-47,7:01.0
+162,free_throw,,,32.0,48.0,1.0,jacksja02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:01.0 32-48 +1 jacksja02 makes free throw 2 of 2,7:01.0
+163,fg_miss,,,32.0,48.0,,georgky01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:38.0 georgky01 misses 3-pt jump shot from 25 ft 32-48,6:38.0
+164,rebound,,,32.0,48.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,6:34.0 32-48 Defensive rebound by edeyza01,6:34.0
+165,turnover,,,32.0,48.0,,,,,,,,,,,,,,,,,pippesc02,bad pass; steal by valanjo01,valanjo01,,,,,,,,,,,,,6:27.0 32-48 Turnover by pippesc02 (bad pass; steal by valanjo01 ),6:27.0
+166,fg_make,,,34.0,48.0,2.0,poolejo01,2.0,layup,1.0,georgky01,,,,,,,,,,,,,,,,,,,,,,,,,,6:23.0 poolejo01 makes 2-pt layup from 1 ft (assist by georgky01 ) +2 34-48,6:23.0
+167,timeout,,,34.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,6:22.0 34-48 Memphis full timeout,6:22.0
+168,substitution,,,34.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:22.0 34-48 kennalu01 enters the game for jacksja02,6:22.0
+169,substitution,,,34.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:22.0 34-48 laravja01 enters the game for konchjo01,6:22.0
+170,substitution,,,34.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:22.0 34-48 wellsja01 enters the game for pippesc02,6:22.0
+171,foul,,,34.0,48.0,,,,,,,,,,,,,,personal,carrica01,wellsja01,,,,,,,,,,,,,,,,6:09.0 34-48 Personal foul by carrica01 (drawn by wellsja01 ),6:09.0
+172,fg_miss,,,34.0,48.0,,wellsja01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:55.0 34-48 wellsja01 misses 2-pt jump shot from 14 ft,5:55.0
+173,rebound,,,34.0,48.0,,,,,,,,,,,defensive,poolejo01,False,,,,,,,,,,,,,,,,,,,5:51.0 Defensive rebound by poolejo01 34-48,5:51.0
+174,fg_miss,,,34.0,48.0,,poolejo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 poolejo01 misses 2-pt layup from 2 ft 34-48,5:45.0
+175,rebound,,,34.0,48.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,5:42.0 34-48 Defensive rebound by edeyza01,5:42.0
+176,foul,,,34.0,48.0,,,,,,,,,,,,,,personal,poolejo01,wellsja01,,,,,,,,,,,,,,,,5:40.0 34-48 Personal foul by poolejo01 (drawn by wellsja01 ),5:40.0
+177,free_throw,,,34.0,49.0,1.0,wellsja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:40.0 34-49 +1 wellsja01 makes free throw 1 of 2,5:40.0
+178,free_throw,,,34.0,49.0,,wellsja01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:40.0 34-49 wellsja01 misses free throw 2 of 2,5:40.0
+179,rebound,,,34.0,49.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,5:36.0 Defensive rebound by coulibi01 34-49,5:36.0
+180,foul,,,34.0,49.0,,,,,,,,,,,,,,personal,wellsja01,poolejo01,,,,,,,,,,,,,,,,5:27.0 Personal foul by wellsja01 (drawn by poolejo01 ) 34-49,5:27.0
+181,fg_make,,,36.0,49.0,2.0,valanjo01,2.0,layup,2.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,5:15.0 valanjo01 makes 2-pt layup from 2 ft (assist by carrica01 ) +2 36-49,5:15.0
+182,fg_miss,,,36.0,49.0,,aldamsa01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:49.0 36-49 aldamsa01 misses 3-pt jump shot from 28 ft,4:49.0
+183,rebound,,,36.0,49.0,,,,,,,,,,,offensive,laravja01,False,,,,,,,,,,,,,,,,,,,4:46.0 36-49 Offensive rebound by laravja01,4:46.0
+184,turnover,,,36.0,49.0,,,,,,,,,,,,,,,,,laravja01,bad pass; steal by carrica01,carrica01,,,,,,,,,,,,,4:39.0 36-49 Turnover by laravja01 (bad pass; steal by carrica01 ),4:39.0
+185,foul,,,36.0,49.0,,,,,,,,,,,,,,shooting,edeyza01,coulibi01,,,,,,,,,,,,,,,,4:32.0 Shooting foul by edeyza01 (drawn by coulibi01 ) 36-49,4:32.0
+186,free_throw,,,37.0,49.0,1.0,coulibi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:32.0 coulibi01 makes free throw 1 of 2 +1 37-49,4:32.0
+187,free_throw,,,38.0,49.0,1.0,coulibi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:32.0 coulibi01 makes free throw 2 of 2 +1 38-49,4:32.0
+188,turnover,,,38.0,49.0,,,,,,,,,,,,,,,,,aldamsa01,bad pass,,,,,,,,,,,,,,4:15.0 38-49 Turnover by aldamsa01 (bad pass),4:15.0
+189,foul,,,38.0,49.0,,,,,,,,,,,,,,offensive,poolejo01,wellsja01,,,,,,,,,,,,,,,,4:08.0 Offensive foul by poolejo01 (drawn by wellsja01 ) 38-49,4:08.0
+190,turnover,,,38.0,49.0,,,,,,,,,,,,,,,,,poolejo01,offensive foul,,,,,,,,,,,,,,4:08.0 Turnover by poolejo01 (offensive foul) 38-49,4:08.0
+191,fg_make,,,38.0,52.0,3.0,kennalu01,3.0,jump shot,23.0,laravja01,,,,,,,,,,,,,,,,,,,,,,,,,,3:55.0 38-52 +3 kennalu01 makes 3-pt jump shot from 23 ft (assist by laravja01 ),3:55.0
+192,fg_make,,,41.0,52.0,3.0,poolejo01,3.0,jump shot,28.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,3:40.0 poolejo01 makes 3-pt jump shot from 28 ft (assist by coulibi01 ) +3 41-52,3:40.0
+193,fg_miss,,,41.0,52.0,,laravja01,2.0,layup,5.0,,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,3:27.0 41-52 laravja01 misses 2-pt layup from 5 ft (block by coulibi01 ),3:27.0
+194,rebound,,,41.0,52.0,,,,,,,,,,,offensive,laravja01,False,,,,,,,,,,,,,,,,,,,3:24.0 41-52 Offensive rebound by laravja01,3:24.0
+195,fg_make,,,41.0,55.0,3.0,wellsja01,3.0,jump shot,25.0,laravja01,,,,,,,,,,,,,,,,,,,,,,,,,,3:23.0 41-55 +3 wellsja01 makes 3-pt jump shot from 25 ft (assist by laravja01 ),3:23.0
+196,turnover,,,41.0,55.0,,,,,,,,,,,,,,,,,coulibi01,step out of bounds,,,,,,,,,,,,,,3:09.0 Turnover by coulibi01 (step out of bounds) 41-55,3:09.0
+197,substitution,,,41.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 sarral01 enters the game for valanjo01 41-55,3:09.0
+198,substitution,,,41.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 41-55 huffja01 enters the game for aldamsa01,3:09.0
+199,substitution,,,41.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 41-55 jacksja02 enters the game for edeyza01,3:09.0
+200,substitution,,,41.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 41-55 pippesc02 enters the game for kennalu01,3:09.0
+201,foul,,,41.0,55.0,,,,,,,,,,,,,,personal,sarral01,jacksja02,,,,,,,,,,,,,,,,2:57.0 41-55 Personal foul by sarral01 (drawn by jacksja02 ),2:57.0
+202,timeout,,,41.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,2:57.0 Washington full timeout 41-55,2:57.0
+203,substitution,,,41.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:57.0 kispeco01 enters the game for poolejo01 41-55,2:57.0
+204,free_throw,,,41.0,56.0,1.0,jacksja02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:57.0 41-56 +1 jacksja02 makes free throw 1 of 2,2:57.0
+205,free_throw,,,41.0,56.0,,jacksja02,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:57.0 41-56 jacksja02 misses free throw 2 of 2,2:57.0
+206,rebound,,,41.0,56.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,2:54.0 Defensive rebound by georgky01 41-56,2:54.0
+207,fg_miss,,,41.0,56.0,,sarral01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 sarral01 misses 2-pt jump shot from 8 ft 41-56,2:39.0
+208,rebound,,,41.0,56.0,,,,,,,,,,,defensive,huffja01,False,,,,,,,,,,,,,,,,,,,2:37.0 41-56 Defensive rebound by huffja01,2:37.0
+209,fg_make,,,41.0,58.0,2.0,huffja01,2.0,layup,2.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,2:34.0 41-58 +2 huffja01 makes 2-pt layup from 2 ft (assist by pippesc02 ),2:34.0
+210,foul,,,41.0,58.0,,,,,,,,,,,,,,shooting,coulibi01,huffja01,,,,,,,,,,,,,,,,2:34.0 41-58 Shooting foul by coulibi01 (drawn by huffja01 ),2:34.0
+211,free_throw,,,41.0,59.0,1.0,huffja01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,2:34.0 41-59 +1 huffja01 makes free throw 1 of 1,2:34.0
+212,foul,,,41.0,59.0,,,,,,,,,,,,,,offensive,sarral01,pippesc02,,,,,,,,,,,,,,,,2:23.0 Offensive foul by sarral01 (drawn by pippesc02 ) 41-59,2:23.0
+213,turnover,,,41.0,59.0,,,,,,,,,,,,,,,,,sarral01,offensive foul,,,,,,,,,,,,,,2:23.0 Turnover by sarral01 (offensive foul) 41-59,2:23.0
+214,substitution,,,41.0,59.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:23.0 valanjo01 enters the game for sarral01 41-59,2:23.0
+215,fg_make,,,41.0,62.0,3.0,jacksja02,3.0,jump shot,26.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,2:08.0 41-62 +3 jacksja02 makes 3-pt jump shot from 26 ft (assist by pippesc02 ),2:08.0
+216,fg_miss,,,41.0,62.0,,georgky01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:51.0 georgky01 misses 3-pt jump shot from 28 ft 41-62,1:51.0
+217,rebound,,,41.0,62.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,1:49.0 41-62 Defensive rebound by jacksja02,1:49.0
+218,foul,,,41.0,62.0,,,,,,,,,,,,,,personal,georgky01,huffja01,,,,,,,,,,,,,,,,1:43.0 41-62 Personal foul by georgky01 (drawn by huffja01 ),1:43.0
+219,free_throw,,,41.0,63.0,1.0,huffja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 41-63 +1 huffja01 makes free throw 1 of 2,1:43.0
+220,free_throw,,,41.0,64.0,1.0,huffja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 41-64 +1 huffja01 makes free throw 2 of 2,1:43.0
+221,foul,,,41.0,64.0,,,,,,,,,,,,,,shooting,wellsja01,kispeco01,,,,,,,,,,,,,,,,1:28.0 Shooting foul by wellsja01 (drawn by kispeco01 ) 41-64,1:28.0
+222,free_throw,,,42.0,64.0,1.0,kispeco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:28.0 kispeco01 makes free throw 1 of 2 +1 42-64,1:28.0
+223,free_throw,,,42.0,64.0,,kispeco01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:28.0 kispeco01 misses free throw 2 of 2 42-64,1:28.0
+224,rebound,,,42.0,64.0,,,,,,,,,,,offensive,valanjo01,False,,,,,,,,,,,,,,,,,,,1:22.0 Offensive rebound by valanjo01 42-64,1:22.0
+225,fg_make,,,44.0,64.0,2.0,valanjo01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 valanjo01 makes 2-pt layup at rim +2 44-64,1:22.0
+226,fg_miss,,,44.0,64.0,,jacksja02,2.0,hook shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:11.0 44-64 jacksja02 misses 2-pt hook shot from 8 ft,1:11.0
+227,rebound,,,44.0,64.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,1:11.0 Defensive rebound by Team 44-64,1:11.0
+228,foul,,,44.0,64.0,,,,,,,,,,,,,,loose ball,jacksja02,georgky01,,,,,,,,,,,,,,,,1:11.0 44-64 Loose ball foul by jacksja02 (drawn by georgky01 ),1:11.0
+229,free_throw,,,45.0,64.0,1.0,georgky01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:11.0 georgky01 makes free throw 1 of 2 +1 45-64,1:11.0
+230,free_throw,,,46.0,64.0,1.0,georgky01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:11.0 georgky01 makes free throw 2 of 2 +1 46-64,1:11.0
+231,fg_miss,,,46.0,64.0,,jacksja02,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:52.0 46-64 jacksja02 misses 2-pt jump shot from 4 ft,0:52.0
+232,rebound,,,46.0,64.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,0:50.0 Defensive rebound by georgky01 46-64,0:50.0
+233,turnover,,,46.0,64.0,,,,,,,,,,,,,,,,,carrica01,bad pass; steal by huffja01,huffja01,,,,,,,,,,,,,0:41.0 Turnover by carrica01 (bad pass; steal by huffja01 ) 46-64,0:41.0
+234,substitution,,,46.0,64.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 46-64 edeyza01 enters the game for jacksja02,0:41.0
+235,substitution,,,46.0,64.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 46-64 konchjo01 enters the game for pippesc02,0:41.0
+236,fg_make,,,46.0,66.0,2.0,wellsja01,2.0,jump shot,9.0,konchjo01,,,,,,,,,,,,,,,,,,,,,,,,,,0:34.0 46-66 +2 wellsja01 makes 2-pt jump shot from 9 ft (assist by konchjo01 ),0:34.0
+237,fg_make,,,49.0,66.0,3.0,carrica01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:22.0 carrica01 makes 3-pt jump shot from 25 ft +3 49-66,0:22.0
+238,fg_miss,,,49.0,66.0,,edeyza01,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 49-66 edeyza01 misses 2-pt hook shot from 7 ft,0:00.0
+239,rebound,,,49.0,66.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 49-66 Offensive rebound by Team,0:00.0
+240,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter,0:00.0
+241,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter,12:00.0
+242,violation,,,49.0,66.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,11:44.0 49-66 Violation by Team (kicked ball),11:44.0
+243,fg_miss,,,49.0,66.0,,coulibi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:35.0 coulibi01 misses 3-pt jump shot from 26 ft 49-66,11:35.0
+244,rebound,,,49.0,66.0,,,,,,,,,,,defensive,aldamsa01,False,,,,,,,,,,,,,,,,,,,11:31.0 49-66 Defensive rebound by aldamsa01,11:31.0
+245,fg_make,,,49.0,68.0,2.0,pippesc02,2.0,layup,,aldamsa01,,,,,,,,,,,,,,,,,,,,,,,,,,11:23.0 49-68 +2 pippesc02 makes 2-pt layup at rim (assist by aldamsa01 ),11:23.0
+246,fg_miss,,,49.0,68.0,,poolejo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:10.0 poolejo01 misses 3-pt jump shot from 25 ft 49-68,11:10.0
+247,rebound,,,49.0,68.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,11:08.0 49-68 Defensive rebound by pippesc02,11:08.0
+248,fg_miss,,,49.0,68.0,,pippesc02,2.0,jump shot,13.0,,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,10:45.0 49-68 pippesc02 misses 2-pt jump shot from 13 ft (block by coulibi01 ),10:45.0
+249,rebound,,,49.0,68.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:45.0 49-68 Offensive rebound by Team,10:45.0
+250,unknown,,,49.0,68.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),10:45.0 49-68 Turnover by Team (shot clock),10:45.0
+251,fg_miss,,,49.0,68.0,,carrica01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33.0 carrica01 misses 3-pt jump shot from 25 ft 49-68,10:33.0
+252,rebound,,,49.0,68.0,,,,,,,,,,,defensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,10:32.0 49-68 Defensive rebound by clarkbr01,10:32.0
+253,foul,,,49.0,68.0,,,,,,,,,,,,,,personal,poolejo01,wellsja01,,,,,,,,,,,,,,,,10:32.0 49-68 Personal foul by poolejo01 (drawn by wellsja01 ),10:32.0
+254,fg_miss,,,49.0,68.0,,jacksja02,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:22.0 49-68 jacksja02 misses 3-pt jump shot from 22 ft,10:22.0
+255,rebound,,,49.0,68.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,10:17.0 Defensive rebound by carrica01 49-68,10:17.0
+256,fg_miss,,,49.0,68.0,,sarral01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 sarral01 misses 3-pt jump shot from 23 ft 49-68,10:05.0
+257,rebound,,,49.0,68.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:04.0 Offensive rebound by Team 49-68,10:04.0
+258,fg_miss,,,49.0,68.0,,sarral01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:54.0 sarral01 misses 3-pt jump shot from 25 ft 49-68,9:54.0
+259,rebound,,,49.0,68.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,9:51.0 49-68 Defensive rebound by jacksja02,9:51.0
+260,fg_make,,,49.0,70.0,2.0,clarkbr01,2.0,jump shot,13.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,9:45.0 49-70 +2 clarkbr01 makes 2-pt jump shot from 13 ft (assist by pippesc02 ),9:45.0
+261,fg_miss,,,49.0,70.0,,coulibi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 coulibi01 misses 3-pt jump shot from 25 ft 49-70,9:36.0
+262,rebound,,,49.0,70.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,9:34.0 49-70 Defensive rebound by pippesc02,9:34.0
+263,foul,,,49.0,70.0,,,,,,,,,,,,,,shooting,coulibi01,aldamsa01,,,,,,,,,,,,,,,,9:26.0 49-70 Shooting foul by coulibi01 (drawn by aldamsa01 ),9:26.0
+264,free_throw,,,49.0,71.0,1.0,aldamsa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:26.0 49-71 +1 aldamsa01 makes free throw 1 of 2,9:26.0
+265,free_throw,,,49.0,72.0,1.0,aldamsa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:26.0 49-72 +1 aldamsa01 makes free throw 2 of 2,9:26.0
+266,fg_miss,,,49.0,72.0,,coulibi01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 coulibi01 misses 2-pt jump shot from 9 ft 49-72,9:10.0
+267,rebound,,,49.0,72.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,9:08.0 49-72 Defensive rebound by jacksja02,9:08.0
+268,foul,,,49.0,72.0,,,,,,,,,,,,,,personal,coulibi01,jacksja02,,,,,,,,,,,,,,,,9:06.0 49-72 Personal foul by coulibi01 (drawn by jacksja02 ),9:06.0
+269,fg_make,,,49.0,74.0,2.0,jacksja02,2.0,hook shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:56.0 49-74 +2 jacksja02 makes 2-pt hook shot from 9 ft,8:56.0
+270,fg_make,,,51.0,74.0,2.0,sarral01,2.0,jump shot,7.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,8:43.0 sarral01 makes 2-pt jump shot from 7 ft (assist by carrica01 ) +2 51-74,8:43.0
+271,fg_miss,,,51.0,74.0,,pippesc02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 51-74 pippesc02 misses 3-pt jump shot from 26 ft,8:34.0
+272,rebound,,,51.0,74.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,8:33.0 Defensive rebound by sarral01 51-74,8:33.0
+273,fg_miss,,,51.0,74.0,,carrica01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:16.0 carrica01 misses 2-pt layup from 1 ft 51-74,8:16.0
+274,rebound,,,51.0,74.0,,,,,,,,,,,defensive,aldamsa01,False,,,,,,,,,,,,,,,,,,,8:13.0 51-74 Defensive rebound by aldamsa01,8:13.0
+275,fg_miss,,,51.0,74.0,,wellsja01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:10.0 51-74 wellsja01 misses 3-pt jump shot from 25 ft,8:10.0
+276,rebound,,,51.0,74.0,,,,,,,,,,,offensive,aldamsa01,False,,,,,,,,,,,,,,,,,,,8:06.0 51-74 Offensive rebound by aldamsa01,8:06.0
+277,fg_miss,,,51.0,74.0,,wellsja01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 51-74 wellsja01 misses 2-pt dunk from 1 ft,8:04.0
+278,rebound,,,51.0,74.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:04.0 51-74 Offensive rebound by Team,8:04.0
+279,turnover,,,51.0,74.0,,,,,,,,,,,,,,,,,wellsja01,off goaltending,,,,,,,,,,,,,,8:04.0 51-74 Turnover by wellsja01 (off goaltending),8:04.0
+280,fg_make,,,53.0,74.0,2.0,coulibi01,2.0,layup,1.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,7:52.0 coulibi01 makes 2-pt layup from 1 ft (assist by sarral01 ) +2 53-74,7:52.0
+281,fg_make,,,53.0,77.0,3.0,jacksja02,3.0,jump shot,26.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 53-77 +3 jacksja02 makes 3-pt jump shot from 26 ft (assist by pippesc02 ),7:38.0
+282,fg_miss,,,53.0,77.0,,georgky01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 georgky01 misses 2-pt layup from 1 ft 53-77,7:16.0
+283,rebound,,,53.0,77.0,,,,,,,,,,,defensive,aldamsa01,False,,,,,,,,,,,,,,,,,,,7:12.0 53-77 Defensive rebound by aldamsa01,7:12.0
+284,fg_make,,,53.0,79.0,2.0,pippesc02,2.0,layup,1.0,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 53-79 +2 pippesc02 makes 2-pt layup from 1 ft (assist by jacksja02 ),6:56.0
+285,timeout,,,53.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,6:56.0 Washington full timeout 53-79,6:56.0
+286,substitution,,,53.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 kispeco01 enters the game for carrica01 53-79,6:56.0
+287,substitution,,,53.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 valanjo01 enters the game for sarral01 53-79,6:56.0
+288,substitution,,,53.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 53-79 edeyza01 enters the game for clarkbr01,6:56.0
+289,substitution,,,53.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 53-79 kennalu01 enters the game for jacksja02,6:56.0
+290,substitution,,,53.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 53-79 laravja01 enters the game for pippesc02,6:56.0
+291,fg_make,,,55.0,79.0,2.0,valanjo01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:35.0 valanjo01 makes 2-pt layup from 1 ft +2 55-79,6:35.0
+292,fg_miss,,,55.0,79.0,,wellsja01,2.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:21.0 55-79 wellsja01 misses 2-pt jump shot from 22 ft,6:21.0
+293,rebound,,,55.0,79.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,6:19.0 Defensive rebound by georgky01 55-79,6:19.0
+294,fg_miss,,,55.0,79.0,,poolejo01,2.0,layup,2.0,,wellsja01,,,,,,,,,,,,,,,,,,,,,,,,,6:15.0 poolejo01 misses 2-pt layup from 2 ft (block by wellsja01 ) 55-79,6:15.0
+295,rebound,,,55.0,79.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:15.0 Offensive rebound by Team 55-79,6:15.0
+296,fg_miss,,,55.0,79.0,,poolejo01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 poolejo01 misses 2-pt jump shot from 18 ft 55-79,6:09.0
+297,rebound,,,55.0,79.0,,,,,,,,,,,defensive,aldamsa01,False,,,,,,,,,,,,,,,,,,,6:07.0 55-79 Defensive rebound by aldamsa01,6:07.0
+298,fg_make,,,55.0,81.0,2.0,wellsja01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 55-81 +2 wellsja01 makes 2-pt jump shot from 6 ft,6:02.0
+299,foul,,,55.0,81.0,,,,,,,,,,,,,,shooting,georgky01,wellsja01,,,,,,,,,,,,,,,,6:02.0 55-81 Shooting foul by georgky01 (drawn by wellsja01 ),6:02.0
+300,free_throw,,,55.0,82.0,1.0,wellsja01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:02.0 55-82 +1 wellsja01 makes free throw 1 of 1,6:02.0
+301,fg_miss,,,55.0,82.0,,coulibi01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:39.0 coulibi01 misses 2-pt jump shot from 20 ft 55-82,5:39.0
+302,rebound,,,55.0,82.0,,,,,,,,,,,offensive,poolejo01,False,,,,,,,,,,,,,,,,,,,5:35.0 Offensive rebound by poolejo01 55-82,5:35.0
+303,fg_make,,,58.0,82.0,3.0,poolejo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 poolejo01 makes 3-pt jump shot from 25 ft +3 58-82,5:33.0
+304,turnover,,,58.0,82.0,,,,,,,,,,,,,,,,,kennalu01,lost ball; steal by coulibi01,coulibi01,,,,,,,,,,,,,5:13.0 58-82 Turnover by kennalu01 (lost ball; steal by coulibi01 ),5:13.0
+305,fg_make,,,60.0,82.0,2.0,georgky01,2.0,layup,1.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,5:07.0 georgky01 makes 2-pt layup from 1 ft (assist by coulibi01 ) +2 60-82,5:07.0
+306,fg_miss,,,60.0,82.0,,aldamsa01,2.0,layup,6.0,,valanjo01,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 60-82 aldamsa01 misses 2-pt layup from 6 ft (block by valanjo01 ),4:44.0
+307,rebound,,,60.0,82.0,,,,,,,,,,,defensive,valanjo01,False,,,,,,,,,,,,,,,,,,,4:41.0 Defensive rebound by valanjo01 60-82,4:41.0
+308,foul,,,60.0,82.0,,,,,,,,,,,,,,shooting,edeyza01,kispeco01,,,,,,,,,,,,,,,,4:39.0 Shooting foul by edeyza01 (drawn by kispeco01 ) 60-82,4:39.0
+309,free_throw,,,60.0,82.0,,kispeco01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:39.0 kispeco01 misses free throw 1 of 2 60-82,4:39.0
+310,rebound,,,60.0,82.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:39.0 Offensive rebound by Team 60-82,4:39.0
+311,substitution,,,60.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 davisjo06 enters the game for georgky01 60-82,4:39.0
+312,free_throw,,,61.0,82.0,1.0,kispeco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:39.0 kispeco01 makes free throw 2 of 2 +1 61-82,4:39.0
+313,fg_miss,,,61.0,82.0,,edeyza01,2.0,layup,6.0,,valanjo01,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 61-82 edeyza01 misses 2-pt layup from 6 ft (block by valanjo01 ),4:24.0
+314,rebound,,,61.0,82.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:23.0 61-82 Offensive rebound by Team,4:23.0
+315,foul,,,61.0,82.0,,,,,,,,,,,,,,offensive,kennalu01,poolejo01,,,,,,,,,,,,,,,,4:23.0 61-82 Offensive foul by kennalu01 (drawn by poolejo01 ),4:23.0
+316,turnover,,,61.0,82.0,,,,,,,,,,,,,,,,,kennalu01,offensive foul,,,,,,,,,,,,,,4:23.0 61-82 Turnover by kennalu01 (offensive foul),4:23.0
+317,turnover,,,61.0,82.0,,,,,,,,,,,,,,,,,poolejo01,bad pass,,,,,,,,,,,,,,4:11.0 Turnover by poolejo01 (bad pass) 61-82,4:11.0
+318,fg_miss,,,61.0,82.0,,aldamsa01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:01.0 61-82 aldamsa01 misses 2-pt layup from 2 ft,4:01.0
+319,rebound,,,61.0,82.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:00.0 61-82 Offensive rebound by Team,4:00.0
+320,substitution,,,61.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:00.0 61-82 huffja01 enters the game for aldamsa01,4:00.0
+321,fg_make,,,61.0,85.0,3.0,kennalu01,3.0,jump shot,25.0,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 61-85 +3 kennalu01 makes 3-pt jump shot from 25 ft (assist by edeyza01 ),3:53.0
+322,unknown,,,61.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by valanjo01,3:50.0 Technical foul by valanjo01 61-85,3:50.0
+323,unknown,,,61.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by edeyza01,3:50.0 61-85 Technical foul by edeyza01,3:50.0
+324,instant_replay,,,61.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 61-85 Instant Replay (Request: Ruling Stands),3:50.0
+325,fg_miss,,,61.0,85.0,,davisjo06,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:34.0 davisjo06 misses 2-pt layup from 3 ft 61-85,3:34.0
+326,rebound,,,61.0,85.0,,,,,,,,,,,offensive,valanjo01,False,,,,,,,,,,,,,,,,,,,3:32.0 Offensive rebound by valanjo01 61-85,3:32.0
+327,fg_make,,,63.0,85.0,2.0,valanjo01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:31.0 valanjo01 makes 2-pt layup from 1 ft +2 63-85,3:31.0
+328,fg_miss,,,63.0,85.0,,edeyza01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:23.0 63-85 edeyza01 misses 3-pt jump shot from 26 ft,3:23.0
+329,rebound,,,63.0,85.0,,,,,,,,,,,defensive,davisjo06,False,,,,,,,,,,,,,,,,,,,3:22.0 Defensive rebound by davisjo06 63-85,3:22.0
+330,foul,,,63.0,85.0,,,,,,,,,,,,,,personal,laravja01,davisjo06,,,,,,,,,,,,,,,,3:22.0 Personal foul by laravja01 (drawn by davisjo06 ) 63-85,3:22.0
+331,foul,,,63.0,85.0,,,,,,,,,,,,,,personal,wellsja01,poolejo01,,,,,,,,,,,,,,,,3:13.0 Personal foul by wellsja01 (drawn by poolejo01 ) 63-85,3:13.0
+332,foul,,,63.0,85.0,,,,,,,,,,,,,,shooting,laravja01,kispeco01,,,,,,,,,,,,,,,,3:06.0 Shooting foul by laravja01 (drawn by kispeco01 ) 63-85,3:06.0
+333,free_throw,,,64.0,85.0,1.0,kispeco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:06.0 kispeco01 makes free throw 1 of 2 +1 64-85,3:06.0
+334,substitution,,,64.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:06.0 carrica01 enters the game for poolejo01 64-85,3:06.0
+335,timeout,,,64.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,3:06.0 64-85 Memphis full timeout,3:06.0
+336,substitution,,,64.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:06.0 64-85 jacksja02 enters the game for edeyza01,3:06.0
+337,substitution,,,64.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:06.0 64-85 pippesc02 enters the game for wellsja01,3:06.0
+338,free_throw,,,65.0,85.0,1.0,kispeco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:06.0 kispeco01 makes free throw 2 of 2 +1 65-85,3:06.0
+339,fg_miss,,,65.0,85.0,,kennalu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:55.0 65-85 kennalu01 misses 3-pt jump shot from 26 ft,2:55.0
+340,rebound,,,65.0,85.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,2:52.0 Defensive rebound by carrica01 65-85,2:52.0
+341,fg_miss,,,65.0,85.0,,kispeco01,2.0,layup,3.0,,huffja01,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 kispeco01 misses 2-pt layup from 3 ft (block by huffja01 ) 65-85,2:45.0
+342,rebound,,,65.0,85.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,2:42.0 65-85 Defensive rebound by pippesc02,2:42.0
+343,fg_make,,,65.0,88.0,3.0,kennalu01,3.0,jump shot,24.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 65-88 +3 kennalu01 makes 3-pt jump shot from 24 ft (assist by pippesc02 ),2:39.0
+344,fg_miss,,,65.0,88.0,,valanjo01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 valanjo01 misses 2-pt hook shot from 6 ft 65-88,2:20.0
+345,rebound,,,65.0,88.0,,,,,,,,,,,defensive,kennalu01,False,,,,,,,,,,,,,,,,,,,2:17.0 65-88 Defensive rebound by kennalu01,2:17.0
+346,fg_miss,,,65.0,88.0,,jacksja02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:12.0 65-88 jacksja02 misses 3-pt jump shot from 28 ft,2:12.0
+347,rebound,,,65.0,88.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,2:08.0 Defensive rebound by carrica01 65-88,2:08.0
+348,foul,,,65.0,88.0,,,,,,,,,,,,,,offensive,coulibi01,pippesc02,,,,,,,,,,,,,,,,2:03.0 Offensive foul by coulibi01 (drawn by pippesc02 ) 65-88,2:03.0
+349,turnover,,,65.0,88.0,,,,,,,,,,,,,,,,,coulibi01,offensive foul,,,,,,,,,,,,,,2:03.0 Turnover by coulibi01 (offensive foul) 65-88,2:03.0
+350,substitution,,,65.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 65-88 konchjo01 enters the game for kennalu01,2:03.0
+351,timeout,,,65.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,2:03.0 Washington full timeout 65-88,2:03.0
+352,substitution,,,65.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 65-88 kennalu01 enters the game for konchjo01,2:03.0
+353,instant_replay,,,65.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 Instant Replay (Challenge: Ruling Stands) 65-88,2:03.0
+354,substitution,,,65.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 butleja02 enters the game for coulibi01 65-88,2:03.0
+355,substitution,,,65.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 65-88 konchjo01 enters the game for kennalu01,2:03.0
+356,fg_miss,,,65.0,88.0,,jacksja02,2.0,hook shot,2.0,,valanjo01,,,,,,,,,,,,,,,,,,,,,,,,,1:49.0 65-88 jacksja02 misses 2-pt hook shot from 2 ft (block by valanjo01 ),1:49.0
+357,rebound,,,65.0,88.0,,,,,,,,,,,defensive,butleja02,False,,,,,,,,,,,,,,,,,,,1:45.0 Defensive rebound by butleja02 65-88,1:45.0
+358,foul,,,65.0,88.0,,,,,,,,,,,,,,shooting,jacksja02,valanjo01,,,,,,,,,,,,,,,,1:40.0 Shooting foul by jacksja02 (drawn by valanjo01 ) 65-88,1:40.0
+359,free_throw,,,66.0,88.0,1.0,valanjo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:40.0 valanjo01 makes free throw 1 of 2 +1 66-88,1:40.0
+360,free_throw,,,67.0,88.0,1.0,valanjo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:40.0 valanjo01 makes free throw 2 of 2 +1 67-88,1:40.0
+361,fg_make,,,67.0,90.0,2.0,jacksja02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:21.0 67-90 +2 jacksja02 makes 2-pt jump shot from 10 ft,1:21.0
+362,foul,,,67.0,90.0,,,,,,,,,,,,,,shooting,valanjo01,jacksja02,,,,,,,,,,,,,,,,1:21.0 67-90 Shooting foul by valanjo01 (drawn by jacksja02 ),1:21.0
+363,free_throw,,,67.0,91.0,1.0,jacksja02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:21.0 67-91 +1 jacksja02 makes free throw 1 of 1,1:21.0
+364,fg_miss,,,67.0,91.0,,butleja02,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:10.0 butleja02 misses 2-pt jump shot from 9 ft 67-91,1:10.0
+365,rebound,,,67.0,91.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,1:07.0 67-91 Defensive rebound by pippesc02,1:07.0
+366,fg_miss,,,67.0,91.0,,konchjo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:03.0 67-91 konchjo01 misses 3-pt jump shot from 25 ft,1:03.0
+367,rebound,,,67.0,91.0,,,,,,,,,,,defensive,kispeco01,False,,,,,,,,,,,,,,,,,,,1:01.0 Defensive rebound by kispeco01 67-91,1:01.0
+368,fg_miss,,,67.0,91.0,,carrica01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:56.0 carrica01 misses 3-pt jump shot from 23 ft 67-91,0:56.0
+369,rebound,,,67.0,91.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,0:52.0 67-91 Defensive rebound by pippesc02,0:52.0
+370,foul,,,67.0,91.0,,,,,,,,,,,,,,personal,kispeco01,pippesc02,,,,,,,,,,,,,,,,0:52.0 67-91 Personal foul by kispeco01 (drawn by pippesc02 ),0:52.0
+371,free_throw,,,67.0,92.0,1.0,pippesc02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:52.0 67-92 +1 pippesc02 makes free throw 1 of 2,0:52.0
+372,free_throw,,,67.0,93.0,1.0,pippesc02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:52.0 67-93 +1 pippesc02 makes free throw 2 of 2,0:52.0
+373,fg_make,,,69.0,93.0,2.0,valanjo01,2.0,hook shot,6.0,butleja02,,,,,,,,,,,,,,,,,,,,,,,,,,0:36.0 valanjo01 makes 2-pt hook shot from 6 ft (assist by butleja02 ) +2 69-93,0:36.0
+374,fg_make,,,69.0,96.0,3.0,jacksja02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:18.0 69-96 +3 jacksja02 makes 3-pt jump shot from 26 ft,0:18.0
+375,fg_make,,,71.0,96.0,2.0,butleja02,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 butleja02 makes 2-pt jump shot from 11 ft +2 71-96,0:09.0
+376,foul,,,71.0,96.0,,,,,,,,,,,,,,shooting,kispeco01,huffja01,,,,,,,,,,,,,,,,0:02.0 71-96 Shooting foul by kispeco01 (drawn by huffja01 ),0:02.0
+377,free_throw,,,71.0,97.0,1.0,huffja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:02.0 71-97 +1 huffja01 makes free throw 1 of 2,0:02.0
+378,free_throw,,,71.0,98.0,1.0,huffja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:02.0 71-98 +1 huffja01 makes free throw 2 of 2,0:02.0
+379,fg_miss,,,71.0,98.0,,kispeco01,3.0,jump shot,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 kispeco01 misses 3-pt jump shot from 50 ft 71-98,0:00.0
+380,rebound,,,71.0,98.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 71-98,0:00.0
+381,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter,0:00.0
+382,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter,12:00.0
+383,fg_miss,,,71.0,98.0,,pippesc02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:36.0 71-98 pippesc02 misses 2-pt layup from 3 ft,11:36.0
+384,rebound,,,71.0,98.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,11:34.0 Defensive rebound by georgky01 71-98,11:34.0
+385,fg_miss,,,71.0,98.0,,butleja02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:25.0 butleja02 misses 3-pt jump shot from 23 ft 71-98,11:25.0
+386,rebound,,,71.0,98.0,,,,,,,,,,,defensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,11:22.0 71-98 Defensive rebound by clarkbr01,11:22.0
+387,turnover,,,71.0,98.0,,,,,,,,,,,,,,,,,jacksja02,bad pass; steal by georgky01,georgky01,,,,,,,,,,,,,11:15.0 71-98 Turnover by jacksja02 (bad pass; steal by georgky01 ),11:15.0
+388,fg_make,,,73.0,98.0,2.0,carrica01,2.0,dunk,,georgky01,,,,,,,,,,,,,,,,,,,,,,,,,,11:11.0 carrica01 makes 2-pt dunk at rim (assist by georgky01 ) +2 73-98,11:11.0
+389,foul,,,73.0,98.0,,,,,,,,,,,,,,away from play,butleja02,pippesc02,,,,,,,,,,,,,,,,11:07.0 73-98 Away from play foul by butleja02 (drawn by pippesc02 ),11:07.0
+390,free_throw,,,73.0,98.0,,pippesc02,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,11:07.0 73-98 pippesc02 misses free throw 1 of 1,11:07.0
+391,rebound,,,73.0,98.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:07.0 73-98 Offensive rebound by Team,11:07.0
+392,fg_make,,,73.0,100.0,2.0,jacksja02,2.0,hook shot,9.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,10:58.0 73-100 +2 jacksja02 makes 2-pt hook shot from 9 ft (assist by pippesc02 ),10:58.0
+393,foul,,,73.0,100.0,,,,,,,,,,,,,,shooting,pippesc02,kispeco01,,,,,,,,,,,,,,,,10:47.0 Shooting foul by pippesc02 (drawn by kispeco01 ) 73-100,10:47.0
+394,free_throw,,,74.0,100.0,1.0,kispeco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:47.0 kispeco01 makes free throw 1 of 2 +1 74-100,10:47.0
+395,free_throw,,,75.0,100.0,1.0,kispeco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:47.0 kispeco01 makes free throw 2 of 2 +1 75-100,10:47.0
+396,fg_miss,,,75.0,100.0,,aldamsa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:28.0 75-100 aldamsa01 misses 3-pt jump shot from 26 ft,10:28.0
+397,rebound,,,75.0,100.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,10:24.0 Defensive rebound by carrica01 75-100,10:24.0
+398,turnover,,,75.0,100.0,,,,,,,,,,,,,,,,,carrica01,lost ball; steal by konchjo01,konchjo01,,,,,,,,,,,,,10:21.0 Turnover by carrica01 (lost ball; steal by konchjo01 ) 75-100,10:21.0
+399,fg_miss,,,75.0,100.0,,jacksja02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:17.0 75-100 jacksja02 misses 3-pt jump shot from 26 ft,10:17.0
+400,rebound,,,75.0,100.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:17.0 Defensive rebound by Team 75-100,10:17.0
+401,foul,,,75.0,100.0,,,,,,,,,,,,,,loose ball,clarkbr01,carrica01,,,,,,,,,,,,,,,,10:17.0 75-100 Loose ball foul by clarkbr01 (drawn by carrica01 ),10:17.0
+402,fg_miss,,,75.0,100.0,,butleja02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:01.0 butleja02 misses 3-pt jump shot from 25 ft 75-100,10:01.0
+403,rebound,,,75.0,100.0,,,,,,,,,,,defensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,9:59.0 75-100 Defensive rebound by clarkbr01,9:59.0
+404,fg_miss,,,75.0,100.0,,jacksja02,2.0,layup,3.0,,georgky01,,,,,,,,,,,,,,,,,,,,,,,,,9:52.0 75-100 jacksja02 misses 2-pt layup from 3 ft (block by georgky01 ),9:52.0
+405,rebound,,,75.0,100.0,,,,,,,,,,,offensive,pippesc02,False,,,,,,,,,,,,,,,,,,,9:48.0 75-100 Offensive rebound by pippesc02,9:48.0
+406,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:48.0 Jump ball: jacksja02 vs. georgky01 ( pippesc02 gains possession),9:48.0
+407,fg_make,,,75.0,102.0,2.0,pippesc02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:46.0 75-102 +2 pippesc02 makes 2-pt layup from 3 ft,9:46.0
+408,foul,,,75.0,102.0,,,,,,,,,,,,,,shooting,carrica01,pippesc02,,,,,,,,,,,,,,,,9:46.0 75-102 Shooting foul by carrica01 (drawn by pippesc02 ),9:46.0
+409,free_throw,,,75.0,103.0,1.0,pippesc02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,9:46.0 75-103 +1 pippesc02 makes free throw 1 of 1,9:46.0
+410,fg_miss,,,75.0,103.0,,sarral01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:35.0 sarral01 misses 3-pt jump shot from 26 ft 75-103,9:35.0
+411,rebound,,,75.0,103.0,,,,,,,,,,,defensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,9:31.0 75-103 Defensive rebound by clarkbr01,9:31.0
+412,turnover,,,75.0,103.0,,,,,,,,,,,,,,,,,jacksja02,lost ball; steal by kispeco01,kispeco01,,,,,,,,,,,,,9:22.0 75-103 Turnover by jacksja02 (lost ball; steal by kispeco01 ),9:22.0
+413,unknown,,,75.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Flagrant foul type 1 by jacksja02 (drawn by carrica01 ),9:18.0 Flagrant foul type 1 by jacksja02 (drawn by carrica01 ) 75-103,9:18.0
+414,instant_replay,,,75.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:18.0 Instant Replay (Request: Ruling Stands) 75-103,9:18.0
+415,unknown,,,75.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,carrica01 misses flagrant free throw 1 of 2,9:18.0 carrica01 misses flagrant free throw 1 of 2 75-103,9:18.0
+416,rebound,,,75.0,103.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:18.0 Offensive rebound by Team 75-103,9:18.0
+417,unknown,,,76.0,103.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,carrica01 makes flagrant free throw 2 of 2,9:18.0 carrica01 makes flagrant free throw 2 of 2 +1 76-103,9:18.0
+418,fg_make,,,79.0,103.0,3.0,kispeco01,3.0,jump shot,25.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 kispeco01 makes 3-pt jump shot from 25 ft (assist by sarral01 ) +3 79-103,9:07.0
+419,fg_make,,,79.0,105.0,2.0,jacksja02,2.0,hook shot,7.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,8:45.0 79-105 +2 jacksja02 makes 2-pt hook shot from 7 ft (assist by pippesc02 ),8:45.0
+420,fg_miss,,,79.0,105.0,,sarral01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 sarral01 misses 3-pt jump shot from 25 ft 79-105,8:26.0
+421,rebound,,,79.0,105.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,8:24.0 79-105 Defensive rebound by jacksja02,8:24.0
+422,foul,,,79.0,105.0,,,,,,,,,,,,,,personal,butleja02,jacksja02,,,,,,,,,,,,,,,,8:21.0 79-105 Personal foul by butleja02 (drawn by jacksja02 ),8:21.0
+423,fg_miss,,,79.0,105.0,,jacksja02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:13.0 79-105 jacksja02 misses 3-pt jump shot from 27 ft,8:13.0
+424,rebound,,,79.0,105.0,,,,,,,,,,,offensive,konchjo01,False,,,,,,,,,,,,,,,,,,,8:09.0 79-105 Offensive rebound by konchjo01,8:09.0
+425,fg_make,,,79.0,108.0,3.0,jacksja02,3.0,jump shot,26.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,8:03.0 79-108 +3 jacksja02 makes 3-pt jump shot from 26 ft (assist by pippesc02 ),8:03.0
+426,fg_make,,,81.0,108.0,2.0,butleja02,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:48.0 butleja02 makes 2-pt layup from 2 ft +2 81-108,7:48.0
+427,fg_miss,,,81.0,108.0,,jacksja02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 81-108 jacksja02 misses 3-pt jump shot from 26 ft,7:38.0
+428,rebound,,,81.0,108.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,7:35.0 Defensive rebound by carrica01 81-108,7:35.0
+429,fg_make,,,83.0,108.0,2.0,georgky01,2.0,layup,1.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,7:30.0 georgky01 makes 2-pt layup from 1 ft (assist by carrica01 ) +2 83-108,7:30.0
+430,fg_make,,,83.0,110.0,2.0,aldamsa01,2.0,dunk,1.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,7:24.0 83-110 +2 aldamsa01 makes 2-pt dunk from 1 ft (assist by pippesc02 ),7:24.0
+431,fg_miss,,,83.0,110.0,,butleja02,2.0,jump shot,10.0,,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,7:09.0 butleja02 misses 2-pt jump shot from 10 ft (block by jacksja02 ) 83-110,7:09.0
+432,rebound,,,83.0,110.0,,,,,,,,,,,offensive,sarral01,False,,,,,,,,,,,,,,,,,,,7:06.0 Offensive rebound by sarral01 83-110,7:06.0
+433,turnover,,,83.0,110.0,,,,,,,,,,,,,,,,,sarral01,lost ball; steal by clarkbr01,clarkbr01,,,,,,,,,,,,,7:05.0 Turnover by sarral01 (lost ball; steal by clarkbr01 ) 83-110,7:05.0
+434,fg_miss,,,83.0,110.0,,konchjo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:59.0 83-110 konchjo01 misses 3-pt jump shot from 23 ft,6:59.0
+435,rebound,,,83.0,110.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,6:56.0 Defensive rebound by georgky01 83-110,6:56.0
+436,timeout,,,83.0,110.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,6:54.0 Washington full timeout 83-110,6:54.0
+437,substitution,,,83.0,110.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 coulibi01 enters the game for carrica01 83-110,6:54.0
+438,substitution,,,83.0,110.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 83-110 edeyza01 enters the game for clarkbr01,6:54.0
+439,substitution,,,83.0,110.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 83-110 kennalu01 enters the game for jacksja02,6:54.0
+440,substitution,,,83.0,110.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 83-110 laravja01 enters the game for pippesc02,6:54.0
+441,fg_make,,,85.0,110.0,2.0,kispeco01,2.0,layup,2.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,6:48.0 kispeco01 makes 2-pt layup from 2 ft (assist by sarral01 ) +2 85-110,6:48.0
+442,foul,,,85.0,110.0,,,,,,,,,,,,,,shooting,edeyza01,kispeco01,,,,,,,,,,,,,,,,6:48.0 Shooting foul by edeyza01 (drawn by kispeco01 ) 85-110,6:48.0
+443,free_throw,,,86.0,110.0,1.0,kispeco01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:48.0 kispeco01 makes free throw 1 of 1 +1 86-110,6:48.0
+444,fg_miss,,,86.0,110.0,,aldamsa01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:30.0 86-110 aldamsa01 misses 3-pt jump shot from 25 ft,6:30.0
+445,rebound,,,86.0,110.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:27.0 86-110 Offensive rebound by Team,6:27.0
+446,fg_miss,,,86.0,110.0,,aldamsa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:22.0 86-110 aldamsa01 misses 3-pt jump shot from 26 ft,6:22.0
+447,rebound,,,86.0,110.0,,,,,,,,,,,offensive,edeyza01,False,,,,,,,,,,,,,,,,,,,6:18.0 86-110 Offensive rebound by edeyza01,6:18.0
+448,fg_make,,,86.0,112.0,2.0,edeyza01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 86-112 +2 edeyza01 makes 2-pt dunk from 1 ft,6:18.0
+449,fg_make,,,88.0,112.0,2.0,georgky01,2.0,layup,2.0,butleja02,,,,,,,,,,,,,,,,,,,,,,,,,,6:04.0 georgky01 makes 2-pt layup from 2 ft (assist by butleja02 ) +2 88-112,6:04.0
+450,fg_make,,,88.0,114.0,2.0,kennalu01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:52.0 88-114 +2 kennalu01 makes 2-pt jump shot from 9 ft,5:52.0
+451,turnover,,,88.0,114.0,,,,,,,,,,,,,,,,,coulibi01,bad pass; steal by edeyza01,edeyza01,,,,,,,,,,,,,5:45.0 Turnover by coulibi01 (bad pass; steal by edeyza01 ) 88-114,5:45.0
+452,turnover,,,88.0,114.0,,,,,,,,,,,,,,,,,kennalu01,bad pass; steal by butleja02,butleja02,,,,,,,,,,,,,5:41.0 88-114 Turnover by kennalu01 (bad pass; steal by butleja02 ),5:41.0
+453,fg_make,,,90.0,114.0,2.0,kispeco01,2.0,layup,1.0,butleja02,,,,,,,,,,,,,,,,,,,,,,,,,,5:36.0 kispeco01 makes 2-pt layup from 1 ft (assist by butleja02 ) +2 90-114,5:36.0
+454,fg_miss,,,90.0,114.0,,kennalu01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 90-114 kennalu01 misses 2-pt jump shot from 13 ft,5:08.0
+455,rebound,,,90.0,114.0,,,,,,,,,,,defensive,butleja02,False,,,,,,,,,,,,,,,,,,,5:07.0 Defensive rebound by butleja02 90-114,5:07.0
+456,fg_miss,,,90.0,114.0,,butleja02,2.0,layup,2.0,,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,4:56.0 butleja02 misses 2-pt layup from 2 ft (block by edeyza01 ) 90-114,4:56.0
+457,rebound,,,90.0,114.0,,,,,,,,,,,offensive,sarral01,False,,,,,,,,,,,,,,,,,,,4:50.0 Offensive rebound by sarral01 90-114,4:50.0
+458,fg_make,,,92.0,114.0,2.0,sarral01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:50.0 sarral01 makes 2-pt dunk at rim +2 92-114,4:50.0
+459,fg_make,,,92.0,116.0,2.0,edeyza01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 92-116 +2 edeyza01 makes 2-pt layup from 1 ft,4:39.0
+460,foul,,,92.0,116.0,,,,,,,,,,,,,,shooting,sarral01,edeyza01,,,,,,,,,,,,,,,,4:39.0 92-116 Shooting foul by sarral01 (drawn by edeyza01 ),4:39.0
+461,substitution,,,92.0,116.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 92-116 huffja01 enters the game for aldamsa01,4:39.0
+462,substitution,,,92.0,116.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 92-116 kawamyu01 enters the game for kennalu01,4:39.0
+463,free_throw,,,92.0,117.0,1.0,edeyza01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:39.0 92-117 +1 edeyza01 makes free throw 1 of 1,4:39.0
+464,foul,,,92.0,117.0,,,,,,,,,,,,,,personal,kawamyu01,butleja02,,,,,,,,,,,,,,,,4:32.0 Personal foul by kawamyu01 (drawn by butleja02 ) 92-117,4:32.0
+465,free_throw,,,93.0,117.0,1.0,butleja02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:32.0 butleja02 makes free throw 1 of 2 +1 93-117,4:32.0
+466,substitution,,,93.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 baldwpa01 enters the game for coulibi01 93-117,4:32.0
+467,substitution,,,93.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 davisjo06 enters the game for georgky01 93-117,4:32.0
+468,substitution,,,93.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 gillan01 enters the game for kispeco01 93-117,4:32.0
+469,substitution,,,93.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 holmeri01 enters the game for sarral01 93-117,4:32.0
+470,free_throw,,,93.0,117.0,,butleja02,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:32.0 butleja02 misses free throw 2 of 2 93-117,4:32.0
+471,rebound,,,93.0,117.0,,,,,,,,,,,defensive,kawamyu01,False,,,,,,,,,,,,,,,,,,,4:29.0 93-117 Defensive rebound by kawamyu01,4:29.0
+472,turnover,,,93.0,117.0,,,,,,,,,,,,,,,,,kawamyu01,bad pass; steal by butleja02,butleja02,,,,,,,,,,,,,4:20.0 93-117 Turnover by kawamyu01 (bad pass; steal by butleja02 ),4:20.0
+473,fg_miss,,,93.0,117.0,,davisjo06,2.0,dunk,1.0,,huffja01,,,,,,,,,,,,,,,,,,,,,,,,,4:17.0 davisjo06 misses 2-pt dunk from 1 ft (block by huffja01 ) 93-117,4:17.0
+474,rebound,,,93.0,117.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:17.0 Offensive rebound by Team 93-117,4:17.0
+475,timeout,,,93.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,4:17.0 93-117 Memphis full timeout,4:17.0
+476,instant_replay,,,93.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:17.0 93-117 Instant Replay (Challenge: Ruling Stands),4:17.0
+477,fg_make,,,95.0,117.0,2.0,holmeri01,2.0,dunk,1.0,butleja02,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 holmeri01 makes 2-pt dunk from 1 ft (assist by butleja02 ) +2 95-117,4:13.0
+478,fg_make,,,95.0,120.0,3.0,huffja01,3.0,jump shot,26.0,laravja01,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 95-120 +3 huffja01 makes 3-pt jump shot from 26 ft (assist by laravja01 ),3:53.0
+479,fg_make,,,97.0,120.0,2.0,holmeri01,2.0,jump shot,8.0,butleja02,,,,,,,,,,,,,,,,,,,,,,,,,,3:39.0 holmeri01 makes 2-pt jump shot from 8 ft (assist by butleja02 ) +2 97-120,3:39.0
+480,fg_miss,,,97.0,120.0,,huffja01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 97-120 huffja01 misses 3-pt jump shot from 26 ft,3:28.0
+481,rebound,,,97.0,120.0,,,,,,,,,,,offensive,edeyza01,False,,,,,,,,,,,,,,,,,,,3:25.0 97-120 Offensive rebound by edeyza01,3:25.0
+482,turnover,,,97.0,120.0,,,,,,,,,,,,,,,,,edeyza01,lost ball; steal by gillan01,gillan01,,,,,,,,,,,,,3:23.0 97-120 Turnover by edeyza01 (lost ball; steal by gillan01 ),3:23.0
+483,fg_miss,,,97.0,120.0,,butleja02,2.0,jump shot,9.0,,konchjo01,,,,,,,,,,,,,,,,,,,,,,,,,3:16.0 butleja02 misses 2-pt jump shot from 9 ft (block by konchjo01 ) 97-120,3:16.0
+484,rebound,,,97.0,120.0,,,,,,,,,,,offensive,butleja02,False,,,,,,,,,,,,,,,,,,,3:11.0 Offensive rebound by butleja02 97-120,3:11.0
+485,fg_miss,,,97.0,120.0,,holmeri01,2.0,jump shot,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:04.0 holmeri01 misses 2-pt jump shot from 1 ft 97-120,3:04.0
+486,rebound,,,97.0,120.0,,,,,,,,,,,defensive,huffja01,False,,,,,,,,,,,,,,,,,,,3:01.0 97-120 Defensive rebound by huffja01,3:01.0
+487,fg_make,,,97.0,122.0,2.0,huffja01,2.0,dunk,1.0,kawamyu01,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 97-122 +2 huffja01 makes 2-pt dunk from 1 ft (assist by kawamyu01 ),2:42.0
+488,fg_make,,,100.0,122.0,3.0,gillan01,3.0,jump shot,25.0,butleja02,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 gillan01 makes 3-pt jump shot from 25 ft (assist by butleja02 ) +3 100-122,2:25.0
+489,substitution,,,100.0,122.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 100-122 castlco01 enters the game for laravja01,2:25.0
+490,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:05.0 Jump ball: edeyza01 vs. holmeri01 ( huffja01 gains possession),2:05.0
+491,fg_make,,,100.0,125.0,3.0,kawamyu01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:55.0 100-125 +3 kawamyu01 makes 3-pt jump shot from 27 ft,1:55.0
+492,fg_miss,,,100.0,125.0,,baldwpa01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 baldwpa01 misses 3-pt jump shot from 25 ft 100-125,1:50.0
+493,rebound,,,100.0,125.0,,,,,,,,,,,defensive,kawamyu01,False,,,,,,,,,,,,,,,,,,,1:47.0 100-125 Defensive rebound by kawamyu01,1:47.0
+494,fg_miss,,,100.0,125.0,,kawamyu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:44.0 100-125 kawamyu01 misses 3-pt jump shot from 26 ft,1:44.0
+495,rebound,,,100.0,125.0,,,,,,,,,,,defensive,holmeri01,False,,,,,,,,,,,,,,,,,,,1:40.0 Defensive rebound by holmeri01 100-125,1:40.0
+496,fg_make,,,102.0,125.0,2.0,gillan01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:34.0 gillan01 makes 2-pt jump shot from 9 ft +2 102-125,1:34.0
+497,fg_make,,,102.0,127.0,2.0,edeyza01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:17.0 102-127 +2 edeyza01 makes 2-pt hook shot from 6 ft,1:17.0
+498,foul,,,102.0,127.0,,,,,,,,,,,,,,shooting,holmeri01,edeyza01,,,,,,,,,,,,,,,,1:17.0 102-127 Shooting foul by holmeri01 (drawn by edeyza01 ),1:17.0
+499,free_throw,,,102.0,128.0,1.0,edeyza01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:17.0 102-128 +1 edeyza01 makes free throw 1 of 1,1:17.0
+500,fg_miss,,,102.0,128.0,,davisjo06,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:06.0 davisjo06 misses 2-pt jump shot from 11 ft 102-128,1:06.0
+501,rebound,,,102.0,128.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,1:02.0 102-128 Defensive rebound by edeyza01,1:02.0
+502,fg_miss,,,102.0,128.0,,kawamyu01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:56.0 102-128 kawamyu01 misses 2-pt layup from 3 ft,0:56.0
+503,rebound,,,102.0,128.0,,,,,,,,,,,defensive,gillan01,False,,,,,,,,,,,,,,,,,,,0:54.0 Defensive rebound by gillan01 102-128,0:54.0
+504,fg_miss,,,102.0,128.0,,holmeri01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 holmeri01 misses 3-pt jump shot from 23 ft 102-128,0:49.0
+505,rebound,,,102.0,128.0,,,,,,,,,,,offensive,davisjo06,False,,,,,,,,,,,,,,,,,,,0:46.0 Offensive rebound by davisjo06 102-128,0:46.0
+506,fg_miss,,,102.0,128.0,,davisjo06,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:39.0 davisjo06 misses 2-pt jump shot from 6 ft 102-128,0:39.0
+507,rebound,,,102.0,128.0,,,,,,,,,,,offensive,holmeri01,False,,,,,,,,,,,,,,,,,,,0:35.0 Offensive rebound by holmeri01 102-128,0:35.0
+508,fg_make,,,104.0,128.0,2.0,holmeri01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:35.0 holmeri01 makes 2-pt layup at rim +2 104-128,0:35.0
+509,unknown,,,104.0,128.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),0:14.0 104-128 Turnover by Team (shot clock),0:14.0
+510,fg_miss,,,104.0,128.0,,butleja02,2.0,jump shot,8.0,,huffja01,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 butleja02 misses 2-pt jump shot from 8 ft (block by huffja01 ) 104-128,0:00.0
+511,rebound,,,104.0,128.0,,,,,,,,,,,defensive,castlco01,False,,,,,,,,,,,,,,,,,,,0:00.0 104-128 Defensive rebound by castlco01,0:00.0
+512,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter,0:00.0

@@ -1,0 +1,444 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: missiyv01 vs. edeyza01 ( kennalu01 gains possession)
+2,fg_make,,,0.0,2.0,2.0,banede01,2.0,jump shot,21.0,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,,11:46.0 0-2 +2 banede01 makes 2-pt jump shot from 21 ft (assist by edeyza01 )
+3,fg_miss,,,0.0,2.0,,missiyv01,2.0,layup,4.0,,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,11:23.0 missiyv01 misses 2-pt layup from 4 ft (block by edeyza01 ) 0-2
+4,rebound,,,0.0,2.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,11:20.0 0-2 Defensive rebound by edeyza01
+5,fg_make,,,0.0,4.0,2.0,edeyza01,2.0,hook shot,5.0,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,11:09.0 0-4 +2 edeyza01 makes 2-pt hook shot from 5 ft (assist by jacksja02 )
+6,fg_make,,,2.0,4.0,2.0,mccolcj01,2.0,jump shot,19.0,murrade01,,,,,,,,,,,,,,,,,,,,,,,,,,10:54.0 mccolcj01 makes 2-pt jump shot from 19 ft (assist by murrade01 ) +2 2-4
+7,fg_make,,,2.0,6.0,2.0,jacksja02,2.0,hook shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:40.0 2-6 +2 jacksja02 makes 2-pt hook shot from 9 ft
+8,turnover,,,2.0,6.0,,,,,,,,,,,,,,,,,murrade01,bad pass; steal by wellsja01,wellsja01,,,,,,,,,,,,,10:19.0 Turnover by murrade01 (bad pass; steal by wellsja01 ) 2-6
+9,fg_make,,,2.0,9.0,3.0,kennalu01,3.0,jump shot,25.0,wellsja01,,,,,,,,,,,,,,,,,,,,,,,,,,10:15.0 2-9 +3 kennalu01 makes 3-pt jump shot from 25 ft (assist by wellsja01 )
+10,fg_make,,,5.0,9.0,3.0,mccolcj01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:04.0 mccolcj01 makes 3-pt jump shot from 24 ft +3 5-9
+11,fg_make,,,5.0,12.0,3.0,jacksja02,3.0,jump shot,23.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,9:42.0 5-12 +3 jacksja02 makes 3-pt jump shot from 23 ft (assist by banede01 )
+12,fg_miss,,,5.0,12.0,,mccolcj01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:27.0 mccolcj01 misses 2-pt jump shot from 14 ft 5-12
+13,rebound,,,5.0,12.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,9:25.0 5-12 Defensive rebound by edeyza01
+14,foul,,,5.0,12.0,,,,,,,,,,,,,,personal,murphtr02,kennalu01,,,,,,,,,,,,,,,,9:18.0 5-12 Personal foul by murphtr02 (drawn by kennalu01 )
+15,fg_make,,,5.0,14.0,2.0,kennalu01,2.0,jump shot,20.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,9:12.0 5-14 +2 kennalu01 makes 2-pt jump shot from 20 ft (assist by banede01 )
+16,fg_make,,,7.0,14.0,2.0,murrade01,2.0,jump shot,17.0,missiyv01,,,,,,,,,,,,,,,,,,,,,,,,,,8:52.0 murrade01 makes 2-pt jump shot from 17 ft (assist by missiyv01 ) +2 7-14
+17,fg_make,,,7.0,16.0,2.0,edeyza01,2.0,dunk,2.0,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,8:40.0 7-16 +2 edeyza01 makes 2-pt dunk from 2 ft (assist by jacksja02 )
+18,fg_make,,,9.0,16.0,2.0,murrade01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 murrade01 makes 2-pt jump shot from 13 ft +2 9-16
+19,fg_miss,,,9.0,16.0,,wellsja01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 9-16 wellsja01 misses 2-pt jump shot from 9 ft
+20,rebound,,,9.0,16.0,,,,,,,,,,,defensive,robinje02,False,,,,,,,,,,,,,,,,,,,8:05.0 Defensive rebound by robinje02 9-16
+21,foul,,,9.0,16.0,,,,,,,,,,,,,,shooting,jacksja02,murphtr02,,,,,,,,,,,,,,,,7:58.0 Shooting foul by jacksja02 (drawn by murphtr02 ) 9-16
+22,free_throw,,,9.0,16.0,,murphtr02,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:58.0 murphtr02 misses free throw 1 of 2 9-16
+23,rebound,,,9.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:58.0 Offensive rebound by Team 9-16
+24,substitution,,,9.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:58.0 9-16 jacksgg01 enters the game for jacksja02
+25,free_throw,,,10.0,16.0,1.0,murphtr02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:58.0 murphtr02 makes free throw 2 of 2 +1 10-16
+26,fg_miss,,,10.0,16.0,,banede01,3.0,jump shot,25.0,,mccolcj01,,,,,,,,,,,,,,,,,,,,,,,,,7:46.0 10-16 banede01 misses 3-pt jump shot from 25 ft (block by mccolcj01 )
+27,rebound,,,10.0,16.0,,,,,,,,,,,defensive,murphtr02,False,,,,,,,,,,,,,,,,,,,7:43.0 Defensive rebound by murphtr02 10-16
+28,foul,,,10.0,16.0,,,,,,,,,,,,,,shooting,edeyza01,murphtr02,,,,,,,,,,,,,,,,7:39.0 Shooting foul by edeyza01 (drawn by murphtr02 ) 10-16
+29,free_throw,,,10.0,16.0,,murphtr02,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:39.0 murphtr02 misses free throw 1 of 2 10-16
+30,rebound,,,10.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:39.0 Offensive rebound by Team 10-16
+31,free_throw,,,11.0,16.0,1.0,murphtr02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:39.0 murphtr02 makes free throw 2 of 2 +1 11-16
+32,fg_make,,,11.0,19.0,3.0,kennalu01,3.0,jump shot,26.0,wellsja01,,,,,,,,,,,,,,,,,,,,,,,,,,7:33.0 11-19 +3 kennalu01 makes 3-pt jump shot from 26 ft (assist by wellsja01 )
+33,timeout,,,11.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,New Orleans full,,,,7:31.0 New Orleans full timeout 11-19
+34,turnover,,,11.0,19.0,,,,,,,,,,,,,,,,,murrade01,bad pass,,,,,,,,,,,,,,7:16.0 Turnover by murrade01 (bad pass) 11-19
+35,fg_miss,,,11.0,19.0,,edeyza01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:57.0 11-19 edeyza01 misses 2-pt layup from 2 ft
+36,rebound,,,11.0,19.0,,,,,,,,,,,offensive,kennalu01,False,,,,,,,,,,,,,,,,,,,6:55.0 11-19 Offensive rebound by kennalu01
+37,fg_miss,,,11.0,19.0,,banede01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:48.0 11-19 banede01 misses 2-pt jump shot from 6 ft
+38,rebound,,,11.0,19.0,,,,,,,,,,,defensive,murrade01,False,,,,,,,,,,,,,,,,,,,6:45.0 Defensive rebound by murrade01 11-19
+39,fg_make,,,13.0,19.0,2.0,murrade01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:38.0 murrade01 makes 2-pt layup from 3 ft +2 13-19
+40,fg_miss,,,13.0,19.0,,edeyza01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:29.0 13-19 edeyza01 misses 3-pt jump shot from 26 ft
+41,rebound,,,13.0,19.0,,,,,,,,,,,offensive,jacksgg01,False,,,,,,,,,,,,,,,,,,,6:26.0 13-19 Offensive rebound by jacksgg01
+42,fg_make,,,13.0,22.0,3.0,wellsja01,3.0,jump shot,27.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,6:19.0 13-22 +3 wellsja01 makes 3-pt jump shot from 27 ft (assist by banede01 )
+43,fg_make,,,15.0,22.0,2.0,murrade01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:03.0 murrade01 makes 2-pt jump shot from 12 ft +2 15-22
+44,turnover,,,15.0,22.0,,,,,,,,,,,,,,,,,jacksgg01,bad pass,,,,,,,,,,,,,,5:50.0 15-22 Turnover by jacksgg01 (bad pass)
+45,substitution,,,15.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 greenja02 enters the game for robinje02 15-22
+46,substitution,,,15.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 15-22 clarkbr01 enters the game for edeyza01
+47,substitution,,,15.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 15-22 pippesc02 enters the game for kennalu01
+48,fg_make,,,17.0,22.0,2.0,murrade01,2.0,jump shot,11.0,missiyv01,,,,,,,,,,,,,,,,,,,,,,,,,,5:36.0 murrade01 makes 2-pt jump shot from 11 ft (assist by missiyv01 ) +2 17-22
+49,fg_miss,,,17.0,22.0,,banede01,2.0,layup,3.0,,missiyv01,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 17-22 banede01 misses 2-pt layup from 3 ft (block by missiyv01 )
+50,rebound,,,17.0,22.0,,,,,,,,,,,defensive,murphtr02,False,,,,,,,,,,,,,,,,,,,5:21.0 Defensive rebound by murphtr02 17-22
+51,fg_make,,,19.0,22.0,2.0,mccolcj01,2.0,jump shot,10.0,murphtr02,,,,,,,,,,,,,,,,,,,,,,,,,,5:17.0 mccolcj01 makes 2-pt jump shot from 10 ft (assist by murphtr02 ) +2 19-22
+52,fg_make,,,19.0,24.0,2.0,jacksgg01,2.0,layup,4.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 19-24 +2 jacksgg01 makes 2-pt layup from 4 ft (assist by banede01 )
+53,substitution,,,19.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 hawkijo01 enters the game for mccolcj01 19-24
+54,substitution,,,19.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 theisda01 enters the game for missiyv01 19-24
+55,fg_miss,,,19.0,24.0,,murrade01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:46.0 murrade01 misses 3-pt jump shot from 26 ft 19-24
+56,rebound,,,19.0,24.0,,,,,,,,,,,offensive,greenja02,False,,,,,,,,,,,,,,,,,,,4:42.0 Offensive rebound by greenja02 19-24
+57,fg_miss,,,19.0,24.0,,murphtr02,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:38.0 murphtr02 misses 2-pt jump shot from 13 ft 19-24
+58,rebound,,,19.0,24.0,,,,,,,,,,,defensive,jacksgg01,False,,,,,,,,,,,,,,,,,,,4:35.0 19-24 Defensive rebound by jacksgg01
+59,fg_make,,,19.0,26.0,2.0,clarkbr01,2.0,layup,3.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,4:27.0 19-26 +2 clarkbr01 makes 2-pt layup from 3 ft (assist by banede01 )
+60,fg_make,,,21.0,26.0,2.0,murrade01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:14.0 murrade01 makes 2-pt jump shot from 10 ft +2 21-26
+61,fg_make,,,21.0,28.0,2.0,jacksgg01,2.0,layup,5.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,4:07.0 21-28 +2 jacksgg01 makes 2-pt layup from 5 ft (assist by pippesc02 )
+62,foul,,,21.0,28.0,,,,,,,,,,,,,,shooting,greenja02,jacksgg01,,,,,,,,,,,,,,,,4:07.0 21-28 Shooting foul by greenja02 (drawn by jacksgg01 )
+63,substitution,,,21.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:07.0 21-28 jacksja02 enters the game for wellsja01
+64,free_throw,,,21.0,29.0,1.0,jacksgg01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:07.0 21-29 +1 jacksgg01 makes free throw 1 of 1
+65,fg_miss,,,21.0,29.0,,theisda01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:55.0 theisda01 misses 2-pt jump shot from 10 ft 21-29
+66,rebound,,,21.0,29.0,,,,,,,,,,,defensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,3:50.0 21-29 Defensive rebound by clarkbr01
+67,turnover,,,21.0,29.0,,,,,,,,,,,,,,,,,pippesc02,bad pass,,,,,,,,,,,,,,3:43.0 21-29 Turnover by pippesc02 (bad pass)
+68,fg_miss,,,21.0,29.0,,murphtr02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:34.0 murphtr02 misses 2-pt jump shot from 10 ft 21-29
+69,rebound,,,21.0,29.0,,,,,,,,,,,defensive,jacksgg01,False,,,,,,,,,,,,,,,,,,,3:30.0 21-29 Defensive rebound by jacksgg01
+70,fg_miss,,,21.0,29.0,,banede01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:27.0 21-29 banede01 misses 3-pt jump shot from 26 ft
+71,rebound,,,21.0,29.0,,,,,,,,,,,defensive,hawkijo01,False,,,,,,,,,,,,,,,,,,,3:22.0 Defensive rebound by hawkijo01 21-29
+72,fg_make,,,23.0,29.0,2.0,murrade01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:13.0 murrade01 makes 2-pt jump shot from 16 ft +2 23-29
+73,fg_miss,,,23.0,29.0,,jacksgg01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:59.0 23-29 jacksgg01 misses 3-pt jump shot from 23 ft
+74,rebound,,,23.0,29.0,,,,,,,,,,,defensive,theisda01,False,,,,,,,,,,,,,,,,,,,2:56.0 Defensive rebound by theisda01 23-29
+75,foul,,,23.0,29.0,,,,,,,,,,,,,,shooting,banede01,murrade01,,,,,,,,,,,,,,,,2:49.0 Shooting foul by banede01 (drawn by murrade01 ) 23-29
+76,timeout,,,23.0,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,2:49.0 23-29 Memphis full timeout
+77,free_throw,,,23.0,29.0,,murrade01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:49.0 murrade01 misses free throw 1 of 2 23-29
+78,rebound,,,23.0,29.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:49.0 Offensive rebound by Team 23-29
+79,free_throw,,,24.0,29.0,1.0,murrade01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:49.0 murrade01 makes free throw 2 of 2 +1 24-29
+80,fg_miss,,,24.0,29.0,,jacksgg01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:24.0 24-29 jacksgg01 misses 2-pt layup from 2 ft
+81,rebound,,,24.0,29.0,,,,,,,,,,,defensive,murrade01,False,,,,,,,,,,,,,,,,,,,2:22.0 Defensive rebound by murrade01 24-29
+82,fg_miss,,,24.0,29.0,,hawkijo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:09.0 hawkijo01 misses 3-pt jump shot from 27 ft 24-29
+83,rebound,,,24.0,29.0,,,,,,,,,,,defensive,pippesc02,False,,,,,,,,,,,,,,,,,,,2:06.0 24-29 Defensive rebound by pippesc02
+84,fg_make,,,24.0,31.0,2.0,pippesc02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:01.0 24-31 +2 pippesc02 makes 2-pt layup from 4 ft
+85,fg_miss,,,24.0,31.0,,murphtr02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:38.0 murphtr02 misses 3-pt jump shot from 26 ft 24-31
+86,rebound,,,24.0,31.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:34.0 Offensive rebound by Team 24-31
+87,substitution,,,24.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:34.0 mccolcj01 enters the game for murphtr02 24-31
+88,substitution,,,24.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:34.0 24-31 konchjo01 enters the game for jacksgg01
+89,fg_make,,,26.0,31.0,2.0,theisda01,2.0,jump shot,12.0,murrade01,,,,,,,,,,,,,,,,,,,,,,,,,,1:25.0 theisda01 makes 2-pt jump shot from 12 ft (assist by murrade01 ) +2 26-31
+90,fg_miss,,,26.0,31.0,,pippesc02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:10.0 26-31 pippesc02 misses 3-pt jump shot from 23 ft
+91,rebound,,,26.0,31.0,,,,,,,,,,,offensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,1:07.0 26-31 Offensive rebound by clarkbr01
+92,turnover,,,26.0,31.0,,,,,,,,,,,,,,,,,pippesc02,bad pass,,,,,,,,,,,,,,1:05.0 26-31 Turnover by pippesc02 (bad pass)
+93,substitution,,,26.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:05.0 26-31 huffja01 enters the game for banede01
+94,substitution,,,26.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:05.0 26-31 kennalu01 enters the game for clarkbr01
+95,fg_make,,,29.0,31.0,3.0,mccolcj01,3.0,jump shot,25.0,theisda01,,,,,,,,,,,,,,,,,,,,,,,,,,0:52.0 mccolcj01 makes 3-pt jump shot from 25 ft (assist by theisda01 ) +3 29-31
+96,foul,,,29.0,31.0,,,,,,,,,,,,,,shooting,mccolcj01,pippesc02,,,,,,,,,,,,,,,,0:39.0 29-31 Shooting foul by mccolcj01 (drawn by pippesc02 )
+97,free_throw,,,29.0,32.0,1.0,pippesc02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:39.0 29-32 +1 pippesc02 makes free throw 1 of 2
+98,free_throw,,,29.0,33.0,1.0,pippesc02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:39.0 29-33 +1 pippesc02 makes free throw 2 of 2
+99,fg_miss,,,29.0,33.0,,mccolcj01,2.0,layup,4.0,,huffja01,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 mccolcj01 misses 2-pt layup from 4 ft (block by huffja01 ) 29-33
+100,rebound,,,29.0,33.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,0:30.0 29-33 Defensive rebound by jacksja02
+101,fg_miss,,,29.0,33.0,,huffja01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:23.0 29-33 huffja01 misses 3-pt jump shot from 27 ft
+102,rebound,,,29.0,33.0,,,,,,,,,,,defensive,murrade01,False,,,,,,,,,,,,,,,,,,,0:19.0 Defensive rebound by murrade01 29-33
+103,fg_miss,,,29.0,33.0,,hawkijo01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 hawkijo01 misses 3-pt jump shot from 29 ft 29-33
+104,rebound,,,29.0,33.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 29-33
+105,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+106,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+107,fg_miss,,,29.0,33.0,,greenja02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:41.0 greenja02 misses 3-pt jump shot from 23 ft 29-33
+108,rebound,,,29.0,33.0,,,,,,,,,,,defensive,huffja01,False,,,,,,,,,,,,,,,,,,,11:37.0 29-33 Defensive rebound by huffja01
+109,turnover,,,29.0,33.0,,,,,,,,,,,,,,,,,huffja01,traveling,,,,,,,,,,,,,,11:32.0 29-33 Turnover by huffja01 (traveling)
+110,fg_make,,,31.0,33.0,2.0,missiyv01,2.0,dunk,1.0,alvarjo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:12.0 missiyv01 makes 2-pt dunk from 1 ft (assist by alvarjo01 ) +2 31-33
+111,fg_miss,,,31.0,33.0,,jacksja02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:57.0 31-33 jacksja02 misses 3-pt jump shot from 25 ft
+112,rebound,,,31.0,33.0,,,,,,,,,,,defensive,missiyv01,False,,,,,,,,,,,,,,,,,,,10:54.0 Defensive rebound by missiyv01 31-33
+113,turnover,,,31.0,33.0,,,,,,,,,,,,,,,,,greenja02,bad pass; steal by pippesc02,pippesc02,,,,,,,,,,,,,10:41.0 Turnover by greenja02 (bad pass; steal by pippesc02 ) 31-33
+114,turnover,,,31.0,33.0,,,,,,,,,,,,,,,,,pippesc02,lost ball; steal by hawkijo01,hawkijo01,,,,,,,,,,,,,10:37.0 31-33 Turnover by pippesc02 (lost ball; steal by hawkijo01 )
+115,fg_make,,,33.0,33.0,2.0,hawkijo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:34.0 hawkijo01 makes 2-pt layup from 2 ft +2 33-33
+116,turnover,,,33.0,33.0,,,,,,,,,,,,,,,,,jacksja02,lost ball; steal by hawkijo01,hawkijo01,,,,,,,,,,,,,10:22.0 33-33 Turnover by jacksja02 (lost ball; steal by hawkijo01 )
+117,turnover,,,33.0,33.0,,,,,,,,,,,,,,,,,greenja02,lost ball; steal by pippesc02,pippesc02,,,,,,,,,,,,,10:16.0 Turnover by greenja02 (lost ball; steal by pippesc02 ) 33-33
+118,fg_make,,,33.0,36.0,3.0,konchjo01,3.0,jump shot,26.0,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,10:11.0 33-36 +3 konchjo01 makes 3-pt jump shot from 26 ft (assist by jacksja02 )
+119,foul,,,33.0,36.0,,,,,,,,,,,,,,personal,pippesc02,alvarjo01,,,,,,,,,,,,,,,,10:05.0 Personal foul by pippesc02 (drawn by alvarjo01 ) 33-36
+120,substitution,,,33.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 33-36 edeyza01 enters the game for huffja01
+121,substitution,,,33.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 33-36 wellsja01 enters the game for pippesc02
+122,fg_miss,,,33.0,36.0,,alvarjo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:00.0 alvarjo01 misses 3-pt jump shot from 27 ft 33-36
+123,rebound,,,33.0,36.0,,,,,,,,,,,offensive,greenja02,False,,,,,,,,,,,,,,,,,,,9:55.0 Offensive rebound by greenja02 33-36
+124,fg_make,,,35.0,36.0,2.0,hawkijo01,2.0,jump shot,16.0,greenja02,,,,,,,,,,,,,,,,,,,,,,,,,,9:54.0 hawkijo01 makes 2-pt jump shot from 16 ft (assist by greenja02 ) +2 35-36
+125,fg_miss,,,35.0,36.0,,kennalu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:45.0 35-36 kennalu01 misses 3-pt jump shot from 26 ft
+126,rebound,,,35.0,36.0,,,,,,,,,,,defensive,missiyv01,False,,,,,,,,,,,,,,,,,,,9:43.0 Defensive rebound by missiyv01 35-36
+127,foul,,,35.0,36.0,,,,,,,,,,,,,,shooting,wellsja01,mccolcj01,,,,,,,,,,,,,,,,9:35.0 Shooting foul by wellsja01 (drawn by mccolcj01 ) 35-36
+128,free_throw,,,36.0,36.0,1.0,mccolcj01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:35.0 mccolcj01 makes free throw 1 of 2 +1 36-36
+129,substitution,,,36.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:35.0 robinje02 enters the game for greenja02 36-36
+130,free_throw,,,37.0,36.0,1.0,mccolcj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:35.0 mccolcj01 makes free throw 2 of 2 +1 37-36
+131,fg_make,,,37.0,39.0,3.0,kennalu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:25.0 37-39 +3 kennalu01 makes 3-pt jump shot from 26 ft
+132,fg_make,,,40.0,39.0,3.0,hawkijo01,3.0,jump shot,23.0,alvarjo01,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 hawkijo01 makes 3-pt jump shot from 23 ft (assist by alvarjo01 ) +3 40-39
+133,fg_miss,,,40.0,39.0,,jacksja02,2.0,jump shot,6.0,,missiyv01,,,,,,,,,,,,,,,,,,,,,,,,,8:52.0 40-39 jacksja02 misses 2-pt jump shot from 6 ft (block by missiyv01 )
+134,rebound,,,40.0,39.0,,,,,,,,,,,offensive,edeyza01,False,,,,,,,,,,,,,,,,,,,8:49.0 40-39 Offensive rebound by edeyza01
+135,fg_make,,,40.0,41.0,2.0,edeyza01,2.0,hook shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:48.0 40-41 +2 edeyza01 makes 2-pt hook shot from 4 ft
+136,fg_make,,,42.0,41.0,2.0,missiyv01,2.0,dunk,1.0,alvarjo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:32.0 missiyv01 makes 2-pt dunk from 1 ft (assist by alvarjo01 ) +2 42-41
+137,timeout,,,42.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,8:32.0 42-41 Memphis full timeout
+138,fg_miss,,,42.0,41.0,,wellsja01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 42-41 wellsja01 misses 2-pt jump shot from 14 ft
+139,rebound,,,42.0,41.0,,,,,,,,,,,defensive,robinje02,False,,,,,,,,,,,,,,,,,,,8:06.0 Defensive rebound by robinje02 42-41
+140,fg_make,,,45.0,41.0,3.0,hawkijo01,3.0,jump shot,24.0,robinje02,,,,,,,,,,,,,,,,,,,,,,,,,,8:03.0 hawkijo01 makes 3-pt jump shot from 24 ft (assist by robinje02 ) +3 45-41
+141,fg_make,,,45.0,43.0,2.0,jacksja02,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:54.0 45-43 +2 jacksja02 makes 2-pt jump shot from 13 ft
+142,fg_miss,,,45.0,43.0,,hawkijo01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:31.0 hawkijo01 misses 2-pt jump shot from 20 ft 45-43
+143,rebound,,,45.0,43.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,7:29.0 45-43 Defensive rebound by edeyza01
+144,turnover,,,45.0,43.0,,,,,,,,,,,,,,,,,kennalu01,bad pass; steal by robinje02,robinje02,,,,,,,,,,,,,7:08.0 45-43 Turnover by kennalu01 (bad pass; steal by robinje02 )
+145,fg_miss,,,45.0,43.0,,mccolcj01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:04.0 mccolcj01 misses 3-pt jump shot from 25 ft 45-43
+146,rebound,,,45.0,43.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,7:00.0 45-43 Defensive rebound by jacksja02
+147,fg_make,,,45.0,46.0,3.0,kennalu01,3.0,jump shot,27.0,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 45-46 +3 kennalu01 makes 3-pt jump shot from 27 ft (assist by jacksja02 )
+148,foul,,,45.0,46.0,,,,,,,,,,,,,,shooting,jacksja02,mccolcj01,,,,,,,,,,,,,,,,6:40.0 Shooting foul by jacksja02 (drawn by mccolcj01 ) 45-46
+149,free_throw,,,46.0,46.0,1.0,mccolcj01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:40.0 mccolcj01 makes free throw 1 of 2 +1 46-46
+150,substitution,,,46.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 46-46 jacksgg01 enters the game for jacksja02
+151,free_throw,,,47.0,46.0,1.0,mccolcj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:40.0 mccolcj01 makes free throw 2 of 2 +1 47-46
+152,fg_make,,,47.0,48.0,2.0,wellsja01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 47-48 +2 wellsja01 makes 2-pt jump shot from 7 ft
+153,fg_miss,,,47.0,48.0,,hawkijo01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 hawkijo01 misses 2-pt jump shot from 9 ft 47-48
+154,rebound,,,47.0,48.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,6:05.0 47-48 Defensive rebound by edeyza01
+155,fg_miss,,,47.0,48.0,,konchjo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:55.0 47-48 konchjo01 misses 3-pt jump shot from 23 ft
+156,rebound,,,47.0,48.0,,,,,,,,,,,defensive,mccolcj01,False,,,,,,,,,,,,,,,,,,,5:53.0 Defensive rebound by mccolcj01 47-48
+157,fg_make,,,50.0,48.0,3.0,hawkijo01,3.0,jump shot,24.0,mccolcj01,,,,,,,,,,,,,,,,,,,,,,,,,,5:49.0 hawkijo01 makes 3-pt jump shot from 24 ft (assist by mccolcj01 ) +3 50-48
+158,fg_miss,,,50.0,48.0,,jacksgg01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:36.0 50-48 jacksgg01 misses 3-pt jump shot from 25 ft
+159,rebound,,,50.0,48.0,,,,,,,,,,,defensive,robinje02,False,,,,,,,,,,,,,,,,,,,5:34.0 Defensive rebound by robinje02 50-48
+160,fg_miss,,,50.0,48.0,,alvarjo01,2.0,layup,2.0,,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,5:27.0 alvarjo01 misses 2-pt layup from 2 ft (block by edeyza01 ) 50-48
+161,rebound,,,50.0,48.0,,,,,,,,,,,offensive,robinje02,False,,,,,,,,,,,,,,,,,,,5:26.0 Offensive rebound by robinje02 50-48
+162,fg_make,,,52.0,48.0,2.0,robinje02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 robinje02 makes 2-pt layup at rim +2 52-48
+163,timeout,,,52.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,5:26.0 52-48 Memphis full timeout
+164,substitution,,,52.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 52-48 banede01 enters the game for edeyza01
+165,substitution,,,52.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 52-48 clarkbr01 enters the game for kennalu01
+166,substitution,,,52.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 52-48 pippesc02 enters the game for konchjo01
+167,fg_miss,,,52.0,48.0,,jacksgg01,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:10.0 52-48 jacksgg01 misses 2-pt hook shot from 5 ft
+168,rebound,,,52.0,48.0,,,,,,,,,,,offensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,5:05.0 52-48 Offensive rebound by clarkbr01
+169,fg_make,,,52.0,50.0,2.0,clarkbr01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:05.0 52-50 +2 clarkbr01 makes 2-pt dunk at rim
+170,fg_miss,,,52.0,50.0,,hawkijo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:42.0 hawkijo01 misses 3-pt jump shot from 25 ft 52-50
+171,rebound,,,52.0,50.0,,,,,,,,,,,offensive,missiyv01,False,,,,,,,,,,,,,,,,,,,4:38.0 Offensive rebound by missiyv01 52-50
+172,fg_make,,,54.0,50.0,2.0,alvarjo01,2.0,layup,2.0,missiyv01,,,,,,,,,,,,,,,,,,,,,,,,,,4:35.0 alvarjo01 makes 2-pt layup from 2 ft (assist by missiyv01 ) +2 54-50
+173,fg_make,,,54.0,52.0,2.0,pippesc02,2.0,layup,7.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 54-52 +2 pippesc02 makes 2-pt layup from 7 ft (assist by banede01 )
+174,turnover,,,54.0,52.0,,,,,,,,,,,,,,,,,mccolcj01,lost ball; steal by clarkbr01,clarkbr01,,,,,,,,,,,,,4:05.0 Turnover by mccolcj01 (lost ball; steal by clarkbr01 ) 54-52
+175,fg_make,,,54.0,54.0,2.0,pippesc02,2.0,layup,4.0,wellsja01,,,,,,,,,,,,,,,,,,,,,,,,,,4:00.0 54-54 +2 pippesc02 makes 2-pt layup from 4 ft (assist by wellsja01 )
+176,timeout,,,54.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,New Orleans full,,,,3:59.0 New Orleans full timeout 54-54
+177,substitution,,,54.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 greenja02 enters the game for alvarjo01 54-54
+178,substitution,,,54.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 murphtr02 enters the game for mccolcj01 54-54
+179,substitution,,,54.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 murrade01 enters the game for missiyv01 54-54
+180,substitution,,,54.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 theisda01 enters the game for robinje02 54-54
+181,fg_miss,,,54.0,54.0,,hawkijo01,2.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:35.0 hawkijo01 misses 2-pt jump shot from 22 ft 54-54
+182,rebound,,,54.0,54.0,,,,,,,,,,,defensive,jacksgg01,False,,,,,,,,,,,,,,,,,,,3:31.0 54-54 Defensive rebound by jacksgg01
+183,fg_make,,,54.0,57.0,3.0,jacksgg01,3.0,jump shot,26.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,3:26.0 54-57 +3 jacksgg01 makes 3-pt jump shot from 26 ft (assist by banede01 )
+184,fg_make,,,56.0,57.0,2.0,hawkijo01,2.0,layup,5.0,murphtr02,,,,,,,,,,,,,,,,,,,,,,,,,,3:04.0 hawkijo01 makes 2-pt layup from 5 ft (assist by murphtr02 ) +2 56-57
+185,fg_make,,,56.0,60.0,3.0,wellsja01,3.0,jump shot,23.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,2:56.0 56-60 +3 wellsja01 makes 3-pt jump shot from 23 ft (assist by banede01 )
+186,foul,,,56.0,60.0,,,,,,,,,,,,,,shooting,clarkbr01,murphtr02,,,,,,,,,,,,,,,,2:36.0 Shooting foul by clarkbr01 (drawn by murphtr02 ) 56-60
+187,free_throw,,,57.0,60.0,1.0,murphtr02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:36.0 murphtr02 makes free throw 1 of 2 +1 57-60
+188,substitution,,,57.0,60.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:36.0 mccolcj01 enters the game for hawkijo01 57-60
+189,substitution,,,57.0,60.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:36.0 57-60 jacksja02 enters the game for wellsja01
+190,free_throw,,,58.0,60.0,1.0,murphtr02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:36.0 murphtr02 makes free throw 2 of 2 +1 58-60
+191,fg_miss,,,58.0,60.0,,pippesc02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:24.0 58-60 pippesc02 misses 2-pt layup from 4 ft
+192,rebound,,,58.0,60.0,,,,,,,,,,,defensive,murphtr02,False,,,,,,,,,,,,,,,,,,,2:22.0 Defensive rebound by murphtr02 58-60
+193,fg_make,,,61.0,60.0,3.0,greenja02,3.0,jump shot,23.0,murphtr02,,,,,,,,,,,,,,,,,,,,,,,,,,2:17.0 greenja02 makes 3-pt jump shot from 23 ft (assist by murphtr02 ) +3 61-60
+194,fg_miss,,,61.0,60.0,,banede01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:06.0 61-60 banede01 misses 3-pt jump shot from 26 ft
+195,rebound,,,61.0,60.0,,,,,,,,,,,defensive,murphtr02,False,,,,,,,,,,,,,,,,,,,2:03.0 Defensive rebound by murphtr02 61-60
+196,fg_miss,,,61.0,60.0,,murphtr02,2.0,layup,6.0,,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,1:44.0 murphtr02 misses 2-pt layup from 6 ft (block by jacksja02 ) 61-60
+197,rebound,,,61.0,60.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:44.0 Offensive rebound by Team 61-60
+198,foul,,,61.0,60.0,,,,,,,,,,,,,,shooting,pippesc02,mccolcj01,,,,,,,,,,,,,,,,1:43.0 Shooting foul by pippesc02 (drawn by mccolcj01 ) 61-60
+199,free_throw,,,61.0,60.0,,mccolcj01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 mccolcj01 misses free throw 1 of 2 61-60
+200,rebound,,,61.0,60.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:43.0 Offensive rebound by Team 61-60
+201,free_throw,,,62.0,60.0,1.0,mccolcj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 mccolcj01 makes free throw 2 of 2 +1 62-60
+202,fg_miss,,,62.0,60.0,,jacksja02,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:33.0 62-60 jacksja02 misses 3-pt jump shot from 22 ft
+203,rebound,,,62.0,60.0,,,,,,,,,,,defensive,greenja02,False,,,,,,,,,,,,,,,,,,,1:29.0 Defensive rebound by greenja02 62-60
+204,fg_make,,,65.0,60.0,3.0,murphtr02,3.0,jump shot,24.0,murrade01,,,,,,,,,,,,,,,,,,,,,,,,,,1:14.0 murphtr02 makes 3-pt jump shot from 24 ft (assist by murrade01 ) +3 65-60
+205,fg_make,,,65.0,62.0,2.0,jacksgg01,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:58.0 65-62 +2 jacksgg01 makes 2-pt hook shot from 7 ft
+206,fg_miss,,,65.0,62.0,,murrade01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:45.0 murrade01 misses 2-pt layup from 4 ft 65-62
+207,rebound,,,65.0,62.0,,,,,,,,,,,offensive,theisda01,False,,,,,,,,,,,,,,,,,,,0:43.0 Offensive rebound by theisda01 65-62
+208,fg_make,,,67.0,62.0,2.0,theisda01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:43.0 theisda01 makes 2-pt layup at rim +2 67-62
+209,fg_miss,,,67.0,62.0,,pippesc02,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:37.0 67-62 pippesc02 misses 2-pt jump shot from 4 ft
+210,rebound,,,67.0,62.0,,,,,,,,,,,defensive,murphtr02,False,,,,,,,,,,,,,,,,,,,0:34.0 Defensive rebound by murphtr02 67-62
+211,fg_make,,,69.0,62.0,2.0,greenja02,2.0,dunk,1.0,murphtr02,,,,,,,,,,,,,,,,,,,,,,,,,,0:33.0 greenja02 makes 2-pt dunk from 1 ft (assist by murphtr02 ) +2 69-62
+212,fg_miss,,,69.0,62.0,,jacksja02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:10.0 69-62 jacksja02 misses 3-pt jump shot from 27 ft
+213,rebound,,,69.0,62.0,,,,,,,,,,,offensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,0:07.0 69-62 Offensive rebound by clarkbr01
+214,fg_miss,,,69.0,62.0,,clarkbr01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 69-62 clarkbr01 misses 2-pt layup from 6 ft
+215,rebound,,,69.0,62.0,,,,,,,,,,,defensive,murrade01,False,,,,,,,,,,,,,,,,,,,0:06.0 Defensive rebound by murrade01 69-62
+216,foul,,,69.0,62.0,,,,,,,,,,,,,,shooting,pippesc02,murrade01,,,,,,,,,,,,,,,,0:01.0 Shooting foul by pippesc02 (drawn by murrade01 ) 69-62
+217,free_throw,,,69.0,62.0,,murrade01,,,,,,misses,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,0:01.0 murrade01 misses free throw 1 of 3 69-62
+218,rebound,,,69.0,62.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:01.0 Offensive rebound by Team 69-62
+219,free_throw,,,70.0,62.0,1.0,murrade01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,0:01.0 murrade01 makes free throw 2 of 3 +1 70-62
+220,substitution,,,70.0,62.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 alvarjo01 enters the game for mccolcj01 70-62
+221,substitution,,,70.0,62.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 70-62 kennalu01 enters the game for jacksgg01
+222,free_throw,,,71.0,62.0,1.0,murrade01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,0:01.0 murrade01 makes free throw 3 of 3 +1 71-62
+223,fg_miss,,,71.0,62.0,,kennalu01,3.0,jump shot,52.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 71-62 kennalu01 misses 3-pt jump shot from 52 ft
+224,rebound,,,71.0,62.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 71-62 Offensive rebound by Team
+225,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+226,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+227,fg_make,,,73.0,62.0,2.0,murphtr02,2.0,jump shot,9.0,murrade01,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 murphtr02 makes 2-pt jump shot from 9 ft (assist by murrade01 ) +2 73-62
+228,foul,,,73.0,62.0,,,,,,,,,,,,,,personal,robinje02,jacksja02,,,,,,,,,,,,,,,,11:31.0 73-62 Personal foul by robinje02 (drawn by jacksja02 )
+229,fg_make,,,73.0,65.0,3.0,jacksja02,3.0,jump shot,25.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,11:21.0 73-65 +3 jacksja02 makes 3-pt jump shot from 25 ft (assist by banede01 )
+230,fg_make,,,75.0,65.0,2.0,missiyv01,2.0,dunk,3.0,mccolcj01,,,,,,,,,,,,,,,,,,,,,,,,,,11:08.0 missiyv01 makes 2-pt dunk from 3 ft (assist by mccolcj01 ) +2 75-65
+231,foul,,,75.0,65.0,,,,,,,,,,,,,,shooting,edeyza01,missiyv01,,,,,,,,,,,,,,,,11:08.0 Shooting foul by edeyza01 (drawn by missiyv01 ) 75-65
+232,free_throw,,,76.0,65.0,1.0,missiyv01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,11:08.0 missiyv01 makes free throw 1 of 1 +1 76-65
+233,fg_make,,,76.0,67.0,2.0,jacksja02,2.0,jump shot,5.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,10:58.0 76-67 +2 jacksja02 makes 2-pt jump shot from 5 ft (assist by banede01 )
+234,foul,,,76.0,67.0,,,,,,,,,,,,,,shooting,robinje02,jacksja02,,,,,,,,,,,,,,,,10:58.0 76-67 Shooting foul by robinje02 (drawn by jacksja02 )
+235,free_throw,,,76.0,68.0,1.0,jacksja02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,10:58.0 76-68 +1 jacksja02 makes free throw 1 of 1
+236,turnover,,,76.0,68.0,,,,,,,,,,,,,,,,,missiyv01,bad pass; steal by edeyza01,edeyza01,,,,,,,,,,,,,10:38.0 Turnover by missiyv01 (bad pass; steal by edeyza01 ) 76-68
+237,fg_make,,,76.0,70.0,2.0,banede01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:34.0 76-70 +2 banede01 makes 2-pt layup from 3 ft
+238,fg_miss,,,76.0,70.0,,robinje02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:17.0 robinje02 misses 3-pt jump shot from 25 ft 76-70
+239,rebound,,,76.0,70.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,10:14.0 76-70 Defensive rebound by edeyza01
+240,fg_make,,,76.0,73.0,3.0,jacksja02,3.0,jump shot,22.0,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 76-73 +3 jacksja02 makes 3-pt jump shot from 22 ft (assist by kennalu01 )
+241,timeout,,,76.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,New Orleans full,,,,10:06.0 New Orleans full timeout 76-73
+242,fg_miss,,,76.0,73.0,,robinje02,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:48.0 robinje02 misses 3-pt jump shot from 22 ft 76-73
+243,rebound,,,76.0,73.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,9:44.0 76-73 Defensive rebound by edeyza01
+244,fg_make,,,76.0,76.0,3.0,kennalu01,3.0,jump shot,25.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 76-76 +3 kennalu01 makes 3-pt jump shot from 25 ft (assist by banede01 )
+245,fg_miss,,,76.0,76.0,,murphtr02,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:08.0 murphtr02 misses 3-pt jump shot from 29 ft 76-76
+246,rebound,,,76.0,76.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,9:05.0 76-76 Defensive rebound by edeyza01
+247,turnover,,,76.0,76.0,,,,,,,,,,,,,,,,,banede01,bad pass; steal by robinje02,robinje02,,,,,,,,,,,,,8:59.0 76-76 Turnover by banede01 (bad pass; steal by robinje02 )
+248,fg_make,,,78.0,76.0,2.0,murphtr02,2.0,dunk,1.0,robinje02,,,,,,,,,,,,,,,,,,,,,,,,,,8:55.0 murphtr02 makes 2-pt dunk from 1 ft (assist by robinje02 ) +2 78-76
+249,fg_make,,,78.0,78.0,2.0,edeyza01,2.0,dunk,,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,8:48.0 78-78 +2 edeyza01 makes 2-pt dunk at rim (assist by jacksja02 )
+250,fg_make,,,81.0,78.0,3.0,robinje02,3.0,jump shot,23.0,murrade01,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 robinje02 makes 3-pt jump shot from 23 ft (assist by murrade01 ) +3 81-78
+251,fg_make,,,81.0,80.0,2.0,kennalu01,2.0,jump shot,15.0,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 81-80 +2 kennalu01 makes 2-pt jump shot from 15 ft (assist by jacksja02 )
+252,fg_make,,,83.0,80.0,2.0,missiyv01,2.0,dunk,1.0,murrade01,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 missiyv01 makes 2-pt dunk from 1 ft (assist by murrade01 ) +2 83-80
+253,fg_make,,,83.0,83.0,3.0,kennalu01,3.0,jump shot,25.0,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,,7:30.0 83-83 +3 kennalu01 makes 3-pt jump shot from 25 ft (assist by edeyza01 )
+254,turnover,,,83.0,83.0,,,,,,,,,,,,,,,,,murrade01,bad pass; steal by wellsja01,wellsja01,,,,,,,,,,,,,7:21.0 Turnover by murrade01 (bad pass; steal by wellsja01 ) 83-83
+255,fg_make,,,83.0,86.0,3.0,banede01,3.0,jump shot,26.0,wellsja01,,,,,,,,,,,,,,,,,,,,,,,,,,7:17.0 83-86 +3 banede01 makes 3-pt jump shot from 26 ft (assist by wellsja01 )
+256,fg_miss,,,83.0,86.0,,murphtr02,2.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:05.0 murphtr02 misses 2-pt jump shot from 23 ft 83-86
+257,rebound,,,83.0,86.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,7:02.0 83-86 Defensive rebound by jacksja02
+258,fg_make,,,83.0,88.0,2.0,banede01,2.0,layup,3.0,jacksja02,,,,,,,,,,,,,,,,,,,,,,,,,,6:59.0 83-88 +2 banede01 makes 2-pt layup from 3 ft (assist by jacksja02 )
+259,timeout,,,83.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,New Orleans full,,,,6:49.0 New Orleans full timeout 83-88
+260,substitution,,,83.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:49.0 greenja02 enters the game for missiyv01 83-88
+261,substitution,,,83.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:49.0 theisda01 enters the game for robinje02 83-88
+262,fg_miss,,,83.0,88.0,,murrade01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:33.0 murrade01 misses 3-pt jump shot from 26 ft 83-88
+263,rebound,,,83.0,88.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,6:29.0 83-88 Defensive rebound by edeyza01
+264,fg_make,,,83.0,90.0,2.0,edeyza01,2.0,hook shot,8.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 83-90 +2 edeyza01 makes 2-pt hook shot from 8 ft (assist by banede01 )
+265,fg_make,,,85.0,90.0,2.0,mccolcj01,2.0,layup,3.0,theisda01,,,,,,,,,,,,,,,,,,,,,,,,,,6:04.0 mccolcj01 makes 2-pt layup from 3 ft (assist by theisda01 ) +2 85-90
+266,turnover,,,85.0,90.0,,,,,,,,,,,,,,,,,banede01,bad pass,,,,,,,,,,,,,,5:56.0 85-90 Turnover by banede01 (bad pass)
+267,fg_make,,,88.0,90.0,3.0,greenja02,3.0,jump shot,23.0,murrade01,,,,,,,,,,,,,,,,,,,,,,,,,,5:40.0 greenja02 makes 3-pt jump shot from 23 ft (assist by murrade01 ) +3 88-90
+268,fg_make,,,88.0,93.0,3.0,jacksja02,3.0,jump shot,25.0,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 88-93 +3 jacksja02 makes 3-pt jump shot from 25 ft (assist by kennalu01 )
+269,foul,,,88.0,93.0,,,,,,,,,,,,,,shooting,greenja02,jacksja02,,,,,,,,,,,,,,,,5:26.0 88-93 Shooting foul by greenja02 (drawn by jacksja02 )
+270,substitution,,,88.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 88-93 clarkbr01 enters the game for banede01
+271,substitution,,,88.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 88-93 jacksgg01 enters the game for edeyza01
+272,free_throw,,,88.0,94.0,1.0,jacksja02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,5:26.0 88-94 +1 jacksja02 makes free throw 1 of 1
+273,foul,,,88.0,94.0,,,,,,,,,,,,,,shooting,jacksja02,murrade01,,,,,,,,,,,,,,,,5:14.0 Shooting foul by jacksja02 (drawn by murrade01 ) 88-94
+274,free_throw,,,89.0,94.0,1.0,murrade01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:14.0 murrade01 makes free throw 1 of 2 +1 89-94
+275,substitution,,,89.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:14.0 hawkijo01 enters the game for mccolcj01 89-94
+276,substitution,,,89.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:14.0 89-94 banede01 enters the game for kennalu01
+277,free_throw,,,90.0,94.0,1.0,murrade01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:14.0 murrade01 makes free throw 2 of 2 +1 90-94
+278,fg_make,,,90.0,96.0,2.0,banede01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:04.0 90-96 +2 banede01 makes 2-pt layup from 3 ft
+279,fg_make,,,92.0,96.0,2.0,murrade01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:49.0 murrade01 makes 2-pt jump shot from 18 ft +2 92-96
+280,fg_make,,,92.0,98.0,2.0,jacksja02,2.0,jump shot,10.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,4:35.0 92-98 +2 jacksja02 makes 2-pt jump shot from 10 ft (assist by banede01 )
+281,fg_miss,,,92.0,98.0,,murrade01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:22.0 murrade01 misses 2-pt jump shot from 15 ft 92-98
+282,rebound,,,92.0,98.0,,,,,,,,,,,defensive,jacksgg01,False,,,,,,,,,,,,,,,,,,,4:19.0 92-98 Defensive rebound by jacksgg01
+283,fg_miss,,,92.0,98.0,,wellsja01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:11.0 92-98 wellsja01 misses 3-pt jump shot from 24 ft
+284,rebound,,,92.0,98.0,,,,,,,,,,,offensive,jacksja02,False,,,,,,,,,,,,,,,,,,,4:07.0 92-98 Offensive rebound by jacksja02
+285,turnover,,,92.0,98.0,,,,,,,,,,,,,,,,,jacksgg01,traveling,,,,,,,,,,,,,,4:07.0 92-98 Turnover by jacksgg01 (traveling)
+286,substitution,,,92.0,98.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:07.0 92-98 kennalu01 enters the game for jacksja02
+287,substitution,,,92.0,98.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:07.0 92-98 pippesc02 enters the game for wellsja01
+288,fg_miss,,,92.0,98.0,,murrade01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:43.0 murrade01 misses 3-pt jump shot from 26 ft 92-98
+289,rebound,,,92.0,98.0,,,,,,,,,,,offensive,theisda01,False,,,,,,,,,,,,,,,,,,,3:39.0 Offensive rebound by theisda01 92-98
+290,fg_miss,,,92.0,98.0,,hawkijo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:36.0 hawkijo01 misses 3-pt jump shot from 23 ft 92-98
+291,rebound,,,92.0,98.0,,,,,,,,,,,offensive,greenja02,False,,,,,,,,,,,,,,,,,,,3:33.0 Offensive rebound by greenja02 92-98
+292,fg_make,,,94.0,98.0,2.0,murphtr02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:29.0 murphtr02 makes 2-pt layup from 3 ft +2 94-98
+293,foul,,,94.0,98.0,,,,,,,,,,,,,,shooting,clarkbr01,murphtr02,,,,,,,,,,,,,,,,3:29.0 Shooting foul by clarkbr01 (drawn by murphtr02 ) 94-98
+294,free_throw,,,95.0,98.0,1.0,murphtr02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,3:29.0 murphtr02 makes free throw 1 of 1 +1 95-98
+295,fg_miss,,,95.0,98.0,,banede01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:16.0 95-98 banede01 misses 3-pt jump shot from 24 ft
+296,rebound,,,95.0,98.0,,,,,,,,,,,defensive,murrade01,False,,,,,,,,,,,,,,,,,,,3:11.0 Defensive rebound by murrade01 95-98
+297,turnover,,,95.0,98.0,,,,,,,,,,,,,,,,,murphtr02,bad pass,,,,,,,,,,,,,,3:08.0 Turnover by murphtr02 (bad pass) 95-98
+298,fg_miss,,,95.0,98.0,,jacksgg01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:58.0 95-98 jacksgg01 misses 2-pt layup from 3 ft
+299,rebound,,,95.0,98.0,,,,,,,,,,,defensive,theisda01,False,,,,,,,,,,,,,,,,,,,2:56.0 Defensive rebound by theisda01 95-98
+300,fg_miss,,,95.0,98.0,,murrade01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:46.0 murrade01 misses 2-pt layup from 5 ft 95-98
+301,rebound,,,95.0,98.0,,,,,,,,,,,defensive,jacksgg01,False,,,,,,,,,,,,,,,,,,,2:43.0 95-98 Defensive rebound by jacksgg01
+302,fg_make,,,95.0,100.0,2.0,clarkbr01,2.0,dunk,1.0,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,2:35.0 95-100 +2 clarkbr01 makes 2-pt dunk from 1 ft (assist by kennalu01 )
+303,fg_make,,,97.0,100.0,2.0,murphtr02,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:15.0 murphtr02 makes 2-pt dunk from 1 ft +2 97-100
+304,timeout,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,2:12.0 97-100 Memphis full timeout
+305,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:12.0 alvarjo01 enters the game for murrade01 97-100
+306,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:12.0 97-100 jacksja02 enters the game for jacksgg01
+307,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:12.0 97-100 konchjo01 enters the game for kennalu01
+308,fg_miss,,,97.0,100.0,,banede01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 97-100 banede01 misses 3-pt jump shot from 23 ft
+309,rebound,,,97.0,100.0,,,,,,,,,,,offensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,1:45.0 97-100 Offensive rebound by clarkbr01
+310,turnover,,,97.0,100.0,,,,,,,,,,,,,,,,,clarkbr01,lost ball; steal by theisda01,theisda01,,,,,,,,,,,,,1:44.0 97-100 Turnover by clarkbr01 (lost ball; steal by theisda01 )
+311,unknown,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by (8 sec),1:37.0 Turnover by  (8 sec) 97-100
+312,fg_make,,,97.0,103.0,3.0,banede01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 97-103 +3 banede01 makes 3-pt jump shot from 25 ft
+313,fg_miss,,,97.0,103.0,,greenja02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:13.0 greenja02 misses 3-pt jump shot from 23 ft 97-103
+314,rebound,,,97.0,103.0,,,,,,,,,,,defensive,konchjo01,False,,,,,,,,,,,,,,,,,,,1:10.0 97-103 Defensive rebound by konchjo01
+315,fg_miss,,,97.0,103.0,,jacksja02,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:58.0 97-103 jacksja02 misses 3-pt jump shot from 24 ft
+316,rebound,,,97.0,103.0,,,,,,,,,,,defensive,greenja02,False,,,,,,,,,,,,,,,,,,,0:56.0 Defensive rebound by greenja02 97-103
+317,foul,,,97.0,103.0,,,,,,,,,,,,,,shooting,clarkbr01,murphtr02,,,,,,,,,,,,,,,,0:43.0 Shooting foul by clarkbr01 (drawn by murphtr02 ) 97-103
+318,free_throw,,,98.0,103.0,1.0,murphtr02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:43.0 murphtr02 makes free throw 1 of 2 +1 98-103
+319,free_throw,,,99.0,103.0,1.0,murphtr02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:43.0 murphtr02 makes free throw 2 of 2 +1 99-103
+320,fg_make,,,99.0,105.0,2.0,banede01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:28.0 99-105 +2 banede01 makes 2-pt layup from 2 ft
+321,foul,,,99.0,105.0,,,,,,,,,,,,,,shooting,pippesc02,alvarjo01,,,,,,,,,,,,,,,,0:09.0 Shooting foul by pippesc02 (drawn by alvarjo01 ) 99-105
+322,free_throw,,,100.0,105.0,1.0,alvarjo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:09.0 alvarjo01 makes free throw 1 of 2 +1 100-105
+323,substitution,,,100.0,105.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 100-105 kennalu01 enters the game for konchjo01
+324,substitution,,,100.0,105.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 100-105 wellsja01 enters the game for pippesc02
+325,free_throw,,,100.0,105.0,,alvarjo01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:09.0 alvarjo01 misses free throw 2 of 2 100-105
+326,rebound,,,100.0,105.0,,,,,,,,,,,defensive,jacksja02,False,,,,,,,,,,,,,,,,,,,0:06.0 100-105 Defensive rebound by jacksja02
+327,turnover,,,100.0,105.0,,,,,,,,,,,,,,,,,jacksja02,lost ball; steal by alvarjo01,alvarjo01,,,,,,,,,,,,,0:05.0 100-105 Turnover by jacksja02 (lost ball; steal by alvarjo01 )
+328,fg_miss,,,100.0,105.0,,hawkijo01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 hawkijo01 misses 2-pt jump shot from 9 ft 100-105
+329,rebound,,,100.0,105.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 100-105
+330,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+331,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+332,fg_make,,,100.0,108.0,3.0,edeyza01,3.0,jump shot,23.0,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,11:47.0 100-108 +3 edeyza01 makes 3-pt jump shot from 23 ft (assist by kennalu01 )
+333,fg_make,,,103.0,108.0,3.0,mccolcj01,3.0,jump shot,25.0,alvarjo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:25.0 mccolcj01 makes 3-pt jump shot from 25 ft (assist by alvarjo01 ) +3 103-108
+334,fg_make,,,103.0,111.0,3.0,jacksja02,3.0,jump shot,26.0,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,11:12.0 103-111 +3 jacksja02 makes 3-pt jump shot from 26 ft (assist by kennalu01 )
+335,foul,,,103.0,111.0,,,,,,,,,,,,,,shooting,wellsja01,mccolcj01,,,,,,,,,,,,,,,,10:54.0 Shooting foul by wellsja01 (drawn by mccolcj01 ) 103-111
+336,free_throw,,,103.0,111.0,,mccolcj01,,,,,,misses,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,10:54.0 mccolcj01 misses free throw 1 of 3 103-111
+337,rebound,,,103.0,111.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:54.0 Offensive rebound by Team 103-111
+338,free_throw,,,104.0,111.0,1.0,mccolcj01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,10:54.0 mccolcj01 makes free throw 2 of 3 +1 104-111
+339,free_throw,,,104.0,111.0,,mccolcj01,,,,,,misses,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,10:54.0 mccolcj01 misses free throw 3 of 3 104-111
+340,rebound,,,104.0,111.0,,,,,,,,,,,defensive,edeyza01,False,,,,,,,,,,,,,,,,,,,10:52.0 104-111 Defensive rebound by edeyza01
+341,fg_make,,,104.0,113.0,2.0,kennalu01,2.0,jump shot,10.0,edeyza01,,,,,,,,,,,,,,,,,,,,,,,,,,10:39.0 104-113 +2 kennalu01 makes 2-pt jump shot from 10 ft (assist by edeyza01 )
+342,fg_make,,,107.0,113.0,3.0,alvarjo01,3.0,jump shot,27.0,mccolcj01,,,,,,,,,,,,,,,,,,,,,,,,,,10:27.0 alvarjo01 makes 3-pt jump shot from 27 ft (assist by mccolcj01 ) +3 107-113
+343,fg_make,,,107.0,116.0,3.0,kennalu01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:17.0 107-116 +3 kennalu01 makes 3-pt jump shot from 25 ft
+344,turnover,,,107.0,116.0,,,,,,,,,,,,,,,,,hawkijo01,step out of bounds,,,,,,,,,,,,,,10:06.0 Turnover by hawkijo01 (step out of bounds) 107-116
+345,fg_miss,,,107.0,116.0,,kennalu01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:57.0 107-116 kennalu01 misses 2-pt jump shot from 20 ft
+346,rebound,,,107.0,116.0,,,,,,,,,,,defensive,hawkijo01,False,,,,,,,,,,,,,,,,,,,9:52.0 Defensive rebound by hawkijo01 107-116
+347,foul,,,107.0,116.0,,,,,,,,,,,,,,shooting,edeyza01,mccolcj01,,,,,,,,,,,,,,,,9:47.0 Shooting foul by edeyza01 (drawn by mccolcj01 ) 107-116
+348,free_throw,,,107.0,116.0,,mccolcj01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:47.0 mccolcj01 misses free throw 1 of 2 107-116
+349,rebound,,,107.0,116.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:47.0 Offensive rebound by Team 107-116
+350,free_throw,,,108.0,116.0,1.0,mccolcj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:47.0 mccolcj01 makes free throw 2 of 2 +1 108-116
+351,fg_make,,,108.0,118.0,2.0,jacksja02,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:35.0 108-118 +2 jacksja02 makes 2-pt hook shot from 5 ft
+352,fg_miss,,,108.0,118.0,,greenja02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:18.0 greenja02 misses 3-pt jump shot from 23 ft 108-118
+353,rebound,,,108.0,118.0,,,,,,,,,,,defensive,kennalu01,False,,,,,,,,,,,,,,,,,,,9:15.0 108-118 Defensive rebound by kennalu01
+354,fg_miss,,,108.0,118.0,,wellsja01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:58.0 108-118 wellsja01 misses 3-pt jump shot from 23 ft
+355,rebound,,,108.0,118.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:55.0 108-118 Offensive rebound by Team
+356,substitution,,,108.0,118.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:55.0 murphtr02 enters the game for greenja02 108-118
+357,fg_miss,,,108.0,118.0,,kennalu01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:53.0 108-118 kennalu01 misses 2-pt layup from 3 ft
+358,rebound,,,108.0,118.0,,,,,,,,,,,defensive,missiyv01,False,,,,,,,,,,,,,,,,,,,8:51.0 Defensive rebound by missiyv01 108-118
+359,fg_make,,,110.0,118.0,2.0,murphtr02,2.0,layup,3.0,mccolcj01,,,,,,,,,,,,,,,,,,,,,,,,,,8:48.0 murphtr02 makes 2-pt layup from 3 ft (assist by mccolcj01 ) +2 110-118
+360,fg_miss,,,110.0,118.0,,jacksja02,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 110-118 jacksja02 misses 2-pt jump shot from 6 ft
+361,rebound,,,110.0,118.0,,,,,,,,,,,defensive,murphtr02,False,,,,,,,,,,,,,,,,,,,8:32.0 Defensive rebound by murphtr02 110-118
+362,fg_miss,,,110.0,118.0,,murphtr02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 murphtr02 misses 3-pt jump shot from 25 ft 110-118
+363,rebound,,,110.0,118.0,,,,,,,,,,,defensive,kennalu01,False,,,,,,,,,,,,,,,,,,,8:22.0 110-118 Defensive rebound by kennalu01
+364,fg_miss,,,110.0,118.0,,edeyza01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:18.0 110-118 edeyza01 misses 3-pt jump shot from 25 ft
+365,rebound,,,110.0,118.0,,,,,,,,,,,defensive,alvarjo01,False,,,,,,,,,,,,,,,,,,,8:14.0 Defensive rebound by alvarjo01 110-118
+366,turnover,,,110.0,118.0,,,,,,,,,,,,,,,,,alvarjo01,bad pass; steal by kennalu01,kennalu01,,,,,,,,,,,,,8:07.0 Turnover by alvarjo01 (bad pass; steal by kennalu01 ) 110-118
+367,fg_make,,,110.0,120.0,2.0,konchjo01,2.0,layup,2.0,kennalu01,,,,,,,,,,,,,,,,,,,,,,,,,,8:03.0 110-120 +2 konchjo01 makes 2-pt layup from 2 ft (assist by kennalu01 )
+368,timeout,,,110.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,New Orleans full,,,,8:03.0 New Orleans full timeout 110-120
+369,substitution,,,110.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:03.0 murrade01 enters the game for mccolcj01 110-120
+370,substitution,,,110.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:03.0 110-120 banede01 enters the game for kennalu01
+371,substitution,,,110.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:03.0 110-120 pippesc02 enters the game for wellsja01
+372,fg_make,,,112.0,120.0,2.0,murphtr02,2.0,jump shot,6.0,hawkijo01,,,,,,,,,,,,,,,,,,,,,,,,,,7:42.0 murphtr02 makes 2-pt jump shot from 6 ft (assist by hawkijo01 ) +2 112-120
+373,foul,,,112.0,120.0,,,,,,,,,,,,,,shooting,murphtr02,jacksja02,,,,,,,,,,,,,,,,7:26.0 112-120 Shooting foul by murphtr02 (drawn by jacksja02 )
+374,free_throw,,,112.0,121.0,1.0,jacksja02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:26.0 112-121 +1 jacksja02 makes free throw 1 of 2
+375,free_throw,,,112.0,122.0,1.0,jacksja02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:26.0 112-122 +1 jacksja02 makes free throw 2 of 2
+376,fg_miss,,,112.0,122.0,,hawkijo01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 hawkijo01 misses 3-pt jump shot from 22 ft 112-122
+377,rebound,,,112.0,122.0,,,,,,,,,,,defensive,konchjo01,False,,,,,,,,,,,,,,,,,,,7:13.0 112-122 Defensive rebound by konchjo01
+378,fg_make,,,112.0,124.0,2.0,banede01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:08.0 112-124 +2 banede01 makes 2-pt layup from 3 ft
+379,foul,,,112.0,124.0,,,,,,,,,,,,,,offensive,alvarjo01,pippesc02,,,,,,,,,,,,,,,,6:43.0 Offensive foul by alvarjo01 (drawn by pippesc02 ) 112-124
+380,turnover,,,112.0,124.0,,,,,,,,,,,,,,,,,alvarjo01,offensive foul,,,,,,,,,,,,,,6:43.0 Turnover by alvarjo01 (offensive foul) 112-124
+381,substitution,,,112.0,124.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:43.0 mccolcj01 enters the game for alvarjo01 112-124
+382,fg_miss,,,112.0,124.0,,pippesc02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:23.0 112-124 pippesc02 misses 3-pt jump shot from 23 ft
+383,rebound,,,112.0,124.0,,,,,,,,,,,offensive,edeyza01,False,,,,,,,,,,,,,,,,,,,6:21.0 112-124 Offensive rebound by edeyza01
+384,fg_make,,,112.0,126.0,2.0,pippesc02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:12.0 112-126 +2 pippesc02 makes 2-pt jump shot from 10 ft
+385,fg_miss,,,112.0,126.0,,mccolcj01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:47.0 mccolcj01 misses 2-pt jump shot from 12 ft 112-126
+386,rebound,,,112.0,126.0,,,,,,,,,,,defensive,konchjo01,False,,,,,,,,,,,,,,,,,,,5:45.0 112-126 Defensive rebound by konchjo01
+387,foul,,,112.0,126.0,,,,,,,,,,,,,,personal,mccolcj01,konchjo01,,,,,,,,,,,,,,,,5:45.0 112-126 Personal foul by mccolcj01 (drawn by konchjo01 )
+388,substitution,,,112.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 112-126 clarkbr01 enters the game for edeyza01
+389,substitution,,,112.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 112-126 jacksgg01 enters the game for jacksja02
+390,fg_miss,,,112.0,126.0,,banede01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 112-126 banede01 misses 2-pt jump shot from 9 ft
+391,rebound,,,112.0,126.0,,,,,,,,,,,offensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,5:22.0 112-126 Offensive rebound by clarkbr01
+392,fg_make,,,112.0,128.0,2.0,clarkbr01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:22.0 112-128 +2 clarkbr01 makes 2-pt layup at rim
+393,foul,,,112.0,128.0,,,,,,,,,,,,,,personal,clarkbr01,missiyv01,,,,,,,,,,,,,,,,5:13.0 Personal foul by clarkbr01 (drawn by missiyv01 ) 112-128
+394,foul,,,112.0,128.0,,,,,,,,,,,,,,personal,clarkbr01,mccolcj01,,,,,,,,,,,,,,,,5:05.0 Personal foul by clarkbr01 (drawn by mccolcj01 ) 112-128
+395,timeout,,,112.0,128.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Memphis full,,,,5:05.0 112-128 Memphis full timeout
+396,instant_replay,,,112.0,128.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:05.0 112-128 Instant Replay (Challenge: Ruling Stands)
+397,fg_make,,,114.0,128.0,2.0,murrade01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:52.0 murrade01 makes 2-pt jump shot from 12 ft +2 114-128
+398,fg_make,,,114.0,130.0,2.0,pippesc02,2.0,layup,2.0,banede01,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 114-130 +2 pippesc02 makes 2-pt layup from 2 ft (assist by banede01 )
+399,foul,,,114.0,130.0,,,,,,,,,,,,,,shooting,mccolcj01,pippesc02,,,,,,,,,,,,,,,,4:36.0 114-130 Shooting foul by mccolcj01 (drawn by pippesc02 )
+400,free_throw,,,114.0,131.0,1.0,pippesc02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:36.0 114-131 +1 pippesc02 makes free throw 1 of 1
+401,fg_miss,,,114.0,131.0,,mccolcj01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:22.0 mccolcj01 misses 3-pt jump shot from 25 ft 114-131
+402,rebound,,,114.0,131.0,,,,,,,,,,,offensive,missiyv01,False,,,,,,,,,,,,,,,,,,,4:20.0 Offensive rebound by missiyv01 114-131
+403,foul,,,114.0,131.0,,,,,,,,,,,,,,shooting,konchjo01,missiyv01,,,,,,,,,,,,,,,,4:20.0 Shooting foul by konchjo01 (drawn by missiyv01 ) 114-131
+404,free_throw,,,114.0,131.0,,missiyv01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:20.0 missiyv01 misses free throw 1 of 2 114-131
+405,rebound,,,114.0,131.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:20.0 Offensive rebound by Team 114-131
+406,free_throw,,,115.0,131.0,1.0,missiyv01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:20.0 missiyv01 makes free throw 2 of 2 +1 115-131
+407,fg_miss,,,115.0,131.0,,banede01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 115-131 banede01 misses 2-pt jump shot from 19 ft
+408,rebound,,,115.0,131.0,,,,,,,,,,,offensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,3:58.0 115-131 Offensive rebound by clarkbr01
+409,fg_make,,,115.0,133.0,2.0,clarkbr01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:58.0 115-133 +2 clarkbr01 makes 2-pt layup at rim
+410,turnover,,,115.0,133.0,,,,,,,,,,,,,,,,,mccolcj01,bad pass; steal by clarkbr01,clarkbr01,,,,,,,,,,,,,3:50.0 Turnover by mccolcj01 (bad pass; steal by clarkbr01 ) 115-133
+411,fg_miss,,,115.0,133.0,,clarkbr01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:40.0 115-133 clarkbr01 misses 2-pt jump shot from 6 ft
+412,rebound,,,115.0,133.0,,,,,,,,,,,defensive,murrade01,False,,,,,,,,,,,,,,,,,,,3:36.0 Defensive rebound by murrade01 115-133
+413,fg_make,,,118.0,133.0,3.0,murrade01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:29.0 murrade01 makes 3-pt jump shot from 26 ft +3 118-133
+414,fg_miss,,,118.0,133.0,,pippesc02,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:04.0 118-133 pippesc02 misses 3-pt jump shot from 22 ft
+415,rebound,,,118.0,133.0,,,,,,,,,,,offensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,3:03.0 118-133 Offensive rebound by clarkbr01
+416,fg_miss,,,118.0,133.0,,clarkbr01,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:01.0 118-133 clarkbr01 misses 2-pt hook shot from 7 ft
+417,rebound,,,118.0,133.0,,,,,,,,,,,offensive,jacksgg01,False,,,,,,,,,,,,,,,,,,,2:58.0 118-133 Offensive rebound by jacksgg01
+418,fg_miss,,,118.0,133.0,,jacksgg01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:56.0 118-133 jacksgg01 misses 2-pt layup from 2 ft
+419,rebound,,,118.0,133.0,,,,,,,,,,,offensive,pippesc02,False,,,,,,,,,,,,,,,,,,,2:56.0 118-133 Offensive rebound by pippesc02
+420,fg_miss,,,118.0,133.0,,pippesc02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:53.0 118-133 pippesc02 misses 2-pt layup at rim
+421,rebound,,,118.0,133.0,,,,,,,,,,,offensive,konchjo01,False,,,,,,,,,,,,,,,,,,,2:52.0 118-133 Offensive rebound by konchjo01
+422,fg_miss,,,118.0,133.0,,jacksgg01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:44.0 118-133 jacksgg01 misses 3-pt jump shot from 25 ft
+423,rebound,,,118.0,133.0,,,,,,,,,,,offensive,pippesc02,False,,,,,,,,,,,,,,,,,,,2:41.0 118-133 Offensive rebound by pippesc02
+424,fg_make,,,118.0,135.0,2.0,banede01,2.0,layup,2.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 118-135 +2 banede01 makes 2-pt layup from 2 ft (assist by pippesc02 )
+425,timeout,,,118.0,135.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,New Orleans full,,,,2:39.0 New Orleans full timeout 118-135
+426,substitution,,,118.0,135.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 alvarjo01 enters the game for mccolcj01 118-135
+427,substitution,,,118.0,135.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 cainja01 enters the game for missiyv01 118-135
+428,substitution,,,118.0,135.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 matkoka01 enters the game for murphtr02 118-135
+429,substitution,,,118.0,135.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 robinje02 enters the game for murrade01 118-135
+430,fg_miss,,,118.0,135.0,,alvarjo01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 alvarjo01 misses 2-pt layup from 6 ft 118-135
+431,rebound,,,118.0,135.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:17.0 Offensive rebound by Team 118-135
+432,substitution,,,118.0,135.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:17.0 118-135 wellsja01 enters the game for banede01
+433,fg_make,,,120.0,135.0,2.0,hawkijo01,2.0,jump shot,8.0,alvarjo01,,,,,,,,,,,,,,,,,,,,,,,,,,2:15.0 hawkijo01 makes 2-pt jump shot from 8 ft (assist by alvarjo01 ) +2 120-135
+434,fg_make,,,120.0,137.0,2.0,clarkbr01,2.0,layup,2.0,wellsja01,,,,,,,,,,,,,,,,,,,,,,,,,,1:48.0 120-137 +2 clarkbr01 makes 2-pt layup from 2 ft (assist by wellsja01 )
+435,fg_make,,,123.0,137.0,3.0,alvarjo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:34.0 alvarjo01 makes 3-pt jump shot from 27 ft +3 123-137
+436,fg_miss,,,123.0,137.0,,jacksgg01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:16.0 123-137 jacksgg01 misses 2-pt layup from 4 ft
+437,rebound,,,123.0,137.0,,,,,,,,,,,defensive,matkoka01,False,,,,,,,,,,,,,,,,,,,1:10.0 Defensive rebound by matkoka01 123-137
+438,fg_make,,,126.0,137.0,3.0,hawkijo01,3.0,jump shot,24.0,alvarjo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:08.0 hawkijo01 makes 3-pt jump shot from 24 ft (assist by alvarjo01 ) +3 126-137
+439,fg_make,,,126.0,139.0,2.0,clarkbr01,2.0,jump shot,3.0,pippesc02,,,,,,,,,,,,,,,,,,,,,,,,,,0:47.0 126-139 +2 clarkbr01 makes 2-pt jump shot from 3 ft (assist by pippesc02 )
+440,fg_miss,,,126.0,139.0,,hawkijo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 hawkijo01 misses 3-pt jump shot from 26 ft 126-139
+441,rebound,,,126.0,139.0,,,,,,,,,,,defensive,clarkbr01,False,,,,,,,,,,,,,,,,,,,0:28.0 126-139 Defensive rebound by clarkbr01
+442,unknown,,,126.0,139.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),0:05.0 126-139 Turnover by Team (shot clock)
+443,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

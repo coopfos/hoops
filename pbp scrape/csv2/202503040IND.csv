@@ -1,0 +1,478 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: sengual01 vs. turnemy01 ( smithja05 gains possession)
+2,fg_make,,,2.0,0.0,2.0,sengual01,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:40.0 sengual01 makes 2-pt hook shot from 7 ft +2 2-0
+3,fg_miss,,,2.0,0.0,,turnemy01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:26.0 2-0 turnemy01 misses 3-pt jump shot from 26 ft
+4,rebound,,,2.0,0.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,11:22.0 Defensive rebound by thompam01 2-0
+5,foul,,,2.0,0.0,,,,,,,,,,,,,,shooting,turnemy01,greenja05,,,,,,,,,,,,,,,,11:10.0 Shooting foul by turnemy01 (drawn by greenja05 ) 2-0
+6,free_throw,,,2.0,0.0,,greenja05,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:10.0 greenja05 misses free throw 1 of 2 2-0
+7,rebound,,,2.0,0.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:10.0 Offensive rebound by Team 2-0
+8,free_throw,,,3.0,0.0,1.0,greenja05,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:10.0 greenja05 makes free throw 2 of 2 +1 3-0
+9,foul,,,3.0,0.0,,,,,,,,,,,,,,offensive,siakapa01,smithja05,,,,,,,,,,,,,,,,10:58.0 3-0 Offensive foul by siakapa01 (drawn by smithja05 )
+10,turnover,,,3.0,0.0,,,,,,,,,,,,,,,,,siakapa01,offensive foul,,,,,,,,,,,,,,10:58.0 3-0 Turnover by siakapa01 (offensive foul)
+11,fg_make,,,6.0,0.0,3.0,smithja05,3.0,jump shot,22.0,greenja05,,,,,,,,,,,,,,,,,,,,,,,,,,10:47.0 smithja05 makes 3-pt jump shot from 22 ft (assist by greenja05 ) +3 6-0
+12,fg_make,,,6.0,2.0,2.0,halibty01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:34.0 6-2 +2 halibty01 makes 2-pt layup from 5 ft
+13,fg_make,,,8.0,2.0,2.0,greenja05,2.0,jump shot,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:19.0 greenja05 makes 2-pt jump shot from 2 ft +2 8-2
+14,fg_make,,,8.0,5.0,3.0,nembhan01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:00.0 8-5 +3 nembhan01 makes 3-pt jump shot from 27 ft
+15,foul,,,8.0,5.0,,,,,,,,,,,,,,offensive,brookdi01,halibty01,,,,,,,,,,,,,,,,9:40.0 Offensive foul by brookdi01 (drawn by halibty01 ) 8-5
+16,turnover,,,8.0,5.0,,,,,,,,,,,,,,,,,brookdi01,offensive foul,,,,,,,,,,,,,,9:40.0 Turnover by brookdi01 (offensive foul) 8-5
+17,fg_miss,,,8.0,5.0,,halibty01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:30.0 8-5 halibty01 misses 2-pt jump shot from 17 ft
+18,rebound,,,8.0,5.0,,,,,,,,,,,defensive,greenja05,False,,,,,,,,,,,,,,,,,,,9:27.0 Defensive rebound by greenja05 8-5
+19,fg_miss,,,8.0,5.0,,brookdi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:19.0 brookdi01 misses 3-pt jump shot from 26 ft 8-5
+20,rebound,,,8.0,5.0,,,,,,,,,,,defensive,nembhan01,False,,,,,,,,,,,,,,,,,,,9:15.0 8-5 Defensive rebound by nembhan01
+21,fg_make,,,8.0,7.0,2.0,siakapa01,2.0,layup,3.0,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,,9:12.0 8-7 +2 siakapa01 makes 2-pt layup from 3 ft (assist by nembhan01 )
+22,foul,,,8.0,7.0,,,,,,,,,,,,,,personal,turnemy01,sengual01,,,,,,,,,,,,,,,,9:04.0 Personal foul by turnemy01 (drawn by sengual01 ) 8-7
+23,substitution,,,8.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:04.0 8-7 bryanth01 enters the game for turnemy01
+24,fg_make,,,11.0,7.0,3.0,greenja05,3.0,jump shot,26.0,sengual01,,,,,,,,,,,,,,,,,,,,,,,,,,8:57.0 greenja05 makes 3-pt jump shot from 26 ft (assist by sengual01 ) +3 11-7
+25,fg_miss,,,11.0,7.0,,halibty01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:41.0 11-7 halibty01 misses 2-pt jump shot from 16 ft
+26,rebound,,,11.0,7.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,8:38.0 Defensive rebound by thompam01 11-7
+27,fg_make,,,13.0,7.0,2.0,thompam01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:33.0 thompam01 makes 2-pt layup from 2 ft +2 13-7
+28,timeout,,,13.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indiana full,,,,8:31.0 13-7 Indiana full timeout
+29,fg_miss,,,13.0,7.0,,siakapa01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:15.0 13-7 siakapa01 misses 3-pt jump shot from 27 ft
+30,rebound,,,13.0,7.0,,,,,,,,,,,offensive,bryanth01,False,,,,,,,,,,,,,,,,,,,8:12.0 13-7 Offensive rebound by bryanth01
+31,foul,,,13.0,7.0,,,,,,,,,,,,,,shooting,sengual01,halibty01,,,,,,,,,,,,,,,,8:07.0 13-7 Shooting foul by sengual01 (drawn by halibty01 )
+32,free_throw,,,13.0,8.0,1.0,halibty01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:07.0 13-8 +1 halibty01 makes free throw 1 of 2
+33,free_throw,,,13.0,9.0,1.0,halibty01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:07.0 13-9 +1 halibty01 makes free throw 2 of 2
+34,fg_make,,,15.0,9.0,2.0,sengual01,2.0,hook shot,9.0,brookdi01,,,,,,,,,,,,,,,,,,,,,,,,,,7:54.0 sengual01 makes 2-pt hook shot from 9 ft (assist by brookdi01 ) +2 15-9
+35,fg_make,,,15.0,11.0,2.0,bryanth01,2.0,layup,3.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,7:35.0 15-11 +2 bryanth01 makes 2-pt layup from 3 ft (assist by halibty01 )
+36,fg_miss,,,15.0,11.0,,thompam01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:12.0 thompam01 misses 3-pt jump shot from 23 ft 15-11
+37,rebound,,,15.0,11.0,,,,,,,,,,,offensive,smithja05,False,,,,,,,,,,,,,,,,,,,7:11.0 Offensive rebound by smithja05 15-11
+38,fg_make,,,17.0,11.0,2.0,smithja05,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:04.0 smithja05 makes 2-pt jump shot from 14 ft +2 17-11
+39,fg_miss,,,17.0,11.0,,nesmiaa01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:44.0 17-11 nesmiaa01 misses 2-pt jump shot from 9 ft
+40,rebound,,,17.0,11.0,,,,,,,,,,,defensive,smithja05,False,,,,,,,,,,,,,,,,,,,6:42.0 Defensive rebound by smithja05 17-11
+41,fg_miss,,,17.0,11.0,,sengual01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:29.0 sengual01 misses 2-pt jump shot from 16 ft 17-11
+42,rebound,,,17.0,11.0,,,,,,,,,,,defensive,bryanth01,False,,,,,,,,,,,,,,,,,,,6:26.0 17-11 Defensive rebound by bryanth01
+43,fg_make,,,17.0,13.0,2.0,nesmiaa01,2.0,layup,3.0,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,,6:19.0 17-13 +2 nesmiaa01 makes 2-pt layup from 3 ft (assist by nembhan01 )
+44,fg_make,,,19.0,13.0,2.0,sengual01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 sengual01 makes 2-pt layup from 3 ft +2 19-13
+45,fg_make,,,19.0,16.0,3.0,bryanth01,3.0,jump shot,25.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 19-16 +3 bryanth01 makes 3-pt jump shot from 25 ft (assist by halibty01 )
+46,substitution,,,19.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 easonta01 enters the game for smithja05 19-16
+47,substitution,,,19.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 sheppre01 enters the game for thompam01 19-16
+48,substitution,,,19.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 19-16 toppiob01 enters the game for siakapa01
+49,unknown,,,19.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by sengual01,5:27.0 Technical foul by sengual01 19-16
+50,unknown,,,19.0,17.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,halibty01 makes technical free throw,5:27.0 19-17 +1 halibty01 makes technical free throw
+51,fg_make,,,21.0,17.0,2.0,sengual01,2.0,jump shot,15.0,brookdi01,,,,,,,,,,,,,,,,,,,,,,,,,,5:22.0 sengual01 makes 2-pt jump shot from 15 ft (assist by brookdi01 ) +2 21-17
+52,fg_miss,,,21.0,17.0,,halibty01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:12.0 21-17 halibty01 misses 2-pt jump shot from 21 ft
+53,rebound,,,21.0,17.0,,,,,,,,,,,defensive,easonta01,False,,,,,,,,,,,,,,,,,,,5:08.0 Defensive rebound by easonta01 21-17
+54,fg_miss,,,21.0,17.0,,easonta01,2.0,layup,5.0,,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,5:01.0 easonta01 misses 2-pt layup from 5 ft (block by nembhan01 ) 21-17
+55,rebound,,,21.0,17.0,,,,,,,,,,,offensive,brookdi01,False,,,,,,,,,,,,,,,,,,,4:59.0 Offensive rebound by brookdi01 21-17
+56,fg_miss,,,21.0,17.0,,brookdi01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:57.0 brookdi01 misses 2-pt layup from 5 ft 21-17
+57,rebound,,,21.0,17.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,4:57.0 Offensive rebound by easonta01 21-17
+58,fg_miss,,,21.0,17.0,,sheppre01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:53.0 sheppre01 misses 3-pt jump shot from 22 ft 21-17
+59,rebound,,,21.0,17.0,,,,,,,,,,,defensive,nembhan01,False,,,,,,,,,,,,,,,,,,,4:51.0 21-17 Defensive rebound by nembhan01
+60,fg_miss,,,21.0,17.0,,nesmiaa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:48.0 21-17 nesmiaa01 misses 3-pt jump shot from 26 ft
+61,rebound,,,21.0,17.0,,,,,,,,,,,offensive,toppiob01,False,,,,,,,,,,,,,,,,,,,4:44.0 21-17 Offensive rebound by toppiob01
+62,fg_make,,,21.0,20.0,3.0,halibty01,3.0,jump shot,23.0,toppiob01,,,,,,,,,,,,,,,,,,,,,,,,,,4:43.0 21-20 +3 halibty01 makes 3-pt jump shot from 23 ft (assist by toppiob01 )
+63,fg_miss,,,21.0,20.0,,greenja05,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 greenja05 misses 2-pt layup from 1 ft 21-20
+64,rebound,,,21.0,20.0,,,,,,,,,,,defensive,nesmiaa01,False,,,,,,,,,,,,,,,,,,,4:26.0 21-20 Defensive rebound by nesmiaa01
+65,fg_make,,,21.0,23.0,3.0,toppiob01,3.0,jump shot,23.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,4:23.0 21-23 +3 toppiob01 makes 3-pt jump shot from 23 ft (assist by halibty01 )
+66,turnover,,,21.0,23.0,,,,,,,,,,,,,,,,,greenja05,lost ball; steal by nembhan01,nembhan01,,,,,,,,,,,,,4:03.0 Turnover by greenja05 (lost ball; steal by nembhan01 ) 21-23
+67,turnover,,,21.0,23.0,,,,,,,,,,,,,,,,,toppiob01,bad pass; steal by sheppre01,sheppre01,,,,,,,,,,,,,4:00.0 21-23 Turnover by toppiob01 (bad pass; steal by sheppre01 )
+68,fg_make,,,23.0,23.0,2.0,brookdi01,2.0,layup,3.0,sheppre01,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 brookdi01 makes 2-pt layup from 3 ft (assist by sheppre01 ) +2 23-23
+69,fg_miss,,,23.0,23.0,,halibty01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 23-23 halibty01 misses 3-pt jump shot from 27 ft
+70,rebound,,,23.0,23.0,,,,,,,,,,,defensive,brookdi01,False,,,,,,,,,,,,,,,,,,,3:37.0 Defensive rebound by brookdi01 23-23
+71,fg_make,,,25.0,23.0,2.0,easonta01,2.0,jump shot,11.0,sengual01,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 easonta01 makes 2-pt jump shot from 11 ft (assist by sengual01 ) +2 25-23
+72,foul,,,25.0,23.0,,,,,,,,,,,,,,personal,greenja05,nembhan01,,,,,,,,,,,,,,,,3:20.0 25-23 Personal foul by greenja05 (drawn by nembhan01 )
+73,substitution,,,25.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:20.0 thompam01 enters the game for brookdi01 25-23
+74,substitution,,,25.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:20.0 25-23 mccontj01 enters the game for nembhan01
+75,fg_miss,,,25.0,23.0,,nesmiaa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 25-23 nesmiaa01 misses 3-pt jump shot from 26 ft
+76,rebound,,,25.0,23.0,,,,,,,,,,,defensive,greenja05,False,,,,,,,,,,,,,,,,,,,3:06.0 Defensive rebound by greenja05 25-23
+77,fg_miss,,,25.0,23.0,,sengual01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:55.0 sengual01 misses 2-pt jump shot from 9 ft 25-23
+78,rebound,,,25.0,23.0,,,,,,,,,,,defensive,toppiob01,False,,,,,,,,,,,,,,,,,,,2:53.0 25-23 Defensive rebound by toppiob01
+79,fg_make,,,25.0,25.0,2.0,bryanth01,2.0,layup,3.0,mccontj01,,,,,,,,,,,,,,,,,,,,,,,,,,2:44.0 25-25 +2 bryanth01 makes 2-pt layup from 3 ft (assist by mccontj01 )
+80,timeout,,,25.0,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Houston full,,,,2:43.0 Houston full timeout 25-25
+81,substitution,,,25.0,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 adamsst01 enters the game for greenja05 25-25
+82,substitution,,,25.0,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 smithja05 enters the game for sengual01 25-25
+83,substitution,,,25.0,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 25-25 sheppbe01 enters the game for halibty01
+84,fg_miss,,,25.0,25.0,,smithja05,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:27.0 smithja05 misses 3-pt jump shot from 26 ft 25-25
+85,rebound,,,25.0,25.0,,,,,,,,,,,defensive,sheppbe01,False,,,,,,,,,,,,,,,,,,,2:22.0 25-25 Defensive rebound by sheppbe01
+86,foul,,,25.0,25.0,,,,,,,,,,,,,,personal,smithja05,bryanth01,,,,,,,,,,,,,,,,2:12.0 25-25 Personal foul by smithja05 (drawn by bryanth01 )
+87,substitution,,,25.0,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:12.0 25-25 walkeja02 enters the game for nesmiaa01
+88,fg_miss,,,25.0,25.0,,sheppbe01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 25-25 sheppbe01 misses 3-pt jump shot from 25 ft
+89,rebound,,,25.0,25.0,,,,,,,,,,,defensive,smithja05,False,,,,,,,,,,,,,,,,,,,1:59.0 Defensive rebound by smithja05 25-25
+90,foul,,,25.0,25.0,,,,,,,,,,,,,,shooting,mccontj01,thompam01,,,,,,,,,,,,,,,,1:49.0 Shooting foul by mccontj01 (drawn by thompam01 ) 25-25
+91,free_throw,,,26.0,25.0,1.0,thompam01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:49.0 thompam01 makes free throw 1 of 2 +1 26-25
+92,free_throw,,,27.0,25.0,1.0,thompam01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:49.0 thompam01 makes free throw 2 of 2 +1 27-25
+93,fg_make,,,27.0,28.0,3.0,bryanth01,3.0,jump shot,25.0,mccontj01,,,,,,,,,,,,,,,,,,,,,,,,,,1:33.0 27-28 +3 bryanth01 makes 3-pt jump shot from 25 ft (assist by mccontj01 )
+94,fg_miss,,,27.0,28.0,,easonta01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:15.0 easonta01 misses 3-pt jump shot from 25 ft 27-28
+95,rebound,,,27.0,28.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,1:12.0 Offensive rebound by easonta01 27-28
+96,foul,,,27.0,28.0,,,,,,,,,,,,,,offensive,easonta01,bryanth01,,,,,,,,,,,,,,,,1:11.0 Offensive foul by easonta01 (drawn by bryanth01 ) 27-28
+97,turnover,,,27.0,28.0,,,,,,,,,,,,,,,,,easonta01,offensive foul,,,,,,,,,,,,,,1:11.0 Turnover by easonta01 (offensive foul) 27-28
+98,fg_make,,,27.0,30.0,2.0,walkeja02,2.0,jump shot,18.0,mccontj01,,,,,,,,,,,,,,,,,,,,,,,,,,0:48.0 27-30 +2 walkeja02 makes 2-pt jump shot from 18 ft (assist by mccontj01 )
+99,fg_make,,,30.0,30.0,3.0,easonta01,3.0,jump shot,27.0,thompam01,,,,,,,,,,,,,,,,,,,,,,,,,,0:36.0 easonta01 makes 3-pt jump shot from 27 ft (assist by thompam01 ) +3 30-30
+100,turnover,,,30.0,30.0,,,,,,,,,,,,,,,,,walkeja02,traveling,,,,,,,,,,,,,,0:26.0 30-30 Turnover by walkeja02 (traveling)
+101,substitution,,,30.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 greenja05 enters the game for adamsst01 30-30
+102,fg_miss,,,30.0,30.0,,greenja05,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:05.0 greenja05 misses 3-pt jump shot from 28 ft 30-30
+103,rebound,,,30.0,30.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:01.0 Offensive rebound by Team 30-30
+104,fg_miss,,,30.0,30.0,,smithja05,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 smithja05 misses 2-pt jump shot from 19 ft 30-30
+105,rebound,,,30.0,30.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:01.0 Offensive rebound by Team 30-30
+106,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+107,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+108,fg_make,,,30.0,32.0,2.0,siakapa01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:41.0 30-32 +2 siakapa01 makes 2-pt jump shot from 14 ft
+109,fg_make,,,32.0,32.0,2.0,thompam01,2.0,layup,3.0,adamsst01,,,,,,,,,,,,,,,,,,,,,,,,,,11:20.0 thompam01 makes 2-pt layup from 3 ft (assist by adamsst01 ) +2 32-32
+110,fg_make,,,32.0,34.0,2.0,siakapa01,2.0,jump shot,7.0,bryanth01,,,,,,,,,,,,,,,,,,,,,,,,,,11:07.0 32-34 +2 siakapa01 makes 2-pt jump shot from 7 ft (assist by bryanth01 )
+111,fg_miss,,,32.0,34.0,,thompam01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 thompam01 misses 3-pt jump shot from 26 ft 32-34
+112,rebound,,,32.0,34.0,,,,,,,,,,,offensive,adamsst01,False,,,,,,,,,,,,,,,,,,,10:39.0 Offensive rebound by adamsst01 32-34
+113,fg_make,,,34.0,34.0,2.0,adamsst01,2.0,dunk,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:36.0 adamsst01 makes 2-pt dunk from 3 ft +2 34-34
+114,fg_make,,,34.0,36.0,2.0,siakapa01,2.0,dunk,2.0,walkeja02,,,,,,,,,,,,,,,,,,,,,,,,,,10:23.0 34-36 +2 siakapa01 makes 2-pt dunk from 2 ft (assist by walkeja02 )
+115,fg_miss,,,34.0,36.0,,whitmca01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:03.0 whitmca01 misses 2-pt jump shot from 17 ft 34-36
+116,rebound,,,34.0,36.0,,,,,,,,,,,defensive,sheppbe01,False,,,,,,,,,,,,,,,,,,,9:59.0 34-36 Defensive rebound by sheppbe01
+117,fg_miss,,,34.0,36.0,,bryanth01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:52.0 34-36 bryanth01 misses 3-pt jump shot from 26 ft
+118,rebound,,,34.0,36.0,,,,,,,,,,,defensive,whitmca01,False,,,,,,,,,,,,,,,,,,,9:50.0 Defensive rebound by whitmca01 34-36
+119,fg_miss,,,34.0,36.0,,adamsst01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:38.0 adamsst01 misses 2-pt jump shot from 5 ft 34-36
+120,rebound,,,34.0,36.0,,,,,,,,,,,offensive,thompam01,False,,,,,,,,,,,,,,,,,,,9:36.0 Offensive rebound by thompam01 34-36
+121,fg_miss,,,34.0,36.0,,thompam01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 thompam01 misses 2-pt layup at rim 34-36
+122,rebound,,,34.0,36.0,,,,,,,,,,,defensive,bryanth01,False,,,,,,,,,,,,,,,,,,,9:36.0 34-36 Defensive rebound by bryanth01
+123,fg_miss,,,34.0,36.0,,siakapa01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:25.0 34-36 siakapa01 misses 3-pt jump shot from 23 ft
+124,rebound,,,34.0,36.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,9:22.0 Defensive rebound by thompam01 34-36
+125,fg_make,,,37.0,36.0,3.0,smithja05,3.0,jump shot,26.0,thompam01,,,,,,,,,,,,,,,,,,,,,,,,,,9:17.0 smithja05 makes 3-pt jump shot from 26 ft (assist by thompam01 ) +3 37-36
+126,timeout,,,37.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indiana full,,,,9:14.0 37-36 Indiana full timeout
+127,substitution,,,37.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:14.0 greenja05 enters the game for easonta01 37-36
+128,substitution,,,37.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:14.0 sheppre01 enters the game for thompam01 37-36
+129,substitution,,,37.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:14.0 37-36 turnemy01 enters the game for bryanth01
+130,fg_make,,,37.0,38.0,2.0,mccontj01,2.0,layup,4.0,sheppbe01,,,,,,,,,,,,,,,,,,,,,,,,,,9:03.0 37-38 +2 mccontj01 makes 2-pt layup from 4 ft (assist by sheppbe01 )
+131,turnover,,,37.0,38.0,,,,,,,,,,,,,,,,,greenja05,lost ball; steal by sheppbe01,sheppbe01,,,,,,,,,,,,,8:53.0 Turnover by greenja05 (lost ball; steal by sheppbe01 ) 37-38
+132,fg_make,,,37.0,40.0,2.0,siakapa01,2.0,layup,1.0,sheppbe01,,,,,,,,,,,,,,,,,,,,,,,,,,8:49.0 37-40 +2 siakapa01 makes 2-pt layup from 1 ft (assist by sheppbe01 )
+133,fg_make,,,39.0,40.0,2.0,smithja05,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 smithja05 makes 2-pt layup from 3 ft +2 39-40
+134,fg_miss,,,39.0,40.0,,turnemy01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:10.0 39-40 turnemy01 misses 3-pt jump shot from 26 ft
+135,rebound,,,39.0,40.0,,,,,,,,,,,offensive,mccontj01,False,,,,,,,,,,,,,,,,,,,8:08.0 39-40 Offensive rebound by mccontj01
+136,fg_miss,,,39.0,40.0,,siakapa01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:02.0 39-40 siakapa01 misses 2-pt jump shot from 8 ft
+137,rebound,,,39.0,40.0,,,,,,,,,,,defensive,sheppre01,False,,,,,,,,,,,,,,,,,,,8:00.0 Defensive rebound by sheppre01 39-40
+138,foul,,,39.0,40.0,,,,,,,,,,,,,,shooting,walkeja02,sheppre01,,,,,,,,,,,,,,,,7:56.0 Shooting foul by walkeja02 (drawn by sheppre01 ) 39-40
+139,free_throw,,,39.0,40.0,,sheppre01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:56.0 sheppre01 misses free throw 1 of 2 39-40
+140,rebound,,,39.0,40.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:56.0 Offensive rebound by Team 39-40
+141,substitution,,,39.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 sengual01 enters the game for adamsst01 39-40
+142,substitution,,,39.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 39-40 halibty01 enters the game for mccontj01
+143,substitution,,,39.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 39-40 nembhan01 enters the game for sheppbe01
+144,substitution,,,39.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 39-40 nesmiaa01 enters the game for siakapa01
+145,substitution,,,39.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 39-40 toppiob01 enters the game for walkeja02
+146,free_throw,,,39.0,40.0,,sheppre01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:56.0 sheppre01 misses free throw 2 of 2 39-40
+147,rebound,,,39.0,40.0,,,,,,,,,,,defensive,nesmiaa01,False,,,,,,,,,,,,,,,,,,,7:54.0 39-40 Defensive rebound by nesmiaa01
+148,fg_make,,,39.0,43.0,3.0,turnemy01,3.0,jump shot,24.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,7:41.0 39-43 +3 turnemy01 makes 3-pt jump shot from 24 ft (assist by halibty01 )
+149,fg_make,,,42.0,43.0,3.0,whitmca01,3.0,jump shot,23.0,sheppre01,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 whitmca01 makes 3-pt jump shot from 23 ft (assist by sheppre01 ) +3 42-43
+150,fg_make,,,42.0,45.0,2.0,nesmiaa01,2.0,jump shot,12.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 42-45 +2 nesmiaa01 makes 2-pt jump shot from 12 ft (assist by halibty01 )
+151,fg_miss,,,42.0,45.0,,greenja05,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:02.0 greenja05 misses 2-pt layup from 2 ft 42-45
+152,rebound,,,42.0,45.0,,,,,,,,,,,defensive,nembhan01,False,,,,,,,,,,,,,,,,,,,7:01.0 42-45 Defensive rebound by nembhan01
+153,foul,,,42.0,45.0,,,,,,,,,,,,,,shooting,sheppre01,toppiob01,,,,,,,,,,,,,,,,6:57.0 42-45 Shooting foul by sheppre01 (drawn by toppiob01 )
+154,free_throw,,,42.0,46.0,1.0,toppiob01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:57.0 42-46 +1 toppiob01 makes free throw 1 of 2
+155,substitution,,,42.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:57.0 brookdi01 enters the game for smithja05 42-46
+156,substitution,,,42.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:57.0 easonta01 enters the game for whitmca01 42-46
+157,free_throw,,,42.0,47.0,1.0,toppiob01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:57.0 42-47 +1 toppiob01 makes free throw 2 of 2
+158,fg_miss,,,42.0,47.0,,sengual01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:45.0 sengual01 misses 2-pt jump shot from 7 ft 42-47
+159,rebound,,,42.0,47.0,,,,,,,,,,,defensive,turnemy01,False,,,,,,,,,,,,,,,,,,,6:42.0 42-47 Defensive rebound by turnemy01
+160,fg_make,,,42.0,50.0,3.0,halibty01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:37.0 42-50 +3 halibty01 makes 3-pt jump shot from 25 ft
+161,timeout,,,42.0,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Houston full,,,,6:35.0 Houston full timeout 42-50
+162,substitution,,,42.0,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:35.0 thompam01 enters the game for sheppre01 42-50
+163,fg_miss,,,42.0,50.0,,brookdi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:19.0 brookdi01 misses 3-pt jump shot from 25 ft 42-50
+164,rebound,,,42.0,50.0,,,,,,,,,,,defensive,toppiob01,False,,,,,,,,,,,,,,,,,,,6:16.0 42-50 Defensive rebound by toppiob01
+165,fg_make,,,42.0,53.0,3.0,toppiob01,3.0,jump shot,22.0,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,,5:59.0 42-53 +3 toppiob01 makes 3-pt jump shot from 22 ft (assist by nembhan01 )
+166,fg_make,,,44.0,53.0,2.0,sengual01,2.0,hook shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 sengual01 makes 2-pt hook shot from 8 ft +2 44-53
+167,foul,,,44.0,53.0,,,,,,,,,,,,,,offensive,toppiob01,thompam01,,,,,,,,,,,,,,,,5:28.0 44-53 Offensive foul by toppiob01 (drawn by thompam01 )
+168,turnover,,,44.0,53.0,,,,,,,,,,,,,,,,,toppiob01,offensive foul,,,,,,,,,,,,,,5:28.0 44-53 Turnover by toppiob01 (offensive foul)
+169,substitution,,,44.0,53.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:28.0 44-53 siakapa01 enters the game for toppiob01
+170,fg_make,,,46.0,53.0,2.0,easonta01,2.0,jump shot,9.0,greenja05,,,,,,,,,,,,,,,,,,,,,,,,,,5:04.0 easonta01 makes 2-pt jump shot from 9 ft (assist by greenja05 ) +2 46-53
+171,fg_miss,,,46.0,53.0,,nesmiaa01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:49.0 46-53 nesmiaa01 misses 3-pt jump shot from 24 ft
+172,rebound,,,46.0,53.0,,,,,,,,,,,defensive,sengual01,False,,,,,,,,,,,,,,,,,,,4:47.0 Defensive rebound by sengual01 46-53
+173,fg_miss,,,46.0,53.0,,greenja05,2.0,jump shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 greenja05 misses 2-pt jump shot from 3 ft 46-53
+174,rebound,,,46.0,53.0,,,,,,,,,,,defensive,turnemy01,False,,,,,,,,,,,,,,,,,,,4:38.0 46-53 Defensive rebound by turnemy01
+175,fg_miss,,,46.0,53.0,,nembhan01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 46-53 nembhan01 misses 2-pt jump shot from 21 ft
+176,rebound,,,46.0,53.0,,,,,,,,,,,defensive,greenja05,False,,,,,,,,,,,,,,,,,,,4:29.0 Defensive rebound by greenja05 46-53
+177,fg_make,,,48.0,53.0,2.0,greenja05,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:19.0 greenja05 makes 2-pt jump shot from 12 ft +2 48-53
+178,fg_make,,,48.0,55.0,2.0,nesmiaa01,2.0,layup,2.0,turnemy01,,,,,,,,,,,,,,,,,,,,,,,,,,4:06.0 48-55 +2 nesmiaa01 makes 2-pt layup from 2 ft (assist by turnemy01 )
+179,fg_miss,,,48.0,55.0,,brookdi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 brookdi01 misses 3-pt jump shot from 25 ft 48-55
+180,rebound,,,48.0,55.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,3:47.0 Offensive rebound by easonta01 48-55
+181,turnover,,,48.0,55.0,,,,,,,,,,,,,,,,,sengual01,bad pass; steal by nesmiaa01,nesmiaa01,,,,,,,,,,,,,3:39.0 Turnover by sengual01 (bad pass; steal by nesmiaa01 ) 48-55
+182,fg_miss,,,48.0,55.0,,nembhan01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:30.0 48-55 nembhan01 misses 2-pt jump shot from 11 ft
+183,rebound,,,48.0,55.0,,,,,,,,,,,defensive,easonta01,False,,,,,,,,,,,,,,,,,,,3:26.0 Defensive rebound by easonta01 48-55
+184,foul,,,48.0,55.0,,,,,,,,,,,,,,shooting,nesmiaa01,greenja05,,,,,,,,,,,,,,,,3:15.0 Shooting foul by nesmiaa01 (drawn by greenja05 ) 48-55
+185,free_throw,,,49.0,55.0,1.0,greenja05,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:15.0 greenja05 makes free throw 1 of 2 +1 49-55
+186,substitution,,,49.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 smithja05 enters the game for easonta01 49-55
+187,free_throw,,,49.0,55.0,,greenja05,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:15.0 greenja05 misses free throw 2 of 2 49-55
+188,rebound,,,49.0,55.0,,,,,,,,,,,defensive,halibty01,False,,,,,,,,,,,,,,,,,,,3:13.0 49-55 Defensive rebound by halibty01
+189,fg_miss,,,49.0,55.0,,siakapa01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:05.0 49-55 siakapa01 misses 3-pt jump shot from 23 ft
+190,rebound,,,49.0,55.0,,,,,,,,,,,defensive,sengual01,False,,,,,,,,,,,,,,,,,,,3:01.0 Defensive rebound by sengual01 49-55
+191,fg_miss,,,49.0,55.0,,greenja05,2.0,layup,6.0,,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,2:50.0 greenja05 misses 2-pt layup from 6 ft (block by nembhan01 ) 49-55
+192,rebound,,,49.0,55.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,2:50.0 49-55 Defensive rebound by Team
+193,fg_make,,,49.0,58.0,3.0,halibty01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 49-58 +3 halibty01 makes 3-pt jump shot from 28 ft
+194,fg_make,,,51.0,58.0,2.0,sengual01,2.0,layup,9.0,thompam01,,,,,,,,,,,,,,,,,,,,,,,,,,2:28.0 sengual01 makes 2-pt layup from 9 ft (assist by thompam01 ) +2 51-58
+195,fg_miss,,,51.0,58.0,,turnemy01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:10.0 51-58 turnemy01 misses 2-pt layup from 3 ft
+196,rebound,,,51.0,58.0,,,,,,,,,,,defensive,sengual01,False,,,,,,,,,,,,,,,,,,,2:09.0 Defensive rebound by sengual01 51-58
+197,fg_make,,,54.0,58.0,3.0,brookdi01,3.0,jump shot,25.0,sengual01,,,,,,,,,,,,,,,,,,,,,,,,,,2:06.0 brookdi01 makes 3-pt jump shot from 25 ft (assist by sengual01 ) +3 54-58
+198,timeout,,,54.0,58.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indiana full,,,,2:03.0 54-58 Indiana full timeout
+199,substitution,,,54.0,58.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 54-58 bryanth01 enters the game for turnemy01
+200,turnover,,,54.0,58.0,,,,,,,,,,,,,,,,,bryanth01,bad pass; steal by greenja05,greenja05,,,,,,,,,,,,,1:46.0 54-58 Turnover by bryanth01 (bad pass; steal by greenja05 )
+201,fg_miss,,,54.0,58.0,,thompam01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:42.0 thompam01 misses 2-pt layup from 3 ft 54-58
+202,rebound,,,54.0,58.0,,,,,,,,,,,offensive,sengual01,False,,,,,,,,,,,,,,,,,,,1:40.0 Offensive rebound by sengual01 54-58
+203,fg_miss,,,54.0,58.0,,sengual01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:40.0 sengual01 misses 2-pt layup at rim 54-58
+204,rebound,,,54.0,58.0,,,,,,,,,,,offensive,sengual01,False,,,,,,,,,,,,,,,,,,,1:37.0 Offensive rebound by sengual01 54-58
+205,fg_make,,,56.0,58.0,2.0,sengual01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:37.0 sengual01 makes 2-pt layup at rim +2 56-58
+206,fg_make,,,56.0,60.0,2.0,siakapa01,2.0,dunk,2.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,1:19.0 56-60 +2 siakapa01 makes 2-pt dunk from 2 ft (assist by halibty01 )
+207,fg_miss,,,56.0,60.0,,thompam01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:59.0 thompam01 misses 2-pt jump shot from 11 ft 56-60
+208,rebound,,,56.0,60.0,,,,,,,,,,,defensive,bryanth01,False,,,,,,,,,,,,,,,,,,,0:58.0 56-60 Defensive rebound by bryanth01
+209,fg_make,,,56.0,62.0,2.0,halibty01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 56-62 +2 halibty01 makes 2-pt layup from 5 ft
+210,fg_miss,,,56.0,62.0,,brookdi01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 brookdi01 misses 2-pt jump shot from 11 ft 56-62
+211,rebound,,,56.0,62.0,,,,,,,,,,,defensive,halibty01,False,,,,,,,,,,,,,,,,,,,0:38.0 56-62 Defensive rebound by halibty01
+212,fg_make,,,56.0,65.0,3.0,halibty01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 56-65 +3 halibty01 makes 3-pt jump shot from 27 ft
+213,foul,,,56.0,65.0,,,,,,,,,,,,,,shooting,bryanth01,sengual01,,,,,,,,,,,,,,,,0:15.0 Shooting foul by bryanth01 (drawn by sengual01 ) 56-65
+214,free_throw,,,56.0,65.0,,sengual01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:15.0 sengual01 misses free throw 1 of 2 56-65
+215,rebound,,,56.0,65.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:15.0 Offensive rebound by Team 56-65
+216,substitution,,,56.0,65.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:15.0 easonta01 enters the game for greenja05 56-65
+217,free_throw,,,57.0,65.0,1.0,sengual01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:15.0 sengual01 makes free throw 2 of 2 +1 57-65
+218,unknown,,,57.0,65.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by thompam01 (drawn by halibty01 ),0:07.0 57-65 Personal take foul by thompam01 (drawn by halibty01 )
+219,substitution,,,57.0,65.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:07.0 whitmca01 enters the game for sengual01 57-65
+220,foul,,,57.0,65.0,,,,,,,,,,,,,,shooting,smithja05,halibty01,,,,,,,,,,,,,,,,0:03.0 57-65 Shooting foul by smithja05 (drawn by halibty01 )
+221,free_throw,,,57.0,66.0,1.0,halibty01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:03.0 57-66 +1 halibty01 makes free throw 1 of 2
+222,substitution,,,57.0,66.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 57-66 toppiob01 enters the game for bryanth01
+223,free_throw,,,57.0,67.0,1.0,halibty01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:03.0 57-67 +1 halibty01 makes free throw 2 of 2
+224,fg_miss,,,57.0,67.0,,brookdi01,3.0,jump shot,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 brookdi01 misses 3-pt jump shot from 34 ft 57-67
+225,rebound,,,57.0,67.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:01.0 Offensive rebound by Team 57-67
+226,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+227,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+228,foul,,,57.0,67.0,,,,,,,,,,,,,,personal,greenja05,turnemy01,,,,,,,,,,,,,,,,11:39.0 57-67 Personal foul by greenja05 (drawn by turnemy01 )
+229,fg_make,,,57.0,69.0,2.0,turnemy01,2.0,jump shot,13.0,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,,11:31.0 57-69 +2 turnemy01 makes 2-pt jump shot from 13 ft (assist by nembhan01 )
+230,fg_miss,,,57.0,69.0,,thompam01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:06.0 thompam01 misses 3-pt jump shot from 23 ft 57-69
+231,rebound,,,57.0,69.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:03.0 Offensive rebound by Team 57-69
+232,fg_make,,,59.0,69.0,2.0,sengual01,2.0,hook shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:57.0 sengual01 makes 2-pt hook shot from 4 ft +2 59-69
+233,turnover,,,59.0,69.0,,,,,,,,,,,,,,,,,turnemy01,bad pass; steal by brookdi01,brookdi01,,,,,,,,,,,,,10:43.0 59-69 Turnover by turnemy01 (bad pass; steal by brookdi01 )
+234,fg_miss,,,59.0,69.0,,brookdi01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:39.0 brookdi01 misses 2-pt layup from 3 ft 59-69
+235,rebound,,,59.0,69.0,,,,,,,,,,,offensive,smithja05,False,,,,,,,,,,,,,,,,,,,10:36.0 Offensive rebound by smithja05 59-69
+236,foul,,,59.0,69.0,,,,,,,,,,,,,,shooting,turnemy01,brookdi01,,,,,,,,,,,,,,,,10:32.0 Shooting foul by turnemy01 (drawn by brookdi01 ) 59-69
+237,free_throw,,,60.0,69.0,1.0,brookdi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:32.0 brookdi01 makes free throw 1 of 2 +1 60-69
+238,free_throw,,,61.0,69.0,1.0,brookdi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:32.0 brookdi01 makes free throw 2 of 2 +1 61-69
+239,fg_miss,,,61.0,69.0,,halibty01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:22.0 61-69 halibty01 misses 3-pt jump shot from 28 ft
+240,rebound,,,61.0,69.0,,,,,,,,,,,defensive,sengual01,False,,,,,,,,,,,,,,,,,,,10:18.0 Defensive rebound by sengual01 61-69
+241,fg_make,,,63.0,69.0,2.0,sengual01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 sengual01 makes 2-pt layup from 2 ft +2 63-69
+242,fg_make,,,63.0,71.0,2.0,siakapa01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:44.0 63-71 +2 siakapa01 makes 2-pt layup from 3 ft
+243,fg_make,,,66.0,71.0,3.0,greenja05,3.0,jump shot,27.0,sengual01,,,,,,,,,,,,,,,,,,,,,,,,,,9:33.0 greenja05 makes 3-pt jump shot from 27 ft (assist by sengual01 ) +3 66-71
+244,fg_make,,,66.0,73.0,2.0,nesmiaa01,2.0,dunk,1.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,9:25.0 66-73 +2 nesmiaa01 makes 2-pt dunk from 1 ft (assist by halibty01 )
+245,fg_miss,,,66.0,73.0,,smithja05,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 smithja05 misses 3-pt jump shot from 26 ft 66-73
+246,rebound,,,66.0,73.0,,,,,,,,,,,defensive,nembhan01,False,,,,,,,,,,,,,,,,,,,9:08.0 66-73 Defensive rebound by nembhan01
+247,fg_make,,,66.0,76.0,3.0,nesmiaa01,3.0,jump shot,23.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,9:04.0 66-76 +3 nesmiaa01 makes 3-pt jump shot from 23 ft (assist by halibty01 )
+248,turnover,,,66.0,76.0,,,,,,,,,,,,,,,,,brookdi01,traveling,,,,,,,,,,,,,,8:42.0 Turnover by brookdi01 (traveling) 66-76
+249,turnover,,,66.0,76.0,,,,,,,,,,,,,,,,,halibty01,step out of bounds,,,,,,,,,,,,,,8:34.0 66-76 Turnover by halibty01 (step out of bounds)
+250,fg_miss,,,66.0,76.0,,brookdi01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:17.0 brookdi01 misses 3-pt jump shot from 22 ft 66-76
+251,rebound,,,66.0,76.0,,,,,,,,,,,offensive,smithja05,False,,,,,,,,,,,,,,,,,,,8:15.0 Offensive rebound by smithja05 66-76
+252,fg_miss,,,66.0,76.0,,smithja05,2.0,layup,1.0,,turnemy01,,,,,,,,,,,,,,,,,,,,,,,,,8:13.0 smithja05 misses 2-pt layup from 1 ft (block by turnemy01 ) 66-76
+253,rebound,,,66.0,76.0,,,,,,,,,,,offensive,sengual01,False,,,,,,,,,,,,,,,,,,,8:09.0 Offensive rebound by sengual01 66-76
+254,fg_make,,,68.0,76.0,2.0,sengual01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:08.0 sengual01 makes 2-pt layup from 2 ft +2 68-76
+255,fg_miss,,,68.0,76.0,,siakapa01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 68-76 siakapa01 misses 2-pt layup from 2 ft
+256,rebound,,,68.0,76.0,,,,,,,,,,,offensive,siakapa01,False,,,,,,,,,,,,,,,,,,,7:54.0 68-76 Offensive rebound by siakapa01
+257,fg_miss,,,68.0,76.0,,siakapa01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:53.0 68-76 siakapa01 misses 2-pt layup from 3 ft
+258,rebound,,,68.0,76.0,,,,,,,,,,,defensive,greenja05,False,,,,,,,,,,,,,,,,,,,7:53.0 Defensive rebound by greenja05 68-76
+259,fg_miss,,,68.0,76.0,,greenja05,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:41.0 greenja05 misses 3-pt jump shot from 26 ft 68-76
+260,rebound,,,68.0,76.0,,,,,,,,,,,offensive,brookdi01,False,,,,,,,,,,,,,,,,,,,7:39.0 Offensive rebound by brookdi01 68-76
+261,foul,,,68.0,76.0,,,,,,,,,,,,,,shooting,nembhan01,brookdi01,,,,,,,,,,,,,,,,7:39.0 Shooting foul by nembhan01 (drawn by brookdi01 ) 68-76
+262,free_throw,,,69.0,76.0,1.0,brookdi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:39.0 brookdi01 makes free throw 1 of 2 +1 69-76
+263,free_throw,,,69.0,76.0,,brookdi01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:39.0 brookdi01 misses free throw 2 of 2 69-76
+264,rebound,,,69.0,76.0,,,,,,,,,,,defensive,siakapa01,False,,,,,,,,,,,,,,,,,,,7:38.0 69-76 Defensive rebound by siakapa01
+265,fg_make,,,69.0,79.0,3.0,turnemy01,3.0,jump shot,29.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 69-79 +3 turnemy01 makes 3-pt jump shot from 29 ft (assist by halibty01 )
+266,turnover,,,69.0,79.0,,,,,,,,,,,,,,,,,greenja05,bad pass; steal by halibty01,halibty01,,,,,,,,,,,,,7:07.0 Turnover by greenja05 (bad pass; steal by halibty01 ) 69-79
+267,fg_make,,,69.0,81.0,2.0,siakapa01,2.0,layup,4.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 69-81 +2 siakapa01 makes 2-pt layup from 4 ft (assist by halibty01 )
+268,timeout,,,69.0,81.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Houston full,,,,7:01.0 Houston full timeout 69-81
+269,fg_miss,,,69.0,81.0,,sengual01,2.0,layup,4.0,,turnemy01,,,,,,,,,,,,,,,,,,,,,,,,,6:44.0 sengual01 misses 2-pt layup from 4 ft (block by turnemy01 ) 69-81
+270,rebound,,,69.0,81.0,,,,,,,,,,,defensive,nesmiaa01,False,,,,,,,,,,,,,,,,,,,6:41.0 69-81 Defensive rebound by nesmiaa01
+271,fg_make,,,69.0,83.0,2.0,turnemy01,2.0,dunk,3.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,6:30.0 69-83 +2 turnemy01 makes 2-pt dunk from 3 ft (assist by halibty01 )
+272,fg_make,,,71.0,83.0,2.0,brookdi01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:01.0 brookdi01 makes 2-pt layup from 4 ft +2 71-83
+273,fg_miss,,,71.0,83.0,,siakapa01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:36.0 71-83 siakapa01 misses 2-pt jump shot from 10 ft
+274,rebound,,,71.0,83.0,,,,,,,,,,,defensive,smithja05,False,,,,,,,,,,,,,,,,,,,5:33.0 Defensive rebound by smithja05 71-83
+275,turnover,,,71.0,83.0,,,,,,,,,,,,,,,,,sengual01,lost ball; steal by nembhan01,nembhan01,,,,,,,,,,,,,5:23.0 Turnover by sengual01 (lost ball; steal by nembhan01 ) 71-83
+276,turnover,,,71.0,83.0,,,,,,,,,,,,,,,,,turnemy01,bad pass; steal by thompam01,thompam01,,,,,,,,,,,,,5:17.0 71-83 Turnover by turnemy01 (bad pass; steal by thompam01 )
+277,fg_miss,,,71.0,83.0,,brookdi01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 brookdi01 misses 2-pt layup from 6 ft 71-83
+278,rebound,,,71.0,83.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,5:03.0 Offensive rebound by Team 71-83
+279,substitution,,,71.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 adamsst01 enters the game for brookdi01 71-83
+280,substitution,,,71.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 easonta01 enters the game for sengual01 71-83
+281,substitution,,,71.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 sheppre01 enters the game for thompam01 71-83
+282,substitution,,,71.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 71-83 bryanth01 enters the game for nesmiaa01
+283,substitution,,,71.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 71-83 sheppbe01 enters the game for siakapa01
+284,substitution,,,71.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 71-83 toppiob01 enters the game for turnemy01
+285,fg_miss,,,71.0,83.0,,smithja05,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:00.0 smithja05 misses 2-pt hook shot from 7 ft 71-83
+286,rebound,,,71.0,83.0,,,,,,,,,,,defensive,toppiob01,False,,,,,,,,,,,,,,,,,,,4:56.0 71-83 Defensive rebound by toppiob01
+287,turnover,,,71.0,83.0,,,,,,,,,,,,,,,,,nembhan01,bad pass; steal by sheppre01,sheppre01,,,,,,,,,,,,,4:46.0 71-83 Turnover by nembhan01 (bad pass; steal by sheppre01 )
+288,turnover,,,71.0,83.0,,,,,,,,,,,,,,,,,greenja05,bad pass; steal by nembhan01,nembhan01,,,,,,,,,,,,,4:35.0 Turnover by greenja05 (bad pass; steal by nembhan01 ) 71-83
+289,fg_make,,,71.0,86.0,3.0,toppiob01,3.0,jump shot,23.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 71-86 +3 toppiob01 makes 3-pt jump shot from 23 ft (assist by halibty01 )
+290,fg_miss,,,71.0,86.0,,sheppre01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:14.0 sheppre01 misses 2-pt jump shot from 19 ft 71-86
+291,rebound,,,71.0,86.0,,,,,,,,,,,defensive,bryanth01,False,,,,,,,,,,,,,,,,,,,4:13.0 71-86 Defensive rebound by bryanth01
+292,fg_make,,,71.0,88.0,2.0,toppiob01,2.0,dunk,1.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,4:08.0 71-88 +2 toppiob01 makes 2-pt dunk from 1 ft (assist by halibty01 )
+293,fg_make,,,73.0,88.0,2.0,easonta01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:45.0 easonta01 makes 2-pt jump shot from 11 ft +2 73-88
+294,fg_make,,,73.0,90.0,2.0,halibty01,2.0,layup,3.0,sheppbe01,,,,,,,,,,,,,,,,,,,,,,,,,,3:24.0 73-90 +2 halibty01 makes 2-pt layup from 3 ft (assist by sheppbe01 )
+295,fg_miss,,,73.0,90.0,,greenja05,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:03.0 greenja05 misses 3-pt jump shot from 26 ft 73-90
+296,rebound,,,73.0,90.0,,,,,,,,,,,offensive,smithja05,False,,,,,,,,,,,,,,,,,,,3:00.0 Offensive rebound by smithja05 73-90
+297,foul,,,73.0,90.0,,,,,,,,,,,,,,shooting,sheppbe01,smithja05,,,,,,,,,,,,,,,,3:00.0 Shooting foul by sheppbe01 (drawn by smithja05 ) 73-90
+298,free_throw,,,74.0,90.0,1.0,smithja05,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:00.0 smithja05 makes free throw 1 of 2 +1 74-90
+299,substitution,,,74.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:00.0 thompam01 enters the game for greenja05 74-90
+300,substitution,,,74.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:00.0 74-90 mccontj01 enters the game for nembhan01
+301,free_throw,,,74.0,90.0,,smithja05,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:00.0 smithja05 misses free throw 2 of 2 74-90
+302,rebound,,,74.0,90.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:00.0 Offensive rebound by Team 74-90
+303,foul,,,74.0,90.0,,,,,,,,,,,,,,loose ball,toppiob01,adamsst01,,,,,,,,,,,,,,,,3:00.0 74-90 Loose ball foul by toppiob01 (drawn by adamsst01 )
+304,substitution,,,74.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:00.0 sengual01 enters the game for smithja05 74-90
+305,fg_miss,,,74.0,90.0,,thompam01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:55.0 thompam01 misses 2-pt layup from 2 ft 74-90
+306,rebound,,,74.0,90.0,,,,,,,,,,,defensive,toppiob01,False,,,,,,,,,,,,,,,,,,,2:52.0 74-90 Defensive rebound by toppiob01
+307,fg_miss,,,74.0,90.0,,toppiob01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:46.0 74-90 toppiob01 misses 3-pt jump shot from 25 ft
+308,rebound,,,74.0,90.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,2:42.0 Defensive rebound by thompam01 74-90
+309,fg_miss,,,74.0,90.0,,sheppre01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:29.0 sheppre01 misses 2-pt jump shot from 17 ft 74-90
+310,rebound,,,74.0,90.0,,,,,,,,,,,offensive,adamsst01,False,,,,,,,,,,,,,,,,,,,2:26.0 Offensive rebound by adamsst01 74-90
+311,fg_miss,,,74.0,90.0,,sheppre01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:22.0 sheppre01 misses 2-pt jump shot from 13 ft 74-90
+312,rebound,,,74.0,90.0,,,,,,,,,,,defensive,halibty01,False,,,,,,,,,,,,,,,,,,,2:20.0 74-90 Defensive rebound by halibty01
+313,fg_miss,,,74.0,90.0,,toppiob01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:14.0 74-90 toppiob01 misses 2-pt layup from 1 ft
+314,rebound,,,74.0,90.0,,,,,,,,,,,defensive,sengual01,False,,,,,,,,,,,,,,,,,,,2:12.0 Defensive rebound by sengual01 74-90
+315,fg_make,,,76.0,90.0,2.0,easonta01,2.0,dunk,1.0,sengual01,,,,,,,,,,,,,,,,,,,,,,,,,,2:10.0 easonta01 makes 2-pt dunk from 1 ft (assist by sengual01 ) +2 76-90
+316,timeout,,,76.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indiana full,,,,2:09.0 76-90 Indiana full timeout
+317,substitution,,,76.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:09.0 76-90 siakapa01 enters the game for bryanth01
+318,substitution,,,76.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:09.0 76-90 turnemy01 enters the game for halibty01
+319,fg_miss,,,76.0,90.0,,siakapa01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:54.0 76-90 siakapa01 misses 3-pt jump shot from 25 ft
+320,rebound,,,76.0,90.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,1:50.0 Defensive rebound by thompam01 76-90
+321,fg_make,,,78.0,90.0,2.0,sheppre01,2.0,layup,2.0,sengual01,,,,,,,,,,,,,,,,,,,,,,,,,,1:39.0 sheppre01 makes 2-pt layup from 2 ft (assist by sengual01 ) +2 78-90
+322,fg_miss,,,78.0,90.0,,mccontj01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:23.0 78-90 mccontj01 misses 2-pt layup from 4 ft
+323,rebound,,,78.0,90.0,,,,,,,,,,,defensive,adamsst01,False,,,,,,,,,,,,,,,,,,,1:22.0 Defensive rebound by adamsst01 78-90
+324,fg_make,,,80.0,90.0,2.0,thompam01,2.0,dunk,2.0,easonta01,,,,,,,,,,,,,,,,,,,,,,,,,,1:19.0 thompam01 makes 2-pt dunk from 2 ft (assist by easonta01 ) +2 80-90
+325,fg_miss,,,80.0,90.0,,sheppbe01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:00.0 80-90 sheppbe01 misses 3-pt jump shot from 26 ft
+326,rebound,,,80.0,90.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,0:58.0 Defensive rebound by thompam01 80-90
+327,foul,,,80.0,90.0,,,,,,,,,,,,,,personal,turnemy01,adamsst01,,,,,,,,,,,,,,,,0:51.0 Personal foul by turnemy01 (drawn by adamsst01 ) 80-90
+328,free_throw,,,80.0,90.0,,adamsst01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:51.0 adamsst01 misses free throw 1 of 2 80-90
+329,rebound,,,80.0,90.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:51.0 Offensive rebound by Team 80-90
+330,substitution,,,80.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 80-90 bryanth01 enters the game for toppiob01
+331,substitution,,,80.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 80-90 walkeja02 enters the game for turnemy01
+332,free_throw,,,81.0,90.0,1.0,adamsst01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:51.0 adamsst01 makes free throw 2 of 2 +1 81-90
+333,fg_miss,,,81.0,90.0,,mccontj01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 81-90 mccontj01 misses 3-pt jump shot from 27 ft
+334,rebound,,,81.0,90.0,,,,,,,,,,,defensive,sengual01,False,,,,,,,,,,,,,,,,,,,0:29.0 Defensive rebound by sengual01 81-90
+335,fg_make,,,83.0,90.0,2.0,thompam01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:12.0 thompam01 makes 2-pt jump shot from 8 ft +2 83-90
+336,fg_miss,,,83.0,90.0,,siakapa01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 83-90 siakapa01 misses 3-pt jump shot from 27 ft
+337,rebound,,,83.0,90.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 83-90 Offensive rebound by Team
+338,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+339,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+340,turnover,,,83.0,90.0,,,,,,,,,,,,,,,,,thompam01,bad pass; steal by mccontj01,mccontj01,,,,,,,,,,,,,11:59.0 Turnover by thompam01 (bad pass; steal by mccontj01 ) 83-90
+341,fg_miss,,,83.0,90.0,,siakapa01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 83-90 siakapa01 misses 2-pt jump shot from 17 ft
+342,rebound,,,83.0,90.0,,,,,,,,,,,defensive,easonta01,False,,,,,,,,,,,,,,,,,,,11:42.0 Defensive rebound by easonta01 83-90
+343,fg_make,,,85.0,90.0,2.0,sengual01,2.0,layup,6.0,easonta01,,,,,,,,,,,,,,,,,,,,,,,,,,11:35.0 sengual01 makes 2-pt layup from 6 ft (assist by easonta01 ) +2 85-90
+344,fg_miss,,,85.0,90.0,,mccontj01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:22.0 85-90 mccontj01 misses 2-pt jump shot from 11 ft
+345,rebound,,,85.0,90.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,11:19.0 Defensive rebound by thompam01 85-90
+346,fg_make,,,88.0,90.0,3.0,easonta01,3.0,jump shot,23.0,sengual01,,,,,,,,,,,,,,,,,,,,,,,,,,11:09.0 easonta01 makes 3-pt jump shot from 23 ft (assist by sengual01 ) +3 88-90
+347,fg_make,,,88.0,93.0,3.0,sheppbe01,3.0,jump shot,25.0,siakapa01,,,,,,,,,,,,,,,,,,,,,,,,,,10:52.0 88-93 +3 sheppbe01 makes 3-pt jump shot from 25 ft (assist by siakapa01 )
+348,turnover,,,88.0,93.0,,,,,,,,,,,,,,,,,easonta01,lost ball; steal by mccontj01,mccontj01,,,,,,,,,,,,,10:32.0 Turnover by easonta01 (lost ball; steal by mccontj01 ) 88-93
+349,foul,,,88.0,93.0,,,,,,,,,,,,,,shooting,smithja05,siakapa01,,,,,,,,,,,,,,,,10:30.0 88-93 Shooting foul by smithja05 (drawn by siakapa01 )
+350,free_throw,,,88.0,94.0,1.0,siakapa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:30.0 88-94 +1 siakapa01 makes free throw 1 of 2
+351,substitution,,,88.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:30.0 88-94 halibty01 enters the game for mccontj01
+352,substitution,,,88.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:30.0 88-94 nembhan01 enters the game for sheppbe01
+353,substitution,,,88.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:30.0 88-94 nesmiaa01 enters the game for walkeja02
+354,free_throw,,,88.0,95.0,1.0,siakapa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:30.0 88-95 +1 siakapa01 makes free throw 2 of 2
+355,foul,,,88.0,95.0,,,,,,,,,,,,,,shooting,nembhan01,thompam01,,,,,,,,,,,,,,,,10:12.0 Shooting foul by nembhan01 (drawn by thompam01 ) 88-95
+356,free_throw,,,88.0,95.0,,thompam01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:12.0 thompam01 misses free throw 1 of 2 88-95
+357,rebound,,,88.0,95.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:12.0 Offensive rebound by Team 88-95
+358,free_throw,,,88.0,95.0,,thompam01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:12.0 thompam01 misses free throw 2 of 2 88-95
+359,rebound,,,88.0,95.0,,,,,,,,,,,offensive,thompam01,False,,,,,,,,,,,,,,,,,,,10:10.0 Offensive rebound by thompam01 88-95
+360,foul,,,88.0,95.0,,,,,,,,,,,,,,shooting,bryanth01,thompam01,,,,,,,,,,,,,,,,10:08.0 Shooting foul by bryanth01 (drawn by thompam01 ) 88-95
+361,timeout,,,88.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Houston full,,,,10:08.0 Houston full timeout 88-95
+362,instant_replay,,,88.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 Instant Replay (Challenge: Ruling Stands) 88-95
+363,substitution,,,88.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 brookdi01 enters the game for adamsst01 88-95
+364,free_throw,,,88.0,95.0,,thompam01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:08.0 thompam01 misses free throw 1 of 2 88-95
+365,rebound,,,88.0,95.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:08.0 Offensive rebound by Team 88-95
+366,free_throw,,,89.0,95.0,1.0,thompam01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:08.0 thompam01 makes free throw 2 of 2 +1 89-95
+367,fg_miss,,,89.0,95.0,,nembhan01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:51.0 89-95 nembhan01 misses 3-pt jump shot from 29 ft
+368,rebound,,,89.0,95.0,,,,,,,,,,,defensive,easonta01,False,,,,,,,,,,,,,,,,,,,9:47.0 Defensive rebound by easonta01 89-95
+369,fg_make,,,91.0,95.0,2.0,sengual01,2.0,layup,3.0,easonta01,,,,,,,,,,,,,,,,,,,,,,,,,,9:42.0 sengual01 makes 2-pt layup from 3 ft (assist by easonta01 ) +2 91-95
+370,fg_miss,,,91.0,95.0,,nesmiaa01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:26.0 91-95 nesmiaa01 misses 3-pt jump shot from 22 ft
+371,rebound,,,91.0,95.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,9:24.0 Defensive rebound by thompam01 91-95
+372,fg_make,,,94.0,95.0,3.0,brookdi01,3.0,jump shot,25.0,thompam01,,,,,,,,,,,,,,,,,,,,,,,,,,9:17.0 brookdi01 makes 3-pt jump shot from 25 ft (assist by thompam01 ) +3 94-95
+373,timeout,,,94.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indiana full,,,,9:17.0 94-95 Indiana full timeout
+374,substitution,,,94.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:17.0 94-95 turnemy01 enters the game for bryanth01
+375,fg_miss,,,94.0,95.0,,halibty01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:01.0 94-95 halibty01 misses 2-pt layup from 6 ft
+376,rebound,,,94.0,95.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:59.0 94-95 Offensive rebound by Team
+377,turnover,,,94.0,95.0,,,,,,,,,,,,,,,,,siakapa01,bad pass; steal by thompam01,thompam01,,,,,,,,,,,,,8:53.0 94-95 Turnover by siakapa01 (bad pass; steal by thompam01 )
+378,fg_make,,,96.0,95.0,2.0,thompam01,2.0,layup,1.0,easonta01,,,,,,,,,,,,,,,,,,,,,,,,,,8:45.0 thompam01 makes 2-pt layup from 1 ft (assist by easonta01 ) +2 96-95
+379,fg_make,,,96.0,97.0,2.0,nesmiaa01,2.0,jump shot,11.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 96-97 +2 nesmiaa01 makes 2-pt jump shot from 11 ft (assist by halibty01 )
+380,foul,,,96.0,97.0,,,,,,,,,,,,,,shooting,brookdi01,nesmiaa01,,,,,,,,,,,,,,,,8:27.0 96-97 Shooting foul by brookdi01 (drawn by nesmiaa01 )
+381,substitution,,,96.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 96-97 toppiob01 enters the game for siakapa01
+382,free_throw,,,96.0,98.0,1.0,nesmiaa01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,8:27.0 96-98 +1 nesmiaa01 makes free throw 1 of 1
+383,fg_miss,,,96.0,98.0,,brookdi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:08.0 brookdi01 misses 3-pt jump shot from 26 ft 96-98
+384,rebound,,,96.0,98.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,8:06.0 Offensive rebound by easonta01 96-98
+385,fg_miss,,,96.0,98.0,,easonta01,2.0,layup,1.0,,turnemy01,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 easonta01 misses 2-pt layup from 1 ft (block by turnemy01 ) 96-98
+386,rebound,,,96.0,98.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,8:03.0 Offensive rebound by easonta01 96-98
+387,fg_miss,,,96.0,98.0,,easonta01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:02.0 easonta01 misses 2-pt layup from 1 ft 96-98
+388,rebound,,,96.0,98.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,8:01.0 Offensive rebound by easonta01 96-98
+389,fg_miss,,,96.0,98.0,,easonta01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:01.0 easonta01 misses 2-pt layup from 5 ft 96-98
+390,rebound,,,96.0,98.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,8:00.0 Offensive rebound by easonta01 96-98
+391,fg_miss,,,96.0,98.0,,easonta01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:59.0 easonta01 misses 2-pt layup at rim 96-98
+392,rebound,,,96.0,98.0,,,,,,,,,,,offensive,brookdi01,False,,,,,,,,,,,,,,,,,,,7:57.0 Offensive rebound by brookdi01 96-98
+393,fg_miss,,,96.0,98.0,,brookdi01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 brookdi01 misses 2-pt layup from 2 ft 96-98
+394,rebound,,,96.0,98.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:54.0 96-98 Defensive rebound by Team
+395,fg_miss,,,96.0,98.0,,turnemy01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 96-98 turnemy01 misses 3-pt jump shot from 28 ft
+396,rebound,,,96.0,98.0,,,,,,,,,,,defensive,easonta01,False,,,,,,,,,,,,,,,,,,,7:36.0 Defensive rebound by easonta01 96-98
+397,foul,,,96.0,98.0,,,,,,,,,,,,,,offensive,sengual01,nesmiaa01,,,,,,,,,,,,,,,,7:26.0 Offensive foul by sengual01 (drawn by nesmiaa01 ) 96-98
+398,turnover,,,96.0,98.0,,,,,,,,,,,,,,,,,sengual01,offensive foul,,,,,,,,,,,,,,7:26.0 Turnover by sengual01 (offensive foul) 96-98
+399,fg_miss,,,96.0,98.0,,nesmiaa01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 96-98 nesmiaa01 misses 3-pt jump shot from 23 ft
+400,rebound,,,96.0,98.0,,,,,,,,,,,defensive,thompam01,False,,,,,,,,,,,,,,,,,,,7:16.0 Defensive rebound by thompam01 96-98
+401,fg_miss,,,96.0,98.0,,sengual01,2.0,hook shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:07.0 sengual01 misses 2-pt hook shot from 4 ft 96-98
+402,rebound,,,96.0,98.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:06.0 96-98 Defensive rebound by Team
+403,foul,,,96.0,98.0,,,,,,,,,,,,,,loose ball,sengual01,turnemy01,,,,,,,,,,,,,,,,7:06.0 Loose ball foul by sengual01 (drawn by turnemy01 ) 96-98
+404,fg_make,,,96.0,101.0,3.0,turnemy01,3.0,jump shot,25.0,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,,6:55.0 96-101 +3 turnemy01 makes 3-pt jump shot from 25 ft (assist by nembhan01 )
+405,fg_miss,,,96.0,101.0,,sengual01,2.0,hook shot,5.0,,turnemy01,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 sengual01 misses 2-pt hook shot from 5 ft (block by turnemy01 ) 96-101
+406,rebound,,,96.0,101.0,,,,,,,,,,,defensive,turnemy01,False,,,,,,,,,,,,,,,,,,,6:30.0 96-101 Defensive rebound by turnemy01
+407,fg_make,,,96.0,103.0,2.0,nesmiaa01,2.0,layup,2.0,nembhan01,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 96-103 +2 nesmiaa01 makes 2-pt layup from 2 ft (assist by nembhan01 )
+408,timeout,,,96.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Houston full,,,,6:25.0 Houston full timeout 96-103
+409,substitution,,,96.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:25.0 adamsst01 enters the game for easonta01 96-103
+410,substitution,,,96.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:25.0 greenja05 enters the game for sengual01 96-103
+411,fg_miss,,,96.0,103.0,,adamsst01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:12.0 adamsst01 misses 2-pt dunk from 2 ft 96-103
+412,rebound,,,96.0,103.0,,,,,,,,,,,defensive,nembhan01,False,,,,,,,,,,,,,,,,,,,6:10.0 96-103 Defensive rebound by nembhan01
+413,foul,,,96.0,103.0,,,,,,,,,,,,,,personal,brookdi01,nembhan01,,,,,,,,,,,,,,,,5:50.0 96-103 Personal foul by brookdi01 (drawn by nembhan01 )
+414,fg_miss,,,96.0,103.0,,nembhan01,3.0,jump shot,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:37.0 96-103 nembhan01 misses 3-pt jump shot from 39 ft
+415,rebound,,,96.0,103.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,5:36.0 96-103 Offensive rebound by Team
+416,unknown,,,96.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),5:36.0 96-103 Turnover by Team (shot clock)
+417,fg_miss,,,96.0,103.0,,thompam01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 thompam01 misses 2-pt layup from 3 ft 96-103
+418,rebound,,,96.0,103.0,,,,,,,,,,,defensive,nesmiaa01,False,,,,,,,,,,,,,,,,,,,5:21.0 96-103 Defensive rebound by nesmiaa01
+419,fg_make,,,96.0,105.0,2.0,halibty01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:09.0 96-105 +2 halibty01 makes 2-pt jump shot from 12 ft
+420,fg_miss,,,96.0,105.0,,smithja05,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:56.0 smithja05 misses 2-pt jump shot from 16 ft 96-105
+421,rebound,,,96.0,105.0,,,,,,,,,,,defensive,turnemy01,False,,,,,,,,,,,,,,,,,,,4:53.0 96-105 Defensive rebound by turnemy01
+422,fg_make,,,96.0,108.0,3.0,halibty01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:37.0 96-108 +3 halibty01 makes 3-pt jump shot from 28 ft
+423,fg_miss,,,96.0,108.0,,brookdi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 brookdi01 misses 3-pt jump shot from 25 ft 96-108
+424,rebound,,,96.0,108.0,,,,,,,,,,,defensive,nesmiaa01,False,,,,,,,,,,,,,,,,,,,4:27.0 96-108 Defensive rebound by nesmiaa01
+425,fg_miss,,,96.0,108.0,,halibty01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:14.0 96-108 halibty01 misses 3-pt jump shot from 24 ft
+426,rebound,,,96.0,108.0,,,,,,,,,,,defensive,smithja05,False,,,,,,,,,,,,,,,,,,,4:12.0 Defensive rebound by smithja05 96-108
+427,foul,,,96.0,108.0,,,,,,,,,,,,,,personal,nesmiaa01,smithja05,,,,,,,,,,,,,,,,4:12.0 Personal foul by nesmiaa01 (drawn by smithja05 ) 96-108
+428,substitution,,,96.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 easonta01 enters the game for adamsst01 96-108
+429,substitution,,,96.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 sengual01 enters the game for brookdi01 96-108
+430,substitution,,,96.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 96-108 siakapa01 enters the game for toppiob01
+431,fg_miss,,,96.0,108.0,,easonta01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 easonta01 misses 3-pt jump shot from 23 ft 96-108
+432,rebound,,,96.0,108.0,,,,,,,,,,,offensive,thompam01,False,,,,,,,,,,,,,,,,,,,4:00.0 Offensive rebound by thompam01 96-108
+433,foul,,,96.0,108.0,,,,,,,,,,,,,,personal,siakapa01,thompam01,,,,,,,,,,,,,,,,3:59.0 Personal foul by siakapa01 (drawn by thompam01 ) 96-108
+434,fg_miss,,,96.0,108.0,,greenja05,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 greenja05 misses 3-pt jump shot from 25 ft 96-108
+435,rebound,,,96.0,108.0,,,,,,,,,,,offensive,smithja05,False,,,,,,,,,,,,,,,,,,,3:46.0 Offensive rebound by smithja05 96-108
+436,foul,,,96.0,108.0,,,,,,,,,,,,,,personal,halibty01,smithja05,,,,,,,,,,,,,,,,3:45.0 Personal foul by halibty01 (drawn by smithja05 ) 96-108
+437,free_throw,,,96.0,108.0,,smithja05,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:45.0 smithja05 misses free throw 1 of 2 96-108
+438,rebound,,,96.0,108.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:45.0 Offensive rebound by Team 96-108
+439,free_throw,,,97.0,108.0,1.0,smithja05,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:45.0 smithja05 makes free throw 2 of 2 +1 97-108
+440,fg_miss,,,97.0,108.0,,turnemy01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:36.0 97-108 turnemy01 misses 3-pt jump shot from 23 ft
+441,rebound,,,97.0,108.0,,,,,,,,,,,offensive,nembhan01,False,,,,,,,,,,,,,,,,,,,3:31.0 97-108 Offensive rebound by nembhan01
+442,fg_make,,,97.0,110.0,2.0,nembhan01,2.0,jump shot,14.0,siakapa01,,,,,,,,,,,,,,,,,,,,,,,,,,3:20.0 97-110 +2 nembhan01 makes 2-pt jump shot from 14 ft (assist by siakapa01 )
+443,fg_miss,,,97.0,110.0,,greenja05,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:04.0 greenja05 misses 3-pt jump shot from 26 ft 97-110
+444,rebound,,,97.0,110.0,,,,,,,,,,,offensive,easonta01,False,,,,,,,,,,,,,,,,,,,2:59.0 Offensive rebound by easonta01 97-110
+445,fg_make,,,99.0,110.0,2.0,easonta01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:58.0 easonta01 makes 2-pt dunk from 1 ft +2 99-110
+446,fg_miss,,,99.0,110.0,,siakapa01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:33.0 99-110 siakapa01 misses 2-pt jump shot from 10 ft
+447,rebound,,,99.0,110.0,,,,,,,,,,,defensive,easonta01,False,,,,,,,,,,,,,,,,,,,2:31.0 Defensive rebound by easonta01 99-110
+448,turnover,,,99.0,110.0,,,,,,,,,,,,,,,,,greenja05,bad pass; steal by nembhan01,nembhan01,,,,,,,,,,,,,2:18.0 Turnover by greenja05 (bad pass; steal by nembhan01 ) 99-110
+449,turnover,,,99.0,110.0,,,,,,,,,,,,,,,,,halibty01,bad pass,,,,,,,,,,,,,,2:16.0 99-110 Turnover by halibty01 (bad pass)
+450,fg_miss,,,99.0,110.0,,smithja05,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:07.0 smithja05 misses 3-pt jump shot from 24 ft 99-110
+451,rebound,,,99.0,110.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:04.0 Offensive rebound by Team 99-110
+452,turnover,,,99.0,110.0,,,,,,,,,,,,,,,,,sengual01,out of bounds lost ball,,,,,,,,,,,,,,1:59.0 Turnover by sengual01 (out of bounds lost ball) 99-110
+453,fg_make,,,99.0,113.0,3.0,turnemy01,3.0,jump shot,29.0,halibty01,,,,,,,,,,,,,,,,,,,,,,,,,,1:37.0 99-113 +3 turnemy01 makes 3-pt jump shot from 29 ft (assist by halibty01 )
+454,timeout,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Houston full,,,,1:30.0 Houston full timeout 99-113
+455,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 holidaa01 enters the game for easonta01 99-113
+456,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 sheppre01 enters the game for greenja05 99-113
+457,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 tateja01 enters the game for sengual01 99-113
+458,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 whitmca01 enters the game for smithja05 99-113
+459,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 willije02 enters the game for thompam01 99-113
+460,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 99-113 bryanth01 enters the game for halibty01
+461,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 99-113 furphjo01 enters the game for nembhan01
+462,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 99-113 mccontj01 enters the game for nesmiaa01
+463,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 99-113 sheppbe01 enters the game for siakapa01
+464,substitution,,,99.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 99-113 walkeja02 enters the game for turnemy01
+465,fg_make,,,101.0,113.0,2.0,sheppre01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:23.0 sheppre01 makes 2-pt jump shot from 11 ft +2 101-113
+466,fg_miss,,,101.0,113.0,,furphjo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:02.0 101-113 furphjo01 misses 3-pt jump shot from 26 ft
+467,rebound,,,101.0,113.0,,,,,,,,,,,defensive,tateja01,False,,,,,,,,,,,,,,,,,,,0:59.0 Defensive rebound by tateja01 101-113
+468,foul,,,101.0,113.0,,,,,,,,,,,,,,shooting,furphjo01,willije02,,,,,,,,,,,,,,,,0:54.0 Shooting foul by furphjo01 (drawn by willije02 ) 101-113
+469,free_throw,,,102.0,113.0,1.0,willije02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:54.0 willije02 makes free throw 1 of 2 +1 102-113
+470,substitution,,,102.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:54.0 102-113 bradlto01 enters the game for bryanth01
+471,free_throw,,,102.0,113.0,,willije02,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:54.0 willije02 misses free throw 2 of 2 102-113
+472,rebound,,,102.0,113.0,,,,,,,,,,,defensive,sheppbe01,False,,,,,,,,,,,,,,,,,,,0:52.0 102-113 Defensive rebound by sheppbe01
+473,fg_make,,,102.0,115.0,2.0,sheppbe01,2.0,layup,3.0,walkeja02,,,,,,,,,,,,,,,,,,,,,,,,,,0:39.0 102-115 +2 sheppbe01 makes 2-pt layup from 3 ft (assist by walkeja02 )
+474,fg_miss,,,102.0,115.0,,willije02,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 willije02 misses 2-pt jump shot from 15 ft 102-115
+475,rebound,,,102.0,115.0,,,,,,,,,,,defensive,bradlto01,False,,,,,,,,,,,,,,,,,,,0:27.0 102-115 Defensive rebound by bradlto01
+476,unknown,,,102.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),0:04.0 102-115 Turnover by Team (shot clock)
+477,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

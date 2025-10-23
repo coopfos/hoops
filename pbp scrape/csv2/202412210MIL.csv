@@ -1,0 +1,424 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: sarral01 vs. lopezbr01 ( jacksan01 gains possession)
+2,fg_make,,,0.0,2.0,2.0,portibo01,2.0,jump shot,12.0,rolliry01,,,,,,,,,,,,,,,,,,,,,,,,,,11:44.0 0-2 +2 portibo01 makes 2-pt jump shot from 12 ft (assist by rolliry01 )
+3,fg_miss,,,0.0,2.0,,poolejo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:29.0 poolejo01 misses 3-pt jump shot from 27 ft 0-2
+4,rebound,,,0.0,2.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,11:26.0 0-2 Defensive rebound by portibo01
+5,fg_make,,,0.0,4.0,2.0,lopezbr01,2.0,dunk,1.0,jacksan01,,,,,,,,,,,,,,,,,,,,,,,,,,11:13.0 0-4 +2 lopezbr01 makes 2-pt dunk from 1 ft (assist by jacksan01 )
+6,fg_make,,,2.0,4.0,2.0,coulibi01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:57.0 coulibi01 makes 2-pt jump shot from 20 ft +2 2-4
+7,fg_miss,,,2.0,4.0,,lopezbr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:44.0 2-4 lopezbr01 misses 3-pt jump shot from 25 ft
+8,rebound,,,2.0,4.0,,,,,,,,,,,defensive,champju01,False,,,,,,,,,,,,,,,,,,,10:40.0 Defensive rebound by champju01 2-4
+9,fg_miss,,,2.0,4.0,,sarral01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33.0 sarral01 misses 3-pt jump shot from 24 ft 2-4
+10,rebound,,,2.0,4.0,,,,,,,,,,,offensive,champju01,False,,,,,,,,,,,,,,,,,,,10:30.0 Offensive rebound by champju01 2-4
+11,foul,,,2.0,4.0,,,,,,,,,,,,,,shooting,rolliry01,coulibi01,,,,,,,,,,,,,,,,10:30.0 Shooting foul by rolliry01 (drawn by coulibi01 ) 2-4
+12,free_throw,,,2.0,4.0,,coulibi01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:30.0 coulibi01 misses free throw 1 of 2 2-4
+13,rebound,,,2.0,4.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:30.0 Offensive rebound by Team 2-4
+14,free_throw,,,3.0,4.0,1.0,coulibi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:30.0 coulibi01 makes free throw 2 of 2 +1 3-4
+15,turnover,,,3.0,4.0,,,,,,,,,,,,,,,,,rolliry01,lost ball; steal by champju01,champju01,,,,,,,,,,,,,10:24.0 3-4 Turnover by rolliry01 (lost ball; steal by champju01 )
+16,turnover,,,3.0,4.0,,,,,,,,,,,,,,,,,champju01,bad pass; steal by portibo01,portibo01,,,,,,,,,,,,,10:23.0 Turnover by champju01 (bad pass; steal by portibo01 ) 3-4
+17,fg_make,,,3.0,7.0,3.0,jacksan01,3.0,jump shot,25.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:16.0 3-7 +3 jacksan01 makes 3-pt jump shot from 25 ft (assist by portibo01 )
+18,turnover,,,3.0,7.0,,,,,,,,,,,,,,,,,brogdma01,bad pass,,,,,,,,,,,,,,9:54.0 Turnover by brogdma01 (bad pass) 3-7
+19,fg_make,,,3.0,9.0,2.0,middlkh01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 3-9 +2 middlkh01 makes 2-pt jump shot from 18 ft
+20,foul,,,3.0,9.0,,,,,,,,,,,,,,personal,jacksan01,poolejo01,,,,,,,,,,,,,,,,9:32.0 Personal foul by jacksan01 (drawn by poolejo01 ) 3-9
+21,fg_make,,,6.0,9.0,3.0,poolejo01,3.0,jump shot,29.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,9:23.0 poolejo01 makes 3-pt jump shot from 29 ft (assist by coulibi01 ) +3 6-9
+22,fg_miss,,,6.0,9.0,,lopezbr01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:58.0 6-9 lopezbr01 misses 2-pt jump shot from 16 ft
+23,rebound,,,6.0,9.0,,,,,,,,,,,defensive,champju01,False,,,,,,,,,,,,,,,,,,,8:55.0 Defensive rebound by champju01 6-9
+24,turnover,,,6.0,9.0,,,,,,,,,,,,,,,,,champju01,bad pass; steal by portibo01,portibo01,,,,,,,,,,,,,8:46.0 Turnover by champju01 (bad pass; steal by portibo01 ) 6-9
+25,fg_make,,,6.0,11.0,2.0,portibo01,2.0,hook shot,10.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,8:33.0 6-11 +2 portibo01 makes 2-pt hook shot from 10 ft (assist by middlkh01 )
+26,fg_make,,,8.0,11.0,2.0,brogdma01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:13.0 brogdma01 makes 2-pt jump shot from 18 ft +2 8-11
+27,fg_miss,,,8.0,11.0,,middlkh01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:05.0 8-11 middlkh01 misses 2-pt jump shot from 6 ft
+28,rebound,,,8.0,11.0,,,,,,,,,,,offensive,jacksan01,False,,,,,,,,,,,,,,,,,,,8:05.0 8-11 Offensive rebound by jacksan01
+29,fg_make,,,8.0,14.0,3.0,rolliry01,3.0,jump shot,28.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:00.0 8-14 +3 rolliry01 makes 3-pt jump shot from 28 ft (assist by portibo01 )
+30,fg_make,,,10.0,14.0,2.0,brogdma01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:51.0 brogdma01 makes 2-pt layup from 2 ft +2 10-14
+31,fg_make,,,10.0,17.0,3.0,middlkh01,3.0,jump shot,27.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,7:36.0 10-17 +3 middlkh01 makes 3-pt jump shot from 27 ft (assist by portibo01 )
+32,fg_make,,,13.0,17.0,3.0,sarral01,3.0,jump shot,27.0,poolejo01,,,,,,,,,,,,,,,,,,,,,,,,,,7:23.0 sarral01 makes 3-pt jump shot from 27 ft (assist by poolejo01 ) +3 13-17
+33,fg_miss,,,13.0,17.0,,portibo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:03.0 13-17 portibo01 misses 3-pt jump shot from 26 ft
+34,rebound,,,13.0,17.0,,,,,,,,,,,defensive,poolejo01,False,,,,,,,,,,,,,,,,,,,7:00.0 Defensive rebound by poolejo01 13-17
+35,foul,,,13.0,17.0,,,,,,,,,,,,,,shooting,jacksan01,poolejo01,,,,,,,,,,,,,,,,6:57.0 Shooting foul by jacksan01 (drawn by poolejo01 ) 13-17
+36,timeout,,,13.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milwaukee full,,,,6:57.0 13-17 Milwaukee full timeout
+37,substitution,,,13.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:57.0 carrica01 enters the game for brogdma01 13-17
+38,substitution,,,13.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:57.0 13-17 trentga02 enters the game for jacksan01
+39,free_throw,,,13.0,17.0,,poolejo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:57.0 poolejo01 misses free throw 1 of 2 13-17
+40,rebound,,,13.0,17.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:57.0 Offensive rebound by Team 13-17
+41,free_throw,,,14.0,17.0,1.0,poolejo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:57.0 poolejo01 makes free throw 2 of 2 +1 14-17
+42,fg_miss,,,14.0,17.0,,middlkh01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:39.0 14-17 middlkh01 misses 2-pt jump shot from 14 ft
+43,rebound,,,14.0,17.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,6:36.0 Defensive rebound by sarral01 14-17
+44,fg_miss,,,14.0,17.0,,poolejo01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:30.0 poolejo01 misses 2-pt jump shot from 11 ft 14-17
+45,rebound,,,14.0,17.0,,,,,,,,,,,defensive,middlkh01,False,,,,,,,,,,,,,,,,,,,6:27.0 14-17 Defensive rebound by middlkh01
+46,fg_miss,,,14.0,17.0,,trentga02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:23.0 14-17 trentga02 misses 3-pt jump shot from 26 ft
+47,rebound,,,14.0,17.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,6:20.0 Defensive rebound by sarral01 14-17
+48,fg_make,,,16.0,17.0,2.0,sarral01,2.0,jump shot,17.0,poolejo01,,,,,,,,,,,,,,,,,,,,,,,,,,6:10.0 sarral01 makes 2-pt jump shot from 17 ft (assist by poolejo01 ) +2 16-17
+49,fg_miss,,,16.0,17.0,,rolliry01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:59.0 16-17 rolliry01 misses 2-pt jump shot from 13 ft
+50,rebound,,,16.0,17.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,5:55.0 Defensive rebound by coulibi01 16-17
+51,fg_make,,,19.0,17.0,3.0,carrica01,3.0,jump shot,27.0,poolejo01,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 carrica01 makes 3-pt jump shot from 27 ft (assist by poolejo01 ) +3 19-17
+52,fg_make,,,19.0,19.0,2.0,portibo01,2.0,hook shot,4.0,trentga02,,,,,,,,,,,,,,,,,,,,,,,,,,5:20.0 19-19 +2 portibo01 makes 2-pt hook shot from 4 ft (assist by trentga02 )
+53,turnover,,,19.0,19.0,,,,,,,,,,,,,,,,,sarral01,bad pass; steal by trentga02,trentga02,,,,,,,,,,,,,5:10.0 Turnover by sarral01 (bad pass; steal by trentga02 ) 19-19
+54,fg_make,,,19.0,21.0,2.0,trentga02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:06.0 19-21 +2 trentga02 makes 2-pt layup at rim
+55,fg_miss,,,19.0,21.0,,poolejo01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:47.0 poolejo01 misses 2-pt layup from 6 ft 19-21
+56,rebound,,,19.0,21.0,,,,,,,,,,,defensive,middlkh01,False,,,,,,,,,,,,,,,,,,,4:47.0 19-21 Defensive rebound by middlkh01
+57,fg_make,,,19.0,23.0,2.0,middlkh01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:38.0 19-23 +2 middlkh01 makes 2-pt layup from 2 ft
+58,fg_miss,,,19.0,23.0,,coulibi01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:23.0 coulibi01 misses 3-pt jump shot from 28 ft 19-23
+59,rebound,,,19.0,23.0,,,,,,,,,,,defensive,trentga02,False,,,,,,,,,,,,,,,,,,,4:19.0 19-23 Defensive rebound by trentga02
+60,fg_miss,,,19.0,23.0,,middlkh01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 19-23 middlkh01 misses 3-pt jump shot from 27 ft
+61,rebound,,,19.0,23.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,4:12.0 Defensive rebound by coulibi01 19-23
+62,foul,,,19.0,23.0,,,,,,,,,,,,,,offensive,coulibi01,rolliry01,,,,,,,,,,,,,,,,4:05.0 Offensive foul by coulibi01 (drawn by rolliry01 ) 19-23
+63,turnover,,,19.0,23.0,,,,,,,,,,,,,,,,,coulibi01,offensive foul,,,,,,,,,,,,,,4:05.0 Turnover by coulibi01 (offensive foul) 19-23
+64,substitution,,,19.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 kispeco01 enters the game for champju01 19-23
+65,substitution,,,19.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 valanjo01 enters the game for sarral01 19-23
+66,substitution,,,19.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 19-23 greenaj01 enters the game for lopezbr01
+67,substitution,,,19.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 19-23 princta02 enters the game for middlkh01
+68,fg_make,,,19.0,25.0,2.0,portibo01,2.0,jump shot,18.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,3:48.0 19-25 +2 portibo01 makes 2-pt jump shot from 18 ft (assist by greenaj01 )
+69,fg_make,,,22.0,25.0,3.0,poolejo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:37.0 poolejo01 makes 3-pt jump shot from 27 ft +3 22-25
+70,foul,,,22.0,25.0,,,,,,,,,,,,,,offensive,portibo01,poolejo01,,,,,,,,,,,,,,,,3:25.0 22-25 Offensive foul by portibo01 (drawn by poolejo01 )
+71,turnover,,,22.0,25.0,,,,,,,,,,,,,,,,,portibo01,offensive foul,,,,,,,,,,,,,,3:25.0 22-25 Turnover by portibo01 (offensive foul)
+72,substitution,,,22.0,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:25.0 georgky01 enters the game for coulibi01 22-25
+73,fg_make,,,25.0,25.0,3.0,poolejo01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:18.0 poolejo01 makes 3-pt jump shot from 28 ft +3 25-25
+74,fg_make,,,25.0,28.0,3.0,trentga02,3.0,jump shot,27.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,3:02.0 25-28 +3 trentga02 makes 3-pt jump shot from 27 ft (assist by greenaj01 )
+75,turnover,,,25.0,28.0,,,,,,,,,,,,,,,,,carrica01,bad pass; steal by portibo01,portibo01,,,,,,,,,,,,,2:51.0 Turnover by carrica01 (bad pass; steal by portibo01 ) 25-28
+76,fg_miss,,,25.0,28.0,,princta02,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:38.0 25-28 princta02 misses 2-pt layup from 5 ft
+77,rebound,,,25.0,28.0,,,,,,,,,,,defensive,valanjo01,False,,,,,,,,,,,,,,,,,,,2:36.0 Defensive rebound by valanjo01 25-28
+78,fg_make,,,28.0,28.0,3.0,kispeco01,3.0,jump shot,23.0,valanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,2:31.0 kispeco01 makes 3-pt jump shot from 23 ft (assist by valanjo01 ) +3 28-28
+79,fg_miss,,,28.0,28.0,,trentga02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:16.0 28-28 trentga02 misses 3-pt jump shot from 27 ft
+80,rebound,,,28.0,28.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,2:12.0 Defensive rebound by carrica01 28-28
+81,fg_make,,,31.0,28.0,3.0,poolejo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 poolejo01 makes 3-pt jump shot from 27 ft +3 31-28
+82,fg_miss,,,31.0,28.0,,rolliry01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:36.0 31-28 rolliry01 misses 3-pt jump shot from 23 ft
+83,rebound,,,31.0,28.0,,,,,,,,,,,offensive,portibo01,False,,,,,,,,,,,,,,,,,,,1:33.0 31-28 Offensive rebound by portibo01
+84,fg_make,,,31.0,30.0,2.0,portibo01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:32.0 31-30 +2 portibo01 makes 2-pt layup from 1 ft
+85,fg_make,,,34.0,30.0,3.0,poolejo01,3.0,jump shot,27.0,valanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:20.0 poolejo01 makes 3-pt jump shot from 27 ft (assist by valanjo01 ) +3 34-30
+86,fg_make,,,34.0,33.0,3.0,greenaj01,3.0,jump shot,28.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:05.0 34-33 +3 greenaj01 makes 3-pt jump shot from 28 ft (assist by portibo01 )
+87,fg_make,,,36.0,33.0,2.0,georgky01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:53.0 georgky01 makes 2-pt layup from 1 ft +2 36-33
+88,fg_miss,,,36.0,33.0,,princta02,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:40.0 36-33 princta02 misses 2-pt jump shot from 11 ft
+89,rebound,,,36.0,33.0,,,,,,,,,,,defensive,valanjo01,False,,,,,,,,,,,,,,,,,,,0:39.0 Defensive rebound by valanjo01 36-33
+90,fg_miss,,,36.0,33.0,,poolejo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 poolejo01 misses 3-pt jump shot from 26 ft 36-33
+91,rebound,,,36.0,33.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,0:30.0 36-33 Defensive rebound by portibo01
+92,fg_make,,,36.0,36.0,3.0,portibo01,3.0,jump shot,25.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,0:07.0 36-36 +3 portibo01 makes 3-pt jump shot from 25 ft (assist by greenaj01 )
+93,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+94,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+95,fg_miss,,,36.0,36.0,,valanjo01,2.0,hook shot,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:43.0 valanjo01 misses 2-pt hook shot from 2 ft 36-36
+96,rebound,,,36.0,36.0,,,,,,,,,,,defensive,greenaj01,False,,,,,,,,,,,,,,,,,,,11:39.0 36-36 Defensive rebound by greenaj01
+97,foul,,,36.0,36.0,,,,,,,,,,,,,,personal,georgky01,princta02,,,,,,,,,,,,,,,,11:33.0 36-36 Personal foul by georgky01 (drawn by princta02 )
+98,fg_miss,,,36.0,36.0,,greenaj01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:26.0 36-36 greenaj01 misses 3-pt jump shot from 27 ft
+99,rebound,,,36.0,36.0,,,,,,,,,,,offensive,wrighde01,False,,,,,,,,,,,,,,,,,,,11:23.0 36-36 Offensive rebound by wrighde01
+100,fg_make,,,36.0,38.0,2.0,lopezbr01,2.0,hook shot,7.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,11:14.0 36-38 +2 lopezbr01 makes 2-pt hook shot from 7 ft (assist by greenaj01 )
+101,fg_make,,,38.0,38.0,2.0,kispeco01,2.0,layup,1.0,valanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:58.0 kispeco01 makes 2-pt layup from 1 ft (assist by valanjo01 ) +2 38-38
+102,foul,,,38.0,38.0,,,,,,,,,,,,,,shooting,trentga02,kispeco01,,,,,,,,,,,,,,,,10:58.0 Shooting foul by trentga02 (drawn by kispeco01 ) 38-38
+103,free_throw,,,39.0,38.0,1.0,kispeco01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,10:58.0 kispeco01 makes free throw 1 of 1 +1 39-38
+104,fg_make,,,39.0,41.0,3.0,greenaj01,3.0,jump shot,26.0,princta02,,,,,,,,,,,,,,,,,,,,,,,,,,10:44.0 39-41 +3 greenaj01 makes 3-pt jump shot from 26 ft (assist by princta02 )
+105,turnover,,,39.0,41.0,,,,,,,,,,,,,,,,,georgky01,lost ball; steal by princta02,princta02,,,,,,,,,,,,,10:17.0 Turnover by georgky01 (lost ball; steal by princta02 ) 39-41
+106,foul,,,39.0,41.0,,,,,,,,,,,,,,shooting,carrica01,wrighde01,,,,,,,,,,,,,,,,10:14.0 39-41 Shooting foul by carrica01 (drawn by wrighde01 )
+107,free_throw,,,39.0,42.0,1.0,wrighde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:14.0 39-42 +1 wrighde01 makes free throw 1 of 2
+108,free_throw,,,39.0,43.0,1.0,wrighde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:14.0 39-43 +1 wrighde01 makes free throw 2 of 2
+109,fg_miss,,,39.0,43.0,,brogdma01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:04.0 brogdma01 misses 3-pt jump shot from 26 ft 39-43
+110,rebound,,,39.0,43.0,,,,,,,,,,,defensive,princta02,False,,,,,,,,,,,,,,,,,,,10:00.0 39-43 Defensive rebound by princta02
+111,turnover,,,39.0,43.0,,,,,,,,,,,,,,,,,princta02,lost ball; steal by georgky01,georgky01,,,,,,,,,,,,,9:52.0 39-43 Turnover by princta02 (lost ball; steal by georgky01 )
+112,fg_miss,,,39.0,43.0,,carrica01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 carrica01 misses 2-pt jump shot from 14 ft 39-43
+113,rebound,,,39.0,43.0,,,,,,,,,,,defensive,greenaj01,False,,,,,,,,,,,,,,,,,,,9:33.0 39-43 Defensive rebound by greenaj01
+114,fg_make,,,39.0,46.0,3.0,trentga02,3.0,jump shot,26.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 39-46 +3 trentga02 makes 3-pt jump shot from 26 ft (assist by greenaj01 )
+115,timeout,,,39.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,9:18.0 Washington full timeout 39-46
+116,fg_miss,,,39.0,46.0,,kispeco01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:09.0 kispeco01 misses 3-pt jump shot from 27 ft 39-46
+117,rebound,,,39.0,46.0,,,,,,,,,,,offensive,valanjo01,False,,,,,,,,,,,,,,,,,,,9:08.0 Offensive rebound by valanjo01 39-46
+118,fg_make,,,41.0,46.0,2.0,valanjo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:08.0 valanjo01 makes 2-pt layup from 2 ft +2 41-46
+119,fg_miss,,,41.0,46.0,,trentga02,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:49.0 41-46 trentga02 misses 2-pt jump shot from 17 ft
+120,rebound,,,41.0,46.0,,,,,,,,,,,defensive,valanjo01,False,,,,,,,,,,,,,,,,,,,8:46.0 Defensive rebound by valanjo01 41-46
+121,fg_make,,,43.0,46.0,2.0,valanjo01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 valanjo01 makes 2-pt jump shot from 16 ft +2 43-46
+122,fg_miss,,,43.0,46.0,,lopezbr01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:25.0 43-46 lopezbr01 misses 3-pt jump shot from 28 ft
+123,rebound,,,43.0,46.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,8:22.0 Defensive rebound by georgky01 43-46
+124,foul,,,43.0,46.0,,,,,,,,,,,,,,shooting,greenaj01,brogdma01,,,,,,,,,,,,,,,,8:19.0 Shooting foul by greenaj01 (drawn by brogdma01 ) 43-46
+125,free_throw,,,43.0,46.0,,brogdma01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:19.0 brogdma01 misses free throw 1 of 2 43-46
+126,rebound,,,43.0,46.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:19.0 Offensive rebound by Team 43-46
+127,free_throw,,,44.0,46.0,1.0,brogdma01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:19.0 brogdma01 makes free throw 2 of 2 +1 44-46
+128,substitution,,,44.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 44-46 middlkh01 enters the game for princta02
+129,fg_miss,,,44.0,46.0,,lopezbr01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:06.0 44-46 lopezbr01 misses 2-pt layup from 2 ft
+130,rebound,,,44.0,46.0,,,,,,,,,,,defensive,valanjo01,False,,,,,,,,,,,,,,,,,,,8:04.0 Defensive rebound by valanjo01 44-46
+131,fg_miss,,,44.0,46.0,,valanjo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 valanjo01 misses 3-pt jump shot from 27 ft 44-46
+132,rebound,,,44.0,46.0,,,,,,,,,,,defensive,trentga02,False,,,,,,,,,,,,,,,,,,,7:52.0 44-46 Defensive rebound by trentga02
+133,fg_make,,,44.0,48.0,2.0,trentga02,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:42.0 44-48 +2 trentga02 makes 2-pt jump shot from 20 ft
+134,fg_miss,,,44.0,48.0,,kispeco01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 kispeco01 misses 3-pt jump shot from 24 ft 44-48
+135,rebound,,,44.0,48.0,,,,,,,,,,,defensive,trentga02,False,,,,,,,,,,,,,,,,,,,7:28.0 44-48 Defensive rebound by trentga02
+136,fg_miss,,,44.0,48.0,,wrighde01,2.0,jump shot,8.0,,georgky01,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 44-48 wrighde01 misses 2-pt jump shot from 8 ft (block by georgky01 )
+137,rebound,,,44.0,48.0,,,,,,,,,,,offensive,wrighde01,False,,,,,,,,,,,,,,,,,,,7:20.0 44-48 Offensive rebound by wrighde01
+138,foul,,,44.0,48.0,,,,,,,,,,,,,,personal,georgky01,wrighde01,,,,,,,,,,,,,,,,7:19.0 44-48 Personal foul by georgky01 (drawn by wrighde01 )
+139,substitution,,,44.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:19.0 coulibi01 enters the game for brogdma01 44-48
+140,substitution,,,44.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:19.0 poolejo01 enters the game for kispeco01 44-48
+141,substitution,,,44.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:19.0 sarral01 enters the game for valanjo01 44-48
+142,turnover,,,44.0,48.0,,,,,,,,,,,,,,,,,middlkh01,lost ball; steal by sarral01,sarral01,,,,,,,,,,,,,7:11.0 44-48 Turnover by middlkh01 (lost ball; steal by sarral01 )
+143,turnover,,,44.0,48.0,,,,,,,,,,,,,,,,,coulibi01,bad pass; steal by greenaj01,greenaj01,,,,,,,,,,,,,7:03.0 Turnover by coulibi01 (bad pass; steal by greenaj01 ) 44-48
+144,turnover,,,44.0,48.0,,,,,,,,,,,,,,,,,wrighde01,bad pass; steal by coulibi01,coulibi01,,,,,,,,,,,,,6:49.0 44-48 Turnover by wrighde01 (bad pass; steal by coulibi01 )
+145,fg_miss,,,44.0,48.0,,georgky01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:38.0 georgky01 misses 3-pt jump shot from 29 ft 44-48
+146,rebound,,,44.0,48.0,,,,,,,,,,,defensive,greenaj01,False,,,,,,,,,,,,,,,,,,,6:35.0 44-48 Defensive rebound by greenaj01
+147,foul,,,44.0,48.0,,,,,,,,,,,,,,personal,georgky01,middlkh01,,,,,,,,,,,,,,,,6:26.0 44-48 Personal foul by georgky01 (drawn by middlkh01 )
+148,substitution,,,44.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 champju01 enters the game for georgky01 44-48
+149,substitution,,,44.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 44-48 jacksan01 enters the game for trentga02
+150,fg_miss,,,44.0,48.0,,greenaj01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 44-48 greenaj01 misses 3-pt jump shot from 27 ft
+151,rebound,,,44.0,48.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,6:14.0 Defensive rebound by sarral01 44-48
+152,fg_miss,,,44.0,48.0,,poolejo01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:08.0 poolejo01 misses 3-pt jump shot from 30 ft 44-48
+153,rebound,,,44.0,48.0,,,,,,,,,,,defensive,middlkh01,False,,,,,,,,,,,,,,,,,,,6:04.0 44-48 Defensive rebound by middlkh01
+154,fg_make,,,44.0,50.0,2.0,jacksan01,2.0,layup,3.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,5:48.0 44-50 +2 jacksan01 makes 2-pt layup from 3 ft (assist by middlkh01 )
+155,fg_miss,,,44.0,50.0,,carrica01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 carrica01 misses 3-pt jump shot from 27 ft 44-50
+156,rebound,,,44.0,50.0,,,,,,,,,,,defensive,jacksan01,False,,,,,,,,,,,,,,,,,,,5:25.0 44-50 Defensive rebound by jacksan01
+157,turnover,,,44.0,50.0,,,,,,,,,,,,,,,,,jacksan01,bad pass; steal by coulibi01,coulibi01,,,,,,,,,,,,,5:24.0 44-50 Turnover by jacksan01 (bad pass; steal by coulibi01 )
+158,fg_miss,,,44.0,50.0,,carrica01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:20.0 carrica01 misses 2-pt layup from 2 ft 44-50
+159,rebound,,,44.0,50.0,,,,,,,,,,,defensive,middlkh01,False,,,,,,,,,,,,,,,,,,,5:17.0 44-50 Defensive rebound by middlkh01
+160,timeout,,,44.0,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milwaukee full,,,,5:10.0 44-50 Milwaukee full timeout
+161,substitution,,,44.0,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:10.0 44-50 portibo01 enters the game for lopezbr01
+162,fg_make,,,44.0,52.0,2.0,portibo01,2.0,jump shot,15.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,4:57.0 44-52 +2 portibo01 makes 2-pt jump shot from 15 ft (assist by middlkh01 )
+163,foul,,,44.0,52.0,,,,,,,,,,,,,,offensive,poolejo01,greenaj01,,,,,,,,,,,,,,,,4:41.0 Offensive foul by poolejo01 (drawn by greenaj01 ) 44-52
+164,turnover,,,44.0,52.0,,,,,,,,,,,,,,,,,poolejo01,offensive foul,,,,,,,,,,,,,,4:41.0 Turnover by poolejo01 (offensive foul) 44-52
+165,instant_replay,,,44.0,52.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:41.0 Instant Replay (Request: Ruling Stands) 44-52
+166,fg_miss,,,44.0,52.0,,wrighde01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:27.0 44-52 wrighde01 misses 2-pt jump shot from 13 ft
+167,rebound,,,44.0,52.0,,,,,,,,,,,defensive,champju01,False,,,,,,,,,,,,,,,,,,,4:23.0 Defensive rebound by champju01 44-52
+168,fg_miss,,,44.0,52.0,,champju01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:16.0 champju01 misses 3-pt jump shot from 29 ft 44-52
+169,rebound,,,44.0,52.0,,,,,,,,,,,defensive,middlkh01,False,,,,,,,,,,,,,,,,,,,4:14.0 44-52 Defensive rebound by middlkh01
+170,fg_make,,,44.0,54.0,2.0,portibo01,2.0,hook shot,5.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,4:00.0 44-54 +2 portibo01 makes 2-pt hook shot from 5 ft (assist by middlkh01 )
+171,fg_miss,,,44.0,54.0,,coulibi01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:43.0 coulibi01 misses 2-pt jump shot from 6 ft 44-54
+172,rebound,,,44.0,54.0,,,,,,,,,,,offensive,coulibi01,False,,,,,,,,,,,,,,,,,,,3:42.0 Offensive rebound by coulibi01 44-54
+173,fg_miss,,,44.0,54.0,,coulibi01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 coulibi01 misses 2-pt layup from 2 ft 44-54
+174,rebound,,,44.0,54.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,3:39.0 44-54 Defensive rebound by portibo01
+175,fg_miss,,,44.0,54.0,,middlkh01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:29.0 44-54 middlkh01 misses 3-pt jump shot from 27 ft
+176,rebound,,,44.0,54.0,,,,,,,,,,,offensive,portibo01,False,,,,,,,,,,,,,,,,,,,3:27.0 44-54 Offensive rebound by portibo01
+177,fg_make,,,44.0,57.0,3.0,portibo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:24.0 44-57 +3 portibo01 makes 3-pt jump shot from 25 ft
+178,timeout,,,44.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,3:15.0 Washington full timeout 44-57
+179,substitution,,,44.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 brogdma01 enters the game for carrica01 44-57
+180,substitution,,,44.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 kispeco01 enters the game for champju01 44-57
+181,substitution,,,44.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 44-57 rolliry01 enters the game for greenaj01
+182,substitution,,,44.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 44-57 trentga02 enters the game for wrighde01
+183,foul,,,44.0,57.0,,,,,,,,,,,,,,offensive,poolejo01,jacksan01,,,,,,,,,,,,,,,,3:12.0 Offensive foul by poolejo01 (drawn by jacksan01 ) 44-57
+184,turnover,,,44.0,57.0,,,,,,,,,,,,,,,,,poolejo01,offensive foul,,,,,,,,,,,,,,3:12.0 Turnover by poolejo01 (offensive foul) 44-57
+185,fg_miss,,,44.0,57.0,,trentga02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:59.0 44-57 trentga02 misses 3-pt jump shot from 27 ft
+186,rebound,,,44.0,57.0,,,,,,,,,,,offensive,jacksan01,False,,,,,,,,,,,,,,,,,,,2:55.0 44-57 Offensive rebound by jacksan01
+187,fg_make,,,44.0,60.0,3.0,portibo01,3.0,jump shot,28.0,jacksan01,,,,,,,,,,,,,,,,,,,,,,,,,,2:53.0 44-60 +3 portibo01 makes 3-pt jump shot from 28 ft (assist by jacksan01 )
+188,fg_miss,,,44.0,60.0,,coulibi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:44.0 coulibi01 misses 3-pt jump shot from 26 ft 44-60
+189,rebound,,,44.0,60.0,,,,,,,,,,,offensive,brogdma01,False,,,,,,,,,,,,,,,,,,,2:41.0 Offensive rebound by brogdma01 44-60
+190,fg_miss,,,44.0,60.0,,brogdma01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:37.0 brogdma01 misses 2-pt layup from 2 ft 44-60
+191,rebound,,,44.0,60.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,2:34.0 44-60 Defensive rebound by portibo01
+192,foul,,,44.0,60.0,,,,,,,,,,,,,,loose ball,jacksan01,brogdma01,,,,,,,,,,,,,,,,2:30.0 44-60 Loose ball foul by jacksan01 (drawn by brogdma01 )
+193,fg_miss,,,44.0,60.0,,portibo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:30.0 44-60 portibo01 misses 3-pt jump shot from 25 ft
+194,rebound,,,44.0,60.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,2:30.0 Defensive rebound by Team 44-60
+195,substitution,,,44.0,60.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:30.0 44-60 lopezbr01 enters the game for middlkh01
+196,fg_miss,,,44.0,60.0,,brogdma01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:11.0 brogdma01 misses 2-pt jump shot from 20 ft 44-60
+197,rebound,,,44.0,60.0,,,,,,,,,,,defensive,trentga02,False,,,,,,,,,,,,,,,,,,,2:08.0 44-60 Defensive rebound by trentga02
+198,fg_miss,,,44.0,60.0,,trentga02,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:56.0 44-60 trentga02 misses 2-pt jump shot from 14 ft
+199,rebound,,,44.0,60.0,,,,,,,,,,,offensive,jacksan01,False,,,,,,,,,,,,,,,,,,,1:54.0 44-60 Offensive rebound by jacksan01
+200,fg_miss,,,44.0,60.0,,jacksan01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:46.0 44-60 jacksan01 misses 2-pt jump shot from 14 ft
+201,rebound,,,44.0,60.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,1:46.0 Defensive rebound by Team 44-60
+202,substitution,,,44.0,60.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:46.0 44-60 princta02 enters the game for jacksan01
+203,fg_make,,,46.0,60.0,2.0,coulibi01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:33.0 coulibi01 makes 2-pt layup from 2 ft +2 46-60
+204,fg_miss,,,46.0,60.0,,trentga02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:19.0 46-60 trentga02 misses 3-pt jump shot from 26 ft
+205,rebound,,,46.0,60.0,,,,,,,,,,,defensive,brogdma01,False,,,,,,,,,,,,,,,,,,,1:15.0 Defensive rebound by brogdma01 46-60
+206,fg_make,,,49.0,60.0,3.0,kispeco01,3.0,jump shot,24.0,brogdma01,,,,,,,,,,,,,,,,,,,,,,,,,,1:11.0 kispeco01 makes 3-pt jump shot from 24 ft (assist by brogdma01 ) +3 49-60
+207,turnover,,,49.0,60.0,,,,,,,,,,,,,,,,,lopezbr01,bad pass; steal by sarral01,sarral01,,,,,,,,,,,,,0:50.0 49-60 Turnover by lopezbr01 (bad pass; steal by sarral01 )
+208,turnover,,,49.0,60.0,,,,,,,,,,,,,,,,,poolejo01,bad pass; steal by princta02,princta02,,,,,,,,,,,,,0:33.0 Turnover by poolejo01 (bad pass; steal by princta02 ) 49-60
+209,fg_make,,,49.0,63.0,3.0,rolliry01,3.0,jump shot,23.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 49-63 +3 rolliry01 makes 3-pt jump shot from 23 ft (assist by portibo01 )
+210,foul,,,49.0,63.0,,,,,,,,,,,,,,shooting,princta02,coulibi01,,,,,,,,,,,,,,,,0:06.0 Shooting foul by princta02 (drawn by coulibi01 ) 49-63
+211,free_throw,,,49.0,63.0,,coulibi01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:06.0 coulibi01 misses free throw 1 of 2 49-63
+212,rebound,,,49.0,63.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:06.0 Offensive rebound by Team 49-63
+213,substitution,,,49.0,63.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 carrica01 enters the game for kispeco01 49-63
+214,substitution,,,49.0,63.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 champju01 enters the game for poolejo01 49-63
+215,free_throw,,,50.0,63.0,1.0,coulibi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:06.0 coulibi01 makes free throw 2 of 2 +1 50-63
+216,fg_miss,,,50.0,63.0,,trentga02,3.0,jump shot,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 50-63 trentga02 misses 3-pt jump shot from 31 ft
+217,rebound,,,50.0,63.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 50-63 Offensive rebound by Team
+218,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+219,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+220,fg_make,,,53.0,63.0,3.0,sarral01,3.0,jump shot,26.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,11:43.0 sarral01 makes 3-pt jump shot from 26 ft (assist by coulibi01 ) +3 53-63
+221,fg_miss,,,53.0,63.0,,jacksan01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:18.0 53-63 jacksan01 misses 3-pt jump shot from 25 ft
+222,rebound,,,53.0,63.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,11:15.0 Defensive rebound by coulibi01 53-63
+223,turnover,,,53.0,63.0,,,,,,,,,,,,,,,,,coulibi01,bad pass,,,,,,,,,,,,,,11:14.0 Turnover by coulibi01 (bad pass) 53-63
+224,fg_miss,,,53.0,63.0,,middlkh01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:01.0 53-63 middlkh01 misses 2-pt jump shot from 15 ft
+225,rebound,,,53.0,63.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,10:58.0 Defensive rebound by coulibi01 53-63
+226,fg_miss,,,53.0,63.0,,brogdma01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:51.0 brogdma01 misses 2-pt jump shot from 18 ft 53-63
+227,rebound,,,53.0,63.0,,,,,,,,,,,defensive,rolliry01,False,,,,,,,,,,,,,,,,,,,10:47.0 53-63 Defensive rebound by rolliry01
+228,fg_make,,,53.0,65.0,2.0,rolliry01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:43.0 53-65 +2 rolliry01 makes 2-pt layup from 1 ft
+229,fg_make,,,56.0,65.0,3.0,champju01,3.0,jump shot,27.0,brogdma01,,,,,,,,,,,,,,,,,,,,,,,,,,10:20.0 champju01 makes 3-pt jump shot from 27 ft (assist by brogdma01 ) +3 56-65
+230,fg_miss,,,56.0,65.0,,portibo01,2.0,jump shot,13.0,,brogdma01,,,,,,,,,,,,,,,,,,,,,,,,,10:02.0 56-65 portibo01 misses 2-pt jump shot from 13 ft (block by brogdma01 )
+231,rebound,,,56.0,65.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:01.0 56-65 Offensive rebound by Team
+232,fg_make,,,56.0,68.0,3.0,middlkh01,3.0,jump shot,28.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,9:55.0 56-68 +3 middlkh01 makes 3-pt jump shot from 28 ft (assist by portibo01 )
+233,turnover,,,56.0,68.0,,,,,,,,,,,,,,,,,poolejo01,bad pass; steal by rolliry01,rolliry01,,,,,,,,,,,,,9:42.0 Turnover by poolejo01 (bad pass; steal by rolliry01 ) 56-68
+234,fg_make,,,56.0,70.0,2.0,rolliry01,2.0,layup,1.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,9:37.0 56-70 +2 rolliry01 makes 2-pt layup from 1 ft (assist by portibo01 )
+235,foul,,,56.0,70.0,,,,,,,,,,,,,,shooting,brogdma01,rolliry01,,,,,,,,,,,,,,,,9:37.0 56-70 Shooting foul by brogdma01 (drawn by rolliry01 )
+236,free_throw,,,56.0,70.0,,rolliry01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,9:37.0 56-70 rolliry01 misses free throw 1 of 1
+237,rebound,,,56.0,70.0,,,,,,,,,,,defensive,champju01,False,,,,,,,,,,,,,,,,,,,9:34.0 Defensive rebound by champju01 56-70
+238,fg_miss,,,56.0,70.0,,poolejo01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:22.0 poolejo01 misses 2-pt jump shot from 18 ft 56-70
+239,rebound,,,56.0,70.0,,,,,,,,,,,offensive,champju01,False,,,,,,,,,,,,,,,,,,,9:19.0 Offensive rebound by champju01 56-70
+240,fg_miss,,,56.0,70.0,,brogdma01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:17.0 brogdma01 misses 3-pt jump shot from 26 ft 56-70
+241,rebound,,,56.0,70.0,,,,,,,,,,,defensive,jacksan01,False,,,,,,,,,,,,,,,,,,,9:14.0 56-70 Defensive rebound by jacksan01
+242,fg_make,,,56.0,73.0,3.0,middlkh01,3.0,jump shot,27.0,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 56-73 +3 middlkh01 makes 3-pt jump shot from 27 ft (assist by portibo01 )
+243,fg_miss,,,56.0,73.0,,coulibi01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:53.0 coulibi01 misses 3-pt jump shot from 28 ft 56-73
+244,rebound,,,56.0,73.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,8:49.0 56-73 Defensive rebound by portibo01
+245,fg_make,,,56.0,75.0,2.0,middlkh01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:40.0 56-75 +2 middlkh01 makes 2-pt jump shot from 19 ft
+246,timeout,,,56.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,8:40.0 Washington full timeout 56-75
+247,fg_miss,,,56.0,75.0,,poolejo01,2.0,layup,2.0,,portibo01,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 poolejo01 misses 2-pt layup from 2 ft (block by portibo01 ) 56-75
+248,rebound,,,56.0,75.0,,,,,,,,,,,defensive,jacksan01,False,,,,,,,,,,,,,,,,,,,8:22.0 56-75 Defensive rebound by jacksan01
+249,fg_miss,,,56.0,75.0,,lopezbr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 56-75 lopezbr01 misses 3-pt jump shot from 27 ft
+250,rebound,,,56.0,75.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,8:17.0 Defensive rebound by coulibi01 56-75
+251,turnover,,,56.0,75.0,,,,,,,,,,,,,,,,,poolejo01,lost ball; steal by middlkh01,middlkh01,,,,,,,,,,,,,8:11.0 Turnover by poolejo01 (lost ball; steal by middlkh01 ) 56-75
+252,fg_miss,,,56.0,75.0,,jacksan01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:54.0 56-75 jacksan01 misses 3-pt jump shot from 24 ft
+253,rebound,,,56.0,75.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,7:50.0 Defensive rebound by coulibi01 56-75
+254,fg_miss,,,56.0,75.0,,champju01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:44.0 champju01 misses 3-pt jump shot from 24 ft 56-75
+255,rebound,,,56.0,75.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:43.0 56-75 Defensive rebound by Team
+256,turnover,,,56.0,75.0,,,,,,,,,,,,,,,,,rolliry01,bad pass; steal by coulibi01,coulibi01,,,,,,,,,,,,,7:31.0 56-75 Turnover by rolliry01 (bad pass; steal by coulibi01 )
+257,fg_make,,,58.0,75.0,2.0,coulibi01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:27.0 coulibi01 makes 2-pt dunk from 2 ft +2 58-75
+258,fg_miss,,,58.0,75.0,,portibo01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 58-75 portibo01 misses 2-pt jump shot from 15 ft
+259,rebound,,,58.0,75.0,,,,,,,,,,,offensive,jacksan01,False,,,,,,,,,,,,,,,,,,,6:58.0 58-75 Offensive rebound by jacksan01
+260,fg_make,,,58.0,78.0,3.0,middlkh01,3.0,jump shot,26.0,jacksan01,,,,,,,,,,,,,,,,,,,,,,,,,,6:55.0 58-78 +3 middlkh01 makes 3-pt jump shot from 26 ft (assist by jacksan01 )
+261,fg_miss,,,58.0,78.0,,brogdma01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:43.0 brogdma01 misses 2-pt layup from 6 ft 58-78
+262,rebound,,,58.0,78.0,,,,,,,,,,,defensive,rolliry01,False,,,,,,,,,,,,,,,,,,,6:40.0 58-78 Defensive rebound by rolliry01
+263,fg_make,,,58.0,80.0,2.0,portibo01,2.0,layup,3.0,jacksan01,,,,,,,,,,,,,,,,,,,,,,,,,,6:33.0 58-80 +2 portibo01 makes 2-pt layup from 3 ft (assist by jacksan01 )
+264,foul,,,58.0,80.0,,,,,,,,,,,,,,shooting,jacksan01,poolejo01,,,,,,,,,,,,,,,,6:18.0 Shooting foul by jacksan01 (drawn by poolejo01 ) 58-80
+265,free_throw,,,58.0,80.0,,poolejo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:18.0 poolejo01 misses free throw 1 of 2 58-80
+266,rebound,,,58.0,80.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:18.0 Offensive rebound by Team 58-80
+267,substitution,,,58.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 carrica01 enters the game for brogdma01 58-80
+268,substitution,,,58.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 kispeco01 enters the game for champju01 58-80
+269,substitution,,,58.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 58-80 greenaj01 enters the game for lopezbr01
+270,substitution,,,58.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 58-80 princta02 enters the game for middlkh01
+271,free_throw,,,59.0,80.0,1.0,poolejo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:18.0 poolejo01 makes free throw 2 of 2 +1 59-80
+272,fg_miss,,,59.0,80.0,,portibo01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:59.0 59-80 portibo01 misses 2-pt jump shot from 11 ft
+273,rebound,,,59.0,80.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,5:56.0 Defensive rebound by sarral01 59-80
+274,fg_make,,,62.0,80.0,3.0,poolejo01,3.0,jump shot,29.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,5:53.0 poolejo01 makes 3-pt jump shot from 29 ft (assist by sarral01 ) +3 62-80
+275,timeout,,,62.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milwaukee full,,,,5:53.0 62-80 Milwaukee full timeout
+276,turnover,,,62.0,80.0,,,,,,,,,,,,,,,,,portibo01,bad pass,,,,,,,,,,,,,,5:32.0 62-80 Turnover by portibo01 (bad pass)
+277,foul,,,62.0,80.0,,,,,,,,,,,,,,personal,princta02,coulibi01,,,,,,,,,,,,,,,,5:13.0 Personal foul by princta02 (drawn by coulibi01 ) 62-80
+278,fg_miss,,,62.0,80.0,,poolejo01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 poolejo01 misses 2-pt jump shot from 15 ft 62-80
+279,rebound,,,62.0,80.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,5:00.0 62-80 Defensive rebound by portibo01
+280,fg_miss,,,62.0,80.0,,princta02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:55.0 62-80 princta02 misses 3-pt jump shot from 28 ft
+281,rebound,,,62.0,80.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,4:54.0 Defensive rebound by coulibi01 62-80
+282,violation,,,62.0,80.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,4:52.0 62-80 Violation by Team (kicked ball)
+283,fg_make,,,65.0,80.0,3.0,coulibi01,3.0,jump shot,26.0,carrica01,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 coulibi01 makes 3-pt jump shot from 26 ft (assist by carrica01 ) +3 65-80
+284,fg_miss,,,65.0,80.0,,rolliry01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:17.0 65-80 rolliry01 misses 2-pt jump shot from 17 ft
+285,rebound,,,65.0,80.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,4:14.0 Defensive rebound by coulibi01 65-80
+286,fg_make,,,68.0,80.0,3.0,kispeco01,3.0,jump shot,26.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 kispeco01 makes 3-pt jump shot from 26 ft (assist by sarral01 ) +3 68-80
+287,fg_make,,,68.0,82.0,2.0,princta02,2.0,layup,2.0,jacksan01,,,,,,,,,,,,,,,,,,,,,,,,,,3:44.0 68-82 +2 princta02 makes 2-pt layup from 2 ft (assist by jacksan01 )
+288,fg_miss,,,68.0,82.0,,kispeco01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:23.0 kispeco01 misses 2-pt layup from 4 ft 68-82
+289,rebound,,,68.0,82.0,,,,,,,,,,,defensive,princta02,False,,,,,,,,,,,,,,,,,,,3:20.0 68-82 Defensive rebound by princta02
+290,turnover,,,68.0,82.0,,,,,,,,,,,,,,,,,rolliry01,out of bounds lost ball,,,,,,,,,,,,,,3:16.0 68-82 Turnover by rolliry01 (out of bounds lost ball)
+291,substitution,,,68.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:16.0 68-82 trentga02 enters the game for jacksan01
+292,foul,,,68.0,82.0,,,,,,,,,,,,,,personal,trentga02,poolejo01,,,,,,,,,,,,,,,,3:10.0 Personal foul by trentga02 (drawn by poolejo01 ) 68-82
+293,substitution,,,68.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:10.0 valanjo01 enters the game for sarral01 68-82
+294,violation,,,68.0,82.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,2:58.0 68-82 Violation by Team (kicked ball)
+295,substitution,,,68.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:58.0 68-82 lopezbr01 enters the game for portibo01
+296,fg_make,,,70.0,82.0,2.0,carrica01,2.0,dunk,1.0,kispeco01,,,,,,,,,,,,,,,,,,,,,,,,,,2:53.0 carrica01 makes 2-pt dunk from 1 ft (assist by kispeco01 ) +2 70-82
+297,fg_miss,,,70.0,82.0,,lopezbr01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:31.0 70-82 lopezbr01 misses 2-pt jump shot from 11 ft
+298,rebound,,,70.0,82.0,,,,,,,,,,,defensive,poolejo01,False,,,,,,,,,,,,,,,,,,,2:29.0 Defensive rebound by poolejo01 70-82
+299,fg_miss,,,70.0,82.0,,valanjo01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:21.0 valanjo01 misses 3-pt jump shot from 29 ft 70-82
+300,rebound,,,70.0,82.0,,,,,,,,,,,defensive,rolliry01,False,,,,,,,,,,,,,,,,,,,2:17.0 70-82 Defensive rebound by rolliry01
+301,fg_miss,,,70.0,82.0,,princta02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:13.0 70-82 princta02 misses 3-pt jump shot from 26 ft
+302,rebound,,,70.0,82.0,,,,,,,,,,,defensive,kispeco01,False,,,,,,,,,,,,,,,,,,,2:09.0 Defensive rebound by kispeco01 70-82
+303,fg_miss,,,70.0,82.0,,poolejo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 poolejo01 misses 3-pt jump shot from 25 ft 70-82
+304,rebound,,,70.0,82.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,1:50.0 70-82 Defensive rebound by Team
+305,substitution,,,70.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 brogdma01 enters the game for coulibi01 70-82
+306,substitution,,,70.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 georgky01 enters the game for poolejo01 70-82
+307,substitution,,,70.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 70-82 wrighde01 enters the game for rolliry01
+308,fg_make,,,70.0,84.0,2.0,lopezbr01,2.0,jump shot,14.0,princta02,,,,,,,,,,,,,,,,,,,,,,,,,,1:31.0 70-84 +2 lopezbr01 makes 2-pt jump shot from 14 ft (assist by princta02 )
+309,fg_make,,,72.0,84.0,2.0,kispeco01,2.0,jump shot,9.0,brogdma01,,,,,,,,,,,,,,,,,,,,,,,,,,1:17.0 kispeco01 makes 2-pt jump shot from 9 ft (assist by brogdma01 ) +2 72-84
+310,fg_miss,,,72.0,84.0,,trentga02,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:05.0 72-84 trentga02 misses 2-pt jump shot from 15 ft
+311,rebound,,,72.0,84.0,,,,,,,,,,,offensive,trentga02,False,,,,,,,,,,,,,,,,,,,1:02.0 72-84 Offensive rebound by trentga02
+312,fg_make,,,72.0,86.0,2.0,princta02,2.0,layup,1.0,lopezbr01,,,,,,,,,,,,,,,,,,,,,,,,,,0:58.0 72-86 +2 princta02 makes 2-pt layup from 1 ft (assist by lopezbr01 )
+313,fg_miss,,,72.0,86.0,,georgky01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 georgky01 misses 3-pt jump shot from 28 ft 72-86
+314,rebound,,,72.0,86.0,,,,,,,,,,,defensive,trentga02,False,,,,,,,,,,,,,,,,,,,0:47.0 72-86 Defensive rebound by trentga02
+315,fg_miss,,,72.0,86.0,,lopezbr01,2.0,hook shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:37.0 72-86 lopezbr01 misses 2-pt hook shot from 9 ft
+316,rebound,,,72.0,86.0,,,,,,,,,,,defensive,brogdma01,False,,,,,,,,,,,,,,,,,,,0:34.0 Defensive rebound by brogdma01 72-86
+317,fg_miss,,,72.0,86.0,,brogdma01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:28.0 brogdma01 misses 2-pt jump shot from 14 ft 72-86
+318,rebound,,,72.0,86.0,,,,,,,,,,,defensive,princta02,False,,,,,,,,,,,,,,,,,,,0:24.0 72-86 Defensive rebound by princta02
+319,foul,,,72.0,86.0,,,,,,,,,,,,,,personal,brogdma01,wrighde01,,,,,,,,,,,,,,,,0:08.0 72-86 Personal foul by brogdma01 (drawn by wrighde01 )
+320,fg_miss,,,72.0,86.0,,wrighde01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 72-86 wrighde01 misses 2-pt layup from 2 ft
+321,rebound,,,72.0,86.0,,,,,,,,,,,defensive,brogdma01,False,,,,,,,,,,,,,,,,,,,0:00.0 Defensive rebound by brogdma01 72-86
+322,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+323,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+324,turnover,,,72.0,86.0,,,,,,,,,,,,,,,,,trentga02,out of bounds lost ball,,,,,,,,,,,,,,11:39.0 72-86 Turnover by trentga02 (out of bounds lost ball)
+325,turnover,,,72.0,86.0,,,,,,,,,,,,,,,,,brogdma01,out of bounds lost ball,,,,,,,,,,,,,,11:30.0 Turnover by brogdma01 (out of bounds lost ball) 72-86
+326,fg_miss,,,72.0,86.0,,lopezbr01,2.0,layup,3.0,,kispeco01,,,,,,,,,,,,,,,,,,,,,,,,,11:17.0 72-86 lopezbr01 misses 2-pt layup from 3 ft (block by kispeco01 )
+327,rebound,,,72.0,86.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,11:17.0 Defensive rebound by Team 72-86
+328,fg_miss,,,72.0,86.0,,georgky01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:56.0 georgky01 misses 3-pt jump shot from 27 ft 72-86
+329,rebound,,,72.0,86.0,,,,,,,,,,,defensive,wrighde01,False,,,,,,,,,,,,,,,,,,,10:54.0 72-86 Defensive rebound by wrighde01
+330,fg_miss,,,72.0,86.0,,greenaj01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:31.0 72-86 greenaj01 misses 2-pt jump shot from 21 ft
+331,rebound,,,72.0,86.0,,,,,,,,,,,defensive,kispeco01,False,,,,,,,,,,,,,,,,,,,10:27.0 Defensive rebound by kispeco01 72-86
+332,fg_miss,,,72.0,86.0,,brogdma01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 brogdma01 misses 2-pt layup from 7 ft 72-86
+333,rebound,,,72.0,86.0,,,,,,,,,,,defensive,lopezbr01,False,,,,,,,,,,,,,,,,,,,10:05.0 72-86 Defensive rebound by lopezbr01
+334,fg_miss,,,72.0,86.0,,greenaj01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:58.0 72-86 greenaj01 misses 3-pt jump shot from 26 ft
+335,rebound,,,72.0,86.0,,,,,,,,,,,defensive,brogdma01,False,,,,,,,,,,,,,,,,,,,9:53.0 Defensive rebound by brogdma01 72-86
+336,turnover,,,72.0,86.0,,,,,,,,,,,,,,,,,valanjo01,bad pass; steal by greenaj01,greenaj01,,,,,,,,,,,,,9:42.0 Turnover by valanjo01 (bad pass; steal by greenaj01 ) 72-86
+337,fg_miss,,,72.0,86.0,,trentga02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:35.0 72-86 trentga02 misses 3-pt jump shot from 26 ft
+338,rebound,,,72.0,86.0,,,,,,,,,,,defensive,carrica01,False,,,,,,,,,,,,,,,,,,,9:31.0 Defensive rebound by carrica01 72-86
+339,fg_miss,,,72.0,86.0,,valanjo01,2.0,jump shot,9.0,,trentga02,,,,,,,,,,,,,,,,,,,,,,,,,9:11.0 valanjo01 misses 2-pt jump shot from 9 ft (block by trentga02 ) 72-86
+340,rebound,,,72.0,86.0,,,,,,,,,,,offensive,valanjo01,False,,,,,,,,,,,,,,,,,,,9:11.0 Offensive rebound by valanjo01 72-86
+341,fg_make,,,74.0,86.0,2.0,valanjo01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:09.0 valanjo01 makes 2-pt jump shot from 9 ft +2 74-86
+342,fg_make,,,74.0,89.0,3.0,lopezbr01,3.0,jump shot,26.0,wrighde01,,,,,,,,,,,,,,,,,,,,,,,,,,8:51.0 74-89 +3 lopezbr01 makes 3-pt jump shot from 26 ft (assist by wrighde01 )
+343,turnover,,,74.0,89.0,,,,,,,,,,,,,,,,,brogdma01,lost ball; steal by trentga02,trentga02,,,,,,,,,,,,,8:42.0 Turnover by brogdma01 (lost ball; steal by trentga02 ) 74-89
+344,fg_make,,,74.0,92.0,3.0,lopezbr01,3.0,jump shot,28.0,trentga02,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 74-92 +3 lopezbr01 makes 3-pt jump shot from 28 ft (assist by trentga02 )
+345,timeout,,,74.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,8:34.0 Washington full timeout 74-92
+346,substitution,,,74.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 coulibi01 enters the game for brogdma01 74-92
+347,substitution,,,74.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 poolejo01 enters the game for carrica01 74-92
+348,substitution,,,74.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 sarral01 enters the game for valanjo01 74-92
+349,substitution,,,74.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 74-92 middlkh01 enters the game for princta02
+350,turnover,,,74.0,92.0,,,,,,,,,,,,,,,,,poolejo01,bad pass; steal by wrighde01,wrighde01,,,,,,,,,,,,,8:12.0 Turnover by poolejo01 (bad pass; steal by wrighde01 ) 74-92
+351,fg_miss,,,74.0,92.0,,wrighde01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:58.0 74-92 wrighde01 misses 3-pt jump shot from 26 ft
+352,rebound,,,74.0,92.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,7:55.0 Defensive rebound by georgky01 74-92
+353,fg_make,,,77.0,92.0,3.0,poolejo01,3.0,jump shot,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:46.0 poolejo01 makes 3-pt jump shot from 32 ft +3 77-92
+354,fg_make,,,77.0,94.0,2.0,lopezbr01,2.0,dunk,1.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 77-94 +2 lopezbr01 makes 2-pt dunk from 1 ft (assist by middlkh01 )
+355,fg_miss,,,77.0,94.0,,sarral01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 sarral01 misses 3-pt jump shot from 28 ft 77-94
+356,rebound,,,77.0,94.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:15.0 77-94 Defensive rebound by Team
+357,substitution,,,77.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:15.0 77-94 portibo01 enters the game for lopezbr01
+358,fg_miss,,,77.0,94.0,,middlkh01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 77-94 middlkh01 misses 2-pt jump shot from 14 ft
+359,rebound,,,77.0,94.0,,,,,,,,,,,defensive,poolejo01,False,,,,,,,,,,,,,,,,,,,6:53.0 Defensive rebound by poolejo01 77-94
+360,turnover,,,77.0,94.0,,,,,,,,,,,,,,,,,poolejo01,traveling,,,,,,,,,,,,,,6:48.0 Turnover by poolejo01 (traveling) 77-94
+361,fg_miss,,,77.0,94.0,,middlkh01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 77-94 middlkh01 misses 2-pt layup from 3 ft
+362,rebound,,,77.0,94.0,,,,,,,,,,,defensive,georgky01,False,,,,,,,,,,,,,,,,,,,6:25.0 Defensive rebound by georgky01 77-94
+363,fg_make,,,79.0,94.0,2.0,coulibi01,2.0,layup,2.0,georgky01,,,,,,,,,,,,,,,,,,,,,,,,,,6:25.0 coulibi01 makes 2-pt layup from 2 ft (assist by georgky01 ) +2 79-94
+364,foul,,,79.0,94.0,,,,,,,,,,,,,,shooting,trentga02,coulibi01,,,,,,,,,,,,,,,,6:25.0 Shooting foul by trentga02 (drawn by coulibi01 ) 79-94
+365,substitution,,,79.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:25.0 carrica01 enters the game for poolejo01 79-94
+366,free_throw,,,80.0,94.0,1.0,coulibi01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:25.0 coulibi01 makes free throw 1 of 1 +1 80-94
+367,fg_miss,,,80.0,94.0,,greenaj01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:05.0 80-94 greenaj01 misses 3-pt jump shot from 23 ft
+368,rebound,,,80.0,94.0,,,,,,,,,,,offensive,middlkh01,False,,,,,,,,,,,,,,,,,,,6:03.0 80-94 Offensive rebound by middlkh01
+369,fg_make,,,80.0,96.0,2.0,trentga02,2.0,jump shot,6.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,6:00.0 80-96 +2 trentga02 makes 2-pt jump shot from 6 ft (assist by middlkh01 )
+370,fg_make,,,82.0,96.0,2.0,carrica01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:44.0 carrica01 makes 2-pt jump shot from 12 ft +2 82-96
+371,fg_make,,,82.0,99.0,3.0,portibo01,3.0,jump shot,27.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,5:30.0 82-99 +3 portibo01 makes 3-pt jump shot from 27 ft (assist by middlkh01 )
+372,fg_miss,,,82.0,99.0,,sarral01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:19.0 sarral01 misses 3-pt jump shot from 28 ft 82-99
+373,rebound,,,82.0,99.0,,,,,,,,,,,defensive,greenaj01,False,,,,,,,,,,,,,,,,,,,5:15.0 82-99 Defensive rebound by greenaj01
+374,fg_make,,,82.0,102.0,3.0,trentga02,3.0,jump shot,26.0,middlkh01,,,,,,,,,,,,,,,,,,,,,,,,,,5:13.0 82-102 +3 trentga02 makes 3-pt jump shot from 26 ft (assist by middlkh01 )
+375,timeout,,,82.0,102.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Washington full,,,,5:13.0 Washington full timeout 82-102
+376,substitution,,,82.0,102.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:13.0 82-102 rolliry01 enters the game for wrighde01
+377,fg_miss,,,82.0,102.0,,coulibi01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 coulibi01 misses 3-pt jump shot from 27 ft 82-102
+378,rebound,,,82.0,102.0,,,,,,,,,,,defensive,trentga02,False,,,,,,,,,,,,,,,,,,,4:54.0 82-102 Defensive rebound by trentga02
+379,fg_make,,,82.0,105.0,3.0,portibo01,3.0,jump shot,23.0,rolliry01,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 82-105 +3 portibo01 makes 3-pt jump shot from 23 ft (assist by rolliry01 )
+380,foul,,,82.0,105.0,,,,,,,,,,,,,,shooting,middlkh01,kispeco01,,,,,,,,,,,,,,,,4:30.0 Shooting foul by middlkh01 (drawn by kispeco01 ) 82-105
+381,free_throw,,,83.0,105.0,1.0,kispeco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:30.0 kispeco01 makes free throw 1 of 2 +1 83-105
+382,free_throw,,,84.0,105.0,1.0,kispeco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:30.0 kispeco01 makes free throw 2 of 2 +1 84-105
+383,foul,,,84.0,105.0,,,,,,,,,,,,,,shooting,kispeco01,rolliry01,,,,,,,,,,,,,,,,4:21.0 84-105 Shooting foul by kispeco01 (drawn by rolliry01 )
+384,free_throw,,,84.0,106.0,1.0,rolliry01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:21.0 84-106 +1 rolliry01 makes free throw 1 of 2
+385,substitution,,,84.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 poolejo01 enters the game for kispeco01 84-106
+386,substitution,,,84.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 84-106 princta02 enters the game for middlkh01
+387,free_throw,,,84.0,107.0,1.0,rolliry01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:21.0 84-107 +1 rolliry01 makes free throw 2 of 2
+388,fg_miss,,,84.0,107.0,,coulibi01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:08.0 coulibi01 misses 2-pt jump shot from 18 ft 84-107
+389,rebound,,,84.0,107.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,4:03.0 84-107 Defensive rebound by portibo01
+390,fg_make,,,84.0,110.0,3.0,portibo01,3.0,jump shot,27.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 84-110 +3 portibo01 makes 3-pt jump shot from 27 ft (assist by greenaj01 )
+391,fg_make,,,86.0,110.0,2.0,coulibi01,2.0,dunk,2.0,sarral01,,,,,,,,,,,,,,,,,,,,,,,,,,3:38.0 coulibi01 makes 2-pt dunk from 2 ft (assist by sarral01 ) +2 86-110
+392,fg_miss,,,86.0,110.0,,portibo01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 86-110 portibo01 misses 3-pt jump shot from 29 ft
+393,rebound,,,86.0,110.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,3:18.0 Defensive rebound by coulibi01 86-110
+394,fg_miss,,,86.0,110.0,,poolejo01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 poolejo01 misses 2-pt layup from 3 ft 86-110
+395,rebound,,,86.0,110.0,,,,,,,,,,,defensive,portibo01,False,,,,,,,,,,,,,,,,,,,3:11.0 86-110 Defensive rebound by portibo01
+396,fg_miss,,,86.0,110.0,,portibo01,2.0,layup,2.0,,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,3:08.0 86-110 portibo01 misses 2-pt layup from 2 ft (block by coulibi01 )
+397,rebound,,,86.0,110.0,,,,,,,,,,,defensive,poolejo01,False,,,,,,,,,,,,,,,,,,,3:08.0 Defensive rebound by poolejo01 86-110
+398,fg_make,,,89.0,110.0,3.0,sarral01,3.0,jump shot,28.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,3:01.0 sarral01 makes 3-pt jump shot from 28 ft (assist by coulibi01 ) +3 89-110
+399,fg_miss,,,89.0,110.0,,trentga02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:33.0 89-110 trentga02 misses 3-pt jump shot from 28 ft
+400,rebound,,,89.0,110.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:33.0 89-110 Offensive rebound by Team
+401,unknown,,,89.0,110.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),2:33.0 89-110 Turnover by Team (shot clock)
+402,fg_make,,,92.0,110.0,3.0,poolejo01,3.0,jump shot,28.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,2:21.0 poolejo01 makes 3-pt jump shot from 28 ft (assist by coulibi01 ) +3 92-110
+403,fg_miss,,,92.0,110.0,,rolliry01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:04.0 92-110 rolliry01 misses 3-pt jump shot from 27 ft
+404,rebound,,,92.0,110.0,,,,,,,,,,,defensive,sarral01,False,,,,,,,,,,,,,,,,,,,2:01.0 Defensive rebound by sarral01 92-110
+405,fg_make,,,95.0,110.0,3.0,georgky01,3.0,jump shot,26.0,coulibi01,,,,,,,,,,,,,,,,,,,,,,,,,,1:55.0 georgky01 makes 3-pt jump shot from 26 ft (assist by coulibi01 ) +3 95-110
+406,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:43.0 Jump ball: trentga02 vs. coulibi01 ( rolliry01 gains possession)
+407,substitution,,,95.0,110.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:43.0 95-110 beaucma01 enters the game for portibo01
+408,fg_miss,,,95.0,110.0,,beaucma01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:29.0 95-110 beaucma01 misses 3-pt jump shot from 23 ft
+409,rebound,,,95.0,110.0,,,,,,,,,,,defensive,poolejo01,False,,,,,,,,,,,,,,,,,,,1:28.0 Defensive rebound by poolejo01 95-110
+410,fg_miss,,,95.0,110.0,,poolejo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:24.0 poolejo01 misses 3-pt jump shot from 27 ft 95-110
+411,rebound,,,95.0,110.0,,,,,,,,,,,offensive,coulibi01,False,,,,,,,,,,,,,,,,,,,1:22.0 Offensive rebound by coulibi01 95-110
+412,fg_make,,,97.0,110.0,2.0,coulibi01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 coulibi01 makes 2-pt dunk from 2 ft +2 97-110
+413,fg_miss,,,97.0,110.0,,rolliry01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:00.0 97-110 rolliry01 misses 3-pt jump shot from 28 ft
+414,rebound,,,97.0,110.0,,,,,,,,,,,defensive,coulibi01,False,,,,,,,,,,,,,,,,,,,0:57.0 Defensive rebound by coulibi01 97-110
+415,foul,,,97.0,110.0,,,,,,,,,,,,,,shooting,princta02,coulibi01,,,,,,,,,,,,,,,,0:54.0 Shooting foul by princta02 (drawn by coulibi01 ) 97-110
+416,free_throw,,,98.0,110.0,1.0,coulibi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:54.0 coulibi01 makes free throw 1 of 2 +1 98-110
+417,free_throw,,,99.0,110.0,1.0,coulibi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:54.0 coulibi01 makes free throw 2 of 2 +1 99-110
+418,fg_make,,,99.0,112.0,2.0,rolliry01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:35.0 99-112 +2 rolliry01 makes 2-pt dunk from 1 ft
+419,fg_miss,,,99.0,112.0,,georgky01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 georgky01 misses 2-pt layup from 4 ft 99-112
+420,rebound,,,99.0,112.0,,,,,,,,,,,offensive,georgky01,False,,,,,,,,,,,,,,,,,,,0:25.0 Offensive rebound by georgky01 99-112
+421,fg_make,,,101.0,112.0,2.0,georgky01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:25.0 georgky01 makes 2-pt dunk at rim +2 101-112
+422,unknown,,,101.0,112.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),0:01.0 101-112 Turnover by Team (shot clock)
+423,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

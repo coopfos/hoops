@@ -1,0 +1,485 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: okongon01 vs. durenja01 ( huntede01 gains possession)
+2,fg_make,,,2.0,0.0,2.0,huntede01,2.0,jump shot,15.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,11:44.0 huntede01 makes 2-pt jump shot from 15 ft (assist by daniedy01 ) +2 2-0
+3,fg_make,,,2.0,2.0,2.0,durenja01,2.0,dunk,1.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,11:24.0 2-2 +2 durenja01 makes 2-pt dunk from 1 ft (assist by cunnica01 )
+4,fg_miss,,,2.0,2.0,,risacza01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:12.0 risacza01 misses 3-pt jump shot from 28 ft 2-2
+5,rebound,,,2.0,2.0,,,,,,,,,,,defensive,thompau01,False,,,,,,,,,,,,,,,,,,,11:09.0 2-2 Defensive rebound by thompau01
+6,turnover,,,2.0,2.0,,,,,,,,,,,,,,,,,thompau01,bad pass,,,,,,,,,,,,,,11:04.0 2-2 Turnover by thompau01 (bad pass)
+7,fg_miss,,,2.0,2.0,,youngtr01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:47.0 youngtr01 misses 2-pt jump shot from 7 ft 2-2
+8,rebound,,,2.0,2.0,,,,,,,,,,,defensive,durenja01,False,,,,,,,,,,,,,,,,,,,10:45.0 2-2 Defensive rebound by durenja01
+9,fg_make,,,2.0,4.0,2.0,durenja01,2.0,dunk,4.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 2-4 +2 durenja01 makes 2-pt dunk from 4 ft (assist by cunnica01 )
+10,fg_miss,,,2.0,4.0,,daniedy01,2.0,dunk,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:25.0 daniedy01 misses 2-pt dunk from 7 ft 2-4
+11,rebound,,,2.0,4.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:25.0 2-4 Defensive rebound by Team
+12,fg_make,,,2.0,6.0,2.0,thompau01,2.0,dunk,1.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,10:10.0 2-6 +2 thompau01 makes 2-pt dunk from 1 ft (assist by cunnica01 )
+13,fg_make,,,5.0,6.0,3.0,huntede01,3.0,jump shot,27.0,risacza01,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 huntede01 makes 3-pt jump shot from 27 ft (assist by risacza01 ) +3 5-6
+14,unknown,,,5.0,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by youngtr01,9:49.0 Technical foul by youngtr01 5-6
+15,unknown,,,5.0,7.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,cunnica01 makes technical free throw,9:49.0 5-7 +1 cunnica01 makes technical free throw
+16,fg_miss,,,5.0,7.0,,thompau01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:31.0 5-7 thompau01 misses 2-pt layup from 4 ft
+17,rebound,,,5.0,7.0,,,,,,,,,,,defensive,risacza01,False,,,,,,,,,,,,,,,,,,,9:29.0 Defensive rebound by risacza01 5-7
+18,foul,,,5.0,7.0,,,,,,,,,,,,,,shooting,hardati02,daniedy01,,,,,,,,,,,,,,,,9:26.0 Shooting foul by hardati02 (drawn by daniedy01 ) 5-7
+19,free_throw,,,5.0,7.0,,daniedy01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:26.0 daniedy01 misses free throw 1 of 2 5-7
+20,rebound,,,5.0,7.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:26.0 Offensive rebound by Team 5-7
+21,free_throw,,,5.0,7.0,,daniedy01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:26.0 daniedy01 misses free throw 2 of 2 5-7
+22,rebound,,,5.0,7.0,,,,,,,,,,,defensive,harrito02,False,,,,,,,,,,,,,,,,,,,9:23.0 5-7 Defensive rebound by harrito02
+23,fg_make,,,5.0,9.0,2.0,thompau01,2.0,dunk,1.0,harrito02,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 5-9 +2 thompau01 makes 2-pt dunk from 1 ft (assist by harrito02 )
+24,fg_make,,,7.0,9.0,2.0,huntede01,2.0,dunk,1.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,8:53.0 huntede01 makes 2-pt dunk from 1 ft (assist by daniedy01 ) +2 7-9
+25,fg_make,,,7.0,11.0,2.0,durenja01,2.0,dunk,1.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,8:41.0 7-11 +2 durenja01 makes 2-pt dunk from 1 ft (assist by cunnica01 )
+26,fg_miss,,,7.0,11.0,,okongon01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:30.0 okongon01 misses 3-pt jump shot from 27 ft 7-11
+27,rebound,,,7.0,11.0,,,,,,,,,,,offensive,daniedy01,False,,,,,,,,,,,,,,,,,,,8:27.0 Offensive rebound by daniedy01 7-11
+28,fg_make,,,9.0,11.0,2.0,risacza01,2.0,layup,3.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,8:25.0 risacza01 makes 2-pt layup from 3 ft (assist by daniedy01 ) +2 9-11
+29,turnover,,,9.0,11.0,,,,,,,,,,,,,,,,,cunnica01,bad pass; steal by daniedy01,daniedy01,,,,,,,,,,,,,8:20.0 9-11 Turnover by cunnica01 (bad pass; steal by daniedy01 )
+30,turnover,,,9.0,11.0,,,,,,,,,,,,,,,,,daniedy01,out of bounds lost ball,,,,,,,,,,,,,,8:17.0 Turnover by daniedy01 (out of bounds lost ball) 9-11
+31,fg_make,,,9.0,13.0,2.0,cunnica01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 9-13 +2 cunnica01 makes 2-pt layup from 4 ft
+32,fg_miss,,,9.0,13.0,,huntede01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 huntede01 misses 3-pt jump shot from 25 ft 9-13
+33,rebound,,,9.0,13.0,,,,,,,,,,,defensive,durenja01,False,,,,,,,,,,,,,,,,,,,7:36.0 9-13 Defensive rebound by durenja01
+34,fg_miss,,,9.0,13.0,,hardati02,2.0,layup,2.0,,okongon01,,,,,,,,,,,,,,,,,,,,,,,,,7:29.0 9-13 hardati02 misses 2-pt layup from 2 ft (block by okongon01 )
+35,rebound,,,9.0,13.0,,,,,,,,,,,offensive,hardati02,False,,,,,,,,,,,,,,,,,,,7:26.0 9-13 Offensive rebound by hardati02
+36,fg_make,,,9.0,15.0,2.0,harrito02,2.0,jump shot,18.0,hardati02,,,,,,,,,,,,,,,,,,,,,,,,,,7:23.0 9-15 +2 harrito02 makes 2-pt jump shot from 18 ft (assist by hardati02 )
+37,fg_make,,,12.0,15.0,3.0,youngtr01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:14.0 youngtr01 makes 3-pt jump shot from 29 ft +3 12-15
+38,fg_make,,,12.0,17.0,2.0,cunnica01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 12-17 +2 cunnica01 makes 2-pt jump shot from 7 ft
+39,fg_make,,,14.0,17.0,2.0,okongon01,2.0,layup,3.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:49.0 okongon01 makes 2-pt layup from 3 ft (assist by youngtr01 ) +2 14-17
+40,foul,,,14.0,17.0,,,,,,,,,,,,,,shooting,thompau01,okongon01,,,,,,,,,,,,,,,,6:49.0 Shooting foul by thompau01 (drawn by okongon01 ) 14-17
+41,timeout,,,14.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Detroit full,,,,6:49.0 14-17 Detroit full timeout
+42,free_throw,,,15.0,17.0,1.0,okongon01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:49.0 okongon01 makes free throw 1 of 1 +1 15-17
+43,fg_miss,,,15.0,17.0,,hardati02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 15-17 hardati02 misses 3-pt jump shot from 27 ft
+44,rebound,,,15.0,17.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,6:23.0 Defensive rebound by okongon01 15-17
+45,fg_make,,,17.0,17.0,2.0,okongon01,2.0,dunk,1.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:16.0 okongon01 makes 2-pt dunk from 1 ft (assist by youngtr01 ) +2 17-17
+46,turnover,,,17.0,17.0,,,,,,,,,,,,,,,,,durenja01,bad pass; steal by daniedy01,daniedy01,,,,,,,,,,,,,6:07.0 17-17 Turnover by durenja01 (bad pass; steal by daniedy01 )
+47,turnover,,,17.0,17.0,,,,,,,,,,,,,,,,,daniedy01,bad pass; steal by thompau01,thompau01,,,,,,,,,,,,,5:59.0 Turnover by daniedy01 (bad pass; steal by thompau01 ) 17-17
+48,fg_make,,,17.0,19.0,2.0,hardati02,2.0,layup,4.0,thompau01,,,,,,,,,,,,,,,,,,,,,,,,,,5:53.0 17-19 +2 hardati02 makes 2-pt layup from 4 ft (assist by thompau01 )
+49,substitution,,,17.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:53.0 nancela02 enters the game for okongon01 17-19
+50,substitution,,,17.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:53.0 wallake01 enters the game for youngtr01 17-19
+51,substitution,,,17.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:53.0 17-19 beaslma01 enters the game for thompau01
+52,fg_make,,,20.0,19.0,3.0,nancela02,3.0,jump shot,27.0,wallake01,,,,,,,,,,,,,,,,,,,,,,,,,,5:39.0 nancela02 makes 3-pt jump shot from 27 ft (assist by wallake01 ) +3 20-19
+53,fg_miss,,,20.0,19.0,,cunnica01,2.0,layup,6.0,,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,5:24.0 20-19 cunnica01 misses 2-pt layup from 6 ft (block by daniedy01 )
+54,rebound,,,20.0,19.0,,,,,,,,,,,offensive,cunnica01,False,,,,,,,,,,,,,,,,,,,5:23.0 20-19 Offensive rebound by cunnica01
+55,fg_miss,,,20.0,19.0,,cunnica01,2.0,layup,1.0,,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,5:22.0 20-19 cunnica01 misses 2-pt layup from 1 ft (block by daniedy01 )
+56,rebound,,,20.0,19.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,5:21.0 Defensive rebound by daniedy01 20-19
+57,turnover,,,20.0,19.0,,,,,,,,,,,,,,,,,wallake01,bad pass,,,,,,,,,,,,,,5:18.0 Turnover by wallake01 (bad pass) 20-19
+58,fg_miss,,,20.0,19.0,,cunnica01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:02.0 20-19 cunnica01 misses 2-pt layup from 1 ft
+59,rebound,,,20.0,19.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,5:00.0 Defensive rebound by nancela02 20-19
+60,fg_make,,,22.0,19.0,2.0,huntede01,2.0,jump shot,7.0,risacza01,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 huntede01 makes 2-pt jump shot from 7 ft (assist by risacza01 ) +2 22-19
+61,foul,,,22.0,19.0,,,,,,,,,,,,,,personal,wallake01,beaslma01,,,,,,,,,,,,,,,,4:28.0 22-19 Personal foul by wallake01 (drawn by beaslma01 )
+62,substitution,,,22.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:28.0 krejcvi01 enters the game for risacza01 22-19
+63,substitution,,,22.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:28.0 22-19 fontesi01 enters the game for durenja01
+64,substitution,,,22.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:28.0 22-19 stewais01 enters the game for hardati02
+65,fg_make,,,22.0,22.0,3.0,beaslma01,3.0,jump shot,26.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,4:17.0 22-22 +3 beaslma01 makes 3-pt jump shot from 26 ft (assist by cunnica01 )
+66,fg_miss,,,22.0,22.0,,huntede01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:01.0 huntede01 misses 3-pt jump shot from 27 ft 22-22
+67,rebound,,,22.0,22.0,,,,,,,,,,,defensive,cunnica01,False,,,,,,,,,,,,,,,,,,,3:59.0 22-22 Defensive rebound by cunnica01
+68,fg_make,,,22.0,24.0,2.0,stewais01,2.0,layup,3.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,3:48.0 22-24 +2 stewais01 makes 2-pt layup from 3 ft (assist by cunnica01 )
+69,fg_make,,,25.0,24.0,3.0,huntede01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:35.0 huntede01 makes 3-pt jump shot from 28 ft +3 25-24
+70,fg_make,,,25.0,27.0,3.0,beaslma01,3.0,jump shot,28.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 25-27 +3 beaslma01 makes 3-pt jump shot from 28 ft (assist by cunnica01 )
+71,timeout,,,25.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,3:21.0 Atlanta full timeout 25-27
+72,substitution,,,25.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:21.0 barlodo01 enters the game for daniedy01 25-27
+73,substitution,,,25.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:21.0 mathega01 enters the game for huntede01 25-27
+74,substitution,,,25.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:21.0 25-27 sassema01 enters the game for cunnica01
+75,fg_miss,,,25.0,27.0,,mathega01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:11.0 mathega01 misses 2-pt layup from 4 ft 25-27
+76,rebound,,,25.0,27.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,3:11.0 25-27 Defensive rebound by Team
+77,foul,,,25.0,27.0,,,,,,,,,,,,,,loose ball,nancela02,stewais01,,,,,,,,,,,,,,,,3:11.0 Loose ball foul by nancela02 (drawn by stewais01 ) 25-27
+78,fg_make,,,25.0,29.0,2.0,harrito02,2.0,jump shot,7.0,sassema01,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 25-29 +2 harrito02 makes 2-pt jump shot from 7 ft (assist by sassema01 )
+79,fg_make,,,27.0,29.0,2.0,krejcvi01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:33.0 krejcvi01 makes 2-pt jump shot from 10 ft +2 27-29
+80,fg_make,,,27.0,31.0,2.0,harrito02,2.0,dunk,4.0,stewais01,,,,,,,,,,,,,,,,,,,,,,,,,,2:19.0 27-31 +2 harrito02 makes 2-pt dunk from 4 ft (assist by stewais01 )
+81,foul,,,27.0,31.0,,,,,,,,,,,,,,shooting,fontesi01,wallake01,,,,,,,,,,,,,,,,2:01.0 Shooting foul by fontesi01 (drawn by wallake01 ) 27-31
+82,free_throw,,,28.0,31.0,1.0,wallake01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:01.0 wallake01 makes free throw 1 of 2 +1 28-31
+83,substitution,,,28.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:01.0 28-31 hollaro01 enters the game for harrito02
+84,free_throw,,,29.0,31.0,1.0,wallake01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:01.0 wallake01 makes free throw 2 of 2 +1 29-31
+85,turnover,,,29.0,31.0,,,,,,,,,,,,,,,,,sassema01,lost ball; steal by krejcvi01,krejcvi01,,,,,,,,,,,,,1:46.0 29-31 Turnover by sassema01 (lost ball; steal by krejcvi01 )
+86,fg_miss,,,29.0,31.0,,barlodo01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:42.0 barlodo01 misses 2-pt layup from 4 ft 29-31
+87,rebound,,,29.0,31.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:41.0 Offensive rebound by Team 29-31
+88,foul,,,29.0,31.0,,,,,,,,,,,,,,loose ball,fontesi01,barlodo01,,,,,,,,,,,,,,,,1:40.0 29-31 Loose ball foul by fontesi01 (drawn by barlodo01 )
+89,substitution,,,29.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:40.0 youngtr01 enters the game for wallake01 29-31
+90,foul,,,29.0,31.0,,,,,,,,,,,,,,shooting,hollaro01,youngtr01,,,,,,,,,,,,,,,,1:36.0 Shooting foul by hollaro01 (drawn by youngtr01 ) 29-31
+91,free_throw,,,30.0,31.0,1.0,youngtr01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:36.0 youngtr01 makes free throw 1 of 3 +1 30-31
+92,free_throw,,,31.0,31.0,1.0,youngtr01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:36.0 youngtr01 makes free throw 2 of 3 +1 31-31
+93,free_throw,,,31.0,31.0,,youngtr01,,,,,,misses,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:36.0 youngtr01 misses free throw 3 of 3 31-31
+94,rebound,,,31.0,31.0,,,,,,,,,,,defensive,sassema01,False,,,,,,,,,,,,,,,,,,,1:32.0 31-31 Defensive rebound by sassema01
+95,fg_make,,,31.0,33.0,2.0,stewais01,2.0,layup,4.0,sassema01,,,,,,,,,,,,,,,,,,,,,,,,,,1:29.0 31-33 +2 stewais01 makes 2-pt layup from 4 ft (assist by sassema01 )
+96,foul,,,31.0,33.0,,,,,,,,,,,,,,shooting,mathega01,stewais01,,,,,,,,,,,,,,,,1:29.0 31-33 Shooting foul by mathega01 (drawn by stewais01 )
+97,free_throw,,,31.0,33.0,,stewais01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:29.0 31-33 stewais01 misses free throw 1 of 1
+98,rebound,,,31.0,33.0,,,,,,,,,,,defensive,krejcvi01,False,,,,,,,,,,,,,,,,,,,1:26.0 Defensive rebound by krejcvi01 31-33
+99,fg_miss,,,31.0,33.0,,mathega01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:17.0 mathega01 misses 3-pt jump shot from 28 ft 31-33
+100,rebound,,,31.0,33.0,,,,,,,,,,,offensive,barlodo01,False,,,,,,,,,,,,,,,,,,,1:14.0 Offensive rebound by barlodo01 31-33
+101,fg_make,,,34.0,33.0,3.0,youngtr01,3.0,jump shot,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:04.0 youngtr01 makes 3-pt jump shot from 31 ft +3 34-33
+102,fg_make,,,34.0,35.0,2.0,fontesi01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:47.0 34-35 +2 fontesi01 makes 2-pt layup from 4 ft
+103,fg_miss,,,34.0,35.0,,nancela02,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:33.0 nancela02 misses 3-pt jump shot from 24 ft 34-35
+104,rebound,,,34.0,35.0,,,,,,,,,,,defensive,hollaro01,False,,,,,,,,,,,,,,,,,,,0:30.0 34-35 Defensive rebound by hollaro01
+105,fg_miss,,,34.0,35.0,,beaslma01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:12.0 34-35 beaslma01 misses 3-pt jump shot from 28 ft
+106,rebound,,,34.0,35.0,,,,,,,,,,,defensive,mathega01,False,,,,,,,,,,,,,,,,,,,0:09.0 Defensive rebound by mathega01 34-35
+107,fg_miss,,,34.0,35.0,,nancela02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 nancela02 misses 2-pt layup from 4 ft 34-35
+108,rebound,,,34.0,35.0,,,,,,,,,,,defensive,beaslma01,False,,,,,,,,,,,,,,,,,,,0:00.0 34-35 Defensive rebound by beaslma01
+109,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+110,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+111,fg_make,,,34.0,37.0,2.0,stewais01,2.0,hook shot,4.0,beaslma01,,,,,,,,,,,,,,,,,,,,,,,,,,11:40.0 34-37 +2 stewais01 makes 2-pt hook shot from 4 ft (assist by beaslma01 )
+112,fg_make,,,36.0,37.0,2.0,krejcvi01,2.0,jump shot,14.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,11:22.0 krejcvi01 makes 2-pt jump shot from 14 ft (assist by youngtr01 ) +2 36-37
+113,foul,,,36.0,37.0,,,,,,,,,,,,,,shooting,krejcvi01,cunnica01,,,,,,,,,,,,,,,,11:14.0 36-37 Shooting foul by krejcvi01 (drawn by cunnica01 )
+114,free_throw,,,36.0,38.0,1.0,cunnica01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:14.0 36-38 +1 cunnica01 makes free throw 1 of 2
+115,free_throw,,,36.0,39.0,1.0,cunnica01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:14.0 36-39 +1 cunnica01 makes free throw 2 of 2
+116,fg_make,,,38.0,39.0,2.0,youngtr01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:02.0 youngtr01 makes 2-pt jump shot from 9 ft +2 38-39
+117,fg_make,,,38.0,42.0,3.0,beaslma01,3.0,jump shot,26.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,10:45.0 38-42 +3 beaslma01 makes 3-pt jump shot from 26 ft (assist by cunnica01 )
+118,fg_make,,,41.0,42.0,3.0,krejcvi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33.0 krejcvi01 makes 3-pt jump shot from 26 ft +3 41-42
+119,foul,,,41.0,42.0,,,,,,,,,,,,,,shooting,nancela02,cunnica01,,,,,,,,,,,,,,,,10:26.0 41-42 Shooting foul by nancela02 (drawn by cunnica01 )
+120,free_throw,,,41.0,43.0,1.0,cunnica01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:26.0 41-43 +1 cunnica01 makes free throw 1 of 2
+121,free_throw,,,41.0,44.0,1.0,cunnica01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:26.0 41-44 +1 cunnica01 makes free throw 2 of 2
+122,fg_make,,,43.0,44.0,2.0,youngtr01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:15.0 youngtr01 makes 2-pt jump shot from 8 ft +2 43-44
+123,foul,,,43.0,44.0,,,,,,,,,,,,,,shooting,beaslma01,youngtr01,,,,,,,,,,,,,,,,10:15.0 Shooting foul by beaslma01 (drawn by youngtr01 ) 43-44
+124,free_throw,,,44.0,44.0,1.0,youngtr01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,10:15.0 youngtr01 makes free throw 1 of 1 +1 44-44
+125,fg_miss,,,44.0,44.0,,cunnica01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:54.0 44-44 cunnica01 misses 2-pt layup from 4 ft
+126,rebound,,,44.0,44.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,9:51.0 Defensive rebound by nancela02 44-44
+127,fg_miss,,,44.0,44.0,,krejcvi01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:47.0 krejcvi01 misses 3-pt jump shot from 27 ft 44-44
+128,rebound,,,44.0,44.0,,,,,,,,,,,offensive,nancela02,False,,,,,,,,,,,,,,,,,,,9:44.0 Offensive rebound by nancela02 44-44
+129,fg_make,,,46.0,44.0,2.0,nancela02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:44.0 nancela02 makes 2-pt layup from 3 ft +2 46-44
+130,timeout,,,46.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Detroit full,,,,9:44.0 46-44 Detroit full timeout
+131,substitution,,,46.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:44.0 46-44 thompau01 enters the game for beaslma01
+132,fg_miss,,,46.0,44.0,,cunnica01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:18.0 46-44 cunnica01 misses 2-pt jump shot from 5 ft
+133,rebound,,,46.0,44.0,,,,,,,,,,,defensive,mathega01,False,,,,,,,,,,,,,,,,,,,9:15.0 Defensive rebound by mathega01 46-44
+134,fg_miss,,,46.0,44.0,,mathega01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:11.0 mathega01 misses 3-pt jump shot from 27 ft 46-44
+135,rebound,,,46.0,44.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,9:10.0 46-44 Defensive rebound by Team
+136,foul,,,46.0,44.0,,,,,,,,,,,,,,shooting,barlodo01,thompau01,,,,,,,,,,,,,,,,8:58.0 46-44 Shooting foul by barlodo01 (drawn by thompau01 )
+137,free_throw,,,46.0,44.0,,thompau01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:58.0 46-44 thompau01 misses free throw 1 of 2
+138,rebound,,,46.0,44.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:58.0 46-44 Offensive rebound by Team
+139,free_throw,,,46.0,45.0,1.0,thompau01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:58.0 46-45 +1 thompau01 makes free throw 2 of 2
+140,fg_make,,,48.0,45.0,2.0,nancela02,2.0,dunk,1.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,8:43.0 nancela02 makes 2-pt dunk from 1 ft (assist by youngtr01 ) +2 48-45
+141,fg_miss,,,48.0,45.0,,cunnica01,2.0,layup,4.0,,krejcvi01,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 48-45 cunnica01 misses 2-pt layup from 4 ft (block by krejcvi01 )
+142,rebound,,,48.0,45.0,,,,,,,,,,,defensive,mathega01,False,,,,,,,,,,,,,,,,,,,8:30.0 Defensive rebound by mathega01 48-45
+143,fg_miss,,,48.0,45.0,,mathega01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 mathega01 misses 2-pt jump shot from 19 ft 48-45
+144,rebound,,,48.0,45.0,,,,,,,,,,,defensive,cunnica01,False,,,,,,,,,,,,,,,,,,,8:16.0 48-45 Defensive rebound by cunnica01
+145,foul,,,48.0,45.0,,,,,,,,,,,,,,shooting,mathega01,fontesi01,,,,,,,,,,,,,,,,8:11.0 48-45 Shooting foul by mathega01 (drawn by fontesi01 )
+146,free_throw,,,48.0,46.0,1.0,fontesi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:11.0 48-46 +1 fontesi01 makes free throw 1 of 2
+147,substitution,,,48.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:11.0 daniedy01 enters the game for barlodo01 48-46
+148,substitution,,,48.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:11.0 huntede01 enters the game for mathega01 48-46
+149,substitution,,,48.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:11.0 wallake01 enters the game for youngtr01 48-46
+150,free_throw,,,48.0,47.0,1.0,fontesi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:11.0 48-47 +1 fontesi01 makes free throw 2 of 2
+151,fg_make,,,51.0,47.0,3.0,huntede01,3.0,jump shot,23.0,wallake01,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 huntede01 makes 3-pt jump shot from 23 ft (assist by wallake01 ) +3 51-47
+152,fg_miss,,,51.0,47.0,,fontesi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:42.0 51-47 fontesi01 misses 3-pt jump shot from 26 ft
+153,rebound,,,51.0,47.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,7:40.0 Defensive rebound by nancela02 51-47
+154,fg_miss,,,51.0,47.0,,huntede01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:30.0 huntede01 misses 2-pt jump shot from 9 ft 51-47
+155,rebound,,,51.0,47.0,,,,,,,,,,,offensive,nancela02,False,,,,,,,,,,,,,,,,,,,7:25.0 Offensive rebound by nancela02 51-47
+156,fg_miss,,,51.0,47.0,,nancela02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 nancela02 misses 3-pt jump shot from 23 ft 51-47
+157,rebound,,,51.0,47.0,,,,,,,,,,,defensive,cunnica01,False,,,,,,,,,,,,,,,,,,,7:16.0 51-47 Defensive rebound by cunnica01
+158,fg_miss,,,51.0,47.0,,stewais01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:08.0 51-47 stewais01 misses 2-pt layup from 4 ft
+159,rebound,,,51.0,47.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,7:05.0 Defensive rebound by nancela02 51-47
+160,fg_make,,,54.0,47.0,3.0,krejcvi01,3.0,jump shot,27.0,wallake01,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 krejcvi01 makes 3-pt jump shot from 27 ft (assist by wallake01 ) +3 54-47
+161,foul,,,54.0,47.0,,,,,,,,,,,,,,shooting,krejcvi01,thompau01,,,,,,,,,,,,,,,,6:40.0 54-47 Shooting foul by krejcvi01 (drawn by thompau01 )
+162,free_throw,,,54.0,48.0,1.0,thompau01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:40.0 54-48 +1 thompau01 makes free throw 1 of 2
+163,substitution,,,54.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 okongon01 enters the game for krejcvi01 54-48
+164,substitution,,,54.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 risacza01 enters the game for nancela02 54-48
+165,substitution,,,54.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 54-48 durenja01 enters the game for hollaro01
+166,substitution,,,54.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 54-48 hardati02 enters the game for stewais01
+167,free_throw,,,54.0,49.0,1.0,thompau01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:40.0 54-49 +1 thompau01 makes free throw 2 of 2
+168,substitution,,,54.0,49.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 54-49 harrito02 enters the game for fontesi01
+169,fg_make,,,56.0,49.0,2.0,daniedy01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:17.0 daniedy01 makes 2-pt jump shot from 6 ft +2 56-49
+170,turnover,,,56.0,49.0,,,,,,,,,,,,,,,,,durenja01,bad pass; steal by daniedy01,daniedy01,,,,,,,,,,,,,6:02.0 56-49 Turnover by durenja01 (bad pass; steal by daniedy01 )
+171,fg_make,,,58.0,49.0,2.0,daniedy01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 daniedy01 makes 2-pt dunk from 1 ft +2 58-49
+172,turnover,,,58.0,49.0,,,,,,,,,,,,,,,,,hardati02,traveling,,,,,,,,,,,,,,5:46.0 58-49 Turnover by hardati02 (traveling)
+173,substitution,,,58.0,49.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:46.0 58-49 sassema01 enters the game for cunnica01
+174,turnover,,,58.0,49.0,,,,,,,,,,,,,,,,,daniedy01,bad pass; steal by thompau01,thompau01,,,,,,,,,,,,,5:33.0 Turnover by daniedy01 (bad pass; steal by thompau01 ) 58-49
+175,foul,,,58.0,49.0,,,,,,,,,,,,,,shooting,okongon01,thompau01,,,,,,,,,,,,,,,,5:24.0 58-49 Shooting foul by okongon01 (drawn by thompau01 )
+176,free_throw,,,58.0,50.0,1.0,thompau01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:24.0 58-50 +1 thompau01 makes free throw 1 of 2
+177,free_throw,,,58.0,51.0,1.0,thompau01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:24.0 58-51 +1 thompau01 makes free throw 2 of 2
+178,foul,,,58.0,51.0,,,,,,,,,,,,,,personal,thompau01,huntede01,,,,,,,,,,,,,,,,5:16.0 Personal foul by thompau01 (drawn by huntede01 ) 58-51
+179,instant_replay,,,58.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:16.0 Instant Replay (Request: Ruling Stands) 58-51
+180,unknown,,,58.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by huntede01,5:16.0 Technical foul by huntede01 58-51
+181,unknown,,,58.0,52.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,harrito02 makes technical free throw,5:16.0 58-52 +1 harrito02 makes technical free throw
+182,fg_miss,,,58.0,52.0,,huntede01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:05.0 huntede01 misses 2-pt jump shot from 17 ft 58-52
+183,rebound,,,58.0,52.0,,,,,,,,,,,defensive,sassema01,False,,,,,,,,,,,,,,,,,,,5:01.0 58-52 Defensive rebound by sassema01
+184,foul,,,58.0,52.0,,,,,,,,,,,,,,shooting,wallake01,harrito02,,,,,,,,,,,,,,,,4:57.0 58-52 Shooting foul by wallake01 (drawn by harrito02 )
+185,free_throw,,,58.0,53.0,1.0,harrito02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:57.0 58-53 +1 harrito02 makes free throw 1 of 2
+186,free_throw,,,58.0,54.0,1.0,harrito02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:57.0 58-54 +1 harrito02 makes free throw 2 of 2
+187,fg_miss,,,58.0,54.0,,risacza01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 risacza01 misses 3-pt jump shot from 25 ft 58-54
+188,rebound,,,58.0,54.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:33.0 Offensive rebound by Team 58-54
+189,unknown,,,58.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),4:33.0 Turnover by Team (shot clock) 58-54
+190,fg_miss,,,58.0,54.0,,durenja01,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 58-54 durenja01 misses 2-pt hook shot from 5 ft
+191,rebound,,,58.0,54.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,4:09.0 Defensive rebound by okongon01 58-54
+192,fg_make,,,60.0,54.0,2.0,risacza01,2.0,layup,3.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,4:06.0 risacza01 makes 2-pt layup from 3 ft (assist by daniedy01 ) +2 60-54
+193,fg_miss,,,60.0,54.0,,sassema01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:51.0 60-54 sassema01 misses 2-pt jump shot from 14 ft
+194,rebound,,,60.0,54.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,3:49.0 Defensive rebound by daniedy01 60-54
+195,fg_make,,,63.0,54.0,3.0,daniedy01,3.0,jump shot,25.0,wallake01,,,,,,,,,,,,,,,,,,,,,,,,,,3:38.0 daniedy01 makes 3-pt jump shot from 25 ft (assist by wallake01 ) +3 63-54
+196,fg_miss,,,63.0,54.0,,hardati02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:26.0 63-54 hardati02 misses 3-pt jump shot from 28 ft
+197,rebound,,,63.0,54.0,,,,,,,,,,,defensive,risacza01,False,,,,,,,,,,,,,,,,,,,3:23.0 Defensive rebound by risacza01 63-54
+198,fg_make,,,65.0,54.0,2.0,daniedy01,2.0,layup,4.0,okongon01,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 daniedy01 makes 2-pt layup from 4 ft (assist by okongon01 ) +2 65-54
+199,fg_miss,,,65.0,54.0,,thompau01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:55.0 65-54 thompau01 misses 2-pt jump shot from 16 ft
+200,rebound,,,65.0,54.0,,,,,,,,,,,defensive,risacza01,False,,,,,,,,,,,,,,,,,,,2:53.0 Defensive rebound by risacza01 65-54
+201,foul,,,65.0,54.0,,,,,,,,,,,,,,shooting,durenja01,risacza01,,,,,,,,,,,,,,,,2:51.0 Shooting foul by durenja01 (drawn by risacza01 ) 65-54
+202,timeout,,,65.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,2:51.0 Atlanta full timeout 65-54
+203,substitution,,,65.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 youngtr01 enters the game for wallake01 65-54
+204,substitution,,,65.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 65-54 beaslma01 enters the game for sassema01
+205,substitution,,,65.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 65-54 cunnica01 enters the game for thompau01
+206,free_throw,,,66.0,54.0,1.0,risacza01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:51.0 risacza01 makes free throw 1 of 2 +1 66-54
+207,free_throw,,,67.0,54.0,1.0,risacza01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:51.0 risacza01 makes free throw 2 of 2 +1 67-54
+208,fg_make,,,67.0,56.0,2.0,harrito02,2.0,layup,6.0,hardati02,,,,,,,,,,,,,,,,,,,,,,,,,,2:34.0 67-56 +2 harrito02 makes 2-pt layup from 6 ft (assist by hardati02 )
+209,fg_make,,,69.0,56.0,2.0,daniedy01,2.0,layup,4.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,2:11.0 daniedy01 makes 2-pt layup from 4 ft (assist by youngtr01 ) +2 69-56
+210,foul,,,69.0,56.0,,,,,,,,,,,,,,shooting,huntede01,harrito02,,,,,,,,,,,,,,,,1:58.0 69-56 Shooting foul by huntede01 (drawn by harrito02 )
+211,free_throw,,,69.0,57.0,1.0,harrito02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:58.0 69-57 +1 harrito02 makes free throw 1 of 2
+212,free_throw,,,69.0,57.0,,harrito02,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:58.0 69-57 harrito02 misses free throw 2 of 2
+213,rebound,,,69.0,57.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,1:58.0 Defensive rebound by daniedy01 69-57
+214,foul,,,69.0,57.0,,,,,,,,,,,,,,shooting,hardati02,daniedy01,,,,,,,,,,,,,,,,1:43.0 Shooting foul by hardati02 (drawn by daniedy01 ) 69-57
+215,free_throw,,,70.0,57.0,1.0,daniedy01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 daniedy01 makes free throw 1 of 2 +1 70-57
+216,free_throw,,,71.0,57.0,1.0,daniedy01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 daniedy01 makes free throw 2 of 2 +1 71-57
+217,fg_make,,,71.0,59.0,2.0,cunnica01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:21.0 71-59 +2 cunnica01 makes 2-pt jump shot from 4 ft
+218,fg_miss,,,71.0,59.0,,daniedy01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:07.0 daniedy01 misses 2-pt layup from 7 ft 71-59
+219,rebound,,,71.0,59.0,,,,,,,,,,,defensive,beaslma01,False,,,,,,,,,,,,,,,,,,,1:05.0 71-59 Defensive rebound by beaslma01
+220,fg_miss,,,71.0,59.0,,cunnica01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:59.0 71-59 cunnica01 misses 3-pt jump shot from 24 ft
+221,rebound,,,71.0,59.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,0:56.0 Defensive rebound by okongon01 71-59
+222,turnover,,,71.0,59.0,,,,,,,,,,,,,,,,,youngtr01,bad pass; steal by beaslma01,beaslma01,,,,,,,,,,,,,0:54.0 Turnover by youngtr01 (bad pass; steal by beaslma01 ) 71-59
+223,fg_make,,,71.0,61.0,2.0,durenja01,2.0,dunk,3.0,hardati02,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 71-61 +2 durenja01 makes 2-pt dunk from 3 ft (assist by hardati02 )
+224,foul,,,71.0,61.0,,,,,,,,,,,,,,personal,beaslma01,youngtr01,,,,,,,,,,,,,,,,0:41.0 Personal foul by beaslma01 (drawn by youngtr01 ) 71-61
+225,free_throw,,,72.0,61.0,1.0,youngtr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:41.0 youngtr01 makes free throw 1 of 2 +1 72-61
+226,free_throw,,,73.0,61.0,1.0,youngtr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:41.0 youngtr01 makes free throw 2 of 2 +1 73-61
+227,fg_miss,,,73.0,61.0,,cunnica01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 73-61 cunnica01 misses 2-pt jump shot from 16 ft
+228,rebound,,,73.0,61.0,,,,,,,,,,,offensive,durenja01,False,,,,,,,,,,,,,,,,,,,0:30.0 73-61 Offensive rebound by durenja01
+229,fg_miss,,,73.0,61.0,,durenja01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 73-61 durenja01 misses 2-pt layup from 1 ft
+230,rebound,,,73.0,61.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,0:30.0 Defensive rebound by daniedy01 73-61
+231,fg_miss,,,73.0,61.0,,youngtr01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:10.0 youngtr01 misses 2-pt jump shot from 9 ft 73-61
+232,rebound,,,73.0,61.0,,,,,,,,,,,defensive,beaslma01,False,,,,,,,,,,,,,,,,,,,0:07.0 73-61 Defensive rebound by beaslma01
+233,fg_make,,,73.0,64.0,3.0,beaslma01,3.0,jump shot,26.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 73-64 +3 beaslma01 makes 3-pt jump shot from 26 ft (assist by cunnica01 )
+234,turnover,,,73.0,64.0,,,,,,,,,,,,,,,,,daniedy01,bad pass; steal by beaslma01,beaslma01,,,,,,,,,,,,,0:00.0 Turnover by daniedy01 (bad pass; steal by beaslma01 ) 73-64
+235,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+236,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+237,fg_make,,,73.0,66.0,2.0,cunnica01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:40.0 73-66 +2 cunnica01 makes 2-pt layup from 4 ft
+238,foul,,,73.0,66.0,,,,,,,,,,,,,,shooting,huntede01,cunnica01,,,,,,,,,,,,,,,,11:40.0 73-66 Shooting foul by huntede01 (drawn by cunnica01 )
+239,free_throw,,,73.0,67.0,1.0,cunnica01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,11:40.0 73-67 +1 cunnica01 makes free throw 1 of 1
+240,fg_make,,,75.0,67.0,2.0,okongon01,2.0,dunk,4.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,11:25.0 okongon01 makes 2-pt dunk from 4 ft (assist by youngtr01 ) +2 75-67
+241,fg_make,,,75.0,69.0,2.0,thompau01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:18.0 75-69 +2 thompau01 makes 2-pt layup from 4 ft
+242,foul,,,75.0,69.0,,,,,,,,,,,,,,offensive,okongon01,thompau01,,,,,,,,,,,,,,,,11:13.0 Offensive foul by okongon01 (drawn by thompau01 ) 75-69
+243,turnover,,,75.0,69.0,,,,,,,,,,,,,,,,,okongon01,offensive foul,,,,,,,,,,,,,,11:13.0 Turnover by okongon01 (offensive foul) 75-69
+244,foul,,,75.0,69.0,,,,,,,,,,,,,,shooting,huntede01,cunnica01,,,,,,,,,,,,,,,,11:00.0 75-69 Shooting foul by huntede01 (drawn by cunnica01 )
+245,free_throw,,,75.0,70.0,1.0,cunnica01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:00.0 75-70 +1 cunnica01 makes free throw 1 of 2
+246,free_throw,,,75.0,71.0,1.0,cunnica01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:00.0 75-71 +1 cunnica01 makes free throw 2 of 2
+247,fg_miss,,,75.0,71.0,,youngtr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:47.0 youngtr01 misses 3-pt jump shot from 27 ft 75-71
+248,rebound,,,75.0,71.0,,,,,,,,,,,defensive,cunnica01,False,,,,,,,,,,,,,,,,,,,10:44.0 75-71 Defensive rebound by cunnica01
+249,foul,,,75.0,71.0,,,,,,,,,,,,,,personal,youngtr01,durenja01,,,,,,,,,,,,,,,,10:41.0 75-71 Personal foul by youngtr01 (drawn by durenja01 )
+250,fg_make,,,75.0,73.0,2.0,durenja01,2.0,layup,4.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,10:31.0 75-73 +2 durenja01 makes 2-pt layup from 4 ft (assist by cunnica01 )
+251,fg_miss,,,75.0,73.0,,youngtr01,3.0,jump shot,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:20.0 youngtr01 misses 3-pt jump shot from 31 ft 75-73
+252,rebound,,,75.0,73.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:20.0 75-73 Defensive rebound by Team
+253,fg_miss,,,75.0,73.0,,hardati02,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:06.0 75-73 hardati02 misses 2-pt layup from 5 ft
+254,rebound,,,75.0,73.0,,,,,,,,,,,offensive,hardati02,False,,,,,,,,,,,,,,,,,,,10:06.0 75-73 Offensive rebound by hardati02
+255,foul,,,75.0,73.0,,,,,,,,,,,,,,shooting,huntede01,hardati02,,,,,,,,,,,,,,,,10:06.0 75-73 Shooting foul by huntede01 (drawn by hardati02 )
+256,free_throw,,,75.0,74.0,1.0,hardati02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:06.0 75-74 +1 hardati02 makes free throw 1 of 2
+257,substitution,,,75.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:06.0 krejcvi01 enters the game for huntede01 75-74
+258,free_throw,,,75.0,75.0,1.0,hardati02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:06.0 75-75 +1 hardati02 makes free throw 2 of 2
+259,fg_miss,,,75.0,75.0,,risacza01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:52.0 risacza01 misses 3-pt jump shot from 25 ft 75-75
+260,rebound,,,75.0,75.0,,,,,,,,,,,defensive,durenja01,False,,,,,,,,,,,,,,,,,,,9:49.0 75-75 Defensive rebound by durenja01
+261,fg_make,,,75.0,77.0,2.0,durenja01,2.0,dunk,1.0,thompau01,,,,,,,,,,,,,,,,,,,,,,,,,,9:35.0 75-77 +2 durenja01 makes 2-pt dunk from 1 ft (assist by thompau01 )
+262,timeout,,,75.0,77.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,9:35.0 Atlanta full timeout 75-77
+263,foul,,,75.0,77.0,,,,,,,,,,,,,,shooting,harrito02,daniedy01,,,,,,,,,,,,,,,,9:22.0 Shooting foul by harrito02 (drawn by daniedy01 ) 75-77
+264,free_throw,,,76.0,77.0,1.0,daniedy01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:22.0 daniedy01 makes free throw 1 of 2 +1 76-77
+265,free_throw,,,77.0,77.0,1.0,daniedy01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:22.0 daniedy01 makes free throw 2 of 2 +1 77-77
+266,fg_miss,,,77.0,77.0,,harrito02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 77-77 harrito02 misses 3-pt jump shot from 23 ft
+267,rebound,,,77.0,77.0,,,,,,,,,,,offensive,durenja01,False,,,,,,,,,,,,,,,,,,,9:05.0 77-77 Offensive rebound by durenja01
+268,fg_make,,,77.0,79.0,2.0,durenja01,2.0,dunk,1.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 77-79 +2 durenja01 makes 2-pt dunk from 1 ft (assist by cunnica01 )
+269,fg_make,,,80.0,79.0,3.0,krejcvi01,3.0,jump shot,26.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,8:51.0 krejcvi01 makes 3-pt jump shot from 26 ft (assist by daniedy01 ) +3 80-79
+270,turnover,,,80.0,79.0,,,,,,,,,,,,,,,,,thompau01,lost ball; steal by risacza01,risacza01,,,,,,,,,,,,,8:41.0 80-79 Turnover by thompau01 (lost ball; steal by risacza01 )
+271,fg_make,,,82.0,79.0,2.0,risacza01,2.0,jump shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 risacza01 makes 2-pt jump shot from 3 ft +2 82-79
+272,fg_make,,,82.0,81.0,2.0,durenja01,2.0,dunk,1.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 82-81 +2 durenja01 makes 2-pt dunk from 1 ft (assist by cunnica01 )
+273,foul,,,82.0,81.0,,,,,,,,,,,,,,shooting,thompau01,daniedy01,,,,,,,,,,,,,,,,7:53.0 Shooting foul by thompau01 (drawn by daniedy01 ) 82-81
+274,free_throw,,,83.0,81.0,1.0,daniedy01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:53.0 daniedy01 makes free throw 1 of 2 +1 83-81
+275,free_throw,,,83.0,81.0,,daniedy01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:53.0 daniedy01 misses free throw 2 of 2 83-81
+276,rebound,,,83.0,81.0,,,,,,,,,,,defensive,thompau01,False,,,,,,,,,,,,,,,,,,,7:49.0 83-81 Defensive rebound by thompau01
+277,fg_miss,,,83.0,81.0,,cunnica01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 83-81 cunnica01 misses 2-pt jump shot from 6 ft
+278,rebound,,,83.0,81.0,,,,,,,,,,,offensive,durenja01,False,,,,,,,,,,,,,,,,,,,7:35.0 83-81 Offensive rebound by durenja01
+279,fg_make,,,83.0,84.0,3.0,hardati02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:34.0 83-84 +3 hardati02 makes 3-pt jump shot from 26 ft
+280,foul,,,83.0,84.0,,,,,,,,,,,,,,shooting,cunnica01,risacza01,,,,,,,,,,,,,,,,7:23.0 Shooting foul by cunnica01 (drawn by risacza01 ) 83-84
+281,free_throw,,,84.0,84.0,1.0,risacza01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:23.0 risacza01 makes free throw 1 of 2 +1 84-84
+282,free_throw,,,84.0,84.0,,risacza01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:23.0 risacza01 misses free throw 2 of 2 84-84
+283,rebound,,,84.0,84.0,,,,,,,,,,,defensive,durenja01,False,,,,,,,,,,,,,,,,,,,7:20.0 84-84 Defensive rebound by durenja01
+284,fg_make,,,84.0,86.0,2.0,harrito02,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 84-86 +2 harrito02 makes 2-pt jump shot from 14 ft
+285,fg_make,,,86.0,86.0,2.0,okongon01,2.0,layup,2.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:55.0 okongon01 makes 2-pt layup from 2 ft (assist by youngtr01 ) +2 86-86
+286,foul,,,86.0,86.0,,,,,,,,,,,,,,shooting,harrito02,okongon01,,,,,,,,,,,,,,,,6:55.0 Shooting foul by harrito02 (drawn by okongon01 ) 86-86
+287,free_throw,,,87.0,86.0,1.0,okongon01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:55.0 okongon01 makes free throw 1 of 1 +1 87-86
+288,fg_miss,,,87.0,86.0,,cunnica01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:35.0 87-86 cunnica01 misses 3-pt jump shot from 27 ft
+289,rebound,,,87.0,86.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,6:32.0 Defensive rebound by okongon01 87-86
+290,foul,,,87.0,86.0,,,,,,,,,,,,,,shooting,durenja01,youngtr01,,,,,,,,,,,,,,,,6:26.0 Shooting foul by durenja01 (drawn by youngtr01 ) 87-86
+291,free_throw,,,88.0,86.0,1.0,youngtr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:26.0 youngtr01 makes free throw 1 of 2 +1 88-86
+292,substitution,,,88.0,86.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 88-86 beaslma01 enters the game for thompau01
+293,free_throw,,,89.0,86.0,1.0,youngtr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:26.0 youngtr01 makes free throw 2 of 2 +1 89-86
+294,fg_miss,,,89.0,86.0,,hardati02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 89-86 hardati02 misses 3-pt jump shot from 28 ft
+295,rebound,,,89.0,86.0,,,,,,,,,,,offensive,beaslma01,False,,,,,,,,,,,,,,,,,,,6:07.0 89-86 Offensive rebound by beaslma01
+296,fg_make,,,89.0,89.0,3.0,beaslma01,3.0,jump shot,26.0,durenja01,,,,,,,,,,,,,,,,,,,,,,,,,,6:04.0 89-89 +3 beaslma01 makes 3-pt jump shot from 26 ft (assist by durenja01 )
+297,fg_make,,,92.0,89.0,3.0,risacza01,3.0,jump shot,26.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,5:48.0 risacza01 makes 3-pt jump shot from 26 ft (assist by youngtr01 ) +3 92-89
+298,fg_miss,,,92.0,89.0,,beaslma01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:30.0 92-89 beaslma01 misses 3-pt jump shot from 27 ft
+299,rebound,,,92.0,89.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,5:27.0 Defensive rebound by okongon01 92-89
+300,fg_miss,,,92.0,89.0,,krejcvi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:17.0 krejcvi01 misses 3-pt jump shot from 26 ft 92-89
+301,rebound,,,92.0,89.0,,,,,,,,,,,defensive,durenja01,False,,,,,,,,,,,,,,,,,,,5:15.0 92-89 Defensive rebound by durenja01
+302,fg_make,,,92.0,92.0,3.0,beaslma01,3.0,jump shot,28.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,5:06.0 92-92 +3 beaslma01 makes 3-pt jump shot from 28 ft (assist by cunnica01 )
+303,fg_miss,,,92.0,92.0,,daniedy01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:54.0 daniedy01 misses 2-pt layup from 4 ft 92-92
+304,rebound,,,92.0,92.0,,,,,,,,,,,defensive,harrito02,False,,,,,,,,,,,,,,,,,,,4:52.0 92-92 Defensive rebound by harrito02
+305,fg_miss,,,92.0,92.0,,harrito02,2.0,layup,4.0,,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,4:45.0 92-92 harrito02 misses 2-pt layup from 4 ft (block by daniedy01 )
+306,rebound,,,92.0,92.0,,,,,,,,,,,defensive,krejcvi01,False,,,,,,,,,,,,,,,,,,,4:42.0 Defensive rebound by krejcvi01 92-92
+307,fg_miss,,,92.0,92.0,,youngtr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:41.0 youngtr01 misses 3-pt jump shot from 26 ft 92-92
+308,rebound,,,92.0,92.0,,,,,,,,,,,defensive,harrito02,False,,,,,,,,,,,,,,,,,,,4:38.0 92-92 Defensive rebound by harrito02
+309,fg_miss,,,92.0,92.0,,cunnica01,2.0,dunk,,,okongon01,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 92-92 cunnica01 misses 2-pt dunk at rim (block by okongon01 )
+310,rebound,,,92.0,92.0,,,,,,,,,,,defensive,krejcvi01,False,,,,,,,,,,,,,,,,,,,4:24.0 Defensive rebound by krejcvi01 92-92
+311,turnover,,,92.0,92.0,,,,,,,,,,,,,,,,,krejcvi01,out of bounds lost ball,,,,,,,,,,,,,,4:24.0 Turnover by krejcvi01 (out of bounds lost ball) 92-92
+312,substitution,,,92.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 nancela02 enters the game for okongon01 92-92
+313,substitution,,,92.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 wallake01 enters the game for youngtr01 92-92
+314,substitution,,,92.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 92-92 stewais01 enters the game for durenja01
+315,fg_miss,,,92.0,92.0,,harrito02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 92-92 harrito02 misses 3-pt jump shot from 23 ft
+316,rebound,,,92.0,92.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,4:18.0 Defensive rebound by nancela02 92-92
+317,foul,,,92.0,92.0,,,,,,,,,,,,,,shooting,hardati02,daniedy01,,,,,,,,,,,,,,,,4:08.0 Shooting foul by hardati02 (drawn by daniedy01 ) 92-92
+318,free_throw,,,93.0,92.0,1.0,daniedy01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:08.0 daniedy01 makes free throw 1 of 2 +1 93-92
+319,substitution,,,93.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:08.0 barlodo01 enters the game for risacza01 93-92
+320,substitution,,,93.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:08.0 93-92 fontesi01 enters the game for hardati02
+321,free_throw,,,93.0,92.0,,daniedy01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:08.0 daniedy01 misses free throw 2 of 2 93-92
+322,rebound,,,93.0,92.0,,,,,,,,,,,defensive,stewais01,False,,,,,,,,,,,,,,,,,,,4:05.0 93-92 Defensive rebound by stewais01
+323,fg_miss,,,93.0,92.0,,harrito02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:47.0 93-92 harrito02 misses 2-pt jump shot from 10 ft
+324,rebound,,,93.0,92.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,3:45.0 Defensive rebound by nancela02 93-92
+325,fg_make,,,95.0,92.0,2.0,daniedy01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 daniedy01 makes 2-pt jump shot from 4 ft +2 95-92
+326,fg_miss,,,95.0,92.0,,cunnica01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 95-92 cunnica01 misses 3-pt jump shot from 29 ft
+327,rebound,,,95.0,92.0,,,,,,,,,,,offensive,stewais01,False,,,,,,,,,,,,,,,,,,,3:20.0 95-92 Offensive rebound by stewais01
+328,turnover,,,95.0,92.0,,,,,,,,,,,,,,,,,cunnica01,bad pass,,,,,,,,,,,,,,3:06.0 95-92 Turnover by cunnica01 (bad pass)
+329,substitution,,,95.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:06.0 95-92 hollaro01 enters the game for harrito02
+330,fg_miss,,,95.0,92.0,,wallake01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:48.0 wallake01 misses 2-pt jump shot from 9 ft 95-92
+331,rebound,,,95.0,92.0,,,,,,,,,,,defensive,stewais01,False,,,,,,,,,,,,,,,,,,,2:45.0 95-92 Defensive rebound by stewais01
+332,fg_make,,,95.0,94.0,2.0,cunnica01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:37.0 95-94 +2 cunnica01 makes 2-pt layup from 5 ft
+333,fg_make,,,98.0,94.0,3.0,nancela02,3.0,jump shot,23.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,2:19.0 nancela02 makes 3-pt jump shot from 23 ft (assist by daniedy01 ) +3 98-94
+334,turnover,,,98.0,94.0,,,,,,,,,,,,,,,,,beaslma01,traveling,,,,,,,,,,,,,,2:03.0 98-94 Turnover by beaslma01 (traveling)
+335,timeout,,,98.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Detroit full,,,,2:03.0 98-94 Detroit full timeout
+336,substitution,,,98.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 mathega01 enters the game for daniedy01 98-94
+337,foul,,,98.0,94.0,,,,,,,,,,,,,,shooting,cunnica01,mathega01,,,,,,,,,,,,,,,,1:52.0 Shooting foul by cunnica01 (drawn by mathega01 ) 98-94
+338,timeout,,,98.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Detroit full,,,,1:52.0 98-94 Detroit full timeout
+339,instant_replay,,,98.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:52.0 98-94 Instant Replay (Challenge: Stands)
+340,free_throw,,,99.0,94.0,1.0,mathega01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:52.0 mathega01 makes free throw 1 of 3 +1 99-94
+341,free_throw,,,100.0,94.0,1.0,mathega01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:52.0 mathega01 makes free throw 2 of 3 +1 100-94
+342,free_throw,,,101.0,94.0,1.0,mathega01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:52.0 mathega01 makes free throw 3 of 3 +1 101-94
+343,fg_miss,,,101.0,94.0,,stewais01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:34.0 101-94 stewais01 misses 2-pt layup from 4 ft
+344,rebound,,,101.0,94.0,,,,,,,,,,,defensive,barlodo01,False,,,,,,,,,,,,,,,,,,,1:32.0 Defensive rebound by barlodo01 101-94
+345,fg_miss,,,101.0,94.0,,krejcvi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:25.0 krejcvi01 misses 3-pt jump shot from 26 ft 101-94
+346,rebound,,,101.0,94.0,,,,,,,,,,,defensive,beaslma01,False,,,,,,,,,,,,,,,,,,,1:22.0 101-94 Defensive rebound by beaslma01
+347,fg_miss,,,101.0,94.0,,cunnica01,2.0,layup,6.0,,barlodo01,,,,,,,,,,,,,,,,,,,,,,,,,1:18.0 101-94 cunnica01 misses 2-pt layup from 6 ft (block by barlodo01 )
+348,rebound,,,101.0,94.0,,,,,,,,,,,offensive,stewais01,False,,,,,,,,,,,,,,,,,,,1:17.0 101-94 Offensive rebound by stewais01
+349,foul,,,101.0,94.0,,,,,,,,,,,,,,personal,wallake01,stewais01,,,,,,,,,,,,,,,,1:17.0 101-94 Personal foul by wallake01 (drawn by stewais01 )
+350,free_throw,,,101.0,95.0,1.0,stewais01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:17.0 101-95 +1 stewais01 makes free throw 1 of 2
+351,substitution,,,101.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:17.0 101-95 sassema01 enters the game for cunnica01
+352,free_throw,,,101.0,96.0,1.0,stewais01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:17.0 101-96 +1 stewais01 makes free throw 2 of 2
+353,fg_miss,,,101.0,96.0,,wallake01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 wallake01 misses 2-pt jump shot from 20 ft 101-96
+354,rebound,,,101.0,96.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,0:49.0 101-96 Defensive rebound by Team
+355,foul,,,101.0,96.0,,,,,,,,,,,,,,loose ball,mathega01,sassema01,,,,,,,,,,,,,,,,0:49.0 Loose ball foul by mathega01 (drawn by sassema01 ) 101-96
+356,free_throw,,,101.0,97.0,1.0,sassema01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:49.0 101-97 +1 sassema01 makes free throw 1 of 2
+357,substitution,,,101.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 youngtr01 enters the game for wallake01 101-97
+358,free_throw,,,101.0,98.0,1.0,sassema01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:49.0 101-98 +1 sassema01 makes free throw 2 of 2
+359,fg_miss,,,101.0,98.0,,mathega01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 mathega01 misses 3-pt jump shot from 26 ft 101-98
+360,rebound,,,101.0,98.0,,,,,,,,,,,defensive,sassema01,False,,,,,,,,,,,,,,,,,,,0:29.0 101-98 Defensive rebound by sassema01
+361,fg_miss,,,101.0,98.0,,hollaro01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:11.0 101-98 hollaro01 misses 3-pt jump shot from 23 ft
+362,rebound,,,101.0,98.0,,,,,,,,,,,defensive,mathega01,False,,,,,,,,,,,,,,,,,,,0:08.0 Defensive rebound by mathega01 101-98
+363,turnover,,,101.0,98.0,,,,,,,,,,,,,,,,,youngtr01,bad pass; steal by sassema01,sassema01,,,,,,,,,,,,,0:06.0 Turnover by youngtr01 (bad pass; steal by sassema01 ) 101-98
+364,fg_miss,,,101.0,98.0,,beaslma01,3.0,jump shot,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 101-98 beaslma01 misses 3-pt jump shot from 33 ft
+365,rebound,,,101.0,98.0,,,,,,,,,,,defensive,krejcvi01,False,,,,,,,,,,,,,,,,,,,0:00.0 Defensive rebound by krejcvi01 101-98
+366,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+367,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+368,fg_make,,,103.0,98.0,2.0,nancela02,2.0,layup,1.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,11:46.0 nancela02 makes 2-pt layup from 1 ft (assist by youngtr01 ) +2 103-98
+369,turnover,,,103.0,98.0,,,,,,,,,,,,,,,,,sassema01,bad pass; steal by mathega01,mathega01,,,,,,,,,,,,,11:32.0 103-98 Turnover by sassema01 (bad pass; steal by mathega01 )
+370,fg_make,,,106.0,98.0,3.0,huntede01,3.0,jump shot,24.0,nancela02,,,,,,,,,,,,,,,,,,,,,,,,,,11:17.0 huntede01 makes 3-pt jump shot from 24 ft (assist by nancela02 ) +3 106-98
+371,fg_make,,,106.0,101.0,3.0,hollaro01,3.0,jump shot,27.0,beaslma01,,,,,,,,,,,,,,,,,,,,,,,,,,11:00.0 106-101 +3 hollaro01 makes 3-pt jump shot from 27 ft (assist by beaslma01 )
+372,fg_make,,,109.0,101.0,3.0,risacza01,3.0,jump shot,25.0,nancela02,,,,,,,,,,,,,,,,,,,,,,,,,,10:43.0 risacza01 makes 3-pt jump shot from 25 ft (assist by nancela02 ) +3 109-101
+373,turnover,,,109.0,101.0,,,,,,,,,,,,,,,,,hollaro01,bad pass; steal by nancela02,nancela02,,,,,,,,,,,,,10:29.0 109-101 Turnover by hollaro01 (bad pass; steal by nancela02 )
+374,unknown,,,109.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Flagrant foul type 1 by beaslma01 (drawn by risacza01 ),10:27.0 Flagrant foul type 1 by beaslma01 (drawn by risacza01 ) 109-101
+375,instant_replay,,,109.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:27.0 Instant Replay (Request: Ruling Stands) 109-101
+376,unknown,,,110.0,101.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,risacza01 makes flagrant free throw 1 of 2,10:27.0 risacza01 makes flagrant free throw 1 of 2 +1 110-101
+377,unknown,,,111.0,101.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,risacza01 makes flagrant free throw 2 of 2,10:27.0 risacza01 makes flagrant free throw 2 of 2 +1 111-101
+378,fg_miss,,,111.0,101.0,,youngtr01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:18.0 youngtr01 misses 2-pt jump shot from 4 ft 111-101
+379,rebound,,,111.0,101.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:18.0 111-101 Defensive rebound by Team
+380,foul,,,111.0,101.0,,,,,,,,,,,,,,loose ball,youngtr01,hollaro01,,,,,,,,,,,,,,,,10:18.0 Loose ball foul by youngtr01 (drawn by hollaro01 ) 111-101
+381,violation,,,111.0,101.0,,,,,,,,,,,,,,,,,,,,Violation,Team,delay of game,,,,,,,,,,10:18.0 Violation by Team (delay of game) 111-101
+382,fg_miss,,,111.0,101.0,,fontesi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:04.0 111-101 fontesi01 misses 3-pt jump shot from 25 ft
+383,rebound,,,111.0,101.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,10:01.0 Defensive rebound by nancela02 111-101
+384,foul,,,111.0,101.0,,,,,,,,,,,,,,personal,sassema01,youngtr01,,,,,,,,,,,,,,,,9:57.0 Personal foul by sassema01 (drawn by youngtr01 ) 111-101
+385,substitution,,,111.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:57.0 111-101 harrito02 enters the game for fontesi01
+386,foul,,,111.0,101.0,,,,,,,,,,,,,,shooting,hollaro01,huntede01,,,,,,,,,,,,,,,,9:52.0 Shooting foul by hollaro01 (drawn by huntede01 ) 111-101
+387,free_throw,,,112.0,101.0,1.0,huntede01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:52.0 huntede01 makes free throw 1 of 2 +1 112-101
+388,free_throw,,,113.0,101.0,1.0,huntede01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:52.0 huntede01 makes free throw 2 of 2 +1 113-101
+389,foul,,,113.0,101.0,,,,,,,,,,,,,,offensive,hollaro01,nancela02,,,,,,,,,,,,,,,,9:38.0 113-101 Offensive foul by hollaro01 (drawn by nancela02 )
+390,turnover,,,113.0,101.0,,,,,,,,,,,,,,,,,hollaro01,offensive foul,,,,,,,,,,,,,,9:38.0 113-101 Turnover by hollaro01 (offensive foul)
+391,substitution,,,113.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:38.0 daniedy01 enters the game for mathega01 113-101
+392,substitution,,,113.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:38.0 113-101 cunnica01 enters the game for sassema01
+393,fg_miss,,,113.0,101.0,,youngtr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:20.0 youngtr01 misses 3-pt jump shot from 27 ft 113-101
+394,rebound,,,113.0,101.0,,,,,,,,,,,defensive,hollaro01,False,,,,,,,,,,,,,,,,,,,9:17.0 113-101 Defensive rebound by hollaro01
+395,fg_make,,,113.0,103.0,2.0,stewais01,2.0,layup,,hollaro01,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 113-103 +2 stewais01 makes 2-pt layup at rim (assist by hollaro01 )
+396,fg_miss,,,113.0,103.0,,risacza01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:53.0 risacza01 misses 3-pt jump shot from 24 ft 113-103
+397,rebound,,,113.0,103.0,,,,,,,,,,,defensive,hollaro01,False,,,,,,,,,,,,,,,,,,,8:50.0 113-103 Defensive rebound by hollaro01
+398,fg_make,,,113.0,105.0,2.0,hollaro01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:48.0 113-105 +2 hollaro01 makes 2-pt layup from 4 ft
+399,foul,,,113.0,105.0,,,,,,,,,,,,,,shooting,daniedy01,hollaro01,,,,,,,,,,,,,,,,8:48.0 113-105 Shooting foul by daniedy01 (drawn by hollaro01 )
+400,free_throw,,,113.0,106.0,1.0,hollaro01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,8:48.0 113-106 +1 hollaro01 makes free throw 1 of 1
+401,fg_miss,,,113.0,106.0,,huntede01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:24.0 huntede01 misses 3-pt jump shot from 25 ft 113-106
+402,rebound,,,113.0,106.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,8:24.0 113-106 Defensive rebound by Team
+403,foul,,,113.0,106.0,,,,,,,,,,,,,,loose ball,risacza01,stewais01,,,,,,,,,,,,,,,,8:24.0 Loose ball foul by risacza01 (drawn by stewais01 ) 113-106
+404,substitution,,,113.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:24.0 krejcvi01 enters the game for risacza01 113-106
+405,fg_miss,,,113.0,106.0,,beaslma01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:05.0 113-106 beaslma01 misses 3-pt jump shot from 26 ft
+406,rebound,,,113.0,106.0,,,,,,,,,,,defensive,nancela02,False,,,,,,,,,,,,,,,,,,,8:02.0 Defensive rebound by nancela02 113-106
+407,fg_miss,,,113.0,106.0,,huntede01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 huntede01 misses 3-pt jump shot from 25 ft 113-106
+408,rebound,,,113.0,106.0,,,,,,,,,,,defensive,cunnica01,False,,,,,,,,,,,,,,,,,,,7:53.0 113-106 Defensive rebound by cunnica01
+409,fg_miss,,,113.0,106.0,,cunnica01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 113-106 cunnica01 misses 3-pt jump shot from 28 ft
+410,rebound,,,113.0,106.0,,,,,,,,,,,offensive,stewais01,False,,,,,,,,,,,,,,,,,,,7:34.0 113-106 Offensive rebound by stewais01
+411,foul,,,113.0,106.0,,,,,,,,,,,,,,shooting,daniedy01,harrito02,,,,,,,,,,,,,,,,7:34.0 113-106 Shooting foul by daniedy01 (drawn by harrito02 )
+412,free_throw,,,113.0,107.0,1.0,harrito02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:34.0 113-107 +1 harrito02 makes free throw 1 of 2
+413,substitution,,,113.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:34.0 okongon01 enters the game for nancela02 113-107
+414,free_throw,,,113.0,108.0,1.0,harrito02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:34.0 113-108 +1 harrito02 makes free throw 2 of 2
+415,fg_make,,,115.0,108.0,2.0,youngtr01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 youngtr01 makes 2-pt jump shot from 10 ft +2 115-108
+416,fg_miss,,,115.0,108.0,,beaslma01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 115-108 beaslma01 misses 2-pt jump shot from 15 ft
+417,rebound,,,115.0,108.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,6:59.0 Defensive rebound by okongon01 115-108
+418,foul,,,115.0,108.0,,,,,,,,,,,,,,personal,beaslma01,youngtr01,,,,,,,,,,,,,,,,6:51.0 Personal foul by beaslma01 (drawn by youngtr01 ) 115-108
+419,timeout,,,115.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Detroit full,,,,6:51.0 115-108 Detroit full timeout
+420,substitution,,,115.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:51.0 115-108 durenja01 enters the game for stewais01
+421,foul,,,115.0,108.0,,,,,,,,,,,,,,personal,harrito02,youngtr01,,,,,,,,,,,,,,,,6:47.0 Personal foul by harrito02 (drawn by youngtr01 ) 115-108
+422,free_throw,,,116.0,108.0,1.0,youngtr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:47.0 youngtr01 makes free throw 1 of 2 +1 116-108
+423,substitution,,,116.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:47.0 116-108 hardati02 enters the game for beaslma01
+424,substitution,,,116.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:47.0 116-108 thompau01 enters the game for hollaro01
+425,free_throw,,,117.0,108.0,1.0,youngtr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:47.0 youngtr01 makes free throw 2 of 2 +1 117-108
+426,foul,,,117.0,108.0,,,,,,,,,,,,,,shooting,youngtr01,durenja01,,,,,,,,,,,,,,,,6:35.0 117-108 Shooting foul by youngtr01 (drawn by durenja01 )
+427,free_throw,,,117.0,109.0,1.0,durenja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:35.0 117-109 +1 durenja01 makes free throw 1 of 2
+428,free_throw,,,117.0,110.0,1.0,durenja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:35.0 117-110 +1 durenja01 makes free throw 2 of 2
+429,fg_miss,,,117.0,110.0,,daniedy01,2.0,layup,4.0,,durenja01,,,,,,,,,,,,,,,,,,,,,,,,,6:25.0 daniedy01 misses 2-pt layup from 4 ft (block by durenja01 ) 117-110
+430,rebound,,,117.0,110.0,,,,,,,,,,,offensive,okongon01,False,,,,,,,,,,,,,,,,,,,6:21.0 Offensive rebound by okongon01 117-110
+431,fg_make,,,119.0,110.0,2.0,youngtr01,2.0,layup,3.0,krejcvi01,,,,,,,,,,,,,,,,,,,,,,,,,,6:19.0 youngtr01 makes 2-pt layup from 3 ft (assist by krejcvi01 ) +2 119-110
+432,fg_make,,,119.0,112.0,2.0,harrito02,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 119-112 +2 harrito02 makes 2-pt jump shot from 15 ft
+433,foul,,,119.0,112.0,,,,,,,,,,,,,,offensive,youngtr01,thompau01,,,,,,,,,,,,,,,,5:44.0 Offensive foul by youngtr01 (drawn by thompau01 ) 119-112
+434,turnover,,,119.0,112.0,,,,,,,,,,,,,,,,,youngtr01,offensive foul,,,,,,,,,,,,,,5:44.0 Turnover by youngtr01 (offensive foul) 119-112
+435,foul,,,119.0,112.0,,,,,,,,,,,,,,personal,daniedy01,cunnica01,,,,,,,,,,,,,,,,5:34.0 119-112 Personal foul by daniedy01 (drawn by cunnica01 )
+436,free_throw,,,119.0,113.0,1.0,cunnica01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:34.0 119-113 +1 cunnica01 makes free throw 1 of 2
+437,free_throw,,,119.0,114.0,1.0,cunnica01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:34.0 119-114 +1 cunnica01 makes free throw 2 of 2
+438,foul,,,119.0,114.0,,,,,,,,,,,,,,personal,thompau01,youngtr01,,,,,,,,,,,,,,,,5:25.0 Personal foul by thompau01 (drawn by youngtr01 ) 119-114
+439,free_throw,,,120.0,114.0,1.0,youngtr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:25.0 youngtr01 makes free throw 1 of 2 +1 120-114
+440,free_throw,,,121.0,114.0,1.0,youngtr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:25.0 youngtr01 makes free throw 2 of 2 +1 121-114
+441,fg_miss,,,121.0,114.0,,harrito02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:06.0 121-114 harrito02 misses 3-pt jump shot from 23 ft
+442,rebound,,,121.0,114.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,5:03.0 Defensive rebound by okongon01 121-114
+443,fg_miss,,,121.0,114.0,,krejcvi01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:00.0 krejcvi01 misses 2-pt layup from 5 ft 121-114
+444,rebound,,,121.0,114.0,,,,,,,,,,,defensive,harrito02,False,,,,,,,,,,,,,,,,,,,4:57.0 121-114 Defensive rebound by harrito02
+445,fg_make,,,121.0,117.0,3.0,cunnica01,3.0,jump shot,27.0,thompau01,,,,,,,,,,,,,,,,,,,,,,,,,,4:51.0 121-117 +3 cunnica01 makes 3-pt jump shot from 27 ft (assist by thompau01 )
+446,fg_make,,,124.0,117.0,3.0,youngtr01,3.0,jump shot,24.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,4:22.0 youngtr01 makes 3-pt jump shot from 24 ft (assist by daniedy01 ) +3 124-117
+447,fg_make,,,124.0,119.0,2.0,cunnica01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:06.0 124-119 +2 cunnica01 makes 2-pt layup from 4 ft
+448,foul,,,124.0,119.0,,,,,,,,,,,,,,shooting,okongon01,cunnica01,,,,,,,,,,,,,,,,4:06.0 124-119 Shooting foul by okongon01 (drawn by cunnica01 )
+449,free_throw,,,124.0,120.0,1.0,cunnica01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:06.0 124-120 +1 cunnica01 makes free throw 1 of 1
+450,turnover,,,124.0,120.0,,,,,,,,,,,,,,,,,youngtr01,bad pass; steal by harrito02,harrito02,,,,,,,,,,,,,3:52.0 Turnover by youngtr01 (bad pass; steal by harrito02 ) 124-120
+451,fg_make,,,124.0,122.0,2.0,thompau01,2.0,dunk,4.0,harrito02,,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 124-122 +2 thompau01 makes 2-pt dunk from 4 ft (assist by harrito02 )
+452,timeout,,,124.0,122.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,3:49.0 Atlanta full timeout 124-122
+453,turnover,,,124.0,122.0,,,,,,,,,,,,,,,,,youngtr01,lost ball; steal by thompau01,thompau01,,,,,,,,,,,,,3:38.0 Turnover by youngtr01 (lost ball; steal by thompau01 ) 124-122
+454,turnover,,,124.0,122.0,,,,,,,,,,,,,,,,,thompau01,out of bounds lost ball,,,,,,,,,,,,,,3:37.0 124-122 Turnover by thompau01 (out of bounds lost ball)
+455,fg_miss,,,124.0,122.0,,huntede01,2.0,dunk,3.0,,durenja01,,,,,,,,,,,,,,,,,,,,,,,,,3:14.0 huntede01 misses 2-pt dunk from 3 ft (block by durenja01 ) 124-122
+456,rebound,,,124.0,122.0,,,,,,,,,,,defensive,thompau01,False,,,,,,,,,,,,,,,,,,,3:10.0 124-122 Defensive rebound by thompau01
+457,fg_make,,,124.0,124.0,2.0,harrito02,2.0,layup,2.0,thompau01,,,,,,,,,,,,,,,,,,,,,,,,,,3:04.0 124-124 +2 harrito02 makes 2-pt layup from 2 ft (assist by thompau01 )
+458,fg_miss,,,124.0,124.0,,okongon01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:49.0 okongon01 misses 2-pt jump shot from 4 ft 124-124
+459,rebound,,,124.0,124.0,,,,,,,,,,,defensive,durenja01,False,,,,,,,,,,,,,,,,,,,2:46.0 124-124 Defensive rebound by durenja01
+460,fg_make,,,124.0,126.0,2.0,harrito02,2.0,jump shot,12.0,cunnica01,,,,,,,,,,,,,,,,,,,,,,,,,,2:33.0 124-126 +2 harrito02 makes 2-pt jump shot from 12 ft (assist by cunnica01 )
+461,fg_make,,,127.0,126.0,3.0,youngtr01,3.0,jump shot,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:19.0 youngtr01 makes 3-pt jump shot from 32 ft +3 127-126
+462,foul,,,127.0,126.0,,,,,,,,,,,,,,shooting,youngtr01,cunnica01,,,,,,,,,,,,,,,,2:00.0 127-126 Shooting foul by youngtr01 (drawn by cunnica01 )
+463,free_throw,,,127.0,127.0,1.0,cunnica01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:00.0 127-127 +1 cunnica01 makes free throw 1 of 2
+464,substitution,,,127.0,127.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:00.0 127-127 beaslma01 enters the game for hardati02
+465,free_throw,,,127.0,128.0,1.0,cunnica01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:00.0 127-128 +1 cunnica01 makes free throw 2 of 2
+466,fg_make,,,129.0,128.0,2.0,okongon01,2.0,layup,2.0,krejcvi01,,,,,,,,,,,,,,,,,,,,,,,,,,1:37.0 okongon01 makes 2-pt layup from 2 ft (assist by krejcvi01 ) +2 129-128
+467,fg_miss,,,129.0,128.0,,cunnica01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:21.0 129-128 cunnica01 misses 3-pt jump shot from 26 ft
+468,rebound,,,129.0,128.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,1:20.0 Defensive rebound by daniedy01 129-128
+469,unknown,,,129.0,128.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),0:59.0 Turnover by Team (shot clock) 129-128
+470,turnover,,,129.0,128.0,,,,,,,,,,,,,,,,,cunnica01,lost ball; steal by daniedy01,daniedy01,,,,,,,,,,,,,0:35.0 129-128 Turnover by cunnica01 (lost ball; steal by daniedy01 )
+471,foul,,,129.0,128.0,,,,,,,,,,,,,,personal,thompau01,youngtr01,,,,,,,,,,,,,,,,0:33.0 Personal foul by thompau01 (drawn by youngtr01 ) 129-128
+472,free_throw,,,130.0,128.0,1.0,youngtr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:33.0 youngtr01 makes free throw 1 of 2 +1 130-128
+473,free_throw,,,130.0,128.0,,youngtr01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:33.0 youngtr01 misses free throw 2 of 2 130-128
+474,rebound,,,130.0,128.0,,,,,,,,,,,defensive,thompau01,False,,,,,,,,,,,,,,,,,,,0:31.0 130-128 Defensive rebound by thompau01
+475,timeout,,,130.0,128.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Detroit full,,,,0:31.0 130-128 Detroit full timeout
+476,substitution,,,130.0,128.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 wallake01 enters the game for youngtr01 130-128
+477,substitution,,,130.0,128.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 130-128 hardati02 enters the game for thompau01
+478,fg_make,,,130.0,130.0,2.0,cunnica01,2.0,jump shot,4.0,hardati02,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 130-130 +2 cunnica01 makes 2-pt jump shot from 4 ft (assist by hardati02 )
+479,timeout,,,130.0,130.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,0:26.0 Atlanta full timeout 130-130
+480,substitution,,,130.0,130.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 youngtr01 enters the game for wallake01 130-130
+481,substitution,,,130.0,130.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 130-130 thompau01 enters the game for hardati02
+482,fg_make,,,132.0,130.0,2.0,youngtr01,2.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 youngtr01 makes 2-pt jump shot from 23 ft +2 132-130
+483,timeout,,,132.0,130.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Detroit full,,,,0:01.0 132-130 Detroit full timeout
+484,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

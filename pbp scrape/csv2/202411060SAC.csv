@@ -1,0 +1,468 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: poeltja01 vs. sabondo01 ( mitchda01 gains possession)
+2,fg_make,,,2.0,0.0,2.0,dickgr01,2.0,dunk,1.0,mitchda01,,,,,,,,,,,,,,,,,,,,,,,,,,11:42.0 dickgr01 makes 2-pt dunk from 1 ft (assist by mitchda01 ) +2 2-0
+3,fg_miss,,,2.0,0.0,,huertke01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:26.0 2-0 huertke01 misses 3-pt jump shot from 26 ft
+4,rebound,,,2.0,0.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,11:25.0 Defensive rebound by Team 2-0
+5,fg_miss,,,2.0,0.0,,dickgr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:10.0 dickgr01 misses 3-pt jump shot from 25 ft 2-0
+6,rebound,,,2.0,0.0,,,,,,,,,,,defensive,derozde01,False,,,,,,,,,,,,,,,,,,,11:06.0 2-0 Defensive rebound by derozde01
+7,fg_miss,,,2.0,0.0,,derozde01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:51.0 2-0 derozde01 misses 2-pt jump shot from 12 ft
+8,rebound,,,2.0,0.0,,,,,,,,,,,offensive,sabondo01,False,,,,,,,,,,,,,,,,,,,10:49.0 2-0 Offensive rebound by sabondo01
+9,fg_make,,,2.0,2.0,2.0,murrake02,2.0,layup,2.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:45.0 2-2 +2 murrake02 makes 2-pt layup from 2 ft (assist by sabondo01 )
+10,foul,,,2.0,2.0,,,,,,,,,,,,,,offensive,poeltja01,foxde01,,,,,,,,,,,,,,,,10:37.0 Offensive foul by poeltja01 (drawn by foxde01 ) 2-2
+11,turnover,,,2.0,2.0,,,,,,,,,,,,,,,,,poeltja01,offensive foul,,,,,,,,,,,,,,10:37.0 Turnover by poeltja01 (offensive foul) 2-2
+12,fg_make,,,2.0,4.0,2.0,derozde01,2.0,jump shot,21.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:17.0 2-4 +2 derozde01 makes 2-pt jump shot from 21 ft (assist by sabondo01 )
+13,fg_make,,,4.0,4.0,2.0,dickgr01,2.0,jump shot,16.0,poeltja01,,,,,,,,,,,,,,,,,,,,,,,,,,10:00.0 dickgr01 makes 2-pt jump shot from 16 ft (assist by poeltja01 ) +2 4-4
+14,turnover,,,4.0,4.0,,,,,,,,,,,,,,,,,huertke01,bad pass; steal by poeltja01,poeltja01,,,,,,,,,,,,,9:51.0 4-4 Turnover by huertke01 (bad pass; steal by poeltja01 )
+15,fg_make,,,6.0,4.0,2.0,agbajoc01,2.0,layup,2.0,poeltja01,,,,,,,,,,,,,,,,,,,,,,,,,,9:47.0 agbajoc01 makes 2-pt layup from 2 ft (assist by poeltja01 ) +2 6-4
+16,foul,,,6.0,4.0,,,,,,,,,,,,,,shooting,derozde01,agbajoc01,,,,,,,,,,,,,,,,9:47.0 Shooting foul by derozde01 (drawn by agbajoc01 ) 6-4
+17,free_throw,,,7.0,4.0,1.0,agbajoc01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,9:47.0 agbajoc01 makes free throw 1 of 1 +1 7-4
+18,fg_make,,,7.0,6.0,2.0,sabondo01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:22.0 7-6 +2 sabondo01 makes 2-pt layup from 3 ft
+19,fg_make,,,9.0,6.0,2.0,barrerj01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:00.0 barrerj01 makes 2-pt jump shot from 9 ft +2 9-6
+20,turnover,,,9.0,6.0,,,,,,,,,,,,,,,,,derozde01,bad pass; steal by barrerj01,barrerj01,,,,,,,,,,,,,8:49.0 9-6 Turnover by derozde01 (bad pass; steal by barrerj01 )
+21,fg_make,,,11.0,6.0,2.0,barrerj01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:42.0 barrerj01 makes 2-pt layup from 2 ft +2 11-6
+22,fg_miss,,,11.0,6.0,,foxde01,2.0,jump shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 11-6 foxde01 misses 2-pt jump shot from 3 ft
+23,rebound,,,11.0,6.0,,,,,,,,,,,defensive,dickgr01,False,,,,,,,,,,,,,,,,,,,8:34.0 Defensive rebound by dickgr01 11-6
+24,fg_miss,,,11.0,6.0,,dickgr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 dickgr01 misses 3-pt jump shot from 26 ft 11-6
+25,rebound,,,11.0,6.0,,,,,,,,,,,defensive,murrake02,False,,,,,,,,,,,,,,,,,,,8:26.0 11-6 Defensive rebound by murrake02
+26,fg_make,,,11.0,9.0,3.0,murrake02,3.0,jump shot,26.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:18.0 11-9 +3 murrake02 makes 3-pt jump shot from 26 ft (assist by sabondo01 )
+27,fg_miss,,,11.0,9.0,,agbajoc01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:58.0 agbajoc01 misses 3-pt jump shot from 26 ft 11-9
+28,rebound,,,11.0,9.0,,,,,,,,,,,defensive,huertke01,False,,,,,,,,,,,,,,,,,,,7:53.0 11-9 Defensive rebound by huertke01
+29,turnover,,,11.0,9.0,,,,,,,,,,,,,,,,,murrake02,lost ball; steal by barrerj01,barrerj01,,,,,,,,,,,,,7:45.0 11-9 Turnover by murrake02 (lost ball; steal by barrerj01 )
+30,fg_miss,,,11.0,9.0,,mitchda01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 mitchda01 misses 2-pt layup from 3 ft 11-9
+31,rebound,,,11.0,9.0,,,,,,,,,,,offensive,dickgr01,False,,,,,,,,,,,,,,,,,,,7:36.0 Offensive rebound by dickgr01 11-9
+32,fg_make,,,14.0,9.0,3.0,barrerj01,3.0,jump shot,24.0,dickgr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:33.0 barrerj01 makes 3-pt jump shot from 24 ft (assist by dickgr01 ) +3 14-9
+33,fg_make,,,14.0,11.0,2.0,huertke01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:23.0 14-11 +2 huertke01 makes 2-pt layup from 2 ft
+34,fg_make,,,16.0,11.0,2.0,barrerj01,2.0,layup,2.0,poeltja01,,,,,,,,,,,,,,,,,,,,,,,,,,7:08.0 barrerj01 makes 2-pt layup from 2 ft (assist by poeltja01 ) +2 16-11
+35,timeout,,,16.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacramento full,,,,7:07.0 16-11 Sacramento full timeout
+36,foul,,,16.0,11.0,,,,,,,,,,,,,,shooting,dickgr01,huertke01,,,,,,,,,,,,,,,,6:50.0 16-11 Shooting foul by dickgr01 (drawn by huertke01 )
+37,free_throw,,,16.0,12.0,1.0,huertke01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:50.0 16-12 +1 huertke01 makes free throw 1 of 2
+38,free_throw,,,16.0,13.0,1.0,huertke01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:50.0 16-13 +1 huertke01 makes free throw 2 of 2
+39,fg_miss,,,16.0,13.0,,agbajoc01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:34.0 agbajoc01 misses 3-pt jump shot from 25 ft 16-13
+40,rebound,,,16.0,13.0,,,,,,,,,,,defensive,foxde01,False,,,,,,,,,,,,,,,,,,,6:31.0 16-13 Defensive rebound by foxde01
+41,fg_make,,,16.0,16.0,3.0,murrake02,3.0,jump shot,26.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 16-16 +3 murrake02 makes 3-pt jump shot from 26 ft (assist by sabondo01 )
+42,fg_miss,,,16.0,16.0,,mitchda01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:00.0 mitchda01 misses 2-pt jump shot from 21 ft 16-16
+43,rebound,,,16.0,16.0,,,,,,,,,,,defensive,huertke01,False,,,,,,,,,,,,,,,,,,,5:56.0 16-16 Defensive rebound by huertke01
+44,fg_miss,,,16.0,16.0,,huertke01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:49.0 16-16 huertke01 misses 3-pt jump shot from 26 ft
+45,rebound,,,16.0,16.0,,,,,,,,,,,offensive,murrake02,False,,,,,,,,,,,,,,,,,,,5:45.0 16-16 Offensive rebound by murrake02
+46,fg_miss,,,16.0,16.0,,murrake02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 16-16 murrake02 misses 2-pt layup at rim
+47,rebound,,,16.0,16.0,,,,,,,,,,,offensive,murrake02,False,,,,,,,,,,,,,,,,,,,5:45.0 16-16 Offensive rebound by murrake02
+48,foul,,,16.0,16.0,,,,,,,,,,,,,,personal,barrerj01,murrake02,,,,,,,,,,,,,,,,5:45.0 16-16 Personal foul by barrerj01 (drawn by murrake02 )
+49,substitution,,,16.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 battlja01 enters the game for agbajoc01 16-16
+50,substitution,,,16.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 bouchch01 enters the game for barrerj01 16-16
+51,substitution,,,16.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 16-16 elliske01 enters the game for foxde01
+52,substitution,,,16.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 16-16 monkma01 enters the game for huertke01
+53,fg_make,,,16.0,18.0,2.0,derozde01,2.0,jump shot,23.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,5:39.0 16-18 +2 derozde01 makes 2-pt jump shot from 23 ft (assist by sabondo01 )
+54,foul,,,16.0,18.0,,,,,,,,,,,,,,shooting,battlja01,derozde01,,,,,,,,,,,,,,,,5:39.0 16-18 Shooting foul by battlja01 (drawn by derozde01 )
+55,free_throw,,,16.0,19.0,1.0,derozde01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,5:39.0 16-19 +1 derozde01 makes free throw 1 of 1
+56,fg_make,,,19.0,19.0,3.0,bouchch01,3.0,jump shot,23.0,battlja01,,,,,,,,,,,,,,,,,,,,,,,,,,5:22.0 bouchch01 makes 3-pt jump shot from 23 ft (assist by battlja01 ) +3 19-19
+57,fg_miss,,,19.0,19.0,,derozde01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:09.0 19-19 derozde01 misses 3-pt jump shot from 26 ft
+58,rebound,,,19.0,19.0,,,,,,,,,,,defensive,poeltja01,False,,,,,,,,,,,,,,,,,,,5:06.0 Defensive rebound by poeltja01 19-19
+59,fg_make,,,21.0,19.0,2.0,poeltja01,2.0,jump shot,9.0,mitchda01,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 poeltja01 makes 2-pt jump shot from 9 ft (assist by mitchda01 ) +2 21-19
+60,fg_miss,,,21.0,19.0,,murrake02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:41.0 21-19 murrake02 misses 3-pt jump shot from 25 ft
+61,rebound,,,21.0,19.0,,,,,,,,,,,offensive,murrake02,False,,,,,,,,,,,,,,,,,,,4:39.0 21-19 Offensive rebound by murrake02
+62,fg_make,,,21.0,21.0,2.0,murrake02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 21-21 +2 murrake02 makes 2-pt layup from 4 ft
+63,timeout,,,21.0,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Toronto full,,,,4:39.0 Toronto full timeout 21-21
+64,fg_miss,,,21.0,21.0,,battlja01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:18.0 battlja01 misses 3-pt jump shot from 24 ft 21-21
+65,rebound,,,21.0,21.0,,,,,,,,,,,offensive,poeltja01,False,,,,,,,,,,,,,,,,,,,4:16.0 Offensive rebound by poeltja01 21-21
+66,fg_miss,,,21.0,21.0,,battlja01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 battlja01 misses 3-pt jump shot from 23 ft 21-21
+67,rebound,,,21.0,21.0,,,,,,,,,,,defensive,monkma01,False,,,,,,,,,,,,,,,,,,,4:05.0 21-21 Defensive rebound by monkma01
+68,fg_miss,,,21.0,21.0,,derozde01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 21-21 derozde01 misses 2-pt jump shot from 19 ft
+69,rebound,,,21.0,21.0,,,,,,,,,,,defensive,poeltja01,False,,,,,,,,,,,,,,,,,,,3:49.0 Defensive rebound by poeltja01 21-21
+70,fg_miss,,,21.0,21.0,,dickgr01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 dickgr01 misses 2-pt layup from 2 ft 21-21
+71,rebound,,,21.0,21.0,,,,,,,,,,,defensive,sabondo01,False,,,,,,,,,,,,,,,,,,,3:39.0 21-21 Defensive rebound by sabondo01
+72,fg_miss,,,21.0,21.0,,elliske01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:34.0 21-21 elliske01 misses 3-pt jump shot from 26 ft
+73,rebound,,,21.0,21.0,,,,,,,,,,,defensive,poeltja01,False,,,,,,,,,,,,,,,,,,,3:31.0 Defensive rebound by poeltja01 21-21
+74,fg_make,,,24.0,21.0,3.0,bouchch01,3.0,jump shot,23.0,mitchda01,,,,,,,,,,,,,,,,,,,,,,,,,,3:19.0 bouchch01 makes 3-pt jump shot from 23 ft (assist by mitchda01 ) +3 24-21
+75,fg_miss,,,24.0,21.0,,derozde01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:57.0 24-21 derozde01 misses 2-pt layup from 3 ft
+76,rebound,,,24.0,21.0,,,,,,,,,,,defensive,battlja01,False,,,,,,,,,,,,,,,,,,,2:55.0 Defensive rebound by battlja01 24-21
+77,fg_miss,,,24.0,21.0,,battlja01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 battlja01 misses 3-pt jump shot from 25 ft 24-21
+78,rebound,,,24.0,21.0,,,,,,,,,,,defensive,murrake02,False,,,,,,,,,,,,,,,,,,,2:47.0 24-21 Defensive rebound by murrake02
+79,foul,,,24.0,21.0,,,,,,,,,,,,,,shooting,mitchda01,monkma01,,,,,,,,,,,,,,,,2:37.0 24-21 Shooting foul by mitchda01 (drawn by monkma01 )
+80,free_throw,,,24.0,22.0,1.0,monkma01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:37.0 24-22 +1 monkma01 makes free throw 1 of 2
+81,substitution,,,24.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:37.0 barrerj01 enters the game for dickgr01 24-22
+82,substitution,,,24.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:37.0 sheadja01 enters the game for mitchda01 24-22
+83,substitution,,,24.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:37.0 24-22 foxde01 enters the game for derozde01
+84,free_throw,,,24.0,23.0,1.0,monkma01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:37.0 24-23 +1 monkma01 makes free throw 2 of 2
+85,foul,,,24.0,23.0,,,,,,,,,,,,,,personal,murrake02,barrerj01,,,,,,,,,,,,,,,,2:27.0 Personal foul by murrake02 (drawn by barrerj01 ) 24-23
+86,turnover,,,24.0,23.0,,,,,,,,,,,,,,,,,battlja01,lost ball; steal by monkma01,monkma01,,,,,,,,,,,,,2:10.0 Turnover by battlja01 (lost ball; steal by monkma01 ) 24-23
+87,fg_make,,,24.0,26.0,3.0,foxde01,3.0,jump shot,23.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,2:01.0 24-26 +3 foxde01 makes 3-pt jump shot from 23 ft (assist by sabondo01 )
+88,fg_make,,,26.0,26.0,2.0,barrerj01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 barrerj01 makes 2-pt jump shot from 6 ft +2 26-26
+89,fg_make,,,26.0,28.0,2.0,murrake02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:34.0 26-28 +2 murrake02 makes 2-pt layup from 3 ft
+90,foul,,,26.0,28.0,,,,,,,,,,,,,,personal,foxde01,sheadja01,,,,,,,,,,,,,,,,1:22.0 Personal foul by foxde01 (drawn by sheadja01 ) 26-28
+91,substitution,,,26.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 mogbojo01 enters the game for battlja01 26-28
+92,substitution,,,26.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 walteja01 enters the game for poeltja01 26-28
+93,substitution,,,26.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 26-28 lenal01 enters the game for sabondo01
+94,fg_make,,,28.0,28.0,2.0,sheadja01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:12.0 sheadja01 makes 2-pt layup from 2 ft +2 28-28
+95,fg_miss,,,28.0,28.0,,monkma01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:00.0 28-28 monkma01 misses 3-pt jump shot from 25 ft
+96,rebound,,,28.0,28.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:00.0 28-28 Offensive rebound by Team
+97,fg_miss,,,28.0,28.0,,foxde01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:48.0 28-28 foxde01 misses 3-pt jump shot from 26 ft
+98,rebound,,,28.0,28.0,,,,,,,,,,,defensive,walteja01,False,,,,,,,,,,,,,,,,,,,0:44.0 Defensive rebound by walteja01 28-28
+99,fg_make,,,31.0,28.0,3.0,bouchch01,3.0,jump shot,24.0,sheadja01,,,,,,,,,,,,,,,,,,,,,,,,,,0:38.0 bouchch01 makes 3-pt jump shot from 24 ft (assist by sheadja01 ) +3 31-28
+100,fg_make,,,31.0,30.0,2.0,foxde01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 31-30 +2 foxde01 makes 2-pt jump shot from 8 ft
+101,fg_miss,,,31.0,30.0,,sheadja01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 sheadja01 misses 2-pt jump shot from 21 ft 31-30
+102,rebound,,,31.0,30.0,,,,,,,,,,,defensive,lenal01,False,,,,,,,,,,,,,,,,,,,0:04.0 31-30 Defensive rebound by lenal01
+103,turnover,,,31.0,30.0,,,,,,,,,,,,,,,,,lenal01,lost ball; steal by mogbojo01,mogbojo01,,,,,,,,,,,,,0:04.0 31-30 Turnover by lenal01 (lost ball; steal by mogbojo01 )
+104,fg_miss,,,31.0,30.0,,barrerj01,2.0,jump shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 barrerj01 misses 2-pt jump shot from 3 ft 31-30
+105,rebound,,,31.0,30.0,,,,,,,,,,,offensive,mogbojo01,False,,,,,,,,,,,,,,,,,,,0:02.0 Offensive rebound by mogbojo01 31-30
+106,fg_make,,,33.0,30.0,2.0,mogbojo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 mogbojo01 makes 2-pt layup from 2 ft +2 33-30
+107,fg_miss,,,33.0,30.0,,monkma01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 33-30 monkma01 misses 3-pt jump shot from 26 ft
+108,rebound,,,33.0,30.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 33-30 Offensive rebound by Team
+109,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+110,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+111,fg_miss,,,33.0,30.0,,lylestr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:48.0 33-30 lylestr01 misses 3-pt jump shot from 26 ft
+112,rebound,,,33.0,30.0,,,,,,,,,,,defensive,barrerj01,False,,,,,,,,,,,,,,,,,,,11:40.0 Defensive rebound by barrerj01 33-30
+113,fg_miss,,,33.0,30.0,,bouchch01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:37.0 bouchch01 misses 3-pt jump shot from 26 ft 33-30
+114,rebound,,,33.0,30.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:36.0 Offensive rebound by Team 33-30
+115,fg_make,,,35.0,30.0,2.0,barrerj01,2.0,jump shot,3.0,sheadja01,,,,,,,,,,,,,,,,,,,,,,,,,,11:30.0 barrerj01 makes 2-pt jump shot from 3 ft (assist by sheadja01 ) +2 35-30
+116,fg_miss,,,35.0,30.0,,derozde01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:14.0 35-30 derozde01 misses 2-pt jump shot from 14 ft
+117,rebound,,,35.0,30.0,,,,,,,,,,,defensive,sheadja01,False,,,,,,,,,,,,,,,,,,,11:11.0 Defensive rebound by sheadja01 35-30
+118,fg_miss,,,35.0,30.0,,barrerj01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:00.0 barrerj01 misses 2-pt jump shot from 5 ft 35-30
+119,rebound,,,35.0,30.0,,,,,,,,,,,offensive,bouchch01,False,,,,,,,,,,,,,,,,,,,10:56.0 Offensive rebound by bouchch01 35-30
+120,fg_make,,,37.0,30.0,2.0,bouchch01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:56.0 bouchch01 makes 2-pt layup at rim +2 37-30
+121,fg_miss,,,37.0,30.0,,foxde01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:49.0 37-30 foxde01 misses 2-pt layup from 5 ft
+122,rebound,,,37.0,30.0,,,,,,,,,,,defensive,bouchch01,False,,,,,,,,,,,,,,,,,,,10:46.0 Defensive rebound by bouchch01 37-30
+123,fg_miss,,,37.0,30.0,,sheadja01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:37.0 sheadja01 misses 3-pt jump shot from 25 ft 37-30
+124,rebound,,,37.0,30.0,,,,,,,,,,,defensive,lylestr01,False,,,,,,,,,,,,,,,,,,,10:33.0 37-30 Defensive rebound by lylestr01
+125,fg_miss,,,37.0,30.0,,foxde01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:21.0 37-30 foxde01 misses 3-pt jump shot from 25 ft
+126,rebound,,,37.0,30.0,,,,,,,,,,,defensive,mogbojo01,False,,,,,,,,,,,,,,,,,,,10:17.0 Defensive rebound by mogbojo01 37-30
+127,fg_miss,,,37.0,30.0,,walteja01,2.0,jump shot,8.0,,lenal01,,,,,,,,,,,,,,,,,,,,,,,,,9:56.0 walteja01 misses 2-pt jump shot from 8 ft (block by lenal01 ) 37-30
+128,rebound,,,37.0,30.0,,,,,,,,,,,defensive,lenal01,False,,,,,,,,,,,,,,,,,,,9:54.0 37-30 Defensive rebound by lenal01
+129,foul,,,37.0,30.0,,,,,,,,,,,,,,offensive,monkma01,bouchch01,,,,,,,,,,,,,,,,9:54.0 37-30 Offensive foul by monkma01 (drawn by bouchch01 )
+130,turnover,,,37.0,30.0,,,,,,,,,,,,,,,,,monkma01,offensive foul,,,,,,,,,,,,,,9:54.0 37-30 Turnover by monkma01 (offensive foul)
+131,substitution,,,37.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:54.0 37-30 elliske01 enters the game for foxde01
+132,fg_make,,,39.0,30.0,2.0,bouchch01,2.0,dunk,,mogbojo01,,,,,,,,,,,,,,,,,,,,,,,,,,9:37.0 bouchch01 makes 2-pt dunk at rim (assist by mogbojo01 ) +2 39-30
+133,timeout,,,39.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacramento full,,,,9:37.0 39-30 Sacramento full timeout
+134,fg_miss,,,39.0,30.0,,monkma01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:18.0 39-30 monkma01 misses 2-pt jump shot from 16 ft
+135,rebound,,,39.0,30.0,,,,,,,,,,,offensive,elliske01,False,,,,,,,,,,,,,,,,,,,9:13.0 39-30 Offensive rebound by elliske01
+136,fg_make,,,39.0,33.0,3.0,derozde01,3.0,jump shot,23.0,monkma01,,,,,,,,,,,,,,,,,,,,,,,,,,9:02.0 39-33 +3 derozde01 makes 3-pt jump shot from 23 ft (assist by monkma01 )
+137,fg_make,,,41.0,33.0,2.0,walteja01,2.0,layup,2.0,mogbojo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:41.0 walteja01 makes 2-pt layup from 2 ft (assist by mogbojo01 ) +2 41-33
+138,foul,,,41.0,33.0,,,,,,,,,,,,,,personal,sheadja01,lenal01,,,,,,,,,,,,,,,,8:26.0 41-33 Personal foul by sheadja01 (drawn by lenal01 )
+139,substitution,,,41.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 dickgr01 enters the game for barrerj01 41-33
+140,fg_miss,,,41.0,33.0,,derozde01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:18.0 41-33 derozde01 misses 2-pt jump shot from 21 ft
+141,rebound,,,41.0,33.0,,,,,,,,,,,defensive,dickgr01,False,,,,,,,,,,,,,,,,,,,8:14.0 Defensive rebound by dickgr01 41-33
+142,fg_miss,,,41.0,33.0,,bouchch01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:06.0 bouchch01 misses 3-pt jump shot from 24 ft 41-33
+143,rebound,,,41.0,33.0,,,,,,,,,,,defensive,lenal01,False,,,,,,,,,,,,,,,,,,,8:02.0 41-33 Defensive rebound by lenal01
+144,fg_make,,,41.0,36.0,3.0,elliske01,3.0,jump shot,24.0,lylestr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 41-36 +3 elliske01 makes 3-pt jump shot from 24 ft (assist by lylestr01 )
+145,fg_miss,,,41.0,36.0,,walteja01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:37.0 walteja01 misses 3-pt jump shot from 25 ft 41-36
+146,rebound,,,41.0,36.0,,,,,,,,,,,defensive,monkma01,False,,,,,,,,,,,,,,,,,,,7:37.0 41-36 Defensive rebound by monkma01
+147,foul,,,41.0,36.0,,,,,,,,,,,,,,personal,dickgr01,monkma01,,,,,,,,,,,,,,,,7:28.0 41-36 Personal foul by dickgr01 (drawn by monkma01 )
+148,substitution,,,41.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 agbajoc01 enters the game for bouchch01 41-36
+149,substitution,,,41.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 mitchda01 enters the game for mogbojo01 41-36
+150,substitution,,,41.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 poeltja01 enters the game for sheadja01 41-36
+151,substitution,,,41.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 41-36 huertke01 enters the game for lenal01
+152,substitution,,,41.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 41-36 sabondo01 enters the game for monkma01
+153,foul,,,41.0,36.0,,,,,,,,,,,,,,personal,dickgr01,derozde01,,,,,,,,,,,,,,,,7:21.0 41-36 Personal foul by dickgr01 (drawn by derozde01 )
+154,substitution,,,41.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:21.0 battlja01 enters the game for walteja01 41-36
+155,substitution,,,41.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:21.0 41-36 mclaujo01 enters the game for lylestr01
+156,fg_miss,,,41.0,36.0,,elliske01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:05.0 41-36 elliske01 misses 3-pt jump shot from 24 ft
+157,rebound,,,41.0,36.0,,,,,,,,,,,defensive,agbajoc01,False,,,,,,,,,,,,,,,,,,,7:02.0 Defensive rebound by agbajoc01 41-36
+158,fg_miss,,,41.0,36.0,,agbajoc01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:53.0 agbajoc01 misses 3-pt jump shot from 25 ft 41-36
+159,rebound,,,41.0,36.0,,,,,,,,,,,defensive,huertke01,False,,,,,,,,,,,,,,,,,,,6:49.0 41-36 Defensive rebound by huertke01
+160,fg_make,,,41.0,38.0,2.0,huertke01,2.0,layup,1.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,6:36.0 41-38 +2 huertke01 makes 2-pt layup from 1 ft (assist by sabondo01 )
+161,timeout,,,41.0,38.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Toronto full,,,,6:36.0 Toronto full timeout 41-38
+162,substitution,,,41.0,38.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:36.0 mogbojo01 enters the game for dickgr01 41-38
+163,fg_miss,,,41.0,38.0,,battlja01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:15.0 battlja01 misses 2-pt jump shot from 13 ft 41-38
+164,rebound,,,41.0,38.0,,,,,,,,,,,offensive,mogbojo01,False,,,,,,,,,,,,,,,,,,,6:13.0 Offensive rebound by mogbojo01 41-38
+165,fg_make,,,43.0,38.0,2.0,mogbojo01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:10.0 mogbojo01 makes 2-pt jump shot from 7 ft +2 43-38
+166,fg_miss,,,43.0,38.0,,mclaujo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:48.0 43-38 mclaujo01 misses 3-pt jump shot from 25 ft
+167,rebound,,,43.0,38.0,,,,,,,,,,,offensive,sabondo01,False,,,,,,,,,,,,,,,,,,,5:48.0 43-38 Offensive rebound by sabondo01
+168,fg_make,,,43.0,40.0,2.0,sabondo01,2.0,dunk,1.0,huertke01,,,,,,,,,,,,,,,,,,,,,,,,,,5:38.0 43-40 +2 sabondo01 makes 2-pt dunk from 1 ft (assist by huertke01 )
+169,fg_make,,,45.0,40.0,2.0,mitchda01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:27.0 mitchda01 makes 2-pt layup from 3 ft +2 45-40
+170,foul,,,45.0,40.0,,,,,,,,,,,,,,shooting,battlja01,elliske01,,,,,,,,,,,,,,,,5:08.0 45-40 Shooting foul by battlja01 (drawn by elliske01 )
+171,free_throw,,,45.0,41.0,1.0,elliske01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,5:08.0 45-41 +1 elliske01 makes free throw 1 of 3
+172,free_throw,,,45.0,42.0,1.0,elliske01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,5:08.0 45-42 +1 elliske01 makes free throw 2 of 3
+173,substitution,,,45.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 barrerj01 enters the game for battlja01 45-42
+174,substitution,,,45.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 45-42 foxde01 enters the game for derozde01
+175,substitution,,,45.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 45-42 murrake02 enters the game for mclaujo01
+176,free_throw,,,45.0,43.0,1.0,elliske01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,5:08.0 45-43 +1 elliske01 makes free throw 3 of 3
+177,fg_miss,,,45.0,43.0,,mitchda01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:50.0 mitchda01 misses 3-pt jump shot from 25 ft 45-43
+178,rebound,,,45.0,43.0,,,,,,,,,,,offensive,mogbojo01,False,,,,,,,,,,,,,,,,,,,4:46.0 Offensive rebound by mogbojo01 45-43
+179,fg_miss,,,45.0,43.0,,barrerj01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:42.0 barrerj01 misses 3-pt jump shot from 25 ft 45-43
+180,rebound,,,45.0,43.0,,,,,,,,,,,defensive,murrake02,False,,,,,,,,,,,,,,,,,,,4:42.0 45-43 Defensive rebound by murrake02
+181,fg_miss,,,45.0,43.0,,murrake02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 45-43 murrake02 misses 3-pt jump shot from 26 ft
+182,rebound,,,45.0,43.0,,,,,,,,,,,defensive,barrerj01,False,,,,,,,,,,,,,,,,,,,4:21.0 Defensive rebound by barrerj01 45-43
+183,turnover,,,45.0,43.0,,,,,,,,,,,,,,,,,poeltja01,lost ball; steal by elliske01,elliske01,,,,,,,,,,,,,4:07.0 Turnover by poeltja01 (lost ball; steal by elliske01 ) 45-43
+184,fg_make,,,45.0,46.0,3.0,huertke01,3.0,jump shot,26.0,murrake02,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 45-46 +3 huertke01 makes 3-pt jump shot from 26 ft (assist by murrake02 )
+185,fg_make,,,47.0,46.0,2.0,mitchda01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:47.0 mitchda01 makes 2-pt layup from 1 ft +2 47-46
+186,fg_miss,,,47.0,46.0,,foxde01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:36.0 47-46 foxde01 misses 2-pt layup from 5 ft
+187,rebound,,,47.0,46.0,,,,,,,,,,,defensive,poeltja01,False,,,,,,,,,,,,,,,,,,,3:33.0 Defensive rebound by poeltja01 47-46
+188,turnover,,,47.0,46.0,,,,,,,,,,,,,,,,,barrerj01,lost ball; steal by foxde01,foxde01,,,,,,,,,,,,,3:27.0 Turnover by barrerj01 (lost ball; steal by foxde01 ) 47-46
+189,foul,,,47.0,46.0,,,,,,,,,,,,,,personal,mogbojo01,sabondo01,,,,,,,,,,,,,,,,3:23.0 47-46 Personal foul by mogbojo01 (drawn by sabondo01 )
+190,substitution,,,47.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:23.0 bouchch01 enters the game for mogbojo01 47-46
+191,free_throw,,,47.0,47.0,1.0,sabondo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:23.0 47-47 +1 sabondo01 makes free throw 1 of 2
+192,free_throw,,,47.0,48.0,1.0,sabondo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:23.0 47-48 +1 sabondo01 makes free throw 2 of 2
+193,fg_miss,,,47.0,48.0,,bouchch01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:07.0 bouchch01 misses 2-pt jump shot from 5 ft 47-48
+194,rebound,,,47.0,48.0,,,,,,,,,,,defensive,sabondo01,False,,,,,,,,,,,,,,,,,,,3:04.0 47-48 Defensive rebound by sabondo01
+195,foul,,,47.0,48.0,,,,,,,,,,,,,,shooting,agbajoc01,foxde01,,,,,,,,,,,,,,,,2:46.0 47-48 Shooting foul by agbajoc01 (drawn by foxde01 )
+196,free_throw,,,47.0,49.0,1.0,foxde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:46.0 47-49 +1 foxde01 makes free throw 1 of 2
+197,timeout,,,47.0,49.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Toronto full,,,,2:46.0 Toronto full timeout 47-49
+198,free_throw,,,47.0,50.0,1.0,foxde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:46.0 47-50 +1 foxde01 makes free throw 2 of 2
+199,fg_make,,,49.0,50.0,2.0,mitchda01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:34.0 mitchda01 makes 2-pt layup from 2 ft +2 49-50
+200,fg_miss,,,49.0,50.0,,huertke01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 49-50 huertke01 misses 3-pt jump shot from 25 ft
+201,rebound,,,49.0,50.0,,,,,,,,,,,offensive,elliske01,False,,,,,,,,,,,,,,,,,,,2:17.0 49-50 Offensive rebound by elliske01
+202,fg_make,,,49.0,52.0,2.0,murrake02,2.0,jump shot,8.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,2:13.0 49-52 +2 murrake02 makes 2-pt jump shot from 8 ft (assist by sabondo01 )
+203,fg_miss,,,49.0,52.0,,poeltja01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:01.0 poeltja01 misses 2-pt layup from 3 ft 49-52
+204,rebound,,,49.0,52.0,,,,,,,,,,,defensive,sabondo01,False,,,,,,,,,,,,,,,,,,,1:59.0 49-52 Defensive rebound by sabondo01
+205,turnover,,,49.0,52.0,,,,,,,,,,,,,,,,,foxde01,bad pass; steal by mitchda01,mitchda01,,,,,,,,,,,,,1:54.0 49-52 Turnover by foxde01 (bad pass; steal by mitchda01 )
+206,fg_make,,,51.0,52.0,2.0,mitchda01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 mitchda01 makes 2-pt layup from 4 ft +2 51-52
+207,fg_make,,,51.0,54.0,2.0,foxde01,2.0,layup,3.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:33.0 51-54 +2 foxde01 makes 2-pt layup from 3 ft (assist by sabondo01 )
+208,foul,,,51.0,54.0,,,,,,,,,,,,,,shooting,huertke01,barrerj01,,,,,,,,,,,,,,,,1:20.0 Shooting foul by huertke01 (drawn by barrerj01 ) 51-54
+209,free_throw,,,52.0,54.0,1.0,barrerj01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 barrerj01 makes free throw 1 of 2 +1 52-54
+210,substitution,,,52.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:20.0 mogbojo01 enters the game for bouchch01 52-54
+211,substitution,,,52.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:20.0 52-54 derozde01 enters the game for elliske01
+212,free_throw,,,53.0,54.0,1.0,barrerj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 barrerj01 makes free throw 2 of 2 +1 53-54
+213,turnover,,,53.0,54.0,,,,,,,,,,,,,,,,,huertke01,lost ball; steal by agbajoc01,agbajoc01,,,,,,,,,,,,,1:10.0 53-54 Turnover by huertke01 (lost ball; steal by agbajoc01 )
+214,foul,,,53.0,54.0,,,,,,,,,,,,,,shooting,huertke01,agbajoc01,,,,,,,,,,,,,,,,1:09.0 Shooting foul by huertke01 (drawn by agbajoc01 ) 53-54
+215,free_throw,,,53.0,54.0,,agbajoc01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:09.0 agbajoc01 misses free throw 1 of 2 53-54
+216,rebound,,,53.0,54.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:09.0 Offensive rebound by Team 53-54
+217,free_throw,,,54.0,54.0,1.0,agbajoc01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:09.0 agbajoc01 makes free throw 2 of 2 +1 54-54
+218,fg_miss,,,54.0,54.0,,murrake02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:53.0 54-54 murrake02 misses 3-pt jump shot from 25 ft
+219,rebound,,,54.0,54.0,,,,,,,,,,,defensive,mitchda01,False,,,,,,,,,,,,,,,,,,,0:50.0 Defensive rebound by mitchda01 54-54
+220,turnover,,,54.0,54.0,,,,,,,,,,,,,,,,,mogbojo01,bad pass,,,,,,,,,,,,,,0:40.0 Turnover by mogbojo01 (bad pass) 54-54
+221,fg_miss,,,54.0,54.0,,foxde01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 54-54 foxde01 misses 2-pt jump shot from 9 ft
+222,rebound,,,54.0,54.0,,,,,,,,,,,offensive,murrake02,False,,,,,,,,,,,,,,,,,,,0:28.0 54-54 Offensive rebound by murrake02
+223,fg_make,,,54.0,57.0,3.0,derozde01,3.0,jump shot,26.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,0:21.0 54-57 +3 derozde01 makes 3-pt jump shot from 26 ft (assist by sabondo01 )
+224,fg_miss,,,54.0,57.0,,poeltja01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:05.0 poeltja01 misses 2-pt jump shot from 9 ft 54-57
+225,rebound,,,54.0,57.0,,,,,,,,,,,defensive,derozde01,False,,,,,,,,,,,,,,,,,,,0:01.0 54-57 Defensive rebound by derozde01
+226,fg_miss,,,54.0,57.0,,derozde01,3.0,jump shot,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 54-57 derozde01 misses 3-pt jump shot from 32 ft
+227,rebound,,,54.0,57.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 54-57 Offensive rebound by Team
+228,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+229,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+230,fg_make,,,54.0,59.0,2.0,foxde01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 54-59 +2 foxde01 makes 2-pt jump shot from 5 ft
+231,foul,,,54.0,59.0,,,,,,,,,,,,,,shooting,murrake02,barrerj01,,,,,,,,,,,,,,,,11:28.0 Shooting foul by murrake02 (drawn by barrerj01 ) 54-59
+232,free_throw,,,55.0,59.0,1.0,barrerj01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:28.0 barrerj01 makes free throw 1 of 2 +1 55-59
+233,free_throw,,,56.0,59.0,1.0,barrerj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:28.0 barrerj01 makes free throw 2 of 2 +1 56-59
+234,foul,,,56.0,59.0,,,,,,,,,,,,,,shooting,mitchda01,foxde01,,,,,,,,,,,,,,,,11:17.0 56-59 Shooting foul by mitchda01 (drawn by foxde01 )
+235,free_throw,,,56.0,59.0,,foxde01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:17.0 56-59 foxde01 misses free throw 1 of 2
+236,rebound,,,56.0,59.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:17.0 56-59 Offensive rebound by Team
+237,free_throw,,,56.0,60.0,1.0,foxde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:17.0 56-60 +1 foxde01 makes free throw 2 of 2
+238,fg_make,,,59.0,60.0,3.0,mitchda01,3.0,jump shot,26.0,dickgr01,,,,,,,,,,,,,,,,,,,,,,,,,,10:51.0 mitchda01 makes 3-pt jump shot from 26 ft (assist by dickgr01 ) +3 59-60
+239,fg_miss,,,59.0,60.0,,foxde01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:42.0 59-60 foxde01 misses 3-pt jump shot from 26 ft
+240,rebound,,,59.0,60.0,,,,,,,,,,,defensive,mitchda01,False,,,,,,,,,,,,,,,,,,,10:39.0 Defensive rebound by mitchda01 59-60
+241,turnover,,,59.0,60.0,,,,,,,,,,,,,,,,,poeltja01,bad pass,,,,,,,,,,,,,,10:35.0 Turnover by poeltja01 (bad pass) 59-60
+242,fg_miss,,,59.0,60.0,,murrake02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:23.0 59-60 murrake02 misses 3-pt jump shot from 25 ft
+243,rebound,,,59.0,60.0,,,,,,,,,,,defensive,poeltja01,False,,,,,,,,,,,,,,,,,,,10:20.0 Defensive rebound by poeltja01 59-60
+244,fg_make,,,61.0,60.0,2.0,barrerj01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:13.0 barrerj01 makes 2-pt layup from 2 ft +2 61-60
+245,fg_make,,,61.0,62.0,2.0,derozde01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:02.0 61-62 +2 derozde01 makes 2-pt jump shot from 14 ft
+246,foul,,,61.0,62.0,,,,,,,,,,,,,,shooting,foxde01,dickgr01,,,,,,,,,,,,,,,,9:47.0 Shooting foul by foxde01 (drawn by dickgr01 ) 61-62
+247,free_throw,,,61.0,62.0,,dickgr01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:47.0 dickgr01 misses free throw 1 of 2 61-62
+248,rebound,,,61.0,62.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:47.0 Offensive rebound by Team 61-62
+249,free_throw,,,62.0,62.0,1.0,dickgr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:47.0 dickgr01 makes free throw 2 of 2 +1 62-62
+250,fg_miss,,,62.0,62.0,,foxde01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:25.0 62-62 foxde01 misses 3-pt jump shot from 23 ft
+251,rebound,,,62.0,62.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:25.0 62-62 Offensive rebound by Team
+252,foul,,,62.0,62.0,,,,,,,,,,,,,,loose ball,agbajoc01,sabondo01,,,,,,,,,,,,,,,,9:25.0 Loose ball foul by agbajoc01 (drawn by sabondo01 ) 62-62
+253,foul,,,62.0,62.0,,,,,,,,,,,,,,shooting,agbajoc01,murrake02,,,,,,,,,,,,,,,,9:18.0 62-62 Shooting foul by agbajoc01 (drawn by murrake02 )
+254,free_throw,,,62.0,62.0,,murrake02,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:18.0 62-62 murrake02 misses free throw 1 of 2
+255,rebound,,,62.0,62.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:18.0 62-62 Offensive rebound by Team
+256,free_throw,,,62.0,63.0,1.0,murrake02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:18.0 62-63 +1 murrake02 makes free throw 2 of 2
+257,fg_miss,,,62.0,63.0,,barrerj01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:00.0 barrerj01 misses 2-pt jump shot from 9 ft 62-63
+258,rebound,,,62.0,63.0,,,,,,,,,,,offensive,mitchda01,False,,,,,,,,,,,,,,,,,,,8:56.0 Offensive rebound by mitchda01 62-63
+259,fg_make,,,65.0,63.0,3.0,agbajoc01,3.0,jump shot,26.0,barrerj01,,,,,,,,,,,,,,,,,,,,,,,,,,8:53.0 agbajoc01 makes 3-pt jump shot from 26 ft (assist by barrerj01 ) +3 65-63
+260,fg_make,,,65.0,65.0,2.0,derozde01,2.0,layup,2.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 65-65 +2 derozde01 makes 2-pt layup from 2 ft (assist by sabondo01 )
+261,foul,,,65.0,65.0,,,,,,,,,,,,,,shooting,dickgr01,derozde01,,,,,,,,,,,,,,,,8:37.0 65-65 Shooting foul by dickgr01 (drawn by derozde01 )
+262,substitution,,,65.0,65.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 battlja01 enters the game for barrerj01 65-65
+263,substitution,,,65.0,65.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 mogbojo01 enters the game for dickgr01 65-65
+264,free_throw,,,65.0,66.0,1.0,derozde01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,8:37.0 65-66 +1 derozde01 makes free throw 1 of 1
+265,fg_make,,,68.0,66.0,3.0,agbajoc01,3.0,jump shot,25.0,mitchda01,,,,,,,,,,,,,,,,,,,,,,,,,,8:18.0 agbajoc01 makes 3-pt jump shot from 25 ft (assist by mitchda01 ) +3 68-66
+266,turnover,,,68.0,66.0,,,,,,,,,,,,,,,,,derozde01,out of bounds lost ball,,,,,,,,,,,,,,8:05.0 68-66 Turnover by derozde01 (out of bounds lost ball)
+267,fg_make,,,71.0,66.0,3.0,battlja01,3.0,jump shot,23.0,agbajoc01,,,,,,,,,,,,,,,,,,,,,,,,,,7:45.0 battlja01 makes 3-pt jump shot from 23 ft (assist by agbajoc01 ) +3 71-66
+268,timeout,,,71.0,66.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacramento full,,,,7:45.0 71-66 Sacramento full timeout
+269,fg_miss,,,71.0,66.0,,derozde01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:31.0 71-66 derozde01 misses 2-pt jump shot from 16 ft
+270,rebound,,,71.0,66.0,,,,,,,,,,,offensive,murrake02,False,,,,,,,,,,,,,,,,,,,7:27.0 71-66 Offensive rebound by murrake02
+271,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:18.0 Jump ball: poeltja01 vs. derozde01 ( battlja01 gains possession)
+272,turnover,,,71.0,66.0,,,,,,,,,,,,,,,,,derozde01,lost ball; steal by poeltja01,poeltja01,,,,,,,,,,,,,7:18.0 71-66 Turnover by derozde01 (lost ball; steal by poeltja01 )
+273,fg_make,,,73.0,66.0,2.0,poeltja01,2.0,jump shot,13.0,mitchda01,,,,,,,,,,,,,,,,,,,,,,,,,,6:58.0 poeltja01 makes 2-pt jump shot from 13 ft (assist by mitchda01 ) +2 73-66
+274,fg_make,,,73.0,68.0,2.0,sabondo01,2.0,layup,2.0,murrake02,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 73-68 +2 sabondo01 makes 2-pt layup from 2 ft (assist by murrake02 )
+275,foul,,,73.0,68.0,,,,,,,,,,,,,,shooting,mogbojo01,sabondo01,,,,,,,,,,,,,,,,6:40.0 73-68 Shooting foul by mogbojo01 (drawn by sabondo01 )
+276,free_throw,,,73.0,69.0,1.0,sabondo01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:40.0 73-69 +1 sabondo01 makes free throw 1 of 1
+277,fg_make,,,75.0,69.0,2.0,poeltja01,2.0,jump shot,14.0,mitchda01,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 poeltja01 makes 2-pt jump shot from 14 ft (assist by mitchda01 ) +2 75-69
+278,fg_miss,,,75.0,69.0,,derozde01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:14.0 75-69 derozde01 misses 2-pt jump shot from 18 ft
+279,rebound,,,75.0,69.0,,,,,,,,,,,defensive,battlja01,False,,,,,,,,,,,,,,,,,,,6:11.0 Defensive rebound by battlja01 75-69
+280,fg_make,,,77.0,69.0,2.0,poeltja01,2.0,layup,3.0,battlja01,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 poeltja01 makes 2-pt layup from 3 ft (assist by battlja01 ) +2 77-69
+281,foul,,,77.0,69.0,,,,,,,,,,,,,,shooting,battlja01,foxde01,,,,,,,,,,,,,,,,5:56.0 77-69 Shooting foul by battlja01 (drawn by foxde01 )
+282,free_throw,,,77.0,70.0,1.0,foxde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:56.0 77-70 +1 foxde01 makes free throw 1 of 2
+283,substitution,,,77.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 barrerj01 enters the game for mogbojo01 77-70
+284,substitution,,,77.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 77-70 monkma01 enters the game for huertke01
+285,free_throw,,,77.0,71.0,1.0,foxde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:56.0 77-71 +1 foxde01 makes free throw 2 of 2
+286,turnover,,,77.0,71.0,,,,,,,,,,,,,,,,,barrerj01,bad pass; steal by sabondo01,sabondo01,,,,,,,,,,,,,5:47.0 Turnover by barrerj01 (bad pass; steal by sabondo01 ) 77-71
+287,fg_make,,,77.0,73.0,2.0,sabondo01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 77-73 +2 sabondo01 makes 2-pt dunk from 1 ft
+288,turnover,,,77.0,73.0,,,,,,,,,,,,,,,,,battlja01,bad pass; steal by derozde01,derozde01,,,,,,,,,,,,,5:35.0 Turnover by battlja01 (bad pass; steal by derozde01 ) 77-73
+289,fg_make,,,77.0,75.0,2.0,murrake02,2.0,layup,2.0,derozde01,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 77-75 +2 murrake02 makes 2-pt layup from 2 ft (assist by derozde01 )
+290,timeout,,,77.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Toronto full,,,,5:31.0 Toronto full timeout 77-75
+291,substitution,,,77.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 bouchch01 enters the game for agbajoc01 77-75
+292,substitution,,,77.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 walteja01 enters the game for battlja01 77-75
+293,substitution,,,77.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 77-75 elliske01 enters the game for foxde01
+294,fg_miss,,,77.0,75.0,,poeltja01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:09.0 poeltja01 misses 2-pt jump shot from 9 ft 77-75
+295,rebound,,,77.0,75.0,,,,,,,,,,,defensive,monkma01,False,,,,,,,,,,,,,,,,,,,5:05.0 77-75 Defensive rebound by monkma01
+296,fg_make,,,77.0,77.0,2.0,monkma01,2.0,layup,5.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,4:59.0 77-77 +2 monkma01 makes 2-pt layup from 5 ft (assist by sabondo01 )
+297,fg_miss,,,77.0,77.0,,barrerj01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 barrerj01 misses 3-pt jump shot from 25 ft 77-77
+298,rebound,,,77.0,77.0,,,,,,,,,,,defensive,monkma01,False,,,,,,,,,,,,,,,,,,,4:41.0 77-77 Defensive rebound by monkma01
+299,fg_miss,,,77.0,77.0,,monkma01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:37.0 77-77 monkma01 misses 2-pt layup from 3 ft
+300,rebound,,,77.0,77.0,,,,,,,,,,,defensive,poeltja01,False,,,,,,,,,,,,,,,,,,,4:35.0 Defensive rebound by poeltja01 77-77
+301,fg_make,,,79.0,77.0,2.0,mitchda01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 mitchda01 makes 2-pt layup from 2 ft +2 79-77
+302,foul,,,79.0,77.0,,,,,,,,,,,,,,shooting,elliske01,mitchda01,,,,,,,,,,,,,,,,4:31.0 Shooting foul by elliske01 (drawn by mitchda01 ) 79-77
+303,unknown,,,79.0,77.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by monkma01,4:31.0 79-77 Technical foul by monkma01
+304,unknown,,,79.0,77.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,barrerj01 misses technical free throw,4:31.0 barrerj01 misses technical free throw 79-77
+305,rebound,,,79.0,77.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:31.0 Offensive rebound by Team 79-77
+306,free_throw,,,80.0,77.0,1.0,mitchda01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:31.0 mitchda01 makes free throw 1 of 1 +1 80-77
+307,fg_make,,,80.0,79.0,2.0,murrake02,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 80-79 +2 murrake02 makes 2-pt jump shot from 11 ft
+308,fg_make,,,82.0,79.0,2.0,barrerj01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:57.0 barrerj01 makes 2-pt layup from 2 ft +2 82-79
+309,substitution,,,82.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:57.0 dickgr01 enters the game for walteja01 82-79
+310,substitution,,,82.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:57.0 82-79 foxde01 enters the game for derozde01
+311,substitution,,,82.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:57.0 82-79 huertke01 enters the game for elliske01
+312,fg_miss,,,82.0,79.0,,foxde01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:39.0 82-79 foxde01 misses 2-pt jump shot from 19 ft
+313,rebound,,,82.0,79.0,,,,,,,,,,,offensive,sabondo01,False,,,,,,,,,,,,,,,,,,,3:35.0 82-79 Offensive rebound by sabondo01
+314,fg_miss,,,82.0,79.0,,murrake02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:31.0 82-79 murrake02 misses 3-pt jump shot from 26 ft
+315,rebound,,,82.0,79.0,,,,,,,,,,,offensive,huertke01,False,,,,,,,,,,,,,,,,,,,3:28.0 82-79 Offensive rebound by huertke01
+316,fg_miss,,,82.0,79.0,,foxde01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:26.0 82-79 foxde01 misses 3-pt jump shot from 25 ft
+317,rebound,,,82.0,79.0,,,,,,,,,,,offensive,murrake02,False,,,,,,,,,,,,,,,,,,,3:23.0 82-79 Offensive rebound by murrake02
+318,fg_make,,,82.0,81.0,2.0,huertke01,2.0,layup,1.0,murrake02,,,,,,,,,,,,,,,,,,,,,,,,,,3:18.0 82-81 +2 huertke01 makes 2-pt layup from 1 ft (assist by murrake02 )
+319,fg_make,,,84.0,81.0,2.0,bouchch01,2.0,layup,2.0,poeltja01,,,,,,,,,,,,,,,,,,,,,,,,,,2:59.0 bouchch01 makes 2-pt layup from 2 ft (assist by poeltja01 ) +2 84-81
+320,fg_miss,,,84.0,81.0,,monkma01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:52.0 84-81 monkma01 misses 2-pt layup from 1 ft
+321,rebound,,,84.0,81.0,,,,,,,,,,,defensive,poeltja01,False,,,,,,,,,,,,,,,,,,,2:49.0 Defensive rebound by poeltja01 84-81
+322,fg_miss,,,84.0,81.0,,barrerj01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 barrerj01 misses 3-pt jump shot from 26 ft 84-81
+323,rebound,,,84.0,81.0,,,,,,,,,,,defensive,sabondo01,False,,,,,,,,,,,,,,,,,,,2:39.0 84-81 Defensive rebound by sabondo01
+324,fg_miss,,,84.0,81.0,,monkma01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:35.0 84-81 monkma01 misses 2-pt layup from 2 ft
+325,rebound,,,84.0,81.0,,,,,,,,,,,defensive,dickgr01,False,,,,,,,,,,,,,,,,,,,2:32.0 Defensive rebound by dickgr01 84-81
+326,fg_miss,,,84.0,81.0,,dickgr01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:28.0 dickgr01 misses 2-pt jump shot from 21 ft 84-81
+327,rebound,,,84.0,81.0,,,,,,,,,,,defensive,sabondo01,False,,,,,,,,,,,,,,,,,,,2:25.0 84-81 Defensive rebound by sabondo01
+328,foul,,,84.0,81.0,,,,,,,,,,,,,,personal,bouchch01,sabondo01,,,,,,,,,,,,,,,,2:18.0 84-81 Personal foul by bouchch01 (drawn by sabondo01 )
+329,free_throw,,,84.0,82.0,1.0,sabondo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:18.0 84-82 +1 sabondo01 makes free throw 1 of 2
+330,substitution,,,84.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 battlja01 enters the game for dickgr01 84-82
+331,substitution,,,84.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 mogbojo01 enters the game for mitchda01 84-82
+332,substitution,,,84.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 sheadja01 enters the game for poeltja01 84-82
+333,free_throw,,,84.0,83.0,1.0,sabondo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:18.0 84-83 +1 sabondo01 makes free throw 2 of 2
+334,fg_make,,,86.0,83.0,2.0,barrerj01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 barrerj01 makes 2-pt layup from 2 ft +2 86-83
+335,fg_make,,,86.0,85.0,2.0,sabondo01,2.0,dunk,1.0,huertke01,,,,,,,,,,,,,,,,,,,,,,,,,,1:45.0 86-85 +2 sabondo01 makes 2-pt dunk from 1 ft (assist by huertke01 )
+336,fg_make,,,88.0,85.0,2.0,sheadja01,2.0,jump shot,8.0,mogbojo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:19.0 sheadja01 makes 2-pt jump shot from 8 ft (assist by mogbojo01 ) +2 88-85
+337,foul,,,88.0,85.0,,,,,,,,,,,,,,shooting,huertke01,sheadja01,,,,,,,,,,,,,,,,1:19.0 Shooting foul by huertke01 (drawn by sheadja01 ) 88-85
+338,free_throw,,,89.0,85.0,1.0,sheadja01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:19.0 sheadja01 makes free throw 1 of 1 +1 89-85
+339,foul,,,89.0,85.0,,,,,,,,,,,,,,shooting,sheadja01,foxde01,,,,,,,,,,,,,,,,1:09.0 89-85 Shooting foul by sheadja01 (drawn by foxde01 )
+340,free_throw,,,89.0,86.0,1.0,foxde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:09.0 89-86 +1 foxde01 makes free throw 1 of 2
+341,substitution,,,89.0,86.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:09.0 89-86 lenal01 enters the game for sabondo01
+342,free_throw,,,89.0,87.0,1.0,foxde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:09.0 89-87 +1 foxde01 makes free throw 2 of 2
+343,fg_make,,,92.0,87.0,3.0,battlja01,3.0,jump shot,25.0,barrerj01,,,,,,,,,,,,,,,,,,,,,,,,,,0:57.0 battlja01 makes 3-pt jump shot from 25 ft (assist by barrerj01 ) +3 92-87
+344,fg_miss,,,92.0,87.0,,murrake02,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:42.0 92-87 murrake02 misses 2-pt jump shot from 9 ft
+345,rebound,,,92.0,87.0,,,,,,,,,,,offensive,murrake02,False,,,,,,,,,,,,,,,,,,,0:39.0 92-87 Offensive rebound by murrake02
+346,fg_make,,,92.0,89.0,2.0,monkma01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 92-89 +2 monkma01 makes 2-pt jump shot from 8 ft
+347,fg_miss,,,92.0,89.0,,barrerj01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 barrerj01 misses 2-pt layup from 6 ft 92-89
+348,rebound,,,92.0,89.0,,,,,,,,,,,offensive,mogbojo01,False,,,,,,,,,,,,,,,,,,,0:09.0 Offensive rebound by mogbojo01 92-89
+349,foul,,,92.0,89.0,,,,,,,,,,,,,,shooting,huertke01,mogbojo01,,,,,,,,,,,,,,,,0:09.0 Shooting foul by huertke01 (drawn by mogbojo01 ) 92-89
+350,free_throw,,,93.0,89.0,1.0,mogbojo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:09.0 mogbojo01 makes free throw 1 of 2 +1 93-89
+351,substitution,,,93.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 agbajoc01 enters the game for battlja01 93-89
+352,substitution,,,93.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 mitchda01 enters the game for bouchch01 93-89
+353,substitution,,,93.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 93-89 sabondo01 enters the game for lenal01
+354,free_throw,,,93.0,89.0,,mogbojo01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:09.0 mogbojo01 misses free throw 2 of 2 93-89
+355,rebound,,,93.0,89.0,,,,,,,,,,,defensive,sabondo01,False,,,,,,,,,,,,,,,,,,,0:07.0 93-89 Defensive rebound by sabondo01
+356,fg_miss,,,93.0,89.0,,foxde01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 93-89 foxde01 misses 2-pt jump shot from 6 ft
+357,rebound,,,93.0,89.0,,,,,,,,,,,defensive,agbajoc01,False,,,,,,,,,,,,,,,,,,,0:00.0 Defensive rebound by agbajoc01 93-89
+358,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+359,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+360,foul,,,93.0,89.0,,,,,,,,,,,,,,personal,lenal01,mogbojo01,,,,,,,,,,,,,,,,11:48.0 Personal foul by lenal01 (drawn by mogbojo01 ) 93-89
+361,fg_miss,,,93.0,89.0,,mogbojo01,3.0,jump shot,26.0,,lenal01,,,,,,,,,,,,,,,,,,,,,,,,,11:34.0 mogbojo01 misses 3-pt jump shot from 26 ft (block by lenal01 ) 93-89
+362,rebound,,,93.0,89.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:34.0 Offensive rebound by Team 93-89
+363,unknown,,,93.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),11:34.0 Turnover by Team (shot clock) 93-89
+364,fg_miss,,,93.0,89.0,,foxde01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:20.0 93-89 foxde01 misses 3-pt jump shot from 25 ft
+365,rebound,,,93.0,89.0,,,,,,,,,,,defensive,bouchch01,False,,,,,,,,,,,,,,,,,,,11:16.0 Defensive rebound by bouchch01 93-89
+366,fg_make,,,95.0,89.0,2.0,dickgr01,2.0,jump shot,14.0,agbajoc01,,,,,,,,,,,,,,,,,,,,,,,,,,11:01.0 dickgr01 makes 2-pt jump shot from 14 ft (assist by agbajoc01 ) +2 95-89
+367,fg_make,,,95.0,91.0,2.0,derozde01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:45.0 95-91 +2 derozde01 makes 2-pt jump shot from 18 ft
+368,fg_miss,,,95.0,91.0,,agbajoc01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:34.0 agbajoc01 misses 3-pt jump shot from 24 ft 95-91
+369,rebound,,,95.0,91.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:34.0 95-91 Defensive rebound by Team
+370,fg_make,,,95.0,94.0,3.0,monkma01,3.0,jump shot,25.0,derozde01,,,,,,,,,,,,,,,,,,,,,,,,,,10:18.0 95-94 +3 monkma01 makes 3-pt jump shot from 25 ft (assist by derozde01 )
+371,turnover,,,95.0,94.0,,,,,,,,,,,,,,,,,sheadja01,lost ball; steal by monkma01,monkma01,,,,,,,,,,,,,10:00.0 Turnover by sheadja01 (lost ball; steal by monkma01 ) 95-94
+372,fg_miss,,,95.0,94.0,,monkma01,2.0,dunk,3.0,,sheadja01,,,,,,,,,,,,,,,,,,,,,,,,,9:59.0 95-94 monkma01 misses 2-pt dunk from 3 ft (block by sheadja01 )
+373,rebound,,,95.0,94.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:59.0 95-94 Offensive rebound by Team
+374,fg_make,,,95.0,96.0,2.0,monkma01,2.0,layup,2.0,foxde01,,,,,,,,,,,,,,,,,,,,,,,,,,9:55.0 95-96 +2 monkma01 makes 2-pt layup from 2 ft (assist by foxde01 )
+375,fg_miss,,,95.0,96.0,,dickgr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 dickgr01 misses 3-pt jump shot from 23 ft 95-96
+376,rebound,,,95.0,96.0,,,,,,,,,,,defensive,lenal01,False,,,,,,,,,,,,,,,,,,,9:32.0 95-96 Defensive rebound by lenal01
+377,foul,,,95.0,96.0,,,,,,,,,,,,,,shooting,mogbojo01,monkma01,,,,,,,,,,,,,,,,9:21.0 95-96 Shooting foul by mogbojo01 (drawn by monkma01 )
+378,free_throw,,,95.0,97.0,1.0,monkma01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,9:21.0 95-97 +1 monkma01 makes free throw 1 of 3
+379,free_throw,,,95.0,97.0,,monkma01,,,,,,misses,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,9:21.0 95-97 monkma01 misses free throw 2 of 3
+380,rebound,,,95.0,97.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:21.0 95-97 Offensive rebound by Team
+381,substitution,,,95.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 battlja01 enters the game for dickgr01 95-97
+382,substitution,,,95.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 poeltja01 enters the game for mogbojo01 95-97
+383,free_throw,,,95.0,98.0,1.0,monkma01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,9:21.0 95-98 +1 monkma01 makes free throw 3 of 3
+384,fg_miss,,,95.0,98.0,,battlja01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:00.0 battlja01 misses 2-pt jump shot from 17 ft 95-98
+385,rebound,,,95.0,98.0,,,,,,,,,,,defensive,monkma01,False,,,,,,,,,,,,,,,,,,,8:57.0 95-98 Defensive rebound by monkma01
+386,fg_miss,,,95.0,98.0,,monkma01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:44.0 95-98 monkma01 misses 3-pt jump shot from 25 ft
+387,rebound,,,95.0,98.0,,,,,,,,,,,defensive,bouchch01,False,,,,,,,,,,,,,,,,,,,8:41.0 Defensive rebound by bouchch01 95-98
+388,fg_make,,,97.0,98.0,2.0,agbajoc01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 agbajoc01 makes 2-pt layup from 2 ft +2 97-98
+389,fg_make,,,97.0,100.0,2.0,derozde01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 97-100 +2 derozde01 makes 2-pt jump shot from 11 ft
+390,foul,,,97.0,100.0,,,,,,,,,,,,,,shooting,battlja01,derozde01,,,,,,,,,,,,,,,,8:12.0 97-100 Shooting foul by battlja01 (drawn by derozde01 )
+391,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 barrerj01 enters the game for battlja01 97-100
+392,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 mitchda01 enters the game for sheadja01 97-100
+393,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 97-100 elliske01 enters the game for foxde01
+394,free_throw,,,97.0,101.0,1.0,derozde01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,8:12.0 97-101 +1 derozde01 makes free throw 1 of 1
+395,unknown,,,97.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Def 3 sec tech foul by Team,8:00.0 Def 3 sec tech foul by Team 97-101
+396,unknown,,,98.0,101.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mitchda01 makes technical free throw,8:00.0 mitchda01 makes technical free throw +1 98-101
+397,fg_miss,,,98.0,101.0,,bouchch01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:50.0 bouchch01 misses 3-pt jump shot from 23 ft 98-101
+398,rebound,,,98.0,101.0,,,,,,,,,,,defensive,lenal01,False,,,,,,,,,,,,,,,,,,,7:47.0 98-101 Defensive rebound by lenal01
+399,foul,,,98.0,101.0,,,,,,,,,,,,,,shooting,poeltja01,lenal01,,,,,,,,,,,,,,,,7:41.0 98-101 Shooting foul by poeltja01 (drawn by lenal01 )
+400,free_throw,,,98.0,101.0,,lenal01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:41.0 98-101 lenal01 misses free throw 1 of 2
+401,rebound,,,98.0,101.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:41.0 98-101 Offensive rebound by Team
+402,timeout,,,98.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Toronto full,,,,7:41.0 Toronto full timeout 98-101
+403,substitution,,,98.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:41.0 dickgr01 enters the game for bouchch01 98-101
+404,free_throw,,,98.0,102.0,1.0,lenal01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:41.0 98-102 +1 lenal01 makes free throw 2 of 2
+405,fg_make,,,100.0,102.0,2.0,poeltja01,2.0,layup,2.0,barrerj01,,,,,,,,,,,,,,,,,,,,,,,,,,7:29.0 poeltja01 makes 2-pt layup from 2 ft (assist by barrerj01 ) +2 100-102
+406,fg_make,,,100.0,104.0,2.0,derozde01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:10.0 100-104 +2 derozde01 makes 2-pt jump shot from 11 ft
+407,fg_miss,,,100.0,104.0,,dickgr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 dickgr01 misses 3-pt jump shot from 26 ft 100-104
+408,rebound,,,100.0,104.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:00.0 Offensive rebound by Team 100-104
+409,foul,,,100.0,104.0,,,,,,,,,,,,,,loose ball,elliske01,barrerj01,,,,,,,,,,,,,,,,7:00.0 100-104 Loose ball foul by elliske01 (drawn by barrerj01 )
+410,substitution,,,100.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 100-104 murrake02 enters the game for lenal01
+411,substitution,,,100.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 100-104 sabondo01 enters the game for monkma01
+412,turnover,,,100.0,104.0,,,,,,,,,,,,,,,,,barrerj01,bad pass; steal by elliske01,elliske01,,,,,,,,,,,,,6:53.0 Turnover by barrerj01 (bad pass; steal by elliske01 ) 100-104
+413,fg_make,,,100.0,106.0,2.0,elliske01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:48.0 100-106 +2 elliske01 makes 2-pt layup from 2 ft
+414,fg_make,,,102.0,106.0,2.0,mitchda01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:34.0 mitchda01 makes 2-pt jump shot from 8 ft +2 102-106
+415,fg_make,,,102.0,109.0,3.0,murrake02,3.0,jump shot,25.0,derozde01,,,,,,,,,,,,,,,,,,,,,,,,,,6:19.0 102-109 +3 murrake02 makes 3-pt jump shot from 25 ft (assist by derozde01 )
+416,turnover,,,102.0,109.0,,,,,,,,,,,,,,,,,mitchda01,bad pass,,,,,,,,,,,,,,6:08.0 Turnover by mitchda01 (bad pass) 102-109
+417,substitution,,,102.0,109.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:08.0 102-109 foxde01 enters the game for lylestr01
+418,fg_make,,,102.0,111.0,2.0,derozde01,2.0,jump shot,11.0,foxde01,,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 102-111 +2 derozde01 makes 2-pt jump shot from 11 ft (assist by foxde01 )
+419,fg_miss,,,102.0,111.0,,barrerj01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:24.0 barrerj01 misses 3-pt jump shot from 26 ft 102-111
+420,rebound,,,102.0,111.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:22.0 102-111 Defensive rebound by Team
+421,fg_miss,,,102.0,111.0,,murrake02,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 102-111 murrake02 misses 2-pt jump shot from 9 ft
+422,rebound,,,102.0,111.0,,,,,,,,,,,offensive,sabondo01,False,,,,,,,,,,,,,,,,,,,5:01.0 102-111 Offensive rebound by sabondo01
+423,fg_make,,,102.0,113.0,2.0,sabondo01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:01.0 102-113 +2 sabondo01 makes 2-pt layup at rim
+424,timeout,,,102.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Toronto full,,,,5:01.0 Toronto full timeout 102-113
+425,fg_miss,,,102.0,113.0,,dickgr01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:43.0 dickgr01 misses 3-pt jump shot from 24 ft 102-113
+426,rebound,,,102.0,113.0,,,,,,,,,,,defensive,murrake02,False,,,,,,,,,,,,,,,,,,,4:40.0 102-113 Defensive rebound by murrake02
+427,fg_make,,,102.0,116.0,3.0,foxde01,3.0,jump shot,24.0,sabondo01,,,,,,,,,,,,,,,,,,,,,,,,,,4:17.0 102-116 +3 foxde01 makes 3-pt jump shot from 24 ft (assist by sabondo01 )
+428,fg_miss,,,102.0,116.0,,agbajoc01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:58.0 agbajoc01 misses 3-pt jump shot from 25 ft 102-116
+429,rebound,,,102.0,116.0,,,,,,,,,,,defensive,murrake02,False,,,,,,,,,,,,,,,,,,,3:53.0 102-116 Defensive rebound by murrake02
+430,violation,,,102.0,116.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,3:42.0 Violation by Team (kicked ball) 102-116
+431,fg_miss,,,102.0,116.0,,derozde01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:33.0 102-116 derozde01 misses 2-pt jump shot from 13 ft
+432,rebound,,,102.0,116.0,,,,,,,,,,,defensive,barrerj01,False,,,,,,,,,,,,,,,,,,,3:29.0 Defensive rebound by barrerj01 102-116
+433,fg_miss,,,102.0,116.0,,barrerj01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:23.0 barrerj01 misses 2-pt jump shot from 18 ft 102-116
+434,rebound,,,102.0,116.0,,,,,,,,,,,defensive,sabondo01,False,,,,,,,,,,,,,,,,,,,3:19.0 102-116 Defensive rebound by sabondo01
+435,foul,,,102.0,116.0,,,,,,,,,,,,,,shooting,barrerj01,foxde01,,,,,,,,,,,,,,,,3:17.0 102-116 Shooting foul by barrerj01 (drawn by foxde01 )
+436,free_throw,,,102.0,117.0,1.0,foxde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:17.0 102-117 +1 foxde01 makes free throw 1 of 2
+437,free_throw,,,102.0,118.0,1.0,foxde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:17.0 102-118 +1 foxde01 makes free throw 2 of 2
+438,fg_miss,,,102.0,118.0,,barrerj01,2.0,jump shot,5.0,,murrake02,,,,,,,,,,,,,,,,,,,,,,,,,3:02.0 barrerj01 misses 2-pt jump shot from 5 ft (block by murrake02 ) 102-118
+439,rebound,,,102.0,118.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:02.0 Offensive rebound by Team 102-118
+440,fg_make,,,105.0,118.0,3.0,mitchda01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 mitchda01 makes 3-pt jump shot from 26 ft +3 105-118
+441,fg_make,,,105.0,120.0,2.0,derozde01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:33.0 105-120 +2 derozde01 makes 2-pt layup from 4 ft
+442,timeout,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Toronto full,,,,2:32.0 Toronto full timeout 105-120
+443,substitution,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 battlja01 enters the game for barrerj01 105-120
+444,substitution,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 bouchch01 enters the game for dickgr01 105-120
+445,substitution,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 fernabr01 enters the game for mitchda01 105-120
+446,substitution,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 sheadja01 enters the game for poeltja01 105-120
+447,substitution,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 105-120 lenal01 enters the game for derozde01
+448,substitution,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 105-120 mcderdo01 enters the game for foxde01
+449,substitution,,,105.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 105-120 mclaujo01 enters the game for sabondo01
+450,fg_make,,,107.0,120.0,2.0,bouchch01,2.0,jump shot,16.0,fernabr01,,,,,,,,,,,,,,,,,,,,,,,,,,2:15.0 bouchch01 makes 2-pt jump shot from 16 ft (assist by fernabr01 ) +2 107-120
+451,fg_make,,,107.0,122.0,2.0,lenal01,2.0,dunk,1.0,elliske01,,,,,,,,,,,,,,,,,,,,,,,,,,2:00.0 107-122 +2 lenal01 makes 2-pt dunk from 1 ft (assist by elliske01 )
+452,fg_miss,,,107.0,122.0,,fernabr01,2.0,layup,3.0,,lenal01,,,,,,,,,,,,,,,,,,,,,,,,,1:43.0 fernabr01 misses 2-pt layup from 3 ft (block by lenal01 ) 107-122
+453,rebound,,,107.0,122.0,,,,,,,,,,,defensive,lenal01,False,,,,,,,,,,,,,,,,,,,1:38.0 107-122 Defensive rebound by lenal01
+454,fg_miss,,,107.0,122.0,,mclaujo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:24.0 107-122 mclaujo01 misses 3-pt jump shot from 26 ft
+455,rebound,,,107.0,122.0,,,,,,,,,,,offensive,elliske01,False,,,,,,,,,,,,,,,,,,,1:21.0 107-122 Offensive rebound by elliske01
+456,fg_miss,,,107.0,122.0,,mclaujo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:08.0 107-122 mclaujo01 misses 3-pt jump shot from 27 ft
+457,rebound,,,107.0,122.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:08.0 107-122 Offensive rebound by Team
+458,unknown,,,107.0,122.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),1:08.0 107-122 Turnover by Team (shot clock)
+459,substitution,,,107.0,122.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:08.0 107-122 jonesco02 enters the game for elliske01
+460,substitution,,,107.0,122.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:08.0 107-122 jonesis01 enters the game for murrake02
+461,fg_miss,,,107.0,122.0,,sheadja01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:50.0 sheadja01 misses 2-pt jump shot from 7 ft 107-122
+462,rebound,,,107.0,122.0,,,,,,,,,,,defensive,mclaujo01,False,,,,,,,,,,,,,,,,,,,0:47.0 107-122 Defensive rebound by mclaujo01
+463,fg_miss,,,107.0,122.0,,jonesis01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:33.0 107-122 jonesis01 misses 2-pt jump shot from 10 ft
+464,rebound,,,107.0,122.0,,,,,,,,,,,defensive,fernabr01,False,,,,,,,,,,,,,,,,,,,0:28.0 Defensive rebound by fernabr01 107-122
+465,fg_miss,,,107.0,122.0,,fernabr01,2.0,layup,2.0,,lenal01,,,,,,,,,,,,,,,,,,,,,,,,,0:22.0 fernabr01 misses 2-pt layup from 2 ft (block by lenal01 ) 107-122
+466,rebound,,,107.0,122.0,,,,,,,,,,,defensive,mcderdo01,False,,,,,,,,,,,,,,,,,,,0:18.0 107-122 Defensive rebound by mcderdo01
+467,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

@@ -1,0 +1,509 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text,clock
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: livelde01 vs. jokicni01 ( portemi01 gains possession),12:00.0
+2,fg_miss,,,0.0,0.0,,murraja01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:46.0 0-0 murraja01 misses 3-pt jump shot from 27 ft,11:46.0
+3,rebound,,,0.0,0.0,,,,,,,,,,,defensive,livelde01,False,,,,,,,,,,,,,,,,,,,11:41.0 Defensive rebound by livelde01 0-0,11:41.0
+4,fg_make,,,2.0,0.0,2.0,washipj01,2.0,hook shot,8.0,irvinky01,,,,,,,,,,,,,,,,,,,,,,,,,,11:30.0 washipj01 makes 2-pt hook shot from 8 ft (assist by irvinky01 ) +2 2-0,11:30.0
+5,fg_miss,,,2.0,0.0,,jokicni01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:10.0 2-0 jokicni01 misses 2-pt jump shot from 9 ft,11:10.0
+6,rebound,,,2.0,0.0,,,,,,,,,,,defensive,irvinky01,False,,,,,,,,,,,,,,,,,,,11:05.0 Defensive rebound by irvinky01 2-0,11:05.0
+7,fg_make,,,5.0,0.0,3.0,grimequ01,3.0,jump shot,23.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,10:59.0 grimequ01 makes 3-pt jump shot from 23 ft (assist by thompkl01 ) +3 5-0,10:59.0
+8,fg_make,,,5.0,2.0,2.0,braunch01,2.0,layup,1.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,10:38.0 5-2 +2 braunch01 makes 2-pt layup from 1 ft (assist by jokicni01 ),10:38.0
+9,fg_make,,,7.0,2.0,2.0,washipj01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:19.0 washipj01 makes 2-pt layup from 3 ft +2 7-2,10:19.0
+10,foul,,,7.0,2.0,,,,,,,,,,,,,,shooting,livelde01,braunch01,,,,,,,,,,,,,,,,10:09.0 7-2 Shooting foul by livelde01 (drawn by braunch01 ),10:09.0
+11,free_throw,,,7.0,3.0,1.0,braunch01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:09.0 7-3 +1 braunch01 makes free throw 1 of 2,10:09.0
+12,free_throw,,,7.0,3.0,,braunch01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:09.0 7-3 braunch01 misses free throw 2 of 2,10:09.0
+13,rebound,,,7.0,3.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,10:06.0 Defensive rebound by washipj01 7-3,10:06.0
+14,fg_miss,,,7.0,3.0,,washipj01,2.0,hook shot,10.0,,watsope01,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 washipj01 misses 2-pt hook shot from 10 ft (block by watsope01 ) 7-3,9:49.0
+15,rebound,,,7.0,3.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,9:46.0 7-3 Defensive rebound by jokicni01,9:46.0
+16,fg_miss,,,7.0,3.0,,braunch01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:44.0 7-3 braunch01 misses 2-pt layup from 7 ft,9:44.0
+17,rebound,,,7.0,3.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,9:39.0 Defensive rebound by washipj01 7-3,9:39.0
+18,fg_make,,,9.0,3.0,2.0,washipj01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:27.0 washipj01 makes 2-pt jump shot from 9 ft +2 9-3,9:27.0
+19,fg_make,,,9.0,6.0,3.0,braunch01,3.0,jump shot,26.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,9:18.0 9-6 +3 braunch01 makes 3-pt jump shot from 26 ft (assist by jokicni01 ),9:18.0
+20,fg_make,,,11.0,6.0,2.0,livelde01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:00.0 livelde01 makes 2-pt dunk from 2 ft +2 11-6,9:00.0
+21,turnover,,,11.0,6.0,,,,,,,,,,,,,,,,,braunch01,bad pass; steal by livelde01,livelde01,,,,,,,,,,,,,8:45.0 11-6 Turnover by braunch01 (bad pass; steal by livelde01 ),8:45.0
+22,fg_miss,,,11.0,6.0,,thompkl01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:41.0 thompkl01 misses 3-pt jump shot from 25 ft 11-6,8:41.0
+23,rebound,,,11.0,6.0,,,,,,,,,,,defensive,murraja01,False,,,,,,,,,,,,,,,,,,,8:37.0 11-6 Defensive rebound by murraja01,8:37.0
+24,turnover,,,11.0,6.0,,,,,,,,,,,,,,,,,murraja01,bad pass; steal by grimequ01,grimequ01,,,,,,,,,,,,,8:30.0 11-6 Turnover by murraja01 (bad pass; steal by grimequ01 ),8:30.0
+25,fg_miss,,,11.0,6.0,,thompkl01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:21.0 thompkl01 misses 3-pt jump shot from 22 ft 11-6,8:21.0
+26,rebound,,,11.0,6.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,8:18.0 11-6 Defensive rebound by jokicni01,8:18.0
+27,fg_miss,,,11.0,6.0,,portemi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 11-6 portemi01 misses 3-pt jump shot from 25 ft,8:14.0
+28,rebound,,,11.0,6.0,,,,,,,,,,,defensive,grimequ01,False,,,,,,,,,,,,,,,,,,,8:10.0 Defensive rebound by grimequ01 11-6,8:10.0
+29,fg_miss,,,11.0,6.0,,irvinky01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:00.0 irvinky01 misses 3-pt jump shot from 27 ft 11-6,8:00.0
+30,rebound,,,11.0,6.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,7:56.0 11-6 Defensive rebound by jokicni01,7:56.0
+31,fg_miss,,,11.0,6.0,,watsope01,2.0,layup,6.0,,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,7:52.0 11-6 watsope01 misses 2-pt layup from 6 ft (block by thompkl01 ),7:52.0
+32,rebound,,,11.0,6.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,7:50.0 Defensive rebound by washipj01 11-6,7:50.0
+33,fg_make,,,14.0,6.0,3.0,grimequ01,3.0,jump shot,23.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,7:47.0 grimequ01 makes 3-pt jump shot from 23 ft (assist by thompkl01 ) +3 14-6,7:47.0
+34,timeout,,,14.0,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,7:45.0 14-6 Denver full timeout,7:45.0
+35,substitution,,,14.0,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:45.0 gaffoda01 enters the game for livelde01 14-6,7:45.0
+36,fg_make,,,14.0,9.0,3.0,murraja01,3.0,jump shot,26.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,7:31.0 14-9 +3 murraja01 makes 3-pt jump shot from 26 ft (assist by jokicni01 ),7:31.0
+37,fg_miss,,,14.0,9.0,,washipj01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:14.0 washipj01 misses 2-pt hook shot from 6 ft 14-9,7:14.0
+38,rebound,,,14.0,9.0,,,,,,,,,,,offensive,gaffoda01,False,,,,,,,,,,,,,,,,,,,7:13.0 Offensive rebound by gaffoda01 14-9,7:13.0
+39,fg_make,,,16.0,9.0,2.0,gaffoda01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:13.0 gaffoda01 makes 2-pt dunk at rim +2 16-9,7:13.0
+40,fg_miss,,,16.0,9.0,,portemi01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 16-9 portemi01 misses 2-pt jump shot from 15 ft,7:00.0
+41,rebound,,,16.0,9.0,,,,,,,,,,,defensive,thompkl01,False,,,,,,,,,,,,,,,,,,,6:57.0 Defensive rebound by thompkl01 16-9,6:57.0
+42,fg_make,,,18.0,9.0,2.0,grimequ01,2.0,dunk,2.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,6:55.0 grimequ01 makes 2-pt dunk from 2 ft (assist by thompkl01 ) +2 18-9,6:55.0
+43,fg_miss,,,18.0,9.0,,murraja01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:36.0 18-9 murraja01 misses 2-pt layup from 4 ft,6:36.0
+44,rebound,,,18.0,9.0,,,,,,,,,,,defensive,irvinky01,False,,,,,,,,,,,,,,,,,,,6:32.0 Defensive rebound by irvinky01 18-9,6:32.0
+45,fg_miss,,,18.0,9.0,,irvinky01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:30.0 irvinky01 misses 3-pt jump shot from 26 ft 18-9,6:30.0
+46,rebound,,,18.0,9.0,,,,,,,,,,,offensive,irvinky01,False,,,,,,,,,,,,,,,,,,,6:27.0 Offensive rebound by irvinky01 18-9,6:27.0
+47,fg_make,,,20.0,9.0,2.0,irvinky01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 irvinky01 makes 2-pt layup from 3 ft +2 20-9,6:26.0
+48,foul,,,20.0,9.0,,,,,,,,,,,,,,shooting,irvinky01,portemi01,,,,,,,,,,,,,,,,6:08.0 20-9 Shooting foul by irvinky01 (drawn by portemi01 ),6:08.0
+49,free_throw,,,20.0,9.0,,portemi01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:08.0 20-9 portemi01 misses free throw 1 of 2,6:08.0
+50,rebound,,,20.0,9.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:08.0 20-9 Offensive rebound by Team,6:08.0
+51,substitution,,,20.0,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:08.0 klebima01 enters the game for thompkl01 20-9,6:08.0
+52,substitution,,,20.0,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:08.0 marshna01 enters the game for washipj01 20-9,6:08.0
+53,free_throw,,,20.0,10.0,1.0,portemi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:08.0 20-10 +1 portemi01 makes free throw 2 of 2,6:08.0
+54,fg_miss,,,20.0,10.0,,gaffoda01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:52.0 gaffoda01 misses 2-pt jump shot from 6 ft 20-10,5:52.0
+55,rebound,,,20.0,10.0,,,,,,,,,,,defensive,watsope01,False,,,,,,,,,,,,,,,,,,,5:50.0 20-10 Defensive rebound by watsope01,5:50.0
+56,fg_make,,,20.0,12.0,2.0,braunch01,2.0,dunk,2.0,portemi01,,,,,,,,,,,,,,,,,,,,,,,,,,5:41.0 20-12 +2 braunch01 makes 2-pt dunk from 2 ft (assist by portemi01 ),5:41.0
+57,turnover,,,20.0,12.0,,,,,,,,,,,,,,,,,marshna01,bad pass,,,,,,,,,,,,,,5:23.0 Turnover by marshna01 (bad pass) 20-12,5:23.0
+58,substitution,,,20.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:23.0 20-12 strawju01 enters the game for portemi01,5:23.0
+59,fg_make,,,20.0,15.0,3.0,jokicni01,3.0,jump shot,24.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,5:17.0 20-15 +3 jokicni01 makes 3-pt jump shot from 24 ft (assist by murraja01 ),5:17.0
+60,fg_make,,,22.0,15.0,2.0,grimequ01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:02.0 grimequ01 makes 2-pt jump shot from 17 ft +2 22-15,5:02.0
+61,fg_miss,,,22.0,15.0,,murraja01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:50.0 22-15 murraja01 misses 3-pt jump shot from 27 ft,4:50.0
+62,rebound,,,22.0,15.0,,,,,,,,,,,defensive,klebima01,False,,,,,,,,,,,,,,,,,,,4:46.0 Defensive rebound by klebima01 22-15,4:46.0
+63,turnover,,,22.0,15.0,,,,,,,,,,,,,,,,,irvinky01,bad pass,,,,,,,,,,,,,,4:45.0 Turnover by irvinky01 (bad pass) 22-15,4:45.0
+64,substitution,,,22.0,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:45.0 hardyja02 enters the game for grimequ01 22-15,4:45.0
+65,timeout,,,22.0,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,4:45.0 22-15 Denver full timeout,4:45.0
+66,substitution,,,22.0,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:45.0 grimequ01 enters the game for hardyja02 22-15,4:45.0
+67,instant_replay,,,22.0,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:45.0 22-15 Instant Replay (Challenge: Ruling Stands),4:45.0
+68,substitution,,,22.0,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:45.0 hardyja02 enters the game for grimequ01 22-15,4:45.0
+69,substitution,,,22.0,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:45.0 22-15 westbru01 enters the game for braunch01,4:45.0
+70,violation,,,22.0,15.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,4:36.0 Violation by Team (kicked ball) 22-15,4:36.0
+71,fg_miss,,,22.0,15.0,,jokicni01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:27.0 22-15 jokicni01 misses 2-pt jump shot from 10 ft,4:27.0
+72,rebound,,,22.0,15.0,,,,,,,,,,,defensive,klebima01,False,,,,,,,,,,,,,,,,,,,4:25.0 Defensive rebound by klebima01 22-15,4:25.0
+73,turnover,,,22.0,15.0,,,,,,,,,,,,,,,,,hardyja02,lost ball; steal by strawju01,strawju01,,,,,,,,,,,,,4:16.0 Turnover by hardyja02 (lost ball; steal by strawju01 ) 22-15,4:16.0
+74,fg_make,,,22.0,18.0,3.0,murraja01,3.0,jump shot,26.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,4:11.0 22-18 +3 murraja01 makes 3-pt jump shot from 26 ft (assist by westbru01 ),4:11.0
+75,fg_make,,,24.0,18.0,2.0,hardyja02,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 hardyja02 makes 2-pt layup from 5 ft +2 24-18,3:53.0
+76,turnover,,,24.0,18.0,,,,,,,,,,,,,,,,,murraja01,bad pass; steal by marshna01,marshna01,,,,,,,,,,,,,3:49.0 24-18 Turnover by murraja01 (bad pass; steal by marshna01 ),3:49.0
+77,fg_miss,,,24.0,18.0,,marshna01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:40.0 marshna01 misses 3-pt jump shot from 24 ft 24-18,3:40.0
+78,rebound,,,24.0,18.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,3:37.0 24-18 Defensive rebound by jokicni01,3:37.0
+79,fg_make,,,24.0,20.0,2.0,watsope01,2.0,layup,4.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,3:26.0 24-20 +2 watsope01 makes 2-pt layup from 4 ft (assist by westbru01 ),3:26.0
+80,fg_miss,,,24.0,20.0,,hardyja02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 hardyja02 misses 2-pt layup from 4 ft 24-20,3:12.0
+81,rebound,,,24.0,20.0,,,,,,,,,,,defensive,murraja01,False,,,,,,,,,,,,,,,,,,,3:08.0 24-20 Defensive rebound by murraja01,3:08.0
+82,turnover,,,24.0,20.0,,,,,,,,,,,,,,,,,watsope01,lost ball; steal by irvinky01,irvinky01,,,,,,,,,,,,,3:03.0 24-20 Turnover by watsope01 (lost ball; steal by irvinky01 ),3:03.0
+83,fg_make,,,26.0,20.0,2.0,marshna01,2.0,dunk,3.0,hardyja02,,,,,,,,,,,,,,,,,,,,,,,,,,3:00.0 marshna01 makes 2-pt dunk from 3 ft (assist by hardyja02 ) +2 26-20,3:00.0
+84,turnover,,,26.0,20.0,,,,,,,,,,,,,,,,,jokicni01,lost ball; steal by gaffoda01,gaffoda01,,,,,,,,,,,,,2:39.0 26-20 Turnover by jokicni01 (lost ball; steal by gaffoda01 ),2:39.0
+85,fg_make,,,28.0,20.0,2.0,marshna01,2.0,jump shot,16.0,irvinky01,,,,,,,,,,,,,,,,,,,,,,,,,,2:30.0 marshna01 makes 2-pt jump shot from 16 ft (assist by irvinky01 ) +2 28-20,2:30.0
+86,foul,,,28.0,20.0,,,,,,,,,,,,,,personal,klebima01,jokicni01,,,,,,,,,,,,,,,,2:20.0 28-20 Personal foul by klebima01 (drawn by jokicni01 ),2:20.0
+87,substitution,,,28.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 dinwisp01 enters the game for gaffoda01 28-20,2:20.0
+88,substitution,,,28.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 livelde01 enters the game for irvinky01 28-20,2:20.0
+89,substitution,,,28.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 28-20 alexatr01 enters the game for murraja01,2:20.0
+90,substitution,,,28.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 28-20 portemi01 enters the game for watsope01,2:20.0
+91,fg_make,,,28.0,22.0,2.0,jokicni01,2.0,layup,5.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,2:09.0 28-22 +2 jokicni01 makes 2-pt layup from 5 ft (assist by westbru01 ),2:09.0
+92,foul,,,28.0,22.0,,,,,,,,,,,,,,offensive,livelde01,strawju01,,,,,,,,,,,,,,,,1:57.0 Offensive foul by livelde01 (drawn by strawju01 ) 28-22,1:57.0
+93,turnover,,,28.0,22.0,,,,,,,,,,,,,,,,,livelde01,offensive foul,,,,,,,,,,,,,,1:57.0 Turnover by livelde01 (offensive foul) 28-22,1:57.0
+94,turnover,,,28.0,22.0,,,,,,,,,,,,,,,,,westbru01,off goaltending,,,,,,,,,,,,,,1:40.0 28-22 Turnover by westbru01 (off goaltending),1:40.0
+95,substitution,,,28.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:40.0 washipj01 enters the game for livelde01 28-22,1:40.0
+96,fg_make,,,30.0,22.0,2.0,marshna01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 marshna01 makes 2-pt layup from 4 ft +2 30-22,1:30.0
+97,foul,,,30.0,22.0,,,,,,,,,,,,,,personal,washipj01,jokicni01,,,,,,,,,,,,,,,,1:18.0 30-22 Personal foul by washipj01 (drawn by jokicni01 ),1:18.0
+98,fg_miss,,,30.0,22.0,,strawju01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:10.0 30-22 strawju01 misses 2-pt jump shot from 9 ft,1:10.0
+99,rebound,,,30.0,22.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:09.0 30-22 Offensive rebound by Team,1:09.0
+100,fg_make,,,30.0,24.0,2.0,jokicni01,2.0,jump shot,4.0,portemi01,,,,,,,,,,,,,,,,,,,,,,,,,,0:57.0 30-24 +2 jokicni01 makes 2-pt jump shot from 4 ft (assist by portemi01 ),0:57.0
+101,foul,,,30.0,24.0,,,,,,,,,,,,,,shooting,klebima01,jokicni01,,,,,,,,,,,,,,,,0:57.0 30-24 Shooting foul by klebima01 (drawn by jokicni01 ),0:57.0
+102,substitution,,,30.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:57.0 gaffoda01 enters the game for klebima01 30-24,0:57.0
+103,free_throw,,,30.0,25.0,1.0,jokicni01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,0:57.0 30-25 +1 jokicni01 makes free throw 1 of 1,0:57.0
+104,turnover,,,30.0,25.0,,,,,,,,,,,,,,,,,washipj01,out of bounds lost ball,,,,,,,,,,,,,,0:42.0 Turnover by washipj01 (out of bounds lost ball) 30-25,0:42.0
+105,fg_make,,,30.0,28.0,3.0,jokicni01,3.0,jump shot,29.0,portemi01,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 30-28 +3 jokicni01 makes 3-pt jump shot from 29 ft (assist by portemi01 ),0:31.0
+106,fg_make,,,33.0,28.0,3.0,dinwisp01,3.0,jump shot,24.0,hardyja02,,,,,,,,,,,,,,,,,,,,,,,,,,0:17.0 dinwisp01 makes 3-pt jump shot from 24 ft (assist by hardyja02 ) +3 33-28,0:17.0
+107,foul,,,33.0,28.0,,,,,,,,,,,,,,shooting,hardyja02,strawju01,,,,,,,,,,,,,,,,0:02.0 33-28 Shooting foul by hardyja02 (drawn by strawju01 ),0:02.0
+108,timeout,,,33.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,0:02.0 Dallas full timeout 33-28,0:02.0
+109,instant_replay,,,33.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 Instant Replay (Challenge: Stands) 33-28,0:02.0
+110,substitution,,,33.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 33-28 watsope01 enters the game for alexatr01,0:02.0
+111,free_throw,,,33.0,29.0,1.0,strawju01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,0:02.0 33-29 +1 strawju01 makes free throw 1 of 3,0:02.0
+112,free_throw,,,33.0,30.0,1.0,strawju01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,0:02.0 33-30 +1 strawju01 makes free throw 2 of 3,0:02.0
+113,free_throw,,,33.0,31.0,1.0,strawju01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,0:02.0 33-31 +1 strawju01 makes free throw 3 of 3,0:02.0
+114,fg_miss,,,33.0,31.0,,hardyja02,3.0,jump shot,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 hardyja02 misses 3-pt jump shot from 55 ft 33-31,0:00.0
+115,rebound,,,33.0,31.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 33-31,0:00.0
+116,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter,0:00.0
+117,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter,12:00.0
+118,fg_make,,,35.0,31.0,2.0,gaffoda01,2.0,dunk,1.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,11:41.0 gaffoda01 makes 2-pt dunk from 1 ft (assist by dinwisp01 ) +2 35-31,11:41.0
+119,fg_miss,,,35.0,31.0,,strawju01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:21.0 35-31 strawju01 misses 2-pt layup from 6 ft,11:21.0
+120,rebound,,,35.0,31.0,,,,,,,,,,,offensive,saricda01,False,,,,,,,,,,,,,,,,,,,11:18.0 35-31 Offensive rebound by saricda01,11:18.0
+121,unknown,,,35.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),11:15.0 35-31 Turnover by Team (shot clock),11:15.0
+122,foul,,,35.0,31.0,,,,,,,,,,,,,,shooting,strawju01,hardyja02,,,,,,,,,,,,,,,,11:09.0 Shooting foul by strawju01 (drawn by hardyja02 ) 35-31,11:09.0
+123,free_throw,,,35.0,31.0,,hardyja02,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:09.0 hardyja02 misses free throw 1 of 2 35-31,11:09.0
+124,rebound,,,35.0,31.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:09.0 Offensive rebound by Team 35-31,11:09.0
+125,free_throw,,,36.0,31.0,1.0,hardyja02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:09.0 hardyja02 makes free throw 2 of 2 +1 36-31,11:09.0
+126,foul,,,36.0,31.0,,,,,,,,,,,,,,shooting,thompkl01,saricda01,,,,,,,,,,,,,,,,10:54.0 36-31 Shooting foul by thompkl01 (drawn by saricda01 ),10:54.0
+127,unknown,,,36.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Instant Replay,10:54.0 36-31 Instant Replay,10:54.0
+128,free_throw,,,36.0,32.0,1.0,saricda01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:54.0 36-32 +1 saricda01 makes free throw 1 of 2,10:54.0
+129,free_throw,,,36.0,33.0,1.0,saricda01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:54.0 36-33 +1 saricda01 makes free throw 2 of 2,10:54.0
+130,foul,,,36.0,33.0,,,,,,,,,,,,,,personal,saricda01,gaffoda01,,,,,,,,,,,,,,,,10:40.0 Personal foul by saricda01 (drawn by gaffoda01 ) 36-33,10:40.0
+131,fg_miss,,,36.0,33.0,,washipj01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:36.0 washipj01 misses 3-pt jump shot from 24 ft 36-33,10:36.0
+132,rebound,,,36.0,33.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:34.0 Offensive rebound by Team 36-33,10:34.0
+133,foul,,,36.0,33.0,,,,,,,,,,,,,,loose ball,braunch01,gaffoda01,,,,,,,,,,,,,,,,10:34.0 36-33 Loose ball foul by braunch01 (drawn by gaffoda01 ),10:34.0
+134,turnover,,,36.0,33.0,,,,,,,,,,,,,,,,,washipj01,bad pass; steal by braunch01,braunch01,,,,,,,,,,,,,10:25.0 Turnover by washipj01 (bad pass; steal by braunch01 ) 36-33,10:25.0
+135,fg_miss,,,36.0,33.0,,saricda01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:17.0 36-33 saricda01 misses 3-pt jump shot from 27 ft,10:17.0
+136,rebound,,,36.0,33.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,10:12.0 Defensive rebound by washipj01 36-33,10:12.0
+137,fg_make,,,38.0,33.0,2.0,hardyja02,2.0,layup,5.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,10:00.0 hardyja02 makes 2-pt layup from 5 ft (assist by dinwisp01 ) +2 38-33,10:00.0
+138,fg_miss,,,38.0,33.0,,westbru01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:51.0 38-33 westbru01 misses 2-pt jump shot from 16 ft,9:51.0
+139,rebound,,,38.0,33.0,,,,,,,,,,,offensive,saricda01,False,,,,,,,,,,,,,,,,,,,9:49.0 38-33 Offensive rebound by saricda01,9:49.0
+140,turnover,,,38.0,33.0,,,,,,,,,,,,,,,,,saricda01,bad pass,,,,,,,,,,,,,,9:49.0 38-33 Turnover by saricda01 (bad pass),9:49.0
+141,substitution,,,38.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 irvinky01 enters the game for hardyja02 38-33,9:49.0
+142,fg_miss,,,38.0,33.0,,thompkl01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:34.0 thompkl01 misses 2-pt jump shot from 14 ft 38-33,9:34.0
+143,rebound,,,38.0,33.0,,,,,,,,,,,defensive,saricda01,False,,,,,,,,,,,,,,,,,,,9:30.0 38-33 Defensive rebound by saricda01,9:30.0
+144,fg_miss,,,38.0,33.0,,westbru01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:23.0 38-33 westbru01 misses 2-pt layup from 4 ft,9:23.0
+145,rebound,,,38.0,33.0,,,,,,,,,,,defensive,thompkl01,False,,,,,,,,,,,,,,,,,,,9:21.0 Defensive rebound by thompkl01 38-33,9:21.0
+146,fg_miss,,,38.0,33.0,,thompkl01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:17.0 thompkl01 misses 2-pt layup from 2 ft 38-33,9:17.0
+147,rebound,,,38.0,33.0,,,,,,,,,,,offensive,washipj01,False,,,,,,,,,,,,,,,,,,,9:14.0 Offensive rebound by washipj01 38-33,9:14.0
+148,fg_make,,,40.0,33.0,2.0,irvinky01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 irvinky01 makes 2-pt layup from 4 ft +2 40-33,9:10.0
+149,fg_miss,,,40.0,33.0,,saricda01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:46.0 40-33 saricda01 misses 2-pt hook shot from 6 ft,8:46.0
+150,rebound,,,40.0,33.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,8:44.0 Defensive rebound by washipj01 40-33,8:44.0
+151,fg_make,,,42.0,33.0,2.0,gaffoda01,2.0,layup,4.0,washipj01,,,,,,,,,,,,,,,,,,,,,,,,,,8:36.0 gaffoda01 makes 2-pt layup from 4 ft (assist by washipj01 ) +2 42-33,8:36.0
+152,turnover,,,42.0,33.0,,,,,,,,,,,,,,,,,braunch01,lost ball; steal by washipj01,washipj01,,,,,,,,,,,,,8:26.0 42-33 Turnover by braunch01 (lost ball; steal by washipj01 ),8:26.0
+153,turnover,,,42.0,33.0,,,,,,,,,,,,,,,,,thompkl01,out of bounds lost ball,,,,,,,,,,,,,,8:19.0 Turnover by thompkl01 (out of bounds lost ball) 42-33,8:19.0
+154,substitution,,,42.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 grimequ01 enters the game for thompkl01 42-33,8:19.0
+155,substitution,,,42.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 klebima01 enters the game for washipj01 42-33,8:19.0
+156,substitution,,,42.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 42-33 jokicni01 enters the game for portemi01,8:19.0
+157,substitution,,,42.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 42-33 murraja01 enters the game for saricda01,8:19.0
+158,substitution,,,42.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 42-33 watsope01 enters the game for strawju01,8:19.0
+159,fg_make,,,42.0,36.0,3.0,westbru01,3.0,jump shot,24.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,8:08.0 42-36 +3 westbru01 makes 3-pt jump shot from 24 ft (assist by jokicni01 ),8:08.0
+160,fg_miss,,,42.0,36.0,,grimequ01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:51.0 grimequ01 misses 2-pt jump shot from 15 ft 42-36,7:51.0
+161,rebound,,,42.0,36.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:50.0 42-36 Defensive rebound by Team,7:50.0
+162,substitution,,,42.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:50.0 livelde01 enters the game for gaffoda01 42-36,7:50.0
+163,fg_make,,,42.0,38.0,2.0,braunch01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:36.0 42-38 +2 braunch01 makes 2-pt jump shot from 21 ft,7:36.0
+164,fg_miss,,,42.0,38.0,,irvinky01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:22.0 irvinky01 misses 2-pt layup from 4 ft 42-38,7:22.0
+165,rebound,,,42.0,38.0,,,,,,,,,,,offensive,livelde01,False,,,,,,,,,,,,,,,,,,,7:21.0 Offensive rebound by livelde01 42-38,7:21.0
+166,fg_make,,,44.0,38.0,2.0,livelde01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 livelde01 makes 2-pt dunk at rim +2 44-38,7:20.0
+167,foul,,,44.0,38.0,,,,,,,,,,,,,,shooting,klebima01,westbru01,,,,,,,,,,,,,,,,7:12.0 44-38 Shooting foul by klebima01 (drawn by westbru01 ),7:12.0
+168,free_throw,,,44.0,39.0,1.0,westbru01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:12.0 44-39 +1 westbru01 makes free throw 1 of 2,7:12.0
+169,substitution,,,44.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:12.0 marshna01 enters the game for klebima01 44-39,7:12.0
+170,free_throw,,,44.0,40.0,1.0,westbru01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:12.0 44-40 +1 westbru01 makes free throw 2 of 2,7:12.0
+171,fg_miss,,,44.0,40.0,,dinwisp01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 dinwisp01 misses 3-pt jump shot from 26 ft 44-40,6:56.0
+172,rebound,,,44.0,40.0,,,,,,,,,,,defensive,watsope01,False,,,,,,,,,,,,,,,,,,,6:53.0 44-40 Defensive rebound by watsope01,6:53.0
+173,fg_make,,,44.0,42.0,2.0,watsope01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:48.0 44-42 +2 watsope01 makes 2-pt layup from 4 ft,6:48.0
+174,fg_make,,,47.0,42.0,3.0,dinwisp01,3.0,jump shot,23.0,grimequ01,,,,,,,,,,,,,,,,,,,,,,,,,,6:35.0 dinwisp01 makes 3-pt jump shot from 23 ft (assist by grimequ01 ) +3 47-42,6:35.0
+175,fg_miss,,,47.0,42.0,,jokicni01,2.0,hook shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:19.0 47-42 jokicni01 misses 2-pt hook shot from 3 ft,6:19.0
+176,rebound,,,47.0,42.0,,,,,,,,,,,offensive,jokicni01,False,,,,,,,,,,,,,,,,,,,6:17.0 47-42 Offensive rebound by jokicni01,6:17.0
+177,fg_make,,,47.0,44.0,2.0,jokicni01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:13.0 47-44 +2 jokicni01 makes 2-pt layup from 3 ft,6:13.0
+178,fg_make,,,49.0,44.0,2.0,marshna01,2.0,jump shot,12.0,irvinky01,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 marshna01 makes 2-pt jump shot from 12 ft (assist by irvinky01 ) +2 49-44,5:54.0
+179,fg_miss,,,49.0,44.0,,westbru01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 49-44 westbru01 misses 3-pt jump shot from 26 ft,5:42.0
+180,rebound,,,49.0,44.0,,,,,,,,,,,defensive,grimequ01,False,,,,,,,,,,,,,,,,,,,5:39.0 Defensive rebound by grimequ01 49-44,5:39.0
+181,fg_make,,,52.0,44.0,3.0,irvinky01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:26.0 irvinky01 makes 3-pt jump shot from 30 ft +3 52-44,5:26.0
+182,foul,,,52.0,44.0,,,,,,,,,,,,,,personal,livelde01,jokicni01,,,,,,,,,,,,,,,,5:04.0 52-44 Personal foul by livelde01 (drawn by jokicni01 ),5:04.0
+183,timeout,,,52.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,5:04.0 52-44 Denver full timeout,5:04.0
+184,substitution,,,52.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:04.0 gaffoda01 enters the game for livelde01 52-44,5:04.0
+185,fg_miss,,,52.0,44.0,,jokicni01,2.0,layup,3.0,,gaffoda01,,,,,,,,,,,,,,,,,,,,,,,,,4:57.0 52-44 jokicni01 misses 2-pt layup from 3 ft (block by gaffoda01 ),4:57.0
+186,rebound,,,52.0,44.0,,,,,,,,,,,defensive,dinwisp01,False,,,,,,,,,,,,,,,,,,,4:54.0 Defensive rebound by dinwisp01 52-44,4:54.0
+187,turnover,,,52.0,44.0,,,,,,,,,,,,,,,,,marshna01,bad pass,,,,,,,,,,,,,,4:51.0 Turnover by marshna01 (bad pass) 52-44,4:51.0
+188,fg_miss,,,52.0,44.0,,jokicni01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 52-44 jokicni01 misses 2-pt layup from 8 ft,4:40.0
+189,rebound,,,52.0,44.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,4:40.0 Defensive rebound by Team 52-44,4:40.0
+190,foul,,,52.0,44.0,,,,,,,,,,,,,,loose ball,westbru01,dinwisp01,,,,,,,,,,,,,,,,4:40.0 52-44 Loose ball foul by westbru01 (drawn by dinwisp01 ),4:40.0
+191,substitution,,,52.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 washipj01 enters the game for dinwisp01 52-44,4:40.0
+192,substitution,,,52.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 52-44 portemi01 enters the game for westbru01,4:40.0
+193,fg_miss,,,52.0,44.0,,washipj01,2.0,layup,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:16.0 washipj01 misses 2-pt layup from 10 ft 52-44,4:16.0
+194,rebound,,,52.0,44.0,,,,,,,,,,,offensive,gaffoda01,False,,,,,,,,,,,,,,,,,,,4:15.0 Offensive rebound by gaffoda01 52-44,4:15.0
+195,fg_make,,,55.0,44.0,3.0,marshna01,3.0,jump shot,27.0,gaffoda01,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 marshna01 makes 3-pt jump shot from 27 ft (assist by gaffoda01 ) +3 55-44,4:10.0
+196,fg_miss,,,55.0,44.0,,murraja01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 55-44 murraja01 misses 2-pt jump shot from 17 ft,3:59.0
+197,rebound,,,55.0,44.0,,,,,,,,,,,offensive,braunch01,False,,,,,,,,,,,,,,,,,,,3:56.0 55-44 Offensive rebound by braunch01,3:56.0
+198,foul,,,55.0,44.0,,,,,,,,,,,,,,personal,gaffoda01,jokicni01,,,,,,,,,,,,,,,,3:54.0 55-44 Personal foul by gaffoda01 (drawn by jokicni01 ),3:54.0
+199,fg_make,,,55.0,46.0,2.0,jokicni01,2.0,layup,6.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,3:43.0 55-46 +2 jokicni01 makes 2-pt layup from 6 ft (assist by murraja01 ),3:43.0
+200,fg_make,,,57.0,46.0,2.0,irvinky01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:27.0 irvinky01 makes 2-pt jump shot from 10 ft +2 57-46,3:27.0
+201,foul,,,57.0,46.0,,,,,,,,,,,,,,shooting,portemi01,irvinky01,,,,,,,,,,,,,,,,3:27.0 Shooting foul by portemi01 (drawn by irvinky01 ) 57-46,3:27.0
+202,substitution,,,57.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:27.0 thompkl01 enters the game for grimequ01 57-46,3:27.0
+203,free_throw,,,58.0,46.0,1.0,irvinky01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,3:27.0 irvinky01 makes free throw 1 of 1 +1 58-46,3:27.0
+204,turnover,,,58.0,46.0,,,,,,,,,,,,,,,,,jokicni01,lost ball; steal by gaffoda01,gaffoda01,,,,,,,,,,,,,3:08.0 58-46 Turnover by jokicni01 (lost ball; steal by gaffoda01 ),3:08.0
+205,fg_make,,,60.0,46.0,2.0,marshna01,2.0,dunk,1.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,3:03.0 marshna01 makes 2-pt dunk from 1 ft (assist by thompkl01 ) +2 60-46,3:03.0
+206,fg_miss,,,60.0,46.0,,murraja01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 60-46 murraja01 misses 3-pt jump shot from 23 ft,2:45.0
+207,rebound,,,60.0,46.0,,,,,,,,,,,offensive,watsope01,False,,,,,,,,,,,,,,,,,,,2:42.0 60-46 Offensive rebound by watsope01,2:42.0
+208,fg_miss,,,60.0,46.0,,watsope01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:41.0 60-46 watsope01 misses 2-pt jump shot from 14 ft,2:41.0
+209,rebound,,,60.0,46.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,2:38.0 Defensive rebound by washipj01 60-46,2:38.0
+210,foul,,,60.0,46.0,,,,,,,,,,,,,,shooting,portemi01,marshna01,,,,,,,,,,,,,,,,2:32.0 Shooting foul by portemi01 (drawn by marshna01 ) 60-46,2:32.0
+211,timeout,,,60.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,2:32.0 Dallas full timeout 60-46,2:32.0
+212,free_throw,,,61.0,46.0,1.0,marshna01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:32.0 marshna01 makes free throw 1 of 2 +1 61-46,2:32.0
+213,free_throw,,,61.0,46.0,,marshna01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:32.0 marshna01 misses free throw 2 of 2 61-46,2:32.0
+214,rebound,,,61.0,46.0,,,,,,,,,,,offensive,washipj01,False,,,,,,,,,,,,,,,,,,,2:28.0 Offensive rebound by washipj01 61-46,2:28.0
+215,fg_make,,,63.0,46.0,2.0,irvinky01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:19.0 irvinky01 makes 2-pt layup from 4 ft +2 63-46,2:19.0
+216,fg_make,,,63.0,49.0,3.0,portemi01,3.0,jump shot,25.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 63-49 +3 portemi01 makes 3-pt jump shot from 25 ft (assist by murraja01 ),1:59.0
+217,fg_miss,,,63.0,49.0,,marshna01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:41.0 marshna01 misses 2-pt jump shot from 12 ft 63-49,1:41.0
+218,rebound,,,63.0,49.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,1:37.0 63-49 Defensive rebound by jokicni01,1:37.0
+219,fg_miss,,,63.0,49.0,,braunch01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:35.0 63-49 braunch01 misses 3-pt jump shot from 29 ft,1:35.0
+220,rebound,,,63.0,49.0,,,,,,,,,,,defensive,thompkl01,False,,,,,,,,,,,,,,,,,,,1:31.0 Defensive rebound by thompkl01 63-49,1:31.0
+221,fg_miss,,,63.0,49.0,,washipj01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:20.0 washipj01 misses 2-pt jump shot from 12 ft 63-49,1:20.0
+222,rebound,,,63.0,49.0,,,,,,,,,,,offensive,washipj01,False,,,,,,,,,,,,,,,,,,,1:19.0 Offensive rebound by washipj01 63-49,1:19.0
+223,fg_make,,,65.0,49.0,2.0,washipj01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:19.0 washipj01 makes 2-pt layup at rim +2 65-49,1:19.0
+224,fg_miss,,,65.0,49.0,,portemi01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:06.0 65-49 portemi01 misses 2-pt jump shot from 17 ft,1:06.0
+225,rebound,,,65.0,49.0,,,,,,,,,,,offensive,jokicni01,False,,,,,,,,,,,,,,,,,,,1:03.0 65-49 Offensive rebound by jokicni01,1:03.0
+226,fg_miss,,,65.0,49.0,,jokicni01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:03.0 65-49 jokicni01 misses 2-pt layup from 4 ft,1:03.0
+227,rebound,,,65.0,49.0,,,,,,,,,,,offensive,jokicni01,False,,,,,,,,,,,,,,,,,,,1:03.0 65-49 Offensive rebound by jokicni01,1:03.0
+228,turnover,,,65.0,49.0,,,,,,,,,,,,,,,,,jokicni01,lost ball; steal by washipj01,washipj01,,,,,,,,,,,,,0:58.0 65-49 Turnover by jokicni01 (lost ball; steal by washipj01 ),0:58.0
+229,fg_make,,,67.0,49.0,2.0,marshna01,2.0,jump shot,4.0,irvinky01,,,,,,,,,,,,,,,,,,,,,,,,,,0:57.0 marshna01 makes 2-pt jump shot from 4 ft (assist by irvinky01 ) +2 67-49,0:57.0
+230,fg_make,,,67.0,51.0,2.0,jokicni01,2.0,jump shot,4.0,portemi01,,,,,,,,,,,,,,,,,,,,,,,,,,0:43.0 67-51 +2 jokicni01 makes 2-pt jump shot from 4 ft (assist by portemi01 ),0:43.0
+231,fg_make,,,69.0,51.0,2.0,irvinky01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:38.0 irvinky01 makes 2-pt layup from 4 ft +2 69-51,0:38.0
+232,foul,,,69.0,51.0,,,,,,,,,,,,,,shooting,braunch01,irvinky01,,,,,,,,,,,,,,,,0:38.0 Shooting foul by braunch01 (drawn by irvinky01 ) 69-51,0:38.0
+233,violation,,,69.0,51.0,,,,,,,,,,,,,,,,,,,,Violation,Team,def goaltending,,,,,,,,,,0:38.0 69-51 Violation by Team (def goaltending),0:38.0
+234,free_throw,,,70.0,51.0,1.0,irvinky01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,0:38.0 irvinky01 makes free throw 1 of 1 +1 70-51,0:38.0
+235,fg_make,,,70.0,53.0,2.0,jokicni01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 70-53 +2 jokicni01 makes 2-pt layup from 3 ft,0:32.0
+236,foul,,,70.0,53.0,,,,,,,,,,,,,,shooting,portemi01,washipj01,,,,,,,,,,,,,,,,0:20.0 Shooting foul by portemi01 (drawn by washipj01 ) 70-53,0:20.0
+237,free_throw,,,70.0,53.0,,washipj01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:20.0 washipj01 misses free throw 1 of 2 70-53,0:20.0
+238,rebound,,,70.0,53.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:20.0 Offensive rebound by Team 70-53,0:20.0
+239,substitution,,,70.0,53.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:20.0 grimequ01 enters the game for irvinky01 70-53,0:20.0
+240,free_throw,,,71.0,53.0,1.0,washipj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:20.0 washipj01 makes free throw 2 of 2 +1 71-53,0:20.0
+241,turnover,,,71.0,53.0,,,,,,,,,,,,,,,,,murraja01,bad pass; steal by gaffoda01,gaffoda01,,,,,,,,,,,,,0:05.0 71-53 Turnover by murraja01 (bad pass; steal by gaffoda01 ),0:05.0
+242,foul,,,71.0,53.0,,,,,,,,,,,,,,shooting,murraja01,washipj01,,,,,,,,,,,,,,,,0:01.0 Shooting foul by murraja01 (drawn by washipj01 ) 71-53,0:01.0
+243,free_throw,,,72.0,53.0,1.0,washipj01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:01.0 washipj01 makes free throw 1 of 2 +1 72-53,0:01.0
+244,free_throw,,,73.0,53.0,1.0,washipj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:01.0 washipj01 makes free throw 2 of 2 +1 73-53,0:01.0
+245,fg_miss,,,73.0,53.0,,murraja01,3.0,jump shot,60.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 73-53 murraja01 misses 3-pt jump shot from 60 ft,0:00.0
+246,rebound,,,73.0,53.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 73-53 Offensive rebound by Team,0:00.0
+247,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter,0:00.0
+248,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter,12:00.0
+249,fg_make,,,75.0,53.0,2.0,washipj01,2.0,dunk,,grimequ01,,,,,,,,,,,,,,,,,,,,,,,,,,11:49.0 washipj01 makes 2-pt dunk at rim (assist by grimequ01 ) +2 75-53,11:49.0
+250,fg_miss,,,75.0,53.0,,portemi01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:28.0 75-53 portemi01 misses 2-pt jump shot from 18 ft,11:28.0
+251,rebound,,,75.0,53.0,,,,,,,,,,,defensive,irvinky01,False,,,,,,,,,,,,,,,,,,,11:26.0 Defensive rebound by irvinky01 75-53,11:26.0
+252,fg_make,,,77.0,53.0,2.0,gaffoda01,2.0,dunk,4.0,irvinky01,,,,,,,,,,,,,,,,,,,,,,,,,,11:18.0 gaffoda01 makes 2-pt dunk from 4 ft (assist by irvinky01 ) +2 77-53,11:18.0
+253,foul,,,77.0,53.0,,,,,,,,,,,,,,shooting,irvinky01,braunch01,,,,,,,,,,,,,,,,11:07.0 77-53 Shooting foul by irvinky01 (drawn by braunch01 ),11:07.0
+254,free_throw,,,77.0,54.0,1.0,braunch01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:07.0 77-54 +1 braunch01 makes free throw 1 of 2,11:07.0
+255,free_throw,,,77.0,54.0,,braunch01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:07.0 77-54 braunch01 misses free throw 2 of 2,11:07.0
+256,rebound,,,77.0,54.0,,,,,,,,,,,defensive,gaffoda01,False,,,,,,,,,,,,,,,,,,,11:04.0 Defensive rebound by gaffoda01 77-54,11:04.0
+257,fg_miss,,,77.0,54.0,,grimequ01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:49.0 grimequ01 misses 3-pt jump shot from 26 ft 77-54,10:49.0
+258,rebound,,,77.0,54.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,10:45.0 77-54 Defensive rebound by jokicni01,10:45.0
+259,foul,,,77.0,54.0,,,,,,,,,,,,,,shooting,thompkl01,braunch01,,,,,,,,,,,,,,,,10:43.0 77-54 Shooting foul by thompkl01 (drawn by braunch01 ),10:43.0
+260,free_throw,,,77.0,55.0,1.0,braunch01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:43.0 77-55 +1 braunch01 makes free throw 1 of 2,10:43.0
+261,free_throw,,,77.0,55.0,,braunch01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:43.0 77-55 braunch01 misses free throw 2 of 2,10:43.0
+262,rebound,,,77.0,55.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,10:38.0 Defensive rebound by washipj01 77-55,10:38.0
+263,fg_miss,,,77.0,55.0,,thompkl01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:20.0 thompkl01 misses 3-pt jump shot from 27 ft 77-55,10:20.0
+264,rebound,,,77.0,55.0,,,,,,,,,,,defensive,portemi01,False,,,,,,,,,,,,,,,,,,,10:16.0 77-55 Defensive rebound by portemi01,10:16.0
+265,fg_miss,,,77.0,55.0,,watsope01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:03.0 77-55 watsope01 misses 3-pt jump shot from 24 ft,10:03.0
+266,rebound,,,77.0,55.0,,,,,,,,,,,offensive,braunch01,False,,,,,,,,,,,,,,,,,,,10:01.0 77-55 Offensive rebound by braunch01,10:01.0
+267,fg_make,,,77.0,57.0,2.0,portemi01,2.0,layup,4.0,watsope01,,,,,,,,,,,,,,,,,,,,,,,,,,9:56.0 77-57 +2 portemi01 makes 2-pt layup from 4 ft (assist by watsope01 ),9:56.0
+268,fg_miss,,,77.0,57.0,,irvinky01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:41.0 irvinky01 misses 2-pt jump shot from 16 ft 77-57,9:41.0
+269,rebound,,,77.0,57.0,,,,,,,,,,,defensive,portemi01,False,,,,,,,,,,,,,,,,,,,9:39.0 77-57 Defensive rebound by portemi01,9:39.0
+270,fg_make,,,77.0,59.0,2.0,portemi01,2.0,jump shot,18.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,9:28.0 77-59 +2 portemi01 makes 2-pt jump shot from 18 ft (assist by jokicni01 ),9:28.0
+271,fg_make,,,79.0,59.0,2.0,irvinky01,2.0,layup,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:08.0 irvinky01 makes 2-pt layup from 11 ft +2 79-59,9:08.0
+272,fg_make,,,79.0,62.0,3.0,murraja01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:58.0 79-62 +3 murraja01 makes 3-pt jump shot from 26 ft,8:58.0
+273,fg_miss,,,79.0,62.0,,thompkl01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 thompkl01 misses 2-pt layup from 2 ft 79-62,8:35.0
+274,rebound,,,79.0,62.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,8:32.0 79-62 Defensive rebound by jokicni01,8:32.0
+275,fg_miss,,,79.0,62.0,,murraja01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 79-62 murraja01 misses 2-pt jump shot from 7 ft,8:27.0
+276,rebound,,,79.0,62.0,,,,,,,,,,,offensive,braunch01,False,,,,,,,,,,,,,,,,,,,8:24.0 79-62 Offensive rebound by braunch01,8:24.0
+277,fg_miss,,,79.0,62.0,,murraja01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:20.0 79-62 murraja01 misses 3-pt jump shot from 26 ft,8:20.0
+278,rebound,,,79.0,62.0,,,,,,,,,,,offensive,braunch01,False,,,,,,,,,,,,,,,,,,,8:14.0 79-62 Offensive rebound by braunch01,8:14.0
+279,fg_miss,,,79.0,62.0,,braunch01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 79-62 braunch01 misses 2-pt dunk at rim,8:14.0
+280,rebound,,,79.0,62.0,,,,,,,,,,,defensive,grimequ01,False,,,,,,,,,,,,,,,,,,,8:12.0 Defensive rebound by grimequ01 79-62,8:12.0
+281,fg_miss,,,79.0,62.0,,grimequ01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 grimequ01 misses 2-pt jump shot from 12 ft 79-62,8:09.0
+282,rebound,,,79.0,62.0,,,,,,,,,,,defensive,watsope01,False,,,,,,,,,,,,,,,,,,,8:06.0 79-62 Defensive rebound by watsope01,8:06.0
+283,turnover,,,79.0,62.0,,,,,,,,,,,,,,,,,portemi01,lost ball; steal by grimequ01,grimequ01,,,,,,,,,,,,,8:00.0 79-62 Turnover by portemi01 (lost ball; steal by grimequ01 ),8:00.0
+284,fg_make,,,81.0,62.0,2.0,grimequ01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:54.0 grimequ01 makes 2-pt layup from 5 ft +2 81-62,7:54.0
+285,fg_make,,,81.0,64.0,2.0,jokicni01,2.0,jump shot,6.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 81-64 +2 jokicni01 makes 2-pt jump shot from 6 ft (assist by murraja01 ),7:39.0
+286,turnover,,,81.0,64.0,,,,,,,,,,,,,,,,,irvinky01,bad pass,,,,,,,,,,,,,,7:24.0 Turnover by irvinky01 (bad pass) 81-64,7:24.0
+287,substitution,,,81.0,64.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:24.0 hardyja02 enters the game for gaffoda01 81-64,7:24.0
+288,substitution,,,81.0,64.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:24.0 livelde01 enters the game for grimequ01 81-64,7:24.0
+289,foul,,,81.0,64.0,,,,,,,,,,,,,,personal,livelde01,murraja01,,,,,,,,,,,,,,,,7:12.0 81-64 Personal foul by livelde01 (drawn by murraja01 ),7:12.0
+290,fg_make,,,81.0,66.0,2.0,portemi01,2.0,dunk,2.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,7:04.0 81-66 +2 portemi01 makes 2-pt dunk from 2 ft (assist by murraja01 ),7:04.0
+291,fg_miss,,,81.0,66.0,,thompkl01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:47.0 thompkl01 misses 2-pt jump shot from 19 ft 81-66,6:47.0
+292,rebound,,,81.0,66.0,,,,,,,,,,,offensive,thompkl01,False,,,,,,,,,,,,,,,,,,,6:43.0 Offensive rebound by thompkl01 81-66,6:43.0
+293,fg_miss,,,81.0,66.0,,thompkl01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:39.0 thompkl01 misses 3-pt jump shot from 26 ft 81-66,6:39.0
+294,rebound,,,81.0,66.0,,,,,,,,,,,offensive,livelde01,False,,,,,,,,,,,,,,,,,,,6:36.0 Offensive rebound by livelde01 81-66,6:36.0
+295,fg_miss,,,81.0,66.0,,hardyja02,2.0,layup,3.0,,watsope01,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 hardyja02 misses 2-pt layup from 3 ft (block by watsope01 ) 81-66,6:32.0
+296,rebound,,,81.0,66.0,,,,,,,,,,,defensive,portemi01,False,,,,,,,,,,,,,,,,,,,6:29.0 81-66 Defensive rebound by portemi01,6:29.0
+297,fg_make,,,81.0,69.0,3.0,portemi01,3.0,jump shot,26.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,6:17.0 81-69 +3 portemi01 makes 3-pt jump shot from 26 ft (assist by jokicni01 ),6:17.0
+298,timeout,,,81.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,6:17.0 Dallas full timeout 81-69,6:17.0
+299,substitution,,,81.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:17.0 marshna01 enters the game for thompkl01 81-69,6:17.0
+300,fg_miss,,,81.0,69.0,,irvinky01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 irvinky01 misses 2-pt jump shot from 6 ft 81-69,5:56.0
+301,rebound,,,81.0,69.0,,,,,,,,,,,defensive,murraja01,False,,,,,,,,,,,,,,,,,,,5:54.0 81-69 Defensive rebound by murraja01,5:54.0
+302,fg_make,,,81.0,71.0,2.0,watsope01,2.0,layup,3.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,5:49.0 81-71 +2 watsope01 makes 2-pt layup from 3 ft (assist by murraja01 ),5:49.0
+303,fg_miss,,,81.0,71.0,,hardyja02,2.0,layup,2.0,,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,5:37.0 hardyja02 misses 2-pt layup from 2 ft (block by murraja01 ) 81-71,5:37.0
+304,rebound,,,81.0,71.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:37.0 81-71 Defensive rebound by Team,5:37.0
+305,fg_make,,,81.0,73.0,2.0,braunch01,2.0,dunk,2.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 81-73 +2 braunch01 makes 2-pt dunk from 2 ft (assist by jokicni01 ),5:25.0
+306,fg_miss,,,81.0,73.0,,marshna01,2.0,layup,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:01.0 marshna01 misses 2-pt layup from 10 ft 81-73,5:01.0
+307,rebound,,,81.0,73.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,4:59.0 81-73 Defensive rebound by jokicni01,4:59.0
+308,fg_make,,,81.0,75.0,2.0,watsope01,2.0,layup,2.0,portemi01,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 81-75 +2 watsope01 makes 2-pt layup from 2 ft (assist by portemi01 ),4:58.0
+309,fg_miss,,,81.0,75.0,,hardyja02,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 hardyja02 misses 2-pt layup from 5 ft 81-75,4:40.0
+310,rebound,,,81.0,75.0,,,,,,,,,,,offensive,livelde01,False,,,,,,,,,,,,,,,,,,,4:39.0 Offensive rebound by livelde01 81-75,4:39.0
+311,fg_make,,,83.0,75.0,2.0,livelde01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:38.0 livelde01 makes 2-pt layup at rim +2 83-75,4:38.0
+312,fg_miss,,,83.0,75.0,,watsope01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:19.0 83-75 watsope01 misses 3-pt jump shot from 23 ft,4:19.0
+313,rebound,,,83.0,75.0,,,,,,,,,,,offensive,portemi01,False,,,,,,,,,,,,,,,,,,,4:16.0 83-75 Offensive rebound by portemi01,4:16.0
+314,fg_make,,,83.0,78.0,3.0,braunch01,3.0,jump shot,23.0,watsope01,,,,,,,,,,,,,,,,,,,,,,,,,,4:11.0 83-78 +3 braunch01 makes 3-pt jump shot from 23 ft (assist by watsope01 ),4:11.0
+315,fg_miss,,,83.0,78.0,,hardyja02,2.0,jump shot,11.0,,braunch01,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 hardyja02 misses 2-pt jump shot from 11 ft (block by braunch01 ) 83-78,3:49.0
+316,rebound,,,83.0,78.0,,,,,,,,,,,defensive,braunch01,False,,,,,,,,,,,,,,,,,,,3:47.0 83-78 Defensive rebound by braunch01,3:47.0
+317,substitution,,,83.0,78.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:47.0 gaffoda01 enters the game for hardyja02 83-78,3:47.0
+318,substitution,,,83.0,78.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:47.0 grimequ01 enters the game for livelde01 83-78,3:47.0
+319,substitution,,,83.0,78.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:47.0 klebima01 enters the game for washipj01 83-78,3:47.0
+320,fg_make,,,83.0,80.0,2.0,jokicni01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:29.0 83-80 +2 jokicni01 makes 2-pt jump shot from 9 ft,3:29.0
+321,fg_make,,,86.0,80.0,3.0,marshna01,3.0,jump shot,24.0,klebima01,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 marshna01 makes 3-pt jump shot from 24 ft (assist by klebima01 ) +3 86-80,3:12.0
+322,fg_make,,,86.0,82.0,2.0,portemi01,2.0,layup,4.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,2:58.0 86-82 +2 portemi01 makes 2-pt layup from 4 ft (assist by jokicni01 ),2:58.0
+323,timeout,,,86.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,2:45.0 86-82 Denver full timeout,2:45.0
+324,substitution,,,86.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 dinwisp01 enters the game for irvinky01 86-82,2:45.0
+325,substitution,,,86.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 86-82 strawju01 enters the game for braunch01,2:45.0
+326,substitution,,,86.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 86-82 tysonhu01 enters the game for murraja01,2:45.0
+327,substitution,,,86.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 86-82 westbru01 enters the game for watsope01,2:45.0
+328,fg_miss,,,86.0,82.0,,dinwisp01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:34.0 dinwisp01 misses 3-pt jump shot from 26 ft 86-82,2:34.0
+329,rebound,,,86.0,82.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,2:30.0 86-82 Defensive rebound by jokicni01,2:30.0
+330,fg_miss,,,86.0,82.0,,tysonhu01,2.0,dunk,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:27.0 86-82 tysonhu01 misses 2-pt dunk from 4 ft,2:27.0
+331,rebound,,,86.0,82.0,,,,,,,,,,,defensive,gaffoda01,False,,,,,,,,,,,,,,,,,,,2:23.0 Defensive rebound by gaffoda01 86-82,2:23.0
+332,fg_make,,,89.0,82.0,3.0,dinwisp01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:17.0 dinwisp01 makes 3-pt jump shot from 25 ft +3 89-82,2:17.0
+333,fg_miss,,,89.0,82.0,,westbru01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:51.0 89-82 westbru01 misses 3-pt jump shot from 27 ft,1:51.0
+334,rebound,,,89.0,82.0,,,,,,,,,,,offensive,jokicni01,False,,,,,,,,,,,,,,,,,,,1:48.0 89-82 Offensive rebound by jokicni01,1:48.0
+335,fg_make,,,89.0,84.0,2.0,jokicni01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:47.0 89-84 +2 jokicni01 makes 2-pt layup from 2 ft,1:47.0
+336,foul,,,89.0,84.0,,,,,,,,,,,,,,shooting,strawju01,gaffoda01,,,,,,,,,,,,,,,,1:30.0 Shooting foul by strawju01 (drawn by gaffoda01 ) 89-84,1:30.0
+337,free_throw,,,89.0,84.0,,gaffoda01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:30.0 gaffoda01 misses free throw 1 of 2 89-84,1:30.0
+338,rebound,,,89.0,84.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:30.0 Offensive rebound by Team 89-84,1:30.0
+339,free_throw,,,90.0,84.0,1.0,gaffoda01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:30.0 gaffoda01 makes free throw 2 of 2 +1 90-84,1:30.0
+340,foul,,,90.0,84.0,,,,,,,,,,,,,,shooting,klebima01,jokicni01,,,,,,,,,,,,,,,,1:11.0 90-84 Shooting foul by klebima01 (drawn by jokicni01 ),1:11.0
+341,free_throw,,,90.0,85.0,1.0,jokicni01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:11.0 90-85 +1 jokicni01 makes free throw 1 of 2,1:11.0
+342,free_throw,,,90.0,86.0,1.0,jokicni01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:11.0 90-86 +1 jokicni01 makes free throw 2 of 2,1:11.0
+343,fg_make,,,92.0,86.0,2.0,marshna01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:55.0 marshna01 makes 2-pt jump shot from 8 ft +2 92-86,0:55.0
+344,foul,,,92.0,86.0,,,,,,,,,,,,,,shooting,klebima01,jokicni01,,,,,,,,,,,,,,,,0:46.0 92-86 Shooting foul by klebima01 (drawn by jokicni01 ),0:46.0
+345,substitution,,,92.0,86.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:46.0 washipj01 enters the game for klebima01 92-86,0:46.0
+346,free_throw,,,92.0,87.0,1.0,jokicni01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:46.0 92-87 +1 jokicni01 makes free throw 1 of 2,0:46.0
+347,free_throw,,,92.0,87.0,,jokicni01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:46.0 92-87 jokicni01 misses free throw 2 of 2,0:46.0
+348,rebound,,,92.0,87.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,0:46.0 Defensive rebound by Team 92-87,0:46.0
+349,substitution,,,92.0,87.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:46.0 92-87 braunch01 enters the game for tysonhu01,0:46.0
+350,fg_miss,,,92.0,87.0,,marshna01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:36.0 marshna01 misses 2-pt jump shot from 8 ft 92-87,0:36.0
+351,rebound,,,92.0,87.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:35.0 Offensive rebound by Team 92-87,0:35.0
+352,fg_make,,,95.0,87.0,3.0,marshna01,3.0,jump shot,23.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 marshna01 makes 3-pt jump shot from 23 ft (assist by dinwisp01 ) +3 95-87,0:31.0
+353,fg_make,,,95.0,89.0,2.0,westbru01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:27.0 95-89 +2 westbru01 makes 2-pt layup from 1 ft,0:27.0
+354,foul,,,95.0,89.0,,,,,,,,,,,,,,shooting,marshna01,westbru01,,,,,,,,,,,,,,,,0:27.0 95-89 Shooting foul by marshna01 (drawn by westbru01 ),0:27.0
+355,substitution,,,95.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:27.0 irvinky01 enters the game for marshna01 95-89,0:27.0
+356,substitution,,,95.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:27.0 95-89 watsope01 enters the game for portemi01,0:27.0
+357,free_throw,,,95.0,89.0,,westbru01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,0:27.0 95-89 westbru01 misses free throw 1 of 1,0:27.0
+358,rebound,,,95.0,89.0,,,,,,,,,,,defensive,dinwisp01,False,,,,,,,,,,,,,,,,,,,0:21.0 Defensive rebound by dinwisp01 95-89,0:21.0
+359,turnover,,,95.0,89.0,,,,,,,,,,,,,,,,,washipj01,lost ball; steal by westbru01,westbru01,,,,,,,,,,,,,0:00.0 Turnover by washipj01 (lost ball; steal by westbru01 ) 95-89,0:00.0
+360,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter,0:00.0
+361,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter,12:00.0
+362,fg_miss,,,95.0,89.0,,westbru01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:38.0 95-89 westbru01 misses 2-pt jump shot from 13 ft,11:38.0
+363,rebound,,,95.0,89.0,,,,,,,,,,,offensive,jordade01,False,,,,,,,,,,,,,,,,,,,11:37.0 95-89 Offensive rebound by jordade01,11:37.0
+364,fg_miss,,,95.0,89.0,,jordade01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,11:36.0 95-89 jordade01 misses 2-pt layup at rim,11:36.0
+365,rebound,,,95.0,89.0,,,,,,,,,,,defensive,livelde01,False,,,,,,,,,,,,,,,,,,,11:35.0 Defensive rebound by livelde01 95-89,11:35.0
+366,foul,,,95.0,89.0,,,,,,,,,,,,,,personal,watsope01,washipj01,,,,,,,,,,,,,,,,11:26.0 Personal foul by watsope01 (drawn by washipj01 ) 95-89,11:26.0
+367,turnover,,,95.0,89.0,,,,,,,,,,,,,,,,,washipj01,step out of bounds,,,,,,,,,,,,,,11:24.0 Turnover by washipj01 (step out of bounds) 95-89,11:24.0
+368,fg_miss,,,95.0,89.0,,murraja01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:00.0 95-89 murraja01 misses 2-pt jump shot from 21 ft,11:00.0
+369,rebound,,,95.0,89.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:00.0 95-89 Offensive rebound by Team,11:00.0
+370,unknown,,,95.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),11:00.0 95-89 Turnover by Team (shot clock),11:00.0
+371,fg_make,,,98.0,89.0,3.0,hardyja02,3.0,jump shot,23.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,10:52.0 hardyja02 makes 3-pt jump shot from 23 ft (assist by dinwisp01 ) +3 98-89,10:52.0
+372,fg_make,,,98.0,92.0,3.0,westbru01,3.0,jump shot,25.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,10:34.0 98-92 +3 westbru01 makes 3-pt jump shot from 25 ft (assist by murraja01 ),10:34.0
+373,foul,,,98.0,92.0,,,,,,,,,,,,,,shooting,strawju01,dinwisp01,,,,,,,,,,,,,,,,10:25.0 Shooting foul by strawju01 (drawn by dinwisp01 ) 98-92,10:25.0
+374,free_throw,,,98.0,92.0,,dinwisp01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:25.0 dinwisp01 misses free throw 1 of 2 98-92,10:25.0
+375,rebound,,,98.0,92.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:25.0 Offensive rebound by Team 98-92,10:25.0
+376,free_throw,,,99.0,92.0,1.0,dinwisp01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:25.0 dinwisp01 makes free throw 2 of 2 +1 99-92,10:25.0
+377,fg_make,,,99.0,95.0,3.0,westbru01,3.0,jump shot,24.0,watsope01,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 99-95 +3 westbru01 makes 3-pt jump shot from 24 ft (assist by watsope01 ),10:08.0
+378,fg_miss,,,99.0,95.0,,washipj01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:51.0 washipj01 misses 3-pt jump shot from 24 ft 99-95,9:51.0
+379,rebound,,,99.0,95.0,,,,,,,,,,,defensive,murraja01,False,,,,,,,,,,,,,,,,,,,9:47.0 99-95 Defensive rebound by murraja01,9:47.0
+380,fg_miss,,,99.0,95.0,,westbru01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:29.0 99-95 westbru01 misses 2-pt jump shot from 8 ft,9:29.0
+381,rebound,,,99.0,95.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,9:27.0 Defensive rebound by washipj01 99-95,9:27.0
+382,fg_miss,,,99.0,95.0,,washipj01,2.0,layup,3.0,,watsope01,,,,,,,,,,,,,,,,,,,,,,,,,9:25.0 washipj01 misses 2-pt layup from 3 ft (block by watsope01 ) 99-95,9:25.0
+383,rebound,,,99.0,95.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:25.0 Offensive rebound by Team 99-95,9:25.0
+384,substitution,,,99.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:25.0 irvinky01 enters the game for hardyja02 99-95,9:25.0
+385,fg_miss,,,99.0,95.0,,irvinky01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:13.0 irvinky01 misses 3-pt jump shot from 28 ft 99-95,9:13.0
+386,rebound,,,99.0,95.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,9:07.0 99-95 Defensive rebound by westbru01,9:07.0
+387,fg_make,,,99.0,97.0,2.0,jordade01,2.0,dunk,2.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,8:47.0 99-97 +2 jordade01 makes 2-pt dunk from 2 ft (assist by murraja01 ),8:47.0
+388,foul,,,99.0,97.0,,,,,,,,,,,,,,shooting,jordade01,livelde01,,,,,,,,,,,,,,,,8:27.0 Shooting foul by jordade01 (drawn by livelde01 ) 99-97,8:27.0
+389,free_throw,,,99.0,97.0,,livelde01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:27.0 livelde01 misses free throw 1 of 2 99-97,8:27.0
+390,rebound,,,99.0,97.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:27.0 Offensive rebound by Team 99-97,8:27.0
+391,substitution,,,99.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 klebima01 enters the game for washipj01 99-97,8:27.0
+392,free_throw,,,100.0,97.0,1.0,livelde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:27.0 livelde01 makes free throw 2 of 2 +1 100-97,8:27.0
+393,fg_miss,,,100.0,97.0,,murraja01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:07.0 100-97 murraja01 misses 2-pt jump shot from 14 ft,8:07.0
+394,rebound,,,100.0,97.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,8:05.0 Defensive rebound by marshna01 100-97,8:05.0
+395,fg_miss,,,100.0,97.0,,irvinky01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:05.0 irvinky01 misses 2-pt layup from 4 ft 100-97,8:05.0
+396,rebound,,,100.0,97.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:02.0 Offensive rebound by Team 100-97,8:02.0
+397,substitution,,,100.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:02.0 grimequ01 enters the game for dinwisp01 100-97,8:02.0
+398,foul,,,100.0,97.0,,,,,,,,,,,,,,shooting,watsope01,livelde01,,,,,,,,,,,,,,,,8:01.0 Shooting foul by watsope01 (drawn by livelde01 ) 100-97,8:01.0
+399,timeout,,,100.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,8:01.0 Dallas full timeout 100-97,8:01.0
+400,substitution,,,100.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:01.0 thompkl01 enters the game for marshna01 100-97,8:01.0
+401,free_throw,,,101.0,97.0,1.0,livelde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:01.0 livelde01 makes free throw 1 of 2 +1 101-97,8:01.0
+402,free_throw,,,102.0,97.0,1.0,livelde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:01.0 livelde01 makes free throw 2 of 2 +1 102-97,8:01.0
+403,fg_make,,,102.0,99.0,2.0,watsope01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:44.0 102-99 +2 watsope01 makes 2-pt layup from 4 ft,7:44.0
+404,fg_make,,,104.0,99.0,2.0,livelde01,2.0,hook shot,5.0,klebima01,,,,,,,,,,,,,,,,,,,,,,,,,,7:24.0 livelde01 makes 2-pt hook shot from 5 ft (assist by klebima01 ) +2 104-99,7:24.0
+405,foul,,,104.0,99.0,,,,,,,,,,,,,,shooting,livelde01,jordade01,,,,,,,,,,,,,,,,7:13.0 104-99 Shooting foul by livelde01 (drawn by jordade01 ),7:13.0
+406,free_throw,,,104.0,99.0,,jordade01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:13.0 104-99 jordade01 misses free throw 1 of 2,7:13.0
+407,rebound,,,104.0,99.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:13.0 104-99 Offensive rebound by Team,7:13.0
+408,substitution,,,104.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:13.0 gaffoda01 enters the game for klebima01 104-99,7:13.0
+409,substitution,,,104.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:13.0 washipj01 enters the game for livelde01 104-99,7:13.0
+410,substitution,,,104.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:13.0 104-99 portemi01 enters the game for strawju01,7:13.0
+411,free_throw,,,104.0,100.0,1.0,jordade01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:13.0 104-100 +1 jordade01 makes free throw 2 of 2,7:13.0
+412,unknown,,,104.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by murraja01 (drawn by gaffoda01 ),7:09.0 Personal take foul by murraja01 (drawn by gaffoda01 ) 104-100,7:09.0
+413,substitution,,,104.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:09.0 104-100 jokicni01 enters the game for jordade01,7:09.0
+414,free_throw,,,105.0,100.0,1.0,gaffoda01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:09.0 gaffoda01 makes free throw 1 of 2 +1 105-100,7:09.0
+415,free_throw,,,106.0,100.0,1.0,gaffoda01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:09.0 gaffoda01 makes free throw 2 of 2 +1 106-100,7:09.0
+416,fg_make,,,106.0,103.0,3.0,westbru01,3.0,jump shot,27.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,6:52.0 106-103 +3 westbru01 makes 3-pt jump shot from 27 ft (assist by murraja01 ),6:52.0
+417,fg_miss,,,106.0,103.0,,irvinky01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:34.0 irvinky01 misses 2-pt layup from 5 ft 106-103,6:34.0
+418,rebound,,,106.0,103.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,6:32.0 106-103 Defensive rebound by jokicni01,6:32.0
+419,fg_make,,,106.0,105.0,2.0,jokicni01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 106-105 +2 jokicni01 makes 2-pt jump shot from 9 ft,6:09.0
+420,turnover,,,106.0,105.0,,,,,,,,,,,,,,,,,thompkl01,bad pass; steal by westbru01,westbru01,,,,,,,,,,,,,5:51.0 Turnover by thompkl01 (bad pass; steal by westbru01 ) 106-105,5:51.0
+421,fg_make,,,106.0,108.0,3.0,watsope01,3.0,jump shot,23.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,5:34.0 106-108 +3 watsope01 makes 3-pt jump shot from 23 ft (assist by jokicni01 ),5:34.0
+422,timeout,,,106.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,5:34.0 Dallas full timeout 106-108,5:34.0
+423,fg_miss,,,106.0,108.0,,irvinky01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:18.0 irvinky01 misses 2-pt jump shot from 15 ft 106-108,5:18.0
+424,rebound,,,106.0,108.0,,,,,,,,,,,offensive,gaffoda01,False,,,,,,,,,,,,,,,,,,,5:15.0 Offensive rebound by gaffoda01 106-108,5:15.0
+425,fg_make,,,108.0,108.0,2.0,gaffoda01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:13.0 gaffoda01 makes 2-pt layup from 2 ft +2 108-108,5:13.0
+426,fg_miss,,,108.0,108.0,,westbru01,2.0,layup,6.0,,irvinky01,,,,,,,,,,,,,,,,,,,,,,,,,4:52.0 108-108 westbru01 misses 2-pt layup from 6 ft (block by irvinky01 ),4:52.0
+427,rebound,,,108.0,108.0,,,,,,,,,,,defensive,gaffoda01,False,,,,,,,,,,,,,,,,,,,4:50.0 Defensive rebound by gaffoda01 108-108,4:50.0
+428,fg_miss,,,108.0,108.0,,gaffoda01,2.0,layup,5.0,,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 gaffoda01 misses 2-pt layup from 5 ft (block by murraja01 ) 108-108,4:44.0
+429,rebound,,,108.0,108.0,,,,,,,,,,,defensive,jokicni01,False,,,,,,,,,,,,,,,,,,,4:42.0 108-108 Defensive rebound by jokicni01,4:42.0
+430,fg_miss,,,108.0,108.0,,murraja01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 108-108 murraja01 misses 3-pt jump shot from 28 ft,4:40.0
+431,rebound,,,108.0,108.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:38.0 108-108 Offensive rebound by Team,4:38.0
+432,fg_make,,,108.0,110.0,2.0,portemi01,2.0,jump shot,6.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 108-110 +2 portemi01 makes 2-pt jump shot from 6 ft (assist by westbru01 ),4:34.0
+433,fg_miss,,,108.0,110.0,,irvinky01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 irvinky01 misses 3-pt jump shot from 25 ft 108-110,4:20.0
+434,rebound,,,108.0,110.0,,,,,,,,,,,defensive,murraja01,False,,,,,,,,,,,,,,,,,,,4:17.0 108-110 Defensive rebound by murraja01,4:17.0
+435,foul,,,108.0,110.0,,,,,,,,,,,,,,shooting,gaffoda01,jokicni01,,,,,,,,,,,,,,,,4:13.0 108-110 Shooting foul by gaffoda01 (drawn by jokicni01 ),4:13.0
+436,free_throw,,,108.0,111.0,1.0,jokicni01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:13.0 108-111 +1 jokicni01 makes free throw 1 of 2,4:13.0
+437,substitution,,,108.0,111.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 livelde01 enters the game for gaffoda01 108-111,4:13.0
+438,free_throw,,,108.0,111.0,,jokicni01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:13.0 108-111 jokicni01 misses free throw 2 of 2,4:13.0
+439,rebound,,,108.0,111.0,,,,,,,,,,,defensive,irvinky01,False,,,,,,,,,,,,,,,,,,,4:10.0 Defensive rebound by irvinky01 108-111,4:10.0
+440,fg_miss,,,108.0,111.0,,grimequ01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:01.0 grimequ01 misses 3-pt jump shot from 25 ft 108-111,4:01.0
+441,rebound,,,108.0,111.0,,,,,,,,,,,defensive,portemi01,False,,,,,,,,,,,,,,,,,,,3:58.0 108-111 Defensive rebound by portemi01,3:58.0
+442,fg_miss,,,108.0,111.0,,murraja01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:35.0 108-111 murraja01 misses 3-pt jump shot from 27 ft,3:35.0
+443,rebound,,,108.0,111.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,3:31.0 Defensive rebound by washipj01 108-111,3:31.0
+444,turnover,,,108.0,111.0,,,,,,,,,,,,,,,,,irvinky01,bad pass,,,,,,,,,,,,,,3:20.0 Turnover by irvinky01 (bad pass) 108-111,3:20.0
+445,timeout,,,108.0,111.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,3:20.0 108-111 Denver full timeout,3:20.0
+446,instant_replay,,,108.0,111.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:20.0 108-111 Instant Replay (Challenge: Ruling Stands),3:20.0
+447,substitution,,,108.0,111.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:20.0 marshna01 enters the game for thompkl01 108-111,3:20.0
+448,fg_make,,,108.0,113.0,2.0,watsope01,2.0,dunk,3.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,3:05.0 108-113 +2 watsope01 makes 2-pt dunk from 3 ft (assist by murraja01 ),3:05.0
+449,fg_make,,,110.0,113.0,2.0,washipj01,2.0,layup,2.0,marshna01,,,,,,,,,,,,,,,,,,,,,,,,,,2:41.0 washipj01 makes 2-pt layup from 2 ft (assist by marshna01 ) +2 110-113,2:41.0
+450,fg_miss,,,110.0,113.0,,portemi01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:13.0 110-113 portemi01 misses 2-pt jump shot from 17 ft,2:13.0
+451,rebound,,,110.0,113.0,,,,,,,,,,,defensive,livelde01,False,,,,,,,,,,,,,,,,,,,2:10.0 Defensive rebound by livelde01 110-113,2:10.0
+452,fg_make,,,112.0,113.0,2.0,washipj01,2.0,layup,1.0,irvinky01,,,,,,,,,,,,,,,,,,,,,,,,,,2:08.0 washipj01 makes 2-pt layup from 1 ft (assist by irvinky01 ) +2 112-113,2:08.0
+453,foul,,,112.0,113.0,,,,,,,,,,,,,,shooting,murraja01,washipj01,,,,,,,,,,,,,,,,2:08.0 Shooting foul by murraja01 (drawn by washipj01 ) 112-113,2:08.0
+454,free_throw,,,113.0,113.0,1.0,washipj01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,2:08.0 washipj01 makes free throw 1 of 1 +1 113-113,2:08.0
+455,fg_miss,,,113.0,113.0,,jokicni01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:52.0 113-113 jokicni01 misses 2-pt hook shot from 6 ft,1:52.0
+456,rebound,,,113.0,113.0,,,,,,,,,,,offensive,jokicni01,False,,,,,,,,,,,,,,,,,,,1:50.0 113-113 Offensive rebound by jokicni01,1:50.0
+457,fg_miss,,,113.0,113.0,,jokicni01,2.0,layup,3.0,,livelde01,,,,,,,,,,,,,,,,,,,,,,,,,1:49.0 113-113 jokicni01 misses 2-pt layup from 3 ft (block by livelde01 ),1:49.0
+458,rebound,,,113.0,113.0,,,,,,,,,,,defensive,washipj01,False,,,,,,,,,,,,,,,,,,,1:49.0 Defensive rebound by washipj01 113-113,1:49.0
+459,fg_miss,,,113.0,113.0,,irvinky01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:41.0 irvinky01 misses 3-pt jump shot from 26 ft 113-113,1:41.0
+460,rebound,,,113.0,113.0,,,,,,,,,,,defensive,watsope01,False,,,,,,,,,,,,,,,,,,,1:37.0 113-113 Defensive rebound by watsope01,1:37.0
+461,fg_miss,,,113.0,113.0,,westbru01,2.0,layup,5.0,,livelde01,,,,,,,,,,,,,,,,,,,,,,,,,1:21.0 113-113 westbru01 misses 2-pt layup from 5 ft (block by livelde01 ),1:21.0
+462,rebound,,,113.0,113.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,1:20.0 Defensive rebound by Team 113-113,1:20.0
+463,foul,,,113.0,113.0,,,,,,,,,,,,,,loose ball,watsope01,grimequ01,,,,,,,,,,,,,,,,1:20.0 113-113 Loose ball foul by watsope01 (drawn by grimequ01 ),1:20.0
+464,free_throw,,,114.0,113.0,1.0,grimequ01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 grimequ01 makes free throw 1 of 2 +1 114-113,1:20.0
+465,free_throw,,,115.0,113.0,1.0,grimequ01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 grimequ01 makes free throw 2 of 2 +1 115-113,1:20.0
+466,fg_miss,,,115.0,113.0,,jokicni01,2.0,hook shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:02.0 115-113 jokicni01 misses 2-pt hook shot from 4 ft,1:02.0
+467,rebound,,,115.0,113.0,,,,,,,,,,,defensive,irvinky01,False,,,,,,,,,,,,,,,,,,,0:59.0 Defensive rebound by irvinky01 115-113,0:59.0
+468,fg_miss,,,115.0,113.0,,irvinky01,2.0,layup,7.0,,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,0:56.0 irvinky01 misses 2-pt layup from 7 ft (block by murraja01 ) 115-113,0:56.0
+469,rebound,,,115.0,113.0,,,,,,,,,,,offensive,grimequ01,False,,,,,,,,,,,,,,,,,,,0:55.0 Offensive rebound by grimequ01 115-113,0:55.0
+470,fg_make,,,117.0,113.0,2.0,washipj01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 washipj01 makes 2-pt layup from 5 ft +2 117-113,0:49.0
+471,timeout,,,117.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,0:49.0 117-113 Denver full timeout,0:49.0
+472,substitution,,,117.0,113.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 klebima01 enters the game for irvinky01 117-113,0:49.0
+473,fg_make,,,117.0,115.0,2.0,jokicni01,2.0,layup,2.0,murraja01,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 117-115 +2 jokicni01 makes 2-pt layup from 2 ft (assist by murraja01 ),0:41.0
+474,timeout,,,117.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,0:41.0 Dallas full timeout 117-115,0:41.0
+475,substitution,,,117.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 irvinky01 enters the game for klebima01 117-115,0:41.0
+476,fg_make,,,119.0,115.0,2.0,marshna01,2.0,jump shot,14.0,grimequ01,,,,,,,,,,,,,,,,,,,,,,,,,,0:18.0 marshna01 makes 2-pt jump shot from 14 ft (assist by grimequ01 ) +2 119-115,0:18.0
+477,timeout,,,119.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,0:18.0 119-115 Denver full timeout,0:18.0
+478,substitution,,,119.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:18.0 klebima01 enters the game for irvinky01 119-115,0:18.0
+479,unknown,,,119.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by klebima01 (drawn by westbru01 ),0:16.0 119-115 Personal take foul by klebima01 (drawn by westbru01 ),0:16.0
+480,substitution,,,119.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:16.0 irvinky01 enters the game for klebima01 119-115,0:16.0
+481,unknown,,,119.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by irvinky01 (drawn by westbru01 ),0:13.0 119-115 Personal take foul by irvinky01 (drawn by westbru01 ),0:13.0
+482,free_throw,,,119.0,115.0,,westbru01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:13.0 119-115 westbru01 misses free throw 1 of 2,0:13.0
+483,rebound,,,119.0,115.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:13.0 119-115 Offensive rebound by Team,0:13.0
+484,substitution,,,119.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:13.0 gaffoda01 enters the game for marshna01 119-115,0:13.0
+485,substitution,,,119.0,115.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:13.0 119-115 braunch01 enters the game for portemi01,0:13.0
+486,free_throw,,,119.0,115.0,,westbru01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:13.0 119-115 westbru01 misses free throw 2 of 2,0:13.0
+487,rebound,,,119.0,115.0,,,,,,,,,,,offensive,jokicni01,False,,,,,,,,,,,,,,,,,,,0:11.0 119-115 Offensive rebound by jokicni01,0:11.0
+488,fg_make,,,119.0,118.0,3.0,murraja01,3.0,jump shot,28.0,jokicni01,,,,,,,,,,,,,,,,,,,,,,,,,,0:10.0 119-118 +3 murraja01 makes 3-pt jump shot from 28 ft (assist by jokicni01 ),0:10.0
+489,unknown,,,119.0,118.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by westbru01 (drawn by irvinky01 ),0:07.0 Personal take foul by westbru01 (drawn by irvinky01 ) 119-118,0:07.0
+490,free_throw,,,120.0,118.0,1.0,irvinky01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:07.0 irvinky01 makes free throw 1 of 2 +1 120-118,0:07.0
+491,substitution,,,120.0,118.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:07.0 dinwisp01 enters the game for gaffoda01 120-118,0:07.0
+492,substitution,,,120.0,118.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:07.0 marshna01 enters the game for livelde01 120-118,0:07.0
+493,substitution,,,120.0,118.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:07.0 120-118 portemi01 enters the game for braunch01,0:07.0
+494,free_throw,,,121.0,118.0,1.0,irvinky01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:07.0 irvinky01 makes free throw 2 of 2 +1 121-118,0:07.0
+495,unknown,,,121.0,118.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by marshna01 (drawn by murraja01 ),0:04.0 121-118 Personal take foul by marshna01 (drawn by murraja01 ),0:04.0
+496,free_throw,,,121.0,119.0,1.0,murraja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:04.0 121-119 +1 murraja01 makes free throw 1 of 2,0:04.0
+497,substitution,,,121.0,119.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:04.0 gaffoda01 enters the game for dinwisp01 121-119,0:04.0
+498,substitution,,,121.0,119.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:04.0 livelde01 enters the game for grimequ01 121-119,0:04.0
+499,substitution,,,121.0,119.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:04.0 121-119 jordade01 enters the game for watsope01,0:04.0
+500,free_throw,,,121.0,120.0,1.0,murraja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:04.0 121-120 +1 murraja01 makes free throw 2 of 2,0:04.0
+501,unknown,,,121.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by portemi01 (drawn by washipj01 ),0:03.0 Personal take foul by portemi01 (drawn by washipj01 ) 121-120,0:03.0
+502,free_throw,,,122.0,120.0,1.0,washipj01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:03.0 washipj01 makes free throw 1 of 2 +1 122-120,0:03.0
+503,substitution,,,122.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 dinwisp01 enters the game for gaffoda01 122-120,0:03.0
+504,substitution,,,122.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 grimequ01 enters the game for livelde01 122-120,0:03.0
+505,substitution,,,122.0,120.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 122-120 watsope01 enters the game for jordade01,0:03.0
+506,free_throw,,,123.0,120.0,1.0,washipj01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:03.0 washipj01 makes free throw 2 of 2 +1 123-120,0:03.0
+507,turnover,,,123.0,120.0,,,,,,,,,,,,,,,,,watsope01,bad pass; steal by washipj01,washipj01,,,,,,,,,,,,,0:03.0 123-120 Turnover by watsope01 (bad pass; steal by washipj01 ),0:03.0
+508,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter,0:00.0

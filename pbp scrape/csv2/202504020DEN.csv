@@ -1,0 +1,473 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: biyombi01 vs. jordade01 ( barneha02 gains possession)
+2,fg_make,,,2.0,0.0,2.0,paulch01,2.0,jump shot,14.0,barneha02,,,,,,,,,,,,,,,,,,,,,,,,,,11:43.0 paulch01 makes 2-pt jump shot from 14 ft (assist by barneha02 ) +2 2-0
+3,turnover,,,2.0,0.0,,,,,,,,,,,,,,,,,westbru01,bad pass,,,,,,,,,,,,,,11:32.0 2-0 Turnover by westbru01 (bad pass)
+4,fg_make,,,4.0,0.0,2.0,barneha02,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:13.0 barneha02 makes 2-pt jump shot from 11 ft +2 4-0
+5,fg_miss,,,4.0,0.0,,westbru01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:58.0 4-0 westbru01 misses 3-pt jump shot from 27 ft
+6,rebound,,,4.0,0.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:54.0 4-0 Offensive rebound by Team
+7,fg_miss,,,4.0,0.0,,pickeja02,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:50.0 4-0 pickeja02 misses 2-pt jump shot from 20 ft
+8,rebound,,,4.0,0.0,,,,,,,,,,,defensive,paulch01,False,,,,,,,,,,,,,,,,,,,10:47.0 Defensive rebound by paulch01 4-0
+9,turnover,,,4.0,0.0,,,,,,,,,,,,,,,,,paulch01,bad pass; steal by westbru01,westbru01,,,,,,,,,,,,,10:36.0 Turnover by paulch01 (bad pass; steal by westbru01 ) 4-0
+10,fg_miss,,,4.0,0.0,,tysonhu01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:30.0 4-0 tysonhu01 misses 3-pt jump shot from 24 ft
+11,rebound,,,4.0,0.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,10:27.0 Defensive rebound by castlst01 4-0
+12,fg_make,,,7.0,0.0,3.0,champju02,3.0,jump shot,27.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,10:15.0 champju02 makes 3-pt jump shot from 27 ft (assist by paulch01 ) +3 7-0
+13,fg_miss,,,7.0,0.0,,westbru01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:00.0 7-0 westbru01 misses 2-pt layup from 6 ft
+14,rebound,,,7.0,0.0,,,,,,,,,,,defensive,biyombi01,False,,,,,,,,,,,,,,,,,,,9:59.0 Defensive rebound by biyombi01 7-0
+15,fg_miss,,,7.0,0.0,,barneha02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:53.0 barneha02 misses 3-pt jump shot from 26 ft 7-0
+16,rebound,,,7.0,0.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,9:51.0 7-0 Defensive rebound by jordade01
+17,fg_miss,,,7.0,0.0,,pickeja02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:34.0 7-0 pickeja02 misses 3-pt jump shot from 27 ft
+18,rebound,,,7.0,0.0,,,,,,,,,,,defensive,biyombi01,False,,,,,,,,,,,,,,,,,,,9:31.0 Defensive rebound by biyombi01 7-0
+19,fg_miss,,,7.0,0.0,,champju02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:23.0 champju02 misses 3-pt jump shot from 23 ft 7-0
+20,rebound,,,7.0,0.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,9:20.0 7-0 Defensive rebound by pickeja02
+21,fg_miss,,,7.0,0.0,,westbru01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:11.0 7-0 westbru01 misses 3-pt jump shot from 26 ft
+22,rebound,,,7.0,0.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,9:08.0 Defensive rebound by barneha02 7-0
+23,fg_make,,,9.0,0.0,2.0,castlst01,2.0,jump shot,12.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,9:02.0 castlst01 makes 2-pt jump shot from 12 ft (assist by paulch01 ) +2 9-0
+24,timeout,,,9.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,9:00.0 9-0 Denver full timeout
+25,fg_make,,,9.0,2.0,2.0,tysonhu01,2.0,layup,6.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,8:43.0 9-2 +2 tysonhu01 makes 2-pt layup from 6 ft (assist by pickeja02 )
+26,turnover,,,9.0,2.0,,,,,,,,,,,,,,,,,castlst01,bad pass,,,,,,,,,,,,,,8:28.0 Turnover by castlst01 (bad pass) 9-2
+27,fg_miss,,,9.0,2.0,,tysonhu01,2.0,layup,4.0,,biyombi01,,,,,,,,,,,,,,,,,,,,,,,,,8:23.0 9-2 tysonhu01 misses 2-pt layup from 4 ft (block by biyombi01 )
+28,rebound,,,9.0,2.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,8:22.0 Defensive rebound by castlst01 9-2
+29,fg_miss,,,9.0,2.0,,paulch01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 paulch01 misses 3-pt jump shot from 28 ft 9-2
+30,rebound,,,9.0,2.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,8:07.0 9-2 Defensive rebound by pickeja02
+31,turnover,,,9.0,2.0,,,,,,,,,,,,,,,,,pickeja02,bad pass; steal by paulch01,paulch01,,,,,,,,,,,,,8:03.0 9-2 Turnover by pickeja02 (bad pass; steal by paulch01 )
+32,fg_miss,,,9.0,2.0,,champju02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:52.0 champju02 misses 3-pt jump shot from 23 ft 9-2
+33,rebound,,,9.0,2.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,7:49.0 9-2 Defensive rebound by pickeja02
+34,fg_miss,,,9.0,2.0,,tysonhu01,2.0,layup,3.0,,champju02,,,,,,,,,,,,,,,,,,,,,,,,,7:44.0 9-2 tysonhu01 misses 2-pt layup from 3 ft (block by champju02 )
+35,rebound,,,9.0,2.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,7:43.0 Defensive rebound by barneha02 9-2
+36,fg_miss,,,9.0,2.0,,castlst01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 castlst01 misses 3-pt jump shot from 28 ft 9-2
+37,rebound,,,9.0,2.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,7:36.0 9-2 Defensive rebound by jordade01
+38,turnover,,,9.0,2.0,,,,,,,,,,,,,,,,,westbru01,bad pass,,,,,,,,,,,,,,7:29.0 9-2 Turnover by westbru01 (bad pass)
+39,fg_make,,,12.0,2.0,3.0,castlst01,3.0,jump shot,26.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,7:13.0 castlst01 makes 3-pt jump shot from 26 ft (assist by paulch01 ) +3 12-2
+40,fg_make,,,12.0,5.0,3.0,westbru01,3.0,jump shot,25.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 12-5 +3 westbru01 makes 3-pt jump shot from 25 ft (assist by pickeja02 )
+41,fg_miss,,,12.0,5.0,,barneha02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:38.0 barneha02 misses 2-pt jump shot from 10 ft 12-5
+42,rebound,,,12.0,5.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,6:37.0 12-5 Defensive rebound by jordade01
+43,fg_make,,,12.0,8.0,3.0,tysonhu01,3.0,jump shot,27.0,jordade01,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 12-8 +3 tysonhu01 makes 3-pt jump shot from 27 ft (assist by jordade01 )
+44,fg_miss,,,12.0,8.0,,biyombi01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 biyombi01 misses 2-pt layup from 5 ft 12-8
+45,rebound,,,12.0,8.0,,,,,,,,,,,defensive,tysonhu01,False,,,,,,,,,,,,,,,,,,,6:07.0 12-8 Defensive rebound by tysonhu01
+46,fg_make,,,12.0,10.0,2.0,westbru01,2.0,layup,7.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,6:01.0 12-10 +2 westbru01 makes 2-pt layup from 7 ft (assist by pickeja02 )
+47,fg_make,,,15.0,10.0,3.0,barneha02,3.0,jump shot,23.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,5:49.0 barneha02 makes 3-pt jump shot from 23 ft (assist by paulch01 ) +3 15-10
+48,fg_make,,,15.0,12.0,2.0,jordade01,2.0,dunk,4.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 15-12 +2 jordade01 makes 2-pt dunk from 4 ft (assist by westbru01 )
+49,fg_miss,,,15.0,12.0,,paulch01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:18.0 paulch01 misses 2-pt jump shot from 16 ft 15-12
+50,rebound,,,15.0,12.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,5:16.0 15-12 Defensive rebound by pickeja02
+51,fg_miss,,,15.0,12.0,,nnajize01,2.0,layup,3.0,,biyombi01,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 15-12 nnajize01 misses 2-pt layup from 3 ft (block by biyombi01 )
+52,rebound,,,15.0,12.0,,,,,,,,,,,defensive,biyombi01,False,,,,,,,,,,,,,,,,,,,5:07.0 Defensive rebound by biyombi01 15-12
+53,fg_make,,,18.0,12.0,3.0,paulch01,3.0,jump shot,23.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,4:53.0 paulch01 makes 3-pt jump shot from 23 ft (assist by castlst01 ) +3 18-12
+54,foul,,,18.0,12.0,,,,,,,,,,,,,,personal,castlst01,westbru01,,,,,,,,,,,,,,,,4:33.0 18-12 Personal foul by castlst01 (drawn by westbru01 )
+55,substitution,,,18.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 mamuksa01 enters the game for biyombi01 18-12
+56,substitution,,,18.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 mclaujo01 enters the game for castlst01 18-12
+57,substitution,,,18.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 weslebl01 enters the game for paulch01 18-12
+58,substitution,,,18.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 18-12 cancavl01 enters the game for nnajize01
+59,substitution,,,18.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 18-12 jonessp01 enters the game for pickeja02
+60,fg_miss,,,18.0,12.0,,westbru01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 18-12 westbru01 misses 2-pt jump shot from 18 ft
+61,rebound,,,18.0,12.0,,,,,,,,,,,defensive,champju02,False,,,,,,,,,,,,,,,,,,,4:18.0 Defensive rebound by champju02 18-12
+62,fg_miss,,,18.0,12.0,,champju02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 champju02 misses 3-pt jump shot from 28 ft 18-12
+63,rebound,,,18.0,12.0,,,,,,,,,,,defensive,cancavl01,False,,,,,,,,,,,,,,,,,,,4:11.0 18-12 Defensive rebound by cancavl01
+64,turnover,,,18.0,12.0,,,,,,,,,,,,,,,,,cancavl01,lost ball; steal by mclaujo01,mclaujo01,,,,,,,,,,,,,4:10.0 18-12 Turnover by cancavl01 (lost ball; steal by mclaujo01 )
+65,fg_make,,,21.0,12.0,3.0,barneha02,3.0,jump shot,26.0,mclaujo01,,,,,,,,,,,,,,,,,,,,,,,,,,4:06.0 barneha02 makes 3-pt jump shot from 26 ft (assist by mclaujo01 ) +3 21-12
+66,timeout,,,21.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,4:05.0 21-12 Denver full timeout
+67,substitution,,,21.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 21-12 alexatr01 enters the game for jordade01
+68,substitution,,,21.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 21-12 saricda01 enters the game for tysonhu01
+69,fg_make,,,21.0,14.0,2.0,westbru01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:47.0 21-14 +2 westbru01 makes 2-pt layup from 6 ft
+70,foul,,,21.0,14.0,,,,,,,,,,,,,,shooting,jonessp01,champju02,,,,,,,,,,,,,,,,3:39.0 Shooting foul by jonessp01 (drawn by champju02 ) 21-14
+71,free_throw,,,22.0,14.0,1.0,champju02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:39.0 champju02 makes free throw 1 of 2 +1 22-14
+72,free_throw,,,23.0,14.0,1.0,champju02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:39.0 champju02 makes free throw 2 of 2 +1 23-14
+73,fg_miss,,,23.0,14.0,,cancavl01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 23-14 cancavl01 misses 3-pt jump shot from 24 ft
+74,rebound,,,23.0,14.0,,,,,,,,,,,defensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,3:16.0 Defensive rebound by mamuksa01 23-14
+75,turnover,,,23.0,14.0,,,,,,,,,,,,,,,,,weslebl01,bad pass; steal by westbru01,westbru01,,,,,,,,,,,,,3:10.0 Turnover by weslebl01 (bad pass; steal by westbru01 ) 23-14
+76,fg_make,,,23.0,16.0,2.0,westbru01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:01.0 23-16 +2 westbru01 makes 2-pt layup from 6 ft
+77,fg_miss,,,23.0,16.0,,barneha02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:49.0 barneha02 misses 3-pt jump shot from 23 ft 23-16
+78,rebound,,,23.0,16.0,,,,,,,,,,,defensive,saricda01,False,,,,,,,,,,,,,,,,,,,2:47.0 23-16 Defensive rebound by saricda01
+79,fg_miss,,,23.0,16.0,,alexatr01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:41.0 23-16 alexatr01 misses 2-pt jump shot from 8 ft
+80,rebound,,,23.0,16.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,2:40.0 Defensive rebound by barneha02 23-16
+81,fg_make,,,26.0,16.0,3.0,weslebl01,3.0,jump shot,27.0,barneha02,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 weslebl01 makes 3-pt jump shot from 27 ft (assist by barneha02 ) +3 26-16
+82,fg_miss,,,26.0,16.0,,westbru01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:09.0 26-16 westbru01 misses 3-pt jump shot from 24 ft
+83,rebound,,,26.0,16.0,,,,,,,,,,,defensive,champju02,False,,,,,,,,,,,,,,,,,,,2:07.0 Defensive rebound by champju02 26-16
+84,fg_miss,,,26.0,16.0,,mamuksa01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 mamuksa01 misses 3-pt jump shot from 27 ft 26-16
+85,rebound,,,26.0,16.0,,,,,,,,,,,defensive,alexatr01,False,,,,,,,,,,,,,,,,,,,1:48.0 26-16 Defensive rebound by alexatr01
+86,fg_miss,,,26.0,16.0,,alexatr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 26-16 alexatr01 misses 3-pt jump shot from 23 ft
+87,rebound,,,26.0,16.0,,,,,,,,,,,defensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,1:26.0 Defensive rebound by mamuksa01 26-16
+88,fg_make,,,28.0,16.0,2.0,champju02,2.0,layup,4.0,mclaujo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:18.0 champju02 makes 2-pt layup from 4 ft (assist by mclaujo01 ) +2 28-16
+89,fg_miss,,,28.0,16.0,,jonessp01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:56.0 28-16 jonessp01 misses 3-pt jump shot from 24 ft
+90,rebound,,,28.0,16.0,,,,,,,,,,,defensive,champju02,False,,,,,,,,,,,,,,,,,,,0:53.0 Defensive rebound by champju02 28-16
+91,fg_miss,,,28.0,16.0,,barneha02,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:47.0 barneha02 misses 2-pt layup from 2 ft 28-16
+92,rebound,,,28.0,16.0,,,,,,,,,,,defensive,jonessp01,False,,,,,,,,,,,,,,,,,,,0:46.0 28-16 Defensive rebound by jonessp01
+93,fg_make,,,28.0,18.0,2.0,jonessp01,2.0,layup,5.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,0:38.0 28-18 +2 jonessp01 makes 2-pt layup from 5 ft (assist by westbru01 )
+94,fg_make,,,30.0,18.0,2.0,weslebl01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 weslebl01 makes 2-pt layup from 5 ft +2 30-18
+95,fg_make,,,30.0,21.0,3.0,alexatr01,3.0,jump shot,23.0,saricda01,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 30-21 +3 alexatr01 makes 3-pt jump shot from 23 ft (assist by saricda01 )
+96,foul,,,30.0,21.0,,,,,,,,,,,,,,shooting,jonessp01,weslebl01,,,,,,,,,,,,,,,,0:05.0 Shooting foul by jonessp01 (drawn by weslebl01 ) 30-21
+97,free_throw,,,31.0,21.0,1.0,weslebl01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:05.0 weslebl01 makes free throw 1 of 2 +1 31-21
+98,free_throw,,,31.0,21.0,,weslebl01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:05.0 weslebl01 misses free throw 2 of 2 31-21
+99,rebound,,,31.0,21.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,0:05.0 31-21 Defensive rebound by westbru01
+100,turnover,,,31.0,21.0,,,,,,,,,,,,,,,,,westbru01,lost ball; steal by mamuksa01,mamuksa01,,,,,,,,,,,,,0:02.0 31-21 Turnover by westbru01 (lost ball; steal by mamuksa01 )
+101,fg_make,,,33.0,21.0,2.0,mamuksa01,2.0,dunk,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 mamuksa01 makes 2-pt dunk from 6 ft +2 33-21
+102,fg_miss,,,33.0,21.0,,westbru01,3.0,jump shot,67.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 33-21 westbru01 misses 3-pt jump shot from 67 ft
+103,rebound,,,33.0,21.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 33-21 Offensive rebound by Team
+104,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+105,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+106,fg_make,,,33.0,23.0,2.0,saricda01,2.0,layup,4.0,alexatr01,,,,,,,,,,,,,,,,,,,,,,,,,,11:46.0 33-23 +2 saricda01 makes 2-pt layup from 4 ft (assist by alexatr01 )
+107,fg_miss,,,33.0,23.0,,castlst01,2.0,layup,6.0,,jonessp01,,,,,,,,,,,,,,,,,,,,,,,,,11:30.0 castlst01 misses 2-pt layup from 6 ft (block by jonessp01 ) 33-23
+108,rebound,,,33.0,23.0,,,,,,,,,,,defensive,cancavl01,False,,,,,,,,,,,,,,,,,,,11:29.0 33-23 Defensive rebound by cancavl01
+109,fg_miss,,,33.0,23.0,,alexatr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:22.0 33-23 alexatr01 misses 3-pt jump shot from 23 ft
+110,rebound,,,33.0,23.0,,,,,,,,,,,defensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,11:20.0 Defensive rebound by mamuksa01 33-23
+111,fg_make,,,36.0,23.0,3.0,mamuksa01,3.0,jump shot,28.0,branhma01,,,,,,,,,,,,,,,,,,,,,,,,,,11:10.0 mamuksa01 makes 3-pt jump shot from 28 ft (assist by branhma01 ) +3 36-23
+112,fg_make,,,36.0,25.0,2.0,saricda01,2.0,layup,3.0,jonessp01,,,,,,,,,,,,,,,,,,,,,,,,,,10:56.0 36-25 +2 saricda01 makes 2-pt layup from 3 ft (assist by jonessp01 )
+113,fg_make,,,39.0,25.0,3.0,mamuksa01,3.0,jump shot,27.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 mamuksa01 makes 3-pt jump shot from 27 ft (assist by castlst01 ) +3 39-25
+114,fg_make,,,39.0,28.0,3.0,pickeja02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:28.0 39-28 +3 pickeja02 makes 3-pt jump shot from 26 ft
+115,fg_make,,,41.0,28.0,2.0,branhma01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:12.0 branhma01 makes 2-pt layup from 6 ft +2 41-28
+116,foul,,,41.0,28.0,,,,,,,,,,,,,,offensive,alexatr01,castlst01,,,,,,,,,,,,,,,,9:55.0 41-28 Offensive foul by alexatr01 (drawn by castlst01 )
+117,turnover,,,41.0,28.0,,,,,,,,,,,,,,,,,alexatr01,offensive foul,,,,,,,,,,,,,,9:55.0 41-28 Turnover by alexatr01 (offensive foul)
+118,foul,,,41.0,28.0,,,,,,,,,,,,,,shooting,cancavl01,castlst01,,,,,,,,,,,,,,,,9:44.0 Shooting foul by cancavl01 (drawn by castlst01 ) 41-28
+119,free_throw,,,41.0,28.0,,castlst01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:44.0 castlst01 misses free throw 1 of 2 41-28
+120,rebound,,,41.0,28.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:44.0 Offensive rebound by Team 41-28
+121,free_throw,,,42.0,28.0,1.0,castlst01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:44.0 castlst01 makes free throw 2 of 2 +1 42-28
+122,fg_miss,,,42.0,28.0,,cancavl01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:25.0 42-28 cancavl01 misses 3-pt jump shot from 30 ft
+123,rebound,,,42.0,28.0,,,,,,,,,,,offensive,pickeja02,False,,,,,,,,,,,,,,,,,,,9:22.0 42-28 Offensive rebound by pickeja02
+124,turnover,,,42.0,28.0,,,,,,,,,,,,,,,,,saricda01,bad pass; steal by branhma01,branhma01,,,,,,,,,,,,,9:18.0 42-28 Turnover by saricda01 (bad pass; steal by branhma01 )
+125,fg_miss,,,42.0,28.0,,mclaujo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:14.0 mclaujo01 misses 3-pt jump shot from 27 ft 42-28
+126,rebound,,,42.0,28.0,,,,,,,,,,,offensive,castlst01,False,,,,,,,,,,,,,,,,,,,9:12.0 Offensive rebound by castlst01 42-28
+127,fg_miss,,,42.0,28.0,,castlst01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:12.0 castlst01 misses 2-pt layup from 5 ft 42-28
+128,rebound,,,42.0,28.0,,,,,,,,,,,defensive,jonessp01,False,,,,,,,,,,,,,,,,,,,9:11.0 42-28 Defensive rebound by jonessp01
+129,fg_miss,,,42.0,28.0,,alexatr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:55.0 42-28 alexatr01 misses 3-pt jump shot from 27 ft
+130,rebound,,,42.0,28.0,,,,,,,,,,,defensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,8:53.0 Defensive rebound by mamuksa01 42-28
+131,foul,,,42.0,28.0,,,,,,,,,,,,,,shooting,saricda01,weslebl01,,,,,,,,,,,,,,,,8:38.0 Shooting foul by saricda01 (drawn by weslebl01 ) 42-28
+132,free_throw,,,43.0,28.0,1.0,weslebl01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:38.0 weslebl01 makes free throw 1 of 2 +1 43-28
+133,substitution,,,43.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 paulch01 enters the game for mclaujo01 43-28
+134,substitution,,,43.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 43-28 tysonhu01 enters the game for saricda01
+135,free_throw,,,43.0,28.0,,weslebl01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:38.0 weslebl01 misses free throw 2 of 2 43-28
+136,rebound,,,43.0,28.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,8:37.0 43-28 Defensive rebound by pickeja02
+137,fg_miss,,,43.0,28.0,,tysonhu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 43-28 tysonhu01 misses 3-pt jump shot from 26 ft
+138,rebound,,,43.0,28.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,8:23.0 Defensive rebound by castlst01 43-28
+139,fg_miss,,,43.0,28.0,,castlst01,2.0,layup,5.0,,jonessp01,,,,,,,,,,,,,,,,,,,,,,,,,8:17.0 castlst01 misses 2-pt layup from 5 ft (block by jonessp01 ) 43-28
+140,rebound,,,43.0,28.0,,,,,,,,,,,offensive,castlst01,False,,,,,,,,,,,,,,,,,,,8:15.0 Offensive rebound by castlst01 43-28
+141,fg_make,,,45.0,28.0,2.0,branhma01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 branhma01 makes 2-pt layup from 3 ft +2 45-28
+142,fg_miss,,,45.0,28.0,,jonessp01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:50.0 45-28 jonessp01 misses 3-pt jump shot from 26 ft
+143,rebound,,,45.0,28.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,7:47.0 Defensive rebound by castlst01 45-28
+144,fg_make,,,48.0,28.0,3.0,weslebl01,3.0,jump shot,23.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 weslebl01 makes 3-pt jump shot from 23 ft (assist by castlst01 ) +3 48-28
+145,timeout,,,48.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,7:38.0 48-28 Denver full timeout
+146,substitution,,,48.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 48-28 nnajize01 enters the game for jonessp01
+147,substitution,,,48.0,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 48-28 westbru01 enters the game for pickeja02
+148,fg_make,,,48.0,30.0,2.0,tysonhu01,2.0,layup,4.0,cancavl01,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 48-30 +2 tysonhu01 makes 2-pt layup from 4 ft (assist by cancavl01 )
+149,turnover,,,48.0,30.0,,,,,,,,,,,,,,,,,paulch01,bad pass; steal by cancavl01,cancavl01,,,,,,,,,,,,,7:10.0 Turnover by paulch01 (bad pass; steal by cancavl01 ) 48-30
+150,fg_make,,,48.0,32.0,2.0,alexatr01,2.0,layup,7.0,cancavl01,,,,,,,,,,,,,,,,,,,,,,,,,,7:06.0 48-32 +2 alexatr01 makes 2-pt layup from 7 ft (assist by cancavl01 )
+151,fg_make,,,50.0,32.0,2.0,mamuksa01,2.0,layup,5.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,6:58.0 mamuksa01 makes 2-pt layup from 5 ft (assist by castlst01 ) +2 50-32
+152,foul,,,50.0,32.0,,,,,,,,,,,,,,personal,branhma01,cancavl01,,,,,,,,,,,,,,,,6:44.0 50-32 Personal foul by branhma01 (drawn by cancavl01 )
+153,fg_make,,,50.0,34.0,2.0,alexatr01,2.0,layup,4.0,nnajize01,,,,,,,,,,,,,,,,,,,,,,,,,,6:36.0 50-34 +2 alexatr01 makes 2-pt layup from 4 ft (assist by nnajize01 )
+154,fg_make,,,52.0,34.0,2.0,branhma01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 branhma01 makes 2-pt layup from 5 ft +2 52-34
+155,foul,,,52.0,34.0,,,,,,,,,,,,,,shooting,branhma01,nnajize01,,,,,,,,,,,,,,,,6:18.0 52-34 Shooting foul by branhma01 (drawn by nnajize01 )
+156,free_throw,,,52.0,35.0,1.0,nnajize01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:18.0 52-35 +1 nnajize01 makes free throw 1 of 2
+157,substitution,,,52.0,35.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 biyombi01 enters the game for mamuksa01 52-35
+158,substitution,,,52.0,35.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 52-35 jordade01 enters the game for cancavl01
+159,free_throw,,,52.0,35.0,,nnajize01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:18.0 52-35 nnajize01 misses free throw 2 of 2
+160,rebound,,,52.0,35.0,,,,,,,,,,,defensive,branhma01,False,,,,,,,,,,,,,,,,,,,6:17.0 Defensive rebound by branhma01 52-35
+161,fg_miss,,,52.0,35.0,,branhma01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:07.0 branhma01 misses 3-pt jump shot from 26 ft 52-35
+162,rebound,,,52.0,35.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,6:05.0 52-35 Defensive rebound by westbru01
+163,fg_make,,,52.0,37.0,2.0,westbru01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 52-37 +2 westbru01 makes 2-pt layup from 6 ft
+164,fg_miss,,,52.0,37.0,,castlst01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 castlst01 misses 2-pt jump shot from 18 ft 52-37
+165,rebound,,,52.0,37.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,5:41.0 52-37 Defensive rebound by jordade01
+166,fg_miss,,,52.0,37.0,,alexatr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:36.0 52-37 alexatr01 misses 3-pt jump shot from 26 ft
+167,rebound,,,52.0,37.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,5:34.0 Defensive rebound by castlst01 52-37
+168,fg_make,,,54.0,37.0,2.0,branhma01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:23.0 branhma01 makes 2-pt jump shot from 16 ft +2 54-37
+169,fg_miss,,,54.0,37.0,,nnajize01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:01.0 54-37 nnajize01 misses 3-pt jump shot from 23 ft
+170,rebound,,,54.0,37.0,,,,,,,,,,,defensive,weslebl01,False,,,,,,,,,,,,,,,,,,,4:58.0 Defensive rebound by weslebl01 54-37
+171,fg_miss,,,54.0,37.0,,paulch01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:49.0 paulch01 misses 2-pt jump shot from 16 ft 54-37
+172,rebound,,,54.0,37.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,4:47.0 54-37 Defensive rebound by jordade01
+173,fg_make,,,54.0,39.0,2.0,nnajize01,2.0,layup,3.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 54-39 +2 nnajize01 makes 2-pt layup from 3 ft (assist by westbru01 )
+174,timeout,,,54.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,San Antonio full,,,,4:39.0 San Antonio full timeout 54-39
+175,substitution,,,54.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 barneha02 enters the game for castlst01 54-39
+176,substitution,,,54.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 champju02 enters the game for weslebl01 54-39
+177,substitution,,,54.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 54-39 jonessp01 enters the game for alexatr01
+178,substitution,,,54.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:39.0 54-39 pickeja02 enters the game for tysonhu01
+179,fg_make,,,56.0,39.0,2.0,barneha02,2.0,layup,5.0,branhma01,,,,,,,,,,,,,,,,,,,,,,,,,,4:25.0 barneha02 makes 2-pt layup from 5 ft (assist by branhma01 ) +2 56-39
+180,fg_miss,,,56.0,39.0,,westbru01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 56-39 westbru01 misses 2-pt layup from 7 ft
+181,rebound,,,56.0,39.0,,,,,,,,,,,defensive,champju02,False,,,,,,,,,,,,,,,,,,,4:11.0 Defensive rebound by champju02 56-39
+182,fg_make,,,59.0,39.0,3.0,branhma01,3.0,jump shot,24.0,champju02,,,,,,,,,,,,,,,,,,,,,,,,,,4:01.0 branhma01 makes 3-pt jump shot from 24 ft (assist by champju02 ) +3 59-39
+183,foul,,,59.0,39.0,,,,,,,,,,,,,,shooting,champju02,westbru01,,,,,,,,,,,,,,,,3:48.0 59-39 Shooting foul by champju02 (drawn by westbru01 )
+184,free_throw,,,59.0,40.0,1.0,westbru01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:48.0 59-40 +1 westbru01 makes free throw 1 of 2
+185,free_throw,,,59.0,41.0,1.0,westbru01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:48.0 59-41 +1 westbru01 makes free throw 2 of 2
+186,fg_miss,,,59.0,41.0,,champju02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:38.0 champju02 misses 3-pt jump shot from 27 ft 59-41
+187,rebound,,,59.0,41.0,,,,,,,,,,,defensive,nnajize01,False,,,,,,,,,,,,,,,,,,,3:36.0 59-41 Defensive rebound by nnajize01
+188,fg_make,,,59.0,44.0,3.0,pickeja02,3.0,jump shot,23.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,3:29.0 59-44 +3 pickeja02 makes 3-pt jump shot from 23 ft (assist by westbru01 )
+189,fg_make,,,61.0,44.0,2.0,paulch01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:14.0 paulch01 makes 2-pt jump shot from 15 ft +2 61-44
+190,fg_make,,,61.0,47.0,3.0,nnajize01,3.0,jump shot,23.0,jonessp01,,,,,,,,,,,,,,,,,,,,,,,,,,2:52.0 61-47 +3 nnajize01 makes 3-pt jump shot from 23 ft (assist by jonessp01 )
+191,fg_make,,,63.0,47.0,2.0,barneha02,2.0,layup,2.0,champju02,,,,,,,,,,,,,,,,,,,,,,,,,,2:36.0 barneha02 makes 2-pt layup from 2 ft (assist by champju02 ) +2 63-47
+192,foul,,,63.0,47.0,,,,,,,,,,,,,,shooting,jordade01,barneha02,,,,,,,,,,,,,,,,2:36.0 Shooting foul by jordade01 (drawn by barneha02 ) 63-47
+193,free_throw,,,64.0,47.0,1.0,barneha02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,2:36.0 barneha02 makes free throw 1 of 1 +1 64-47
+194,fg_miss,,,64.0,47.0,,nnajize01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 64-47 nnajize01 misses 3-pt jump shot from 26 ft
+195,rebound,,,64.0,47.0,,,,,,,,,,,offensive,jordade01,False,,,,,,,,,,,,,,,,,,,2:23.0 64-47 Offensive rebound by jordade01
+196,foul,,,64.0,47.0,,,,,,,,,,,,,,shooting,biyombi01,jordade01,,,,,,,,,,,,,,,,2:20.0 64-47 Shooting foul by biyombi01 (drawn by jordade01 )
+197,free_throw,,,64.0,47.0,,jordade01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:20.0 64-47 jordade01 misses free throw 1 of 2
+198,rebound,,,64.0,47.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:20.0 64-47 Offensive rebound by Team
+199,free_throw,,,64.0,48.0,1.0,jordade01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:20.0 64-48 +1 jordade01 makes free throw 2 of 2
+200,fg_miss,,,64.0,48.0,,branhma01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:11.0 branhma01 misses 2-pt jump shot from 15 ft 64-48
+201,rebound,,,64.0,48.0,,,,,,,,,,,defensive,nnajize01,False,,,,,,,,,,,,,,,,,,,2:09.0 64-48 Defensive rebound by nnajize01
+202,foul,,,64.0,48.0,,,,,,,,,,,,,,personal,champju02,westbru01,,,,,,,,,,,,,,,,1:59.0 64-48 Personal foul by champju02 (drawn by westbru01 )
+203,free_throw,,,64.0,48.0,,westbru01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:59.0 64-48 westbru01 misses free throw 1 of 2
+204,rebound,,,64.0,48.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:59.0 64-48 Offensive rebound by Team
+205,free_throw,,,64.0,49.0,1.0,westbru01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:59.0 64-49 +1 westbru01 makes free throw 2 of 2
+206,fg_make,,,66.0,49.0,2.0,paulch01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:45.0 paulch01 makes 2-pt jump shot from 18 ft +2 66-49
+207,foul,,,66.0,49.0,,,,,,,,,,,,,,shooting,barneha02,jordade01,,,,,,,,,,,,,,,,1:31.0 66-49 Shooting foul by barneha02 (drawn by jordade01 )
+208,free_throw,,,66.0,49.0,,jordade01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:31.0 66-49 jordade01 misses free throw 1 of 2
+209,rebound,,,66.0,49.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:31.0 66-49 Offensive rebound by Team
+210,free_throw,,,66.0,49.0,,jordade01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:31.0 66-49 jordade01 misses free throw 2 of 2
+211,rebound,,,66.0,49.0,,,,,,,,,,,defensive,paulch01,False,,,,,,,,,,,,,,,,,,,1:30.0 Defensive rebound by paulch01 66-49
+212,fg_miss,,,66.0,49.0,,paulch01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:19.0 paulch01 misses 2-pt jump shot from 14 ft 66-49
+213,rebound,,,66.0,49.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,1:17.0 66-49 Defensive rebound by jordade01
+214,turnover,,,66.0,49.0,,,,,,,,,,,,,,,,,nnajize01,lost ball; steal by champju02,champju02,,,,,,,,,,,,,1:10.0 66-49 Turnover by nnajize01 (lost ball; steal by champju02 )
+215,fg_miss,,,66.0,49.0,,branhma01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:05.0 branhma01 misses 3-pt jump shot from 27 ft 66-49
+216,rebound,,,66.0,49.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,1:02.0 66-49 Defensive rebound by westbru01
+217,fg_make,,,66.0,52.0,3.0,pickeja02,3.0,jump shot,24.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,0:55.0 66-52 +3 pickeja02 makes 3-pt jump shot from 24 ft (assist by westbru01 )
+218,fg_miss,,,66.0,52.0,,branhma01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:40.0 branhma01 misses 2-pt layup from 5 ft 66-52
+219,rebound,,,66.0,52.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,0:38.0 66-52 Defensive rebound by westbru01
+220,foul,,,66.0,52.0,,,,,,,,,,,,,,personal,paulch01,westbru01,,,,,,,,,,,,,,,,0:32.0 66-52 Personal foul by paulch01 (drawn by westbru01 )
+221,free_throw,,,66.0,53.0,1.0,westbru01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:32.0 66-53 +1 westbru01 makes free throw 1 of 2
+222,substitution,,,66.0,53.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 mamuksa01 enters the game for biyombi01 66-53
+223,free_throw,,,66.0,54.0,1.0,westbru01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:32.0 66-54 +1 westbru01 makes free throw 2 of 2
+224,fg_miss,,,66.0,54.0,,branhma01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:19.0 branhma01 misses 3-pt jump shot from 27 ft 66-54
+225,rebound,,,66.0,54.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,0:17.0 66-54 Defensive rebound by westbru01
+226,fg_miss,,,66.0,54.0,,westbru01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:04.0 66-54 westbru01 misses 3-pt jump shot from 27 ft
+227,rebound,,,66.0,54.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,0:02.0 Defensive rebound by barneha02 66-54
+228,fg_miss,,,66.0,54.0,,barneha02,3.0,jump shot,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 barneha02 misses 3-pt jump shot from 55 ft 66-54
+229,rebound,,,66.0,54.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 66-54
+230,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+231,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+232,fg_miss,,,66.0,54.0,,tysonhu01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:51.0 66-54 tysonhu01 misses 2-pt jump shot from 19 ft
+233,rebound,,,66.0,54.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,11:49.0 Defensive rebound by castlst01 66-54
+234,fg_miss,,,66.0,54.0,,biyombi01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:34.0 biyombi01 misses 2-pt layup from 4 ft 66-54
+235,rebound,,,66.0,54.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,11:33.0 66-54 Defensive rebound by pickeja02
+236,fg_miss,,,66.0,54.0,,tysonhu01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:29.0 66-54 tysonhu01 misses 3-pt jump shot from 23 ft
+237,rebound,,,66.0,54.0,,,,,,,,,,,offensive,pickeja02,False,,,,,,,,,,,,,,,,,,,11:26.0 66-54 Offensive rebound by pickeja02
+238,foul,,,66.0,54.0,,,,,,,,,,,,,,personal,paulch01,jordade01,,,,,,,,,,,,,,,,11:17.0 66-54 Personal foul by paulch01 (drawn by jordade01 )
+239,fg_miss,,,66.0,54.0,,pickeja02,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:10.0 66-54 pickeja02 misses 2-pt jump shot from 9 ft
+240,rebound,,,66.0,54.0,,,,,,,,,,,offensive,jordade01,False,,,,,,,,,,,,,,,,,,,11:08.0 66-54 Offensive rebound by jordade01
+241,foul,,,66.0,54.0,,,,,,,,,,,,,,shooting,biyombi01,jordade01,,,,,,,,,,,,,,,,11:08.0 66-54 Shooting foul by biyombi01 (drawn by jordade01 )
+242,free_throw,,,66.0,54.0,,jordade01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:08.0 66-54 jordade01 misses free throw 1 of 2
+243,rebound,,,66.0,54.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:08.0 66-54 Offensive rebound by Team
+244,free_throw,,,66.0,55.0,1.0,jordade01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:08.0 66-55 +1 jordade01 makes free throw 2 of 2
+245,fg_miss,,,66.0,55.0,,castlst01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:53.0 castlst01 misses 3-pt jump shot from 27 ft 66-55
+246,rebound,,,66.0,55.0,,,,,,,,,,,defensive,tysonhu01,False,,,,,,,,,,,,,,,,,,,10:51.0 66-55 Defensive rebound by tysonhu01
+247,fg_miss,,,66.0,55.0,,pickeja02,2.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:45.0 66-55 pickeja02 misses 2-pt jump shot from 23 ft
+248,rebound,,,66.0,55.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,10:43.0 Defensive rebound by barneha02 66-55
+249,fg_make,,,68.0,55.0,2.0,castlst01,2.0,jump shot,16.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,10:25.0 castlst01 makes 2-pt jump shot from 16 ft (assist by paulch01 ) +2 68-55
+250,fg_miss,,,68.0,55.0,,pickeja02,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:12.0 68-55 pickeja02 misses 2-pt jump shot from 15 ft
+251,rebound,,,68.0,55.0,,,,,,,,,,,defensive,biyombi01,False,,,,,,,,,,,,,,,,,,,10:10.0 Defensive rebound by biyombi01 68-55
+252,fg_miss,,,68.0,55.0,,paulch01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 paulch01 misses 3-pt jump shot from 26 ft 68-55
+253,rebound,,,68.0,55.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,10:03.0 68-55 Defensive rebound by jordade01
+254,fg_make,,,68.0,57.0,2.0,westbru01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:52.0 68-57 +2 westbru01 makes 2-pt jump shot from 9 ft
+255,fg_make,,,71.0,57.0,3.0,castlst01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:38.0 castlst01 makes 3-pt jump shot from 27 ft +3 71-57
+256,foul,,,71.0,57.0,,,,,,,,,,,,,,shooting,castlst01,pickeja02,,,,,,,,,,,,,,,,9:16.0 71-57 Shooting foul by castlst01 (drawn by pickeja02 )
+257,free_throw,,,71.0,58.0,1.0,pickeja02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:16.0 71-58 +1 pickeja02 makes free throw 1 of 2
+258,free_throw,,,71.0,59.0,1.0,pickeja02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:16.0 71-59 +1 pickeja02 makes free throw 2 of 2
+259,fg_miss,,,71.0,59.0,,paulch01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 paulch01 misses 2-pt jump shot from 11 ft 71-59
+260,rebound,,,71.0,59.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,8:56.0 71-59 Defensive rebound by westbru01
+261,fg_make,,,71.0,62.0,3.0,tysonhu01,3.0,jump shot,26.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,8:46.0 71-62 +3 tysonhu01 makes 3-pt jump shot from 26 ft (assist by pickeja02 )
+262,timeout,,,71.0,62.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,San Antonio full,,,,8:45.0 San Antonio full timeout 71-62
+263,fg_miss,,,71.0,62.0,,champju02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 champju02 misses 3-pt jump shot from 27 ft 71-62
+264,rebound,,,71.0,62.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,8:33.0 71-62 Defensive rebound by westbru01
+265,foul,,,71.0,62.0,,,,,,,,,,,,,,shooting,biyombi01,jordade01,,,,,,,,,,,,,,,,8:26.0 71-62 Shooting foul by biyombi01 (drawn by jordade01 )
+266,free_throw,,,71.0,63.0,1.0,jordade01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:26.0 71-63 +1 jordade01 makes free throw 1 of 2
+267,free_throw,,,71.0,63.0,,jordade01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:26.0 71-63 jordade01 misses free throw 2 of 2
+268,rebound,,,71.0,63.0,,,,,,,,,,,offensive,tysonhu01,False,,,,,,,,,,,,,,,,,,,8:25.0 71-63 Offensive rebound by tysonhu01
+269,fg_miss,,,71.0,63.0,,tysonhu01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:24.0 71-63 tysonhu01 misses 2-pt layup from 4 ft
+270,rebound,,,71.0,63.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,8:22.0 Defensive rebound by castlst01 71-63
+271,fg_miss,,,71.0,63.0,,castlst01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 castlst01 misses 3-pt jump shot from 28 ft 71-63
+272,rebound,,,71.0,63.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,8:06.0 71-63 Defensive rebound by westbru01
+273,fg_make,,,71.0,66.0,3.0,westbru01,3.0,jump shot,26.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,7:51.0 71-66 +3 westbru01 makes 3-pt jump shot from 26 ft (assist by pickeja02 )
+274,fg_make,,,73.0,66.0,2.0,barneha02,2.0,dunk,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:36.0 barneha02 makes 2-pt dunk from 4 ft +2 73-66
+275,fg_make,,,73.0,69.0,3.0,tysonhu01,3.0,jump shot,26.0,westbru01,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 73-69 +3 tysonhu01 makes 3-pt jump shot from 26 ft (assist by westbru01 )
+276,fg_make,,,76.0,69.0,3.0,barneha02,3.0,jump shot,28.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 barneha02 makes 3-pt jump shot from 28 ft (assist by castlst01 ) +3 76-69
+277,fg_miss,,,76.0,69.0,,jordade01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 76-69 jordade01 misses 2-pt layup from 6 ft
+278,rebound,,,76.0,69.0,,,,,,,,,,,offensive,nnajize01,False,,,,,,,,,,,,,,,,,,,6:30.0 76-69 Offensive rebound by nnajize01
+279,fg_miss,,,76.0,69.0,,nnajize01,2.0,layup,2.0,,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,6:29.0 76-69 nnajize01 misses 2-pt layup from 2 ft (block by paulch01 )
+280,rebound,,,76.0,69.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,6:27.0 Defensive rebound by castlst01 76-69
+281,fg_miss,,,76.0,69.0,,champju02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:21.0 champju02 misses 3-pt jump shot from 27 ft 76-69
+282,rebound,,,76.0,69.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,6:19.0 76-69 Defensive rebound by pickeja02
+283,foul,,,76.0,69.0,,,,,,,,,,,,,,shooting,champju02,nnajize01,,,,,,,,,,,,,,,,6:13.0 76-69 Shooting foul by champju02 (drawn by nnajize01 )
+284,free_throw,,,76.0,70.0,1.0,nnajize01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:13.0 76-70 +1 nnajize01 makes free throw 1 of 2
+285,substitution,,,76.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:13.0 mamuksa01 enters the game for biyombi01 76-70
+286,substitution,,,76.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:13.0 weslebl01 enters the game for castlst01 76-70
+287,substitution,,,76.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:13.0 76-70 jonessp01 enters the game for pickeja02
+288,free_throw,,,76.0,71.0,1.0,nnajize01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:13.0 76-71 +1 nnajize01 makes free throw 2 of 2
+289,fg_miss,,,76.0,71.0,,barneha02,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:55.0 barneha02 misses 3-pt jump shot from 24 ft 76-71
+290,rebound,,,76.0,71.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,5:53.0 76-71 Defensive rebound by jordade01
+291,fg_miss,,,76.0,71.0,,tysonhu01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 76-71 tysonhu01 misses 2-pt layup from 5 ft
+292,rebound,,,76.0,71.0,,,,,,,,,,,defensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,5:41.0 Defensive rebound by mamuksa01 76-71
+293,fg_make,,,79.0,71.0,3.0,champju02,3.0,jump shot,26.0,weslebl01,,,,,,,,,,,,,,,,,,,,,,,,,,5:35.0 champju02 makes 3-pt jump shot from 26 ft (assist by weslebl01 ) +3 79-71
+294,timeout,,,79.0,71.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,5:33.0 79-71 Denver full timeout
+295,substitution,,,79.0,71.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 biyombi01 enters the game for barneha02 79-71
+296,substitution,,,79.0,71.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 castlst01 enters the game for paulch01 79-71
+297,fg_miss,,,79.0,71.0,,tysonhu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:22.0 79-71 tysonhu01 misses 3-pt jump shot from 26 ft
+298,rebound,,,79.0,71.0,,,,,,,,,,,offensive,jordade01,False,,,,,,,,,,,,,,,,,,,5:19.0 79-71 Offensive rebound by jordade01
+299,foul,,,79.0,71.0,,,,,,,,,,,,,,shooting,mamuksa01,jordade01,,,,,,,,,,,,,,,,5:18.0 79-71 Shooting foul by mamuksa01 (drawn by jordade01 )
+300,free_throw,,,79.0,72.0,1.0,jordade01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:18.0 79-72 +1 jordade01 makes free throw 1 of 2
+301,free_throw,,,79.0,73.0,1.0,jordade01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:18.0 79-73 +1 jordade01 makes free throw 2 of 2
+302,foul,,,79.0,73.0,,,,,,,,,,,,,,personal,nnajize01,weslebl01,,,,,,,,,,,,,,,,5:11.0 Personal foul by nnajize01 (drawn by weslebl01 ) 79-73
+303,fg_miss,,,79.0,73.0,,mamuksa01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:02.0 mamuksa01 misses 2-pt jump shot from 12 ft 79-73
+304,rebound,,,79.0,73.0,,,,,,,,,,,defensive,tysonhu01,False,,,,,,,,,,,,,,,,,,,5:01.0 79-73 Defensive rebound by tysonhu01
+305,fg_make,,,79.0,75.0,2.0,westbru01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:52.0 79-75 +2 westbru01 makes 2-pt jump shot from 6 ft
+306,fg_miss,,,79.0,75.0,,mamuksa01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:41.0 mamuksa01 misses 3-pt jump shot from 23 ft 79-75
+307,rebound,,,79.0,75.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,4:39.0 79-75 Defensive rebound by jordade01
+308,fg_miss,,,79.0,75.0,,tysonhu01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 79-75 tysonhu01 misses 2-pt layup from 4 ft
+309,rebound,,,79.0,75.0,,,,,,,,,,,offensive,tysonhu01,False,,,,,,,,,,,,,,,,,,,4:32.0 79-75 Offensive rebound by tysonhu01
+310,fg_miss,,,79.0,75.0,,tysonhu01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 79-75 tysonhu01 misses 2-pt layup from 3 ft
+311,rebound,,,79.0,75.0,,,,,,,,,,,offensive,jonessp01,False,,,,,,,,,,,,,,,,,,,4:29.0 79-75 Offensive rebound by jonessp01
+312,substitution,,,79.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 barneha02 enters the game for biyombi01 79-75
+313,substitution,,,79.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 mclaujo01 enters the game for champju02 79-75
+314,substitution,,,79.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 79-75 cancavl01 enters the game for nnajize01
+315,fg_miss,,,79.0,75.0,,westbru01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:17.0 79-75 westbru01 misses 2-pt jump shot from 16 ft
+316,rebound,,,79.0,75.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,4:15.0 Defensive rebound by castlst01 79-75
+317,foul,,,79.0,75.0,,,,,,,,,,,,,,personal,jordade01,barneha02,,,,,,,,,,,,,,,,4:09.0 Personal foul by jordade01 (drawn by barneha02 ) 79-75
+318,foul,,,79.0,75.0,,,,,,,,,,,,,,personal,jonessp01,mamuksa01,,,,,,,,,,,,,,,,4:02.0 Personal foul by jonessp01 (drawn by mamuksa01 ) 79-75
+319,turnover,,,79.0,75.0,,,,,,,,,,,,,,,,,barneha02,dbl dribble,,,,,,,,,,,,,,3:54.0 Turnover by barneha02 (dbl dribble) 79-75
+320,fg_miss,,,79.0,75.0,,tysonhu01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:45.0 79-75 tysonhu01 misses 3-pt jump shot from 27 ft
+321,rebound,,,79.0,75.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,3:43.0 Defensive rebound by barneha02 79-75
+322,substitution,,,79.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:43.0 branhma01 enters the game for barneha02 79-75
+323,foul,,,79.0,75.0,,,,,,,,,,,,,,shooting,jordade01,mamuksa01,,,,,,,,,,,,,,,,3:25.0 Shooting foul by jordade01 (drawn by mamuksa01 ) 79-75
+324,free_throw,,,80.0,75.0,1.0,mamuksa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:25.0 mamuksa01 makes free throw 1 of 2 +1 80-75
+325,substitution,,,80.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:25.0 80-75 alexatr01 enters the game for tysonhu01
+326,free_throw,,,81.0,75.0,1.0,mamuksa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:25.0 mamuksa01 makes free throw 2 of 2 +1 81-75
+327,fg_make,,,81.0,77.0,2.0,westbru01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:18.0 81-77 +2 westbru01 makes 2-pt layup from 8 ft
+328,fg_miss,,,81.0,77.0,,weslebl01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:59.0 weslebl01 misses 2-pt jump shot from 16 ft 81-77
+329,rebound,,,81.0,77.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,2:57.0 81-77 Defensive rebound by westbru01
+330,fg_miss,,,81.0,77.0,,jonessp01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:48.0 81-77 jonessp01 misses 3-pt jump shot from 23 ft
+331,rebound,,,81.0,77.0,,,,,,,,,,,defensive,castlst01,False,,,,,,,,,,,,,,,,,,,2:46.0 Defensive rebound by castlst01 81-77
+332,fg_miss,,,81.0,77.0,,branhma01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:41.0 branhma01 misses 3-pt jump shot from 24 ft 81-77
+333,rebound,,,81.0,77.0,,,,,,,,,,,offensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,2:39.0 Offensive rebound by mamuksa01 81-77
+334,fg_miss,,,81.0,77.0,,mamuksa01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 mamuksa01 misses 2-pt layup from 3 ft 81-77
+335,rebound,,,81.0,77.0,,,,,,,,,,,offensive,castlst01,False,,,,,,,,,,,,,,,,,,,2:38.0 Offensive rebound by castlst01 81-77
+336,fg_make,,,83.0,77.0,2.0,castlst01,2.0,dunk,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:38.0 castlst01 makes 2-pt dunk from 3 ft +2 83-77
+337,fg_miss,,,83.0,77.0,,jonessp01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 83-77 jonessp01 misses 2-pt layup from 2 ft
+338,rebound,,,83.0,77.0,,,,,,,,,,,offensive,westbru01,False,,,,,,,,,,,,,,,,,,,2:18.0 83-77 Offensive rebound by westbru01
+339,fg_make,,,83.0,79.0,2.0,westbru01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 83-79 +2 westbru01 makes 2-pt layup from 3 ft
+340,timeout,,,83.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,San Antonio full,,,,2:16.0 San Antonio full timeout 83-79
+341,substitution,,,83.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:16.0 biyombi01 enters the game for mamuksa01 83-79
+342,substitution,,,83.0,79.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:16.0 83-79 pickeja02 enters the game for jordade01
+343,fg_make,,,86.0,79.0,3.0,weslebl01,3.0,jump shot,24.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,2:02.0 weslebl01 makes 3-pt jump shot from 24 ft (assist by castlst01 ) +3 86-79
+344,fg_miss,,,86.0,79.0,,westbru01,2.0,layup,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:39.0 86-79 westbru01 misses 2-pt layup from 9 ft
+345,rebound,,,86.0,79.0,,,,,,,,,,,defensive,biyombi01,False,,,,,,,,,,,,,,,,,,,1:37.0 Defensive rebound by biyombi01 86-79
+346,fg_miss,,,86.0,79.0,,castlst01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:29.0 castlst01 misses 2-pt jump shot from 11 ft 86-79
+347,rebound,,,86.0,79.0,,,,,,,,,,,offensive,castlst01,False,,,,,,,,,,,,,,,,,,,1:27.0 Offensive rebound by castlst01 86-79
+348,fg_miss,,,86.0,79.0,,castlst01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:16.0 castlst01 misses 2-pt jump shot from 12 ft 86-79
+349,rebound,,,86.0,79.0,,,,,,,,,,,defensive,jonessp01,False,,,,,,,,,,,,,,,,,,,1:14.0 86-79 Defensive rebound by jonessp01
+350,fg_make,,,86.0,82.0,3.0,westbru01,3.0,jump shot,24.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,1:03.0 86-82 +3 westbru01 makes 3-pt jump shot from 24 ft (assist by pickeja02 )
+351,fg_make,,,88.0,82.0,2.0,branhma01,2.0,layup,6.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,0:46.0 branhma01 makes 2-pt layup from 6 ft (assist by castlst01 ) +2 88-82
+352,fg_miss,,,88.0,82.0,,jonessp01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:39.0 88-82 jonessp01 misses 2-pt jump shot from 10 ft
+353,rebound,,,88.0,82.0,,,,,,,,,,,offensive,pickeja02,False,,,,,,,,,,,,,,,,,,,0:37.0 88-82 Offensive rebound by pickeja02
+354,turnover,,,88.0,82.0,,,,,,,,,,,,,,,,,pickeja02,bad pass,,,,,,,,,,,,,,0:32.0 88-82 Turnover by pickeja02 (bad pass)
+355,fg_miss,,,88.0,82.0,,branhma01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:14.0 branhma01 misses 2-pt jump shot from 9 ft 88-82
+356,rebound,,,88.0,82.0,,,,,,,,,,,defensive,pickeja02,False,,,,,,,,,,,,,,,,,,,0:11.0 88-82 Defensive rebound by pickeja02
+357,fg_make,,,88.0,85.0,3.0,cancavl01,3.0,jump shot,27.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 88-85 +3 cancavl01 makes 3-pt jump shot from 27 ft (assist by pickeja02 )
+358,instant_replay,,,88.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 88-85 Instant Replay (Request: Ruling Stands)
+359,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+360,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+361,fg_miss,,,88.0,85.0,,castlst01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:47.0 castlst01 misses 2-pt jump shot from 20 ft 88-85
+362,rebound,,,88.0,85.0,,,,,,,,,,,offensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,11:45.0 Offensive rebound by mamuksa01 88-85
+363,turnover,,,88.0,85.0,,,,,,,,,,,,,,,,,mamuksa01,bad pass; steal by jordade01,jordade01,,,,,,,,,,,,,11:44.0 Turnover by mamuksa01 (bad pass; steal by jordade01 ) 88-85
+364,fg_miss,,,88.0,85.0,,cancavl01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:38.0 88-85 cancavl01 misses 3-pt jump shot from 27 ft
+365,rebound,,,88.0,85.0,,,,,,,,,,,offensive,jordade01,False,,,,,,,,,,,,,,,,,,,11:36.0 88-85 Offensive rebound by jordade01
+366,foul,,,88.0,85.0,,,,,,,,,,,,,,shooting,branhma01,jordade01,,,,,,,,,,,,,,,,11:35.0 88-85 Shooting foul by branhma01 (drawn by jordade01 )
+367,free_throw,,,88.0,86.0,1.0,jordade01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:35.0 88-86 +1 jordade01 makes free throw 1 of 2
+368,free_throw,,,88.0,86.0,,jordade01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:35.0 88-86 jordade01 misses free throw 2 of 2
+369,rebound,,,88.0,86.0,,,,,,,,,,,offensive,tysonhu01,False,,,,,,,,,,,,,,,,,,,11:34.0 88-86 Offensive rebound by tysonhu01
+370,fg_make,,,88.0,88.0,2.0,tysonhu01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:34.0 88-88 +2 tysonhu01 makes 2-pt layup from 2 ft
+371,fg_miss,,,88.0,88.0,,mamuksa01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:10.0 mamuksa01 misses 2-pt jump shot from 8 ft 88-88
+372,rebound,,,88.0,88.0,,,,,,,,,,,defensive,cancavl01,False,,,,,,,,,,,,,,,,,,,11:09.0 88-88 Defensive rebound by cancavl01
+373,fg_miss,,,88.0,88.0,,pickeja02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:59.0 88-88 pickeja02 misses 3-pt jump shot from 27 ft
+374,rebound,,,88.0,88.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:54.0 Defensive rebound by Team 88-88
+375,fg_miss,,,88.0,88.0,,castlst01,2.0,jump shot,6.0,,jordade01,,,,,,,,,,,,,,,,,,,,,,,,,10:45.0 castlst01 misses 2-pt jump shot from 6 ft (block by jordade01 ) 88-88
+376,rebound,,,88.0,88.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:43.0 88-88 Defensive rebound by Team
+377,fg_make,,,88.0,90.0,2.0,pickeja02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:31.0 88-90 +2 pickeja02 makes 2-pt layup from 3 ft
+378,timeout,,,88.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,San Antonio full,,,,10:30.0 San Antonio full timeout 88-90
+379,substitution,,,88.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:30.0 paulch01 enters the game for castlst01 88-90
+380,fg_miss,,,88.0,90.0,,branhma01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:14.0 branhma01 misses 3-pt jump shot from 28 ft 88-90
+381,rebound,,,88.0,90.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,10:12.0 88-90 Defensive rebound by jordade01
+382,fg_make,,,88.0,93.0,3.0,cancavl01,3.0,jump shot,24.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,10:00.0 88-93 +3 cancavl01 makes 3-pt jump shot from 24 ft (assist by pickeja02 )
+383,fg_miss,,,88.0,93.0,,branhma01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:47.0 branhma01 misses 2-pt jump shot from 15 ft 88-93
+384,rebound,,,88.0,93.0,,,,,,,,,,,offensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,9:45.0 Offensive rebound by mamuksa01 88-93
+385,foul,,,88.0,93.0,,,,,,,,,,,,,,shooting,cancavl01,mamuksa01,,,,,,,,,,,,,,,,9:44.0 Shooting foul by cancavl01 (drawn by mamuksa01 ) 88-93
+386,free_throw,,,89.0,93.0,1.0,mamuksa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:44.0 mamuksa01 makes free throw 1 of 2 +1 89-93
+387,free_throw,,,90.0,93.0,1.0,mamuksa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:44.0 mamuksa01 makes free throw 2 of 2 +1 90-93
+388,fg_miss,,,90.0,93.0,,jordade01,2.0,dunk,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:33.0 90-93 jordade01 misses 2-pt dunk from 5 ft
+389,rebound,,,90.0,93.0,,,,,,,,,,,defensive,paulch01,False,,,,,,,,,,,,,,,,,,,9:32.0 Defensive rebound by paulch01 90-93
+390,fg_miss,,,90.0,93.0,,mamuksa01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 mamuksa01 misses 3-pt jump shot from 23 ft 90-93
+391,rebound,,,90.0,93.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,9:21.0 90-93 Defensive rebound by jordade01
+392,fg_miss,,,90.0,93.0,,alexatr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:04.0 90-93 alexatr01 misses 3-pt jump shot from 26 ft
+393,rebound,,,90.0,93.0,,,,,,,,,,,defensive,biyombi01,False,,,,,,,,,,,,,,,,,,,9:01.0 Defensive rebound by biyombi01 90-93
+394,fg_make,,,92.0,93.0,2.0,paulch01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:51.0 paulch01 makes 2-pt jump shot from 13 ft +2 92-93
+395,fg_miss,,,92.0,93.0,,alexatr01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:35.0 92-93 alexatr01 misses 2-pt layup from 3 ft
+396,rebound,,,92.0,93.0,,,,,,,,,,,offensive,alexatr01,False,,,,,,,,,,,,,,,,,,,8:33.0 92-93 Offensive rebound by alexatr01
+397,fg_miss,,,92.0,93.0,,alexatr01,2.0,layup,4.0,,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 92-93 alexatr01 misses 2-pt layup from 4 ft (block by paulch01 )
+398,rebound,,,92.0,93.0,,,,,,,,,,,defensive,paulch01,False,,,,,,,,,,,,,,,,,,,8:25.0 Defensive rebound by paulch01 92-93
+399,fg_make,,,95.0,93.0,3.0,mclaujo01,3.0,jump shot,27.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 mclaujo01 makes 3-pt jump shot from 27 ft (assist by paulch01 ) +3 95-93
+400,timeout,,,95.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,8:17.0 95-93 Denver full timeout
+401,substitution,,,95.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:17.0 95-93 jonessp01 enters the game for pickeja02
+402,substitution,,,95.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:17.0 95-93 westbru01 enters the game for tysonhu01
+403,fg_make,,,95.0,95.0,2.0,cancavl01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:57.0 95-95 +2 cancavl01 makes 2-pt hook shot from 6 ft
+404,fg_make,,,98.0,95.0,3.0,paulch01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:41.0 paulch01 makes 3-pt jump shot from 27 ft +3 98-95
+405,turnover,,,98.0,95.0,,,,,,,,,,,,,,,,,alexatr01,bad pass,,,,,,,,,,,,,,7:20.0 98-95 Turnover by alexatr01 (bad pass)
+406,substitution,,,98.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 barneha02 enters the game for branhma01 98-95
+407,substitution,,,98.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 champju02 enters the game for mclaujo01 98-95
+408,fg_make,,,101.0,95.0,3.0,paulch01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 paulch01 makes 3-pt jump shot from 27 ft +3 101-95
+409,fg_miss,,,101.0,95.0,,westbru01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:58.0 101-95 westbru01 misses 3-pt jump shot from 26 ft
+410,rebound,,,101.0,95.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,6:54.0 Defensive rebound by Team 101-95
+411,foul,,,101.0,95.0,,,,,,,,,,,,,,loose ball,jordade01,paulch01,,,,,,,,,,,,,,,,6:54.0 101-95 Loose ball foul by jordade01 (drawn by paulch01 )
+412,substitution,,,101.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 weslebl01 enters the game for mamuksa01 101-95
+413,substitution,,,101.0,95.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 101-95 pickeja02 enters the game for alexatr01
+414,fg_miss,,,101.0,95.0,,champju02,2.0,dunk,3.0,,cancavl01,,,,,,,,,,,,,,,,,,,,,,,,,6:34.0 champju02 misses 2-pt dunk from 3 ft (block by cancavl01 ) 101-95
+415,rebound,,,101.0,95.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,6:33.0 101-95 Defensive rebound by Team
+416,fg_make,,,101.0,97.0,2.0,pickeja02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:12.0 101-97 +2 pickeja02 makes 2-pt jump shot from 10 ft
+417,turnover,,,101.0,97.0,,,,,,,,,,,,,,,,,champju02,bad pass; steal by pickeja02,pickeja02,,,,,,,,,,,,,5:53.0 Turnover by champju02 (bad pass; steal by pickeja02 ) 101-97
+418,fg_make,,,101.0,99.0,2.0,jonessp01,2.0,layup,6.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,5:47.0 101-99 +2 jonessp01 makes 2-pt layup from 6 ft (assist by pickeja02 )
+419,turnover,,,101.0,99.0,,,,,,,,,,,,,,,,,weslebl01,step out of bounds,,,,,,,,,,,,,,5:24.0 Turnover by weslebl01 (step out of bounds) 101-99
+420,substitution,,,101.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:24.0 101-99 tysonhu01 enters the game for jonessp01
+421,foul,,,101.0,99.0,,,,,,,,,,,,,,personal,champju02,westbru01,,,,,,,,,,,,,,,,5:19.0 101-99 Personal foul by champju02 (drawn by westbru01 )
+422,substitution,,,101.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:19.0 castlst01 enters the game for paulch01 101-99
+423,substitution,,,101.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:19.0 101-99 jonessp01 enters the game for cancavl01
+424,fg_miss,,,101.0,99.0,,jonessp01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:06.0 101-99 jonessp01 misses 3-pt jump shot from 23 ft
+425,rebound,,,101.0,99.0,,,,,,,,,,,defensive,biyombi01,False,,,,,,,,,,,,,,,,,,,5:03.0 Defensive rebound by biyombi01 101-99
+426,fg_miss,,,101.0,99.0,,champju02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:56.0 champju02 misses 3-pt jump shot from 23 ft 101-99
+427,rebound,,,101.0,99.0,,,,,,,,,,,defensive,westbru01,False,,,,,,,,,,,,,,,,,,,4:54.0 101-99 Defensive rebound by westbru01
+428,fg_miss,,,101.0,99.0,,pickeja02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 101-99 pickeja02 misses 3-pt jump shot from 27 ft
+429,rebound,,,101.0,99.0,,,,,,,,,,,defensive,weslebl01,False,,,,,,,,,,,,,,,,,,,4:41.0 Defensive rebound by weslebl01 101-99
+430,turnover,,,101.0,99.0,,,,,,,,,,,,,,,,,weslebl01,lost ball; steal by westbru01,westbru01,,,,,,,,,,,,,4:35.0 Turnover by weslebl01 (lost ball; steal by westbru01 ) 101-99
+431,fg_miss,,,101.0,99.0,,westbru01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 101-99 westbru01 misses 2-pt layup from 5 ft
+432,rebound,,,101.0,99.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,4:30.0 Defensive rebound by barneha02 101-99
+433,fg_make,,,103.0,99.0,2.0,weslebl01,2.0,layup,6.0,barneha02,,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 weslebl01 makes 2-pt layup from 6 ft (assist by barneha02 ) +2 103-99
+434,turnover,,,103.0,99.0,,,,,,,,,,,,,,,,,pickeja02,bad pass; steal by barneha02,barneha02,,,,,,,,,,,,,4:15.0 103-99 Turnover by pickeja02 (bad pass; steal by barneha02 )
+435,fg_miss,,,103.0,99.0,,castlst01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 castlst01 misses 3-pt jump shot from 27 ft 103-99
+436,rebound,,,103.0,99.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:06.0 Offensive rebound by Team 103-99
+437,substitution,,,103.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:06.0 mamuksa01 enters the game for biyombi01 103-99
+438,substitution,,,103.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:06.0 paulch01 enters the game for weslebl01 103-99
+439,fg_make,,,105.0,99.0,2.0,mamuksa01,2.0,dunk,4.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,4:04.0 mamuksa01 makes 2-pt dunk from 4 ft (assist by castlst01 ) +2 105-99
+440,timeout,,,105.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,4:03.0 105-99 Denver full timeout
+441,substitution,,,105.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 biyombi01 enters the game for mamuksa01 105-99
+442,substitution,,,105.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 105-99 cancavl01 enters the game for jonessp01
+443,turnover,,,105.0,99.0,,,,,,,,,,,,,,,,,westbru01,bad pass,,,,,,,,,,,,,,3:47.0 105-99 Turnover by westbru01 (bad pass)
+444,fg_miss,,,105.0,99.0,,paulch01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:30.0 paulch01 misses 3-pt jump shot from 27 ft 105-99
+445,rebound,,,105.0,99.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,3:27.0 105-99 Defensive rebound by jordade01
+446,violation,,,105.0,99.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,3:21.0 Violation by Team (kicked ball) 105-99
+447,fg_make,,,105.0,101.0,2.0,pickeja02,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:13.0 105-101 +2 pickeja02 makes 2-pt layup from 5 ft
+448,timeout,,,105.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,San Antonio full,,,,3:11.0 San Antonio full timeout 105-101
+449,substitution,,,105.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:11.0 mamuksa01 enters the game for biyombi01 105-101
+450,turnover,,,105.0,101.0,,,,,,,,,,,,,,,,,paulch01,bad pass; steal by cancavl01,cancavl01,,,,,,,,,,,,,2:55.0 Turnover by paulch01 (bad pass; steal by cancavl01 ) 105-101
+451,fg_miss,,,105.0,101.0,,westbru01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:40.0 105-101 westbru01 misses 3-pt jump shot from 28 ft
+452,rebound,,,105.0,101.0,,,,,,,,,,,defensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,2:38.0 Defensive rebound by mamuksa01 105-101
+453,fg_miss,,,105.0,101.0,,barneha02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:19.0 barneha02 misses 3-pt jump shot from 23 ft 105-101
+454,rebound,,,105.0,101.0,,,,,,,,,,,defensive,jordade01,False,,,,,,,,,,,,,,,,,,,2:17.0 105-101 Defensive rebound by jordade01
+455,fg_miss,,,105.0,101.0,,westbru01,2.0,layup,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:00.0 105-101 westbru01 misses 2-pt layup from 9 ft
+456,rebound,,,105.0,101.0,,,,,,,,,,,defensive,mamuksa01,False,,,,,,,,,,,,,,,,,,,1:58.0 Defensive rebound by mamuksa01 105-101
+457,fg_make,,,107.0,101.0,2.0,barneha02,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:36.0 barneha02 makes 2-pt layup from 7 ft +2 107-101
+458,fg_miss,,,107.0,101.0,,cancavl01,3.0,jump shot,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:15.0 107-101 cancavl01 misses 3-pt jump shot from 32 ft
+459,rebound,,,107.0,101.0,,,,,,,,,,,defensive,barneha02,False,,,,,,,,,,,,,,,,,,,1:12.0 Defensive rebound by barneha02 107-101
+460,fg_miss,,,107.0,101.0,,paulch01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:52.0 paulch01 misses 3-pt jump shot from 29 ft 107-101
+461,rebound,,,107.0,101.0,,,,,,,,,,,offensive,castlst01,False,,,,,,,,,,,,,,,,,,,0:50.0 Offensive rebound by castlst01 107-101
+462,fg_make,,,109.0,101.0,2.0,champju02,2.0,layup,3.0,castlst01,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 champju02 makes 2-pt layup from 3 ft (assist by castlst01 ) +2 109-101
+463,timeout,,,109.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Denver full,,,,0:49.0 109-101 Denver full timeout
+464,fg_miss,,,109.0,101.0,,tysonhu01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:44.0 109-101 tysonhu01 misses 3-pt jump shot from 28 ft
+465,rebound,,,109.0,101.0,,,,,,,,,,,defensive,paulch01,False,,,,,,,,,,,,,,,,,,,0:41.0 Defensive rebound by paulch01 109-101
+466,fg_make,,,111.0,101.0,2.0,champju02,2.0,dunk,3.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,0:33.0 champju02 makes 2-pt dunk from 3 ft (assist by paulch01 ) +2 111-101
+467,fg_make,,,111.0,103.0,2.0,jordade01,2.0,dunk,2.0,pickeja02,,,,,,,,,,,,,,,,,,,,,,,,,,0:23.0 111-103 +2 jordade01 makes 2-pt dunk from 2 ft (assist by pickeja02 )
+468,fg_make,,,113.0,103.0,2.0,castlst01,2.0,dunk,3.0,paulch01,,,,,,,,,,,,,,,,,,,,,,,,,,0:15.0 castlst01 makes 2-pt dunk from 3 ft (assist by paulch01 ) +2 113-103
+469,fg_make,,,113.0,105.0,2.0,tysonhu01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:12.0 113-105 +2 tysonhu01 makes 2-pt layup from 3 ft
+470,foul,,,113.0,105.0,,,,,,,,,,,,,,shooting,paulch01,tysonhu01,,,,,,,,,,,,,,,,0:12.0 113-105 Shooting foul by paulch01 (drawn by tysonhu01 )
+471,free_throw,,,113.0,106.0,1.0,tysonhu01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,0:12.0 113-106 +1 tysonhu01 makes free throw 1 of 1
+472,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

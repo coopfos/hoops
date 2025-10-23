@@ -1,0 +1,503 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: aytonde01 vs. nurkiju01 ( jonesty01 gains possession)
+2,fg_miss,,,0.0,0.0,,bookede01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:44.0 0-0 bookede01 misses 3-pt jump shot from 28 ft
+3,rebound,,,0.0,0.0,,,,,,,,,,,defensive,avdijde01,False,,,,,,,,,,,,,,,,,,,11:41.0 Defensive rebound by avdijde01 0-0
+4,fg_miss,,,0.0,0.0,,simonan01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:22.0 simonan01 misses 2-pt jump shot from 9 ft 0-0
+5,rebound,,,0.0,0.0,,,,,,,,,,,offensive,aytonde01,False,,,,,,,,,,,,,,,,,,,11:20.0 Offensive rebound by aytonde01 0-0
+6,foul,,,0.0,0.0,,,,,,,,,,,,,,shooting,bealbr01,aytonde01,,,,,,,,,,,,,,,,11:20.0 Shooting foul by bealbr01 (drawn by aytonde01 ) 0-0
+7,free_throw,,,1.0,0.0,1.0,aytonde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:20.0 aytonde01 makes free throw 1 of 2 +1 1-0
+8,free_throw,,,2.0,0.0,1.0,aytonde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:20.0 aytonde01 makes free throw 2 of 2 +1 2-0
+9,foul,,,2.0,0.0,,,,,,,,,,,,,,personal,camarto01,duranke01,,,,,,,,,,,,,,,,11:03.0 2-0 Personal foul by camarto01 (drawn by duranke01 )
+10,fg_make,,,2.0,3.0,3.0,bealbr01,3.0,jump shot,26.0,duranke01,,,,,,,,,,,,,,,,,,,,,,,,,,11:01.0 2-3 +3 bealbr01 makes 3-pt jump shot from 26 ft (assist by duranke01 )
+11,fg_miss,,,2.0,3.0,,simonan01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:34.0 simonan01 misses 2-pt jump shot from 13 ft 2-3
+12,rebound,,,2.0,3.0,,,,,,,,,,,defensive,bealbr01,False,,,,,,,,,,,,,,,,,,,10:31.0 2-3 Defensive rebound by bealbr01
+13,fg_miss,,,2.0,3.0,,duranke01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:27.0 2-3 duranke01 misses 3-pt jump shot from 26 ft
+14,rebound,,,2.0,3.0,,,,,,,,,,,defensive,avdijde01,False,,,,,,,,,,,,,,,,,,,10:23.0 Defensive rebound by avdijde01 2-3
+15,fg_miss,,,2.0,3.0,,aytonde01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:06.0 aytonde01 misses 2-pt jump shot from 8 ft 2-3
+16,rebound,,,2.0,3.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,10:04.0 2-3 Defensive rebound by nurkiju01
+17,fg_miss,,,2.0,3.0,,duranke01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:54.0 2-3 duranke01 misses 2-pt jump shot from 15 ft
+18,rebound,,,2.0,3.0,,,,,,,,,,,defensive,grantje01,False,,,,,,,,,,,,,,,,,,,9:51.0 Defensive rebound by grantje01 2-3
+19,fg_make,,,5.0,3.0,3.0,grantje01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:45.0 grantje01 makes 3-pt jump shot from 26 ft +3 5-3
+20,fg_miss,,,5.0,3.0,,bealbr01,3.0,jump shot,26.0,,grantje01,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 5-3 bealbr01 misses 3-pt jump shot from 26 ft (block by grantje01 )
+21,rebound,,,5.0,3.0,,,,,,,,,,,defensive,simonan01,False,,,,,,,,,,,,,,,,,,,9:18.0 Defensive rebound by simonan01 5-3
+22,fg_miss,,,5.0,3.0,,avdijde01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:08.0 avdijde01 misses 2-pt jump shot from 20 ft 5-3
+23,rebound,,,5.0,3.0,,,,,,,,,,,defensive,bealbr01,False,,,,,,,,,,,,,,,,,,,9:05.0 5-3 Defensive rebound by bealbr01
+24,fg_miss,,,5.0,3.0,,duranke01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 5-3 duranke01 misses 3-pt jump shot from 22 ft
+25,rebound,,,5.0,3.0,,,,,,,,,,,defensive,simonan01,False,,,,,,,,,,,,,,,,,,,8:55.0 Defensive rebound by simonan01 5-3
+26,turnover,,,5.0,3.0,,,,,,,,,,,,,,,,,simonan01,bad pass; steal by bealbr01,bealbr01,,,,,,,,,,,,,8:51.0 Turnover by simonan01 (bad pass; steal by bealbr01 ) 5-3
+27,fg_miss,,,5.0,3.0,,bookede01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:46.0 5-3 bookede01 misses 3-pt jump shot from 26 ft
+28,rebound,,,5.0,3.0,,,,,,,,,,,defensive,simonan01,False,,,,,,,,,,,,,,,,,,,8:42.0 Defensive rebound by simonan01 5-3
+29,fg_miss,,,5.0,3.0,,avdijde01,2.0,hook shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:36.0 avdijde01 misses 2-pt hook shot from 12 ft 5-3
+30,rebound,,,5.0,3.0,,,,,,,,,,,offensive,camarto01,False,,,,,,,,,,,,,,,,,,,8:29.0 Offensive rebound by camarto01 5-3
+31,fg_make,,,7.0,3.0,2.0,camarto01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:29.0 camarto01 makes 2-pt layup at rim +2 7-3
+32,fg_miss,,,7.0,3.0,,nurkiju01,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:11.0 7-3 nurkiju01 misses 2-pt hook shot from 7 ft
+33,rebound,,,7.0,3.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,8:08.0 Defensive rebound by aytonde01 7-3
+34,fg_miss,,,7.0,3.0,,aytonde01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:59.0 aytonde01 misses 2-pt hook shot from 6 ft 7-3
+35,rebound,,,7.0,3.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,7:57.0 7-3 Defensive rebound by nurkiju01
+36,fg_miss,,,7.0,3.0,,bookede01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:51.0 7-3 bookede01 misses 2-pt layup from 3 ft
+37,rebound,,,7.0,3.0,,,,,,,,,,,defensive,grantje01,False,,,,,,,,,,,,,,,,,,,7:50.0 Defensive rebound by grantje01 7-3
+38,fg_miss,,,7.0,3.0,,camarto01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:45.0 camarto01 misses 3-pt jump shot from 23 ft 7-3
+39,rebound,,,7.0,3.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,7:42.0 7-3 Defensive rebound by nurkiju01
+40,fg_make,,,7.0,6.0,3.0,jonesty01,3.0,jump shot,26.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 7-6 +3 jonesty01 makes 3-pt jump shot from 26 ft (assist by bookede01 )
+41,fg_miss,,,7.0,6.0,,simonan01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:07.0 simonan01 misses 3-pt jump shot from 25 ft 7-6
+42,rebound,,,7.0,6.0,,,,,,,,,,,defensive,jonesty01,False,,,,,,,,,,,,,,,,,,,7:05.0 7-6 Defensive rebound by jonesty01
+43,foul,,,7.0,6.0,,,,,,,,,,,,,,shooting,camarto01,bookede01,,,,,,,,,,,,,,,,7:01.0 7-6 Shooting foul by camarto01 (drawn by bookede01 )
+44,free_throw,,,7.0,7.0,1.0,bookede01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:01.0 7-7 +1 bookede01 makes free throw 1 of 2
+45,substitution,,,7.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 hendesc01 enters the game for camarto01 7-7
+46,substitution,,,7.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 7-7 dunnry01 enters the game for bealbr01
+47,substitution,,,7.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 7-7 onealro01 enters the game for jonesty01
+48,free_throw,,,7.0,7.0,,bookede01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:01.0 7-7 bookede01 misses free throw 2 of 2
+49,rebound,,,7.0,7.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,6:58.0 Defensive rebound by aytonde01 7-7
+50,timeout,,,7.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Phoenix full,,,,6:49.0 7-7 Phoenix full timeout
+51,instant_replay,,,7.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:49.0 7-7 Instant Replay (Challenge: Ruling Stands)
+52,substitution,,,7.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:49.0 7-7 jonesty01 enters the game for dunnry01
+53,fg_miss,,,7.0,7.0,,grantje01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:35.0 grantje01 misses 3-pt jump shot from 27 ft 7-7
+54,rebound,,,7.0,7.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,6:34.0 7-7 Defensive rebound by Team
+55,foul,,,7.0,7.0,,,,,,,,,,,,,,shooting,avdijde01,bookede01,,,,,,,,,,,,,,,,6:22.0 7-7 Shooting foul by avdijde01 (drawn by bookede01 )
+56,free_throw,,,7.0,8.0,1.0,bookede01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:22.0 7-8 +1 bookede01 makes free throw 1 of 2
+57,substitution,,,7.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:22.0 murrakr01 enters the game for grantje01 7-8
+58,free_throw,,,7.0,9.0,1.0,bookede01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:22.0 7-9 +1 bookede01 makes free throw 2 of 2
+59,fg_miss,,,7.0,9.0,,simonan01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:12.0 simonan01 misses 3-pt jump shot from 24 ft 7-9
+60,rebound,,,7.0,9.0,,,,,,,,,,,offensive,murrakr01,False,,,,,,,,,,,,,,,,,,,6:07.0 Offensive rebound by murrakr01 7-9
+61,fg_miss,,,7.0,9.0,,hendesc01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 hendesc01 misses 2-pt jump shot from 17 ft 7-9
+62,rebound,,,7.0,9.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,5:59.0 7-9 Defensive rebound by duranke01
+63,fg_miss,,,7.0,9.0,,duranke01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:49.0 7-9 duranke01 misses 3-pt jump shot from 26 ft
+64,rebound,,,7.0,9.0,,,,,,,,,,,defensive,murrakr01,False,,,,,,,,,,,,,,,,,,,5:46.0 Defensive rebound by murrakr01 7-9
+65,fg_make,,,10.0,9.0,3.0,murrakr01,3.0,jump shot,22.0,hendesc01,,,,,,,,,,,,,,,,,,,,,,,,,,5:38.0 murrakr01 makes 3-pt jump shot from 22 ft (assist by hendesc01 ) +3 10-9
+66,fg_make,,,10.0,12.0,3.0,bookede01,3.0,jump shot,27.0,onealro01,,,,,,,,,,,,,,,,,,,,,,,,,,5:30.0 10-12 +3 bookede01 makes 3-pt jump shot from 27 ft (assist by onealro01 )
+67,fg_miss,,,10.0,12.0,,avdijde01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:11.0 avdijde01 misses 3-pt jump shot from 27 ft 10-12
+68,rebound,,,10.0,12.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,5:08.0 10-12 Defensive rebound by duranke01
+69,turnover,,,10.0,12.0,,,,,,,,,,,,,,,,,duranke01,bad pass; steal by avdijde01,avdijde01,,,,,,,,,,,,,5:04.0 10-12 Turnover by duranke01 (bad pass; steal by avdijde01 )
+70,fg_miss,,,10.0,12.0,,simonan01,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:51.0 simonan01 misses 2-pt hook shot from 7 ft 10-12
+71,rebound,,,10.0,12.0,,,,,,,,,,,defensive,bookede01,False,,,,,,,,,,,,,,,,,,,4:49.0 10-12 Defensive rebound by bookede01
+72,fg_make,,,10.0,14.0,2.0,duranke01,2.0,layup,4.0,jonesty01,,,,,,,,,,,,,,,,,,,,,,,,,,4:42.0 10-14 +2 duranke01 makes 2-pt layup from 4 ft (assist by jonesty01 )
+73,fg_make,,,12.0,14.0,2.0,aytonde01,2.0,layup,4.0,murrakr01,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 aytonde01 makes 2-pt layup from 4 ft (assist by murrakr01 ) +2 12-14
+74,foul,,,12.0,14.0,,,,,,,,,,,,,,shooting,nurkiju01,aytonde01,,,,,,,,,,,,,,,,4:31.0 Shooting foul by nurkiju01 (drawn by aytonde01 ) 12-14
+75,substitution,,,12.0,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 12-14 allengr01 enters the game for bookede01
+76,substitution,,,12.0,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 12-14 morrimo01 enters the game for jonesty01
+77,substitution,,,12.0,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 12-14 plumlma01 enters the game for nurkiju01
+78,free_throw,,,13.0,14.0,1.0,aytonde01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:31.0 aytonde01 makes free throw 1 of 1 +1 13-14
+79,foul,,,13.0,14.0,,,,,,,,,,,,,,personal,murrakr01,duranke01,,,,,,,,,,,,,,,,4:22.0 13-14 Personal foul by murrakr01 (drawn by duranke01 )
+80,fg_miss,,,13.0,14.0,,allengr01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:14.0 13-14 allengr01 misses 2-pt jump shot from 4 ft
+81,rebound,,,13.0,14.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,4:11.0 Defensive rebound by aytonde01 13-14
+82,fg_miss,,,13.0,14.0,,hendesc01,2.0,layup,8.0,,plumlma01,,,,,,,,,,,,,,,,,,,,,,,,,4:04.0 hendesc01 misses 2-pt layup from 8 ft (block by plumlma01 ) 13-14
+83,rebound,,,13.0,14.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:04.0 Offensive rebound by Team 13-14
+84,fg_miss,,,13.0,14.0,,simonan01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 simonan01 misses 2-pt jump shot from 13 ft 13-14
+85,rebound,,,13.0,14.0,,,,,,,,,,,defensive,onealro01,False,,,,,,,,,,,,,,,,,,,3:51.0 13-14 Defensive rebound by onealro01
+86,turnover,,,13.0,14.0,,,,,,,,,,,,,,,,,duranke01,bad pass; steal by simonan01,simonan01,,,,,,,,,,,,,3:41.0 13-14 Turnover by duranke01 (bad pass; steal by simonan01 )
+87,fg_make,,,15.0,14.0,2.0,avdijde01,2.0,jump shot,4.0,simonan01,,,,,,,,,,,,,,,,,,,,,,,,,,3:39.0 avdijde01 makes 2-pt jump shot from 4 ft (assist by simonan01 ) +2 15-14
+88,foul,,,15.0,14.0,,,,,,,,,,,,,,shooting,allengr01,avdijde01,,,,,,,,,,,,,,,,3:39.0 Shooting foul by allengr01 (drawn by avdijde01 ) 15-14
+89,substitution,,,15.0,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:39.0 clingdo01 enters the game for aytonde01 15-14
+90,free_throw,,,16.0,14.0,1.0,avdijde01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,3:39.0 avdijde01 makes free throw 1 of 1 +1 16-14
+91,fg_make,,,16.0,16.0,2.0,duranke01,2.0,jump shot,19.0,morrimo01,,,,,,,,,,,,,,,,,,,,,,,,,,3:27.0 16-16 +2 duranke01 makes 2-pt jump shot from 19 ft (assist by morrimo01 )
+92,fg_miss,,,16.0,16.0,,hendesc01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:16.0 hendesc01 misses 2-pt layup from 3 ft 16-16
+93,rebound,,,16.0,16.0,,,,,,,,,,,offensive,clingdo01,False,,,,,,,,,,,,,,,,,,,3:15.0 Offensive rebound by clingdo01 16-16
+94,fg_miss,,,16.0,16.0,,clingdo01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 clingdo01 misses 2-pt layup at rim 16-16
+95,rebound,,,16.0,16.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,3:15.0 16-16 Defensive rebound by duranke01
+96,foul,,,16.0,16.0,,,,,,,,,,,,,,personal,clingdo01,duranke01,,,,,,,,,,,,,,,,3:15.0 16-16 Personal foul by clingdo01 (drawn by duranke01 )
+97,free_throw,,,16.0,16.0,,duranke01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:15.0 16-16 duranke01 misses free throw 1 of 2
+98,rebound,,,16.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:15.0 16-16 Offensive rebound by Team
+99,substitution,,,16.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 grantje01 enters the game for avdijde01 16-16
+100,free_throw,,,16.0,17.0,1.0,duranke01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:15.0 16-17 +1 duranke01 makes free throw 2 of 2
+101,fg_miss,,,16.0,17.0,,grantje01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:03.0 grantje01 misses 3-pt jump shot from 26 ft 16-17
+102,rebound,,,16.0,17.0,,,,,,,,,,,defensive,plumlma01,False,,,,,,,,,,,,,,,,,,,3:00.0 16-17 Defensive rebound by plumlma01
+103,turnover,,,16.0,17.0,,,,,,,,,,,,,,,,,allengr01,bad pass; steal by murrakr01,murrakr01,,,,,,,,,,,,,2:47.0 16-17 Turnover by allengr01 (bad pass; steal by murrakr01 )
+104,fg_miss,,,16.0,17.0,,hendesc01,2.0,layup,1.0,,morrimo01,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 hendesc01 misses 2-pt layup from 1 ft (block by morrimo01 ) 16-17
+105,rebound,,,16.0,17.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,2:43.0 16-17 Defensive rebound by Team
+106,timeout,,,16.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,2:43.0 Portland full timeout 16-17
+107,instant_replay,,,16.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 Instant Replay (Challenge: Ruling Stands) 16-17
+108,substitution,,,16.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 16-17 bealbr01 enters the game for duranke01
+109,substitution,,,16.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 16-17 dunnry01 enters the game for onealro01
+110,turnover,,,16.0,17.0,,,,,,,,,,,,,,,,,allengr01,bad pass; steal by grantje01,grantje01,,,,,,,,,,,,,2:27.0 16-17 Turnover by allengr01 (bad pass; steal by grantje01 )
+111,fg_miss,,,16.0,17.0,,hendesc01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:16.0 hendesc01 misses 3-pt jump shot from 25 ft 16-17
+112,rebound,,,16.0,17.0,,,,,,,,,,,defensive,allengr01,False,,,,,,,,,,,,,,,,,,,2:10.0 16-17 Defensive rebound by allengr01
+113,fg_miss,,,16.0,17.0,,bealbr01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:01.0 16-17 bealbr01 misses 2-pt jump shot from 18 ft
+114,rebound,,,16.0,17.0,,,,,,,,,,,offensive,dunnry01,False,,,,,,,,,,,,,,,,,,,1:58.0 16-17 Offensive rebound by dunnry01
+115,fg_miss,,,16.0,17.0,,allengr01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:48.0 16-17 allengr01 misses 2-pt jump shot from 10 ft
+116,rebound,,,16.0,17.0,,,,,,,,,,,defensive,hendesc01,False,,,,,,,,,,,,,,,,,,,1:46.0 Defensive rebound by hendesc01 16-17
+117,turnover,,,16.0,17.0,,,,,,,,,,,,,,,,,clingdo01,bad pass; steal by dunnry01,dunnry01,,,,,,,,,,,,,1:32.0 Turnover by clingdo01 (bad pass; steal by dunnry01 ) 16-17
+118,fg_make,,,16.0,20.0,3.0,allengr01,3.0,jump shot,29.0,plumlma01,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 16-20 +3 allengr01 makes 3-pt jump shot from 29 ft (assist by plumlma01 )
+119,fg_miss,,,16.0,20.0,,grantje01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:59.0 grantje01 misses 2-pt jump shot from 8 ft 16-20
+120,rebound,,,16.0,20.0,,,,,,,,,,,defensive,plumlma01,False,,,,,,,,,,,,,,,,,,,0:56.0 16-20 Defensive rebound by plumlma01
+121,fg_miss,,,16.0,20.0,,dunnry01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:52.0 16-20 dunnry01 misses 3-pt jump shot from 24 ft
+122,rebound,,,16.0,20.0,,,,,,,,,,,defensive,murrakr01,False,,,,,,,,,,,,,,,,,,,0:48.0 Defensive rebound by murrakr01 16-20
+123,fg_miss,,,16.0,20.0,,grantje01,2.0,layup,2.0,,allengr01,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 grantje01 misses 2-pt layup from 2 ft (block by allengr01 ) 16-20
+124,rebound,,,16.0,20.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:32.0 Offensive rebound by Team 16-20
+125,substitution,,,16.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 ruperra01 enters the game for simonan01 16-20
+126,substitution,,,16.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 16-20 bookede01 enters the game for morrimo01
+127,fg_miss,,,16.0,20.0,,grantje01,2.0,jump shot,12.0,,bealbr01,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 grantje01 misses 2-pt jump shot from 12 ft (block by bealbr01 ) 16-20
+128,rebound,,,16.0,20.0,,,,,,,,,,,defensive,plumlma01,False,,,,,,,,,,,,,,,,,,,0:28.0 16-20 Defensive rebound by plumlma01
+129,foul,,,16.0,20.0,,,,,,,,,,,,,,shooting,ruperra01,bealbr01,,,,,,,,,,,,,,,,0:26.0 16-20 Shooting foul by ruperra01 (drawn by bealbr01 )
+130,free_throw,,,16.0,21.0,1.0,bealbr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:26.0 16-21 +1 bealbr01 makes free throw 1 of 2
+131,substitution,,,16.0,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 16-21 onealro01 enters the game for allengr01
+132,free_throw,,,16.0,22.0,1.0,bealbr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:26.0 16-22 +1 bealbr01 makes free throw 2 of 2
+133,fg_make,,,18.0,22.0,2.0,hendesc01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:05.0 hendesc01 makes 2-pt layup from 3 ft +2 18-22
+134,fg_miss,,,18.0,22.0,,bookede01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 18-22 bookede01 misses 2-pt jump shot from 16 ft
+135,rebound,,,18.0,22.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 18-22 Offensive rebound by Team
+136,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+137,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+138,fg_miss,,,18.0,22.0,,grantje01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:48.0 grantje01 misses 2-pt layup from 4 ft 18-22
+139,rebound,,,18.0,22.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,11:45.0 18-22 Defensive rebound by duranke01
+140,fg_make,,,18.0,25.0,3.0,duranke01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:33.0 18-25 +3 duranke01 makes 3-pt jump shot from 27 ft
+141,foul,,,18.0,25.0,,,,,,,,,,,,,,shooting,clingdo01,duranke01,,,,,,,,,,,,,,,,11:33.0 18-25 Shooting foul by clingdo01 (drawn by duranke01 )
+142,free_throw,,,18.0,26.0,1.0,duranke01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,11:33.0 18-26 +1 duranke01 makes free throw 1 of 1
+143,fg_miss,,,18.0,26.0,,hendesc01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:23.0 hendesc01 misses 2-pt layup from 3 ft 18-26
+144,rebound,,,18.0,26.0,,,,,,,,,,,defensive,onealro01,False,,,,,,,,,,,,,,,,,,,11:22.0 18-26 Defensive rebound by onealro01
+145,fg_miss,,,18.0,26.0,,dunnry01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:05.0 18-26 dunnry01 misses 3-pt jump shot from 26 ft
+146,rebound,,,18.0,26.0,,,,,,,,,,,offensive,duranke01,False,,,,,,,,,,,,,,,,,,,11:00.0 18-26 Offensive rebound by duranke01
+147,fg_make,,,18.0,29.0,3.0,duranke01,3.0,jump shot,23.0,bealbr01,,,,,,,,,,,,,,,,,,,,,,,,,,10:50.0 18-29 +3 duranke01 makes 3-pt jump shot from 23 ft (assist by bealbr01 )
+148,timeout,,,18.0,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,10:48.0 Portland full timeout 18-29
+149,substitution,,,18.0,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:48.0 camarto01 enters the game for murrakr01 18-29
+150,fg_make,,,21.0,29.0,3.0,hendesc01,3.0,jump shot,22.0,grantje01,,,,,,,,,,,,,,,,,,,,,,,,,,10:36.0 hendesc01 makes 3-pt jump shot from 22 ft (assist by grantje01 ) +3 21-29
+151,foul,,,21.0,29.0,,,,,,,,,,,,,,offensive,dunnry01,ruperra01,,,,,,,,,,,,,,,,10:22.0 21-29 Offensive foul by dunnry01 (drawn by ruperra01 )
+152,turnover,,,21.0,29.0,,,,,,,,,,,,,,,,,dunnry01,offensive foul,,,,,,,,,,,,,,10:22.0 21-29 Turnover by dunnry01 (offensive foul)
+153,fg_miss,,,21.0,29.0,,ruperra01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:01.0 ruperra01 misses 2-pt layup from 3 ft 21-29
+154,rebound,,,21.0,29.0,,,,,,,,,,,defensive,bookede01,False,,,,,,,,,,,,,,,,,,,9:58.0 21-29 Defensive rebound by bookede01
+155,fg_miss,,,21.0,29.0,,onealro01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:56.0 21-29 onealro01 misses 3-pt jump shot from 27 ft
+156,rebound,,,21.0,29.0,,,,,,,,,,,defensive,ruperra01,False,,,,,,,,,,,,,,,,,,,9:53.0 Defensive rebound by ruperra01 21-29
+157,fg_miss,,,21.0,29.0,,grantje01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:47.0 grantje01 misses 2-pt jump shot from 15 ft 21-29
+158,rebound,,,21.0,29.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,9:47.0 21-29 Defensive rebound by Team
+159,fg_miss,,,21.0,29.0,,dunnry01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:34.0 21-29 dunnry01 misses 2-pt jump shot from 14 ft
+160,rebound,,,21.0,29.0,,,,,,,,,,,offensive,bealbr01,False,,,,,,,,,,,,,,,,,,,9:29.0 21-29 Offensive rebound by bealbr01
+161,fg_miss,,,21.0,29.0,,bookede01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 21-29 bookede01 misses 3-pt jump shot from 25 ft
+162,rebound,,,21.0,29.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,9:20.0 Defensive rebound by clingdo01 21-29
+163,fg_miss,,,21.0,29.0,,ruperra01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:06.0 ruperra01 misses 3-pt jump shot from 25 ft 21-29
+164,rebound,,,21.0,29.0,,,,,,,,,,,defensive,onealro01,False,,,,,,,,,,,,,,,,,,,9:03.0 21-29 Defensive rebound by onealro01
+165,foul,,,21.0,29.0,,,,,,,,,,,,,,shooting,ruperra01,bookede01,,,,,,,,,,,,,,,,8:59.0 21-29 Shooting foul by ruperra01 (drawn by bookede01 )
+166,free_throw,,,21.0,30.0,1.0,bookede01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:59.0 21-30 +1 bookede01 makes free throw 1 of 2
+167,substitution,,,21.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 avdijde01 enters the game for clingdo01 21-30
+168,substitution,,,21.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 aytonde01 enters the game for hendesc01 21-30
+169,substitution,,,21.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 simonan01 enters the game for ruperra01 21-30
+170,substitution,,,21.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 21-30 nurkiju01 enters the game for dunnry01
+171,free_throw,,,21.0,31.0,1.0,bookede01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:59.0 21-31 +1 bookede01 makes free throw 2 of 2
+172,fg_miss,,,21.0,31.0,,avdijde01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:45.0 avdijde01 misses 3-pt jump shot from 24 ft 21-31
+173,rebound,,,21.0,31.0,,,,,,,,,,,defensive,onealro01,False,,,,,,,,,,,,,,,,,,,8:41.0 21-31 Defensive rebound by onealro01
+174,turnover,,,21.0,31.0,,,,,,,,,,,,,,,,,onealro01,bad pass; steal by camarto01,camarto01,,,,,,,,,,,,,8:37.0 21-31 Turnover by onealro01 (bad pass; steal by camarto01 )
+175,fg_miss,,,21.0,31.0,,aytonde01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:28.0 aytonde01 misses 2-pt jump shot from 12 ft 21-31
+176,rebound,,,21.0,31.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,8:24.0 21-31 Defensive rebound by nurkiju01
+177,fg_miss,,,21.0,31.0,,nurkiju01,2.0,hook shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 21-31 nurkiju01 misses 2-pt hook shot from 4 ft
+178,rebound,,,21.0,31.0,,,,,,,,,,,defensive,grantje01,False,,,,,,,,,,,,,,,,,,,8:07.0 Defensive rebound by grantje01 21-31
+179,fg_make,,,23.0,31.0,2.0,grantje01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 grantje01 makes 2-pt layup from 3 ft +2 23-31
+180,foul,,,23.0,31.0,,,,,,,,,,,,,,shooting,duranke01,grantje01,,,,,,,,,,,,,,,,8:04.0 Shooting foul by duranke01 (drawn by grantje01 ) 23-31
+181,substitution,,,23.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 23-31 jonesty01 enters the game for bealbr01
+182,free_throw,,,24.0,31.0,1.0,grantje01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,8:04.0 grantje01 makes free throw 1 of 1 +1 24-31
+183,turnover,,,24.0,31.0,,,,,,,,,,,,,,,,,nurkiju01,lost ball; steal by simonan01,simonan01,,,,,,,,,,,,,7:52.0 24-31 Turnover by nurkiju01 (lost ball; steal by simonan01 )
+184,fg_miss,,,24.0,31.0,,grantje01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 grantje01 misses 3-pt jump shot from 24 ft 24-31
+185,rebound,,,24.0,31.0,,,,,,,,,,,offensive,camarto01,False,,,,,,,,,,,,,,,,,,,7:33.0 Offensive rebound by camarto01 24-31
+186,fg_make,,,26.0,31.0,2.0,camarto01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:33.0 camarto01 makes 2-pt layup at rim +2 26-31
+187,fg_miss,,,26.0,31.0,,onealro01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:21.0 26-31 onealro01 misses 2-pt layup from 4 ft
+188,rebound,,,26.0,31.0,,,,,,,,,,,offensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,7:18.0 26-31 Offensive rebound by nurkiju01
+189,fg_miss,,,26.0,31.0,,nurkiju01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:10.0 26-31 nurkiju01 misses 3-pt jump shot from 27 ft
+190,rebound,,,26.0,31.0,,,,,,,,,,,defensive,simonan01,False,,,,,,,,,,,,,,,,,,,7:07.0 Defensive rebound by simonan01 26-31
+191,fg_miss,,,26.0,31.0,,aytonde01,2.0,hook shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 aytonde01 misses 2-pt hook shot from 3 ft 26-31
+192,rebound,,,26.0,31.0,,,,,,,,,,,defensive,jonesty01,False,,,,,,,,,,,,,,,,,,,7:00.0 26-31 Defensive rebound by jonesty01
+193,foul,,,26.0,31.0,,,,,,,,,,,,,,shooting,simonan01,duranke01,,,,,,,,,,,,,,,,6:58.0 26-31 Shooting foul by simonan01 (drawn by duranke01 )
+194,free_throw,,,26.0,32.0,1.0,duranke01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:58.0 26-32 +1 duranke01 makes free throw 1 of 2
+195,substitution,,,26.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:58.0 26-32 allengr01 enters the game for onealro01
+196,free_throw,,,26.0,33.0,1.0,duranke01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:58.0 26-33 +1 duranke01 makes free throw 2 of 2
+197,fg_miss,,,26.0,33.0,,simonan01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:48.0 simonan01 misses 2-pt jump shot from 12 ft 26-33
+198,rebound,,,26.0,33.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,6:45.0 26-33 Defensive rebound by nurkiju01
+199,turnover,,,26.0,33.0,,,,,,,,,,,,,,,,,duranke01,bad pass,,,,,,,,,,,,,,6:31.0 26-33 Turnover by duranke01 (bad pass)
+200,fg_make,,,28.0,33.0,2.0,simonan01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 simonan01 makes 2-pt layup from 1 ft +2 28-33
+201,fg_make,,,28.0,36.0,3.0,jonesty01,3.0,jump shot,27.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,5:51.0 28-36 +3 jonesty01 makes 3-pt jump shot from 27 ft (assist by bookede01 )
+202,turnover,,,28.0,36.0,,,,,,,,,,,,,,,,,avdijde01,bad pass; steal by jonesty01,jonesty01,,,,,,,,,,,,,5:38.0 Turnover by avdijde01 (bad pass; steal by jonesty01 ) 28-36
+203,fg_miss,,,28.0,36.0,,bookede01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:34.0 28-36 bookede01 misses 3-pt jump shot from 26 ft
+204,rebound,,,28.0,36.0,,,,,,,,,,,offensive,jonesty01,False,,,,,,,,,,,,,,,,,,,5:31.0 28-36 Offensive rebound by jonesty01
+205,fg_miss,,,28.0,36.0,,allengr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:30.0 28-36 allengr01 misses 3-pt jump shot from 27 ft
+206,rebound,,,28.0,36.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,5:26.0 Defensive rebound by camarto01 28-36
+207,fg_make,,,30.0,36.0,2.0,grantje01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:14.0 grantje01 makes 2-pt layup from 4 ft +2 30-36
+208,fg_miss,,,30.0,36.0,,bookede01,3.0,jump shot,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:05.0 30-36 bookede01 misses 3-pt jump shot from 31 ft
+209,rebound,,,30.0,36.0,,,,,,,,,,,offensive,jonesty01,False,,,,,,,,,,,,,,,,,,,5:01.0 30-36 Offensive rebound by jonesty01
+210,fg_make,,,30.0,39.0,3.0,allengr01,3.0,jump shot,22.0,jonesty01,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 30-39 +3 allengr01 makes 3-pt jump shot from 22 ft (assist by jonesty01 )
+211,fg_make,,,32.0,39.0,2.0,simonan01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 simonan01 makes 2-pt jump shot from 4 ft +2 32-39
+212,foul,,,32.0,39.0,,,,,,,,,,,,,,shooting,nurkiju01,simonan01,,,,,,,,,,,,,,,,4:44.0 Shooting foul by nurkiju01 (drawn by simonan01 ) 32-39
+213,substitution,,,32.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 32-39 bealbr01 enters the game for bookede01
+214,free_throw,,,32.0,39.0,,simonan01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:44.0 simonan01 misses free throw 1 of 1 32-39
+215,rebound,,,32.0,39.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:42.0 Offensive rebound by Team 32-39
+216,fg_make,,,35.0,39.0,3.0,avdijde01,3.0,jump shot,25.0,aytonde01,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 avdijde01 makes 3-pt jump shot from 25 ft (assist by aytonde01 ) +3 35-39
+217,fg_miss,,,35.0,39.0,,bealbr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 35-39 bealbr01 misses 3-pt jump shot from 25 ft
+218,rebound,,,35.0,39.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,4:18.0 Defensive rebound by camarto01 35-39
+219,fg_miss,,,35.0,39.0,,camarto01,2.0,layup,7.0,,allengr01,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 camarto01 misses 2-pt layup from 7 ft (block by allengr01 ) 35-39
+220,rebound,,,35.0,39.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,4:13.0 35-39 Defensive rebound by Team
+221,substitution,,,35.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 35-39 plumlma01 enters the game for nurkiju01
+222,fg_miss,,,35.0,39.0,,jonesty01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:54.0 35-39 jonesty01 misses 3-pt jump shot from 25 ft
+223,rebound,,,35.0,39.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,3:51.0 Defensive rebound by aytonde01 35-39
+224,fg_miss,,,35.0,39.0,,grantje01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 grantje01 misses 3-pt jump shot from 24 ft 35-39
+225,rebound,,,35.0,39.0,,,,,,,,,,,offensive,avdijde01,False,,,,,,,,,,,,,,,,,,,3:39.0 Offensive rebound by avdijde01 35-39
+226,fg_make,,,38.0,39.0,3.0,simonan01,3.0,jump shot,26.0,avdijde01,,,,,,,,,,,,,,,,,,,,,,,,,,3:38.0 simonan01 makes 3-pt jump shot from 26 ft (assist by avdijde01 ) +3 38-39
+227,timeout,,,38.0,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Phoenix full,,,,3:26.0 38-39 Phoenix full timeout
+228,fg_miss,,,38.0,39.0,,duranke01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:16.0 38-39 duranke01 misses 2-pt jump shot from 11 ft
+229,rebound,,,38.0,39.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,3:13.0 Defensive rebound by Team 38-39
+230,fg_miss,,,38.0,39.0,,aytonde01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:57.0 aytonde01 misses 2-pt jump shot from 11 ft 38-39
+231,rebound,,,38.0,39.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,2:56.0 38-39 Defensive rebound by duranke01
+232,fg_miss,,,38.0,39.0,,plumlma01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:47.0 38-39 plumlma01 misses 2-pt layup from 3 ft
+233,rebound,,,38.0,39.0,,,,,,,,,,,offensive,plumlma01,False,,,,,,,,,,,,,,,,,,,2:46.0 38-39 Offensive rebound by plumlma01
+234,fg_miss,,,38.0,39.0,,plumlma01,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:40.0 38-39 plumlma01 misses 2-pt hook shot from 5 ft
+235,rebound,,,38.0,39.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,2:37.0 Defensive rebound by aytonde01 38-39
+236,fg_miss,,,38.0,39.0,,aytonde01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:27.0 aytonde01 misses 2-pt jump shot from 11 ft 38-39
+237,rebound,,,38.0,39.0,,,,,,,,,,,defensive,jonesty01,False,,,,,,,,,,,,,,,,,,,2:22.0 38-39 Defensive rebound by jonesty01
+238,fg_make,,,38.0,41.0,2.0,jonesty01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:15.0 38-41 +2 jonesty01 makes 2-pt layup from 5 ft
+239,fg_miss,,,38.0,41.0,,grantje01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 grantje01 misses 2-pt jump shot from 15 ft 38-41
+240,rebound,,,38.0,41.0,,,,,,,,,,,offensive,camarto01,False,,,,,,,,,,,,,,,,,,,1:56.0 Offensive rebound by camarto01 38-41
+241,fg_make,,,41.0,41.0,3.0,camarto01,3.0,jump shot,23.0,simonan01,,,,,,,,,,,,,,,,,,,,,,,,,,1:54.0 camarto01 makes 3-pt jump shot from 23 ft (assist by simonan01 ) +3 41-41
+242,foul,,,41.0,41.0,,,,,,,,,,,,,,personal,grantje01,duranke01,,,,,,,,,,,,,,,,1:40.0 41-41 Personal foul by grantje01 (drawn by duranke01 )
+243,substitution,,,41.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:40.0 41-41 bookede01 enters the game for duranke01
+244,substitution,,,41.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:40.0 41-41 dunnry01 enters the game for jonesty01
+245,fg_miss,,,41.0,41.0,,bealbr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:26.0 41-41 bealbr01 misses 3-pt jump shot from 23 ft
+246,rebound,,,41.0,41.0,,,,,,,,,,,offensive,allengr01,False,,,,,,,,,,,,,,,,,,,1:26.0 41-41 Offensive rebound by allengr01
+247,unknown,,,41.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),1:26.0 41-41 Turnover by Team (shot clock)
+248,substitution,,,41.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:26.0 41-41 onealro01 enters the game for allengr01
+249,fg_make,,,44.0,41.0,3.0,grantje01,3.0,jump shot,24.0,simonan01,,,,,,,,,,,,,,,,,,,,,,,,,,1:17.0 grantje01 makes 3-pt jump shot from 24 ft (assist by simonan01 ) +3 44-41
+250,fg_make,,,44.0,43.0,2.0,bealbr01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:03.0 44-43 +2 bealbr01 makes 2-pt layup from 4 ft
+251,fg_make,,,47.0,43.0,3.0,simonan01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:54.0 simonan01 makes 3-pt jump shot from 26 ft +3 47-43
+252,fg_miss,,,47.0,43.0,,onealro01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:44.0 47-43 onealro01 misses 3-pt jump shot from 26 ft
+253,rebound,,,47.0,43.0,,,,,,,,,,,defensive,grantje01,False,,,,,,,,,,,,,,,,,,,0:41.0 Defensive rebound by grantje01 47-43
+254,fg_miss,,,47.0,43.0,,avdijde01,2.0,layup,4.0,,onealro01,,,,,,,,,,,,,,,,,,,,,,,,,0:37.0 avdijde01 misses 2-pt layup from 4 ft (block by onealro01 ) 47-43
+255,rebound,,,47.0,43.0,,,,,,,,,,,defensive,bealbr01,False,,,,,,,,,,,,,,,,,,,0:33.0 47-43 Defensive rebound by bealbr01
+256,fg_miss,,,47.0,43.0,,onealro01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:17.0 47-43 onealro01 misses 3-pt jump shot from 22 ft
+257,rebound,,,47.0,43.0,,,,,,,,,,,defensive,grantje01,False,,,,,,,,,,,,,,,,,,,0:14.0 Defensive rebound by grantje01 47-43
+258,fg_miss,,,47.0,43.0,,simonan01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 simonan01 misses 2-pt jump shot from 14 ft 47-43
+259,rebound,,,47.0,43.0,,,,,,,,,,,defensive,plumlma01,False,,,,,,,,,,,,,,,,,,,0:01.0 47-43 Defensive rebound by plumlma01
+260,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+261,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+262,fg_miss,,,47.0,43.0,,simonan01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:40.0 simonan01 misses 2-pt jump shot from 10 ft 47-43
+263,rebound,,,47.0,43.0,,,,,,,,,,,defensive,bookede01,False,,,,,,,,,,,,,,,,,,,11:37.0 47-43 Defensive rebound by bookede01
+264,fg_make,,,47.0,45.0,2.0,jonesty01,2.0,layup,2.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,11:34.0 47-45 +2 jonesty01 makes 2-pt layup from 2 ft (assist by bookede01 )
+265,fg_miss,,,47.0,45.0,,grantje01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:23.0 grantje01 misses 3-pt jump shot from 28 ft 47-45
+266,rebound,,,47.0,45.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,11:20.0 47-45 Defensive rebound by nurkiju01
+267,fg_make,,,47.0,48.0,3.0,bealbr01,3.0,jump shot,26.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,11:07.0 47-48 +3 bealbr01 makes 3-pt jump shot from 26 ft (assist by bookede01 )
+268,fg_miss,,,47.0,48.0,,avdijde01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:54.0 avdijde01 misses 3-pt jump shot from 25 ft 47-48
+269,rebound,,,47.0,48.0,,,,,,,,,,,offensive,camarto01,False,,,,,,,,,,,,,,,,,,,10:48.0 Offensive rebound by camarto01 47-48
+270,fg_miss,,,47.0,48.0,,grantje01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:46.0 grantje01 misses 3-pt jump shot from 26 ft 47-48
+271,rebound,,,47.0,48.0,,,,,,,,,,,offensive,avdijde01,False,,,,,,,,,,,,,,,,,,,10:45.0 Offensive rebound by avdijde01 47-48
+272,foul,,,47.0,48.0,,,,,,,,,,,,,,shooting,nurkiju01,avdijde01,,,,,,,,,,,,,,,,10:45.0 Shooting foul by nurkiju01 (drawn by avdijde01 ) 47-48
+273,free_throw,,,48.0,48.0,1.0,avdijde01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:45.0 avdijde01 makes free throw 1 of 2 +1 48-48
+274,free_throw,,,49.0,48.0,1.0,avdijde01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:45.0 avdijde01 makes free throw 2 of 2 +1 49-48
+275,unknown,,,49.0,48.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Def 3 sec tech foul by Team,10:30.0 49-48 Def 3 sec tech foul by Team
+276,unknown,,,49.0,49.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bookede01 makes technical free throw,10:30.0 49-49 +1 bookede01 makes technical free throw
+277,fg_make,,,49.0,51.0,2.0,bookede01,2.0,jump shot,14.0,bealbr01,,,,,,,,,,,,,,,,,,,,,,,,,,10:18.0 49-51 +2 bookede01 makes 2-pt jump shot from 14 ft (assist by bealbr01 )
+278,fg_miss,,,49.0,51.0,,simonan01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 simonan01 misses 3-pt jump shot from 28 ft 49-51
+279,rebound,,,49.0,51.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,10:02.0 49-51 Defensive rebound by nurkiju01
+280,fg_make,,,49.0,54.0,3.0,bookede01,3.0,jump shot,27.0,jonesty01,,,,,,,,,,,,,,,,,,,,,,,,,,9:56.0 49-54 +3 bookede01 makes 3-pt jump shot from 27 ft (assist by jonesty01 )
+281,fg_make,,,52.0,54.0,3.0,aytonde01,3.0,jump shot,26.0,grantje01,,,,,,,,,,,,,,,,,,,,,,,,,,9:39.0 aytonde01 makes 3-pt jump shot from 26 ft (assist by grantje01 ) +3 52-54
+282,fg_miss,,,52.0,54.0,,bookede01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:23.0 52-54 bookede01 misses 3-pt jump shot from 24 ft
+283,rebound,,,52.0,54.0,,,,,,,,,,,defensive,grantje01,False,,,,,,,,,,,,,,,,,,,9:21.0 Defensive rebound by grantje01 52-54
+284,fg_make,,,54.0,54.0,2.0,grantje01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:15.0 grantje01 makes 2-pt layup from 3 ft +2 54-54
+285,fg_make,,,54.0,57.0,3.0,jonesty01,3.0,jump shot,25.0,bealbr01,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 54-57 +3 jonesty01 makes 3-pt jump shot from 25 ft (assist by bealbr01 )
+286,turnover,,,54.0,57.0,,,,,,,,,,,,,,,,,grantje01,traveling,,,,,,,,,,,,,,8:47.0 Turnover by grantje01 (traveling) 54-57
+287,fg_make,,,54.0,59.0,2.0,duranke01,2.0,jump shot,16.0,jonesty01,,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 54-59 +2 duranke01 makes 2-pt jump shot from 16 ft (assist by jonesty01 )
+288,fg_miss,,,54.0,59.0,,camarto01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:25.0 camarto01 misses 3-pt jump shot from 23 ft 54-59
+289,rebound,,,54.0,59.0,,,,,,,,,,,defensive,bealbr01,False,,,,,,,,,,,,,,,,,,,8:22.0 54-59 Defensive rebound by bealbr01
+290,fg_make,,,54.0,61.0,2.0,duranke01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 54-61 +2 duranke01 makes 2-pt jump shot from 15 ft
+291,timeout,,,54.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,8:11.0 Portland full timeout 54-61
+292,fg_miss,,,54.0,61.0,,aytonde01,2.0,hook shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:01.0 aytonde01 misses 2-pt hook shot from 9 ft 54-61
+293,rebound,,,54.0,61.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,7:58.0 54-61 Defensive rebound by nurkiju01
+294,fg_miss,,,54.0,61.0,,jonesty01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:52.0 54-61 jonesty01 misses 3-pt jump shot from 26 ft
+295,rebound,,,54.0,61.0,,,,,,,,,,,offensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,7:49.0 54-61 Offensive rebound by nurkiju01
+296,fg_miss,,,54.0,61.0,,bookede01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:36.0 54-61 bookede01 misses 3-pt jump shot from 25 ft
+297,rebound,,,54.0,61.0,,,,,,,,,,,defensive,avdijde01,False,,,,,,,,,,,,,,,,,,,7:34.0 Defensive rebound by avdijde01 54-61
+298,substitution,,,54.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:34.0 54-61 onealro01 enters the game for jonesty01
+299,fg_make,,,56.0,61.0,2.0,grantje01,2.0,jump shot,9.0,aytonde01,,,,,,,,,,,,,,,,,,,,,,,,,,7:23.0 grantje01 makes 2-pt jump shot from 9 ft (assist by aytonde01 ) +2 56-61
+300,fg_miss,,,56.0,61.0,,bealbr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:10.0 56-61 bealbr01 misses 3-pt jump shot from 25 ft
+301,rebound,,,56.0,61.0,,,,,,,,,,,offensive,bookede01,False,,,,,,,,,,,,,,,,,,,7:08.0 56-61 Offensive rebound by bookede01
+302,fg_make,,,56.0,64.0,3.0,duranke01,3.0,jump shot,27.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,7:06.0 56-64 +3 duranke01 makes 3-pt jump shot from 27 ft (assist by bookede01 )
+303,substitution,,,56.0,64.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:06.0 hendesc01 enters the game for avdijde01 56-64
+304,fg_miss,,,56.0,64.0,,hendesc01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:53.0 hendesc01 misses 2-pt jump shot from 13 ft 56-64
+305,rebound,,,56.0,64.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,6:51.0 56-64 Defensive rebound by nurkiju01
+306,fg_make,,,56.0,66.0,2.0,bookede01,2.0,layup,4.0,bealbr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:41.0 56-66 +2 bookede01 makes 2-pt layup from 4 ft (assist by bealbr01 )
+307,fg_miss,,,56.0,66.0,,hendesc01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 hendesc01 misses 3-pt jump shot from 22 ft 56-66
+308,rebound,,,56.0,66.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,6:22.0 56-66 Defensive rebound by nurkiju01
+309,fg_miss,,,56.0,66.0,,bookede01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:16.0 56-66 bookede01 misses 3-pt jump shot from 26 ft
+310,rebound,,,56.0,66.0,,,,,,,,,,,offensive,bookede01,False,,,,,,,,,,,,,,,,,,,6:14.0 56-66 Offensive rebound by bookede01
+311,fg_make,,,56.0,69.0,3.0,bealbr01,3.0,jump shot,26.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,6:11.0 56-69 +3 bealbr01 makes 3-pt jump shot from 26 ft (assist by bookede01 )
+312,fg_miss,,,56.0,69.0,,aytonde01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 aytonde01 misses 2-pt jump shot from 4 ft 56-69
+313,rebound,,,56.0,69.0,,,,,,,,,,,defensive,bealbr01,False,,,,,,,,,,,,,,,,,,,5:56.0 56-69 Defensive rebound by bealbr01
+314,substitution,,,56.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 murrakr01 enters the game for grantje01 56-69
+315,substitution,,,56.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 56-69 allengr01 enters the game for bealbr01
+316,substitution,,,56.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 56-69 jonesty01 enters the game for bookede01
+317,fg_miss,,,56.0,69.0,,onealro01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:35.0 56-69 onealro01 misses 3-pt jump shot from 25 ft
+318,rebound,,,56.0,69.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:33.0 Defensive rebound by Team 56-69
+319,fg_make,,,58.0,69.0,2.0,aytonde01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:13.0 aytonde01 makes 2-pt jump shot from 15 ft +2 58-69
+320,fg_miss,,,58.0,69.0,,duranke01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 58-69 duranke01 misses 3-pt jump shot from 23 ft
+321,rebound,,,58.0,69.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,4:56.0 Defensive rebound by aytonde01 58-69
+322,fg_miss,,,58.0,69.0,,simonan01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:47.0 simonan01 misses 3-pt jump shot from 26 ft 58-69
+323,rebound,,,58.0,69.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,4:44.0 58-69 Defensive rebound by duranke01
+324,fg_miss,,,58.0,69.0,,nurkiju01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 58-69 nurkiju01 misses 3-pt jump shot from 27 ft
+325,rebound,,,58.0,69.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,4:34.0 Defensive rebound by aytonde01 58-69
+326,fg_miss,,,58.0,69.0,,aytonde01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:26.0 aytonde01 misses 3-pt jump shot from 26 ft 58-69
+327,rebound,,,58.0,69.0,,,,,,,,,,,defensive,onealro01,False,,,,,,,,,,,,,,,,,,,4:23.0 58-69 Defensive rebound by onealro01
+328,fg_make,,,58.0,72.0,3.0,nurkiju01,3.0,jump shot,25.0,jonesty01,,,,,,,,,,,,,,,,,,,,,,,,,,4:11.0 58-72 +3 nurkiju01 makes 3-pt jump shot from 25 ft (assist by jonesty01 )
+329,turnover,,,58.0,72.0,,,,,,,,,,,,,,,,,hendesc01,bad pass; steal by onealro01,onealro01,,,,,,,,,,,,,3:58.0 Turnover by hendesc01 (bad pass; steal by onealro01 ) 58-72
+330,fg_make,,,58.0,74.0,2.0,allengr01,2.0,layup,3.0,onealro01,,,,,,,,,,,,,,,,,,,,,,,,,,3:54.0 58-74 +2 allengr01 makes 2-pt layup from 3 ft (assist by onealro01 )
+331,timeout,,,58.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,3:54.0 Portland full timeout 58-74
+332,substitution,,,58.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:54.0 clingdo01 enters the game for aytonde01 58-74
+333,substitution,,,58.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:54.0 ruperra01 enters the game for simonan01 58-74
+334,fg_miss,,,58.0,74.0,,camarto01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:44.0 camarto01 misses 2-pt dunk from 2 ft 58-74
+335,rebound,,,58.0,74.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,3:41.0 58-74 Defensive rebound by nurkiju01
+336,fg_make,,,58.0,77.0,3.0,allengr01,3.0,jump shot,22.0,duranke01,,,,,,,,,,,,,,,,,,,,,,,,,,3:36.0 58-77 +3 allengr01 makes 3-pt jump shot from 22 ft (assist by duranke01 )
+337,fg_miss,,,58.0,77.0,,camarto01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 camarto01 misses 2-pt jump shot from 6 ft 58-77
+338,rebound,,,58.0,77.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,3:14.0 58-77 Defensive rebound by nurkiju01
+339,fg_miss,,,58.0,77.0,,jonesty01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:00.0 58-77 jonesty01 misses 3-pt jump shot from 26 ft
+340,rebound,,,58.0,77.0,,,,,,,,,,,defensive,hendesc01,False,,,,,,,,,,,,,,,,,,,2:57.0 Defensive rebound by hendesc01 58-77
+341,fg_miss,,,58.0,77.0,,camarto01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:44.0 camarto01 misses 2-pt layup from 5 ft 58-77
+342,rebound,,,58.0,77.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,2:43.0 58-77 Defensive rebound by Team
+343,fg_make,,,58.0,80.0,3.0,onealro01,3.0,jump shot,24.0,jonesty01,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 58-80 +3 onealro01 makes 3-pt jump shot from 24 ft (assist by jonesty01 )
+344,fg_make,,,60.0,80.0,2.0,hendesc01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 hendesc01 makes 2-pt jump shot from 11 ft +2 60-80
+345,fg_miss,,,60.0,80.0,,nurkiju01,2.0,hook shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 60-80 nurkiju01 misses 2-pt hook shot from 3 ft
+346,rebound,,,60.0,80.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,2:00.0 Defensive rebound by camarto01 60-80
+347,fg_make,,,62.0,80.0,2.0,ruperra01,2.0,layup,2.0,camarto01,,,,,,,,,,,,,,,,,,,,,,,,,,1:57.0 ruperra01 makes 2-pt layup from 2 ft (assist by camarto01 ) +2 62-80
+348,timeout,,,62.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Phoenix full,,,,1:49.0 62-80 Phoenix full timeout
+349,substitution,,,62.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:49.0 62-80 bookede01 enters the game for duranke01
+350,substitution,,,62.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:49.0 62-80 dunnry01 enters the game for nurkiju01
+351,substitution,,,62.0,80.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:49.0 62-80 plumlma01 enters the game for onealro01
+352,fg_make,,,62.0,82.0,2.0,allengr01,2.0,layup,3.0,dunnry01,,,,,,,,,,,,,,,,,,,,,,,,,,1:44.0 62-82 +2 allengr01 makes 2-pt layup from 3 ft (assist by dunnry01 )
+353,fg_miss,,,62.0,82.0,,ruperra01,2.0,layup,2.0,,plumlma01,,,,,,,,,,,,,,,,,,,,,,,,,1:23.0 ruperra01 misses 2-pt layup from 2 ft (block by plumlma01 ) 62-82
+354,rebound,,,62.0,82.0,,,,,,,,,,,offensive,clingdo01,False,,,,,,,,,,,,,,,,,,,1:19.0 Offensive rebound by clingdo01 62-82
+355,fg_make,,,64.0,82.0,2.0,clingdo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:18.0 clingdo01 makes 2-pt layup from 2 ft +2 64-82
+356,fg_make,,,64.0,85.0,3.0,allengr01,3.0,jump shot,25.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,1:08.0 64-85 +3 allengr01 makes 3-pt jump shot from 25 ft (assist by bookede01 )
+357,fg_miss,,,64.0,85.0,,clingdo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:57.0 clingdo01 misses 3-pt jump shot from 25 ft 64-85
+358,rebound,,,64.0,85.0,,,,,,,,,,,defensive,bookede01,False,,,,,,,,,,,,,,,,,,,0:54.0 64-85 Defensive rebound by bookede01
+359,fg_miss,,,64.0,85.0,,jonesty01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 64-85 jonesty01 misses 2-pt jump shot from 15 ft
+360,rebound,,,64.0,85.0,,,,,,,,,,,defensive,murrakr01,False,,,,,,,,,,,,,,,,,,,0:36.0 Defensive rebound by murrakr01 64-85
+361,fg_miss,,,64.0,85.0,,murrakr01,2.0,layup,4.0,,allengr01,,,,,,,,,,,,,,,,,,,,,,,,,0:35.0 murrakr01 misses 2-pt layup from 4 ft (block by allengr01 ) 64-85
+362,rebound,,,64.0,85.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:35.0 Offensive rebound by Team 64-85
+363,fg_miss,,,64.0,85.0,,murrakr01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 murrakr01 misses 2-pt layup from 4 ft 64-85
+364,rebound,,,64.0,85.0,,,,,,,,,,,offensive,camarto01,False,,,,,,,,,,,,,,,,,,,0:27.0 Offensive rebound by camarto01 64-85
+365,foul,,,64.0,85.0,,,,,,,,,,,,,,shooting,jonesty01,clingdo01,,,,,,,,,,,,,,,,0:25.0 Shooting foul by jonesty01 (drawn by clingdo01 ) 64-85
+366,free_throw,,,64.0,85.0,,clingdo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:25.0 clingdo01 misses free throw 1 of 2 64-85
+367,rebound,,,64.0,85.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:25.0 Offensive rebound by Team 64-85
+368,free_throw,,,65.0,85.0,1.0,clingdo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:25.0 clingdo01 makes free throw 2 of 2 +1 65-85
+369,foul,,,65.0,85.0,,,,,,,,,,,,,,personal,murrakr01,jonesty01,,,,,,,,,,,,,,,,0:05.0 65-85 Personal foul by murrakr01 (drawn by jonesty01 )
+370,fg_make,,,65.0,87.0,2.0,bookede01,2.0,dunk,1.0,dunnry01,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 65-87 +2 bookede01 makes 2-pt dunk from 1 ft (assist by dunnry01 )
+371,fg_miss,,,65.0,87.0,,murrakr01,3.0,jump shot,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 murrakr01 misses 3-pt jump shot from 34 ft 65-87
+372,rebound,,,65.0,87.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 65-87
+373,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+374,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+375,fg_miss,,,65.0,87.0,,dunnry01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:42.0 65-87 dunnry01 misses 3-pt jump shot from 26 ft
+376,rebound,,,65.0,87.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,11:39.0 Defensive rebound by clingdo01 65-87
+377,fg_miss,,,65.0,87.0,,simonan01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:32.0 simonan01 misses 3-pt jump shot from 28 ft 65-87
+378,rebound,,,65.0,87.0,,,,,,,,,,,defensive,bookede01,False,,,,,,,,,,,,,,,,,,,11:28.0 65-87 Defensive rebound by bookede01
+379,fg_miss,,,65.0,87.0,,allengr01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:15.0 65-87 allengr01 misses 3-pt jump shot from 28 ft
+380,rebound,,,65.0,87.0,,,,,,,,,,,offensive,bookede01,False,,,,,,,,,,,,,,,,,,,11:12.0 65-87 Offensive rebound by bookede01
+381,fg_make,,,65.0,89.0,2.0,bealbr01,2.0,jump shot,5.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,11:08.0 65-89 +2 bealbr01 makes 2-pt jump shot from 5 ft (assist by bookede01 )
+382,fg_miss,,,65.0,89.0,,avdijde01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:43.0 avdijde01 misses 2-pt jump shot from 6 ft 65-89
+383,rebound,,,65.0,89.0,,,,,,,,,,,defensive,dunnry01,False,,,,,,,,,,,,,,,,,,,10:40.0 65-89 Defensive rebound by dunnry01
+384,fg_make,,,65.0,91.0,2.0,allengr01,2.0,jump shot,6.0,bookede01,,,,,,,,,,,,,,,,,,,,,,,,,,10:22.0 65-91 +2 allengr01 makes 2-pt jump shot from 6 ft (assist by bookede01 )
+385,fg_make,,,67.0,91.0,2.0,bantoda01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:11.0 bantoda01 makes 2-pt layup from 4 ft +2 67-91
+386,fg_make,,,67.0,93.0,2.0,bookede01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:51.0 67-93 +2 bookede01 makes 2-pt jump shot from 9 ft
+387,fg_make,,,70.0,93.0,3.0,simonan01,3.0,jump shot,27.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,9:43.0 simonan01 makes 3-pt jump shot from 27 ft (assist by bantoda01 ) +3 70-93
+388,fg_miss,,,70.0,93.0,,allengr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 70-93 allengr01 misses 3-pt jump shot from 25 ft
+389,rebound,,,70.0,93.0,,,,,,,,,,,defensive,simonan01,False,,,,,,,,,,,,,,,,,,,9:18.0 Defensive rebound by simonan01 70-93
+390,fg_make,,,73.0,93.0,3.0,bantoda01,3.0,jump shot,27.0,simonan01,,,,,,,,,,,,,,,,,,,,,,,,,,9:12.0 bantoda01 makes 3-pt jump shot from 27 ft (assist by simonan01 ) +3 73-93
+391,fg_miss,,,73.0,93.0,,bookede01,2.0,layup,7.0,,clingdo01,,,,,,,,,,,,,,,,,,,,,,,,,8:52.0 73-93 bookede01 misses 2-pt layup from 7 ft (block by clingdo01 )
+392,rebound,,,73.0,93.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:52.0 73-93 Offensive rebound by Team
+393,substitution,,,73.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:52.0 aytonde01 enters the game for clingdo01 73-93
+394,substitution,,,73.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:52.0 73-93 morrimo01 enters the game for allengr01
+395,fg_miss,,,73.0,93.0,,bookede01,2.0,layup,5.0,,avdijde01,,,,,,,,,,,,,,,,,,,,,,,,,8:49.0 73-93 bookede01 misses 2-pt layup from 5 ft (block by avdijde01 )
+396,rebound,,,73.0,93.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:49.0 73-93 Offensive rebound by Team
+397,turnover,,,73.0,93.0,,,,,,,,,,,,,,,,,plumlma01,lost ball; steal by bantoda01,bantoda01,,,,,,,,,,,,,8:43.0 73-93 Turnover by plumlma01 (lost ball; steal by bantoda01 )
+398,fg_make,,,75.0,93.0,2.0,bantoda01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:40.0 bantoda01 makes 2-pt dunk from 2 ft +2 75-93
+399,fg_miss,,,75.0,93.0,,bealbr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:24.0 75-93 bealbr01 misses 3-pt jump shot from 25 ft
+400,rebound,,,75.0,93.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,8:20.0 Defensive rebound by aytonde01 75-93
+401,fg_make,,,77.0,93.0,2.0,simonan01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 simonan01 makes 2-pt layup from 2 ft +2 77-93
+402,timeout,,,77.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Phoenix full,,,,8:04.0 77-93 Phoenix full timeout
+403,substitution,,,77.0,93.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 77-93 duranke01 enters the game for dunnry01
+404,fg_make,,,77.0,95.0,2.0,bookede01,2.0,jump shot,8.0,plumlma01,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 77-95 +2 bookede01 makes 2-pt jump shot from 8 ft (assist by plumlma01 )
+405,fg_miss,,,77.0,95.0,,aytonde01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 aytonde01 misses 2-pt layup from 3 ft 77-95
+406,rebound,,,77.0,95.0,,,,,,,,,,,defensive,morrimo01,False,,,,,,,,,,,,,,,,,,,7:38.0 77-95 Defensive rebound by morrimo01
+407,fg_miss,,,77.0,95.0,,duranke01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:33.0 77-95 duranke01 misses 2-pt jump shot from 5 ft
+408,rebound,,,77.0,95.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,7:31.0 Defensive rebound by aytonde01 77-95
+409,fg_make,,,79.0,95.0,2.0,avdijde01,2.0,layup,3.0,simonan01,,,,,,,,,,,,,,,,,,,,,,,,,,7:27.0 avdijde01 makes 2-pt layup from 3 ft (assist by simonan01 ) +2 79-95
+410,fg_make,,,79.0,97.0,2.0,bookede01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 79-97 +2 bookede01 makes 2-pt jump shot from 14 ft
+411,fg_miss,,,79.0,97.0,,grantje01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:46.0 grantje01 misses 2-pt jump shot from 9 ft 79-97
+412,rebound,,,79.0,97.0,,,,,,,,,,,defensive,plumlma01,False,,,,,,,,,,,,,,,,,,,6:43.0 79-97 Defensive rebound by plumlma01
+413,foul,,,79.0,97.0,,,,,,,,,,,,,,shooting,aytonde01,plumlma01,,,,,,,,,,,,,,,,6:37.0 79-97 Shooting foul by aytonde01 (drawn by plumlma01 )
+414,free_throw,,,79.0,97.0,,plumlma01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:37.0 79-97 plumlma01 misses free throw 1 of 2
+415,rebound,,,79.0,97.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:37.0 79-97 Offensive rebound by Team
+416,substitution,,,79.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:37.0 camarto01 enters the game for avdijde01 79-97
+417,free_throw,,,79.0,97.0,,plumlma01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:37.0 79-97 plumlma01 misses free throw 2 of 2
+418,rebound,,,79.0,97.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,6:34.0 Defensive rebound by aytonde01 79-97
+419,fg_make,,,82.0,97.0,3.0,simonan01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:24.0 simonan01 makes 3-pt jump shot from 27 ft +3 82-97
+420,foul,,,82.0,97.0,,,,,,,,,,,,,,personal,bantoda01,plumlma01,,,,,,,,,,,,,,,,6:03.0 82-97 Personal foul by bantoda01 (drawn by plumlma01 )
+421,substitution,,,82.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:03.0 82-97 nurkiju01 enters the game for bookede01
+422,substitution,,,82.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:03.0 82-97 onealro01 enters the game for plumlma01
+423,fg_miss,,,82.0,97.0,,duranke01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:56.0 82-97 duranke01 misses 2-pt jump shot from 15 ft
+424,rebound,,,82.0,97.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,5:52.0 Defensive rebound by aytonde01 82-97
+425,fg_miss,,,82.0,97.0,,grantje01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:48.0 grantje01 misses 2-pt layup from 4 ft 82-97
+426,rebound,,,82.0,97.0,,,,,,,,,,,offensive,simonan01,False,,,,,,,,,,,,,,,,,,,5:43.0 Offensive rebound by simonan01 82-97
+427,fg_make,,,84.0,97.0,2.0,simonan01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 simonan01 makes 2-pt dunk at rim +2 84-97
+428,fg_miss,,,84.0,97.0,,morrimo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:28.0 84-97 morrimo01 misses 3-pt jump shot from 26 ft
+429,rebound,,,84.0,97.0,,,,,,,,,,,defensive,aytonde01,False,,,,,,,,,,,,,,,,,,,5:26.0 Defensive rebound by aytonde01 84-97
+430,fg_miss,,,84.0,97.0,,simonan01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:18.0 simonan01 misses 3-pt jump shot from 26 ft 84-97
+431,rebound,,,84.0,97.0,,,,,,,,,,,defensive,nurkiju01,False,,,,,,,,,,,,,,,,,,,5:14.0 84-97 Defensive rebound by nurkiju01
+432,turnover,,,84.0,97.0,,,,,,,,,,,,,,,,,nurkiju01,bad pass; steal by bantoda01,bantoda01,,,,,,,,,,,,,5:11.0 84-97 Turnover by nurkiju01 (bad pass; steal by bantoda01 )
+433,fg_miss,,,84.0,97.0,,bantoda01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 bantoda01 misses 3-pt jump shot from 26 ft 84-97
+434,rebound,,,84.0,97.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:06.0 84-97 Defensive rebound by Team
+435,timeout,,,84.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Phoenix full,,,,5:06.0 84-97 Phoenix full timeout
+436,substitution,,,84.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:06.0 84-97 bookede01 enters the game for bealbr01
+437,substitution,,,84.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:06.0 84-97 jonesty01 enters the game for morrimo01
+438,fg_miss,,,84.0,97.0,,bookede01,2.0,jump shot,16.0,,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 84-97 bookede01 misses 2-pt jump shot from 16 ft (block by bantoda01 )
+439,rebound,,,84.0,97.0,,,,,,,,,,,defensive,simonan01,False,,,,,,,,,,,,,,,,,,,4:41.0 Defensive rebound by simonan01 84-97
+440,fg_miss,,,84.0,97.0,,grantje01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:38.0 grantje01 misses 3-pt jump shot from 24 ft 84-97
+441,rebound,,,84.0,97.0,,,,,,,,,,,offensive,simonan01,False,,,,,,,,,,,,,,,,,,,4:35.0 Offensive rebound by simonan01 84-97
+442,fg_miss,,,84.0,97.0,,simonan01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 simonan01 misses 2-pt layup from 5 ft 84-97
+443,rebound,,,84.0,97.0,,,,,,,,,,,defensive,onealro01,False,,,,,,,,,,,,,,,,,,,4:28.0 84-97 Defensive rebound by onealro01
+444,foul,,,84.0,97.0,,,,,,,,,,,,,,personal,aytonde01,onealro01,,,,,,,,,,,,,,,,4:28.0 84-97 Personal foul by aytonde01 (drawn by onealro01 )
+445,substitution,,,84.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:28.0 84-97 bealbr01 enters the game for nurkiju01
+446,foul,,,84.0,97.0,,,,,,,,,,,,,,personal,bantoda01,duranke01,,,,,,,,,,,,,,,,4:11.0 84-97 Personal foul by bantoda01 (drawn by duranke01 )
+447,timeout,,,84.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,4:11.0 Portland full timeout 84-97
+448,instant_replay,,,84.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:11.0 Instant Replay (Challenge: Ruling Stands) 84-97
+449,substitution,,,84.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:11.0 avdijde01 enters the game for aytonde01 84-97
+450,fg_miss,,,84.0,97.0,,duranke01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 84-97 duranke01 misses 3-pt jump shot from 24 ft
+451,rebound,,,84.0,97.0,,,,,,,,,,,defensive,grantje01,False,,,,,,,,,,,,,,,,,,,3:58.0 Defensive rebound by grantje01 84-97
+452,fg_make,,,86.0,97.0,2.0,grantje01,2.0,jump shot,14.0,avdijde01,,,,,,,,,,,,,,,,,,,,,,,,,,3:46.0 grantje01 makes 2-pt jump shot from 14 ft (assist by avdijde01 ) +2 86-97
+453,fg_miss,,,86.0,97.0,,bealbr01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:25.0 86-97 bealbr01 misses 2-pt jump shot from 17 ft
+454,rebound,,,86.0,97.0,,,,,,,,,,,offensive,onealro01,False,,,,,,,,,,,,,,,,,,,3:22.0 86-97 Offensive rebound by onealro01
+455,foul,,,86.0,97.0,,,,,,,,,,,,,,personal,avdijde01,bealbr01,,,,,,,,,,,,,,,,3:14.0 86-97 Personal foul by avdijde01 (drawn by bealbr01 )
+456,free_throw,,,86.0,97.0,,bealbr01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:14.0 86-97 bealbr01 misses free throw 1 of 2
+457,rebound,,,86.0,97.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:14.0 86-97 Offensive rebound by Team
+458,free_throw,,,86.0,97.0,,bealbr01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:14.0 86-97 bealbr01 misses free throw 2 of 2
+459,rebound,,,86.0,97.0,,,,,,,,,,,defensive,avdijde01,False,,,,,,,,,,,,,,,,,,,3:11.0 Defensive rebound by avdijde01 86-97
+460,fg_make,,,88.0,97.0,2.0,grantje01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:56.0 grantje01 makes 2-pt layup from 8 ft +2 88-97
+461,foul,,,88.0,97.0,,,,,,,,,,,,,,shooting,onealro01,grantje01,,,,,,,,,,,,,,,,2:56.0 Shooting foul by onealro01 (drawn by grantje01 ) 88-97
+462,free_throw,,,89.0,97.0,1.0,grantje01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,2:56.0 grantje01 makes free throw 1 of 1 +1 89-97
+463,turnover,,,89.0,97.0,,,,,,,,,,,,,,,,,jonesty01,bad pass; steal by camarto01,camarto01,,,,,,,,,,,,,2:44.0 89-97 Turnover by jonesty01 (bad pass; steal by camarto01 )
+464,turnover,,,89.0,97.0,,,,,,,,,,,,,,,,,bantoda01,out of bounds lost ball,,,,,,,,,,,,,,2:41.0 Turnover by bantoda01 (out of bounds lost ball) 89-97
+465,fg_miss,,,89.0,97.0,,jonesty01,3.0,jump shot,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:16.0 89-97 jonesty01 misses 3-pt jump shot from 44 ft
+466,rebound,,,89.0,97.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:16.0 89-97 Offensive rebound by Team
+467,unknown,,,89.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),2:16.0 89-97 Turnover by Team (shot clock)
+468,fg_miss,,,89.0,97.0,,simonan01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:07.0 simonan01 misses 3-pt jump shot from 27 ft 89-97
+469,rebound,,,89.0,97.0,,,,,,,,,,,offensive,bantoda01,False,,,,,,,,,,,,,,,,,,,2:03.0 Offensive rebound by bantoda01 89-97
+470,fg_make,,,91.0,97.0,2.0,bantoda01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:01.0 bantoda01 makes 2-pt dunk from 2 ft +2 91-97
+471,fg_miss,,,91.0,97.0,,bookede01,2.0,layup,2.0,,avdijde01,,,,,,,,,,,,,,,,,,,,,,,,,1:40.0 91-97 bookede01 misses 2-pt layup from 2 ft (block by avdijde01 )
+472,rebound,,,91.0,97.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,1:39.0 Defensive rebound by camarto01 91-97
+473,fg_make,,,94.0,97.0,3.0,avdijde01,3.0,jump shot,25.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,1:33.0 avdijde01 makes 3-pt jump shot from 25 ft (assist by bantoda01 ) +3 94-97
+474,fg_make,,,94.0,99.0,2.0,bookede01,2.0,jump shot,18.0,onealro01,,,,,,,,,,,,,,,,,,,,,,,,,,1:18.0 94-99 +2 bookede01 makes 2-pt jump shot from 18 ft (assist by onealro01 )
+475,fg_make,,,97.0,99.0,3.0,bantoda01,3.0,jump shot,27.0,simonan01,,,,,,,,,,,,,,,,,,,,,,,,,,1:04.0 bantoda01 makes 3-pt jump shot from 27 ft (assist by simonan01 ) +3 97-99
+476,fg_miss,,,97.0,99.0,,bealbr01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 97-99 bealbr01 misses 2-pt jump shot from 4 ft
+477,rebound,,,97.0,99.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,0:38.0 Defensive rebound by camarto01 97-99
+478,fg_miss,,,97.0,99.0,,bantoda01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:28.0 bantoda01 misses 3-pt jump shot from 26 ft 97-99
+479,rebound,,,97.0,99.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,0:24.0 97-99 Defensive rebound by duranke01
+480,unknown,,,97.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by simonan01 (drawn by jonesty01 ),0:21.0 97-99 Personal take foul by simonan01 (drawn by jonesty01 )
+481,free_throw,,,97.0,100.0,1.0,jonesty01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:21.0 97-100 +1 jonesty01 makes free throw 1 of 2
+482,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:21.0 aytonde01 enters the game for avdijde01 97-100
+483,substitution,,,97.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:21.0 clingdo01 enters the game for bantoda01 97-100
+484,free_throw,,,97.0,101.0,1.0,jonesty01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:21.0 97-101 +1 jonesty01 makes free throw 2 of 2
+485,timeout,,,97.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,0:21.0 Portland full timeout 97-101
+486,substitution,,,97.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:21.0 avdijde01 enters the game for aytonde01 97-101
+487,substitution,,,97.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:21.0 bantoda01 enters the game for clingdo01 97-101
+488,substitution,,,97.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:21.0 97-101 dunnry01 enters the game for jonesty01
+489,unknown,,,97.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by bookede01 (drawn by simonan01 ),0:19.0 Personal take foul by bookede01 (drawn by simonan01 ) 97-101
+490,substitution,,,97.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:19.0 aytonde01 enters the game for bantoda01 97-101
+491,fg_miss,,,97.0,101.0,,simonan01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:17.0 simonan01 misses 3-pt jump shot from 30 ft 97-101
+492,rebound,,,97.0,101.0,,,,,,,,,,,defensive,bealbr01,False,,,,,,,,,,,,,,,,,,,0:12.0 97-101 Defensive rebound by bealbr01
+493,turnover,,,97.0,101.0,,,,,,,,,,,,,,,,,bookede01,lost ball; steal by avdijde01,avdijde01,,,,,,,,,,,,,0:08.0 97-101 Turnover by bookede01 (lost ball; steal by avdijde01 )
+494,fg_miss,,,97.0,101.0,,avdijde01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 avdijde01 misses 2-pt layup from 4 ft 97-101
+495,rebound,,,97.0,101.0,,,,,,,,,,,defensive,bookede01,False,,,,,,,,,,,,,,,,,,,0:04.0 97-101 Defensive rebound by bookede01
+496,foul,,,97.0,101.0,,,,,,,,,,,,,,personal,grantje01,bookede01,,,,,,,,,,,,,,,,0:04.0 97-101 Personal foul by grantje01 (drawn by bookede01 )
+497,free_throw,,,97.0,102.0,1.0,bookede01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:04.0 97-102 +1 bookede01 makes free throw 1 of 2
+498,free_throw,,,97.0,103.0,1.0,bookede01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:04.0 97-103 +1 bookede01 makes free throw 2 of 2
+499,timeout,,,97.0,103.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,0:04.0 Portland full timeout 97-103
+500,fg_miss,,,97.0,103.0,,simonan01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 simonan01 misses 3-pt jump shot from 24 ft 97-103
+501,rebound,,,97.0,103.0,,,,,,,,,,,defensive,duranke01,False,,,,,,,,,,,,,,,,,,,0:01.0 97-103 Defensive rebound by duranke01
+502,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

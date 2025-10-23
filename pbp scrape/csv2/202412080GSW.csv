@@ -1,0 +1,451 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: goberru01 vs. greendr01 ( kuminjo01 gains possession)
+2,fg_make,,,0.0,2.0,2.0,kuminjo01,2.0,layup,6.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 0-2 +2 kuminjo01 makes 2-pt layup from 6 ft (assist by greendr01 )
+3,fg_make,,,3.0,2.0,3.0,conlemi01,3.0,jump shot,30.0,goberru01,,,,,,,,,,,,,,,,,,,,,,,,,,11:30.0 conlemi01 makes 3-pt jump shot from 30 ft (assist by goberru01 ) +3 3-2
+4,turnover,,,3.0,2.0,,,,,,,,,,,,,,,,,greendr01,bad pass; steal by mcdanja02,mcdanja02,,,,,,,,,,,,,11:21.0 3-2 Turnover by greendr01 (bad pass; steal by mcdanja02 )
+5,fg_miss,,,3.0,2.0,,conlemi01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:07.0 conlemi01 misses 3-pt jump shot from 27 ft 3-2
+6,rebound,,,3.0,2.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,11:05.0 3-2 Defensive rebound by greendr01
+7,fg_miss,,,3.0,2.0,,greendr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:57.0 3-2 greendr01 misses 3-pt jump shot from 26 ft
+8,rebound,,,3.0,2.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,10:54.0 Defensive rebound by goberru01 3-2
+9,fg_miss,,,3.0,2.0,,randlju01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:30.0 randlju01 misses 2-pt jump shot from 5 ft 3-2
+10,rebound,,,3.0,2.0,,,,,,,,,,,offensive,randlju01,False,,,,,,,,,,,,,,,,,,,10:28.0 Offensive rebound by randlju01 3-2
+11,foul,,,3.0,2.0,,,,,,,,,,,,,,shooting,hieldbu01,randlju01,,,,,,,,,,,,,,,,10:28.0 Shooting foul by hieldbu01 (drawn by randlju01 ) 3-2
+12,free_throw,,,4.0,2.0,1.0,randlju01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:28.0 randlju01 makes free throw 1 of 2 +1 4-2
+13,free_throw,,,5.0,2.0,1.0,randlju01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:28.0 randlju01 makes free throw 2 of 2 +1 5-2
+14,fg_miss,,,5.0,2.0,,kuminjo01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:13.0 5-2 kuminjo01 misses 2-pt jump shot from 13 ft
+15,rebound,,,5.0,2.0,,,,,,,,,,,offensive,paytoga02,False,,,,,,,,,,,,,,,,,,,10:11.0 5-2 Offensive rebound by paytoga02
+16,fg_make,,,5.0,4.0,2.0,paytoga02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:09.0 5-4 +2 paytoga02 makes 2-pt layup from 4 ft
+17,fg_make,,,7.0,4.0,2.0,edwaran01,2.0,jump shot,9.0,randlju01,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 edwaran01 makes 2-pt jump shot from 9 ft (assist by randlju01 ) +2 7-4
+18,fg_make,,,7.0,6.0,2.0,greendr01,2.0,layup,1.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,9:34.0 7-6 +2 greendr01 makes 2-pt layup from 1 ft (assist by curryst01 )
+19,fg_miss,,,7.0,6.0,,mcdanja02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 mcdanja02 misses 3-pt jump shot from 27 ft 7-6
+20,rebound,,,7.0,6.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,9:19.0 7-6 Defensive rebound by kuminjo01
+21,fg_miss,,,7.0,6.0,,kuminjo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:13.0 7-6 kuminjo01 misses 3-pt jump shot from 27 ft
+22,rebound,,,7.0,6.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,9:10.0 Defensive rebound by goberru01 7-6
+23,fg_miss,,,7.0,6.0,,randlju01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:02.0 randlju01 misses 2-pt jump shot from 10 ft 7-6
+24,rebound,,,7.0,6.0,,,,,,,,,,,defensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,8:59.0 7-6 Defensive rebound by hieldbu01
+25,fg_miss,,,7.0,6.0,,kuminjo01,2.0,hook shot,5.0,,goberru01,,,,,,,,,,,,,,,,,,,,,,,,,8:47.0 7-6 kuminjo01 misses 2-pt hook shot from 5 ft (block by goberru01 )
+26,rebound,,,7.0,6.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,8:45.0 Defensive rebound by randlju01 7-6
+27,fg_make,,,10.0,6.0,3.0,edwaran01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:30.0 edwaran01 makes 3-pt jump shot from 26 ft +3 10-6
+28,turnover,,,10.0,6.0,,,,,,,,,,,,,,,,,kuminjo01,bad pass,,,,,,,,,,,,,,8:22.0 10-6 Turnover by kuminjo01 (bad pass)
+29,turnover,,,10.0,6.0,,,,,,,,,,,,,,,,,edwaran01,lost ball,,,,,,,,,,,,,,8:15.0 Turnover by edwaran01 (lost ball) 10-6
+30,foul,,,10.0,6.0,,,,,,,,,,,,,,loose ball,edwaran01,kuminjo01,,,,,,,,,,,,,,,,8:15.0 Loose ball foul by edwaran01 (drawn by kuminjo01 ) 10-6
+31,unknown,,,10.0,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by edwaran01,8:15.0 Technical foul by edwaran01 10-6
+32,unknown,,,10.0,7.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,curryst01 makes technical free throw,8:15.0 10-7 +1 curryst01 makes technical free throw
+33,fg_miss,,,10.0,7.0,,greendr01,2.0,jump shot,5.0,,goberru01,,,,,,,,,,,,,,,,,,,,,,,,,8:00.0 10-7 greendr01 misses 2-pt jump shot from 5 ft (block by goberru01 )
+34,rebound,,,10.0,7.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,7:57.0 Defensive rebound by goberru01 10-7
+35,foul,,,10.0,7.0,,,,,,,,,,,,,,personal,paytoga02,goberru01,,,,,,,,,,,,,,,,7:55.0 Personal foul by paytoga02 (drawn by goberru01 ) 10-7
+36,fg_miss,,,10.0,7.0,,mcdanja02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:41.0 mcdanja02 misses 2-pt jump shot from 10 ft 10-7
+37,rebound,,,10.0,7.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,7:39.0 10-7 Defensive rebound by curryst01
+38,turnover,,,10.0,7.0,,,,,,,,,,,,,,,,,curryst01,bad pass; steal by mcdanja02,mcdanja02,,,,,,,,,,,,,7:27.0 10-7 Turnover by curryst01 (bad pass; steal by mcdanja02 )
+39,fg_make,,,12.0,7.0,2.0,mcdanja02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:23.0 mcdanja02 makes 2-pt layup from 4 ft +2 12-7
+40,foul,,,12.0,7.0,,,,,,,,,,,,,,offensive,paytoga02,mcdanja02,,,,,,,,,,,,,,,,7:16.0 12-7 Offensive foul by paytoga02 (drawn by mcdanja02 )
+41,turnover,,,12.0,7.0,,,,,,,,,,,,,,,,,paytoga02,offensive foul,,,,,,,,,,,,,,7:16.0 12-7 Turnover by paytoga02 (offensive foul)
+42,substitution,,,12.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 12-7 moodymo01 enters the game for paytoga02
+43,fg_make,,,14.0,7.0,2.0,randlju01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:05.0 randlju01 makes 2-pt jump shot from 9 ft +2 14-7
+44,timeout,,,14.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,7:03.0 14-7 Golden State full timeout
+45,fg_make,,,14.0,10.0,3.0,curryst01,3.0,jump shot,27.0,kuminjo01,,,,,,,,,,,,,,,,,,,,,,,,,,6:52.0 14-10 +3 curryst01 makes 3-pt jump shot from 27 ft (assist by kuminjo01 )
+46,turnover,,,14.0,10.0,,,,,,,,,,,,,,,,,goberru01,bad pass; steal by curryst01,curryst01,,,,,,,,,,,,,6:36.0 Turnover by goberru01 (bad pass; steal by curryst01 ) 14-10
+47,fg_make,,,14.0,12.0,2.0,kuminjo01,2.0,dunk,4.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 14-12 +2 kuminjo01 makes 2-pt dunk from 4 ft (assist by curryst01 )
+48,fg_make,,,16.0,12.0,2.0,mcdanja02,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:08.0 mcdanja02 makes 2-pt layup from 5 ft +2 16-12
+49,fg_miss,,,16.0,12.0,,hieldbu01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:59.0 16-12 hieldbu01 misses 3-pt jump shot from 28 ft
+50,rebound,,,16.0,12.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,5:57.0 Defensive rebound by randlju01 16-12
+51,fg_miss,,,16.0,12.0,,edwaran01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 edwaran01 misses 3-pt jump shot from 26 ft 16-12
+52,rebound,,,16.0,12.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,5:48.0 16-12 Defensive rebound by greendr01
+53,fg_miss,,,16.0,12.0,,kuminjo01,2.0,jump shot,9.0,,randlju01,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 16-12 kuminjo01 misses 2-pt jump shot from 9 ft (block by randlju01 )
+54,rebound,,,16.0,12.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,5:42.0 16-12 Offensive rebound by Team
+55,substitution,,,16.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 alexani01 enters the game for conlemi01 16-12
+56,substitution,,,16.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 reidna01 enters the game for goberru01 16-12
+57,substitution,,,16.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 16-12 podzibr01 enters the game for curryst01
+58,fg_make,,,16.0,14.0,2.0,greendr01,2.0,layup,4.0,hieldbu01,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 16-14 +2 greendr01 makes 2-pt layup from 4 ft (assist by hieldbu01 )
+59,fg_miss,,,16.0,14.0,,reidna01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:20.0 reidna01 misses 3-pt jump shot from 28 ft 16-14
+60,rebound,,,16.0,14.0,,,,,,,,,,,defensive,moodymo01,False,,,,,,,,,,,,,,,,,,,5:17.0 16-14 Defensive rebound by moodymo01
+61,fg_miss,,,16.0,14.0,,hieldbu01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:13.0 16-14 hieldbu01 misses 3-pt jump shot from 25 ft
+62,rebound,,,16.0,14.0,,,,,,,,,,,defensive,mcdanja02,False,,,,,,,,,,,,,,,,,,,5:09.0 Defensive rebound by mcdanja02 16-14
+63,fg_make,,,19.0,14.0,3.0,alexani01,3.0,jump shot,23.0,reidna01,,,,,,,,,,,,,,,,,,,,,,,,,,4:51.0 alexani01 makes 3-pt jump shot from 23 ft (assist by reidna01 ) +3 19-14
+64,fg_miss,,,19.0,14.0,,moodymo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 19-14 moodymo01 misses 3-pt jump shot from 27 ft
+65,rebound,,,19.0,14.0,,,,,,,,,,,defensive,edwaran01,False,,,,,,,,,,,,,,,,,,,4:34.0 Defensive rebound by edwaran01 19-14
+66,fg_make,,,22.0,14.0,3.0,reidna01,3.0,jump shot,24.0,edwaran01,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 reidna01 makes 3-pt jump shot from 24 ft (assist by edwaran01 ) +3 22-14
+67,fg_miss,,,22.0,14.0,,moodymo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 22-14 moodymo01 misses 3-pt jump shot from 26 ft
+68,rebound,,,22.0,14.0,,,,,,,,,,,offensive,podzibr01,False,,,,,,,,,,,,,,,,,,,3:59.0 22-14 Offensive rebound by podzibr01
+69,fg_make,,,22.0,16.0,2.0,moodymo01,2.0,layup,7.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,3:43.0 22-16 +2 moodymo01 makes 2-pt layup from 7 ft (assist by greendr01 )
+70,timeout,,,22.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Minnesota full,,,,3:42.0 Minnesota full timeout 22-16
+71,substitution,,,22.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 divindo01 enters the game for mcdanja02 22-16
+72,substitution,,,22.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 22-16 anderky01 enters the game for greendr01
+73,substitution,,,22.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 22-16 looneke01 enters the game for hieldbu01
+74,substitution,,,22.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:42.0 22-16 waterli01 enters the game for kuminjo01
+75,fg_miss,,,22.0,16.0,,reidna01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:31.0 reidna01 misses 3-pt jump shot from 26 ft 22-16
+76,rebound,,,22.0,16.0,,,,,,,,,,,defensive,podzibr01,False,,,,,,,,,,,,,,,,,,,3:28.0 22-16 Defensive rebound by podzibr01
+77,fg_miss,,,22.0,16.0,,waterli01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:14.0 22-16 waterli01 misses 3-pt jump shot from 27 ft
+78,rebound,,,22.0,16.0,,,,,,,,,,,offensive,podzibr01,False,,,,,,,,,,,,,,,,,,,3:11.0 22-16 Offensive rebound by podzibr01
+79,fg_miss,,,22.0,16.0,,moodymo01,2.0,layup,9.0,,alexani01,,,,,,,,,,,,,,,,,,,,,,,,,3:07.0 22-16 moodymo01 misses 2-pt layup from 9 ft (block by alexani01 )
+80,rebound,,,22.0,16.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,3:07.0 Defensive rebound by Team 22-16
+81,substitution,,,22.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:07.0 goberru01 enters the game for randlju01 22-16
+82,fg_make,,,24.0,16.0,2.0,edwaran01,2.0,jump shot,17.0,divindo01,,,,,,,,,,,,,,,,,,,,,,,,,,2:50.0 edwaran01 makes 2-pt jump shot from 17 ft (assist by divindo01 ) +2 24-16
+83,fg_miss,,,24.0,16.0,,anderky01,2.0,jump shot,12.0,,reidna01,,,,,,,,,,,,,,,,,,,,,,,,,2:24.0 24-16 anderky01 misses 2-pt jump shot from 12 ft (block by reidna01 )
+84,rebound,,,24.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:24.0 24-16 Offensive rebound by Team
+85,unknown,,,24.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),2:24.0 24-16 Turnover by Team (shot clock)
+86,substitution,,,24.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:24.0 minotjo01 enters the game for edwaran01 24-16
+87,foul,,,24.0,16.0,,,,,,,,,,,,,,shooting,anderky01,alexani01,,,,,,,,,,,,,,,,2:12.0 Shooting foul by anderky01 (drawn by alexani01 ) 24-16
+88,free_throw,,,24.0,16.0,,alexani01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:12.0 alexani01 misses free throw 1 of 2 24-16
+89,rebound,,,24.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:12.0 Offensive rebound by Team 24-16
+90,substitution,,,24.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:12.0 24-16 curryst01 enters the game for moodymo01
+91,free_throw,,,25.0,16.0,1.0,alexani01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:12.0 alexani01 makes free throw 2 of 2 +1 25-16
+92,fg_miss,,,25.0,16.0,,curryst01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:02.0 25-16 curryst01 misses 3-pt jump shot from 29 ft
+93,rebound,,,25.0,16.0,,,,,,,,,,,defensive,reidna01,False,,,,,,,,,,,,,,,,,,,1:58.0 Defensive rebound by reidna01 25-16
+94,fg_miss,,,25.0,16.0,,divindo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:48.0 divindo01 misses 3-pt jump shot from 26 ft 25-16
+95,rebound,,,25.0,16.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,1:46.0 25-16 Defensive rebound by looneke01
+96,fg_make,,,25.0,18.0,2.0,looneke01,2.0,layup,3.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,1:37.0 25-18 +2 looneke01 makes 2-pt layup from 3 ft (assist by curryst01 )
+97,turnover,,,25.0,18.0,,,,,,,,,,,,,,,,,alexani01,out of bounds lost ball,,,,,,,,,,,,,,1:25.0 Turnover by alexani01 (out of bounds lost ball) 25-18
+98,fg_miss,,,25.0,18.0,,curryst01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:16.0 25-18 curryst01 misses 2-pt jump shot from 13 ft
+99,rebound,,,25.0,18.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:15.0 25-18 Offensive rebound by Team
+100,fg_make,,,25.0,21.0,3.0,anderky01,3.0,jump shot,23.0,looneke01,,,,,,,,,,,,,,,,,,,,,,,,,,1:11.0 25-21 +3 anderky01 makes 3-pt jump shot from 23 ft (assist by looneke01 )
+101,fg_make,,,27.0,21.0,2.0,divindo01,2.0,layup,5.0,alexani01,,,,,,,,,,,,,,,,,,,,,,,,,,0:54.0 divindo01 makes 2-pt layup from 5 ft (assist by alexani01 ) +2 27-21
+102,foul,,,27.0,21.0,,,,,,,,,,,,,,personal,minotjo01,podzibr01,,,,,,,,,,,,,,,,0:47.0 27-21 Personal foul by minotjo01 (drawn by podzibr01 )
+103,substitution,,,27.0,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:47.0 mcdanja02 enters the game for alexani01 27-21
+104,fg_miss,,,27.0,21.0,,curryst01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 27-21 curryst01 misses 3-pt jump shot from 29 ft
+105,rebound,,,27.0,21.0,,,,,,,,,,,offensive,waterli01,False,,,,,,,,,,,,,,,,,,,0:38.0 27-21 Offensive rebound by waterli01
+106,fg_miss,,,27.0,21.0,,podzibr01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:33.0 27-21 podzibr01 misses 3-pt jump shot from 24 ft
+107,rebound,,,27.0,21.0,,,,,,,,,,,defensive,reidna01,False,,,,,,,,,,,,,,,,,,,0:30.0 Defensive rebound by reidna01 27-21
+108,fg_make,,,30.0,21.0,3.0,minotjo01,3.0,jump shot,23.0,reidna01,,,,,,,,,,,,,,,,,,,,,,,,,,0:15.0 minotjo01 makes 3-pt jump shot from 23 ft (assist by reidna01 ) +3 30-21
+109,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+110,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+111,fg_miss,,,30.0,21.0,,divindo01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:49.0 divindo01 misses 3-pt jump shot from 28 ft 30-21
+112,rebound,,,30.0,21.0,,,,,,,,,,,defensive,paytoga02,False,,,,,,,,,,,,,,,,,,,11:46.0 30-21 Defensive rebound by paytoga02
+113,fg_make,,,30.0,24.0,3.0,hieldbu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:31.0 30-24 +3 hieldbu01 makes 3-pt jump shot from 26 ft
+114,fg_make,,,32.0,24.0,2.0,goberru01,2.0,dunk,1.0,divindo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:16.0 goberru01 makes 2-pt dunk from 1 ft (assist by divindo01 ) +2 32-24
+115,fg_make,,,32.0,26.0,2.0,curryst01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:08.0 32-26 +2 curryst01 makes 2-pt layup from 3 ft
+116,fg_miss,,,32.0,26.0,,mcdanja02,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:47.0 mcdanja02 misses 2-pt jump shot from 10 ft 32-26
+117,rebound,,,32.0,26.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,10:45.0 32-26 Defensive rebound by curryst01
+118,fg_make,,,32.0,29.0,3.0,curryst01,3.0,jump shot,27.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,10:38.0 32-29 +3 curryst01 makes 3-pt jump shot from 27 ft (assist by greendr01 )
+119,turnover,,,32.0,29.0,,,,,,,,,,,,,,,,,reidna01,lost ball; steal by hieldbu01,hieldbu01,,,,,,,,,,,,,10:23.0 Turnover by reidna01 (lost ball; steal by hieldbu01 ) 32-29
+120,turnover,,,32.0,29.0,,,,,,,,,,,,,,,,,greendr01,bad pass; steal by divindo01,divindo01,,,,,,,,,,,,,10:19.0 32-29 Turnover by greendr01 (bad pass; steal by divindo01 )
+121,fg_miss,,,32.0,29.0,,divindo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:16.0 divindo01 misses 3-pt jump shot from 26 ft 32-29
+122,rebound,,,32.0,29.0,,,,,,,,,,,offensive,mcdanja02,False,,,,,,,,,,,,,,,,,,,10:12.0 Offensive rebound by mcdanja02 32-29
+123,fg_make,,,34.0,29.0,2.0,reidna01,2.0,layup,4.0,mcdanja02,,,,,,,,,,,,,,,,,,,,,,,,,,10:11.0 reidna01 makes 2-pt layup from 4 ft (assist by mcdanja02 ) +2 34-29
+124,foul,,,34.0,29.0,,,,,,,,,,,,,,personal,mcdanja02,curryst01,,,,,,,,,,,,,,,,10:06.0 34-29 Personal foul by mcdanja02 (drawn by curryst01 )
+125,fg_make,,,34.0,32.0,3.0,curryst01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:01.0 34-32 +3 curryst01 makes 3-pt jump shot from 29 ft
+126,fg_make,,,36.0,32.0,2.0,reidna01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:47.0 reidna01 makes 2-pt jump shot from 10 ft +2 36-32
+127,foul,,,36.0,32.0,,,,,,,,,,,,,,shooting,kuminjo01,reidna01,,,,,,,,,,,,,,,,9:47.0 Shooting foul by kuminjo01 (drawn by reidna01 ) 36-32
+128,free_throw,,,36.0,32.0,,reidna01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,9:47.0 reidna01 misses free throw 1 of 1 36-32
+129,rebound,,,36.0,32.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,9:45.0 36-32 Defensive rebound by kuminjo01
+130,foul,,,36.0,32.0,,,,,,,,,,,,,,personal,mcdanja02,curryst01,,,,,,,,,,,,,,,,9:38.0 36-32 Personal foul by mcdanja02 (drawn by curryst01 )
+131,fg_miss,,,36.0,32.0,,hieldbu01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:27.0 36-32 hieldbu01 misses 3-pt jump shot from 25 ft
+132,rebound,,,36.0,32.0,,,,,,,,,,,defensive,divindo01,False,,,,,,,,,,,,,,,,,,,9:24.0 Defensive rebound by divindo01 36-32
+133,fg_miss,,,36.0,32.0,,divindo01,3.0,jump shot,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:13.0 divindo01 misses 3-pt jump shot from 33 ft 36-32
+134,rebound,,,36.0,32.0,,,,,,,,,,,offensive,conlemi01,False,,,,,,,,,,,,,,,,,,,9:09.0 Offensive rebound by conlemi01 36-32
+135,turnover,,,36.0,32.0,,,,,,,,,,,,,,,,,divindo01,lost ball; steal by hieldbu01,hieldbu01,,,,,,,,,,,,,9:07.0 Turnover by divindo01 (lost ball; steal by hieldbu01 ) 36-32
+136,turnover,,,36.0,32.0,,,,,,,,,,,,,,,,,hieldbu01,lost ball; steal by conlemi01,conlemi01,,,,,,,,,,,,,9:03.0 36-32 Turnover by hieldbu01 (lost ball; steal by conlemi01 )
+137,fg_make,,,39.0,32.0,3.0,divindo01,3.0,jump shot,23.0,conlemi01,,,,,,,,,,,,,,,,,,,,,,,,,,8:48.0 divindo01 makes 3-pt jump shot from 23 ft (assist by conlemi01 ) +3 39-32
+138,timeout,,,39.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,8:46.0 39-32 Golden State full timeout
+139,fg_make,,,39.0,34.0,2.0,curryst01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 39-34 +2 curryst01 makes 2-pt layup from 6 ft
+140,foul,,,39.0,34.0,,,,,,,,,,,,,,shooting,goberru01,curryst01,,,,,,,,,,,,,,,,8:37.0 39-34 Shooting foul by goberru01 (drawn by curryst01 )
+141,substitution,,,39.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 randlju01 enters the game for reidna01 39-34
+142,free_throw,,,39.0,34.0,,curryst01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,8:37.0 39-34 curryst01 misses free throw 1 of 1
+143,rebound,,,39.0,34.0,,,,,,,,,,,offensive,paytoga02,False,,,,,,,,,,,,,,,,,,,8:35.0 39-34 Offensive rebound by paytoga02
+144,fg_miss,,,39.0,34.0,,curryst01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 39-34 curryst01 misses 3-pt jump shot from 26 ft
+145,rebound,,,39.0,34.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,8:30.0 Defensive rebound by goberru01 39-34
+146,fg_make,,,42.0,34.0,3.0,divindo01,3.0,jump shot,29.0,randlju01,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 divindo01 makes 3-pt jump shot from 29 ft (assist by randlju01 ) +3 42-34
+147,fg_miss,,,42.0,34.0,,hieldbu01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:00.0 42-34 hieldbu01 misses 3-pt jump shot from 23 ft
+148,rebound,,,42.0,34.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,7:54.0 Defensive rebound by randlju01 42-34
+149,foul,,,42.0,34.0,,,,,,,,,,,,,,personal,paytoga02,divindo01,,,,,,,,,,,,,,,,7:49.0 Personal foul by paytoga02 (drawn by divindo01 ) 42-34
+150,substitution,,,42.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:49.0 alexani01 enters the game for conlemi01 42-34
+151,substitution,,,42.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:49.0 42-34 looneke01 enters the game for curryst01
+152,substitution,,,42.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:49.0 42-34 podzibr01 enters the game for greendr01
+153,substitution,,,42.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:49.0 42-34 waterli01 enters the game for paytoga02
+154,fg_miss,,,42.0,34.0,,randlju01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 randlju01 misses 3-pt jump shot from 28 ft 42-34
+155,rebound,,,42.0,34.0,,,,,,,,,,,defensive,waterli01,False,,,,,,,,,,,,,,,,,,,7:38.0 42-34 Defensive rebound by waterli01
+156,fg_miss,,,42.0,34.0,,looneke01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:30.0 42-34 looneke01 misses 2-pt jump shot from 9 ft
+157,rebound,,,42.0,34.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,7:25.0 Defensive rebound by goberru01 42-34
+158,fg_miss,,,42.0,34.0,,divindo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:14.0 divindo01 misses 3-pt jump shot from 26 ft 42-34
+159,rebound,,,42.0,34.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:12.0 42-34 Defensive rebound by Team
+160,substitution,,,42.0,34.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:12.0 edwaran01 enters the game for mcdanja02 42-34
+161,fg_miss,,,42.0,34.0,,kuminjo01,2.0,layup,5.0,,goberru01,,,,,,,,,,,,,,,,,,,,,,,,,6:58.0 42-34 kuminjo01 misses 2-pt layup from 5 ft (block by goberru01 )
+162,rebound,,,42.0,34.0,,,,,,,,,,,offensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,6:55.0 42-34 Offensive rebound by kuminjo01
+163,fg_miss,,,42.0,34.0,,waterli01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 42-34 waterli01 misses 3-pt jump shot from 23 ft
+164,rebound,,,42.0,34.0,,,,,,,,,,,offensive,looneke01,False,,,,,,,,,,,,,,,,,,,6:51.0 42-34 Offensive rebound by looneke01
+165,fg_make,,,42.0,37.0,3.0,podzibr01,3.0,jump shot,26.0,hieldbu01,,,,,,,,,,,,,,,,,,,,,,,,,,6:42.0 42-37 +3 podzibr01 makes 3-pt jump shot from 26 ft (assist by hieldbu01 )
+166,turnover,,,42.0,37.0,,,,,,,,,,,,,,,,,edwaran01,bad pass; steal by hieldbu01,hieldbu01,,,,,,,,,,,,,6:16.0 Turnover by edwaran01 (bad pass; steal by hieldbu01 ) 42-37
+167,fg_miss,,,42.0,37.0,,kuminjo01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:05.0 42-37 kuminjo01 misses 2-pt jump shot from 13 ft
+168,rebound,,,42.0,37.0,,,,,,,,,,,offensive,looneke01,False,,,,,,,,,,,,,,,,,,,6:02.0 42-37 Offensive rebound by looneke01
+169,fg_make,,,42.0,40.0,3.0,hieldbu01,3.0,jump shot,23.0,waterli01,,,,,,,,,,,,,,,,,,,,,,,,,,5:59.0 42-40 +3 hieldbu01 makes 3-pt jump shot from 23 ft (assist by waterli01 )
+170,timeout,,,42.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Minnesota full,,,,5:58.0 Minnesota full timeout 42-40
+171,substitution,,,42.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 minotjo01 enters the game for divindo01 42-40
+172,substitution,,,42.0,40.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 reidna01 enters the game for goberru01 42-40
+173,fg_make,,,45.0,40.0,3.0,randlju01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:40.0 randlju01 makes 3-pt jump shot from 27 ft +3 45-40
+174,fg_make,,,45.0,42.0,2.0,hieldbu01,2.0,jump shot,15.0,podzibr01,,,,,,,,,,,,,,,,,,,,,,,,,,5:22.0 45-42 +2 hieldbu01 makes 2-pt jump shot from 15 ft (assist by podzibr01 )
+175,fg_make,,,48.0,42.0,3.0,randlju01,3.0,jump shot,28.0,edwaran01,,,,,,,,,,,,,,,,,,,,,,,,,,5:11.0 randlju01 makes 3-pt jump shot from 28 ft (assist by edwaran01 ) +3 48-42
+176,foul,,,48.0,42.0,,,,,,,,,,,,,,shooting,randlju01,kuminjo01,,,,,,,,,,,,,,,,5:02.0 48-42 Shooting foul by randlju01 (drawn by kuminjo01 )
+177,free_throw,,,48.0,43.0,1.0,kuminjo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:02.0 48-43 +1 kuminjo01 makes free throw 1 of 2
+178,free_throw,,,48.0,44.0,1.0,kuminjo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:02.0 48-44 +1 kuminjo01 makes free throw 2 of 2
+179,turnover,,,48.0,44.0,,,,,,,,,,,,,,,,,randlju01,out of bounds lost ball,,,,,,,,,,,,,,4:50.0 Turnover by randlju01 (out of bounds lost ball) 48-44
+180,fg_miss,,,48.0,44.0,,looneke01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:28.0 48-44 looneke01 misses 2-pt layup from 3 ft
+181,rebound,,,48.0,44.0,,,,,,,,,,,defensive,reidna01,False,,,,,,,,,,,,,,,,,,,4:25.0 Defensive rebound by reidna01 48-44
+182,turnover,,,48.0,44.0,,,,,,,,,,,,,,,,,reidna01,bad pass,,,,,,,,,,,,,,4:18.0 Turnover by reidna01 (bad pass) 48-44
+183,substitution,,,48.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:18.0 48-44 curryst01 enters the game for hieldbu01
+184,fg_miss,,,48.0,44.0,,kuminjo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:02.0 48-44 kuminjo01 misses 3-pt jump shot from 26 ft
+185,rebound,,,48.0,44.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,3:58.0 Defensive rebound by randlju01 48-44
+186,turnover,,,48.0,44.0,,,,,,,,,,,,,,,,,randlju01,bad pass,,,,,,,,,,,,,,3:49.0 Turnover by randlju01 (bad pass) 48-44
+187,substitution,,,48.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 mcdanja02 enters the game for minotjo01 48-44
+188,substitution,,,48.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 48-44 greendr01 enters the game for kuminjo01
+189,fg_miss,,,48.0,44.0,,curryst01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:38.0 48-44 curryst01 misses 3-pt jump shot from 26 ft
+190,rebound,,,48.0,44.0,,,,,,,,,,,defensive,mcdanja02,False,,,,,,,,,,,,,,,,,,,3:34.0 Defensive rebound by mcdanja02 48-44
+191,fg_make,,,50.0,44.0,2.0,alexani01,2.0,layup,4.0,mcdanja02,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 alexani01 makes 2-pt layup from 4 ft (assist by mcdanja02 ) +2 50-44
+192,foul,,,50.0,44.0,,,,,,,,,,,,,,offensive,greendr01,mcdanja02,,,,,,,,,,,,,,,,3:17.0 50-44 Offensive foul by greendr01 (drawn by mcdanja02 )
+193,turnover,,,50.0,44.0,,,,,,,,,,,,,,,,,greendr01,offensive foul,,,,,,,,,,,,,,3:17.0 50-44 Turnover by greendr01 (offensive foul)
+194,substitution,,,50.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:17.0 conlemi01 enters the game for alexani01 50-44
+195,fg_miss,,,50.0,44.0,,reidna01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 reidna01 misses 3-pt jump shot from 24 ft 50-44
+196,rebound,,,50.0,44.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,3:06.0 50-44 Defensive rebound by curryst01
+197,foul,,,50.0,44.0,,,,,,,,,,,,,,shooting,edwaran01,curryst01,,,,,,,,,,,,,,,,3:01.0 50-44 Shooting foul by edwaran01 (drawn by curryst01 )
+198,timeout,,,50.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Minnesota full,,,,3:01.0 Minnesota full timeout 50-44
+199,instant_replay,,,50.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:01.0 Instant Replay (Challenge: Stands) 50-44
+200,substitution,,,50.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:01.0 50-44 paytoga02 enters the game for podzibr01
+201,free_throw,,,50.0,45.0,1.0,curryst01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:01.0 50-45 +1 curryst01 makes free throw 1 of 2
+202,free_throw,,,50.0,46.0,1.0,curryst01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:01.0 50-46 +1 curryst01 makes free throw 2 of 2
+203,foul,,,50.0,46.0,,,,,,,,,,,,,,shooting,greendr01,edwaran01,,,,,,,,,,,,,,,,2:49.0 Shooting foul by greendr01 (drawn by edwaran01 ) 50-46
+204,free_throw,,,51.0,46.0,1.0,edwaran01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:49.0 edwaran01 makes free throw 1 of 2 +1 51-46
+205,substitution,,,51.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:49.0 goberru01 enters the game for reidna01 51-46
+206,free_throw,,,52.0,46.0,1.0,edwaran01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:49.0 edwaran01 makes free throw 2 of 2 +1 52-46
+207,fg_miss,,,52.0,46.0,,waterli01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 52-46 waterli01 misses 2-pt jump shot from 11 ft
+208,rebound,,,52.0,46.0,,,,,,,,,,,offensive,looneke01,False,,,,,,,,,,,,,,,,,,,2:30.0 52-46 Offensive rebound by looneke01
+209,turnover,,,52.0,46.0,,,,,,,,,,,,,,,,,curryst01,out of bounds lost ball,,,,,,,,,,,,,,2:25.0 52-46 Turnover by curryst01 (out of bounds lost ball)
+210,fg_miss,,,52.0,46.0,,randlju01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:04.0 randlju01 misses 3-pt jump shot from 26 ft 52-46
+211,rebound,,,52.0,46.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:02.0 Offensive rebound by Team 52-46
+212,unknown,,,52.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),1:47.0 Turnover by Team (shot clock) 52-46
+213,fg_miss,,,52.0,46.0,,paytoga02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:26.0 52-46 paytoga02 misses 3-pt jump shot from 26 ft
+214,rebound,,,52.0,46.0,,,,,,,,,,,defensive,mcdanja02,False,,,,,,,,,,,,,,,,,,,1:24.0 Defensive rebound by mcdanja02 52-46
+215,fg_miss,,,52.0,46.0,,randlju01,2.0,layup,5.0,,paytoga02,,,,,,,,,,,,,,,,,,,,,,,,,1:01.0 randlju01 misses 2-pt layup from 5 ft (block by paytoga02 ) 52-46
+216,rebound,,,52.0,46.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,0:57.0 52-46 Defensive rebound by looneke01
+217,fg_make,,,52.0,49.0,3.0,curryst01,3.0,jump shot,27.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,0:53.0 52-49 +3 curryst01 makes 3-pt jump shot from 27 ft (assist by greendr01 )
+218,fg_make,,,55.0,49.0,3.0,mcdanja02,3.0,jump shot,23.0,randlju01,,,,,,,,,,,,,,,,,,,,,,,,,,0:34.0 mcdanja02 makes 3-pt jump shot from 23 ft (assist by randlju01 ) +3 55-49
+219,fg_miss,,,55.0,49.0,,curryst01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:17.0 55-49 curryst01 misses 3-pt jump shot from 25 ft
+220,rebound,,,55.0,49.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,0:14.0 Defensive rebound by randlju01 55-49
+221,foul,,,55.0,49.0,,,,,,,,,,,,,,personal,waterli01,edwaran01,,,,,,,,,,,,,,,,0:06.0 Personal foul by waterli01 (drawn by edwaran01 ) 55-49
+222,substitution,,,55.0,49.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 55-49 kuminjo01 enters the game for curryst01
+223,substitution,,,55.0,49.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 55-49 podzibr01 enters the game for waterli01
+224,fg_make,,,58.0,49.0,3.0,conlemi01,3.0,jump shot,23.0,edwaran01,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 conlemi01 makes 3-pt jump shot from 23 ft (assist by edwaran01 ) +3 58-49
+225,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+226,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+227,foul,,,58.0,49.0,,,,,,,,,,,,,,personal,greendr01,goberru01,,,,,,,,,,,,,,,,11:47.0 Personal foul by greendr01 (drawn by goberru01 ) 58-49
+228,timeout,,,58.0,49.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,11:47.0 58-49 Golden State full timeout
+229,instant_replay,,,58.0,49.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11:47.0 58-49 Instant Replay (Challenge: Stands)
+230,fg_make,,,61.0,49.0,3.0,edwaran01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:36.0 edwaran01 makes 3-pt jump shot from 26 ft +3 61-49
+231,fg_make,,,61.0,51.0,2.0,kuminjo01,2.0,jump shot,9.0,paytoga02,,,,,,,,,,,,,,,,,,,,,,,,,,11:21.0 61-51 +2 kuminjo01 makes 2-pt jump shot from 9 ft (assist by paytoga02 )
+232,fg_miss,,,61.0,51.0,,edwaran01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:04.0 edwaran01 misses 2-pt jump shot from 10 ft 61-51
+233,rebound,,,61.0,51.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,11:00.0 61-51 Defensive rebound by greendr01
+234,fg_make,,,61.0,53.0,2.0,paytoga02,2.0,dunk,2.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,10:57.0 61-53 +2 paytoga02 makes 2-pt dunk from 2 ft (assist by curryst01 )
+235,fg_make,,,63.0,53.0,2.0,randlju01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:38.0 randlju01 makes 2-pt layup from 5 ft +2 63-53
+236,fg_make,,,63.0,55.0,2.0,paytoga02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:32.0 63-55 +2 paytoga02 makes 2-pt layup from 3 ft
+237,fg_make,,,66.0,55.0,3.0,edwaran01,3.0,jump shot,28.0,conlemi01,,,,,,,,,,,,,,,,,,,,,,,,,,10:09.0 edwaran01 makes 3-pt jump shot from 28 ft (assist by conlemi01 ) +3 66-55
+238,fg_make,,,66.0,57.0,2.0,curryst01,2.0,layup,7.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,9:54.0 66-57 +2 curryst01 makes 2-pt layup from 7 ft (assist by greendr01 )
+239,fg_miss,,,66.0,57.0,,edwaran01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:41.0 edwaran01 misses 2-pt jump shot from 13 ft 66-57
+240,rebound,,,66.0,57.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,9:37.0 66-57 Defensive rebound by greendr01
+241,foul,,,66.0,57.0,,,,,,,,,,,,,,shooting,conlemi01,kuminjo01,,,,,,,,,,,,,,,,9:31.0 66-57 Shooting foul by conlemi01 (drawn by kuminjo01 )
+242,free_throw,,,66.0,58.0,1.0,kuminjo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:31.0 66-58 +1 kuminjo01 makes free throw 1 of 2
+243,free_throw,,,66.0,58.0,,kuminjo01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:31.0 66-58 kuminjo01 misses free throw 2 of 2
+244,rebound,,,66.0,58.0,,,,,,,,,,,defensive,edwaran01,False,,,,,,,,,,,,,,,,,,,9:29.0 Defensive rebound by edwaran01 66-58
+245,fg_miss,,,66.0,58.0,,conlemi01,2.0,layup,6.0,,kuminjo01,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 conlemi01 misses 2-pt layup from 6 ft (block by kuminjo01 ) 66-58
+246,rebound,,,66.0,58.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:10.0 Offensive rebound by Team 66-58
+247,fg_miss,,,66.0,58.0,,goberru01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 goberru01 misses 2-pt jump shot from 6 ft 66-58
+248,rebound,,,66.0,58.0,,,,,,,,,,,defensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,9:04.0 66-58 Defensive rebound by hieldbu01
+249,fg_make,,,66.0,60.0,2.0,hieldbu01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:01.0 66-60 +2 hieldbu01 makes 2-pt layup from 5 ft
+250,violation,,,66.0,60.0,,,,,,,,,,,,,,,,,,,,Violation,Team,def goaltending,,,,,,,,,,9:01.0 Violation by Team (def goaltending) 66-60
+251,fg_make,,,69.0,60.0,3.0,conlemi01,3.0,jump shot,24.0,mcdanja02,,,,,,,,,,,,,,,,,,,,,,,,,,8:44.0 conlemi01 makes 3-pt jump shot from 24 ft (assist by mcdanja02 ) +3 69-60
+252,fg_make,,,69.0,63.0,3.0,kuminjo01,3.0,jump shot,27.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,8:28.0 69-63 +3 kuminjo01 makes 3-pt jump shot from 27 ft (assist by greendr01 )
+253,foul,,,69.0,63.0,,,,,,,,,,,,,,offensive,goberru01,curryst01,,,,,,,,,,,,,,,,8:10.0 Offensive foul by goberru01 (drawn by curryst01 ) 69-63
+254,turnover,,,69.0,63.0,,,,,,,,,,,,,,,,,goberru01,offensive foul,,,,,,,,,,,,,,8:10.0 Turnover by goberru01 (offensive foul) 69-63
+255,fg_make,,,69.0,66.0,3.0,hieldbu01,3.0,jump shot,27.0,paytoga02,,,,,,,,,,,,,,,,,,,,,,,,,,8:08.0 69-66 +3 hieldbu01 makes 3-pt jump shot from 27 ft (assist by paytoga02 )
+256,timeout,,,69.0,66.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Minnesota full,,,,8:07.0 Minnesota full timeout 69-66
+257,fg_miss,,,69.0,66.0,,randlju01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:42.0 randlju01 misses 2-pt jump shot from 14 ft 69-66
+258,rebound,,,69.0,66.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,7:39.0 69-66 Defensive rebound by curryst01
+259,fg_make,,,69.0,69.0,3.0,hieldbu01,3.0,jump shot,25.0,kuminjo01,,,,,,,,,,,,,,,,,,,,,,,,,,7:32.0 69-69 +3 hieldbu01 makes 3-pt jump shot from 25 ft (assist by kuminjo01 )
+260,foul,,,69.0,69.0,,,,,,,,,,,,,,personal,hieldbu01,goberru01,,,,,,,,,,,,,,,,7:18.0 Personal foul by hieldbu01 (drawn by goberru01 ) 69-69
+261,foul,,,69.0,69.0,,,,,,,,,,,,,,shooting,greendr01,conlemi01,,,,,,,,,,,,,,,,7:11.0 Shooting foul by greendr01 (drawn by conlemi01 ) 69-69
+262,substitution,,,69.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 69-69 looneke01 enters the game for greendr01
+263,free_throw,,,70.0,69.0,1.0,conlemi01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,7:11.0 conlemi01 makes free throw 1 of 3 +1 70-69
+264,free_throw,,,71.0,69.0,1.0,conlemi01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,7:11.0 conlemi01 makes free throw 2 of 3 +1 71-69
+265,free_throw,,,72.0,69.0,1.0,conlemi01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,7:11.0 conlemi01 makes free throw 3 of 3 +1 72-69
+266,fg_make,,,72.0,71.0,2.0,kuminjo01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:47.0 72-71 +2 kuminjo01 makes 2-pt jump shot from 14 ft
+267,fg_miss,,,72.0,71.0,,mcdanja02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 mcdanja02 misses 3-pt jump shot from 26 ft 72-71
+268,rebound,,,72.0,71.0,,,,,,,,,,,defensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,6:23.0 72-71 Defensive rebound by hieldbu01
+269,foul,,,72.0,71.0,,,,,,,,,,,,,,personal,mcdanja02,curryst01,,,,,,,,,,,,,,,,6:14.0 72-71 Personal foul by mcdanja02 (drawn by curryst01 )
+270,substitution,,,72.0,71.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:14.0 alexani01 enters the game for conlemi01 72-71
+271,substitution,,,72.0,71.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:14.0 reidna01 enters the game for goberru01 72-71
+272,substitution,,,72.0,71.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:14.0 72-71 podzibr01 enters the game for curryst01
+273,substitution,,,72.0,71.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:14.0 72-71 waterli01 enters the game for paytoga02
+274,fg_make,,,72.0,73.0,2.0,kuminjo01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:07.0 72-73 +2 kuminjo01 makes 2-pt jump shot from 9 ft
+275,fg_make,,,74.0,73.0,2.0,edwaran01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 edwaran01 makes 2-pt layup from 7 ft +2 74-73
+276,fg_miss,,,74.0,73.0,,waterli01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:40.0 74-73 waterli01 misses 3-pt jump shot from 23 ft
+277,rebound,,,74.0,73.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:38.0 Defensive rebound by Team 74-73
+278,substitution,,,74.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:38.0 divindo01 enters the game for mcdanja02 74-73
+279,turnover,,,74.0,73.0,,,,,,,,,,,,,,,,,edwaran01,lost ball; steal by kuminjo01,kuminjo01,,,,,,,,,,,,,5:26.0 Turnover by edwaran01 (lost ball; steal by kuminjo01 ) 74-73
+280,fg_make,,,74.0,76.0,3.0,hieldbu01,3.0,jump shot,27.0,waterli01,,,,,,,,,,,,,,,,,,,,,,,,,,5:21.0 74-76 +3 hieldbu01 makes 3-pt jump shot from 27 ft (assist by waterli01 )
+281,fg_miss,,,74.0,76.0,,reidna01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 reidna01 misses 3-pt jump shot from 25 ft 74-76
+282,rebound,,,74.0,76.0,,,,,,,,,,,defensive,waterli01,False,,,,,,,,,,,,,,,,,,,5:01.0 74-76 Defensive rebound by waterli01
+283,fg_make,,,74.0,78.0,2.0,looneke01,2.0,layup,3.0,podzibr01,,,,,,,,,,,,,,,,,,,,,,,,,,4:55.0 74-78 +2 looneke01 makes 2-pt layup from 3 ft (assist by podzibr01 )
+284,fg_make,,,77.0,78.0,3.0,edwaran01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 edwaran01 makes 3-pt jump shot from 26 ft +3 77-78
+285,fg_miss,,,77.0,78.0,,hieldbu01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:16.0 77-78 hieldbu01 misses 3-pt jump shot from 24 ft
+286,rebound,,,77.0,78.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,4:13.0 Defensive rebound by randlju01 77-78
+287,fg_make,,,79.0,78.0,2.0,edwaran01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 edwaran01 makes 2-pt jump shot from 15 ft +2 79-78
+288,timeout,,,79.0,78.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,3:52.0 79-78 Golden State full timeout
+289,substitution,,,79.0,78.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:52.0 79-78 curryst01 enters the game for hieldbu01
+290,foul,,,79.0,78.0,,,,,,,,,,,,,,shooting,reidna01,curryst01,,,,,,,,,,,,,,,,3:42.0 79-78 Shooting foul by reidna01 (drawn by curryst01 )
+291,free_throw,,,79.0,79.0,1.0,curryst01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:42.0 79-79 +1 curryst01 makes free throw 1 of 2
+292,free_throw,,,79.0,80.0,1.0,curryst01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:42.0 79-80 +1 curryst01 makes free throw 2 of 2
+293,foul,,,79.0,80.0,,,,,,,,,,,,,,shooting,podzibr01,randlju01,,,,,,,,,,,,,,,,3:26.0 Shooting foul by podzibr01 (drawn by randlju01 ) 79-80
+294,free_throw,,,80.0,80.0,1.0,randlju01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:26.0 randlju01 makes free throw 1 of 2 +1 80-80
+295,free_throw,,,81.0,80.0,1.0,randlju01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:26.0 randlju01 makes free throw 2 of 2 +1 81-80
+296,fg_miss,,,81.0,80.0,,kuminjo01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:14.0 81-80 kuminjo01 misses 3-pt jump shot from 24 ft
+297,rebound,,,81.0,80.0,,,,,,,,,,,defensive,edwaran01,False,,,,,,,,,,,,,,,,,,,3:10.0 Defensive rebound by edwaran01 81-80
+298,fg_make,,,83.0,80.0,2.0,edwaran01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:01.0 edwaran01 makes 2-pt layup from 4 ft +2 83-80
+299,foul,,,83.0,80.0,,,,,,,,,,,,,,shooting,reidna01,kuminjo01,,,,,,,,,,,,,,,,2:45.0 83-80 Shooting foul by reidna01 (drawn by kuminjo01 )
+300,free_throw,,,83.0,81.0,1.0,kuminjo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:45.0 83-81 +1 kuminjo01 makes free throw 1 of 2
+301,free_throw,,,83.0,81.0,,kuminjo01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:45.0 83-81 kuminjo01 misses free throw 2 of 2
+302,rebound,,,83.0,81.0,,,,,,,,,,,defensive,reidna01,False,,,,,,,,,,,,,,,,,,,2:43.0 Defensive rebound by reidna01 83-81
+303,fg_miss,,,83.0,81.0,,reidna01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:34.0 reidna01 misses 3-pt jump shot from 23 ft 83-81
+304,rebound,,,83.0,81.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,2:31.0 83-81 Defensive rebound by looneke01
+305,fg_make,,,83.0,83.0,2.0,looneke01,2.0,dunk,3.0,waterli01,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 83-83 +2 looneke01 makes 2-pt dunk from 3 ft (assist by waterli01 )
+306,turnover,,,83.0,83.0,,,,,,,,,,,,,,,,,edwaran01,lost ball; steal by kuminjo01,kuminjo01,,,,,,,,,,,,,2:14.0 Turnover by edwaran01 (lost ball; steal by kuminjo01 ) 83-83
+307,fg_make,,,83.0,86.0,3.0,podzibr01,3.0,jump shot,23.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,2:09.0 83-86 +3 podzibr01 makes 3-pt jump shot from 23 ft (assist by curryst01 )
+308,foul,,,83.0,86.0,,,,,,,,,,,,,,shooting,waterli01,reidna01,,,,,,,,,,,,,,,,1:51.0 Shooting foul by waterli01 (drawn by reidna01 ) 83-86
+309,free_throw,,,84.0,86.0,1.0,reidna01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:51.0 reidna01 makes free throw 1 of 2 +1 84-86
+310,substitution,,,84.0,86.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:51.0 conlemi01 enters the game for edwaran01 84-86
+311,substitution,,,84.0,86.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:51.0 goberru01 enters the game for randlju01 84-86
+312,substitution,,,84.0,86.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:51.0 84-86 anderky01 enters the game for kuminjo01
+313,free_throw,,,85.0,86.0,1.0,reidna01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:51.0 reidna01 makes free throw 2 of 2 +1 85-86
+314,fg_miss,,,85.0,86.0,,podzibr01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:40.0 85-86 podzibr01 misses 2-pt jump shot from 12 ft
+315,rebound,,,85.0,86.0,,,,,,,,,,,defensive,reidna01,False,,,,,,,,,,,,,,,,,,,1:37.0 Defensive rebound by reidna01 85-86
+316,foul,,,85.0,86.0,,,,,,,,,,,,,,personal,podzibr01,goberru01,,,,,,,,,,,,,,,,1:29.0 Personal foul by podzibr01 (drawn by goberru01 ) 85-86
+317,free_throw,,,86.0,86.0,1.0,goberru01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:29.0 goberru01 makes free throw 1 of 2 +1 86-86
+318,free_throw,,,87.0,86.0,1.0,goberru01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:29.0 goberru01 makes free throw 2 of 2 +1 87-86
+319,foul,,,87.0,86.0,,,,,,,,,,,,,,shooting,alexani01,curryst01,,,,,,,,,,,,,,,,1:20.0 87-86 Shooting foul by alexani01 (drawn by curryst01 )
+320,free_throw,,,87.0,87.0,1.0,curryst01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 87-87 +1 curryst01 makes free throw 1 of 3
+321,free_throw,,,87.0,87.0,,curryst01,,,,,,misses,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 87-87 curryst01 misses free throw 2 of 3
+322,rebound,,,87.0,87.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:20.0 87-87 Offensive rebound by Team
+323,free_throw,,,87.0,88.0,1.0,curryst01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 87-88 +1 curryst01 makes free throw 3 of 3
+324,fg_miss,,,87.0,88.0,,divindo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:11.0 divindo01 misses 3-pt jump shot from 23 ft 87-88
+325,rebound,,,87.0,88.0,,,,,,,,,,,defensive,waterli01,False,,,,,,,,,,,,,,,,,,,1:08.0 87-88 Defensive rebound by waterli01
+326,fg_miss,,,87.0,88.0,,curryst01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:00.0 87-88 curryst01 misses 2-pt layup from 7 ft
+327,rebound,,,87.0,88.0,,,,,,,,,,,offensive,looneke01,False,,,,,,,,,,,,,,,,,,,0:59.0 87-88 Offensive rebound by looneke01
+328,fg_make,,,87.0,90.0,2.0,looneke01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:59.0 87-90 +2 looneke01 makes 2-pt layup from 5 ft
+329,fg_miss,,,87.0,90.0,,alexani01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:42.0 alexani01 misses 3-pt jump shot from 24 ft 87-90
+330,rebound,,,87.0,90.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,0:37.0 87-90 Defensive rebound by Team
+331,substitution,,,87.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:37.0 87-90 hieldbu01 enters the game for podzibr01
+332,fg_miss,,,87.0,90.0,,hieldbu01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 87-90 hieldbu01 misses 2-pt layup from 4 ft
+333,rebound,,,87.0,90.0,,,,,,,,,,,defensive,reidna01,False,,,,,,,,,,,,,,,,,,,0:24.0 Defensive rebound by reidna01 87-90
+334,fg_make,,,90.0,90.0,3.0,alexani01,3.0,jump shot,26.0,conlemi01,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 alexani01 makes 3-pt jump shot from 26 ft (assist by conlemi01 ) +3 90-90
+335,fg_make,,,90.0,93.0,3.0,curryst01,3.0,jump shot,39.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 90-93 +3 curryst01 makes 3-pt jump shot from 39 ft
+336,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+337,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+338,turnover,,,90.0,93.0,,,,,,,,,,,,,,,,,curryst01,bad pass; steal by goberru01,goberru01,,,,,,,,,,,,,11:47.0 90-93 Turnover by curryst01 (bad pass; steal by goberru01 )
+339,foul,,,90.0,93.0,,,,,,,,,,,,,,shooting,waterli01,reidna01,,,,,,,,,,,,,,,,11:37.0 Shooting foul by waterli01 (drawn by reidna01 ) 90-93
+340,free_throw,,,91.0,93.0,1.0,reidna01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:37.0 reidna01 makes free throw 1 of 2 +1 91-93
+341,free_throw,,,91.0,93.0,,reidna01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:37.0 reidna01 misses free throw 2 of 2 91-93
+342,rebound,,,91.0,93.0,,,,,,,,,,,defensive,anderky01,False,,,,,,,,,,,,,,,,,,,11:35.0 91-93 Defensive rebound by anderky01
+343,foul,,,91.0,93.0,,,,,,,,,,,,,,personal,goberru01,looneke01,,,,,,,,,,,,,,,,11:20.0 91-93 Personal foul by goberru01 (drawn by looneke01 )
+344,fg_miss,,,91.0,93.0,,curryst01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:12.0 91-93 curryst01 misses 2-pt jump shot from 9 ft
+345,rebound,,,91.0,93.0,,,,,,,,,,,offensive,looneke01,False,,,,,,,,,,,,,,,,,,,11:09.0 91-93 Offensive rebound by looneke01
+346,fg_make,,,91.0,95.0,2.0,looneke01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,11:09.0 91-95 +2 looneke01 makes 2-pt layup at rim
+347,fg_miss,,,91.0,95.0,,goberru01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:49.0 goberru01 misses 2-pt jump shot from 14 ft 91-95
+348,rebound,,,91.0,95.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:47.0 Offensive rebound by Team 91-95
+349,foul,,,91.0,95.0,,,,,,,,,,,,,,loose ball,waterli01,divindo01,,,,,,,,,,,,,,,,10:47.0 91-95 Loose ball foul by waterli01 (drawn by divindo01 )
+350,fg_miss,,,91.0,95.0,,conlemi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:39.0 conlemi01 misses 3-pt jump shot from 26 ft 91-95
+351,rebound,,,91.0,95.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,10:35.0 91-95 Defensive rebound by looneke01
+352,fg_make,,,91.0,97.0,2.0,looneke01,2.0,dunk,2.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,10:24.0 91-97 +2 looneke01 makes 2-pt dunk from 2 ft (assist by curryst01 )
+353,timeout,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Minnesota full,,,,10:24.0 Minnesota full timeout 91-97
+354,fg_miss,,,91.0,97.0,,conlemi01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:02.0 conlemi01 misses 3-pt jump shot from 25 ft 91-97
+355,rebound,,,91.0,97.0,,,,,,,,,,,defensive,anderky01,False,,,,,,,,,,,,,,,,,,,9:59.0 91-97 Defensive rebound by anderky01
+356,fg_miss,,,91.0,97.0,,anderky01,2.0,jump shot,11.0,,reidna01,,,,,,,,,,,,,,,,,,,,,,,,,9:37.0 91-97 anderky01 misses 2-pt jump shot from 11 ft (block by reidna01 )
+357,rebound,,,91.0,97.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:37.0 91-97 Offensive rebound by Team
+358,unknown,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),9:37.0 91-97 Turnover by Team (shot clock)
+359,substitution,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:37.0 edwaran01 enters the game for divindo01 91-97
+360,substitution,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:37.0 randlju01 enters the game for reidna01 91-97
+361,substitution,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:37.0 91-97 paytoga02 enters the game for waterli01
+362,foul,,,91.0,97.0,,,,,,,,,,,,,,personal,anderky01,goberru01,,,,,,,,,,,,,,,,9:26.0 Personal foul by anderky01 (drawn by goberru01 ) 91-97
+363,substitution,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:26.0 91-97 greendr01 enters the game for anderky01
+364,substitution,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:26.0 91-97 kuminjo01 enters the game for curryst01
+365,substitution,,,91.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:26.0 91-97 podzibr01 enters the game for looneke01
+366,turnover,,,91.0,97.0,,,,,,,,,,,,,,,,,edwaran01,bad pass; steal by paytoga02,paytoga02,,,,,,,,,,,,,9:13.0 Turnover by edwaran01 (bad pass; steal by paytoga02 ) 91-97
+367,fg_make,,,91.0,99.0,2.0,paytoga02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:11.0 91-99 +2 paytoga02 makes 2-pt layup from 4 ft
+368,foul,,,91.0,99.0,,,,,,,,,,,,,,shooting,edwaran01,paytoga02,,,,,,,,,,,,,,,,9:11.0 91-99 Shooting foul by edwaran01 (drawn by paytoga02 )
+369,free_throw,,,91.0,99.0,,paytoga02,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,9:11.0 91-99 paytoga02 misses free throw 1 of 1
+370,rebound,,,91.0,99.0,,,,,,,,,,,defensive,conlemi01,False,,,,,,,,,,,,,,,,,,,9:08.0 Defensive rebound by conlemi01 91-99
+371,foul,,,91.0,99.0,,,,,,,,,,,,,,personal,greendr01,randlju01,,,,,,,,,,,,,,,,8:56.0 Personal foul by greendr01 (drawn by randlju01 ) 91-99
+372,fg_miss,,,91.0,99.0,,mcdanja02,2.0,layup,4.0,,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,8:44.0 mcdanja02 misses 2-pt layup from 4 ft (block by greendr01 ) 91-99
+373,rebound,,,91.0,99.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,8:43.0 91-99 Defensive rebound by Team
+374,foul,,,91.0,99.0,,,,,,,,,,,,,,personal,conlemi01,kuminjo01,,,,,,,,,,,,,,,,8:31.0 91-99 Personal foul by conlemi01 (drawn by kuminjo01 )
+375,substitution,,,91.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 alexani01 enters the game for conlemi01 91-99
+376,fg_make,,,91.0,102.0,3.0,hieldbu01,3.0,jump shot,27.0,podzibr01,,,,,,,,,,,,,,,,,,,,,,,,,,8:25.0 91-102 +3 hieldbu01 makes 3-pt jump shot from 27 ft (assist by podzibr01 )
+377,fg_miss,,,91.0,102.0,,randlju01,2.0,layup,6.0,,kuminjo01,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 randlju01 misses 2-pt layup from 6 ft (block by kuminjo01 ) 91-102
+378,rebound,,,91.0,102.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,8:03.0 91-102 Defensive rebound by kuminjo01
+379,fg_miss,,,91.0,102.0,,podzibr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:59.0 91-102 podzibr01 misses 3-pt jump shot from 26 ft
+380,rebound,,,91.0,102.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,7:55.0 Defensive rebound by randlju01 91-102
+381,fg_make,,,93.0,102.0,2.0,alexani01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:42.0 alexani01 makes 2-pt layup from 5 ft +2 93-102
+382,turnover,,,93.0,102.0,,,,,,,,,,,,,,,,,kuminjo01,lost ball; steal by edwaran01,edwaran01,,,,,,,,,,,,,7:29.0 93-102 Turnover by kuminjo01 (lost ball; steal by edwaran01 )
+383,fg_make,,,95.0,102.0,2.0,mcdanja02,2.0,layup,3.0,edwaran01,,,,,,,,,,,,,,,,,,,,,,,,,,7:26.0 mcdanja02 makes 2-pt layup from 3 ft (assist by edwaran01 ) +2 95-102
+384,timeout,,,95.0,102.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,7:26.0 95-102 Golden State full timeout
+385,fg_make,,,95.0,104.0,2.0,hieldbu01,2.0,layup,3.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:07.0 95-104 +2 hieldbu01 makes 2-pt layup from 3 ft (assist by greendr01 )
+386,fg_make,,,98.0,104.0,3.0,alexani01,3.0,jump shot,25.0,randlju01,,,,,,,,,,,,,,,,,,,,,,,,,,6:43.0 alexani01 makes 3-pt jump shot from 25 ft (assist by randlju01 ) +3 98-104
+387,fg_miss,,,98.0,104.0,,hieldbu01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:28.0 98-104 hieldbu01 misses 3-pt jump shot from 28 ft
+388,rebound,,,98.0,104.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,6:26.0 Defensive rebound by goberru01 98-104
+389,fg_make,,,101.0,104.0,3.0,alexani01,3.0,jump shot,24.0,edwaran01,,,,,,,,,,,,,,,,,,,,,,,,,,6:16.0 alexani01 makes 3-pt jump shot from 24 ft (assist by edwaran01 ) +3 101-104
+390,fg_miss,,,101.0,104.0,,kuminjo01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:01.0 101-104 kuminjo01 misses 2-pt layup from 5 ft
+391,rebound,,,101.0,104.0,,,,,,,,,,,defensive,randlju01,False,,,,,,,,,,,,,,,,,,,5:58.0 Defensive rebound by randlju01 101-104
+392,fg_miss,,,101.0,104.0,,randlju01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 randlju01 misses 2-pt layup from 5 ft 101-104
+393,rebound,,,101.0,104.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,5:39.0 101-104 Defensive rebound by kuminjo01
+394,foul,,,101.0,104.0,,,,,,,,,,,,,,shooting,randlju01,kuminjo01,,,,,,,,,,,,,,,,5:31.0 101-104 Shooting foul by randlju01 (drawn by kuminjo01 )
+395,free_throw,,,101.0,104.0,,kuminjo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:31.0 101-104 kuminjo01 misses free throw 1 of 2
+396,rebound,,,101.0,104.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,5:31.0 101-104 Offensive rebound by Team
+397,substitution,,,101.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 101-104 curryst01 enters the game for hieldbu01
+398,substitution,,,101.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 101-104 waterli01 enters the game for podzibr01
+399,free_throw,,,101.0,105.0,1.0,kuminjo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:31.0 101-105 +1 kuminjo01 makes free throw 2 of 2
+400,fg_make,,,103.0,105.0,2.0,alexani01,2.0,jump shot,12.0,edwaran01,,,,,,,,,,,,,,,,,,,,,,,,,,5:10.0 alexani01 makes 2-pt jump shot from 12 ft (assist by edwaran01 ) +2 103-105
+401,fg_miss,,,103.0,105.0,,paytoga02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:54.0 103-105 paytoga02 misses 3-pt jump shot from 25 ft
+402,rebound,,,103.0,105.0,,,,,,,,,,,defensive,edwaran01,False,,,,,,,,,,,,,,,,,,,4:51.0 Defensive rebound by edwaran01 103-105
+403,fg_make,,,106.0,105.0,3.0,edwaran01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:47.0 edwaran01 makes 3-pt jump shot from 28 ft +3 106-105
+404,fg_miss,,,106.0,105.0,,curryst01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:22.0 106-105 curryst01 misses 2-pt jump shot from 14 ft
+405,rebound,,,106.0,105.0,,,,,,,,,,,offensive,paytoga02,False,,,,,,,,,,,,,,,,,,,4:18.0 106-105 Offensive rebound by paytoga02
+406,fg_miss,,,106.0,105.0,,paytoga02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:18.0 106-105 paytoga02 misses 2-pt layup at rim
+407,rebound,,,106.0,105.0,,,,,,,,,,,offensive,paytoga02,False,,,,,,,,,,,,,,,,,,,4:16.0 106-105 Offensive rebound by paytoga02
+408,fg_miss,,,106.0,105.0,,paytoga02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:16.0 106-105 paytoga02 misses 2-pt layup at rim
+409,rebound,,,106.0,105.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,4:15.0 Defensive rebound by goberru01 106-105
+410,fg_miss,,,106.0,105.0,,edwaran01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:07.0 edwaran01 misses 3-pt jump shot from 23 ft 106-105
+411,rebound,,,106.0,105.0,,,,,,,,,,,offensive,alexani01,False,,,,,,,,,,,,,,,,,,,4:04.0 Offensive rebound by alexani01 106-105
+412,fg_miss,,,106.0,105.0,,edwaran01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:54.0 edwaran01 misses 2-pt jump shot from 11 ft 106-105
+413,rebound,,,106.0,105.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,3:50.0 106-105 Defensive rebound by greendr01
+414,fg_miss,,,106.0,105.0,,waterli01,2.0,layup,5.0,,randlju01,,,,,,,,,,,,,,,,,,,,,,,,,3:41.0 106-105 waterli01 misses 2-pt layup from 5 ft (block by randlju01 )
+415,rebound,,,106.0,105.0,,,,,,,,,,,defensive,goberru01,False,,,,,,,,,,,,,,,,,,,3:39.0 Defensive rebound by goberru01 106-105
+416,fg_miss,,,106.0,105.0,,edwaran01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 edwaran01 misses 2-pt jump shot from 9 ft 106-105
+417,rebound,,,106.0,105.0,,,,,,,,,,,offensive,goberru01,False,,,,,,,,,,,,,,,,,,,3:20.0 Offensive rebound by goberru01 106-105
+418,foul,,,106.0,105.0,,,,,,,,,,,,,,shooting,kuminjo01,goberru01,,,,,,,,,,,,,,,,3:20.0 Shooting foul by kuminjo01 (drawn by goberru01 ) 106-105
+419,free_throw,,,106.0,105.0,,goberru01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:20.0 goberru01 misses free throw 1 of 2 106-105
+420,rebound,,,106.0,105.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:20.0 Offensive rebound by Team 106-105
+421,substitution,,,106.0,105.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:20.0 106-105 hieldbu01 enters the game for waterli01
+422,free_throw,,,106.0,105.0,,goberru01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:20.0 goberru01 misses free throw 2 of 2 106-105
+423,rebound,,,106.0,105.0,,,,,,,,,,,offensive,randlju01,False,,,,,,,,,,,,,,,,,,,3:18.0 Offensive rebound by randlju01 106-105
+424,unknown,,,106.0,105.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),3:06.0 Turnover by Team (shot clock) 106-105
+425,fg_make,,,106.0,107.0,2.0,kuminjo01,2.0,dunk,3.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,2:55.0 106-107 +2 kuminjo01 makes 2-pt dunk from 3 ft (assist by curryst01 )
+426,fg_miss,,,106.0,107.0,,edwaran01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:40.0 edwaran01 misses 3-pt jump shot from 27 ft 106-107
+427,rebound,,,106.0,107.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,2:38.0 106-107 Defensive rebound by kuminjo01
+428,foul,,,106.0,107.0,,,,,,,,,,,,,,personal,mcdanja02,curryst01,,,,,,,,,,,,,,,,2:29.0 106-107 Personal foul by mcdanja02 (drawn by curryst01 )
+429,free_throw,,,106.0,108.0,1.0,curryst01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:29.0 106-108 +1 curryst01 makes free throw 1 of 2
+430,free_throw,,,106.0,109.0,1.0,curryst01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:29.0 106-109 +1 curryst01 makes free throw 2 of 2
+431,fg_miss,,,106.0,109.0,,edwaran01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:10.0 edwaran01 misses 3-pt jump shot from 25 ft 106-109
+432,rebound,,,106.0,109.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,2:08.0 106-109 Defensive rebound by Team
+433,fg_miss,,,106.0,109.0,,curryst01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:54.0 106-109 curryst01 misses 3-pt jump shot from 28 ft
+434,rebound,,,106.0,109.0,,,,,,,,,,,offensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,1:50.0 106-109 Offensive rebound by hieldbu01
+435,fg_miss,,,106.0,109.0,,hieldbu01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 106-109 hieldbu01 misses 2-pt layup at rim
+436,rebound,,,106.0,109.0,,,,,,,,,,,defensive,edwaran01,False,,,,,,,,,,,,,,,,,,,1:49.0 Defensive rebound by edwaran01 106-109
+437,fg_miss,,,106.0,109.0,,alexani01,2.0,layup,6.0,,paytoga02,,,,,,,,,,,,,,,,,,,,,,,,,1:39.0 alexani01 misses 2-pt layup from 6 ft (block by paytoga02 ) 106-109
+438,rebound,,,106.0,109.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,1:37.0 106-109 Defensive rebound by greendr01
+439,turnover,,,106.0,109.0,,,,,,,,,,,,,,,,,kuminjo01,traveling,,,,,,,,,,,,,,1:22.0 106-109 Turnover by kuminjo01 (traveling)
+440,turnover,,,106.0,109.0,,,,,,,,,,,,,,,,,edwaran01,bad pass; steal by paytoga02,paytoga02,,,,,,,,,,,,,1:01.0 Turnover by edwaran01 (bad pass; steal by paytoga02 ) 106-109
+441,fg_make,,,106.0,112.0,3.0,hieldbu01,3.0,jump shot,23.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,0:57.0 106-112 +3 hieldbu01 makes 3-pt jump shot from 23 ft (assist by curryst01 )
+442,timeout,,,106.0,112.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Minnesota full,,,,0:57.0 Minnesota full timeout 106-112
+443,fg_miss,,,106.0,112.0,,edwaran01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:47.0 edwaran01 misses 2-pt jump shot from 4 ft 106-112
+444,rebound,,,106.0,112.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,0:45.0 106-112 Defensive rebound by kuminjo01
+445,fg_make,,,106.0,114.0,2.0,greendr01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:28.0 106-114 +2 greendr01 makes 2-pt dunk from 1 ft
+446,fg_miss,,,106.0,114.0,,randlju01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:20.0 randlju01 misses 2-pt layup from 7 ft 106-114
+447,rebound,,,106.0,114.0,,,,,,,,,,,offensive,randlju01,False,,,,,,,,,,,,,,,,,,,0:17.0 Offensive rebound by randlju01 106-114
+448,fg_miss,,,106.0,114.0,,randlju01,2.0,layup,6.0,,kuminjo01,,,,,,,,,,,,,,,,,,,,,,,,,0:17.0 randlju01 misses 2-pt layup from 6 ft (block by kuminjo01 ) 106-114
+449,rebound,,,106.0,114.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,0:17.0 106-114 Defensive rebound by Team
+450,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

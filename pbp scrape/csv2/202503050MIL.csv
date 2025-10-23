@@ -1,0 +1,427 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: poweldw01 vs. lopezbr01 ( antetgi01 gains possession)
+2,fg_make,,,0.0,2.0,2.0,antetgi01,2.0,jump shot,17.0,lopezbr01,,,,,,,,,,,,,,,,,,,,,,,,,,11:41.0 0-2 +2 antetgi01 makes 2-pt jump shot from 17 ft (assist by lopezbr01 )
+3,fg_make,,,2.0,2.0,2.0,thompkl01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:22.0 thompkl01 makes 2-pt jump shot from 20 ft +2 2-2
+4,foul,,,2.0,2.0,,,,,,,,,,,,,,shooting,poweldw01,antetgi01,,,,,,,,,,,,,,,,11:12.0 2-2 Shooting foul by poweldw01 (drawn by antetgi01 )
+5,free_throw,,,2.0,3.0,1.0,antetgi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:12.0 2-3 +1 antetgi01 makes free throw 1 of 2
+6,free_throw,,,2.0,4.0,1.0,antetgi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:12.0 2-4 +1 antetgi01 makes free throw 2 of 2
+7,fg_make,,,4.0,4.0,2.0,thompkl01,2.0,jump shot,11.0,chrisma02,,,,,,,,,,,,,,,,,,,,,,,,,,10:59.0 thompkl01 makes 2-pt jump shot from 11 ft (assist by chrisma02 ) +2 4-4
+8,fg_miss,,,4.0,4.0,,princta02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:45.0 4-4 princta02 misses 3-pt jump shot from 28 ft
+9,rebound,,,4.0,4.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,10:42.0 Defensive rebound by marshna01 4-4
+10,fg_make,,,6.0,4.0,2.0,marshna01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:37.0 marshna01 makes 2-pt layup from 4 ft +2 6-4
+11,fg_make,,,6.0,6.0,2.0,antetgi01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:25.0 6-6 +2 antetgi01 makes 2-pt jump shot from 15 ft
+12,fg_miss,,,6.0,6.0,,chrisma02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:09.0 chrisma02 misses 3-pt jump shot from 23 ft 6-6
+13,rebound,,,6.0,6.0,,,,,,,,,,,defensive,princta02,False,,,,,,,,,,,,,,,,,,,10:06.0 6-6 Defensive rebound by princta02
+14,turnover,,,6.0,6.0,,,,,,,,,,,,,,,,,princta02,bad pass; steal by dinwisp01,dinwisp01,,,,,,,,,,,,,10:02.0 6-6 Turnover by princta02 (bad pass; steal by dinwisp01 )
+15,fg_make,,,8.0,6.0,2.0,dinwisp01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:58.0 dinwisp01 makes 2-pt layup from 3 ft +2 8-6
+16,fg_miss,,,8.0,6.0,,kuzmaky01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:41.0 8-6 kuzmaky01 misses 2-pt layup from 3 ft
+17,rebound,,,8.0,6.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:38.0 8-6 Offensive rebound by Team
+18,fg_make,,,8.0,9.0,3.0,lillada01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:27.0 8-9 +3 lillada01 makes 3-pt jump shot from 26 ft
+19,fg_miss,,,8.0,9.0,,marshna01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:02.0 marshna01 misses 3-pt jump shot from 28 ft 8-9
+20,rebound,,,8.0,9.0,,,,,,,,,,,offensive,thompkl01,False,,,,,,,,,,,,,,,,,,,8:59.0 Offensive rebound by thompkl01 8-9
+21,fg_miss,,,8.0,9.0,,thompkl01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:56.0 thompkl01 misses 2-pt jump shot from 16 ft 8-9
+22,rebound,,,8.0,9.0,,,,,,,,,,,offensive,marshna01,False,,,,,,,,,,,,,,,,,,,8:54.0 Offensive rebound by marshna01 8-9
+23,fg_miss,,,8.0,9.0,,marshna01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:50.0 marshna01 misses 3-pt jump shot from 23 ft 8-9
+24,rebound,,,8.0,9.0,,,,,,,,,,,defensive,princta02,False,,,,,,,,,,,,,,,,,,,8:48.0 8-9 Defensive rebound by princta02
+25,fg_make,,,8.0,12.0,3.0,lillada01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:41.0 8-12 +3 lillada01 makes 3-pt jump shot from 29 ft
+26,fg_make,,,10.0,12.0,2.0,chrisma02,2.0,jump shot,21.0,poweldw01,,,,,,,,,,,,,,,,,,,,,,,,,,8:26.0 chrisma02 makes 2-pt jump shot from 21 ft (assist by poweldw01 ) +2 10-12
+27,fg_make,,,10.0,14.0,2.0,antetgi01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:17.0 10-14 +2 antetgi01 makes 2-pt jump shot from 19 ft
+28,fg_make,,,12.0,14.0,2.0,dinwisp01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 dinwisp01 makes 2-pt jump shot from 16 ft +2 12-14
+29,turnover,,,12.0,14.0,,,,,,,,,,,,,,,,,lillada01,bad pass,,,,,,,,,,,,,,7:51.0 12-14 Turnover by lillada01 (bad pass)
+30,foul,,,12.0,14.0,,,,,,,,,,,,,,loose ball,lopezbr01,marshna01,,,,,,,,,,,,,,,,7:51.0 12-14 Loose ball foul by lopezbr01 (drawn by marshna01 )
+31,fg_make,,,14.0,14.0,2.0,poweldw01,2.0,dunk,4.0,marshna01,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 poweldw01 makes 2-pt dunk from 4 ft (assist by marshna01 ) +2 14-14
+32,turnover,,,14.0,14.0,,,,,,,,,,,,,,,,,antetgi01,lost ball; steal by dinwisp01,dinwisp01,,,,,,,,,,,,,7:28.0 14-14 Turnover by antetgi01 (lost ball; steal by dinwisp01 )
+33,turnover,,,14.0,14.0,,,,,,,,,,,,,,,,,marshna01,bad pass; steal by lillada01,lillada01,,,,,,,,,,,,,7:09.0 Turnover by marshna01 (bad pass; steal by lillada01 ) 14-14
+34,fg_make,,,14.0,16.0,2.0,antetgi01,2.0,dunk,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:03.0 14-16 +2 antetgi01 makes 2-pt dunk from 4 ft
+35,fg_miss,,,14.0,16.0,,thompkl01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:52.0 thompkl01 misses 2-pt jump shot from 11 ft 14-16
+36,rebound,,,14.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:50.0 Offensive rebound by Team 14-16
+37,foul,,,14.0,16.0,,,,,,,,,,,,,,loose ball,antetgi01,poweldw01,,,,,,,,,,,,,,,,6:50.0 14-16 Loose ball foul by antetgi01 (drawn by poweldw01 )
+38,timeout,,,14.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milwaukee full,,,,6:50.0 14-16 Milwaukee full timeout
+39,substitution,,,14.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:50.0 edwarke02 enters the game for dinwisp01 14-16
+40,substitution,,,14.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:50.0 willibr03 enters the game for poweldw01 14-16
+41,substitution,,,14.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:50.0 14-16 greenaj01 enters the game for kuzmaky01
+42,fg_miss,,,14.0,16.0,,willibr03,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:44.0 willibr03 misses 2-pt layup from 2 ft 14-16
+43,rebound,,,14.0,16.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,6:40.0 14-16 Defensive rebound by antetgi01
+44,fg_miss,,,14.0,16.0,,antetgi01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 14-16 antetgi01 misses 2-pt jump shot from 13 ft
+45,rebound,,,14.0,16.0,,,,,,,,,,,defensive,edwarke02,False,,,,,,,,,,,,,,,,,,,6:29.0 Defensive rebound by edwarke02 14-16
+46,fg_miss,,,14.0,16.0,,willibr03,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:25.0 willibr03 misses 2-pt layup from 7 ft 14-16
+47,rebound,,,14.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:24.0 Offensive rebound by Team 14-16
+48,fg_make,,,16.0,16.0,2.0,thompkl01,2.0,layup,3.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,6:23.0 thompkl01 makes 2-pt layup from 3 ft (assist by willibr03 ) +2 16-16
+49,fg_miss,,,16.0,16.0,,lillada01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 16-16 lillada01 misses 2-pt jump shot from 8 ft
+50,rebound,,,16.0,16.0,,,,,,,,,,,defensive,chrisma02,False,,,,,,,,,,,,,,,,,,,6:07.0 Defensive rebound by chrisma02 16-16
+51,fg_miss,,,16.0,16.0,,thompkl01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 thompkl01 misses 3-pt jump shot from 23 ft 16-16
+52,rebound,,,16.0,16.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,5:56.0 16-16 Defensive rebound by antetgi01
+53,fg_miss,,,16.0,16.0,,princta02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:51.0 16-16 princta02 misses 3-pt jump shot from 23 ft
+54,rebound,,,16.0,16.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,5:48.0 Defensive rebound by marshna01 16-16
+55,fg_miss,,,16.0,16.0,,chrisma02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 chrisma02 misses 3-pt jump shot from 26 ft 16-16
+56,rebound,,,16.0,16.0,,,,,,,,,,,defensive,lopezbr01,False,,,,,,,,,,,,,,,,,,,5:39.0 16-16 Defensive rebound by lopezbr01
+57,fg_make,,,16.0,18.0,2.0,lillada01,2.0,jump shot,15.0,antetgi01,,,,,,,,,,,,,,,,,,,,,,,,,,5:21.0 16-18 +2 lillada01 makes 2-pt jump shot from 15 ft (assist by antetgi01 )
+58,fg_make,,,19.0,18.0,3.0,thompkl01,3.0,jump shot,26.0,edwarke02,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 thompkl01 makes 3-pt jump shot from 26 ft (assist by edwarke02 ) +3 19-18
+59,foul,,,19.0,18.0,,,,,,,,,,,,,,shooting,edwarke02,antetgi01,,,,,,,,,,,,,,,,4:40.0 19-18 Shooting foul by edwarke02 (drawn by antetgi01 )
+60,free_throw,,,19.0,19.0,1.0,antetgi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:40.0 19-19 +1 antetgi01 makes free throw 1 of 2
+61,substitution,,,19.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 dinwisp01 enters the game for chrisma02 19-19
+62,substitution,,,19.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 prospol01 enters the game for marshna01 19-19
+63,substitution,,,19.0,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 19-19 porteke02 enters the game for princta02
+64,free_throw,,,19.0,20.0,1.0,antetgi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:40.0 19-20 +1 antetgi01 makes free throw 2 of 2
+65,fg_miss,,,19.0,20.0,,willibr03,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 willibr03 misses 3-pt jump shot from 27 ft 19-20
+66,rebound,,,19.0,20.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,4:27.0 19-20 Defensive rebound by antetgi01
+67,fg_make,,,19.0,22.0,2.0,porteke02,2.0,jump shot,7.0,lillada01,,,,,,,,,,,,,,,,,,,,,,,,,,4:14.0 19-22 +2 porteke02 makes 2-pt jump shot from 7 ft (assist by lillada01 )
+68,foul,,,19.0,22.0,,,,,,,,,,,,,,shooting,edwarke02,porteke02,,,,,,,,,,,,,,,,4:14.0 19-22 Shooting foul by edwarke02 (drawn by porteke02 )
+69,substitution,,,19.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:14.0 19-22 kuzmaky01 enters the game for antetgi01
+70,substitution,,,19.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:14.0 19-22 simsje01 enters the game for lopezbr01
+71,free_throw,,,19.0,22.0,,porteke02,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:14.0 19-22 porteke02 misses free throw 1 of 1
+72,rebound,,,19.0,22.0,,,,,,,,,,,defensive,prospol01,False,,,,,,,,,,,,,,,,,,,4:13.0 Defensive rebound by prospol01 19-22
+73,fg_miss,,,19.0,22.0,,thompkl01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:00.0 thompkl01 misses 2-pt jump shot from 20 ft 19-22
+74,rebound,,,19.0,22.0,,,,,,,,,,,defensive,simsje01,False,,,,,,,,,,,,,,,,,,,3:58.0 19-22 Defensive rebound by simsje01
+75,fg_make,,,19.0,25.0,3.0,kuzmaky01,3.0,jump shot,26.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,3:46.0 19-25 +3 kuzmaky01 makes 3-pt jump shot from 26 ft (assist by porteke02 )
+76,fg_make,,,22.0,25.0,3.0,thompkl01,3.0,jump shot,27.0,edwarke02,,,,,,,,,,,,,,,,,,,,,,,,,,3:24.0 thompkl01 makes 3-pt jump shot from 27 ft (assist by edwarke02 ) +3 22-25
+77,fg_make,,,22.0,28.0,3.0,lillada01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 22-28 +3 lillada01 makes 3-pt jump shot from 30 ft
+78,fg_miss,,,22.0,28.0,,thompkl01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:00.0 thompkl01 misses 3-pt jump shot from 24 ft 22-28
+79,rebound,,,22.0,28.0,,,,,,,,,,,defensive,kuzmaky01,False,,,,,,,,,,,,,,,,,,,2:57.0 22-28 Defensive rebound by kuzmaky01
+80,fg_make,,,22.0,31.0,3.0,lillada01,3.0,jump shot,28.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 22-31 +3 lillada01 makes 3-pt jump shot from 28 ft (assist by porteke02 )
+81,timeout,,,22.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,2:44.0 Dallas full timeout 22-31
+82,substitution,,,22.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:44.0 chrisma02 enters the game for edwarke02 22-31
+83,substitution,,,22.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:44.0 marshna01 enters the game for thompkl01 22-31
+84,fg_miss,,,22.0,31.0,,willibr03,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:28.0 willibr03 misses 3-pt jump shot from 23 ft 22-31
+85,rebound,,,22.0,31.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,2:26.0 22-31 Defensive rebound by porteke02
+86,fg_make,,,22.0,34.0,3.0,kuzmaky01,3.0,jump shot,27.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 22-34 +3 kuzmaky01 makes 3-pt jump shot from 27 ft (assist by porteke02 )
+87,fg_miss,,,22.0,34.0,,marshna01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:06.0 marshna01 misses 3-pt jump shot from 25 ft 22-34
+88,rebound,,,22.0,34.0,,,,,,,,,,,defensive,simsje01,False,,,,,,,,,,,,,,,,,,,2:04.0 22-34 Defensive rebound by simsje01
+89,fg_make,,,22.0,36.0,2.0,lillada01,2.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:52.0 22-36 +2 lillada01 makes 2-pt jump shot from 23 ft
+90,fg_miss,,,22.0,36.0,,chrisma02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:38.0 chrisma02 misses 3-pt jump shot from 27 ft 22-36
+91,rebound,,,22.0,36.0,,,,,,,,,,,offensive,marshna01,False,,,,,,,,,,,,,,,,,,,1:35.0 Offensive rebound by marshna01 22-36
+92,fg_make,,,25.0,36.0,3.0,chrisma02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:23.0 chrisma02 makes 3-pt jump shot from 27 ft +3 25-36
+93,turnover,,,25.0,36.0,,,,,,,,,,,,,,,,,porteke02,lost ball; steal by dinwisp01,dinwisp01,,,,,,,,,,,,,1:15.0 25-36 Turnover by porteke02 (lost ball; steal by dinwisp01 )
+94,fg_make,,,27.0,36.0,2.0,willibr03,2.0,layup,2.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,1:07.0 willibr03 makes 2-pt layup from 2 ft (assist by dinwisp01 ) +2 27-36
+95,unknown,,,27.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by porteke02,1:07.0 27-36 Technical foul by porteke02
+96,unknown,,,28.0,36.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,chrisma02 makes technical free throw,1:07.0 chrisma02 makes technical free throw +1 28-36
+97,substitution,,,28.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:07.0 28-36 princta02 enters the game for lillada01
+98,fg_make,,,28.0,38.0,2.0,kuzmaky01,2.0,layup,6.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,0:56.0 28-38 +2 kuzmaky01 makes 2-pt layup from 6 ft (assist by porteke02 )
+99,fg_miss,,,28.0,38.0,,marshna01,2.0,jump shot,7.0,,simsje01,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 marshna01 misses 2-pt jump shot from 7 ft (block by simsje01 ) 28-38
+100,rebound,,,28.0,38.0,,,,,,,,,,,defensive,greenaj01,False,,,,,,,,,,,,,,,,,,,0:50.0 28-38 Defensive rebound by greenaj01
+101,fg_make,,,28.0,40.0,2.0,kuzmaky01,2.0,layup,5.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,0:43.0 28-40 +2 kuzmaky01 makes 2-pt layup from 5 ft (assist by porteke02 )
+102,foul,,,28.0,40.0,,,,,,,,,,,,,,shooting,dinwisp01,kuzmaky01,,,,,,,,,,,,,,,,0:43.0 28-40 Shooting foul by dinwisp01 (drawn by kuzmaky01 )
+103,free_throw,,,28.0,41.0,1.0,kuzmaky01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,0:43.0 28-41 +1 kuzmaky01 makes free throw 1 of 1
+104,fg_make,,,30.0,41.0,2.0,prospol01,2.0,layup,4.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,0:34.0 prospol01 makes 2-pt layup from 4 ft (assist by dinwisp01 ) +2 30-41
+105,fg_miss,,,30.0,41.0,,princta02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 30-41 princta02 misses 3-pt jump shot from 23 ft
+106,rebound,,,30.0,41.0,,,,,,,,,,,defensive,prospol01,False,,,,,,,,,,,,,,,,,,,0:27.0 Defensive rebound by prospol01 30-41
+107,foul,,,30.0,41.0,,,,,,,,,,,,,,shooting,greenaj01,dinwisp01,,,,,,,,,,,,,,,,0:14.0 Shooting foul by greenaj01 (drawn by dinwisp01 ) 30-41
+108,free_throw,,,30.0,41.0,,dinwisp01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:14.0 dinwisp01 misses free throw 1 of 2 30-41
+109,rebound,,,30.0,41.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:14.0 Offensive rebound by Team 30-41
+110,free_throw,,,30.0,41.0,,dinwisp01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:14.0 dinwisp01 misses free throw 2 of 2 30-41
+111,rebound,,,30.0,41.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,0:12.0 30-41 Defensive rebound by porteke02
+112,fg_make,,,30.0,43.0,2.0,kuzmaky01,2.0,layup,4.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 30-43 +2 kuzmaky01 makes 2-pt layup from 4 ft (assist by porteke02 )
+113,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+114,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+115,fg_make,,,32.0,43.0,2.0,willibr03,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 willibr03 makes 2-pt layup from 3 ft +2 32-43
+116,foul,,,32.0,43.0,,,,,,,,,,,,,,personal,chrisma02,greenaj01,,,,,,,,,,,,,,,,11:30.0 32-43 Personal foul by chrisma02 (drawn by greenaj01 )
+117,fg_make,,,32.0,45.0,2.0,simsje01,2.0,dunk,4.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,11:26.0 32-45 +2 simsje01 makes 2-pt dunk from 4 ft (assist by porteke02 )
+118,fg_make,,,34.0,45.0,2.0,poweldw01,2.0,layup,4.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,11:08.0 poweldw01 makes 2-pt layup from 4 ft (assist by thompkl01 ) +2 34-45
+119,fg_miss,,,34.0,45.0,,porteke02,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:56.0 34-45 porteke02 misses 2-pt jump shot from 18 ft
+120,rebound,,,34.0,45.0,,,,,,,,,,,offensive,porteke02,False,,,,,,,,,,,,,,,,,,,10:52.0 34-45 Offensive rebound by porteke02
+121,fg_miss,,,34.0,45.0,,porteke02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:40.0 34-45 porteke02 misses 3-pt jump shot from 27 ft
+122,rebound,,,34.0,45.0,,,,,,,,,,,defensive,chrisma02,False,,,,,,,,,,,,,,,,,,,10:38.0 Defensive rebound by chrisma02 34-45
+123,fg_miss,,,34.0,45.0,,chrisma02,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:32.0 chrisma02 misses 2-pt jump shot from 18 ft 34-45
+124,rebound,,,34.0,45.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,10:29.0 34-45 Defensive rebound by porteke02
+125,turnover,,,34.0,45.0,,,,,,,,,,,,,,,,,kuzmaky01,lost ball; steal by prospol01,prospol01,,,,,,,,,,,,,10:19.0 34-45 Turnover by kuzmaky01 (lost ball; steal by prospol01 )
+126,fg_make,,,36.0,45.0,2.0,willibr03,2.0,layup,7.0,prospol01,,,,,,,,,,,,,,,,,,,,,,,,,,10:15.0 willibr03 makes 2-pt layup from 7 ft (assist by prospol01 ) +2 36-45
+127,turnover,,,36.0,45.0,,,,,,,,,,,,,,,,,princta02,bad pass; steal by willibr03,willibr03,,,,,,,,,,,,,10:02.0 36-45 Turnover by princta02 (bad pass; steal by willibr03 )
+128,fg_make,,,38.0,45.0,2.0,willibr03,2.0,layup,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:58.0 willibr03 makes 2-pt layup from 10 ft +2 38-45
+129,fg_make,,,38.0,47.0,2.0,porteke02,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:35.0 38-47 +2 porteke02 makes 2-pt jump shot from 13 ft
+130,fg_make,,,41.0,47.0,3.0,chrisma02,3.0,jump shot,28.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,9:18.0 chrisma02 makes 3-pt jump shot from 28 ft (assist by willibr03 ) +3 41-47
+131,foul,,,41.0,47.0,,,,,,,,,,,,,,offensive,simsje01,willibr03,,,,,,,,,,,,,,,,9:07.0 41-47 Offensive foul by simsje01 (drawn by willibr03 )
+132,turnover,,,41.0,47.0,,,,,,,,,,,,,,,,,simsje01,offensive foul,,,,,,,,,,,,,,9:07.0 41-47 Turnover by simsje01 (offensive foul)
+133,substitution,,,41.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 dinwisp01 enters the game for prospol01 41-47
+134,substitution,,,41.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 marshna01 enters the game for willibr03 41-47
+135,substitution,,,41.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 41-47 antetgi01 enters the game for greenaj01
+136,fg_miss,,,41.0,47.0,,marshna01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:53.0 marshna01 misses 3-pt jump shot from 24 ft 41-47
+137,rebound,,,41.0,47.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,8:51.0 41-47 Defensive rebound by porteke02
+138,fg_make,,,41.0,49.0,2.0,porteke02,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:45.0 41-49 +2 porteke02 makes 2-pt layup from 7 ft
+139,fg_make,,,43.0,49.0,2.0,chrisma02,2.0,dunk,4.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 chrisma02 makes 2-pt dunk from 4 ft (assist by dinwisp01 ) +2 43-49
+140,turnover,,,43.0,49.0,,,,,,,,,,,,,,,,,antetgi01,lost ball; steal by chrisma02,chrisma02,,,,,,,,,,,,,8:15.0 43-49 Turnover by antetgi01 (lost ball; steal by chrisma02 )
+141,fg_miss,,,43.0,49.0,,thompkl01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 thompkl01 misses 3-pt jump shot from 27 ft 43-49
+142,rebound,,,43.0,49.0,,,,,,,,,,,defensive,kuzmaky01,False,,,,,,,,,,,,,,,,,,,8:07.0 43-49 Defensive rebound by kuzmaky01
+143,fg_make,,,43.0,51.0,2.0,antetgi01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:54.0 43-51 +2 antetgi01 makes 2-pt jump shot from 18 ft
+144,fg_miss,,,43.0,51.0,,poweldw01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:42.0 poweldw01 misses 2-pt jump shot from 11 ft 43-51
+145,rebound,,,43.0,51.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:40.0 43-51 Defensive rebound by Team
+146,fg_miss,,,43.0,51.0,,antetgi01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:25.0 43-51 antetgi01 misses 2-pt jump shot from 13 ft
+147,rebound,,,43.0,51.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,7:22.0 Defensive rebound by marshna01 43-51
+148,substitution,,,43.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:22.0 edwarke02 enters the game for chrisma02 43-51
+149,substitution,,,43.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:22.0 43-51 greenaj01 enters the game for kuzmaky01
+150,substitution,,,43.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:22.0 43-51 lopezbr01 enters the game for simsje01
+151,fg_miss,,,43.0,51.0,,dinwisp01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:01.0 dinwisp01 misses 3-pt jump shot from 23 ft 43-51
+152,rebound,,,43.0,51.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,6:59.0 43-51 Defensive rebound by antetgi01
+153,fg_make,,,43.0,54.0,3.0,greenaj01,3.0,jump shot,23.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,6:45.0 43-54 +3 greenaj01 makes 3-pt jump shot from 23 ft (assist by porteke02 )
+154,foul,,,43.0,54.0,,,,,,,,,,,,,,shooting,greenaj01,dinwisp01,,,,,,,,,,,,,,,,6:37.0 Shooting foul by greenaj01 (drawn by dinwisp01 ) 43-54
+155,timeout,,,43.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milwaukee full,,,,6:37.0 43-54 Milwaukee full timeout
+156,substitution,,,43.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:37.0 43-54 lillada01 enters the game for porteke02
+157,free_throw,,,44.0,54.0,1.0,dinwisp01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:37.0 dinwisp01 makes free throw 1 of 2 +1 44-54
+158,free_throw,,,44.0,54.0,,dinwisp01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:37.0 dinwisp01 misses free throw 2 of 2 44-54
+159,rebound,,,44.0,54.0,,,,,,,,,,,defensive,greenaj01,False,,,,,,,,,,,,,,,,,,,6:36.0 44-54 Defensive rebound by greenaj01
+160,fg_miss,,,44.0,54.0,,antetgi01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:15.0 44-54 antetgi01 misses 2-pt layup from 5 ft
+161,rebound,,,44.0,54.0,,,,,,,,,,,offensive,antetgi01,False,,,,,,,,,,,,,,,,,,,6:14.0 44-54 Offensive rebound by antetgi01
+162,foul,,,44.0,54.0,,,,,,,,,,,,,,shooting,poweldw01,antetgi01,,,,,,,,,,,,,,,,6:12.0 44-54 Shooting foul by poweldw01 (drawn by antetgi01 )
+163,free_throw,,,44.0,55.0,1.0,antetgi01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:12.0 44-55 +1 antetgi01 makes free throw 1 of 2
+164,substitution,,,44.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:12.0 prospol01 enters the game for poweldw01 44-55
+165,substitution,,,44.0,55.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:12.0 willibr03 enters the game for thompkl01 44-55
+166,free_throw,,,44.0,56.0,1.0,antetgi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:12.0 44-56 +1 antetgi01 makes free throw 2 of 2
+167,turnover,,,44.0,56.0,,,,,,,,,,,,,,,,,willibr03,bad pass; steal by antetgi01,antetgi01,,,,,,,,,,,,,5:47.0 Turnover by willibr03 (bad pass; steal by antetgi01 ) 44-56
+168,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:47.0 Jump ball: antetgi01 vs. marshna01 ( lopezbr01 gains possession)
+169,foul,,,44.0,56.0,,,,,,,,,,,,,,shooting,edwarke02,lillada01,,,,,,,,,,,,,,,,5:31.0 44-56 Shooting foul by edwarke02 (drawn by lillada01 )
+170,free_throw,,,44.0,57.0,1.0,lillada01,,,,,,makes,1.0,3.0,,,,,,,,,,,,,,,,,,,,,,5:31.0 44-57 +1 lillada01 makes free throw 1 of 3
+171,free_throw,,,44.0,58.0,1.0,lillada01,,,,,,makes,2.0,3.0,,,,,,,,,,,,,,,,,,,,,,5:31.0 44-58 +1 lillada01 makes free throw 2 of 3
+172,substitution,,,44.0,58.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 chrisma02 enters the game for edwarke02 44-58
+173,free_throw,,,44.0,59.0,1.0,lillada01,,,,,,makes,3.0,3.0,,,,,,,,,,,,,,,,,,,,,,5:31.0 44-59 +1 lillada01 makes free throw 3 of 3
+174,fg_miss,,,44.0,59.0,,willibr03,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:14.0 willibr03 misses 3-pt jump shot from 27 ft 44-59
+175,rebound,,,44.0,59.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,5:11.0 44-59 Defensive rebound by antetgi01
+176,fg_miss,,,44.0,59.0,,lillada01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:07.0 44-59 lillada01 misses 3-pt jump shot from 27 ft
+177,rebound,,,44.0,59.0,,,,,,,,,,,defensive,dinwisp01,False,,,,,,,,,,,,,,,,,,,5:04.0 Defensive rebound by dinwisp01 44-59
+178,fg_miss,,,44.0,59.0,,dinwisp01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:00.0 dinwisp01 misses 3-pt jump shot from 27 ft 44-59
+179,rebound,,,44.0,59.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,4:57.0 44-59 Defensive rebound by antetgi01
+180,fg_miss,,,44.0,59.0,,greenaj01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:54.0 44-59 greenaj01 misses 3-pt jump shot from 29 ft
+181,rebound,,,44.0,59.0,,,,,,,,,,,defensive,willibr03,False,,,,,,,,,,,,,,,,,,,4:51.0 Defensive rebound by willibr03 44-59
+182,fg_miss,,,44.0,59.0,,dinwisp01,2.0,jump shot,8.0,,lopezbr01,,,,,,,,,,,,,,,,,,,,,,,,,4:42.0 dinwisp01 misses 2-pt jump shot from 8 ft (block by lopezbr01 ) 44-59
+183,rebound,,,44.0,59.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:40.0 Offensive rebound by Team 44-59
+184,substitution,,,44.0,59.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 thompkl01 enters the game for dinwisp01 44-59
+185,substitution,,,44.0,59.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 44-59 porteke02 enters the game for princta02
+186,turnover,,,44.0,59.0,,,,,,,,,,,,,,,,,marshna01,out of bounds lost ball,,,,,,,,,,,,,,4:35.0 Turnover by marshna01 (out of bounds lost ball) 44-59
+187,fg_make,,,44.0,61.0,2.0,antetgi01,2.0,dunk,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:22.0 44-61 +2 antetgi01 makes 2-pt dunk from 4 ft
+188,timeout,,,44.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,4:20.0 Dallas full timeout 44-61
+189,fg_miss,,,44.0,61.0,,prospol01,2.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:09.0 prospol01 misses 2-pt jump shot from 22 ft 44-61
+190,rebound,,,44.0,61.0,,,,,,,,,,,defensive,lillada01,False,,,,,,,,,,,,,,,,,,,4:07.0 44-61 Defensive rebound by lillada01
+191,foul,,,44.0,61.0,,,,,,,,,,,,,,shooting,willibr03,lillada01,,,,,,,,,,,,,,,,4:01.0 44-61 Shooting foul by willibr03 (drawn by lillada01 )
+192,free_throw,,,44.0,62.0,1.0,lillada01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:01.0 44-62 +1 lillada01 makes free throw 1 of 2
+193,free_throw,,,44.0,63.0,1.0,lillada01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:01.0 44-63 +1 lillada01 makes free throw 2 of 2
+194,fg_miss,,,44.0,63.0,,chrisma02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:47.0 chrisma02 misses 3-pt jump shot from 23 ft 44-63
+195,rebound,,,44.0,63.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,3:44.0 44-63 Defensive rebound by porteke02
+196,turnover,,,44.0,63.0,,,,,,,,,,,,,,,,,antetgi01,traveling,,,,,,,,,,,,,,3:27.0 44-63 Turnover by antetgi01 (traveling)
+197,fg_miss,,,44.0,63.0,,thompkl01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:14.0 thompkl01 misses 2-pt jump shot from 7 ft 44-63
+198,rebound,,,44.0,63.0,,,,,,,,,,,defensive,lillada01,False,,,,,,,,,,,,,,,,,,,3:12.0 44-63 Defensive rebound by lillada01
+199,fg_make,,,44.0,65.0,2.0,antetgi01,2.0,layup,2.0,lillada01,,,,,,,,,,,,,,,,,,,,,,,,,,3:05.0 44-65 +2 antetgi01 makes 2-pt layup from 2 ft (assist by lillada01 )
+200,fg_make,,,47.0,65.0,3.0,thompkl01,3.0,jump shot,27.0,prospol01,,,,,,,,,,,,,,,,,,,,,,,,,,2:54.0 thompkl01 makes 3-pt jump shot from 27 ft (assist by prospol01 ) +3 47-65
+201,fg_miss,,,47.0,65.0,,antetgi01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:40.0 47-65 antetgi01 misses 2-pt jump shot from 20 ft
+202,rebound,,,47.0,65.0,,,,,,,,,,,defensive,willibr03,False,,,,,,,,,,,,,,,,,,,2:38.0 Defensive rebound by willibr03 47-65
+203,fg_miss,,,47.0,65.0,,willibr03,2.0,layup,5.0,,lopezbr01,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 willibr03 misses 2-pt layup from 5 ft (block by lopezbr01 ) 47-65
+204,rebound,,,47.0,65.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,2:31.0 47-65 Defensive rebound by porteke02
+205,fg_make,,,47.0,68.0,3.0,lillada01,3.0,jump shot,27.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,2:21.0 47-68 +3 lillada01 makes 3-pt jump shot from 27 ft (assist by greenaj01 )
+206,fg_make,,,49.0,68.0,2.0,chrisma02,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:07.0 chrisma02 makes 2-pt jump shot from 18 ft +2 49-68
+207,fg_miss,,,49.0,68.0,,porteke02,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:51.0 49-68 porteke02 misses 3-pt jump shot from 27 ft
+208,rebound,,,49.0,68.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,1:51.0 Defensive rebound by marshna01 49-68
+209,fg_make,,,51.0,68.0,2.0,marshna01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:41.0 marshna01 makes 2-pt jump shot from 10 ft +2 51-68
+210,fg_make,,,51.0,70.0,2.0,lopezbr01,2.0,layup,3.0,lillada01,,,,,,,,,,,,,,,,,,,,,,,,,,1:10.0 51-70 +2 lopezbr01 makes 2-pt layup from 3 ft (assist by lillada01 )
+211,foul,,,51.0,70.0,,,,,,,,,,,,,,shooting,antetgi01,prospol01,,,,,,,,,,,,,,,,1:03.0 Shooting foul by antetgi01 (drawn by prospol01 ) 51-70
+212,free_throw,,,51.0,70.0,,prospol01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:03.0 prospol01 misses free throw 1 of 2 51-70
+213,rebound,,,51.0,70.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:03.0 Offensive rebound by Team 51-70
+214,substitution,,,51.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:03.0 dinwisp01 enters the game for marshna01 51-70
+215,substitution,,,51.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:03.0 poweldw01 enters the game for thompkl01 51-70
+216,free_throw,,,51.0,70.0,,prospol01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:03.0 prospol01 misses free throw 2 of 2 51-70
+217,rebound,,,51.0,70.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,1:02.0 51-70 Defensive rebound by antetgi01
+218,fg_make,,,51.0,72.0,2.0,lillada01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 51-72 +2 lillada01 makes 2-pt layup from 6 ft
+219,turnover,,,51.0,72.0,,,,,,,,,,,,,,,,,dinwisp01,bad pass,,,,,,,,,,,,,,0:42.0 Turnover by dinwisp01 (bad pass) 51-72
+220,turnover,,,51.0,72.0,,,,,,,,,,,,,,,,,lillada01,bad pass; steal by willibr03,willibr03,,,,,,,,,,,,,0:32.0 51-72 Turnover by lillada01 (bad pass; steal by willibr03 )
+221,foul,,,51.0,72.0,,,,,,,,,,,,,,personal,antetgi01,prospol01,,,,,,,,,,,,,,,,0:25.0 Personal foul by antetgi01 (drawn by prospol01 ) 51-72
+222,free_throw,,,52.0,72.0,1.0,prospol01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:25.0 prospol01 makes free throw 1 of 2 +1 52-72
+223,free_throw,,,53.0,72.0,1.0,prospol01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:25.0 prospol01 makes free throw 2 of 2 +1 53-72
+224,fg_miss,,,53.0,72.0,,greenaj01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:05.0 53-72 greenaj01 misses 3-pt jump shot from 24 ft
+225,rebound,,,53.0,72.0,,,,,,,,,,,defensive,willibr03,False,,,,,,,,,,,,,,,,,,,0:03.0 Defensive rebound by willibr03 53-72
+226,fg_miss,,,53.0,72.0,,willibr03,3.0,jump shot,66.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 willibr03 misses 3-pt jump shot from 66 ft 53-72
+227,rebound,,,53.0,72.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 53-72
+228,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+229,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+230,fg_miss,,,53.0,72.0,,chrisma02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:42.0 chrisma02 misses 3-pt jump shot from 28 ft 53-72
+231,rebound,,,53.0,72.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,11:40.0 53-72 Defensive rebound by antetgi01
+232,fg_miss,,,53.0,72.0,,antetgi01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:33.0 53-72 antetgi01 misses 2-pt jump shot from 17 ft
+233,rebound,,,53.0,72.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,11:31.0 Defensive rebound by marshna01 53-72
+234,fg_miss,,,53.0,72.0,,dinwisp01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:15.0 dinwisp01 misses 2-pt layup from 8 ft 53-72
+235,rebound,,,53.0,72.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,11:14.0 53-72 Defensive rebound by antetgi01
+236,fg_make,,,53.0,74.0,2.0,lillada01,2.0,jump shot,16.0,antetgi01,,,,,,,,,,,,,,,,,,,,,,,,,,11:07.0 53-74 +2 lillada01 makes 2-pt jump shot from 16 ft (assist by antetgi01 )
+237,fg_miss,,,53.0,74.0,,thompkl01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:52.0 thompkl01 misses 3-pt jump shot from 23 ft 53-74
+238,rebound,,,53.0,74.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,10:50.0 53-74 Defensive rebound by antetgi01
+239,fg_make,,,53.0,77.0,3.0,princta02,3.0,jump shot,23.0,lillada01,,,,,,,,,,,,,,,,,,,,,,,,,,10:42.0 53-77 +3 princta02 makes 3-pt jump shot from 23 ft (assist by lillada01 )
+240,fg_miss,,,53.0,77.0,,thompkl01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:27.0 thompkl01 misses 2-pt layup from 7 ft 53-77
+241,rebound,,,53.0,77.0,,,,,,,,,,,offensive,poweldw01,False,,,,,,,,,,,,,,,,,,,10:26.0 Offensive rebound by poweldw01 53-77
+242,fg_make,,,56.0,77.0,3.0,thompkl01,3.0,jump shot,24.0,marshna01,,,,,,,,,,,,,,,,,,,,,,,,,,10:21.0 thompkl01 makes 3-pt jump shot from 24 ft (assist by marshna01 ) +3 56-77
+243,fg_make,,,56.0,79.0,2.0,antetgi01,2.0,layup,4.0,lillada01,,,,,,,,,,,,,,,,,,,,,,,,,,9:53.0 56-79 +2 antetgi01 makes 2-pt layup from 4 ft (assist by lillada01 )
+244,fg_make,,,58.0,79.0,2.0,marshna01,2.0,layup,6.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 marshna01 makes 2-pt layup from 6 ft (assist by dinwisp01 ) +2 58-79
+245,fg_make,,,58.0,81.0,2.0,antetgi01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:20.0 58-81 +2 antetgi01 makes 2-pt jump shot from 18 ft
+246,fg_make,,,60.0,81.0,2.0,poweldw01,2.0,layup,3.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,9:09.0 poweldw01 makes 2-pt layup from 3 ft (assist by thompkl01 ) +2 60-81
+247,fg_miss,,,60.0,81.0,,princta02,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:52.0 60-81 princta02 misses 2-pt layup from 8 ft
+248,rebound,,,60.0,81.0,,,,,,,,,,,offensive,antetgi01,False,,,,,,,,,,,,,,,,,,,8:51.0 60-81 Offensive rebound by antetgi01
+249,fg_make,,,60.0,83.0,2.0,antetgi01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:49.0 60-83 +2 antetgi01 makes 2-pt dunk from 2 ft
+250,fg_make,,,63.0,83.0,3.0,thompkl01,3.0,jump shot,27.0,poweldw01,,,,,,,,,,,,,,,,,,,,,,,,,,8:32.0 thompkl01 makes 3-pt jump shot from 27 ft (assist by poweldw01 ) +3 63-83
+251,fg_make,,,63.0,85.0,2.0,kuzmaky01,2.0,layup,,antetgi01,,,,,,,,,,,,,,,,,,,,,,,,,,8:15.0 63-85 +2 kuzmaky01 makes 2-pt layup at rim (assist by antetgi01 )
+252,fg_miss,,,63.0,85.0,,chrisma02,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:03.0 chrisma02 misses 2-pt jump shot from 14 ft 63-85
+253,rebound,,,63.0,85.0,,,,,,,,,,,defensive,kuzmaky01,False,,,,,,,,,,,,,,,,,,,8:00.0 63-85 Defensive rebound by kuzmaky01
+254,fg_miss,,,63.0,85.0,,kuzmaky01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 63-85 kuzmaky01 misses 2-pt layup from 8 ft
+255,rebound,,,63.0,85.0,,,,,,,,,,,defensive,thompkl01,False,,,,,,,,,,,,,,,,,,,7:55.0 Defensive rebound by thompkl01 63-85
+256,foul,,,63.0,85.0,,,,,,,,,,,,,,offensive,poweldw01,lopezbr01,,,,,,,,,,,,,,,,7:40.0 Offensive foul by poweldw01 (drawn by lopezbr01 ) 63-85
+257,turnover,,,63.0,85.0,,,,,,,,,,,,,,,,,poweldw01,offensive foul,,,,,,,,,,,,,,7:40.0 Turnover by poweldw01 (offensive foul) 63-85
+258,substitution,,,63.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 edwarke02 enters the game for dinwisp01 63-85
+259,substitution,,,63.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 willibr03 enters the game for poweldw01 63-85
+260,fg_miss,,,63.0,85.0,,antetgi01,2.0,layup,5.0,,edwarke02,,,,,,,,,,,,,,,,,,,,,,,,,7:25.0 63-85 antetgi01 misses 2-pt layup from 5 ft (block by edwarke02 )
+261,rebound,,,63.0,85.0,,,,,,,,,,,offensive,antetgi01,False,,,,,,,,,,,,,,,,,,,7:24.0 63-85 Offensive rebound by antetgi01
+262,fg_make,,,63.0,87.0,2.0,antetgi01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:22.0 63-87 +2 antetgi01 makes 2-pt layup from 3 ft
+263,fg_make,,,65.0,87.0,2.0,edwarke02,2.0,dunk,3.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,7:12.0 edwarke02 makes 2-pt dunk from 3 ft (assist by willibr03 ) +2 65-87
+264,fg_make,,,65.0,89.0,2.0,lillada01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:53.0 65-89 +2 lillada01 makes 2-pt layup from 5 ft
+265,fg_miss,,,65.0,89.0,,chrisma02,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:44.0 chrisma02 misses 3-pt jump shot from 30 ft 65-89
+266,rebound,,,65.0,89.0,,,,,,,,,,,defensive,lopezbr01,False,,,,,,,,,,,,,,,,,,,6:41.0 65-89 Defensive rebound by lopezbr01
+267,fg_miss,,,65.0,89.0,,lillada01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 65-89 lillada01 misses 3-pt jump shot from 30 ft
+268,rebound,,,65.0,89.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,6:29.0 Defensive rebound by Team 65-89
+269,timeout,,,65.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milwaukee full,,,,6:28.0 65-89 Milwaukee full timeout
+270,substitution,,,65.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:28.0 prospol01 enters the game for marshna01 65-89
+271,substitution,,,65.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:28.0 65-89 greenaj01 enters the game for kuzmaky01
+272,fg_miss,,,65.0,89.0,,chrisma02,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:13.0 chrisma02 misses 2-pt jump shot from 18 ft 65-89
+273,rebound,,,65.0,89.0,,,,,,,,,,,defensive,antetgi01,False,,,,,,,,,,,,,,,,,,,6:10.0 65-89 Defensive rebound by antetgi01
+274,fg_miss,,,65.0,89.0,,antetgi01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:01.0 65-89 antetgi01 misses 2-pt jump shot from 9 ft
+275,rebound,,,65.0,89.0,,,,,,,,,,,offensive,antetgi01,False,,,,,,,,,,,,,,,,,,,6:00.0 65-89 Offensive rebound by antetgi01
+276,fg_make,,,65.0,91.0,2.0,antetgi01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 65-91 +2 antetgi01 makes 2-pt layup from 3 ft
+277,fg_miss,,,65.0,91.0,,thompkl01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:49.0 thompkl01 misses 3-pt jump shot from 28 ft 65-91
+278,rebound,,,65.0,91.0,,,,,,,,,,,defensive,princta02,False,,,,,,,,,,,,,,,,,,,5:47.0 65-91 Defensive rebound by princta02
+279,fg_make,,,65.0,94.0,3.0,greenaj01,3.0,jump shot,27.0,antetgi01,,,,,,,,,,,,,,,,,,,,,,,,,,5:35.0 65-94 +3 greenaj01 makes 3-pt jump shot from 27 ft (assist by antetgi01 )
+280,fg_miss,,,65.0,94.0,,prospol01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:19.0 prospol01 misses 2-pt jump shot from 15 ft 65-94
+281,rebound,,,65.0,94.0,,,,,,,,,,,defensive,lillada01,False,,,,,,,,,,,,,,,,,,,5:16.0 65-94 Defensive rebound by lillada01
+282,substitution,,,65.0,94.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:16.0 dinwisp01 enters the game for chrisma02 65-94
+283,fg_make,,,65.0,96.0,2.0,antetgi01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:55.0 65-96 +2 antetgi01 makes 2-pt jump shot from 12 ft
+284,fg_make,,,67.0,96.0,2.0,edwarke02,2.0,jump shot,11.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 edwarke02 makes 2-pt jump shot from 11 ft (assist by willibr03 ) +2 67-96
+285,fg_make,,,67.0,98.0,2.0,lillada01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 67-98 +2 lillada01 makes 2-pt layup from 5 ft
+286,turnover,,,67.0,98.0,,,,,,,,,,,,,,,,,edwarke02,bad pass; steal by lillada01,lillada01,,,,,,,,,,,,,4:07.0 Turnover by edwarke02 (bad pass; steal by lillada01 ) 67-98
+287,foul,,,67.0,98.0,,,,,,,,,,,,,,shooting,dinwisp01,lillada01,,,,,,,,,,,,,,,,4:03.0 67-98 Shooting foul by dinwisp01 (drawn by lillada01 )
+288,free_throw,,,67.0,99.0,1.0,lillada01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:03.0 67-99 +1 lillada01 makes free throw 1 of 2
+289,substitution,,,67.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 marshna01 enters the game for thompkl01 67-99
+290,substitution,,,67.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 67-99 kuzmaky01 enters the game for antetgi01
+291,substitution,,,67.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 67-99 porteke02 enters the game for lopezbr01
+292,substitution,,,67.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 67-99 simsje01 enters the game for princta02
+293,free_throw,,,67.0,100.0,1.0,lillada01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:03.0 67-100 +1 lillada01 makes free throw 2 of 2
+294,fg_miss,,,67.0,100.0,,marshna01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:46.0 marshna01 misses 2-pt jump shot from 7 ft 67-100
+295,rebound,,,67.0,100.0,,,,,,,,,,,defensive,kuzmaky01,False,,,,,,,,,,,,,,,,,,,3:45.0 67-100 Defensive rebound by kuzmaky01
+296,fg_miss,,,67.0,100.0,,lillada01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:26.0 67-100 lillada01 misses 3-pt jump shot from 25 ft
+297,rebound,,,67.0,100.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,3:24.0 Defensive rebound by marshna01 67-100
+298,fg_miss,,,67.0,100.0,,edwarke02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:16.0 edwarke02 misses 3-pt jump shot from 23 ft 67-100
+299,rebound,,,67.0,100.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,3:14.0 67-100 Defensive rebound by porteke02
+300,turnover,,,67.0,100.0,,,,,,,,,,,,,,,,,porteke02,bad pass; steal by dinwisp01,dinwisp01,,,,,,,,,,,,,3:09.0 67-100 Turnover by porteke02 (bad pass; steal by dinwisp01 )
+301,fg_make,,,70.0,100.0,3.0,dinwisp01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:05.0 dinwisp01 makes 3-pt jump shot from 23 ft +3 70-100
+302,timeout,,,70.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,2:46.0 Dallas full timeout 70-100
+303,substitution,,,70.0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:46.0 70-100 princta02 enters the game for lillada01
+304,fg_miss,,,70.0,100.0,,greenaj01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:33.0 70-100 greenaj01 misses 3-pt jump shot from 27 ft
+305,rebound,,,70.0,100.0,,,,,,,,,,,offensive,simsje01,False,,,,,,,,,,,,,,,,,,,2:31.0 70-100 Offensive rebound by simsje01
+306,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 Jump ball: edwarke02 vs. princta02 ( prospol01 gains possession)
+307,turnover,,,70.0,100.0,,,,,,,,,,,,,,,,,princta02,lost ball; steal by edwarke02,edwarke02,,,,,,,,,,,,,2:20.0 70-100 Turnover by princta02 (lost ball; steal by edwarke02 )
+308,fg_make,,,73.0,100.0,3.0,marshna01,3.0,jump shot,27.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,2:11.0 marshna01 makes 3-pt jump shot from 27 ft (assist by willibr03 ) +3 73-100
+309,turnover,,,73.0,100.0,,,,,,,,,,,,,,,,,porteke02,lost ball; steal by marshna01,marshna01,,,,,,,,,,,,,1:54.0 73-100 Turnover by porteke02 (lost ball; steal by marshna01 )
+310,fg_make,,,75.0,100.0,2.0,marshna01,2.0,layup,3.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,1:50.0 marshna01 makes 2-pt layup from 3 ft (assist by dinwisp01 ) +2 75-100
+311,fg_make,,,75.0,103.0,3.0,greenaj01,3.0,jump shot,26.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,1:37.0 75-103 +3 greenaj01 makes 3-pt jump shot from 26 ft (assist by porteke02 )
+312,fg_miss,,,75.0,103.0,,prospol01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:23.0 prospol01 misses 2-pt layup from 6 ft 75-103
+313,rebound,,,75.0,103.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,1:22.0 75-103 Defensive rebound by porteke02
+314,fg_miss,,,75.0,103.0,,princta02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:14.0 75-103 princta02 misses 3-pt jump shot from 25 ft
+315,rebound,,,75.0,103.0,,,,,,,,,,,defensive,willibr03,False,,,,,,,,,,,,,,,,,,,1:11.0 Defensive rebound by willibr03 75-103
+316,fg_make,,,77.0,103.0,2.0,marshna01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:00.0 marshna01 makes 2-pt layup from 8 ft +2 77-103
+317,fg_miss,,,77.0,103.0,,porteke02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 77-103 porteke02 misses 3-pt jump shot from 26 ft
+318,rebound,,,77.0,103.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,0:39.0 Defensive rebound by marshna01 77-103
+319,foul,,,77.0,103.0,,,,,,,,,,,,,,offensive,marshna01,kuzmaky01,,,,,,,,,,,,,,,,0:33.0 Offensive foul by marshna01 (drawn by kuzmaky01 ) 77-103
+320,turnover,,,77.0,103.0,,,,,,,,,,,,,,,,,marshna01,offensive foul,,,,,,,,,,,,,,0:33.0 Turnover by marshna01 (offensive foul) 77-103
+321,fg_make,,,77.0,106.0,3.0,greenaj01,3.0,jump shot,27.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,0:20.0 77-106 +3 greenaj01 makes 3-pt jump shot from 27 ft (assist by porteke02 )
+322,fg_make,,,79.0,106.0,2.0,marshna01,2.0,layup,2.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 marshna01 makes 2-pt layup from 2 ft (assist by willibr03 ) +2 79-106
+323,foul,,,79.0,106.0,,,,,,,,,,,,,,shooting,kuzmaky01,marshna01,,,,,,,,,,,,,,,,0:03.0 Shooting foul by kuzmaky01 (drawn by marshna01 ) 79-106
+324,free_throw,,,79.0,106.0,,marshna01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,0:03.0 marshna01 misses free throw 1 of 1 79-106
+325,rebound,,,79.0,106.0,,,,,,,,,,,defensive,simsje01,False,,,,,,,,,,,,,,,,,,,0:02.0 79-106 Defensive rebound by simsje01
+326,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+327,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+328,turnover,,,79.0,106.0,,,,,,,,,,,,,,,,,kuzmaky01,bad pass; steal by thompkl01,thompkl01,,,,,,,,,,,,,11:48.0 79-106 Turnover by kuzmaky01 (bad pass; steal by thompkl01 )
+329,fg_make,,,81.0,106.0,2.0,willibr03,2.0,layup,6.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,11:43.0 willibr03 makes 2-pt layup from 6 ft (assist by thompkl01 ) +2 81-106
+330,fg_make,,,81.0,108.0,2.0,porteke02,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:18.0 81-108 +2 porteke02 makes 2-pt jump shot from 20 ft
+331,fg_miss,,,81.0,108.0,,willibr03,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:07.0 willibr03 misses 2-pt layup from 6 ft 81-108
+332,rebound,,,81.0,108.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,11:06.0 81-108 Defensive rebound by porteke02
+333,foul,,,81.0,108.0,,,,,,,,,,,,,,shooting,poweldw01,porteke02,,,,,,,,,,,,,,,,11:00.0 81-108 Shooting foul by poweldw01 (drawn by porteke02 )
+334,free_throw,,,81.0,109.0,1.0,porteke02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:00.0 81-109 +1 porteke02 makes free throw 1 of 2
+335,free_throw,,,81.0,110.0,1.0,porteke02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:00.0 81-110 +1 porteke02 makes free throw 2 of 2
+336,fg_miss,,,81.0,110.0,,thompkl01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:50.0 thompkl01 misses 2-pt jump shot from 21 ft 81-110
+337,rebound,,,81.0,110.0,,,,,,,,,,,defensive,simsje01,False,,,,,,,,,,,,,,,,,,,10:48.0 81-110 Defensive rebound by simsje01
+338,fg_make,,,81.0,112.0,2.0,simsje01,2.0,layup,3.0,greenaj01,,,,,,,,,,,,,,,,,,,,,,,,,,10:37.0 81-112 +2 simsje01 makes 2-pt layup from 3 ft (assist by greenaj01 )
+339,fg_miss,,,81.0,112.0,,thompkl01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:24.0 thompkl01 misses 3-pt jump shot from 27 ft 81-112
+340,rebound,,,81.0,112.0,,,,,,,,,,,defensive,simsje01,False,,,,,,,,,,,,,,,,,,,10:22.0 81-112 Defensive rebound by simsje01
+341,turnover,,,81.0,112.0,,,,,,,,,,,,,,,,,kuzmaky01,bad pass; steal by edwarke02,edwarke02,,,,,,,,,,,,,10:11.0 81-112 Turnover by kuzmaky01 (bad pass; steal by edwarke02 )
+342,turnover,,,81.0,112.0,,,,,,,,,,,,,,,,,willibr03,bad pass; steal by porteke02,porteke02,,,,,,,,,,,,,10:08.0 Turnover by willibr03 (bad pass; steal by porteke02 ) 81-112
+343,fg_miss,,,81.0,112.0,,porteke02,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:06.0 81-112 porteke02 misses 2-pt jump shot from 8 ft
+344,rebound,,,81.0,112.0,,,,,,,,,,,offensive,simsje01,False,,,,,,,,,,,,,,,,,,,10:05.0 81-112 Offensive rebound by simsje01
+345,fg_make,,,81.0,114.0,2.0,simsje01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:04.0 81-114 +2 simsje01 makes 2-pt layup from 3 ft
+346,fg_miss,,,81.0,114.0,,thompkl01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:44.0 thompkl01 misses 3-pt jump shot from 27 ft 81-114
+347,rebound,,,81.0,114.0,,,,,,,,,,,defensive,simsje01,False,,,,,,,,,,,,,,,,,,,9:40.0 81-114 Defensive rebound by simsje01
+348,fg_make,,,81.0,116.0,2.0,kuzmaky01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:35.0 81-116 +2 kuzmaky01 makes 2-pt layup from 5 ft
+349,fg_miss,,,81.0,116.0,,thompkl01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 thompkl01 misses 2-pt layup from 3 ft 81-116
+350,rebound,,,81.0,116.0,,,,,,,,,,,defensive,princta02,False,,,,,,,,,,,,,,,,,,,9:23.0 81-116 Defensive rebound by princta02
+351,fg_miss,,,81.0,116.0,,porteke02,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:15.0 81-116 porteke02 misses 3-pt jump shot from 23 ft
+352,rebound,,,81.0,116.0,,,,,,,,,,,defensive,poweldw01,False,,,,,,,,,,,,,,,,,,,9:12.0 Defensive rebound by poweldw01 81-116
+353,fg_miss,,,81.0,116.0,,thompkl01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:08.0 thompkl01 misses 3-pt jump shot from 27 ft 81-116
+354,rebound,,,81.0,116.0,,,,,,,,,,,defensive,porteke02,False,,,,,,,,,,,,,,,,,,,9:05.0 81-116 Defensive rebound by porteke02
+355,timeout,,,81.0,116.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Milwaukee full,,,,9:03.0 81-116 Milwaukee full timeout
+356,substitution,,,81.0,116.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:03.0 81-116 jacksan01 enters the game for kuzmaky01
+357,substitution,,,81.0,116.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:03.0 81-116 livinch01 enters the game for princta02
+358,fg_miss,,,81.0,116.0,,livinch01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:46.0 81-116 livinch01 misses 3-pt jump shot from 24 ft
+359,rebound,,,81.0,116.0,,,,,,,,,,,defensive,thompkl01,False,,,,,,,,,,,,,,,,,,,8:44.0 Defensive rebound by thompkl01 81-116
+360,fg_make,,,84.0,116.0,3.0,thompkl01,3.0,jump shot,24.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 thompkl01 makes 3-pt jump shot from 24 ft (assist by willibr03 ) +3 84-116
+361,fg_make,,,84.0,118.0,2.0,simsje01,2.0,jump shot,12.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,8:08.0 84-118 +2 simsje01 makes 2-pt jump shot from 12 ft (assist by porteke02 )
+362,fg_make,,,86.0,118.0,2.0,willibr03,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:50.0 willibr03 makes 2-pt jump shot from 15 ft +2 86-118
+363,fg_make,,,86.0,121.0,3.0,greenaj01,3.0,jump shot,23.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,7:29.0 86-121 +3 greenaj01 makes 3-pt jump shot from 23 ft (assist by porteke02 )
+364,fg_miss,,,86.0,121.0,,thompkl01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:08.0 thompkl01 misses 2-pt jump shot from 15 ft 86-121
+365,rebound,,,86.0,121.0,,,,,,,,,,,offensive,poweldw01,False,,,,,,,,,,,,,,,,,,,7:04.0 Offensive rebound by poweldw01 86-121
+366,fg_miss,,,86.0,121.0,,chrisma02,3.0,jump shot,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:04.0 chrisma02 misses 3-pt jump shot from 33 ft 86-121
+367,rebound,,,86.0,121.0,,,,,,,,,,,defensive,livinch01,False,,,,,,,,,,,,,,,,,,,7:01.0 86-121 Defensive rebound by livinch01
+368,fg_miss,,,86.0,121.0,,jacksan01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:45.0 86-121 jacksan01 misses 3-pt jump shot from 23 ft
+369,rebound,,,86.0,121.0,,,,,,,,,,,defensive,willibr03,False,,,,,,,,,,,,,,,,,,,6:42.0 Defensive rebound by willibr03 86-121
+370,fg_make,,,88.0,121.0,2.0,willibr03,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:37.0 willibr03 makes 2-pt layup from 4 ft +2 88-121
+371,fg_miss,,,88.0,121.0,,porteke02,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:23.0 88-121 porteke02 misses 3-pt jump shot from 28 ft
+372,rebound,,,88.0,121.0,,,,,,,,,,,defensive,thompkl01,False,,,,,,,,,,,,,,,,,,,6:21.0 Defensive rebound by thompkl01 88-121
+373,fg_make,,,91.0,121.0,3.0,edwarke02,3.0,jump shot,27.0,thompkl01,,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 edwarke02 makes 3-pt jump shot from 27 ft (assist by thompkl01 ) +3 91-121
+374,fg_make,,,91.0,124.0,3.0,greenaj01,3.0,jump shot,23.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 91-124 +3 greenaj01 makes 3-pt jump shot from 23 ft (assist by porteke02 )
+375,fg_make,,,93.0,124.0,2.0,thompkl01,2.0,layup,4.0,poweldw01,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 thompkl01 makes 2-pt layup from 4 ft (assist by poweldw01 ) +2 93-124
+376,fg_make,,,93.0,126.0,2.0,simsje01,2.0,dunk,4.0,porteke02,,,,,,,,,,,,,,,,,,,,,,,,,,5:14.0 93-126 +2 simsje01 makes 2-pt dunk from 4 ft (assist by porteke02 )
+377,fg_make,,,95.0,126.0,2.0,thompkl01,2.0,layup,3.0,poweldw01,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 thompkl01 makes 2-pt layup from 3 ft (assist by poweldw01 ) +2 95-126
+378,fg_miss,,,95.0,126.0,,jacksan01,2.0,layup,3.0,,poweldw01,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 95-126 jacksan01 misses 2-pt layup from 3 ft (block by poweldw01 )
+379,rebound,,,95.0,126.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:34.0 95-126 Offensive rebound by Team
+380,timeout,,,95.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dallas full,,,,4:34.0 Dallas full timeout 95-126
+381,substitution,,,95.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 dinwisp01 enters the game for poweldw01 95-126
+382,substitution,,,95.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 marshna01 enters the game for thompkl01 95-126
+383,substitution,,,95.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 prospol01 enters the game for willibr03 95-126
+384,substitution,,,95.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 95-126 bouyeja01 enters the game for greenaj01
+385,substitution,,,95.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 95-126 smithty02 enters the game for porteke02
+386,substitution,,,95.0,126.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 95-126 umudest01 enters the game for simsje01
+387,fg_make,,,95.0,129.0,3.0,jacksan01,3.0,jump shot,27.0,bouyeja01,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 95-129 +3 jacksan01 makes 3-pt jump shot from 27 ft (assist by bouyeja01 )
+388,turnover,,,95.0,129.0,,,,,,,,,,,,,,,,,chrisma02,bad pass; steal by jacksan01,jacksan01,,,,,,,,,,,,,4:17.0 Turnover by chrisma02 (bad pass; steal by jacksan01 ) 95-129
+389,fg_miss,,,95.0,129.0,,jacksan01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 95-129 jacksan01 misses 2-pt layup from 6 ft
+390,rebound,,,95.0,129.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,4:11.0 Defensive rebound by Team 95-129
+391,foul,,,95.0,129.0,,,,,,,,,,,,,,loose ball,livinch01,marshna01,,,,,,,,,,,,,,,,4:11.0 95-129 Loose ball foul by livinch01 (drawn by marshna01 )
+392,fg_miss,,,95.0,129.0,,marshna01,2.0,jump shot,13.0,,umudest01,,,,,,,,,,,,,,,,,,,,,,,,,3:48.0 marshna01 misses 2-pt jump shot from 13 ft (block by umudest01 ) 95-129
+393,rebound,,,95.0,129.0,,,,,,,,,,,defensive,smithty02,False,,,,,,,,,,,,,,,,,,,3:47.0 95-129 Defensive rebound by smithty02
+394,turnover,,,95.0,129.0,,,,,,,,,,,,,,,,,jacksan01,bad pass; steal by chrisma02,chrisma02,,,,,,,,,,,,,3:38.0 95-129 Turnover by jacksan01 (bad pass; steal by chrisma02 )
+395,fg_miss,,,95.0,129.0,,chrisma02,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:19.0 chrisma02 misses 2-pt jump shot from 21 ft 95-129
+396,rebound,,,95.0,129.0,,,,,,,,,,,defensive,umudest01,False,,,,,,,,,,,,,,,,,,,3:17.0 95-129 Defensive rebound by umudest01
+397,fg_miss,,,95.0,129.0,,smithty02,2.0,layup,4.0,,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,3:10.0 95-129 smithty02 misses 2-pt layup from 4 ft (block by dinwisp01 )
+398,rebound,,,95.0,129.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:09.0 95-129 Offensive rebound by Team
+399,substitution,,,95.0,129.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 willibr03 enters the game for chrisma02 95-129
+400,fg_make,,,95.0,131.0,2.0,bouyeja01,2.0,jump shot,9.0,umudest01,,,,,,,,,,,,,,,,,,,,,,,,,,2:58.0 95-131 +2 bouyeja01 makes 2-pt jump shot from 9 ft (assist by umudest01 )
+401,fg_make,,,97.0,131.0,2.0,prospol01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:38.0 prospol01 makes 2-pt layup from 4 ft +2 97-131
+402,fg_miss,,,97.0,131.0,,umudest01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:22.0 97-131 umudest01 misses 3-pt jump shot from 24 ft
+403,rebound,,,97.0,131.0,,,,,,,,,,,offensive,livinch01,False,,,,,,,,,,,,,,,,,,,2:20.0 97-131 Offensive rebound by livinch01
+404,turnover,,,97.0,131.0,,,,,,,,,,,,,,,,,bouyeja01,traveling,,,,,,,,,,,,,,2:15.0 97-131 Turnover by bouyeja01 (traveling)
+405,fg_make,,,100.0,131.0,3.0,prospol01,3.0,jump shot,23.0,dinwisp01,,,,,,,,,,,,,,,,,,,,,,,,,,2:01.0 prospol01 makes 3-pt jump shot from 23 ft (assist by dinwisp01 ) +3 100-131
+406,fg_miss,,,100.0,131.0,,umudest01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:55.0 100-131 umudest01 misses 2-pt layup from 5 ft
+407,rebound,,,100.0,131.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,1:53.0 Defensive rebound by marshna01 100-131
+408,fg_make,,,103.0,131.0,3.0,marshna01,3.0,jump shot,27.0,edwarke02,,,,,,,,,,,,,,,,,,,,,,,,,,1:44.0 marshna01 makes 3-pt jump shot from 27 ft (assist by edwarke02 ) +3 103-131
+409,fg_make,,,103.0,134.0,3.0,jacksan01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:37.0 103-134 +3 jacksan01 makes 3-pt jump shot from 28 ft
+410,fg_make,,,105.0,134.0,2.0,marshna01,2.0,jump shot,23.0,willibr03,,,,,,,,,,,,,,,,,,,,,,,,,,1:20.0 marshna01 makes 2-pt jump shot from 23 ft (assist by willibr03 ) +2 105-134
+411,fg_miss,,,105.0,134.0,,jacksan01,2.0,layup,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:15.0 105-134 jacksan01 misses 2-pt layup from 10 ft
+412,rebound,,,105.0,134.0,,,,,,,,,,,defensive,marshna01,False,,,,,,,,,,,,,,,,,,,1:13.0 Defensive rebound by marshna01 105-134
+413,fg_make,,,107.0,134.0,2.0,marshna01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:05.0 marshna01 makes 2-pt layup from 5 ft +2 107-134
+414,foul,,,107.0,134.0,,,,,,,,,,,,,,shooting,willibr03,livinch01,,,,,,,,,,,,,,,,0:58.0 107-134 Shooting foul by willibr03 (drawn by livinch01 )
+415,free_throw,,,107.0,134.0,,livinch01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:58.0 107-134 livinch01 misses free throw 1 of 2
+416,rebound,,,107.0,134.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:58.0 107-134 Offensive rebound by Team
+417,free_throw,,,107.0,135.0,1.0,livinch01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:58.0 107-135 +1 livinch01 makes free throw 2 of 2
+418,fg_miss,,,107.0,135.0,,prospol01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:48.0 prospol01 misses 2-pt jump shot from 11 ft 107-135
+419,rebound,,,107.0,135.0,,,,,,,,,,,defensive,livinch01,False,,,,,,,,,,,,,,,,,,,0:47.0 107-135 Defensive rebound by livinch01
+420,fg_make,,,107.0,137.0,2.0,jacksan01,2.0,dunk,8.0,livinch01,,,,,,,,,,,,,,,,,,,,,,,,,,0:42.0 107-137 +2 jacksan01 makes 2-pt dunk from 8 ft (assist by livinch01 )
+421,fg_miss,,,107.0,137.0,,marshna01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:35.0 marshna01 misses 2-pt jump shot from 9 ft 107-137
+422,rebound,,,107.0,137.0,,,,,,,,,,,defensive,jacksan01,False,,,,,,,,,,,,,,,,,,,0:33.0 107-137 Defensive rebound by jacksan01
+423,fg_miss,,,107.0,137.0,,umudest01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:28.0 107-137 umudest01 misses 3-pt jump shot from 24 ft
+424,rebound,,,107.0,137.0,,,,,,,,,,,defensive,edwarke02,False,,,,,,,,,,,,,,,,,,,0:25.0 Defensive rebound by edwarke02 107-137
+425,turnover,,,107.0,137.0,,,,,,,,,,,,,,,,,willibr03,bad pass; steal by bouyeja01,bouyeja01,,,,,,,,,,,,,0:21.0 Turnover by willibr03 (bad pass; steal by bouyeja01 ) 107-137
+426,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

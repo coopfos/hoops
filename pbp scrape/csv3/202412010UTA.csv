@@ -1,0 +1,428 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text,clock
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: davisan02 vs. kesslwa01 ( georgke01 gains possession),12:00.0
+2,fg_make,,,0.0,2.0,2.0,kesslwa01,2.0,dunk,3.0,collijo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 0-2 +2 kesslwa01 makes 2-pt dunk from 3 ft (assist by collijo01 ),11:45.0
+3,foul,,,0.0,2.0,,,,,,,,,,,,,,shooting,knechda01,kesslwa01,,,,,,,,,,,,,,,,11:45.0 0-2 Shooting foul by knechda01 (drawn by kesslwa01 ),11:45.0
+4,free_throw,,,0.0,3.0,1.0,kesslwa01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,11:45.0 0-3 +1 kesslwa01 makes free throw 1 of 1,11:45.0
+5,foul,,,0.0,3.0,,,,,,,,,,,,,,shooting,kesslwa01,davisan02,,,,,,,,,,,,,,,,11:33.0 Shooting foul by kesslwa01 (drawn by davisan02 ) 0-3,11:33.0
+6,free_throw,,,0.0,3.0,,davisan02,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:33.0 davisan02 misses free throw 1 of 2 0-3,11:33.0
+7,rebound,,,0.0,3.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:33.0 Offensive rebound by Team 0-3,11:33.0
+8,free_throw,,,1.0,3.0,1.0,davisan02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:33.0 davisan02 makes free throw 2 of 2 +1 1-3,11:33.0
+9,fg_miss,,,1.0,3.0,,collijo01,2.0,layup,14.0,,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,11:18.0 1-3 collijo01 misses 2-pt layup from 14 ft (block by jamesle01 ),11:18.0
+10,rebound,,,1.0,3.0,,,,,,,,,,,defensive,vincega01,False,,,,,,,,,,,,,,,,,,,11:18.0 Defensive rebound by vincega01 1-3,11:18.0
+11,fg_make,,,3.0,3.0,2.0,hachiru01,2.0,dunk,2.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,11:13.0 hachiru01 makes 2-pt dunk from 2 ft (assist by jamesle01 ) +2 3-3,11:13.0
+12,fg_miss,,,3.0,3.0,,sextoco01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:54.0 3-3 sextoco01 misses 3-pt jump shot from 26 ft,10:54.0
+13,rebound,,,3.0,3.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:54.0 Defensive rebound by Team 3-3,10:54.0
+14,fg_miss,,,3.0,3.0,,davisan02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:32.0 davisan02 misses 2-pt layup from 4 ft 3-3,10:32.0
+15,rebound,,,3.0,3.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,10:30.0 3-3 Defensive rebound by kesslwa01,10:30.0
+16,turnover,,,3.0,3.0,,,,,,,,,,,,,,,,,georgke01,bad pass,,,,,,,,,,,,,,10:20.0 3-3 Turnover by georgke01 (bad pass),10:20.0
+17,fg_miss,,,3.0,3.0,,knechda01,2.0,layup,4.0,,kesslwa01,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 knechda01 misses 2-pt layup from 4 ft (block by kesslwa01 ) 3-3,10:05.0
+18,rebound,,,3.0,3.0,,,,,,,,,,,defensive,georgke01,False,,,,,,,,,,,,,,,,,,,10:04.0 3-3 Defensive rebound by georgke01,10:04.0
+19,fg_miss,,,3.0,3.0,,markkla01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:58.0 3-3 markkla01 misses 3-pt jump shot from 26 ft,9:58.0
+20,rebound,,,3.0,3.0,,,,,,,,,,,offensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,9:55.0 3-3 Offensive rebound by kesslwa01,9:55.0
+21,fg_make,,,3.0,6.0,3.0,sextoco01,3.0,jump shot,23.0,georgke01,,,,,,,,,,,,,,,,,,,,,,,,,,9:53.0 3-6 +3 sextoco01 makes 3-pt jump shot from 23 ft (assist by georgke01 ),9:53.0
+22,fg_make,,,5.0,6.0,2.0,jamesle01,2.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 jamesle01 makes 2-pt jump shot from 22 ft +2 5-6,9:36.0
+23,fg_miss,,,5.0,6.0,,collijo01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:20.0 5-6 collijo01 misses 2-pt jump shot from 8 ft,9:20.0
+24,rebound,,,5.0,6.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,9:18.0 Defensive rebound by davisan02 5-6,9:18.0
+25,fg_miss,,,5.0,6.0,,jamesle01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:05.0 jamesle01 misses 2-pt jump shot from 16 ft 5-6,9:05.0
+26,rebound,,,5.0,6.0,,,,,,,,,,,defensive,markkla01,False,,,,,,,,,,,,,,,,,,,9:03.0 5-6 Defensive rebound by markkla01,9:03.0
+27,turnover,,,5.0,6.0,,,,,,,,,,,,,,,,,kesslwa01,bad pass; steal by vincega01,vincega01,,,,,,,,,,,,,8:55.0 5-6 Turnover by kesslwa01 (bad pass; steal by vincega01 ),8:55.0
+28,fg_miss,,,5.0,6.0,,knechda01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:45.0 knechda01 misses 3-pt jump shot from 26 ft 5-6,8:45.0
+29,rebound,,,5.0,6.0,,,,,,,,,,,offensive,knechda01,False,,,,,,,,,,,,,,,,,,,8:43.0 Offensive rebound by knechda01 5-6,8:43.0
+30,fg_make,,,7.0,6.0,2.0,hachiru01,2.0,jump shot,6.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,8:36.0 hachiru01 makes 2-pt jump shot from 6 ft (assist by jamesle01 ) +2 7-6,8:36.0
+31,fg_make,,,7.0,9.0,3.0,collijo01,3.0,jump shot,25.0,markkla01,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 7-9 +3 collijo01 makes 3-pt jump shot from 25 ft (assist by markkla01 ),8:19.0
+32,fg_make,,,9.0,9.0,2.0,vincega01,2.0,layup,5.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,8:09.0 vincega01 makes 2-pt layup from 5 ft (assist by jamesle01 ) +2 9-9,8:09.0
+33,fg_miss,,,9.0,9.0,,sextoco01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:47.0 9-9 sextoco01 misses 3-pt jump shot from 26 ft,7:47.0
+34,rebound,,,9.0,9.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,7:44.0 Defensive rebound by davisan02 9-9,7:44.0
+35,fg_miss,,,9.0,9.0,,hachiru01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:38.0 hachiru01 misses 3-pt jump shot from 26 ft 9-9,7:38.0
+36,rebound,,,9.0,9.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:35.0 9-9 Defensive rebound by Team,7:35.0
+37,foul,,,9.0,9.0,,,,,,,,,,,,,,personal,vincega01,markkla01,,,,,,,,,,,,,,,,7:27.0 9-9 Personal foul by vincega01 (drawn by markkla01 ),7:27.0
+38,fg_make,,,9.0,11.0,2.0,kesslwa01,2.0,layup,4.0,georgke01,,,,,,,,,,,,,,,,,,,,,,,,,,7:14.0 9-11 +2 kesslwa01 makes 2-pt layup from 4 ft (assist by georgke01 ),7:14.0
+39,fg_miss,,,9.0,11.0,,davisan02,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 davisan02 misses 2-pt jump shot from 7 ft 9-11,7:00.0
+40,rebound,,,9.0,11.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,6:56.0 9-11 Defensive rebound by kesslwa01,6:56.0
+41,turnover,,,9.0,11.0,,,,,,,,,,,,,,,,,sextoco01,lost ball; steal by hachiru01,hachiru01,,,,,,,,,,,,,6:47.0 9-11 Turnover by sextoco01 (lost ball; steal by hachiru01 ),6:47.0
+42,fg_make,,,11.0,11.0,2.0,knechda01,2.0,dunk,5.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,6:42.0 knechda01 makes 2-pt dunk from 5 ft (assist by jamesle01 ) +2 11-11,6:42.0
+43,timeout,,,11.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Utah full,,,,6:42.0 11-11 Utah full timeout,6:42.0
+44,substitution,,,11.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:42.0 11-11 colliis01 enters the game for markkla01,6:42.0
+45,substitution,,,11.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:42.0 11-11 sensabr01 enters the game for sextoco01,6:42.0
+46,fg_make,,,11.0,13.0,2.0,georgke01,2.0,layup,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:23.0 11-13 +2 georgke01 makes 2-pt layup from 9 ft,6:23.0
+47,fg_miss,,,11.0,13.0,,davisan02,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:04.0 davisan02 misses 2-pt jump shot from 11 ft 11-13,6:04.0
+48,rebound,,,11.0,13.0,,,,,,,,,,,defensive,colliis01,False,,,,,,,,,,,,,,,,,,,6:02.0 11-13 Defensive rebound by colliis01,6:02.0
+49,fg_miss,,,11.0,13.0,,collijo01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:45.0 11-13 collijo01 misses 2-pt jump shot from 10 ft,5:45.0
+50,rebound,,,11.0,13.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,5:43.0 Defensive rebound by davisan02 11-13,5:43.0
+51,fg_make,,,13.0,13.0,2.0,jamesle01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:38.0 jamesle01 makes 2-pt layup from 3 ft +2 13-13,5:38.0
+52,fg_miss,,,13.0,13.0,,sensabr01,3.0,jump shot,24.0,,davisan02,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 13-13 sensabr01 misses 3-pt jump shot from 24 ft (block by davisan02 ),5:31.0
+53,rebound,,,13.0,13.0,,,,,,,,,,,defensive,jamesle01,False,,,,,,,,,,,,,,,,,,,5:28.0 Defensive rebound by jamesle01 13-13,5:28.0
+54,foul,,,13.0,13.0,,,,,,,,,,,,,,personal,sensabr01,davisan02,,,,,,,,,,,,,,,,5:24.0 Personal foul by sensabr01 (drawn by davisan02 ) 13-13,5:24.0
+55,substitution,,,13.0,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:24.0 chrisma02 enters the game for jamesle01 13-13,5:24.0
+56,fg_miss,,,13.0,13.0,,hachiru01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:20.0 hachiru01 misses 3-pt jump shot from 23 ft 13-13,5:20.0
+57,rebound,,,13.0,13.0,,,,,,,,,,,offensive,knechda01,False,,,,,,,,,,,,,,,,,,,5:15.0 Offensive rebound by knechda01 13-13,5:15.0
+58,turnover,,,13.0,13.0,,,,,,,,,,,,,,,,,davisan02,bad pass; steal by colliis01,colliis01,,,,,,,,,,,,,5:06.0 Turnover by davisan02 (bad pass; steal by colliis01 ) 13-13,5:06.0
+59,fg_make,,,13.0,16.0,3.0,sensabr01,3.0,jump shot,22.0,colliis01,,,,,,,,,,,,,,,,,,,,,,,,,,4:59.0 13-16 +3 sensabr01 makes 3-pt jump shot from 22 ft (assist by colliis01 ),4:59.0
+60,substitution,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:59.0 armeltr01 enters the game for hachiru01 13-16,4:59.0
+61,substitution,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:59.0 hoodsja01 enters the game for vincega01 13-16,4:59.0
+62,substitution,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:59.0 13-16 eubandr01 enters the game for kesslwa01,4:59.0
+63,fg_make,,,15.0,16.0,2.0,davisan02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:37.0 davisan02 makes 2-pt layup from 4 ft +2 15-16,4:37.0
+64,fg_miss,,,15.0,16.0,,collijo01,2.0,jump shot,11.0,,hoodsja01,,,,,,,,,,,,,,,,,,,,,,,,,4:22.0 15-16 collijo01 misses 2-pt jump shot from 11 ft (block by hoodsja01 ),4:22.0
+65,rebound,,,15.0,16.0,,,,,,,,,,,offensive,collijo01,False,,,,,,,,,,,,,,,,,,,4:21.0 15-16 Offensive rebound by collijo01,4:21.0
+66,fg_make,,,15.0,18.0,2.0,collijo01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 15-18 +2 collijo01 makes 2-pt jump shot from 7 ft,4:20.0
+67,foul,,,15.0,18.0,,,,,,,,,,,,,,shooting,hoodsja01,collijo01,,,,,,,,,,,,,,,,4:20.0 15-18 Shooting foul by hoodsja01 (drawn by collijo01 ),4:20.0
+68,free_throw,,,15.0,18.0,,collijo01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:20.0 15-18 collijo01 misses free throw 1 of 1,4:20.0
+69,rebound,,,15.0,18.0,,,,,,,,,,,defensive,knechda01,False,,,,,,,,,,,,,,,,,,,4:18.0 Defensive rebound by knechda01 15-18,4:18.0
+70,fg_miss,,,15.0,18.0,,chrisma02,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:01.0 chrisma02 misses 2-pt jump shot from 18 ft 15-18,4:01.0
+71,rebound,,,15.0,18.0,,,,,,,,,,,offensive,hoodsja01,False,,,,,,,,,,,,,,,,,,,3:57.0 Offensive rebound by hoodsja01 15-18,3:57.0
+72,fg_miss,,,15.0,18.0,,chrisma02,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:54.0 chrisma02 misses 2-pt jump shot from 9 ft 15-18,3:54.0
+73,rebound,,,15.0,18.0,,,,,,,,,,,defensive,eubandr01,False,,,,,,,,,,,,,,,,,,,3:52.0 15-18 Defensive rebound by eubandr01,3:52.0
+74,turnover,,,15.0,18.0,,,,,,,,,,,,,,,,,colliis01,out of bounds lost ball,,,,,,,,,,,,,,3:48.0 15-18 Turnover by colliis01 (out of bounds lost ball),3:48.0
+75,substitution,,,15.0,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:48.0 15-18 juzanjo01 enters the game for georgke01,3:48.0
+76,fg_miss,,,15.0,18.0,,knechda01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:38.0 knechda01 misses 3-pt jump shot from 25 ft 15-18,3:38.0
+77,rebound,,,15.0,18.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:36.0 Offensive rebound by Team 15-18,3:36.0
+78,fg_miss,,,15.0,18.0,,knechda01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 knechda01 misses 2-pt jump shot from 13 ft 15-18,3:28.0
+79,rebound,,,15.0,18.0,,,,,,,,,,,defensive,juzanjo01,False,,,,,,,,,,,,,,,,,,,3:26.0 15-18 Defensive rebound by juzanjo01,3:26.0
+80,fg_make,,,15.0,20.0,2.0,juzanjo01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 15-20 +2 juzanjo01 makes 2-pt layup from 5 ft,3:22.0
+81,foul,,,15.0,20.0,,,,,,,,,,,,,,shooting,hoodsja01,juzanjo01,,,,,,,,,,,,,,,,3:22.0 15-20 Shooting foul by hoodsja01 (drawn by juzanjo01 ),3:22.0
+82,free_throw,,,15.0,21.0,1.0,juzanjo01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,3:22.0 15-21 +1 juzanjo01 makes free throw 1 of 1,3:22.0
+83,fg_make,,,17.0,21.0,2.0,davisan02,2.0,layup,6.0,knechda01,,,,,,,,,,,,,,,,,,,,,,,,,,3:03.0 davisan02 makes 2-pt layup from 6 ft (assist by knechda01 ) +2 17-21,3:03.0
+84,foul,,,17.0,21.0,,,,,,,,,,,,,,shooting,davisan02,collijo01,,,,,,,,,,,,,,,,2:46.0 17-21 Shooting foul by davisan02 (drawn by collijo01 ),2:46.0
+85,timeout,,,17.0,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,LA Lakers full,,,,2:46.0 LA Lakers full timeout 17-21,2:46.0
+86,substitution,,,17.0,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:46.0 jamesle01 enters the game for knechda01 17-21,2:46.0
+87,free_throw,,,17.0,22.0,1.0,collijo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:46.0 17-22 +1 collijo01 makes free throw 1 of 2,2:46.0
+88,free_throw,,,17.0,22.0,,collijo01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:46.0 17-22 collijo01 misses free throw 2 of 2,2:46.0
+89,rebound,,,17.0,22.0,,,,,,,,,,,defensive,armeltr01,False,,,,,,,,,,,,,,,,,,,2:44.0 Defensive rebound by armeltr01 17-22,2:44.0
+90,turnover,,,17.0,22.0,,,,,,,,,,,,,,,,,jamesle01,bad pass,,,,,,,,,,,,,,2:30.0 Turnover by jamesle01 (bad pass) 17-22,2:30.0
+91,substitution,,,17.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:30.0 17-22 markkla01 enters the game for collijo01,2:30.0
+92,turnover,,,17.0,22.0,,,,,,,,,,,,,,,,,sensabr01,discontinued dribble,,,,,,,,,,,,,,2:20.0 17-22 Turnover by sensabr01 (discontinued dribble),2:20.0
+93,fg_make,,,20.0,22.0,3.0,davisan02,3.0,jump shot,25.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,2:08.0 davisan02 makes 3-pt jump shot from 25 ft (assist by jamesle01 ) +3 20-22,2:08.0
+94,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:48.0 Jump ball: colliis01 vs. hoodsja01 ( eubandr01 gains possession),1:48.0
+95,substitution,,,20.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:48.0 hachiru01 enters the game for armeltr01 20-22,1:48.0
+96,fg_miss,,,20.0,22.0,,sensabr01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:41.0 20-22 sensabr01 misses 3-pt jump shot from 28 ft,1:41.0
+97,rebound,,,20.0,22.0,,,,,,,,,,,defensive,hachiru01,False,,,,,,,,,,,,,,,,,,,1:37.0 Defensive rebound by hachiru01 20-22,1:37.0
+98,fg_miss,,,20.0,22.0,,davisan02,2.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:31.0 davisan02 misses 2-pt jump shot from 23 ft 20-22,1:31.0
+99,rebound,,,20.0,22.0,,,,,,,,,,,defensive,markkla01,False,,,,,,,,,,,,,,,,,,,1:29.0 20-22 Defensive rebound by markkla01,1:29.0
+100,fg_make,,,20.0,24.0,2.0,markkla01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:23.0 20-24 +2 markkla01 makes 2-pt layup from 2 ft,1:23.0
+101,fg_make,,,22.0,24.0,2.0,chrisma02,2.0,layup,2.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,1:07.0 chrisma02 makes 2-pt layup from 2 ft (assist by jamesle01 ) +2 22-24,1:07.0
+102,fg_make,,,22.0,27.0,3.0,juzanjo01,3.0,jump shot,26.0,sensabr01,,,,,,,,,,,,,,,,,,,,,,,,,,0:58.0 22-27 +3 juzanjo01 makes 3-pt jump shot from 26 ft (assist by sensabr01 ),0:58.0
+103,foul,,,22.0,27.0,,,,,,,,,,,,,,shooting,juzanjo01,jamesle01,,,,,,,,,,,,,,,,0:47.0 Shooting foul by juzanjo01 (drawn by jamesle01 ) 22-27,0:47.0
+104,free_throw,,,23.0,27.0,1.0,jamesle01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:47.0 jamesle01 makes free throw 1 of 2 +1 23-27,0:47.0
+105,free_throw,,,24.0,27.0,1.0,jamesle01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:47.0 jamesle01 makes free throw 2 of 2 +1 24-27,0:47.0
+106,fg_miss,,,24.0,27.0,,markkla01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:36.0 24-27 markkla01 misses 3-pt jump shot from 26 ft,0:36.0
+107,rebound,,,24.0,27.0,,,,,,,,,,,offensive,juzanjo01,False,,,,,,,,,,,,,,,,,,,0:33.0 24-27 Offensive rebound by juzanjo01,0:33.0
+108,fg_miss,,,24.0,27.0,,juzanjo01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:29.0 24-27 juzanjo01 misses 2-pt jump shot from 11 ft,0:29.0
+109,rebound,,,24.0,27.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,0:27.0 Defensive rebound by davisan02 24-27,0:27.0
+110,foul,,,24.0,27.0,,,,,,,,,,,,,,shooting,colliis01,chrisma02,,,,,,,,,,,,,,,,0:11.0 Shooting foul by colliis01 (drawn by chrisma02 ) 24-27,0:11.0
+111,free_throw,,,25.0,27.0,1.0,chrisma02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:11.0 chrisma02 makes free throw 1 of 2 +1 25-27,0:11.0
+112,substitution,,,25.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:11.0 25-27 collijo01 enters the game for colliis01,0:11.0
+113,substitution,,,25.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:11.0 25-27 sextoco01 enters the game for eubandr01,0:11.0
+114,free_throw,,,26.0,27.0,1.0,chrisma02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:11.0 chrisma02 makes free throw 2 of 2 +1 26-27,0:11.0
+115,turnover,,,26.0,27.0,,,,,,,,,,,,,,,,,sextoco01,lost ball; steal by davisan02,davisan02,,,,,,,,,,,,,0:01.0 26-27 Turnover by sextoco01 (lost ball; steal by davisan02 ),0:01.0
+116,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter,0:00.0
+117,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter,12:00.0
+118,fg_make,,,28.0,27.0,2.0,jamesle01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:47.0 jamesle01 makes 2-pt jump shot from 13 ft +2 28-27,11:47.0
+119,fg_miss,,,28.0,27.0,,juzanjo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:20.0 28-27 juzanjo01 misses 3-pt jump shot from 26 ft,11:20.0
+120,rebound,,,28.0,27.0,,,,,,,,,,,defensive,knechda01,False,,,,,,,,,,,,,,,,,,,11:19.0 Defensive rebound by knechda01 28-27,11:19.0
+121,fg_miss,,,28.0,27.0,,jamesle01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:16.0 jamesle01 misses 2-pt layup from 4 ft 28-27,11:16.0
+122,rebound,,,28.0,27.0,,,,,,,,,,,offensive,jamesle01,False,,,,,,,,,,,,,,,,,,,11:14.0 Offensive rebound by jamesle01 28-27,11:14.0
+123,fg_make,,,30.0,27.0,2.0,jamesle01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,11:12.0 jamesle01 makes 2-pt layup at rim +2 30-27,11:12.0
+124,fg_make,,,30.0,29.0,2.0,markkla01,2.0,jump shot,21.0,juzanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:52.0 30-29 +2 markkla01 makes 2-pt jump shot from 21 ft (assist by juzanjo01 ),10:52.0
+125,fg_make,,,33.0,29.0,3.0,vincega01,3.0,jump shot,26.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,10:36.0 vincega01 makes 3-pt jump shot from 26 ft (assist by jamesle01 ) +3 33-29,10:36.0
+126,fg_miss,,,33.0,29.0,,juzanjo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:16.0 33-29 juzanjo01 misses 3-pt jump shot from 25 ft,10:16.0
+127,rebound,,,33.0,29.0,,,,,,,,,,,defensive,hachiru01,False,,,,,,,,,,,,,,,,,,,10:14.0 Defensive rebound by hachiru01 33-29,10:14.0
+128,turnover,,,33.0,29.0,,,,,,,,,,,,,,,,,jamesle01,lost ball; steal by markkla01,markkla01,,,,,,,,,,,,,10:08.0 Turnover by jamesle01 (lost ball; steal by markkla01 ) 33-29,10:08.0
+129,fg_make,,,33.0,32.0,3.0,juzanjo01,3.0,jump shot,25.0,markkla01,,,,,,,,,,,,,,,,,,,,,,,,,,10:02.0 33-32 +3 juzanjo01 makes 3-pt jump shot from 25 ft (assist by markkla01 ),10:02.0
+130,fg_miss,,,33.0,32.0,,jamesle01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:46.0 jamesle01 misses 3-pt jump shot from 25 ft 33-32,9:46.0
+131,rebound,,,33.0,32.0,,,,,,,,,,,defensive,juzanjo01,False,,,,,,,,,,,,,,,,,,,9:45.0 33-32 Defensive rebound by juzanjo01,9:45.0
+132,fg_make,,,33.0,34.0,2.0,eubandr01,2.0,dunk,2.0,juzanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,9:39.0 33-34 +2 eubandr01 makes 2-pt dunk from 2 ft (assist by juzanjo01 ),9:39.0
+133,foul,,,33.0,34.0,,,,,,,,,,,,,,personal,markkla01,kolokch01,,,,,,,,,,,,,,,,9:22.0 Personal foul by markkla01 (drawn by kolokch01 ) 33-34,9:22.0
+134,fg_miss,,,33.0,34.0,,jamesle01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 jamesle01 misses 2-pt jump shot from 19 ft 33-34,9:10.0
+135,rebound,,,33.0,34.0,,,,,,,,,,,defensive,juzanjo01,False,,,,,,,,,,,,,,,,,,,9:08.0 33-34 Defensive rebound by juzanjo01,9:08.0
+136,fg_make,,,33.0,36.0,2.0,sextoco01,2.0,jump shot,5.0,juzanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:57.0 33-36 +2 sextoco01 makes 2-pt jump shot from 5 ft (assist by juzanjo01 ),8:57.0
+137,timeout,,,33.0,36.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,LA Lakers full,,,,8:47.0 LA Lakers full timeout 33-36,8:47.0
+138,fg_miss,,,33.0,36.0,,knechda01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:39.0 knechda01 misses 3-pt jump shot from 25 ft 33-36,8:39.0
+139,rebound,,,33.0,36.0,,,,,,,,,,,defensive,pottemi01,False,,,,,,,,,,,,,,,,,,,8:36.0 33-36 Defensive rebound by pottemi01,8:36.0
+140,fg_miss,,,33.0,36.0,,sextoco01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:29.0 33-36 sextoco01 misses 3-pt jump shot from 25 ft,8:29.0
+141,rebound,,,33.0,36.0,,,,,,,,,,,defensive,kolokch01,False,,,,,,,,,,,,,,,,,,,8:27.0 Defensive rebound by kolokch01 33-36,8:27.0
+142,fg_make,,,35.0,36.0,2.0,hachiru01,2.0,layup,2.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 hachiru01 makes 2-pt layup from 2 ft (assist by jamesle01 ) +2 35-36,8:19.0
+143,fg_make,,,35.0,39.0,3.0,markkla01,3.0,jump shot,27.0,juzanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:05.0 35-39 +3 markkla01 makes 3-pt jump shot from 27 ft (assist by juzanjo01 ),8:05.0
+144,fg_miss,,,35.0,39.0,,hachiru01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:44.0 hachiru01 misses 3-pt jump shot from 25 ft 35-39,7:44.0
+145,rebound,,,35.0,39.0,,,,,,,,,,,defensive,sextoco01,False,,,,,,,,,,,,,,,,,,,7:41.0 35-39 Defensive rebound by sextoco01,7:41.0
+146,fg_make,,,35.0,41.0,2.0,sextoco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:37.0 35-41 +2 sextoco01 makes 2-pt layup from 3 ft,7:37.0
+147,turnover,,,35.0,41.0,,,,,,,,,,,,,,,,,jamesle01,bad pass; steal by sextoco01,sextoco01,,,,,,,,,,,,,7:27.0 Turnover by jamesle01 (bad pass; steal by sextoco01 ) 35-41,7:27.0
+148,foul,,,35.0,41.0,,,,,,,,,,,,,,shooting,knechda01,juzanjo01,,,,,,,,,,,,,,,,7:23.0 35-41 Shooting foul by knechda01 (drawn by juzanjo01 ),7:23.0
+149,free_throw,,,35.0,41.0,,juzanjo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:23.0 35-41 juzanjo01 misses free throw 1 of 2,7:23.0
+150,rebound,,,35.0,41.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:23.0 35-41 Offensive rebound by Team,7:23.0
+151,substitution,,,35.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:23.0 davisan02 enters the game for kolokch01 35-41,7:23.0
+152,substitution,,,35.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:23.0 35-41 kesslwa01 enters the game for eubandr01,7:23.0
+153,free_throw,,,35.0,41.0,,juzanjo01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:23.0 35-41 juzanjo01 misses free throw 2 of 2,7:23.0
+154,rebound,,,35.0,41.0,,,,,,,,,,,defensive,knechda01,False,,,,,,,,,,,,,,,,,,,7:21.0 Defensive rebound by knechda01 35-41,7:21.0
+155,fg_make,,,38.0,41.0,3.0,vincega01,3.0,jump shot,26.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 vincega01 makes 3-pt jump shot from 26 ft (assist by jamesle01 ) +3 38-41,7:11.0
+156,fg_miss,,,38.0,41.0,,markkla01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:00.0 38-41 markkla01 misses 3-pt jump shot from 25 ft,7:00.0
+157,rebound,,,38.0,41.0,,,,,,,,,,,offensive,markkla01,False,,,,,,,,,,,,,,,,,,,6:58.0 38-41 Offensive rebound by markkla01,6:58.0
+158,fg_make,,,38.0,43.0,2.0,kesslwa01,2.0,layup,3.0,markkla01,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 38-43 +2 kesslwa01 makes 2-pt layup from 3 ft (assist by markkla01 ),6:56.0
+159,fg_miss,,,38.0,43.0,,jamesle01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 jamesle01 misses 2-pt layup from 3 ft 38-43,6:32.0
+160,rebound,,,38.0,43.0,,,,,,,,,,,offensive,hachiru01,False,,,,,,,,,,,,,,,,,,,6:30.0 Offensive rebound by hachiru01 38-43,6:30.0
+161,fg_make,,,41.0,43.0,3.0,knechda01,3.0,jump shot,23.0,hachiru01,,,,,,,,,,,,,,,,,,,,,,,,,,6:29.0 knechda01 makes 3-pt jump shot from 23 ft (assist by hachiru01 ) +3 41-43,6:29.0
+162,timeout,,,41.0,43.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Utah full,,,,6:27.0 41-43 Utah full timeout,6:27.0
+163,substitution,,,41.0,43.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 chrisma02 enters the game for jamesle01 41-43,6:27.0
+164,substitution,,,41.0,43.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 41-43 collijo01 enters the game for juzanjo01,6:27.0
+165,substitution,,,41.0,43.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 41-43 georgke01 enters the game for markkla01,6:27.0
+166,substitution,,,41.0,43.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 41-43 sensabr01 enters the game for sextoco01,6:27.0
+167,fg_miss,,,41.0,43.0,,pottemi01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:15.0 41-43 pottemi01 misses 3-pt jump shot from 23 ft,6:15.0
+168,rebound,,,41.0,43.0,,,,,,,,,,,defensive,chrisma02,False,,,,,,,,,,,,,,,,,,,6:11.0 Defensive rebound by chrisma02 41-43,6:11.0
+169,fg_make,,,43.0,43.0,2.0,davisan02,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 davisan02 makes 2-pt layup from 4 ft +2 43-43,6:02.0
+170,foul,,,43.0,43.0,,,,,,,,,,,,,,shooting,kesslwa01,davisan02,,,,,,,,,,,,,,,,6:02.0 Shooting foul by kesslwa01 (drawn by davisan02 ) 43-43,6:02.0
+171,free_throw,,,44.0,43.0,1.0,davisan02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:02.0 davisan02 makes free throw 1 of 1 +1 44-43,6:02.0
+172,fg_miss,,,44.0,43.0,,georgke01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:46.0 44-43 georgke01 misses 3-pt jump shot from 28 ft,5:46.0
+173,rebound,,,44.0,43.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,5:44.0 44-43 Offensive rebound by Team,5:44.0
+174,foul,,,44.0,43.0,,,,,,,,,,,,,,loose ball,hachiru01,pottemi01,,,,,,,,,,,,,,,,5:44.0 Loose ball foul by hachiru01 (drawn by pottemi01 ) 44-43,5:44.0
+175,turnover,,,44.0,43.0,,,,,,,,,,,,,,,,,georgke01,lost ball; steal by knechda01,knechda01,,,,,,,,,,,,,5:30.0 44-43 Turnover by georgke01 (lost ball; steal by knechda01 ),5:30.0
+176,fg_miss,,,44.0,43.0,,knechda01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:28.0 knechda01 misses 2-pt layup from 5 ft 44-43,5:28.0
+177,rebound,,,44.0,43.0,,,,,,,,,,,offensive,davisan02,False,,,,,,,,,,,,,,,,,,,5:26.0 Offensive rebound by davisan02 44-43,5:26.0
+178,fg_make,,,46.0,43.0,2.0,davisan02,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:24.0 davisan02 makes 2-pt layup at rim +2 46-43,5:24.0
+179,fg_make,,,46.0,46.0,3.0,sensabr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:10.0 46-46 +3 sensabr01 makes 3-pt jump shot from 25 ft,5:10.0
+180,fg_miss,,,46.0,46.0,,davisan02,2.0,jump shot,6.0,,kesslwa01,,,,,,,,,,,,,,,,,,,,,,,,,4:52.0 davisan02 misses 2-pt jump shot from 6 ft (block by kesslwa01 ) 46-46,4:52.0
+181,rebound,,,46.0,46.0,,,,,,,,,,,defensive,sensabr01,False,,,,,,,,,,,,,,,,,,,4:50.0 46-46 Defensive rebound by sensabr01,4:50.0
+182,fg_make,,,46.0,49.0,3.0,collijo01,3.0,jump shot,23.0,kesslwa01,,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 46-49 +3 collijo01 makes 3-pt jump shot from 23 ft (assist by kesslwa01 ),4:40.0
+183,fg_miss,,,46.0,49.0,,davisan02,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:15.0 davisan02 misses 2-pt hook shot from 5 ft 46-49,4:15.0
+184,rebound,,,46.0,49.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,4:13.0 46-49 Defensive rebound by kesslwa01,4:13.0
+185,fg_make,,,46.0,51.0,2.0,georgke01,2.0,layup,5.0,sensabr01,,,,,,,,,,,,,,,,,,,,,,,,,,4:02.0 46-51 +2 georgke01 makes 2-pt layup from 5 ft (assist by sensabr01 ),4:02.0
+186,foul,,,46.0,51.0,,,,,,,,,,,,,,personal,georgke01,vincega01,,,,,,,,,,,,,,,,3:58.0 Personal foul by georgke01 (drawn by vincega01 ) 46-51,3:58.0
+187,substitution,,,46.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:58.0 armeltr01 enters the game for knechda01 46-51,3:58.0
+188,substitution,,,46.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:58.0 hoodsja01 enters the game for vincega01 46-51,3:58.0
+189,substitution,,,46.0,51.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:58.0 46-51 markkla01 enters the game for pottemi01,3:58.0
+190,foul,,,46.0,51.0,,,,,,,,,,,,,,personal,georgke01,hoodsja01,,,,,,,,,,,,,,,,3:55.0 Personal foul by georgke01 (drawn by hoodsja01 ) 46-51,3:55.0
+191,foul,,,46.0,51.0,,,,,,,,,,,,,,shooting,sensabr01,chrisma02,,,,,,,,,,,,,,,,3:43.0 Shooting foul by sensabr01 (drawn by chrisma02 ) 46-51,3:43.0
+192,free_throw,,,47.0,51.0,1.0,chrisma02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:43.0 chrisma02 makes free throw 1 of 2 +1 47-51,3:43.0
+193,free_throw,,,48.0,51.0,1.0,chrisma02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:43.0 chrisma02 makes free throw 2 of 2 +1 48-51,3:43.0
+194,fg_miss,,,48.0,51.0,,markkla01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 48-51 markkla01 misses 3-pt jump shot from 25 ft,3:28.0
+195,rebound,,,48.0,51.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,3:25.0 Defensive rebound by davisan02 48-51,3:25.0
+196,foul,,,48.0,51.0,,,,,,,,,,,,,,shooting,collijo01,chrisma02,,,,,,,,,,,,,,,,3:16.0 Shooting foul by collijo01 (drawn by chrisma02 ) 48-51,3:16.0
+197,free_throw,,,49.0,51.0,1.0,chrisma02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:16.0 chrisma02 makes free throw 1 of 2 +1 49-51,3:16.0
+198,free_throw,,,49.0,51.0,,chrisma02,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:16.0 chrisma02 misses free throw 2 of 2 49-51,3:16.0
+199,rebound,,,49.0,51.0,,,,,,,,,,,defensive,sensabr01,False,,,,,,,,,,,,,,,,,,,3:14.0 49-51 Defensive rebound by sensabr01,3:14.0
+200,fg_make,,,49.0,54.0,3.0,collijo01,3.0,jump shot,24.0,georgke01,,,,,,,,,,,,,,,,,,,,,,,,,,2:59.0 49-54 +3 collijo01 makes 3-pt jump shot from 24 ft (assist by georgke01 ),2:59.0
+201,fg_miss,,,49.0,54.0,,davisan02,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 davisan02 misses 2-pt layup from 3 ft 49-54,2:39.0
+202,rebound,,,49.0,54.0,,,,,,,,,,,defensive,markkla01,False,,,,,,,,,,,,,,,,,,,2:39.0 49-54 Defensive rebound by markkla01,2:39.0
+203,turnover,,,49.0,54.0,,,,,,,,,,,,,,,,,markkla01,lost ball; steal by armeltr01,armeltr01,,,,,,,,,,,,,2:37.0 49-54 Turnover by markkla01 (lost ball; steal by armeltr01 ),2:37.0
+204,fg_make,,,51.0,54.0,2.0,davisan02,2.0,dunk,5.0,hachiru01,,,,,,,,,,,,,,,,,,,,,,,,,,2:29.0 davisan02 makes 2-pt dunk from 5 ft (assist by hachiru01 ) +2 51-54,2:29.0
+205,fg_miss,,,51.0,54.0,,markkla01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:04.0 51-54 markkla01 misses 3-pt jump shot from 25 ft,2:04.0
+206,rebound,,,51.0,54.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,2:01.0 Defensive rebound by davisan02 51-54,2:01.0
+207,fg_make,,,53.0,54.0,2.0,chrisma02,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:53.0 chrisma02 makes 2-pt layup from 6 ft +2 53-54,1:53.0
+208,fg_miss,,,53.0,54.0,,sensabr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:38.0 53-54 sensabr01 misses 3-pt jump shot from 27 ft,1:38.0
+209,rebound,,,53.0,54.0,,,,,,,,,,,defensive,armeltr01,False,,,,,,,,,,,,,,,,,,,1:36.0 Defensive rebound by armeltr01 53-54,1:36.0
+210,fg_make,,,55.0,54.0,2.0,hoodsja01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 hoodsja01 makes 2-pt jump shot from 16 ft +2 55-54,1:22.0
+211,turnover,,,55.0,54.0,,,,,,,,,,,,,,,,,georgke01,out of bounds lost ball,,,,,,,,,,,,,,1:08.0 55-54 Turnover by georgke01 (out of bounds lost ball),1:08.0
+212,substitution,,,55.0,54.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:08.0 jamesle01 enters the game for hachiru01 55-54,1:08.0
+213,fg_make,,,57.0,54.0,2.0,jamesle01,2.0,layup,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:04.0 jamesle01 makes 2-pt layup from 10 ft +2 57-54,1:04.0
+214,violation,,,57.0,54.0,,,,,,,,,,,,,,,,,,,,Violation,Team,def goaltending,,,,,,,,,,1:04.0 57-54 Violation by Team (def goaltending),1:04.0
+215,foul,,,57.0,54.0,,,,,,,,,,,,,,shooting,collijo01,jamesle01,,,,,,,,,,,,,,,,1:04.0 Shooting foul by collijo01 (drawn by jamesle01 ) 57-54,1:04.0
+216,free_throw,,,58.0,54.0,1.0,jamesle01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:04.0 jamesle01 makes free throw 1 of 1 +1 58-54,1:04.0
+217,foul,,,58.0,54.0,,,,,,,,,,,,,,personal,hoodsja01,georgke01,,,,,,,,,,,,,,,,0:56.0 58-54 Personal foul by hoodsja01 (drawn by georgke01 ),0:56.0
+218,fg_make,,,58.0,56.0,2.0,markkla01,2.0,dunk,1.0,sensabr01,,,,,,,,,,,,,,,,,,,,,,,,,,0:47.0 58-56 +2 markkla01 makes 2-pt dunk from 1 ft (assist by sensabr01 ),0:47.0
+219,fg_miss,,,58.0,56.0,,armeltr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:35.0 armeltr01 misses 3-pt jump shot from 23 ft 58-56,0:35.0
+220,rebound,,,58.0,56.0,,,,,,,,,,,defensive,georgke01,False,,,,,,,,,,,,,,,,,,,0:33.0 58-56 Defensive rebound by georgke01,0:33.0
+221,fg_miss,,,58.0,56.0,,markkla01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 58-56 markkla01 misses 2-pt jump shot from 10 ft,0:09.0
+222,rebound,,,58.0,56.0,,,,,,,,,,,defensive,jamesle01,False,,,,,,,,,,,,,,,,,,,0:07.0 Defensive rebound by jamesle01 58-56,0:07.0
+223,fg_miss,,,58.0,56.0,,armeltr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 armeltr01 misses 3-pt jump shot from 25 ft 58-56,0:01.0
+224,rebound,,,58.0,56.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:01.0 Offensive rebound by Team 58-56,0:01.0
+225,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter,0:00.0
+226,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter,12:00.0
+227,fg_miss,,,58.0,56.0,,jamesle01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:44.0 jamesle01 misses 3-pt jump shot from 25 ft 58-56,11:44.0
+228,rebound,,,58.0,56.0,,,,,,,,,,,defensive,collijo01,False,,,,,,,,,,,,,,,,,,,11:40.0 58-56 Defensive rebound by collijo01,11:40.0
+229,fg_make,,,58.0,59.0,3.0,georgke01,3.0,jump shot,24.0,sextoco01,,,,,,,,,,,,,,,,,,,,,,,,,,11:34.0 58-59 +3 georgke01 makes 3-pt jump shot from 24 ft (assist by sextoco01 ),11:34.0
+230,fg_miss,,,58.0,59.0,,davisan02,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:11.0 davisan02 misses 2-pt jump shot from 16 ft 58-59,11:11.0
+231,rebound,,,58.0,59.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,11:09.0 58-59 Defensive rebound by kesslwa01,11:09.0
+232,foul,,,58.0,59.0,,,,,,,,,,,,,,personal,knechda01,markkla01,,,,,,,,,,,,,,,,11:00.0 58-59 Personal foul by knechda01 (drawn by markkla01 ),11:00.0
+233,fg_miss,,,58.0,59.0,,collijo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:52.0 58-59 collijo01 misses 3-pt jump shot from 26 ft,10:52.0
+234,rebound,,,58.0,59.0,,,,,,,,,,,defensive,knechda01,False,,,,,,,,,,,,,,,,,,,10:50.0 Defensive rebound by knechda01 58-59,10:50.0
+235,foul,,,58.0,59.0,,,,,,,,,,,,,,personal,sextoco01,hachiru01,,,,,,,,,,,,,,,,10:36.0 Personal foul by sextoco01 (drawn by hachiru01 ) 58-59,10:36.0
+236,fg_miss,,,58.0,59.0,,knechda01,2.0,dunk,3.0,,collijo01,,,,,,,,,,,,,,,,,,,,,,,,,10:24.0 knechda01 misses 2-pt dunk from 3 ft (block by collijo01 ) 58-59,10:24.0
+237,rebound,,,58.0,59.0,,,,,,,,,,,defensive,collijo01,False,,,,,,,,,,,,,,,,,,,10:22.0 58-59 Defensive rebound by collijo01,10:22.0
+238,fg_make,,,58.0,62.0,3.0,markkla01,3.0,jump shot,23.0,collijo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:15.0 58-62 +3 markkla01 makes 3-pt jump shot from 23 ft (assist by collijo01 ),10:15.0
+239,fg_make,,,60.0,62.0,2.0,davisan02,2.0,jump shot,8.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,9:52.0 davisan02 makes 2-pt jump shot from 8 ft (assist by jamesle01 ) +2 60-62,9:52.0
+240,foul,,,60.0,62.0,,,,,,,,,,,,,,shooting,vincega01,markkla01,,,,,,,,,,,,,,,,9:36.0 60-62 Shooting foul by vincega01 (drawn by markkla01 ),9:36.0
+241,free_throw,,,60.0,62.0,,markkla01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:36.0 60-62 markkla01 misses free throw 1 of 2,9:36.0
+242,rebound,,,60.0,62.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:36.0 60-62 Offensive rebound by Team,9:36.0
+243,free_throw,,,60.0,63.0,1.0,markkla01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:36.0 60-63 +1 markkla01 makes free throw 2 of 2,9:36.0
+244,fg_make,,,62.0,63.0,2.0,jamesle01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:17.0 jamesle01 makes 2-pt jump shot from 8 ft +2 62-63,9:17.0
+245,fg_miss,,,62.0,63.0,,collijo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:02.0 62-63 collijo01 misses 3-pt jump shot from 26 ft,9:02.0
+246,rebound,,,62.0,63.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,9:00.0 Defensive rebound by davisan02 62-63,9:00.0
+247,foul,,,62.0,63.0,,,,,,,,,,,,,,shooting,sextoco01,hachiru01,,,,,,,,,,,,,,,,8:53.0 Shooting foul by sextoco01 (drawn by hachiru01 ) 62-63,8:53.0
+248,free_throw,,,62.0,63.0,,hachiru01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:53.0 hachiru01 misses free throw 1 of 2 62-63,8:53.0
+249,rebound,,,62.0,63.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:53.0 Offensive rebound by Team 62-63,8:53.0
+250,free_throw,,,63.0,63.0,1.0,hachiru01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:53.0 hachiru01 makes free throw 2 of 2 +1 63-63,8:53.0
+251,fg_miss,,,63.0,63.0,,sextoco01,2.0,layup,4.0,,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 63-63 sextoco01 misses 2-pt layup from 4 ft (block by jamesle01 ),8:37.0
+252,rebound,,,63.0,63.0,,,,,,,,,,,offensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,8:36.0 63-63 Offensive rebound by kesslwa01,8:36.0
+253,fg_make,,,63.0,65.0,2.0,kesslwa01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 63-65 +2 kesslwa01 makes 2-pt dunk at rim,8:34.0
+254,fg_make,,,66.0,65.0,3.0,davisan02,3.0,jump shot,25.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,8:12.0 davisan02 makes 3-pt jump shot from 25 ft (assist by jamesle01 ) +3 66-65,8:12.0
+255,foul,,,66.0,65.0,,,,,,,,,,,,,,personal,jamesle01,collijo01,,,,,,,,,,,,,,,,8:04.0 66-65 Personal foul by jamesle01 (drawn by collijo01 ),8:04.0
+256,fg_miss,,,66.0,65.0,,markkla01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:53.0 66-65 markkla01 misses 2-pt jump shot from 5 ft,7:53.0
+257,rebound,,,66.0,65.0,,,,,,,,,,,offensive,sextoco01,False,,,,,,,,,,,,,,,,,,,7:53.0 66-65 Offensive rebound by sextoco01,7:53.0
+258,fg_make,,,66.0,67.0,2.0,kesslwa01,2.0,dunk,2.0,sextoco01,,,,,,,,,,,,,,,,,,,,,,,,,,7:43.0 66-67 +2 kesslwa01 makes 2-pt dunk from 2 ft (assist by sextoco01 ),7:43.0
+259,fg_miss,,,66.0,67.0,,davisan02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:22.0 davisan02 misses 3-pt jump shot from 26 ft 66-67,7:22.0
+260,rebound,,,66.0,67.0,,,,,,,,,,,defensive,collijo01,False,,,,,,,,,,,,,,,,,,,7:19.0 66-67 Defensive rebound by collijo01,7:19.0
+261,foul,,,66.0,67.0,,,,,,,,,,,,,,shooting,knechda01,collijo01,,,,,,,,,,,,,,,,7:12.0 66-67 Shooting foul by knechda01 (drawn by collijo01 ),7:12.0
+262,free_throw,,,66.0,68.0,1.0,collijo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:12.0 66-68 +1 collijo01 makes free throw 1 of 2,7:12.0
+263,substitution,,,66.0,68.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:12.0 chrisma02 enters the game for knechda01 66-68,7:12.0
+264,free_throw,,,66.0,69.0,1.0,collijo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:12.0 66-69 +1 collijo01 makes free throw 2 of 2,7:12.0
+265,fg_miss,,,66.0,69.0,,jamesle01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:03.0 jamesle01 misses 3-pt jump shot from 27 ft 66-69,7:03.0
+266,rebound,,,66.0,69.0,,,,,,,,,,,defensive,collijo01,False,,,,,,,,,,,,,,,,,,,7:00.0 66-69 Defensive rebound by collijo01,7:00.0
+267,turnover,,,66.0,69.0,,,,,,,,,,,,,,,,,georgke01,bad pass; steal by davisan02,davisan02,,,,,,,,,,,,,6:49.0 66-69 Turnover by georgke01 (bad pass; steal by davisan02 ),6:49.0
+268,fg_miss,,,66.0,69.0,,chrisma02,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:42.0 chrisma02 misses 3-pt jump shot from 25 ft 66-69,6:42.0
+269,rebound,,,66.0,69.0,,,,,,,,,,,defensive,collijo01,False,,,,,,,,,,,,,,,,,,,6:41.0 66-69 Defensive rebound by collijo01,6:41.0
+270,fg_miss,,,66.0,69.0,,sextoco01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:26.0 66-69 sextoco01 misses 3-pt jump shot from 23 ft,6:26.0
+271,rebound,,,66.0,69.0,,,,,,,,,,,defensive,vincega01,False,,,,,,,,,,,,,,,,,,,6:22.0 Defensive rebound by vincega01 66-69,6:22.0
+272,fg_miss,,,66.0,69.0,,vincega01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 vincega01 misses 3-pt jump shot from 25 ft 66-69,6:18.0
+273,rebound,,,66.0,69.0,,,,,,,,,,,defensive,collijo01,False,,,,,,,,,,,,,,,,,,,6:15.0 66-69 Defensive rebound by collijo01,6:15.0
+274,fg_miss,,,66.0,69.0,,georgke01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:03.0 66-69 georgke01 misses 3-pt jump shot from 27 ft,6:03.0
+275,rebound,,,66.0,69.0,,,,,,,,,,,defensive,vincega01,False,,,,,,,,,,,,,,,,,,,6:03.0 Defensive rebound by vincega01 66-69,6:03.0
+276,timeout,,,66.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Utah full,,,,5:54.0 66-69 Utah full timeout,5:54.0
+277,substitution,,,66.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 66-69 colliis01 enters the game for markkla01,5:54.0
+278,substitution,,,66.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 66-69 sensabr01 enters the game for sextoco01,5:54.0
+279,fg_make,,,68.0,69.0,2.0,davisan02,2.0,hook shot,5.0,vincega01,,,,,,,,,,,,,,,,,,,,,,,,,,5:51.0 davisan02 makes 2-pt hook shot from 5 ft (assist by vincega01 ) +2 68-69,5:51.0
+280,foul,,,68.0,69.0,,,,,,,,,,,,,,shooting,kesslwa01,davisan02,,,,,,,,,,,,,,,,5:51.0 Shooting foul by kesslwa01 (drawn by davisan02 ) 68-69,5:51.0
+281,free_throw,,,69.0,69.0,1.0,davisan02,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,5:51.0 davisan02 makes free throw 1 of 1 +1 69-69,5:51.0
+282,fg_miss,,,69.0,69.0,,georgke01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:39.0 69-69 georgke01 misses 3-pt jump shot from 27 ft,5:39.0
+283,rebound,,,69.0,69.0,,,,,,,,,,,defensive,chrisma02,False,,,,,,,,,,,,,,,,,,,5:37.0 Defensive rebound by chrisma02 69-69,5:37.0
+284,fg_make,,,71.0,69.0,2.0,davisan02,2.0,layup,3.0,chrisma02,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 davisan02 makes 2-pt layup from 3 ft (assist by chrisma02 ) +2 71-69,5:33.0
+285,foul,,,71.0,69.0,,,,,,,,,,,,,,personal,hachiru01,georgke01,,,,,,,,,,,,,,,,5:19.0 71-69 Personal foul by hachiru01 (drawn by georgke01 ),5:19.0
+286,free_throw,,,71.0,70.0,1.0,georgke01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:19.0 71-70 +1 georgke01 makes free throw 1 of 2,5:19.0
+287,free_throw,,,71.0,71.0,1.0,georgke01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:19.0 71-71 +1 georgke01 makes free throw 2 of 2,5:19.0
+288,fg_make,,,73.0,71.0,2.0,vincega01,2.0,layup,10.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,5:04.0 vincega01 makes 2-pt layup from 10 ft (assist by jamesle01 ) +2 73-71,5:04.0
+289,fg_make,,,73.0,73.0,2.0,collijo01,2.0,dunk,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:44.0 73-73 +2 collijo01 makes 2-pt dunk from 4 ft,4:44.0
+290,fg_make,,,75.0,73.0,2.0,jamesle01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 jamesle01 makes 2-pt layup from 1 ft +2 75-73,4:24.0
+291,fg_miss,,,75.0,73.0,,sensabr01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 75-73 sensabr01 misses 3-pt jump shot from 28 ft,4:05.0
+292,rebound,,,75.0,73.0,,,,,,,,,,,defensive,jamesle01,False,,,,,,,,,,,,,,,,,,,4:03.0 Defensive rebound by jamesle01 75-73,4:03.0
+293,substitution,,,75.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 armeltr01 enters the game for jamesle01 75-73,4:03.0
+294,substitution,,,75.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 hoodsja01 enters the game for vincega01 75-73,4:03.0
+295,substitution,,,75.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:03.0 75-73 eubandr01 enters the game for kesslwa01,4:03.0
+296,fg_make,,,77.0,73.0,2.0,davisan02,2.0,jump shot,13.0,hoodsja01,,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 davisan02 makes 2-pt jump shot from 13 ft (assist by hoodsja01 ) +2 77-73,3:49.0
+297,turnover,,,77.0,73.0,,,,,,,,,,,,,,,,,eubandr01,traveling,,,,,,,,,,,,,,3:32.0 77-73 Turnover by eubandr01 (traveling),3:32.0
+298,substitution,,,77.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:32.0 knechda01 enters the game for hachiru01 77-73,3:32.0
+299,substitution,,,77.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:32.0 77-73 juzanjo01 enters the game for georgke01,3:32.0
+300,foul,,,77.0,73.0,,,,,,,,,,,,,,shooting,colliis01,chrisma02,,,,,,,,,,,,,,,,3:22.0 Shooting foul by colliis01 (drawn by chrisma02 ) 77-73,3:22.0
+301,free_throw,,,78.0,73.0,1.0,chrisma02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:22.0 chrisma02 makes free throw 1 of 2 +1 78-73,3:22.0
+302,substitution,,,78.0,73.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 78-73 markkla01 enters the game for sensabr01,3:22.0
+303,free_throw,,,79.0,73.0,1.0,chrisma02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:22.0 chrisma02 makes free throw 2 of 2 +1 79-73,3:22.0
+304,foul,,,79.0,73.0,,,,,,,,,,,,,,personal,armeltr01,collijo01,,,,,,,,,,,,,,,,3:13.0 79-73 Personal foul by armeltr01 (drawn by collijo01 ),3:13.0
+305,free_throw,,,79.0,73.0,,collijo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:13.0 79-73 collijo01 misses free throw 1 of 2,3:13.0
+306,rebound,,,79.0,73.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:13.0 79-73 Offensive rebound by Team,3:13.0
+307,free_throw,,,79.0,74.0,1.0,collijo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:13.0 79-74 +1 collijo01 makes free throw 2 of 2,3:13.0
+308,foul,,,79.0,74.0,,,,,,,,,,,,,,personal,juzanjo01,knechda01,,,,,,,,,,,,,,,,3:07.0 Personal foul by juzanjo01 (drawn by knechda01 ) 79-74,3:07.0
+309,free_throw,,,80.0,74.0,1.0,knechda01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:07.0 knechda01 makes free throw 1 of 2 +1 80-74,3:07.0
+310,free_throw,,,80.0,74.0,,knechda01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:07.0 knechda01 misses free throw 2 of 2 80-74,3:07.0
+311,rebound,,,80.0,74.0,,,,,,,,,,,defensive,markkla01,False,,,,,,,,,,,,,,,,,,,3:06.0 80-74 Defensive rebound by markkla01,3:06.0
+312,fg_miss,,,80.0,74.0,,collijo01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:52.0 80-74 collijo01 misses 2-pt hook shot from 6 ft,2:52.0
+313,rebound,,,80.0,74.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,2:51.0 Defensive rebound by davisan02 80-74,2:51.0
+314,foul,,,80.0,74.0,,,,,,,,,,,,,,shooting,eubandr01,davisan02,,,,,,,,,,,,,,,,2:36.0 Shooting foul by eubandr01 (drawn by davisan02 ) 80-74,2:36.0
+315,timeout,,,80.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,LA Lakers full,,,,2:36.0 LA Lakers full timeout 80-74,2:36.0
+316,substitution,,,80.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:36.0 80-74 pottemi01 enters the game for eubandr01,2:36.0
+317,free_throw,,,81.0,74.0,1.0,davisan02,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:36.0 davisan02 makes free throw 1 of 2 +1 81-74,2:36.0
+318,free_throw,,,82.0,74.0,1.0,davisan02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:36.0 davisan02 makes free throw 2 of 2 +1 82-74,2:36.0
+319,fg_make,,,82.0,77.0,3.0,markkla01,3.0,jump shot,26.0,collijo01,,,,,,,,,,,,,,,,,,,,,,,,,,2:23.0 82-77 +3 markkla01 makes 3-pt jump shot from 26 ft (assist by collijo01 ),2:23.0
+320,fg_miss,,,82.0,77.0,,davisan02,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:03.0 davisan02 misses 2-pt jump shot from 14 ft 82-77,2:03.0
+321,rebound,,,82.0,77.0,,,,,,,,,,,defensive,pottemi01,False,,,,,,,,,,,,,,,,,,,2:01.0 82-77 Defensive rebound by pottemi01,2:01.0
+322,fg_make,,,82.0,79.0,2.0,collijo01,2.0,dunk,6.0,colliis01,,,,,,,,,,,,,,,,,,,,,,,,,,1:53.0 82-79 +2 collijo01 makes 2-pt dunk from 6 ft (assist by colliis01 ),1:53.0
+323,fg_make,,,84.0,79.0,2.0,davisan02,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:27.0 davisan02 makes 2-pt jump shot from 20 ft +2 84-79,1:27.0
+324,fg_make,,,84.0,81.0,2.0,juzanjo01,2.0,jump shot,18.0,markkla01,,,,,,,,,,,,,,,,,,,,,,,,,,1:10.0 84-81 +2 juzanjo01 makes 2-pt jump shot from 18 ft (assist by markkla01 ),1:10.0
+325,turnover,,,84.0,81.0,,,,,,,,,,,,,,,,,hoodsja01,lost ball; steal by colliis01,colliis01,,,,,,,,,,,,,0:58.0 Turnover by hoodsja01 (lost ball; steal by colliis01 ) 84-81,0:58.0
+326,fg_miss,,,84.0,81.0,,juzanjo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:53.0 84-81 juzanjo01 misses 3-pt jump shot from 23 ft,0:53.0
+327,rebound,,,84.0,81.0,,,,,,,,,,,defensive,chrisma02,False,,,,,,,,,,,,,,,,,,,0:50.0 Defensive rebound by chrisma02 84-81,0:50.0
+328,fg_miss,,,84.0,81.0,,davisan02,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:35.0 davisan02 misses 3-pt jump shot from 26 ft 84-81,0:35.0
+329,rebound,,,84.0,81.0,,,,,,,,,,,defensive,collijo01,False,,,,,,,,,,,,,,,,,,,0:31.0 84-81 Defensive rebound by collijo01,0:31.0
+330,fg_miss,,,84.0,81.0,,markkla01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:09.0 84-81 markkla01 misses 2-pt jump shot from 11 ft,0:09.0
+331,rebound,,,84.0,81.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,0:07.0 Defensive rebound by davisan02 84-81,0:07.0
+332,foul,,,84.0,81.0,,,,,,,,,,,,,,personal,pottemi01,hoodsja01,,,,,,,,,,,,,,,,0:00.0 Personal foul by pottemi01 (drawn by hoodsja01 ) 84-81,0:00.0
+333,free_throw,,,85.0,81.0,1.0,hoodsja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:00.0 hoodsja01 makes free throw 1 of 2 +1 85-81,0:00.0
+334,substitution,,,85.0,81.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 kolokch01 enters the game for davisan02 85-81,0:00.0
+335,free_throw,,,86.0,81.0,1.0,hoodsja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:00.0 hoodsja01 makes free throw 2 of 2 +1 86-81,0:00.0
+336,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter,0:00.0
+337,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter,12:00.0
+338,fg_make,,,86.0,84.0,3.0,markkla01,3.0,jump shot,25.0,juzanjo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:36.0 86-84 +3 markkla01 makes 3-pt jump shot from 25 ft (assist by juzanjo01 ),11:36.0
+339,fg_miss,,,86.0,84.0,,hachiru01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:13.0 hachiru01 misses 3-pt jump shot from 23 ft 86-84,11:13.0
+340,rebound,,,86.0,84.0,,,,,,,,,,,defensive,sextoco01,False,,,,,,,,,,,,,,,,,,,11:10.0 86-84 Defensive rebound by sextoco01,11:10.0
+341,foul,,,86.0,84.0,,,,,,,,,,,,,,personal,knechda01,markkla01,,,,,,,,,,,,,,,,11:04.0 86-84 Personal foul by knechda01 (drawn by markkla01 ),11:04.0
+342,substitution,,,86.0,84.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11:04.0 chrisma02 enters the game for knechda01 86-84,11:04.0
+343,fg_miss,,,86.0,84.0,,sextoco01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:49.0 86-84 sextoco01 misses 3-pt jump shot from 25 ft,10:49.0
+344,rebound,,,86.0,84.0,,,,,,,,,,,defensive,hachiru01,False,,,,,,,,,,,,,,,,,,,10:46.0 Defensive rebound by hachiru01 86-84,10:46.0
+345,fg_miss,,,86.0,84.0,,hachiru01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:36.0 hachiru01 misses 3-pt jump shot from 26 ft 86-84,10:36.0
+346,rebound,,,86.0,84.0,,,,,,,,,,,offensive,chrisma02,False,,,,,,,,,,,,,,,,,,,10:34.0 Offensive rebound by chrisma02 86-84,10:34.0
+347,fg_make,,,89.0,84.0,3.0,hachiru01,3.0,jump shot,26.0,vincega01,,,,,,,,,,,,,,,,,,,,,,,,,,10:31.0 hachiru01 makes 3-pt jump shot from 26 ft (assist by vincega01 ) +3 89-84,10:31.0
+348,fg_miss,,,89.0,84.0,,markkla01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:14.0 89-84 markkla01 misses 3-pt jump shot from 28 ft,10:14.0
+349,rebound,,,89.0,84.0,,,,,,,,,,,defensive,jamesle01,False,,,,,,,,,,,,,,,,,,,10:09.0 Defensive rebound by jamesle01 89-84,10:09.0
+350,fg_make,,,92.0,84.0,3.0,hachiru01,3.0,jump shot,22.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 hachiru01 makes 3-pt jump shot from 22 ft (assist by jamesle01 ) +3 92-84,10:05.0
+351,foul,,,92.0,84.0,,,,,,,,,,,,,,personal,vincega01,markkla01,,,,,,,,,,,,,,,,9:39.0 92-84 Personal foul by vincega01 (drawn by markkla01 ),9:39.0
+352,fg_miss,,,92.0,84.0,,juzanjo01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:28.0 92-84 juzanjo01 misses 3-pt jump shot from 29 ft,9:28.0
+353,rebound,,,92.0,84.0,,,,,,,,,,,defensive,chrisma02,False,,,,,,,,,,,,,,,,,,,9:24.0 Defensive rebound by chrisma02 92-84,9:24.0
+354,fg_miss,,,92.0,84.0,,jamesle01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 jamesle01 misses 3-pt jump shot from 29 ft 92-84,9:21.0
+355,rebound,,,92.0,84.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,9:19.0 92-84 Defensive rebound by kesslwa01,9:19.0
+356,fg_make,,,92.0,86.0,2.0,sextoco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 92-86 +2 sextoco01 makes 2-pt layup from 3 ft,9:10.0
+357,fg_miss,,,92.0,86.0,,chrisma02,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:01.0 chrisma02 misses 3-pt jump shot from 29 ft 92-86,9:01.0
+358,rebound,,,92.0,86.0,,,,,,,,,,,defensive,markkla01,False,,,,,,,,,,,,,,,,,,,8:55.0 92-86 Defensive rebound by markkla01,8:55.0
+359,fg_miss,,,92.0,86.0,,juzanjo01,2.0,hook shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:49.0 92-86 juzanjo01 misses 2-pt hook shot from 8 ft,8:49.0
+360,rebound,,,92.0,86.0,,,,,,,,,,,defensive,hachiru01,False,,,,,,,,,,,,,,,,,,,8:47.0 Defensive rebound by hachiru01 92-86,8:47.0
+361,fg_miss,,,92.0,86.0,,jamesle01,2.0,layup,2.0,,sextoco01,,,,,,,,,,,,,,,,,,,,,,,,,8:43.0 jamesle01 misses 2-pt layup from 2 ft (block by sextoco01 ) 92-86,8:43.0
+362,rebound,,,92.0,86.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:43.0 Offensive rebound by Team 92-86,8:43.0
+363,substitution,,,92.0,86.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:43.0 92-86 georgke01 enters the game for juzanjo01,8:43.0
+364,fg_miss,,,92.0,86.0,,jamesle01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 jamesle01 misses 3-pt jump shot from 25 ft 92-86,8:31.0
+365,rebound,,,92.0,86.0,,,,,,,,,,,defensive,markkla01,False,,,,,,,,,,,,,,,,,,,8:27.0 92-86 Defensive rebound by markkla01,8:27.0
+366,fg_make,,,92.0,88.0,2.0,sextoco01,2.0,jump shot,6.0,georgke01,,,,,,,,,,,,,,,,,,,,,,,,,,8:20.0 92-88 +2 sextoco01 makes 2-pt jump shot from 6 ft (assist by georgke01 ),8:20.0
+367,fg_make,,,94.0,88.0,2.0,jamesle01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:59.0 jamesle01 makes 2-pt jump shot from 13 ft +2 94-88,7:59.0
+368,fg_make,,,94.0,90.0,2.0,sextoco01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:48.0 94-90 +2 sextoco01 makes 2-pt jump shot from 11 ft,7:48.0
+369,foul,,,94.0,90.0,,,,,,,,,,,,,,shooting,kesslwa01,chrisma02,,,,,,,,,,,,,,,,7:27.0 Shooting foul by kesslwa01 (drawn by chrisma02 ) 94-90,7:27.0
+370,free_throw,,,94.0,90.0,,chrisma02,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:27.0 chrisma02 misses free throw 1 of 2 94-90,7:27.0
+371,rebound,,,94.0,90.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:27.0 Offensive rebound by Team 94-90,7:27.0
+372,substitution,,,94.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:27.0 davisan02 enters the game for kolokch01 94-90,7:27.0
+373,substitution,,,94.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:27.0 94-90 collijo01 enters the game for markkla01,7:27.0
+374,substitution,,,94.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:27.0 94-90 sensabr01 enters the game for pottemi01,7:27.0
+375,free_throw,,,95.0,90.0,1.0,chrisma02,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:27.0 chrisma02 makes free throw 2 of 2 +1 95-90,7:27.0
+376,turnover,,,95.0,90.0,,,,,,,,,,,,,,,,,kesslwa01,3 sec,,,,,,,,,,,,,,7:09.0 95-90 Turnover by kesslwa01 (3 sec),7:09.0
+377,fg_make,,,97.0,90.0,2.0,jamesle01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:55.0 jamesle01 makes 2-pt layup at rim +2 97-90,6:55.0
+378,timeout,,,97.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Utah full,,,,6:55.0 97-90 Utah full timeout,6:55.0
+379,substitution,,,97.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:55.0 knechda01 enters the game for vincega01 97-90,6:55.0
+380,fg_miss,,,97.0,90.0,,sextoco01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:31.0 97-90 sextoco01 misses 2-pt jump shot from 8 ft,6:31.0
+381,rebound,,,97.0,90.0,,,,,,,,,,,offensive,collijo01,False,,,,,,,,,,,,,,,,,,,6:27.0 97-90 Offensive rebound by collijo01,6:27.0
+382,turnover,,,97.0,90.0,,,,,,,,,,,,,,,,,georgke01,lost ball; steal by hachiru01,hachiru01,,,,,,,,,,,,,6:18.0 97-90 Turnover by georgke01 (lost ball; steal by hachiru01 ),6:18.0
+383,fg_make,,,99.0,90.0,2.0,jamesle01,2.0,dunk,1.0,hachiru01,,,,,,,,,,,,,,,,,,,,,,,,,,6:15.0 jamesle01 makes 2-pt dunk from 1 ft (assist by hachiru01 ) +2 99-90,6:15.0
+384,timeout,,,99.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Utah full,,,,6:13.0 99-90 Utah full timeout,6:13.0
+385,substitution,,,99.0,90.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:13.0 99-90 markkla01 enters the game for sensabr01,6:13.0
+386,fg_make,,,99.0,92.0,2.0,collijo01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 99-92 +2 collijo01 makes 2-pt jump shot from 11 ft,5:58.0
+387,fg_make,,,101.0,92.0,2.0,jamesle01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 jamesle01 makes 2-pt jump shot from 9 ft +2 101-92,5:33.0
+388,fg_make,,,101.0,94.0,2.0,georgke01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:14.0 101-94 +2 georgke01 makes 2-pt layup from 4 ft,5:14.0
+389,fg_miss,,,101.0,94.0,,hachiru01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:48.0 hachiru01 misses 3-pt jump shot from 26 ft 101-94,4:48.0
+390,rebound,,,101.0,94.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,4:47.0 101-94 Defensive rebound by kesslwa01,4:47.0
+391,fg_miss,,,101.0,94.0,,georgke01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:37.0 101-94 georgke01 misses 3-pt jump shot from 27 ft,4:37.0
+392,rebound,,,101.0,94.0,,,,,,,,,,,defensive,davisan02,False,,,,,,,,,,,,,,,,,,,4:32.0 Defensive rebound by davisan02 101-94,4:32.0
+393,fg_miss,,,101.0,94.0,,jamesle01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 jamesle01 misses 3-pt jump shot from 28 ft 101-94,4:12.0
+394,rebound,,,101.0,94.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,4:10.0 101-94 Defensive rebound by Team,4:10.0
+395,foul,,,101.0,94.0,,,,,,,,,,,,,,loose ball,hachiru01,georgke01,,,,,,,,,,,,,,,,4:10.0 Loose ball foul by hachiru01 (drawn by georgke01 ) 101-94,4:10.0
+396,fg_make,,,101.0,97.0,3.0,markkla01,3.0,jump shot,29.0,sextoco01,,,,,,,,,,,,,,,,,,,,,,,,,,4:00.0 101-97 +3 markkla01 makes 3-pt jump shot from 29 ft (assist by sextoco01 ),4:00.0
+397,timeout,,,101.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,LA Lakers full,,,,3:59.0 LA Lakers full timeout 101-97,3:59.0
+398,fg_miss,,,101.0,97.0,,knechda01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:36.0 knechda01 misses 3-pt jump shot from 24 ft 101-97,3:36.0
+399,rebound,,,101.0,97.0,,,,,,,,,,,offensive,hachiru01,False,,,,,,,,,,,,,,,,,,,3:32.0 Offensive rebound by hachiru01 101-97,3:32.0
+400,fg_miss,,,101.0,97.0,,jamesle01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 jamesle01 misses 3-pt jump shot from 26 ft 101-97,3:22.0
+401,rebound,,,101.0,97.0,,,,,,,,,,,offensive,knechda01,False,,,,,,,,,,,,,,,,,,,3:21.0 Offensive rebound by knechda01 101-97,3:21.0
+402,fg_miss,,,101.0,97.0,,jamesle01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:13.0 jamesle01 misses 3-pt jump shot from 23 ft 101-97,3:13.0
+403,rebound,,,101.0,97.0,,,,,,,,,,,offensive,hachiru01,False,,,,,,,,,,,,,,,,,,,3:11.0 Offensive rebound by hachiru01 101-97,3:11.0
+404,timeout,,,101.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,LA Lakers full,,,,3:07.0 LA Lakers full timeout 101-97,3:07.0
+405,substitution,,,101.0,97.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:07.0 vincega01 enters the game for knechda01 101-97,3:07.0
+406,fg_miss,,,101.0,97.0,,jamesle01,2.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:56.0 jamesle01 misses 2-pt jump shot from 22 ft 101-97,2:56.0
+407,rebound,,,101.0,97.0,,,,,,,,,,,defensive,georgke01,False,,,,,,,,,,,,,,,,,,,2:54.0 101-97 Defensive rebound by georgke01,2:54.0
+408,turnover,,,101.0,97.0,,,,,,,,,,,,,,,,,georgke01,bad pass,,,,,,,,,,,,,,2:49.0 101-97 Turnover by georgke01 (bad pass),2:49.0
+409,fg_miss,,,101.0,97.0,,davisan02,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 davisan02 misses 2-pt jump shot from 13 ft 101-97,2:32.0
+410,rebound,,,101.0,97.0,,,,,,,,,,,defensive,georgke01,False,,,,,,,,,,,,,,,,,,,2:29.0 101-97 Defensive rebound by georgke01,2:29.0
+411,fg_make,,,101.0,99.0,2.0,sextoco01,2.0,jump shot,10.0,kesslwa01,,,,,,,,,,,,,,,,,,,,,,,,,,2:20.0 101-99 +2 sextoco01 makes 2-pt jump shot from 10 ft (assist by kesslwa01 ),2:20.0
+412,fg_make,,,103.0,99.0,2.0,davisan02,2.0,jump shot,18.0,jamesle01,,,,,,,,,,,,,,,,,,,,,,,,,,1:56.0 davisan02 makes 2-pt jump shot from 18 ft (assist by jamesle01 ) +2 103-99,1:56.0
+413,turnover,,,103.0,99.0,,,,,,,,,,,,,,,,,sextoco01,bad pass,,,,,,,,,,,,,,1:42.0 103-99 Turnover by sextoco01 (bad pass),1:42.0
+414,fg_miss,,,103.0,99.0,,jamesle01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:24.0 jamesle01 misses 2-pt jump shot from 12 ft 103-99,1:24.0
+415,rebound,,,103.0,99.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,1:20.0 103-99 Defensive rebound by kesslwa01,1:20.0
+416,fg_make,,,103.0,101.0,2.0,georgke01,2.0,jump shot,12.0,sextoco01,,,,,,,,,,,,,,,,,,,,,,,,,,1:04.0 103-101 +2 georgke01 makes 2-pt jump shot from 12 ft (assist by sextoco01 ),1:04.0
+417,foul,,,103.0,101.0,,,,,,,,,,,,,,shooting,hachiru01,georgke01,,,,,,,,,,,,,,,,1:04.0 103-101 Shooting foul by hachiru01 (drawn by georgke01 ),1:04.0
+418,free_throw,,,103.0,102.0,1.0,georgke01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:04.0 103-102 +1 georgke01 makes free throw 1 of 1,1:04.0
+419,fg_make,,,105.0,102.0,2.0,jamesle01,2.0,jump shot,9.0,chrisma02,,,,,,,,,,,,,,,,,,,,,,,,,,0:41.0 jamesle01 makes 2-pt jump shot from 9 ft (assist by chrisma02 ) +2 105-102,0:41.0
+420,timeout,,,105.0,102.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Utah full,,,,0:41.0 105-102 Utah full timeout,0:41.0
+421,fg_miss,,,105.0,102.0,,georgke01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:33.0 105-102 georgke01 misses 2-pt layup from 8 ft,0:33.0
+422,rebound,,,105.0,102.0,,,,,,,,,,,offensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,0:31.0 105-102 Offensive rebound by kesslwa01,0:31.0
+423,fg_make,,,105.0,104.0,2.0,kesslwa01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 105-104 +2 kesslwa01 makes 2-pt layup at rim,0:31.0
+424,fg_miss,,,105.0,104.0,,jamesle01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:11.0 jamesle01 misses 3-pt jump shot from 26 ft 105-104,0:11.0
+425,rebound,,,105.0,104.0,,,,,,,,,,,defensive,kesslwa01,False,,,,,,,,,,,,,,,,,,,0:08.0 105-104 Defensive rebound by kesslwa01,0:08.0
+426,timeout,,,105.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Utah full,,,,0:02.0 105-104 Utah full timeout,0:02.0
+427,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter,0:00.0

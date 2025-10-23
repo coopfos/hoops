@@ -1,0 +1,471 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: allenja01 vs. capelca01 ( garlada01 gains possession)
+2,fg_make,,,2.0,0.0,2.0,mobleev01,2.0,layup,2.0,garlada01,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 mobleev01 makes 2-pt layup from 2 ft (assist by garlada01 ) +2 2-0
+3,fg_make,,,2.0,2.0,2.0,youngtr01,2.0,layup,4.0,capelca01,,,,,,,,,,,,,,,,,,,,,,,,,,11:31.0 2-2 +2 youngtr01 makes 2-pt layup from 4 ft (assist by capelca01 )
+4,fg_miss,,,2.0,2.0,,mobleev01,2.0,hook shot,6.0,,capelca01,,,,,,,,,,,,,,,,,,,,,,,,,11:12.0 mobleev01 misses 2-pt hook shot from 6 ft (block by capelca01 ) 2-2
+5,rebound,,,2.0,2.0,,,,,,,,,,,offensive,mobleev01,False,,,,,,,,,,,,,,,,,,,11:08.0 Offensive rebound by mobleev01 2-2
+6,fg_miss,,,2.0,2.0,,mitchdo01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:06.0 mitchdo01 misses 2-pt jump shot from 19 ft 2-2
+7,rebound,,,2.0,2.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,11:03.0 2-2 Defensive rebound by daniedy01
+8,fg_miss,,,2.0,2.0,,daniedy01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:58.0 2-2 daniedy01 misses 2-pt jump shot from 4 ft
+9,rebound,,,2.0,2.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,10:56.0 Defensive rebound by mitchdo01 2-2
+10,foul,,,2.0,2.0,,,,,,,,,,,,,,personal,risacza01,garlada01,,,,,,,,,,,,,,,,10:54.0 Personal foul by risacza01 (drawn by garlada01 ) 2-2
+11,fg_miss,,,2.0,2.0,,mitchdo01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:49.0 mitchdo01 misses 2-pt layup from 4 ft 2-2
+12,rebound,,,2.0,2.0,,,,,,,,,,,offensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,10:44.0 Offensive rebound by mitchdo01 2-2
+13,fg_miss,,,2.0,2.0,,mitchdo01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:44.0 mitchdo01 misses 2-pt layup at rim 2-2
+14,rebound,,,2.0,2.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,10:43.0 2-2 Defensive rebound by capelca01
+15,fg_make,,,2.0,5.0,3.0,risacza01,3.0,jump shot,23.0,johnsja05,,,,,,,,,,,,,,,,,,,,,,,,,,10:39.0 2-5 +3 risacza01 makes 3-pt jump shot from 23 ft (assist by johnsja05 )
+16,fg_make,,,4.0,5.0,2.0,garlada01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:23.0 garlada01 makes 2-pt jump shot from 20 ft +2 4-5
+17,turnover,,,4.0,5.0,,,,,,,,,,,,,,,,,youngtr01,bad pass; steal by okorois01,okorois01,,,,,,,,,,,,,10:09.0 4-5 Turnover by youngtr01 (bad pass; steal by okorois01 )
+18,foul,,,4.0,5.0,,,,,,,,,,,,,,shooting,risacza01,mobleev01,,,,,,,,,,,,,,,,10:05.0 Shooting foul by risacza01 (drawn by mobleev01 ) 4-5
+19,free_throw,,,5.0,5.0,1.0,mobleev01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:05.0 mobleev01 makes free throw 1 of 2 +1 5-5
+20,free_throw,,,6.0,5.0,1.0,mobleev01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:05.0 mobleev01 makes free throw 2 of 2 +1 6-5
+21,foul,,,6.0,5.0,,,,,,,,,,,,,,shooting,allenja01,risacza01,,,,,,,,,,,,,,,,9:51.0 6-5 Shooting foul by allenja01 (drawn by risacza01 )
+22,free_throw,,,6.0,6.0,1.0,risacza01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:51.0 6-6 +1 risacza01 makes free throw 1 of 2
+23,free_throw,,,6.0,6.0,,risacza01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:51.0 6-6 risacza01 misses free throw 2 of 2
+24,rebound,,,6.0,6.0,,,,,,,,,,,defensive,allenja01,False,,,,,,,,,,,,,,,,,,,9:49.0 Defensive rebound by allenja01 6-6
+25,fg_make,,,9.0,6.0,3.0,garlada01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:43.0 garlada01 makes 3-pt jump shot from 27 ft +3 9-6
+26,turnover,,,9.0,6.0,,,,,,,,,,,,,,,,,youngtr01,lost ball; steal by mobleev01,mobleev01,,,,,,,,,,,,,9:32.0 9-6 Turnover by youngtr01 (lost ball; steal by mobleev01 )
+27,fg_make,,,12.0,6.0,3.0,garlada01,3.0,jump shot,23.0,mobleev01,,,,,,,,,,,,,,,,,,,,,,,,,,9:22.0 garlada01 makes 3-pt jump shot from 23 ft (assist by mobleev01 ) +3 12-6
+28,turnover,,,12.0,6.0,,,,,,,,,,,,,,,,,daniedy01,lost ball; steal by mitchdo01,mitchdo01,,,,,,,,,,,,,9:06.0 12-6 Turnover by daniedy01 (lost ball; steal by mitchdo01 )
+29,fg_miss,,,12.0,6.0,,okorois01,2.0,layup,2.0,,risacza01,,,,,,,,,,,,,,,,,,,,,,,,,9:02.0 okorois01 misses 2-pt layup from 2 ft (block by risacza01 ) 12-6
+30,rebound,,,12.0,6.0,,,,,,,,,,,defensive,youngtr01,False,,,,,,,,,,,,,,,,,,,8:59.0 12-6 Defensive rebound by youngtr01
+31,fg_make,,,12.0,8.0,2.0,johnsja05,2.0,jump shot,2.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,8:49.0 12-8 +2 johnsja05 makes 2-pt jump shot from 2 ft (assist by daniedy01 )
+32,fg_miss,,,12.0,8.0,,mobleev01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 mobleev01 misses 3-pt jump shot from 26 ft 12-8
+33,rebound,,,12.0,8.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,8:37.0 12-8 Defensive rebound by Team
+34,turnover,,,12.0,8.0,,,,,,,,,,,,,,,,,youngtr01,bad pass,,,,,,,,,,,,,,8:24.0 12-8 Turnover by youngtr01 (bad pass)
+35,fg_make,,,14.0,8.0,2.0,allenja01,2.0,layup,1.0,okorois01,,,,,,,,,,,,,,,,,,,,,,,,,,8:11.0 allenja01 makes 2-pt layup from 1 ft (assist by okorois01 ) +2 14-8
+36,turnover,,,14.0,8.0,,,,,,,,,,,,,,,,,risacza01,lost ball; steal by mitchdo01,mitchdo01,,,,,,,,,,,,,8:03.0 14-8 Turnover by risacza01 (lost ball; steal by mitchdo01 )
+37,fg_make,,,16.0,8.0,2.0,mobleev01,2.0,layup,1.0,mitchdo01,,,,,,,,,,,,,,,,,,,,,,,,,,7:59.0 mobleev01 makes 2-pt layup from 1 ft (assist by mitchdo01 ) +2 16-8
+38,timeout,,,16.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,7:59.0 16-8 Atlanta full timeout
+39,unknown,,,16.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),7:35.0 16-8 Turnover by Team (shot clock)
+40,fg_miss,,,16.0,8.0,,mitchdo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:24.0 mitchdo01 misses 3-pt jump shot from 25 ft 16-8
+41,rebound,,,16.0,8.0,,,,,,,,,,,offensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,7:22.0 Offensive rebound by mitchdo01 16-8
+42,fg_miss,,,16.0,8.0,,mitchdo01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:10.0 mitchdo01 misses 2-pt jump shot from 5 ft 16-8
+43,rebound,,,16.0,8.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,7:06.0 16-8 Defensive rebound by johnsja05
+44,fg_make,,,16.0,10.0,2.0,daniedy01,2.0,jump shot,5.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:58.0 16-10 +2 daniedy01 makes 2-pt jump shot from 5 ft (assist by youngtr01 )
+45,turnover,,,16.0,10.0,,,,,,,,,,,,,,,,,okorois01,bad pass; steal by daniedy01,daniedy01,,,,,,,,,,,,,6:38.0 Turnover by okorois01 (bad pass; steal by daniedy01 ) 16-10
+46,foul,,,16.0,10.0,,,,,,,,,,,,,,personal,mitchdo01,daniedy01,,,,,,,,,,,,,,,,6:33.0 16-10 Personal foul by mitchdo01 (drawn by daniedy01 )
+47,substitution,,,16.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:33.0 leverca01 enters the game for mitchdo01 16-10
+48,substitution,,,16.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:33.0 niangge01 enters the game for mobleev01 16-10
+49,substitution,,,16.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:33.0 16-10 bogdabo01 enters the game for johnsja05
+50,substitution,,,16.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:33.0 16-10 huntede01 enters the game for risacza01
+51,fg_make,,,16.0,13.0,3.0,huntede01,3.0,jump shot,23.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 16-13 +3 huntede01 makes 3-pt jump shot from 23 ft (assist by youngtr01 )
+52,fg_miss,,,16.0,13.0,,garlada01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:07.0 garlada01 misses 3-pt jump shot from 26 ft 16-13
+53,rebound,,,16.0,13.0,,,,,,,,,,,offensive,okorois01,False,,,,,,,,,,,,,,,,,,,6:04.0 Offensive rebound by okorois01 16-13
+54,turnover,,,16.0,13.0,,,,,,,,,,,,,,,,,niangge01,traveling,,,,,,,,,,,,,,6:04.0 Turnover by niangge01 (traveling) 16-13
+55,fg_miss,,,16.0,13.0,,bogdabo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 16-13 bogdabo01 misses 3-pt jump shot from 23 ft
+56,rebound,,,16.0,13.0,,,,,,,,,,,defensive,niangge01,False,,,,,,,,,,,,,,,,,,,5:51.0 Defensive rebound by niangge01 16-13
+57,foul,,,16.0,13.0,,,,,,,,,,,,,,offensive,okorois01,bogdabo01,,,,,,,,,,,,,,,,5:48.0 Offensive foul by okorois01 (drawn by bogdabo01 ) 16-13
+58,turnover,,,16.0,13.0,,,,,,,,,,,,,,,,,okorois01,offensive foul,,,,,,,,,,,,,,5:48.0 Turnover by okorois01 (offensive foul) 16-13
+59,substitution,,,16.0,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:48.0 merrisa01 enters the game for okorois01 16-13
+60,substitution,,,16.0,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:48.0 16-13 okongon01 enters the game for capelca01
+61,fg_make,,,16.0,15.0,2.0,okongon01,2.0,dunk,1.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,5:37.0 16-15 +2 okongon01 makes 2-pt dunk from 1 ft (assist by youngtr01 )
+62,fg_make,,,18.0,15.0,2.0,allenja01,2.0,hook shot,6.0,niangge01,,,,,,,,,,,,,,,,,,,,,,,,,,5:16.0 allenja01 makes 2-pt hook shot from 6 ft (assist by niangge01 ) +2 18-15
+63,turnover,,,18.0,15.0,,,,,,,,,,,,,,,,,youngtr01,bad pass; steal by garlada01,garlada01,,,,,,,,,,,,,5:02.0 18-15 Turnover by youngtr01 (bad pass; steal by garlada01 )
+64,fg_make,,,20.0,15.0,2.0,garlada01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:58.0 garlada01 makes 2-pt dunk from 1 ft +2 20-15
+65,foul,,,20.0,15.0,,,,,,,,,,,,,,shooting,allenja01,daniedy01,,,,,,,,,,,,,,,,4:48.0 20-15 Shooting foul by allenja01 (drawn by daniedy01 )
+66,free_throw,,,20.0,15.0,,daniedy01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:48.0 20-15 daniedy01 misses free throw 1 of 2
+67,rebound,,,20.0,15.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:48.0 20-15 Offensive rebound by Team
+68,free_throw,,,20.0,15.0,,daniedy01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:48.0 20-15 daniedy01 misses free throw 2 of 2
+69,rebound,,,20.0,15.0,,,,,,,,,,,defensive,allenja01,False,,,,,,,,,,,,,,,,,,,4:46.0 Defensive rebound by allenja01 20-15
+70,fg_miss,,,20.0,15.0,,merrisa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 merrisa01 misses 3-pt jump shot from 26 ft 20-15
+71,rebound,,,20.0,15.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,4:33.0 20-15 Defensive rebound by daniedy01
+72,fg_miss,,,20.0,15.0,,bogdabo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:23.0 20-15 bogdabo01 misses 3-pt jump shot from 23 ft
+73,rebound,,,20.0,15.0,,,,,,,,,,,defensive,garlada01,False,,,,,,,,,,,,,,,,,,,4:20.0 Defensive rebound by garlada01 20-15
+74,fg_miss,,,20.0,15.0,,leverca01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 leverca01 misses 2-pt layup from 2 ft 20-15
+75,rebound,,,20.0,15.0,,,,,,,,,,,defensive,huntede01,False,,,,,,,,,,,,,,,,,,,4:09.0 20-15 Defensive rebound by huntede01
+76,fg_make,,,20.0,17.0,2.0,youngtr01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 20-17 +2 youngtr01 makes 2-pt jump shot from 8 ft
+77,timeout,,,20.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cleveland full,,,,3:59.0 Cleveland full timeout 20-17
+78,substitution,,,20.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 mitchdo01 enters the game for allenja01 20-17
+79,substitution,,,20.0,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 mobleev01 enters the game for garlada01 20-17
+80,fg_miss,,,20.0,17.0,,niangge01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:43.0 niangge01 misses 3-pt jump shot from 26 ft 20-17
+81,rebound,,,20.0,17.0,,,,,,,,,,,defensive,youngtr01,False,,,,,,,,,,,,,,,,,,,3:40.0 20-17 Defensive rebound by youngtr01
+82,fg_make,,,20.0,19.0,2.0,huntede01,2.0,jump shot,11.0,okongon01,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 20-19 +2 huntede01 makes 2-pt jump shot from 11 ft (assist by okongon01 )
+83,fg_make,,,23.0,19.0,3.0,merrisa01,3.0,jump shot,23.0,leverca01,,,,,,,,,,,,,,,,,,,,,,,,,,3:02.0 merrisa01 makes 3-pt jump shot from 23 ft (assist by leverca01 ) +3 23-19
+84,fg_miss,,,23.0,19.0,,daniedy01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:49.0 23-19 daniedy01 misses 2-pt jump shot from 10 ft
+85,rebound,,,23.0,19.0,,,,,,,,,,,offensive,daniedy01,False,,,,,,,,,,,,,,,,,,,2:45.0 23-19 Offensive rebound by daniedy01
+86,fg_make,,,23.0,21.0,2.0,daniedy01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 23-21 +2 daniedy01 makes 2-pt layup at rim
+87,fg_miss,,,23.0,21.0,,merrisa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:35.0 merrisa01 misses 3-pt jump shot from 26 ft 23-21
+88,rebound,,,23.0,21.0,,,,,,,,,,,defensive,bogdabo01,False,,,,,,,,,,,,,,,,,,,2:33.0 23-21 Defensive rebound by bogdabo01
+89,foul,,,23.0,21.0,,,,,,,,,,,,,,personal,merrisa01,youngtr01,,,,,,,,,,,,,,,,2:32.0 23-21 Personal foul by merrisa01 (drawn by youngtr01 )
+90,substitution,,,23.0,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 23-21 bufkiko01 enters the game for daniedy01
+91,substitution,,,23.0,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:32.0 23-21 johnsja05 enters the game for youngtr01
+92,fg_make,,,23.0,23.0,2.0,huntede01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:19.0 23-23 +2 huntede01 makes 2-pt jump shot from 13 ft
+93,fg_make,,,25.0,23.0,2.0,mobleev01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:00.0 mobleev01 makes 2-pt dunk from 1 ft +2 25-23
+94,fg_make,,,25.0,26.0,3.0,bogdabo01,3.0,jump shot,23.0,huntede01,,,,,,,,,,,,,,,,,,,,,,,,,,1:46.0 25-26 +3 bogdabo01 makes 3-pt jump shot from 23 ft (assist by huntede01 )
+95,fg_miss,,,25.0,26.0,,mitchdo01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:34.0 mitchdo01 misses 2-pt layup from 1 ft 25-26
+96,rebound,,,25.0,26.0,,,,,,,,,,,offensive,mobleev01,False,,,,,,,,,,,,,,,,,,,1:29.0 Offensive rebound by mobleev01 25-26
+97,fg_make,,,27.0,26.0,2.0,mobleev01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:29.0 mobleev01 makes 2-pt dunk at rim +2 27-26
+98,fg_make,,,27.0,29.0,3.0,johnsja05,3.0,jump shot,25.0,bufkiko01,,,,,,,,,,,,,,,,,,,,,,,,,,1:10.0 27-29 +3 johnsja05 makes 3-pt jump shot from 25 ft (assist by bufkiko01 )
+99,fg_miss,,,27.0,29.0,,niangge01,2.0,hook shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 niangge01 misses 2-pt hook shot from 8 ft 27-29
+100,rebound,,,27.0,29.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,0:46.0 27-29 Defensive rebound by okongon01
+101,fg_miss,,,27.0,29.0,,okongon01,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:39.0 27-29 okongon01 misses 2-pt hook shot from 5 ft
+102,rebound,,,27.0,29.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,0:36.0 Defensive rebound by mobleev01 27-29
+103,fg_miss,,,27.0,29.0,,niangge01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:28.0 niangge01 misses 3-pt jump shot from 23 ft 27-29
+104,rebound,,,27.0,29.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,0:24.0 27-29 Defensive rebound by johnsja05
+105,fg_miss,,,27.0,29.0,,johnsja05,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 27-29 johnsja05 misses 2-pt jump shot from 11 ft
+106,rebound,,,27.0,29.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,0:01.0 Defensive rebound by mobleev01 27-29
+107,fg_miss,,,27.0,29.0,,mobleev01,3.0,jump shot,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 mobleev01 misses 3-pt jump shot from 47 ft 27-29
+108,rebound,,,27.0,29.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 27-29
+109,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+110,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+111,fg_miss,,,27.0,29.0,,bufkiko01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:44.0 27-29 bufkiko01 misses 3-pt jump shot from 25 ft
+112,rebound,,,27.0,29.0,,,,,,,,,,,offensive,okongon01,False,,,,,,,,,,,,,,,,,,,11:41.0 27-29 Offensive rebound by okongon01
+113,fg_miss,,,27.0,29.0,,bufkiko01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:38.0 27-29 bufkiko01 misses 2-pt layup from 2 ft
+114,rebound,,,27.0,29.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,11:36.0 Defensive rebound by mitchdo01 27-29
+115,fg_miss,,,27.0,29.0,,mitchdo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:32.0 mitchdo01 misses 3-pt jump shot from 26 ft 27-29
+116,rebound,,,27.0,29.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,11:29.0 27-29 Defensive rebound by johnsja05
+117,foul,,,27.0,29.0,,,,,,,,,,,,,,personal,mitchdo01,okongon01,,,,,,,,,,,,,,,,11:25.0 27-29 Personal foul by mitchdo01 (drawn by okongon01 )
+118,fg_make,,,27.0,31.0,2.0,bogdabo01,2.0,layup,1.0,okongon01,,,,,,,,,,,,,,,,,,,,,,,,,,11:16.0 27-31 +2 bogdabo01 makes 2-pt layup from 1 ft (assist by okongon01 )
+119,fg_miss,,,27.0,31.0,,mitchdo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:00.0 mitchdo01 misses 3-pt jump shot from 26 ft 27-31
+120,rebound,,,27.0,31.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,10:57.0 27-31 Defensive rebound by johnsja05
+121,fg_miss,,,27.0,31.0,,okongon01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:50.0 27-31 okongon01 misses 3-pt jump shot from 23 ft
+122,rebound,,,27.0,31.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,10:47.0 Defensive rebound by mobleev01 27-31
+123,fg_miss,,,27.0,31.0,,merrisa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 merrisa01 misses 3-pt jump shot from 26 ft 27-31
+124,rebound,,,27.0,31.0,,,,,,,,,,,defensive,huntede01,False,,,,,,,,,,,,,,,,,,,10:38.0 27-31 Defensive rebound by huntede01
+125,foul,,,27.0,31.0,,,,,,,,,,,,,,personal,merrisa01,johnsja05,,,,,,,,,,,,,,,,10:36.0 27-31 Personal foul by merrisa01 (drawn by johnsja05 )
+126,fg_miss,,,27.0,31.0,,huntede01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:24.0 27-31 huntede01 misses 3-pt jump shot from 26 ft
+127,rebound,,,27.0,31.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,10:19.0 Defensive rebound by mobleev01 27-31
+128,fg_make,,,29.0,31.0,2.0,mobleev01,2.0,dunk,2.0,niangge01,,,,,,,,,,,,,,,,,,,,,,,,,,10:08.0 mobleev01 makes 2-pt dunk from 2 ft (assist by niangge01 ) +2 29-31
+129,fg_miss,,,29.0,31.0,,bogdabo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:53.0 29-31 bogdabo01 misses 3-pt jump shot from 26 ft
+130,rebound,,,29.0,31.0,,,,,,,,,,,defensive,jeromty01,False,,,,,,,,,,,,,,,,,,,9:50.0 Defensive rebound by jeromty01 29-31
+131,foul,,,29.0,31.0,,,,,,,,,,,,,,personal,bogdabo01,mitchdo01,,,,,,,,,,,,,,,,9:43.0 Personal foul by bogdabo01 (drawn by mitchdo01 ) 29-31
+132,substitution,,,29.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:43.0 okorois01 enters the game for merrisa01 29-31
+133,substitution,,,29.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:43.0 tysonja01 enters the game for niangge01 29-31
+134,substitution,,,29.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:43.0 29-31 capelca01 enters the game for huntede01
+135,substitution,,,29.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:43.0 29-31 risacza01 enters the game for okongon01
+136,turnover,,,29.0,31.0,,,,,,,,,,,,,,,,,tysonja01,bad pass; steal by capelca01,capelca01,,,,,,,,,,,,,9:35.0 Turnover by tysonja01 (bad pass; steal by capelca01 ) 29-31
+137,fg_miss,,,29.0,31.0,,johnsja05,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 29-31 johnsja05 misses 2-pt jump shot from 9 ft
+138,rebound,,,29.0,31.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,9:19.0 Defensive rebound by mobleev01 29-31
+139,fg_miss,,,29.0,31.0,,mitchdo01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:12.0 mitchdo01 misses 2-pt jump shot from 8 ft 29-31
+140,rebound,,,29.0,31.0,,,,,,,,,,,offensive,tysonja01,False,,,,,,,,,,,,,,,,,,,9:10.0 Offensive rebound by tysonja01 29-31
+141,fg_miss,,,29.0,31.0,,jeromty01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:06.0 jeromty01 misses 3-pt jump shot from 26 ft 29-31
+142,rebound,,,29.0,31.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,9:01.0 29-31 Defensive rebound by johnsja05
+143,fg_make,,,29.0,33.0,2.0,johnsja05,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:57.0 29-33 +2 johnsja05 makes 2-pt layup from 1 ft
+144,timeout,,,29.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cleveland full,,,,8:56.0 Cleveland full timeout 29-33
+145,substitution,,,29.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:56.0 garlada01 enters the game for mitchdo01 29-33
+146,substitution,,,29.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:56.0 29-33 daniedy01 enters the game for bufkiko01
+147,substitution,,,29.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:56.0 29-33 youngtr01 enters the game for johnsja05
+148,fg_miss,,,29.0,33.0,,jeromty01,2.0,layup,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:32.0 jeromty01 misses 2-pt layup from 7 ft 29-33
+149,rebound,,,29.0,33.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,8:29.0 29-33 Defensive rebound by capelca01
+150,turnover,,,29.0,33.0,,,,,,,,,,,,,,,,,capelca01,bad pass; steal by jeromty01,jeromty01,,,,,,,,,,,,,8:28.0 29-33 Turnover by capelca01 (bad pass; steal by jeromty01 )
+151,fg_miss,,,29.0,33.0,,garlada01,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:23.0 garlada01 misses 2-pt jump shot from 8 ft 29-33
+152,rebound,,,29.0,33.0,,,,,,,,,,,offensive,mobleev01,False,,,,,,,,,,,,,,,,,,,8:19.0 Offensive rebound by mobleev01 29-33
+153,fg_make,,,31.0,33.0,2.0,mobleev01,2.0,dunk,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:19.0 mobleev01 makes 2-pt dunk at rim +2 31-33
+154,fg_miss,,,31.0,33.0,,bogdabo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 31-33 bogdabo01 misses 3-pt jump shot from 25 ft
+155,rebound,,,31.0,33.0,,,,,,,,,,,defensive,garlada01,False,,,,,,,,,,,,,,,,,,,8:11.0 Defensive rebound by garlada01 31-33
+156,foul,,,31.0,33.0,,,,,,,,,,,,,,shooting,youngtr01,tysonja01,,,,,,,,,,,,,,,,8:00.0 Shooting foul by youngtr01 (drawn by tysonja01 ) 31-33
+157,timeout,,,31.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,8:00.0 31-33 Atlanta full timeout
+158,substitution,,,31.0,33.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:00.0 allenja01 enters the game for mobleev01 31-33
+159,free_throw,,,32.0,33.0,1.0,tysonja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:00.0 tysonja01 makes free throw 1 of 2 +1 32-33
+160,free_throw,,,32.0,33.0,,tysonja01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:00.0 tysonja01 misses free throw 2 of 2 32-33
+161,rebound,,,32.0,33.0,,,,,,,,,,,defensive,risacza01,False,,,,,,,,,,,,,,,,,,,7:58.0 32-33 Defensive rebound by risacza01
+162,fg_make,,,32.0,35.0,2.0,bogdabo01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 32-35 +2 bogdabo01 makes 2-pt jump shot from 16 ft
+163,fg_miss,,,32.0,35.0,,okorois01,2.0,layup,2.0,,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,7:30.0 okorois01 misses 2-pt layup from 2 ft (block by daniedy01 ) 32-35
+164,rebound,,,32.0,35.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:29.0 Offensive rebound by Team 32-35
+165,foul,,,32.0,35.0,,,,,,,,,,,,,,personal,capelca01,allenja01,,,,,,,,,,,,,,,,7:29.0 Personal foul by capelca01 (drawn by allenja01 ) 32-35
+166,instant_replay,,,32.0,35.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:29.0 Instant Replay (Request: Ruling Stands) 32-35
+167,fg_miss,,,32.0,35.0,,okorois01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:20.0 okorois01 misses 3-pt jump shot from 23 ft 32-35
+168,rebound,,,32.0,35.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,7:16.0 32-35 Defensive rebound by capelca01
+169,foul,,,32.0,35.0,,,,,,,,,,,,,,personal,tysonja01,bogdabo01,,,,,,,,,,,,,,,,7:09.0 32-35 Personal foul by tysonja01 (drawn by bogdabo01 )
+170,fg_miss,,,32.0,35.0,,daniedy01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:03.0 32-35 daniedy01 misses 2-pt jump shot from 4 ft
+171,rebound,,,32.0,35.0,,,,,,,,,,,offensive,capelca01,False,,,,,,,,,,,,,,,,,,,6:59.0 32-35 Offensive rebound by capelca01
+172,fg_miss,,,32.0,35.0,,capelca01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:59.0 32-35 capelca01 misses 2-pt layup at rim
+173,rebound,,,32.0,35.0,,,,,,,,,,,offensive,risacza01,False,,,,,,,,,,,,,,,,,,,6:58.0 32-35 Offensive rebound by risacza01
+174,fg_miss,,,32.0,35.0,,daniedy01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:55.0 32-35 daniedy01 misses 3-pt jump shot from 23 ft
+175,rebound,,,32.0,35.0,,,,,,,,,,,defensive,jeromty01,False,,,,,,,,,,,,,,,,,,,6:52.0 Defensive rebound by jeromty01 32-35
+176,fg_miss,,,32.0,35.0,,garlada01,2.0,jump shot,16.0,,capelca01,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 garlada01 misses 2-pt jump shot from 16 ft (block by capelca01 ) 32-35
+177,rebound,,,32.0,35.0,,,,,,,,,,,offensive,garlada01,False,,,,,,,,,,,,,,,,,,,6:38.0 Offensive rebound by garlada01 32-35
+178,foul,,,32.0,35.0,,,,,,,,,,,,,,shooting,youngtr01,okorois01,,,,,,,,,,,,,,,,6:38.0 Shooting foul by youngtr01 (drawn by okorois01 ) 32-35
+179,free_throw,,,33.0,35.0,1.0,okorois01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:38.0 okorois01 makes free throw 1 of 2 +1 33-35
+180,substitution,,,33.0,35.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:38.0 33-35 huntede01 enters the game for bogdabo01
+181,substitution,,,33.0,35.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:38.0 33-35 johnsja05 enters the game for risacza01
+182,free_throw,,,34.0,35.0,1.0,okorois01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:38.0 okorois01 makes free throw 2 of 2 +1 34-35
+183,foul,,,34.0,35.0,,,,,,,,,,,,,,shooting,jeromty01,huntede01,,,,,,,,,,,,,,,,6:24.0 34-35 Shooting foul by jeromty01 (drawn by huntede01 )
+184,free_throw,,,34.0,36.0,1.0,huntede01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:24.0 34-36 +1 huntede01 makes free throw 1 of 2
+185,free_throw,,,34.0,37.0,1.0,huntede01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:24.0 34-37 +1 huntede01 makes free throw 2 of 2
+186,foul,,,34.0,37.0,,,,,,,,,,,,,,offensive,jeromty01,capelca01,,,,,,,,,,,,,,,,6:14.0 Offensive foul by jeromty01 (drawn by capelca01 ) 34-37
+187,turnover,,,34.0,37.0,,,,,,,,,,,,,,,,,jeromty01,offensive foul,,,,,,,,,,,,,,6:14.0 Turnover by jeromty01 (offensive foul) 34-37
+188,unknown,,,34.0,37.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by jeromty01,6:14.0 Technical foul by jeromty01 34-37
+189,unknown,,,34.0,38.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,youngtr01 makes technical free throw,6:14.0 34-38 +1 youngtr01 makes technical free throw
+190,fg_make,,,34.0,41.0,3.0,huntede01,3.0,jump shot,24.0,johnsja05,,,,,,,,,,,,,,,,,,,,,,,,,,5:59.0 34-41 +3 huntede01 makes 3-pt jump shot from 24 ft (assist by johnsja05 )
+191,fg_miss,,,34.0,41.0,,okorois01,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 okorois01 misses 2-pt hook shot from 5 ft 34-41
+192,rebound,,,34.0,41.0,,,,,,,,,,,offensive,tysonja01,False,,,,,,,,,,,,,,,,,,,5:29.0 Offensive rebound by tysonja01 34-41
+193,fg_make,,,36.0,41.0,2.0,garlada01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 garlada01 makes 2-pt jump shot from 6 ft +2 36-41
+194,turnover,,,36.0,41.0,,,,,,,,,,,,,,,,,youngtr01,bad pass,,,,,,,,,,,,,,5:21.0 36-41 Turnover by youngtr01 (bad pass)
+195,substitution,,,36.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:21.0 leverca01 enters the game for jeromty01 36-41
+196,substitution,,,36.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:21.0 mobleev01 enters the game for tysonja01 36-41
+197,fg_make,,,38.0,41.0,2.0,mobleev01,2.0,dunk,2.0,garlada01,,,,,,,,,,,,,,,,,,,,,,,,,,5:04.0 mobleev01 makes 2-pt dunk from 2 ft (assist by garlada01 ) +2 38-41
+198,foul,,,38.0,41.0,,,,,,,,,,,,,,offensive,daniedy01,garlada01,,,,,,,,,,,,,,,,4:47.0 38-41 Offensive foul by daniedy01 (drawn by garlada01 )
+199,turnover,,,38.0,41.0,,,,,,,,,,,,,,,,,daniedy01,offensive foul,,,,,,,,,,,,,,4:47.0 38-41 Turnover by daniedy01 (offensive foul)
+200,substitution,,,38.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:47.0 mitchdo01 enters the game for okorois01 38-41
+201,fg_miss,,,38.0,41.0,,leverca01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:32.0 leverca01 misses 3-pt jump shot from 26 ft 38-41
+202,rebound,,,38.0,41.0,,,,,,,,,,,offensive,mobleev01,False,,,,,,,,,,,,,,,,,,,4:29.0 Offensive rebound by mobleev01 38-41
+203,fg_miss,,,38.0,41.0,,leverca01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:28.0 leverca01 misses 2-pt layup from 2 ft 38-41
+204,rebound,,,38.0,41.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,4:24.0 38-41 Defensive rebound by johnsja05
+205,fg_make,,,38.0,44.0,3.0,huntede01,3.0,jump shot,24.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,4:15.0 38-44 +3 huntede01 makes 3-pt jump shot from 24 ft (assist by youngtr01 )
+206,fg_miss,,,38.0,44.0,,mobleev01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:48.0 mobleev01 misses 2-pt jump shot from 11 ft 38-44
+207,rebound,,,38.0,44.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,3:46.0 38-44 Defensive rebound by capelca01
+208,fg_miss,,,38.0,44.0,,daniedy01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:35.0 38-44 daniedy01 misses 2-pt hook shot from 6 ft
+209,rebound,,,38.0,44.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:34.0 38-44 Offensive rebound by Team
+210,fg_miss,,,38.0,44.0,,capelca01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:24.0 38-44 capelca01 misses 2-pt jump shot from 6 ft
+211,rebound,,,38.0,44.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,3:22.0 Defensive rebound by mitchdo01 38-44
+212,fg_miss,,,38.0,44.0,,mobleev01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:10.0 mobleev01 misses 3-pt jump shot from 24 ft 38-44
+213,rebound,,,38.0,44.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,3:07.0 38-44 Defensive rebound by capelca01
+214,fg_make,,,38.0,46.0,2.0,johnsja05,2.0,dunk,1.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,3:04.0 38-46 +2 johnsja05 makes 2-pt dunk from 1 ft (assist by youngtr01 )
+215,timeout,,,38.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cleveland full,,,,3:03.0 Cleveland full timeout 38-46
+216,substitution,,,38.0,46.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:03.0 38-46 okongon01 enters the game for capelca01
+217,fg_miss,,,38.0,46.0,,mitchdo01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:45.0 mitchdo01 misses 3-pt jump shot from 23 ft 38-46
+218,rebound,,,38.0,46.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,2:42.0 38-46 Defensive rebound by daniedy01
+219,fg_make,,,38.0,48.0,2.0,youngtr01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:27.0 38-48 +2 youngtr01 makes 2-pt jump shot from 10 ft
+220,fg_make,,,41.0,48.0,3.0,mitchdo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:15.0 mitchdo01 makes 3-pt jump shot from 26 ft +3 41-48
+221,foul,,,41.0,48.0,,,,,,,,,,,,,,personal,leverca01,huntede01,,,,,,,,,,,,,,,,2:04.0 41-48 Personal foul by leverca01 (drawn by huntede01 )
+222,free_throw,,,41.0,49.0,1.0,huntede01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:04.0 41-49 +1 huntede01 makes free throw 1 of 2
+223,free_throw,,,41.0,50.0,1.0,huntede01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:04.0 41-50 +1 huntede01 makes free throw 2 of 2
+224,fg_miss,,,41.0,50.0,,mitchdo01,2.0,hook shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:51.0 mitchdo01 misses 2-pt hook shot from 10 ft 41-50
+225,rebound,,,41.0,50.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,1:48.0 41-50 Defensive rebound by okongon01
+226,fg_make,,,41.0,52.0,2.0,okongon01,2.0,layup,,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,1:43.0 41-52 +2 okongon01 makes 2-pt layup at rim (assist by youngtr01 )
+227,fg_make,,,44.0,52.0,3.0,mitchdo01,3.0,jump shot,26.0,mobleev01,,,,,,,,,,,,,,,,,,,,,,,,,,1:31.0 mitchdo01 makes 3-pt jump shot from 26 ft (assist by mobleev01 ) +3 44-52
+228,fg_miss,,,44.0,52.0,,huntede01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:16.0 44-52 huntede01 misses 2-pt jump shot from 17 ft
+229,rebound,,,44.0,52.0,,,,,,,,,,,defensive,leverca01,False,,,,,,,,,,,,,,,,,,,1:13.0 Defensive rebound by leverca01 44-52
+230,fg_make,,,47.0,52.0,3.0,garlada01,3.0,jump shot,25.0,mitchdo01,,,,,,,,,,,,,,,,,,,,,,,,,,0:56.0 garlada01 makes 3-pt jump shot from 25 ft (assist by mitchdo01 ) +3 47-52
+231,fg_miss,,,47.0,52.0,,youngtr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:40.0 47-52 youngtr01 misses 3-pt jump shot from 26 ft
+232,rebound,,,47.0,52.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,0:37.0 Defensive rebound by mitchdo01 47-52
+233,fg_make,,,50.0,52.0,3.0,garlada01,3.0,jump shot,28.0,mitchdo01,,,,,,,,,,,,,,,,,,,,,,,,,,0:32.0 garlada01 makes 3-pt jump shot from 28 ft (assist by mitchdo01 ) +3 50-52
+234,turnover,,,50.0,52.0,,,,,,,,,,,,,,,,,youngtr01,out of bounds lost ball,,,,,,,,,,,,,,0:26.0 50-52 Turnover by youngtr01 (out of bounds lost ball)
+235,substitution,,,50.0,52.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:26.0 merrisa01 enters the game for allenja01 50-52
+236,fg_miss,,,50.0,52.0,,merrisa01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 merrisa01 misses 3-pt jump shot from 23 ft 50-52
+237,rebound,,,50.0,52.0,,,,,,,,,,,defensive,huntede01,False,,,,,,,,,,,,,,,,,,,0:01.0 50-52 Defensive rebound by huntede01
+238,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+239,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+240,fg_make,,,50.0,54.0,2.0,youngtr01,2.0,jump shot,7.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,11:45.0 50-54 +2 youngtr01 makes 2-pt jump shot from 7 ft (assist by daniedy01 )
+241,fg_miss,,,50.0,54.0,,garlada01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:33.0 garlada01 misses 2-pt jump shot from 18 ft 50-54
+242,rebound,,,50.0,54.0,,,,,,,,,,,defensive,risacza01,False,,,,,,,,,,,,,,,,,,,11:29.0 50-54 Defensive rebound by risacza01
+243,fg_make,,,50.0,56.0,2.0,capelca01,2.0,dunk,1.0,johnsja05,,,,,,,,,,,,,,,,,,,,,,,,,,11:15.0 50-56 +2 capelca01 makes 2-pt dunk from 1 ft (assist by johnsja05 )
+244,fg_miss,,,50.0,56.0,,mitchdo01,2.0,jump shot,15.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:00.0 mitchdo01 misses 2-pt jump shot from 15 ft 50-56
+245,rebound,,,50.0,56.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,10:58.0 50-56 Defensive rebound by daniedy01
+246,fg_miss,,,50.0,56.0,,youngtr01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:50.0 50-56 youngtr01 misses 2-pt jump shot from 4 ft
+247,rebound,,,50.0,56.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,10:48.0 Defensive rebound by mitchdo01 50-56
+248,fg_make,,,53.0,56.0,3.0,garlada01,3.0,jump shot,25.0,mitchdo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:44.0 garlada01 makes 3-pt jump shot from 25 ft (assist by mitchdo01 ) +3 53-56
+249,fg_make,,,53.0,58.0,2.0,johnsja05,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:27.0 53-58 +2 johnsja05 makes 2-pt jump shot from 10 ft
+250,fg_miss,,,53.0,58.0,,okorois01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:07.0 okorois01 misses 3-pt jump shot from 24 ft 53-58
+251,rebound,,,53.0,58.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,10:05.0 53-58 Defensive rebound by johnsja05
+252,foul,,,53.0,58.0,,,,,,,,,,,,,,personal,mobleev01,capelca01,,,,,,,,,,,,,,,,9:59.0 53-58 Personal foul by mobleev01 (drawn by capelca01 )
+253,turnover,,,53.0,58.0,,,,,,,,,,,,,,,,,daniedy01,bad pass,,,,,,,,,,,,,,9:48.0 53-58 Turnover by daniedy01 (bad pass)
+254,fg_miss,,,53.0,58.0,,mitchdo01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:38.0 mitchdo01 misses 2-pt jump shot from 16 ft 53-58
+255,rebound,,,53.0,58.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,9:35.0 53-58 Defensive rebound by johnsja05
+256,foul,,,53.0,58.0,,,,,,,,,,,,,,offensive,johnsja05,mobleev01,,,,,,,,,,,,,,,,9:28.0 53-58 Offensive foul by johnsja05 (drawn by mobleev01 )
+257,turnover,,,53.0,58.0,,,,,,,,,,,,,,,,,johnsja05,offensive foul,,,,,,,,,,,,,,9:28.0 53-58 Turnover by johnsja05 (offensive foul)
+258,fg_miss,,,53.0,58.0,,mitchdo01,2.0,layup,3.0,,capelca01,,,,,,,,,,,,,,,,,,,,,,,,,9:14.0 mitchdo01 misses 2-pt layup from 3 ft (block by capelca01 ) 53-58
+259,rebound,,,53.0,58.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,9:11.0 53-58 Defensive rebound by capelca01
+260,fg_make,,,53.0,61.0,3.0,risacza01,3.0,jump shot,26.0,johnsja05,,,,,,,,,,,,,,,,,,,,,,,,,,9:06.0 53-61 +3 risacza01 makes 3-pt jump shot from 26 ft (assist by johnsja05 )
+261,fg_make,,,55.0,61.0,2.0,mobleev01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:45.0 mobleev01 makes 2-pt dunk from 1 ft +2 55-61
+262,fg_miss,,,55.0,61.0,,johnsja05,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:34.0 55-61 johnsja05 misses 3-pt jump shot from 26 ft
+263,rebound,,,55.0,61.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,8:32.0 Defensive rebound by mitchdo01 55-61
+264,fg_miss,,,55.0,61.0,,mitchdo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:23.0 mitchdo01 misses 3-pt jump shot from 25 ft 55-61
+265,rebound,,,55.0,61.0,,,,,,,,,,,defensive,johnsja05,False,,,,,,,,,,,,,,,,,,,8:20.0 55-61 Defensive rebound by johnsja05
+266,foul,,,55.0,61.0,,,,,,,,,,,,,,personal,garlada01,johnsja05,,,,,,,,,,,,,,,,8:03.0 55-61 Personal foul by garlada01 (drawn by johnsja05 )
+267,fg_make,,,55.0,63.0,2.0,capelca01,2.0,dunk,1.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:55.0 55-63 +2 capelca01 makes 2-pt dunk from 1 ft (assist by youngtr01 )
+268,fg_miss,,,55.0,63.0,,mobleev01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:44.0 mobleev01 misses 2-pt layup from 1 ft 55-63
+269,rebound,,,55.0,63.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,7:41.0 55-63 Defensive rebound by capelca01
+270,fg_make,,,55.0,65.0,2.0,capelca01,2.0,layup,2.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:34.0 55-65 +2 capelca01 makes 2-pt layup from 2 ft (assist by youngtr01 )
+271,timeout,,,55.0,65.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cleveland full,,,,7:34.0 Cleveland full timeout 55-65
+272,fg_miss,,,55.0,65.0,,mobleev01,2.0,hook shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:19.0 mobleev01 misses 2-pt hook shot from 5 ft 55-65
+273,rebound,,,55.0,65.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,7:16.0 55-65 Defensive rebound by capelca01
+274,fg_miss,,,55.0,65.0,,risacza01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:06.0 55-65 risacza01 misses 3-pt jump shot from 24 ft
+275,rebound,,,55.0,65.0,,,,,,,,,,,defensive,allenja01,False,,,,,,,,,,,,,,,,,,,7:04.0 Defensive rebound by allenja01 55-65
+276,fg_make,,,57.0,65.0,2.0,mitchdo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:54.0 mitchdo01 makes 2-pt layup from 2 ft +2 57-65
+277,fg_miss,,,57.0,65.0,,risacza01,2.0,layup,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:31.0 57-65 risacza01 misses 2-pt layup from 10 ft
+278,rebound,,,57.0,65.0,,,,,,,,,,,offensive,capelca01,False,,,,,,,,,,,,,,,,,,,6:28.0 57-65 Offensive rebound by capelca01
+279,fg_make,,,57.0,67.0,2.0,capelca01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:27.0 57-67 +2 capelca01 makes 2-pt layup from 1 ft
+280,turnover,,,57.0,67.0,,,,,,,,,,,,,,,,,mitchdo01,lost ball; steal by daniedy01,daniedy01,,,,,,,,,,,,,6:09.0 Turnover by mitchdo01 (lost ball; steal by daniedy01 ) 57-67
+281,fg_make,,,57.0,69.0,2.0,johnsja05,2.0,dunk,1.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:06.0 57-69 +2 johnsja05 makes 2-pt dunk from 1 ft (assist by youngtr01 )
+282,timeout,,,57.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cleveland full,,,,6:06.0 Cleveland full timeout 57-69
+283,substitution,,,57.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:06.0 leverca01 enters the game for mitchdo01 57-69
+284,substitution,,,57.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:06.0 niangge01 enters the game for mobleev01 57-69
+285,substitution,,,57.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:06.0 57-69 bogdabo01 enters the game for johnsja05
+286,substitution,,,57.0,69.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:06.0 57-69 huntede01 enters the game for risacza01
+287,foul,,,57.0,69.0,,,,,,,,,,,,,,personal,youngtr01,okorois01,,,,,,,,,,,,,,,,5:57.0 Personal foul by youngtr01 (drawn by okorois01 ) 57-69
+288,fg_miss,,,57.0,69.0,,garlada01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:53.0 garlada01 misses 2-pt layup at rim 57-69
+289,rebound,,,57.0,69.0,,,,,,,,,,,defensive,huntede01,False,,,,,,,,,,,,,,,,,,,5:50.0 57-69 Defensive rebound by huntede01
+290,fg_make,,,57.0,72.0,3.0,huntede01,3.0,jump shot,25.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 57-72 +3 huntede01 makes 3-pt jump shot from 25 ft (assist by youngtr01 )
+291,fg_make,,,59.0,72.0,2.0,niangge01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 niangge01 makes 2-pt jump shot from 7 ft +2 59-72
+292,fg_make,,,59.0,75.0,3.0,youngtr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:21.0 59-75 +3 youngtr01 makes 3-pt jump shot from 25 ft
+293,foul,,,59.0,75.0,,,,,,,,,,,,,,personal,bogdabo01,garlada01,,,,,,,,,,,,,,,,5:13.0 Personal foul by bogdabo01 (drawn by garlada01 ) 59-75
+294,substitution,,,59.0,75.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:13.0 59-75 okongon01 enters the game for capelca01
+295,fg_make,,,61.0,75.0,2.0,allenja01,2.0,layup,1.0,garlada01,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 allenja01 makes 2-pt layup from 1 ft (assist by garlada01 ) +2 61-75
+296,fg_miss,,,61.0,75.0,,youngtr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:50.0 61-75 youngtr01 misses 3-pt jump shot from 26 ft
+297,rebound,,,61.0,75.0,,,,,,,,,,,offensive,okongon01,False,,,,,,,,,,,,,,,,,,,4:48.0 61-75 Offensive rebound by okongon01
+298,foul,,,61.0,75.0,,,,,,,,,,,,,,shooting,okorois01,okongon01,,,,,,,,,,,,,,,,4:48.0 61-75 Shooting foul by okorois01 (drawn by okongon01 )
+299,free_throw,,,61.0,76.0,1.0,okongon01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:48.0 61-76 +1 okongon01 makes free throw 1 of 2
+300,substitution,,,61.0,76.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:48.0 merrisa01 enters the game for okorois01 61-76
+301,free_throw,,,61.0,77.0,1.0,okongon01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:48.0 61-77 +1 okongon01 makes free throw 2 of 2
+302,foul,,,61.0,77.0,,,,,,,,,,,,,,shooting,bogdabo01,leverca01,,,,,,,,,,,,,,,,4:36.0 Shooting foul by bogdabo01 (drawn by leverca01 ) 61-77
+303,free_throw,,,62.0,77.0,1.0,leverca01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:36.0 leverca01 makes free throw 1 of 2 +1 62-77
+304,substitution,,,62.0,77.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 jeromty01 enters the game for allenja01 62-77
+305,substitution,,,62.0,77.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:36.0 mobleev01 enters the game for garlada01 62-77
+306,free_throw,,,63.0,77.0,1.0,leverca01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:36.0 leverca01 makes free throw 2 of 2 +1 63-77
+307,fg_miss,,,63.0,77.0,,huntede01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 63-77 huntede01 misses 3-pt jump shot from 25 ft
+308,rebound,,,63.0,77.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,4:18.0 Defensive rebound by mobleev01 63-77
+309,fg_make,,,66.0,77.0,3.0,leverca01,3.0,jump shot,26.0,merrisa01,,,,,,,,,,,,,,,,,,,,,,,,,,4:11.0 leverca01 makes 3-pt jump shot from 26 ft (assist by merrisa01 ) +3 66-77
+310,fg_make,,,66.0,79.0,2.0,youngtr01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:53.0 66-79 +2 youngtr01 makes 2-pt layup from 5 ft
+311,fg_make,,,69.0,79.0,3.0,leverca01,3.0,jump shot,25.0,mobleev01,,,,,,,,,,,,,,,,,,,,,,,,,,3:35.0 leverca01 makes 3-pt jump shot from 25 ft (assist by mobleev01 ) +3 69-79
+312,turnover,,,69.0,79.0,,,,,,,,,,,,,,,,,youngtr01,bad pass; steal by jeromty01,jeromty01,,,,,,,,,,,,,3:09.0 69-79 Turnover by youngtr01 (bad pass; steal by jeromty01 )
+313,turnover,,,69.0,79.0,,,,,,,,,,,,,,,,,leverca01,lost ball; steal by daniedy01,daniedy01,,,,,,,,,,,,,2:57.0 Turnover by leverca01 (lost ball; steal by daniedy01 ) 69-79
+314,fg_miss,,,69.0,79.0,,huntede01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:52.0 69-79 huntede01 misses 3-pt jump shot from 23 ft
+315,rebound,,,69.0,79.0,,,,,,,,,,,offensive,bogdabo01,False,,,,,,,,,,,,,,,,,,,2:46.0 69-79 Offensive rebound by bogdabo01
+316,fg_miss,,,69.0,79.0,,bogdabo01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:46.0 69-79 bogdabo01 misses 2-pt layup at rim
+317,rebound,,,69.0,79.0,,,,,,,,,,,offensive,bogdabo01,False,,,,,,,,,,,,,,,,,,,2:44.0 69-79 Offensive rebound by bogdabo01
+318,fg_make,,,69.0,82.0,3.0,bogdabo01,3.0,jump shot,25.0,youngtr01,,,,,,,,,,,,,,,,,,,,,,,,,,2:41.0 69-82 +3 bogdabo01 makes 3-pt jump shot from 25 ft (assist by youngtr01 )
+319,foul,,,69.0,82.0,,,,,,,,,,,,,,personal,daniedy01,jeromty01,,,,,,,,,,,,,,,,2:31.0 Personal foul by daniedy01 (drawn by jeromty01 ) 69-82
+320,substitution,,,69.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:31.0 69-82 bufkiko01 enters the game for daniedy01
+321,substitution,,,69.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:31.0 69-82 johnsja05 enters the game for youngtr01
+322,fg_miss,,,69.0,82.0,,jeromty01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 jeromty01 misses 2-pt jump shot from 12 ft 69-82
+323,rebound,,,69.0,82.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,2:23.0 69-82 Defensive rebound by okongon01
+324,turnover,,,69.0,82.0,,,,,,,,,,,,,,,,,johnsja05,lost ball; steal by jeromty01,jeromty01,,,,,,,,,,,,,2:09.0 69-82 Turnover by johnsja05 (lost ball; steal by jeromty01 )
+325,foul,,,69.0,82.0,,,,,,,,,,,,,,shooting,bufkiko01,mobleev01,,,,,,,,,,,,,,,,2:06.0 Shooting foul by bufkiko01 (drawn by mobleev01 ) 69-82
+326,free_throw,,,70.0,82.0,1.0,mobleev01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:06.0 mobleev01 makes free throw 1 of 2 +1 70-82
+327,substitution,,,70.0,82.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:06.0 mitchdo01 enters the game for niangge01 70-82
+328,free_throw,,,71.0,82.0,1.0,mobleev01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:06.0 mobleev01 makes free throw 2 of 2 +1 71-82
+329,violation,,,71.0,82.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,1:53.0 Violation by Team (kicked ball) 71-82
+330,fg_make,,,71.0,84.0,2.0,okongon01,2.0,hook shot,4.0,johnsja05,,,,,,,,,,,,,,,,,,,,,,,,,,1:43.0 71-84 +2 okongon01 makes 2-pt hook shot from 4 ft (assist by johnsja05 )
+331,fg_miss,,,71.0,84.0,,mitchdo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:17.0 mitchdo01 misses 3-pt jump shot from 26 ft 71-84
+332,rebound,,,71.0,84.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,1:14.0 71-84 Defensive rebound by okongon01
+333,fg_make,,,71.0,86.0,2.0,huntede01,2.0,layup,1.0,bufkiko01,,,,,,,,,,,,,,,,,,,,,,,,,,1:06.0 71-86 +2 huntede01 makes 2-pt layup from 1 ft (assist by bufkiko01 )
+334,foul,,,71.0,86.0,,,,,,,,,,,,,,shooting,leverca01,huntede01,,,,,,,,,,,,,,,,1:06.0 71-86 Shooting foul by leverca01 (drawn by huntede01 )
+335,free_throw,,,71.0,87.0,1.0,huntede01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:06.0 71-87 +1 huntede01 makes free throw 1 of 1
+336,turnover,,,71.0,87.0,,,,,,,,,,,,,,,,,jeromty01,bad pass; steal by bogdabo01,bogdabo01,,,,,,,,,,,,,0:55.0 Turnover by jeromty01 (bad pass; steal by bogdabo01 ) 71-87
+337,fg_make,,,71.0,89.0,2.0,okongon01,2.0,layup,5.0,huntede01,,,,,,,,,,,,,,,,,,,,,,,,,,0:48.0 71-89 +2 okongon01 makes 2-pt layup from 5 ft (assist by huntede01 )
+338,timeout,,,71.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cleveland full,,,,0:48.0 Cleveland full timeout 71-89
+339,turnover,,,71.0,89.0,,,,,,,,,,,,,,,,,mobleev01,bad pass; steal by johnsja05,johnsja05,,,,,,,,,,,,,0:31.0 Turnover by mobleev01 (bad pass; steal by johnsja05 ) 71-89
+340,fg_make,,,71.0,91.0,2.0,okongon01,2.0,dunk,1.0,bogdabo01,,,,,,,,,,,,,,,,,,,,,,,,,,0:11.0 71-91 +2 okongon01 makes 2-pt dunk from 1 ft (assist by bogdabo01 )
+341,fg_make,,,73.0,91.0,2.0,mitchdo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 mitchdo01 makes 2-pt layup from 2 ft +2 73-91
+342,fg_miss,,,73.0,91.0,,bufkiko01,3.0,jump shot,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 73-91 bufkiko01 misses 3-pt jump shot from 47 ft
+343,rebound,,,73.0,91.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 73-91 Offensive rebound by Team
+344,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+345,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+346,fg_miss,,,73.0,91.0,,garlada01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:47.0 garlada01 misses 2-pt jump shot from 5 ft 73-91
+347,rebound,,,73.0,91.0,,,,,,,,,,,defensive,bogdabo01,False,,,,,,,,,,,,,,,,,,,11:44.0 73-91 Defensive rebound by bogdabo01
+348,foul,,,73.0,91.0,,,,,,,,,,,,,,offensive,huntede01,merrisa01,,,,,,,,,,,,,,,,11:41.0 73-91 Offensive foul by huntede01 (drawn by merrisa01 )
+349,turnover,,,73.0,91.0,,,,,,,,,,,,,,,,,huntede01,offensive foul,,,,,,,,,,,,,,11:41.0 73-91 Turnover by huntede01 (offensive foul)
+350,foul,,,73.0,91.0,,,,,,,,,,,,,,offensive,garlada01,huntede01,,,,,,,,,,,,,,,,11:35.0 Offensive foul by garlada01 (drawn by huntede01 ) 73-91
+351,turnover,,,73.0,91.0,,,,,,,,,,,,,,,,,garlada01,offensive foul,,,,,,,,,,,,,,11:35.0 Turnover by garlada01 (offensive foul) 73-91
+352,turnover,,,73.0,91.0,,,,,,,,,,,,,,,,,bogdabo01,bad pass; steal by tysonja01,tysonja01,,,,,,,,,,,,,11:25.0 73-91 Turnover by bogdabo01 (bad pass; steal by tysonja01 )
+353,fg_miss,,,73.0,91.0,,garlada01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:19.0 garlada01 misses 3-pt jump shot from 23 ft 73-91
+354,rebound,,,73.0,91.0,,,,,,,,,,,offensive,tysonja01,False,,,,,,,,,,,,,,,,,,,11:15.0 Offensive rebound by tysonja01 73-91
+355,fg_make,,,75.0,91.0,2.0,tysonja01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:14.0 tysonja01 makes 2-pt layup from 3 ft +2 75-91
+356,fg_miss,,,75.0,91.0,,huntede01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:01.0 75-91 huntede01 misses 2-pt jump shot from 7 ft
+357,rebound,,,75.0,91.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,10:59.0 Defensive rebound by mitchdo01 75-91
+358,fg_make,,,77.0,91.0,2.0,mitchdo01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:51.0 mitchdo01 makes 2-pt layup from 3 ft +2 77-91
+359,foul,,,77.0,91.0,,,,,,,,,,,,,,personal,garlada01,okongon01,,,,,,,,,,,,,,,,10:41.0 77-91 Personal foul by garlada01 (drawn by okongon01 )
+360,substitution,,,77.0,91.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 77-91 capelca01 enters the game for huntede01
+361,substitution,,,77.0,91.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:41.0 77-91 risacza01 enters the game for okongon01
+362,turnover,,,77.0,91.0,,,,,,,,,,,,,,,,,johnsja05,bad pass,,,,,,,,,,,,,,10:41.0 77-91 Turnover by johnsja05 (bad pass)
+363,turnover,,,77.0,91.0,,,,,,,,,,,,,,,,,mitchdo01,lost ball; steal by bufkiko01,bufkiko01,,,,,,,,,,,,,10:29.0 Turnover by mitchdo01 (lost ball; steal by bufkiko01 ) 77-91
+364,fg_miss,,,77.0,91.0,,risacza01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:23.0 77-91 risacza01 misses 3-pt jump shot from 26 ft
+365,rebound,,,77.0,91.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,10:20.0 Defensive rebound by mitchdo01 77-91
+366,foul,,,77.0,91.0,,,,,,,,,,,,,,personal,johnsja05,mitchdo01,,,,,,,,,,,,,,,,10:12.0 Personal foul by johnsja05 (drawn by mitchdo01 ) 77-91
+367,turnover,,,77.0,91.0,,,,,,,,,,,,,,,,,garlada01,bad pass; steal by risacza01,risacza01,,,,,,,,,,,,,10:09.0 Turnover by garlada01 (bad pass; steal by risacza01 ) 77-91
+368,foul,,,77.0,91.0,,,,,,,,,,,,,,shooting,merrisa01,bufkiko01,,,,,,,,,,,,,,,,9:59.0 77-91 Shooting foul by merrisa01 (drawn by bufkiko01 )
+369,free_throw,,,77.0,92.0,1.0,bufkiko01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:59.0 77-92 +1 bufkiko01 makes free throw 1 of 2
+370,free_throw,,,77.0,93.0,1.0,bufkiko01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:59.0 77-93 +1 bufkiko01 makes free throw 2 of 2
+371,fg_miss,,,77.0,93.0,,mitchdo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 mitchdo01 misses 3-pt jump shot from 25 ft 77-93
+372,rebound,,,77.0,93.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,9:46.0 77-93 Defensive rebound by capelca01
+373,fg_make,,,77.0,95.0,2.0,johnsja05,2.0,jump shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:38.0 77-95 +2 johnsja05 makes 2-pt jump shot from 8 ft
+374,fg_make,,,79.0,95.0,2.0,garlada01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:26.0 garlada01 makes 2-pt jump shot from 13 ft +2 79-95
+375,fg_make,,,79.0,97.0,2.0,johnsja05,2.0,jump shot,18.0,bufkiko01,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 79-97 +2 johnsja05 makes 2-pt jump shot from 18 ft (assist by bufkiko01 )
+376,fg_make,,,81.0,97.0,2.0,garlada01,2.0,jump shot,11.0,mitchdo01,,,,,,,,,,,,,,,,,,,,,,,,,,9:00.0 garlada01 makes 2-pt jump shot from 11 ft (assist by mitchdo01 ) +2 81-97
+377,fg_make,,,81.0,99.0,2.0,risacza01,2.0,hook shot,6.0,johnsja05,,,,,,,,,,,,,,,,,,,,,,,,,,8:36.0 81-99 +2 risacza01 makes 2-pt hook shot from 6 ft (assist by johnsja05 )
+378,fg_make,,,84.0,99.0,3.0,merrisa01,3.0,jump shot,25.0,mitchdo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:29.0 merrisa01 makes 3-pt jump shot from 25 ft (assist by mitchdo01 ) +3 84-99
+379,fg_miss,,,84.0,99.0,,johnsja05,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:06.0 84-99 johnsja05 misses 2-pt jump shot from 10 ft
+380,rebound,,,84.0,99.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,8:03.0 Defensive rebound by mobleev01 84-99
+381,fg_miss,,,84.0,99.0,,merrisa01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 merrisa01 misses 3-pt jump shot from 25 ft 84-99
+382,rebound,,,84.0,99.0,,,,,,,,,,,defensive,bogdabo01,False,,,,,,,,,,,,,,,,,,,7:52.0 84-99 Defensive rebound by bogdabo01
+383,fg_miss,,,84.0,99.0,,bogdabo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:44.0 84-99 bogdabo01 misses 3-pt jump shot from 25 ft
+384,rebound,,,84.0,99.0,,,,,,,,,,,defensive,mitchdo01,False,,,,,,,,,,,,,,,,,,,7:41.0 Defensive rebound by mitchdo01 84-99
+385,foul,,,84.0,99.0,,,,,,,,,,,,,,personal,bogdabo01,tysonja01,,,,,,,,,,,,,,,,7:39.0 Personal foul by bogdabo01 (drawn by tysonja01 ) 84-99
+386,substitution,,,84.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 allenja01 enters the game for merrisa01 84-99
+387,substitution,,,84.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 leverca01 enters the game for mobleev01 84-99
+388,substitution,,,84.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 niangge01 enters the game for tysonja01 84-99
+389,substitution,,,84.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 84-99 daniedy01 enters the game for bufkiko01
+390,substitution,,,84.0,99.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:39.0 84-99 youngtr01 enters the game for johnsja05
+391,fg_miss,,,84.0,99.0,,garlada01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:35.0 garlada01 misses 3-pt jump shot from 25 ft 84-99
+392,rebound,,,84.0,99.0,,,,,,,,,,,defensive,bogdabo01,False,,,,,,,,,,,,,,,,,,,7:29.0 84-99 Defensive rebound by bogdabo01
+393,fg_make,,,84.0,101.0,2.0,risacza01,2.0,dunk,1.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,7:12.0 84-101 +2 risacza01 makes 2-pt dunk from 1 ft (assist by daniedy01 )
+394,foul,,,84.0,101.0,,,,,,,,,,,,,,shooting,risacza01,garlada01,,,,,,,,,,,,,,,,7:00.0 Shooting foul by risacza01 (drawn by garlada01 ) 84-101
+395,free_throw,,,85.0,101.0,1.0,garlada01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:00.0 garlada01 makes free throw 1 of 2 +1 85-101
+396,free_throw,,,86.0,101.0,1.0,garlada01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:00.0 garlada01 makes free throw 2 of 2 +1 86-101
+397,fg_miss,,,86.0,101.0,,risacza01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 86-101 risacza01 misses 2-pt jump shot from 13 ft
+398,rebound,,,86.0,101.0,,,,,,,,,,,defensive,allenja01,False,,,,,,,,,,,,,,,,,,,6:33.0 Defensive rebound by allenja01 86-101
+399,turnover,,,86.0,101.0,,,,,,,,,,,,,,,,,allenja01,bad pass; steal by capelca01,capelca01,,,,,,,,,,,,,6:33.0 Turnover by allenja01 (bad pass; steal by capelca01 ) 86-101
+400,fg_miss,,,86.0,101.0,,bogdabo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:30.0 86-101 bogdabo01 misses 3-pt jump shot from 26 ft
+401,rebound,,,86.0,101.0,,,,,,,,,,,offensive,daniedy01,False,,,,,,,,,,,,,,,,,,,6:29.0 86-101 Offensive rebound by daniedy01
+402,timeout,,,86.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,6:29.0 86-101 Atlanta full timeout
+403,substitution,,,86.0,101.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:29.0 jeromty01 enters the game for garlada01 86-101
+404,fg_miss,,,86.0,101.0,,daniedy01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:21.0 86-101 daniedy01 misses 2-pt jump shot from 9 ft
+405,rebound,,,86.0,101.0,,,,,,,,,,,offensive,capelca01,False,,,,,,,,,,,,,,,,,,,6:18.0 86-101 Offensive rebound by capelca01
+406,foul,,,86.0,101.0,,,,,,,,,,,,,,personal,mitchdo01,capelca01,,,,,,,,,,,,,,,,6:17.0 86-101 Personal foul by mitchdo01 (drawn by capelca01 )
+407,fg_make,,,86.0,104.0,3.0,youngtr01,3.0,jump shot,22.0,risacza01,,,,,,,,,,,,,,,,,,,,,,,,,,6:04.0 86-104 +3 youngtr01 makes 3-pt jump shot from 22 ft (assist by risacza01 )
+408,fg_make,,,88.0,104.0,2.0,jeromty01,2.0,jump shot,14.0,leverca01,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 jeromty01 makes 2-pt jump shot from 14 ft (assist by leverca01 ) +2 88-104
+409,foul,,,88.0,104.0,,,,,,,,,,,,,,shooting,bogdabo01,jeromty01,,,,,,,,,,,,,,,,5:54.0 Shooting foul by bogdabo01 (drawn by jeromty01 ) 88-104
+410,substitution,,,88.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 88-104 huntede01 enters the game for bogdabo01
+411,free_throw,,,89.0,104.0,1.0,jeromty01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,5:54.0 jeromty01 makes free throw 1 of 1 +1 89-104
+412,fg_miss,,,89.0,104.0,,capelca01,2.0,hook shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:33.0 89-104 capelca01 misses 2-pt hook shot from 11 ft
+413,rebound,,,89.0,104.0,,,,,,,,,,,defensive,allenja01,False,,,,,,,,,,,,,,,,,,,5:30.0 Defensive rebound by allenja01 89-104
+414,foul,,,89.0,104.0,,,,,,,,,,,,,,shooting,daniedy01,niangge01,,,,,,,,,,,,,,,,5:23.0 Shooting foul by daniedy01 (drawn by niangge01 ) 89-104
+415,free_throw,,,90.0,104.0,1.0,niangge01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:23.0 niangge01 makes free throw 1 of 2 +1 90-104
+416,substitution,,,90.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:23.0 garlada01 enters the game for allenja01 90-104
+417,substitution,,,90.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:23.0 mobleev01 enters the game for leverca01 90-104
+418,substitution,,,90.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:23.0 90-104 johnsja05 enters the game for risacza01
+419,free_throw,,,90.0,104.0,,niangge01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:23.0 niangge01 misses free throw 2 of 2 90-104
+420,rebound,,,90.0,104.0,,,,,,,,,,,defensive,capelca01,False,,,,,,,,,,,,,,,,,,,5:21.0 90-104 Defensive rebound by capelca01
+421,fg_miss,,,90.0,104.0,,youngtr01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:03.0 90-104 youngtr01 misses 3-pt jump shot from 24 ft
+422,rebound,,,90.0,104.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:02.0 Defensive rebound by Team 90-104
+423,fg_make,,,92.0,104.0,2.0,garlada01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:53.0 garlada01 makes 2-pt layup from 1 ft +2 92-104
+424,timeout,,,92.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Atlanta full,,,,4:53.0 92-104 Atlanta full timeout
+425,substitution,,,92.0,104.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:53.0 92-104 okongon01 enters the game for capelca01
+426,fg_make,,,92.0,107.0,3.0,okongon01,3.0,jump shot,23.0,johnsja05,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 92-107 +3 okongon01 makes 3-pt jump shot from 23 ft (assist by johnsja05 )
+427,fg_make,,,94.0,107.0,2.0,jeromty01,2.0,jump shot,5.0,garlada01,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 jeromty01 makes 2-pt jump shot from 5 ft (assist by garlada01 ) +2 94-107
+428,fg_miss,,,94.0,107.0,,youngtr01,2.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:40.0 94-107 youngtr01 misses 2-pt jump shot from 23 ft
+429,rebound,,,94.0,107.0,,,,,,,,,,,defensive,jeromty01,False,,,,,,,,,,,,,,,,,,,3:36.0 Defensive rebound by jeromty01 94-107
+430,fg_make,,,96.0,107.0,2.0,mobleev01,2.0,dunk,1.0,garlada01,,,,,,,,,,,,,,,,,,,,,,,,,,3:29.0 mobleev01 makes 2-pt dunk from 1 ft (assist by garlada01 ) +2 96-107
+431,fg_miss,,,96.0,107.0,,daniedy01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 96-107 daniedy01 misses 2-pt jump shot from 6 ft
+432,rebound,,,96.0,107.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:11.0 96-107 Offensive rebound by Team
+433,foul,,,96.0,107.0,,,,,,,,,,,,,,loose ball,jeromty01,okongon01,,,,,,,,,,,,,,,,3:11.0 Loose ball foul by jeromty01 (drawn by okongon01 ) 96-107
+434,fg_make,,,96.0,110.0,3.0,daniedy01,3.0,jump shot,26.0,huntede01,,,,,,,,,,,,,,,,,,,,,,,,,,2:56.0 96-110 +3 daniedy01 makes 3-pt jump shot from 26 ft (assist by huntede01 )
+435,fg_make,,,98.0,110.0,2.0,mobleev01,2.0,jump shot,2.0,jeromty01,,,,,,,,,,,,,,,,,,,,,,,,,,2:38.0 mobleev01 makes 2-pt jump shot from 2 ft (assist by jeromty01 ) +2 98-110
+436,fg_miss,,,98.0,110.0,,johnsja05,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:24.0 98-110 johnsja05 misses 3-pt jump shot from 23 ft
+437,rebound,,,98.0,110.0,,,,,,,,,,,defensive,mobleev01,False,,,,,,,,,,,,,,,,,,,2:21.0 Defensive rebound by mobleev01 98-110
+438,fg_miss,,,98.0,110.0,,mitchdo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 mitchdo01 misses 3-pt jump shot from 26 ft 98-110
+439,rebound,,,98.0,110.0,,,,,,,,,,,defensive,daniedy01,False,,,,,,,,,,,,,,,,,,,2:15.0 98-110 Defensive rebound by daniedy01
+440,foul,,,98.0,110.0,,,,,,,,,,,,,,personal,mobleev01,youngtr01,,,,,,,,,,,,,,,,2:14.0 98-110 Personal foul by mobleev01 (drawn by youngtr01 )
+441,free_throw,,,98.0,111.0,1.0,youngtr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:14.0 98-111 +1 youngtr01 makes free throw 1 of 2
+442,substitution,,,98.0,111.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:14.0 merrisa01 enters the game for garlada01 98-111
+443,substitution,,,98.0,111.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:14.0 portecr01 enters the game for mitchdo01 98-111
+444,substitution,,,98.0,111.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:14.0 tysonja01 enters the game for mobleev01 98-111
+445,free_throw,,,98.0,112.0,1.0,youngtr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:14.0 98-112 +1 youngtr01 makes free throw 2 of 2
+446,fg_miss,,,98.0,112.0,,niangge01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:06.0 niangge01 misses 3-pt jump shot from 24 ft 98-112
+447,rebound,,,98.0,112.0,,,,,,,,,,,defensive,okongon01,False,,,,,,,,,,,,,,,,,,,2:03.0 98-112 Defensive rebound by okongon01
+448,unknown,,,98.0,112.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),1:41.0 98-112 Turnover by Team (shot clock)
+449,instant_replay,,,98.0,112.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:41.0 98-112 Instant Replay (Request: Ruling Stands)
+450,fg_miss,,,98.0,112.0,,niangge01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:31.0 niangge01 misses 3-pt jump shot from 25 ft 98-112
+451,rebound,,,98.0,112.0,,,,,,,,,,,defensive,youngtr01,False,,,,,,,,,,,,,,,,,,,1:26.0 98-112 Defensive rebound by youngtr01
+452,foul,,,98.0,112.0,,,,,,,,,,,,,,personal,tysonja01,youngtr01,,,,,,,,,,,,,,,,1:20.0 98-112 Personal foul by tysonja01 (drawn by youngtr01 )
+453,free_throw,,,98.0,113.0,1.0,youngtr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 98-113 +1 youngtr01 makes free throw 1 of 2
+454,free_throw,,,98.0,114.0,1.0,youngtr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:20.0 98-114 +1 youngtr01 makes free throw 2 of 2
+455,fg_miss,,,98.0,114.0,,jeromty01,2.0,jump shot,21.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:09.0 jeromty01 misses 2-pt jump shot from 21 ft 98-114
+456,rebound,,,98.0,114.0,,,,,,,,,,,defensive,huntede01,False,,,,,,,,,,,,,,,,,,,1:07.0 98-114 Defensive rebound by huntede01
+457,fg_make,,,98.0,117.0,3.0,johnsja05,3.0,jump shot,24.0,daniedy01,,,,,,,,,,,,,,,,,,,,,,,,,,0:57.0 98-117 +3 johnsja05 makes 3-pt jump shot from 24 ft (assist by daniedy01 )
+458,unknown,,,98.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by youngtr01 (drawn by merrisa01 ),0:51.0 Personal take foul by youngtr01 (drawn by merrisa01 ) 98-117
+459,free_throw,,,98.0,117.0,,merrisa01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:51.0 merrisa01 misses free throw 1 of 2 98-117
+460,rebound,,,98.0,117.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:51.0 Offensive rebound by Team 98-117
+461,substitution,,,98.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 98-117 bufkiko01 enters the game for daniedy01
+462,substitution,,,98.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 98-117 krejcvi01 enters the game for huntede01
+463,substitution,,,98.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 98-117 mathega01 enters the game for johnsja05
+464,substitution,,,98.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 98-117 risacza01 enters the game for okongon01
+465,substitution,,,98.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:51.0 98-117 roddyda01 enters the game for youngtr01
+466,free_throw,,,99.0,117.0,1.0,merrisa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:51.0 merrisa01 makes free throw 2 of 2 +1 99-117
+467,turnover,,,99.0,117.0,,,,,,,,,,,,,,,,,bufkiko01,traveling,,,,,,,,,,,,,,0:33.0 99-117 Turnover by bufkiko01 (traveling)
+468,fg_make,,,101.0,117.0,2.0,jeromty01,2.0,jump shot,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:27.0 jeromty01 makes 2-pt jump shot from 2 ft +2 101-117
+469,unknown,,,101.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),0:03.0 101-117 Turnover by Team (shot clock)
+470,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

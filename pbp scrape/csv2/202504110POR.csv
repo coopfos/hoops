@@ -1,0 +1,483 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: greendr01 vs. clingdo01 ( curryst01 gains possession)
+2,fg_miss,,,0.0,0.0,,greendr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:41.0 greendr01 misses 3-pt jump shot from 26 ft 0-0
+3,rebound,,,0.0,0.0,,,,,,,,,,,offensive,moodymo01,False,,,,,,,,,,,,,,,,,,,11:38.0 Offensive rebound by moodymo01 0-0
+4,fg_miss,,,0.0,0.0,,curryst01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:36.0 curryst01 misses 3-pt jump shot from 26 ft 0-0
+5,rebound,,,0.0,0.0,,,,,,,,,,,offensive,podzibr01,False,,,,,,,,,,,,,,,,,,,11:34.0 Offensive rebound by podzibr01 0-0
+6,fg_make,,,2.0,0.0,2.0,podzibr01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:33.0 podzibr01 makes 2-pt layup from 1 ft +2 2-0
+7,fg_miss,,,2.0,0.0,,murrakr01,2.0,jump shot,6.0,,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,11:19.0 2-0 murrakr01 misses 2-pt jump shot from 6 ft (block by curryst01 )
+8,rebound,,,2.0,0.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:17.0 2-0 Offensive rebound by Team
+9,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11:17.0 Jump ball: murrakr01 vs. curryst01 ( camarto01 gains possession)
+10,fg_miss,,,2.0,0.0,,camarto01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:13.0 2-0 camarto01 misses 2-pt jump shot from 4 ft
+11,rebound,,,2.0,0.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,11:10.0 Defensive rebound by greendr01 2-0
+12,fg_miss,,,2.0,0.0,,greendr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:57.0 greendr01 misses 3-pt jump shot from 26 ft 2-0
+13,rebound,,,2.0,0.0,,,,,,,,,,,defensive,bantoda01,False,,,,,,,,,,,,,,,,,,,10:54.0 2-0 Defensive rebound by bantoda01
+14,fg_miss,,,2.0,0.0,,bantoda01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:48.0 2-0 bantoda01 misses 2-pt layup from 6 ft
+15,rebound,,,2.0,0.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,10:46.0 Defensive rebound by greendr01 2-0
+16,fg_miss,,,2.0,0.0,,podzibr01,3.0,jump shot,27.0,,thybuma01,,,,,,,,,,,,,,,,,,,,,,,,,10:29.0 podzibr01 misses 3-pt jump shot from 27 ft (block by thybuma01 ) 2-0
+17,rebound,,,2.0,0.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,10:25.0 2-0 Defensive rebound by clingdo01
+18,fg_make,,,2.0,2.0,2.0,clingdo01,2.0,jump shot,23.0,camarto01,,,,,,,,,,,,,,,,,,,,,,,,,,10:17.0 2-2 +2 clingdo01 makes 2-pt jump shot from 23 ft (assist by camarto01 )
+19,turnover,,,2.0,2.0,,,,,,,,,,,,,,,,,moodymo01,bad pass; steal by thybuma01,thybuma01,,,,,,,,,,,,,10:05.0 Turnover by moodymo01 (bad pass; steal by thybuma01 ) 2-2
+20,fg_make,,,2.0,4.0,2.0,clingdo01,2.0,dunk,1.0,murrakr01,,,,,,,,,,,,,,,,,,,,,,,,,,9:58.0 2-4 +2 clingdo01 makes 2-pt dunk from 1 ft (assist by murrakr01 )
+21,fg_miss,,,2.0,4.0,,podzibr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:34.0 podzibr01 misses 3-pt jump shot from 23 ft 2-4
+22,rebound,,,2.0,4.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,9:31.0 2-4 Defensive rebound by clingdo01
+23,foul,,,2.0,4.0,,,,,,,,,,,,,,personal,moodymo01,clingdo01,,,,,,,,,,,,,,,,9:18.0 2-4 Personal foul by moodymo01 (drawn by clingdo01 )
+24,fg_make,,,2.0,6.0,2.0,clingdo01,2.0,dunk,2.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,9:10.0 2-6 +2 clingdo01 makes 2-pt dunk from 2 ft (assist by bantoda01 )
+25,fg_miss,,,2.0,6.0,,podzibr01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:53.0 podzibr01 misses 2-pt jump shot from 12 ft 2-6
+26,rebound,,,2.0,6.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,8:50.0 2-6 Defensive rebound by clingdo01
+27,fg_miss,,,2.0,6.0,,clingdo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:42.0 2-6 clingdo01 misses 3-pt jump shot from 25 ft
+28,rebound,,,2.0,6.0,,,,,,,,,,,defensive,butleji01,False,,,,,,,,,,,,,,,,,,,8:39.0 Defensive rebound by butleji01 2-6
+29,fg_make,,,4.0,6.0,2.0,curryst01,2.0,layup,2.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,8:33.0 curryst01 makes 2-pt layup from 2 ft (assist by greendr01 ) +2 4-6
+30,turnover,,,4.0,6.0,,,,,,,,,,,,,,,,,bantoda01,bad pass; steal by greendr01,greendr01,,,,,,,,,,,,,8:18.0 4-6 Turnover by bantoda01 (bad pass; steal by greendr01 )
+31,fg_make,,,6.0,6.0,2.0,butleji01,2.0,layup,1.0,podzibr01,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 butleji01 makes 2-pt layup from 1 ft (assist by podzibr01 ) +2 6-6
+32,fg_miss,,,6.0,6.0,,camarto01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:04.0 6-6 camarto01 misses 3-pt jump shot from 25 ft
+33,rebound,,,6.0,6.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,8:01.0 Defensive rebound by greendr01 6-6
+34,fg_miss,,,6.0,6.0,,curryst01,3.0,jump shot,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:57.0 curryst01 misses 3-pt jump shot from 32 ft 6-6
+35,rebound,,,6.0,6.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,7:54.0 6-6 Defensive rebound by clingdo01
+36,fg_make,,,6.0,8.0,2.0,camarto01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:31.0 6-8 +2 camarto01 makes 2-pt layup from 2 ft
+37,fg_miss,,,6.0,8.0,,curryst01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:16.0 curryst01 misses 2-pt layup from 3 ft 6-8
+38,rebound,,,6.0,8.0,,,,,,,,,,,defensive,thybuma01,False,,,,,,,,,,,,,,,,,,,7:14.0 6-8 Defensive rebound by thybuma01
+39,foul,,,6.0,8.0,,,,,,,,,,,,,,shooting,greendr01,thybuma01,,,,,,,,,,,,,,,,7:11.0 6-8 Shooting foul by greendr01 (drawn by thybuma01 )
+40,free_throw,,,6.0,9.0,1.0,thybuma01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:11.0 6-9 +1 thybuma01 makes free throw 1 of 2
+41,substitution,,,6.0,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 hieldbu01 enters the game for butleji01 6-9
+42,substitution,,,6.0,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 kuminjo01 enters the game for podzibr01 6-9
+43,substitution,,,6.0,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 6-9 walkeja01 enters the game for clingdo01
+44,free_throw,,,6.0,10.0,1.0,thybuma01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:11.0 6-10 +1 thybuma01 makes free throw 2 of 2
+45,foul,,,6.0,10.0,,,,,,,,,,,,,,shooting,murrakr01,kuminjo01,,,,,,,,,,,,,,,,7:00.0 Shooting foul by murrakr01 (drawn by kuminjo01 ) 6-10
+46,free_throw,,,6.0,10.0,,kuminjo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:00.0 kuminjo01 misses free throw 1 of 2 6-10
+47,rebound,,,6.0,10.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:00.0 Offensive rebound by Team 6-10
+48,free_throw,,,7.0,10.0,1.0,kuminjo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:00.0 kuminjo01 makes free throw 2 of 2 +1 7-10
+49,fg_make,,,7.0,12.0,2.0,thybuma01,2.0,layup,3.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,6:49.0 7-12 +2 thybuma01 makes 2-pt layup from 3 ft (assist by bantoda01 )
+50,fg_make,,,10.0,12.0,3.0,moodymo01,3.0,jump shot,25.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 moodymo01 makes 3-pt jump shot from 25 ft (assist by greendr01 ) +3 10-12
+51,fg_miss,,,10.0,12.0,,camarto01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:17.0 10-12 camarto01 misses 3-pt jump shot from 26 ft
+52,rebound,,,10.0,12.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,6:14.0 Defensive rebound by kuminjo01 10-12
+53,turnover,,,10.0,12.0,,,,,,,,,,,,,,,,,kuminjo01,bad pass; steal by thybuma01,thybuma01,,,,,,,,,,,,,6:10.0 Turnover by kuminjo01 (bad pass; steal by thybuma01 ) 10-12
+54,fg_make,,,10.0,14.0,2.0,murrakr01,2.0,dunk,2.0,camarto01,,,,,,,,,,,,,,,,,,,,,,,,,,6:07.0 10-14 +2 murrakr01 makes 2-pt dunk from 2 ft (assist by camarto01 )
+55,fg_miss,,,10.0,14.0,,kuminjo01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 kuminjo01 misses 2-pt jump shot from 6 ft 10-14
+56,rebound,,,10.0,14.0,,,,,,,,,,,offensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,5:49.0 Offensive rebound by kuminjo01 10-14
+57,fg_miss,,,10.0,14.0,,hieldbu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:47.0 hieldbu01 misses 3-pt jump shot from 26 ft 10-14
+58,rebound,,,10.0,14.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,5:47.0 10-14 Defensive rebound by camarto01
+59,fg_make,,,10.0,16.0,2.0,walkeja01,2.0,layup,5.0,camarto01,,,,,,,,,,,,,,,,,,,,,,,,,,5:28.0 10-16 +2 walkeja01 makes 2-pt layup from 5 ft (assist by camarto01 )
+60,fg_miss,,,10.0,16.0,,hieldbu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:07.0 hieldbu01 misses 3-pt jump shot from 26 ft 10-16
+61,rebound,,,10.0,16.0,,,,,,,,,,,defensive,thybuma01,False,,,,,,,,,,,,,,,,,,,5:04.0 10-16 Defensive rebound by thybuma01
+62,fg_miss,,,10.0,16.0,,murrakr01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:55.0 10-16 murrakr01 misses 2-pt layup from 3 ft
+63,rebound,,,10.0,16.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,4:52.0 Defensive rebound by curryst01 10-16
+64,fg_miss,,,10.0,16.0,,kuminjo01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:42.0 kuminjo01 misses 2-pt jump shot from 12 ft 10-16
+65,rebound,,,10.0,16.0,,,,,,,,,,,offensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,4:39.0 Offensive rebound by hieldbu01 10-16
+66,fg_make,,,13.0,16.0,3.0,hieldbu01,3.0,jump shot,24.0,moodymo01,,,,,,,,,,,,,,,,,,,,,,,,,,4:33.0 hieldbu01 makes 3-pt jump shot from 24 ft (assist by moodymo01 ) +3 13-16
+67,timeout,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,4:20.0 13-16 Portland full timeout
+68,substitution,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 looneke01 enters the game for greendr01 13-16
+69,substitution,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 paytoga02 enters the game for moodymo01 13-16
+70,substitution,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 13-16 minayju01 enters the game for bantoda01
+71,substitution,,,13.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 13-16 ruperra01 enters the game for thybuma01
+72,fg_miss,,,13.0,16.0,,minayju01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 13-16 minayju01 misses 2-pt layup from 3 ft
+73,rebound,,,13.0,16.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:04.0 13-16 Offensive rebound by Team
+74,turnover,,,13.0,16.0,,,,,,,,,,,,,,,,,ruperra01,bad pass; steal by paytoga02,paytoga02,,,,,,,,,,,,,4:02.0 13-16 Turnover by ruperra01 (bad pass; steal by paytoga02 )
+75,turnover,,,13.0,16.0,,,,,,,,,,,,,,,,,paytoga02,bad pass; steal by camarto01,camarto01,,,,,,,,,,,,,3:56.0 Turnover by paytoga02 (bad pass; steal by camarto01 ) 13-16
+76,fg_make,,,13.0,18.0,2.0,camarto01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 13-18 +2 camarto01 makes 2-pt layup from 3 ft
+77,fg_miss,,,13.0,18.0,,hieldbu01,2.0,jump shot,17.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:32.0 hieldbu01 misses 2-pt jump shot from 17 ft 13-18
+78,rebound,,,13.0,18.0,,,,,,,,,,,defensive,walkeja01,False,,,,,,,,,,,,,,,,,,,3:29.0 13-18 Defensive rebound by walkeja01
+79,fg_miss,,,13.0,18.0,,camarto01,2.0,jump shot,4.0,,looneke01,,,,,,,,,,,,,,,,,,,,,,,,,3:15.0 13-18 camarto01 misses 2-pt jump shot from 4 ft (block by looneke01 )
+80,rebound,,,13.0,18.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,3:12.0 Defensive rebound by looneke01 13-18
+81,foul,,,13.0,18.0,,,,,,,,,,,,,,shooting,walkeja01,looneke01,,,,,,,,,,,,,,,,3:08.0 Shooting foul by walkeja01 (drawn by looneke01 ) 13-18
+82,free_throw,,,14.0,18.0,1.0,looneke01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:08.0 looneke01 makes free throw 1 of 2 +1 14-18
+83,free_throw,,,14.0,18.0,,looneke01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:08.0 looneke01 misses free throw 2 of 2 14-18
+84,rebound,,,14.0,18.0,,,,,,,,,,,defensive,murrakr01,False,,,,,,,,,,,,,,,,,,,3:05.0 14-18 Defensive rebound by murrakr01
+85,fg_make,,,14.0,20.0,2.0,ruperra01,2.0,layup,2.0,walkeja01,,,,,,,,,,,,,,,,,,,,,,,,,,2:54.0 14-20 +2 ruperra01 makes 2-pt layup from 2 ft (assist by walkeja01 )
+86,fg_make,,,16.0,20.0,2.0,paytoga02,2.0,layup,2.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,2:40.0 paytoga02 makes 2-pt layup from 2 ft (assist by curryst01 ) +2 16-20
+87,fg_miss,,,16.0,20.0,,ruperra01,2.0,layup,3.0,,kuminjo01,,,,,,,,,,,,,,,,,,,,,,,,,2:25.0 16-20 ruperra01 misses 2-pt layup from 3 ft (block by kuminjo01 )
+88,rebound,,,16.0,20.0,,,,,,,,,,,offensive,ruperra01,False,,,,,,,,,,,,,,,,,,,2:22.0 16-20 Offensive rebound by ruperra01
+89,fg_miss,,,16.0,20.0,,walkeja01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:15.0 16-20 walkeja01 misses 2-pt layup from 2 ft
+90,rebound,,,16.0,20.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,2:13.0 Defensive rebound by looneke01 16-20
+91,fg_make,,,18.0,20.0,2.0,curryst01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:08.0 curryst01 makes 2-pt jump shot from 10 ft +2 18-20
+92,unknown,,,18.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Personal take foul by kuminjo01 (drawn by camarto01 ),1:59.0 18-20 Personal take foul by kuminjo01 (drawn by camarto01 )
+93,timeout,,,18.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,1:59.0 Golden State full timeout 18-20
+94,substitution,,,18.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 butleji01 enters the game for curryst01 18-20
+95,substitution,,,18.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 podzibr01 enters the game for paytoga02 18-20
+96,substitution,,,18.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 18-20 bantoda01 enters the game for camarto01
+97,substitution,,,18.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 18-20 clingdo01 enters the game for minayju01
+98,fg_miss,,,18.0,20.0,,bantoda01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:43.0 18-20 bantoda01 misses 2-pt jump shot from 11 ft
+99,rebound,,,18.0,20.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,1:40.0 Defensive rebound by kuminjo01 18-20
+100,fg_make,,,21.0,20.0,3.0,hieldbu01,3.0,jump shot,26.0,looneke01,,,,,,,,,,,,,,,,,,,,,,,,,,1:28.0 hieldbu01 makes 3-pt jump shot from 26 ft (assist by looneke01 ) +3 21-20
+101,fg_miss,,,21.0,20.0,,murrakr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:00.0 21-20 murrakr01 misses 3-pt jump shot from 25 ft
+102,rebound,,,21.0,20.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,0:56.0 Defensive rebound by Team 21-20
+103,fg_make,,,24.0,20.0,3.0,hieldbu01,3.0,jump shot,28.0,butleji01,,,,,,,,,,,,,,,,,,,,,,,,,,0:44.0 hieldbu01 makes 3-pt jump shot from 28 ft (assist by butleji01 ) +3 24-20
+104,fg_miss,,,24.0,20.0,,bantoda01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:34.0 24-20 bantoda01 misses 3-pt jump shot from 26 ft
+105,rebound,,,24.0,20.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,0:32.0 Defensive rebound by kuminjo01 24-20
+106,foul,,,24.0,20.0,,,,,,,,,,,,,,shooting,murrakr01,kuminjo01,,,,,,,,,,,,,,,,0:25.0 Shooting foul by murrakr01 (drawn by kuminjo01 ) 24-20
+107,free_throw,,,25.0,20.0,1.0,kuminjo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:25.0 kuminjo01 makes free throw 1 of 2 +1 25-20
+108,substitution,,,25.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:25.0 paytoga02 enters the game for hieldbu01 25-20
+109,free_throw,,,26.0,20.0,1.0,kuminjo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:25.0 kuminjo01 makes free throw 2 of 2 +1 26-20
+110,fg_miss,,,26.0,20.0,,walkeja01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 26-20 walkeja01 misses 3-pt jump shot from 23 ft
+111,rebound,,,26.0,20.0,,,,,,,,,,,defensive,podzibr01,False,,,,,,,,,,,,,,,,,,,0:04.0 Defensive rebound by podzibr01 26-20
+112,fg_miss,,,26.0,20.0,,podzibr01,3.0,jump shot,37.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 podzibr01 misses 3-pt jump shot from 37 ft 26-20
+113,rebound,,,26.0,20.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 26-20
+114,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+115,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+116,foul,,,26.0,20.0,,,,,,,,,,,,,,offensive,bantoda01,podzibr01,,,,,,,,,,,,,,,,11:49.0 26-20 Offensive foul by bantoda01 (drawn by podzibr01 )
+117,turnover,,,26.0,20.0,,,,,,,,,,,,,,,,,bantoda01,offensive foul,,,,,,,,,,,,,,11:49.0 26-20 Turnover by bantoda01 (offensive foul)
+118,foul,,,26.0,20.0,,,,,,,,,,,,,,shooting,cissosi01,butleji01,,,,,,,,,,,,,,,,11:43.0 Shooting foul by cissosi01 (drawn by butleji01 ) 26-20
+119,free_throw,,,27.0,20.0,1.0,butleji01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:43.0 butleji01 makes free throw 1 of 2 +1 27-20
+120,free_throw,,,28.0,20.0,1.0,butleji01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:43.0 butleji01 makes free throw 2 of 2 +1 28-20
+121,fg_make,,,28.0,23.0,3.0,thybuma01,3.0,jump shot,24.0,cissosi01,,,,,,,,,,,,,,,,,,,,,,,,,,11:22.0 28-23 +3 thybuma01 makes 3-pt jump shot from 24 ft (assist by cissosi01 )
+122,fg_miss,,,28.0,23.0,,moodymo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:55.0 moodymo01 misses 3-pt jump shot from 26 ft 28-23
+123,rebound,,,28.0,23.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:55.0 Offensive rebound by Team 28-23
+124,unknown,,,28.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),10:55.0 Turnover by Team (shot clock) 28-23
+125,turnover,,,28.0,23.0,,,,,,,,,,,,,,,,,bantoda01,bad pass; steal by greendr01,greendr01,,,,,,,,,,,,,10:48.0 28-23 Turnover by bantoda01 (bad pass; steal by greendr01 )
+126,fg_make,,,30.0,23.0,2.0,podzibr01,2.0,jump shot,15.0,butleji01,,,,,,,,,,,,,,,,,,,,,,,,,,10:40.0 podzibr01 makes 2-pt jump shot from 15 ft (assist by butleji01 ) +2 30-23
+127,turnover,,,30.0,23.0,,,,,,,,,,,,,,,,,walkeja01,traveling,,,,,,,,,,,,,,10:20.0 30-23 Turnover by walkeja01 (traveling)
+128,fg_miss,,,30.0,23.0,,moodymo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:05.0 moodymo01 misses 3-pt jump shot from 26 ft 30-23
+129,rebound,,,30.0,23.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,10:00.0 30-23 Defensive rebound by clingdo01
+130,fg_miss,,,30.0,23.0,,clingdo01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:56.0 30-23 clingdo01 misses 2-pt layup from 8 ft
+131,rebound,,,30.0,23.0,,,,,,,,,,,defensive,postqu01,False,,,,,,,,,,,,,,,,,,,9:54.0 Defensive rebound by postqu01 30-23
+132,fg_miss,,,30.0,23.0,,moodymo01,2.0,layup,5.0,,thybuma01,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 moodymo01 misses 2-pt layup from 5 ft (block by thybuma01 ) 30-23
+133,rebound,,,30.0,23.0,,,,,,,,,,,defensive,bantoda01,False,,,,,,,,,,,,,,,,,,,9:45.0 30-23 Defensive rebound by bantoda01
+134,fg_miss,,,30.0,23.0,,thybuma01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:34.0 30-23 thybuma01 misses 3-pt jump shot from 24 ft
+135,rebound,,,30.0,23.0,,,,,,,,,,,defensive,podzibr01,False,,,,,,,,,,,,,,,,,,,9:33.0 Defensive rebound by podzibr01 30-23
+136,fg_miss,,,30.0,23.0,,moodymo01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:16.0 moodymo01 misses 2-pt hook shot from 6 ft 30-23
+137,rebound,,,30.0,23.0,,,,,,,,,,,defensive,bantoda01,False,,,,,,,,,,,,,,,,,,,9:14.0 30-23 Defensive rebound by bantoda01
+138,fg_miss,,,30.0,23.0,,clingdo01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:55.0 30-23 clingdo01 misses 2-pt jump shot from 14 ft
+139,rebound,,,30.0,23.0,,,,,,,,,,,offensive,thybuma01,False,,,,,,,,,,,,,,,,,,,8:52.0 30-23 Offensive rebound by thybuma01
+140,fg_miss,,,30.0,23.0,,bantoda01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:47.0 30-23 bantoda01 misses 3-pt jump shot from 30 ft
+141,rebound,,,30.0,23.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,8:43.0 Defensive rebound by greendr01 30-23
+142,foul,,,30.0,23.0,,,,,,,,,,,,,,shooting,thybuma01,butleji01,,,,,,,,,,,,,,,,8:38.0 Shooting foul by thybuma01 (drawn by butleji01 ) 30-23
+143,free_throw,,,31.0,23.0,1.0,butleji01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:38.0 butleji01 makes free throw 1 of 2 +1 31-23
+144,substitution,,,31.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 paytoga02 enters the game for podzibr01 31-23
+145,substitution,,,31.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 31-23 camarto01 enters the game for clingdo01
+146,substitution,,,31.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 31-23 reathdu01 enters the game for walkeja01
+147,free_throw,,,32.0,23.0,1.0,butleji01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:38.0 butleji01 makes free throw 2 of 2 +1 32-23
+148,fg_miss,,,32.0,23.0,,reathdu01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:24.0 32-23 reathdu01 misses 3-pt jump shot from 25 ft
+149,rebound,,,32.0,23.0,,,,,,,,,,,offensive,cissosi01,False,,,,,,,,,,,,,,,,,,,8:22.0 32-23 Offensive rebound by cissosi01
+150,fg_miss,,,32.0,23.0,,camarto01,2.0,layup,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:17.0 32-23 camarto01 misses 2-pt layup from 6 ft
+151,rebound,,,32.0,23.0,,,,,,,,,,,defensive,paytoga02,False,,,,,,,,,,,,,,,,,,,8:15.0 Defensive rebound by paytoga02 32-23
+152,fg_miss,,,32.0,23.0,,moodymo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:10.0 moodymo01 misses 3-pt jump shot from 25 ft 32-23
+153,rebound,,,32.0,23.0,,,,,,,,,,,defensive,bantoda01,False,,,,,,,,,,,,,,,,,,,8:07.0 32-23 Defensive rebound by bantoda01
+154,fg_miss,,,32.0,23.0,,cissosi01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:02.0 32-23 cissosi01 misses 2-pt layup from 4 ft
+155,rebound,,,32.0,23.0,,,,,,,,,,,offensive,cissosi01,False,,,,,,,,,,,,,,,,,,,8:02.0 32-23 Offensive rebound by cissosi01
+156,foul,,,32.0,23.0,,,,,,,,,,,,,,shooting,moodymo01,cissosi01,,,,,,,,,,,,,,,,8:02.0 32-23 Shooting foul by moodymo01 (drawn by cissosi01 )
+157,free_throw,,,32.0,23.0,,cissosi01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:02.0 32-23 cissosi01 misses free throw 1 of 2
+158,rebound,,,32.0,23.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:02.0 32-23 Offensive rebound by Team
+159,substitution,,,32.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:02.0 curryst01 enters the game for butleji01 32-23
+160,substitution,,,32.0,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:02.0 hieldbu01 enters the game for moodymo01 32-23
+161,free_throw,,,32.0,24.0,1.0,cissosi01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:02.0 32-24 +1 cissosi01 makes free throw 2 of 2
+162,fg_miss,,,32.0,24.0,,postqu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:52.0 postqu01 misses 3-pt jump shot from 26 ft 32-24
+163,rebound,,,32.0,24.0,,,,,,,,,,,defensive,cissosi01,False,,,,,,,,,,,,,,,,,,,7:49.0 32-24 Defensive rebound by cissosi01
+164,turnover,,,32.0,24.0,,,,,,,,,,,,,,,,,cissosi01,palming,,,,,,,,,,,,,,7:48.0 32-24 Turnover by cissosi01 (palming)
+165,fg_make,,,35.0,24.0,3.0,postqu01,3.0,jump shot,26.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,7:40.0 postqu01 makes 3-pt jump shot from 26 ft (assist by curryst01 ) +3 35-24
+166,fg_miss,,,35.0,24.0,,bantoda01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:18.0 35-24 bantoda01 misses 2-pt jump shot from 6 ft
+167,rebound,,,35.0,24.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,7:16.0 Defensive rebound by curryst01 35-24
+168,fg_miss,,,35.0,24.0,,postqu01,2.0,jump shot,11.0,,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,7:04.0 postqu01 misses 2-pt jump shot from 11 ft (block by bantoda01 ) 35-24
+169,rebound,,,35.0,24.0,,,,,,,,,,,defensive,cissosi01,False,,,,,,,,,,,,,,,,,,,7:02.0 35-24 Defensive rebound by cissosi01
+170,fg_make,,,35.0,27.0,3.0,camarto01,3.0,jump shot,26.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,6:59.0 35-27 +3 camarto01 makes 3-pt jump shot from 26 ft (assist by bantoda01 )
+171,fg_make,,,38.0,27.0,3.0,curryst01,3.0,jump shot,30.0,postqu01,,,,,,,,,,,,,,,,,,,,,,,,,,6:43.0 curryst01 makes 3-pt jump shot from 30 ft (assist by postqu01 ) +3 38-27
+172,fg_miss,,,38.0,27.0,,thybuma01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:21.0 38-27 thybuma01 misses 3-pt jump shot from 26 ft
+173,rebound,,,38.0,27.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,6:17.0 Defensive rebound by greendr01 38-27
+174,fg_miss,,,38.0,27.0,,curryst01,2.0,jump shot,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:13.0 curryst01 misses 2-pt jump shot from 20 ft 38-27
+175,rebound,,,38.0,27.0,,,,,,,,,,,defensive,reathdu01,False,,,,,,,,,,,,,,,,,,,6:10.0 38-27 Defensive rebound by reathdu01
+176,fg_miss,,,38.0,27.0,,cissosi01,2.0,dunk,3.0,,postqu01,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 38-27 cissosi01 misses 2-pt dunk from 3 ft (block by postqu01 )
+177,rebound,,,38.0,27.0,,,,,,,,,,,defensive,paytoga02,False,,,,,,,,,,,,,,,,,,,5:47.0 Defensive rebound by paytoga02 38-27
+178,fg_miss,,,38.0,27.0,,hieldbu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:44.0 hieldbu01 misses 3-pt jump shot from 26 ft 38-27
+179,rebound,,,38.0,27.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:43.0 38-27 Defensive rebound by Team
+180,timeout,,,38.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,5:43.0 38-27 Portland full timeout
+181,substitution,,,38.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 kuminjo01 enters the game for greendr01 38-27
+182,substitution,,,38.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 looneke01 enters the game for postqu01 38-27
+183,substitution,,,38.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 38-27 minayju01 enters the game for bantoda01
+184,substitution,,,38.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 38-27 ruperra01 enters the game for thybuma01
+185,fg_miss,,,38.0,27.0,,cissosi01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:21.0 38-27 cissosi01 misses 3-pt jump shot from 26 ft
+186,rebound,,,38.0,27.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,5:17.0 Defensive rebound by curryst01 38-27
+187,fg_miss,,,38.0,27.0,,paytoga02,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:00.0 paytoga02 misses 2-pt hook shot from 6 ft 38-27
+188,rebound,,,38.0,27.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,4:58.0 38-27 Defensive rebound by camarto01
+189,foul,,,38.0,27.0,,,,,,,,,,,,,,shooting,paytoga02,camarto01,,,,,,,,,,,,,,,,4:52.0 38-27 Shooting foul by paytoga02 (drawn by camarto01 )
+190,free_throw,,,38.0,28.0,1.0,camarto01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:52.0 38-28 +1 camarto01 makes free throw 1 of 2
+191,free_throw,,,38.0,28.0,,camarto01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:52.0 38-28 camarto01 misses free throw 2 of 2
+192,rebound,,,38.0,28.0,,,,,,,,,,,offensive,ruperra01,False,,,,,,,,,,,,,,,,,,,4:48.0 38-28 Offensive rebound by ruperra01
+193,fg_miss,,,38.0,28.0,,camarto01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:37.0 38-28 camarto01 misses 3-pt jump shot from 25 ft
+194,rebound,,,38.0,28.0,,,,,,,,,,,offensive,reathdu01,False,,,,,,,,,,,,,,,,,,,4:34.0 38-28 Offensive rebound by reathdu01
+195,foul,,,38.0,28.0,,,,,,,,,,,,,,personal,hieldbu01,minayju01,,,,,,,,,,,,,,,,4:30.0 38-28 Personal foul by hieldbu01 (drawn by minayju01 )
+196,fg_make,,,38.0,30.0,2.0,cissosi01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:24.0 38-30 +2 cissosi01 makes 2-pt layup from 2 ft
+197,fg_make,,,40.0,30.0,2.0,kuminjo01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 kuminjo01 makes 2-pt jump shot from 13 ft +2 40-30
+198,fg_miss,,,40.0,30.0,,ruperra01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 40-30 ruperra01 misses 2-pt layup from 3 ft
+199,rebound,,,40.0,30.0,,,,,,,,,,,defensive,curryst01,False,,,,,,,,,,,,,,,,,,,3:47.0 Defensive rebound by curryst01 40-30
+200,fg_make,,,43.0,30.0,3.0,hieldbu01,3.0,jump shot,25.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,3:44.0 hieldbu01 makes 3-pt jump shot from 25 ft (assist by curryst01 ) +3 43-30
+201,fg_miss,,,43.0,30.0,,cissosi01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:29.0 43-30 cissosi01 misses 3-pt jump shot from 23 ft
+202,rebound,,,43.0,30.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,3:27.0 Defensive rebound by looneke01 43-30
+203,turnover,,,43.0,30.0,,,,,,,,,,,,,,,,,paytoga02,bad pass,,,,,,,,,,,,,,3:26.0 Turnover by paytoga02 (bad pass) 43-30
+204,substitution,,,43.0,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:26.0 43-30 bantoda01 enters the game for ruperra01
+205,fg_miss,,,43.0,30.0,,reathdu01,2.0,jump shot,13.0,,looneke01,,,,,,,,,,,,,,,,,,,,,,,,,3:09.0 43-30 reathdu01 misses 2-pt jump shot from 13 ft (block by looneke01 )
+206,rebound,,,43.0,30.0,,,,,,,,,,,defensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,3:07.0 Defensive rebound by hieldbu01 43-30
+207,fg_miss,,,43.0,30.0,,kuminjo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:52.0 kuminjo01 misses 3-pt jump shot from 26 ft 43-30
+208,rebound,,,43.0,30.0,,,,,,,,,,,defensive,reathdu01,False,,,,,,,,,,,,,,,,,,,2:48.0 43-30 Defensive rebound by reathdu01
+209,fg_make,,,43.0,32.0,2.0,bantoda01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 43-32 +2 bantoda01 makes 2-pt layup from 4 ft
+210,foul,,,43.0,32.0,,,,,,,,,,,,,,shooting,looneke01,bantoda01,,,,,,,,,,,,,,,,2:42.0 43-32 Shooting foul by looneke01 (drawn by bantoda01 )
+211,timeout,,,43.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,2:42.0 Golden State full timeout 43-32
+212,substitution,,,43.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 butleji01 enters the game for hieldbu01 43-32
+213,substitution,,,43.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 greendr01 enters the game for kuminjo01 43-32
+214,substitution,,,43.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 podzibr01 enters the game for looneke01 43-32
+215,substitution,,,43.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 postqu01 enters the game for paytoga02 43-32
+216,substitution,,,43.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 43-32 clingdo01 enters the game for cissosi01
+217,substitution,,,43.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 43-32 murrakr01 enters the game for reathdu01
+218,free_throw,,,43.0,33.0,1.0,bantoda01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,2:42.0 43-33 +1 bantoda01 makes free throw 1 of 1
+219,fg_miss,,,43.0,33.0,,butleji01,2.0,layup,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:21.0 butleji01 misses 2-pt layup from 5 ft 43-33
+220,rebound,,,43.0,33.0,,,,,,,,,,,offensive,butleji01,False,,,,,,,,,,,,,,,,,,,2:19.0 Offensive rebound by butleji01 43-33
+221,fg_make,,,46.0,33.0,3.0,curryst01,3.0,jump shot,26.0,butleji01,,,,,,,,,,,,,,,,,,,,,,,,,,2:17.0 curryst01 makes 3-pt jump shot from 26 ft (assist by butleji01 ) +3 46-33
+222,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 Jump ball: greendr01 vs. murrakr01 ( postqu01 gains possession)
+223,turnover,,,46.0,33.0,,,,,,,,,,,,,,,,,murrakr01,lost ball; steal by greendr01,greendr01,,,,,,,,,,,,,1:59.0 46-33 Turnover by murrakr01 (lost ball; steal by greendr01 )
+224,fg_miss,,,46.0,33.0,,curryst01,3.0,jump shot,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:39.0 curryst01 misses 3-pt jump shot from 32 ft 46-33
+225,rebound,,,46.0,33.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,1:36.0 46-33 Defensive rebound by clingdo01
+226,turnover,,,46.0,33.0,,,,,,,,,,,,,,,,,bantoda01,bad pass; steal by podzibr01,podzibr01,,,,,,,,,,,,,1:28.0 46-33 Turnover by bantoda01 (bad pass; steal by podzibr01 )
+227,turnover,,,46.0,33.0,,,,,,,,,,,,,,,,,greendr01,bad pass; steal by camarto01,camarto01,,,,,,,,,,,,,1:18.0 Turnover by greendr01 (bad pass; steal by camarto01 ) 46-33
+228,fg_make,,,46.0,35.0,2.0,clingdo01,2.0,layup,5.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,1:02.0 46-35 +2 clingdo01 makes 2-pt layup from 5 ft (assist by bantoda01 )
+229,foul,,,46.0,35.0,,,,,,,,,,,,,,shooting,camarto01,postqu01,,,,,,,,,,,,,,,,0:56.0 Shooting foul by camarto01 (drawn by postqu01 ) 46-35
+230,free_throw,,,47.0,35.0,1.0,postqu01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:56.0 postqu01 makes free throw 1 of 2 +1 47-35
+231,free_throw,,,48.0,35.0,1.0,postqu01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:56.0 postqu01 makes free throw 2 of 2 +1 48-35
+232,fg_miss,,,48.0,35.0,,bantoda01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:38.0 48-35 bantoda01 misses 2-pt jump shot from 11 ft
+233,rebound,,,48.0,35.0,,,,,,,,,,,offensive,clingdo01,False,,,,,,,,,,,,,,,,,,,0:37.0 48-35 Offensive rebound by clingdo01
+234,fg_make,,,48.0,37.0,2.0,clingdo01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:37.0 48-37 +2 clingdo01 makes 2-pt layup from 1 ft
+235,foul,,,48.0,37.0,,,,,,,,,,,,,,shooting,postqu01,clingdo01,,,,,,,,,,,,,,,,0:37.0 48-37 Shooting foul by postqu01 (drawn by clingdo01 )
+236,free_throw,,,48.0,37.0,,clingdo01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,0:37.0 48-37 clingdo01 misses free throw 1 of 1
+237,rebound,,,48.0,37.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,0:34.0 Defensive rebound by greendr01 48-37
+238,fg_make,,,50.0,37.0,2.0,postqu01,2.0,layup,2.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,0:25.0 postqu01 makes 2-pt layup from 2 ft (assist by curryst01 ) +2 50-37
+239,fg_miss,,,50.0,37.0,,murrakr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:06.0 50-37 murrakr01 misses 3-pt jump shot from 25 ft
+240,rebound,,,50.0,37.0,,,,,,,,,,,defensive,greendr01,False,,,,,,,,,,,,,,,,,,,0:02.0 Defensive rebound by greendr01 50-37
+241,fg_miss,,,50.0,37.0,,butleji01,3.0,jump shot,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 butleji01 misses 3-pt jump shot from 45 ft 50-37
+242,rebound,,,50.0,37.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:00.0 Offensive rebound by Team 50-37
+243,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+244,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+245,foul,,,50.0,37.0,,,,,,,,,,,,,,personal,curryst01,murrakr01,,,,,,,,,,,,,,,,11:51.0 50-37 Personal foul by curryst01 (drawn by murrakr01 )
+246,fg_miss,,,50.0,37.0,,bantoda01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:33.0 50-37 bantoda01 misses 2-pt jump shot from 13 ft
+247,rebound,,,50.0,37.0,,,,,,,,,,,defensive,butleji01,False,,,,,,,,,,,,,,,,,,,11:29.0 Defensive rebound by butleji01 50-37
+248,fg_miss,,,50.0,37.0,,greendr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:20.0 greendr01 misses 3-pt jump shot from 25 ft 50-37
+249,rebound,,,50.0,37.0,,,,,,,,,,,defensive,thybuma01,False,,,,,,,,,,,,,,,,,,,11:17.0 50-37 Defensive rebound by thybuma01
+250,fg_miss,,,50.0,37.0,,camarto01,2.0,layup,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:09.0 50-37 camarto01 misses 2-pt layup from 8 ft
+251,rebound,,,50.0,37.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:09.0 50-37 Offensive rebound by Team
+252,fg_make,,,50.0,39.0,2.0,clingdo01,2.0,layup,3.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,11:00.0 50-39 +2 clingdo01 makes 2-pt layup from 3 ft (assist by bantoda01 )
+253,fg_make,,,53.0,39.0,3.0,moodymo01,3.0,jump shot,26.0,butleji01,,,,,,,,,,,,,,,,,,,,,,,,,,10:43.0 moodymo01 makes 3-pt jump shot from 26 ft (assist by butleji01 ) +3 53-39
+254,turnover,,,53.0,39.0,,,,,,,,,,,,,,,,,bantoda01,bad pass,,,,,,,,,,,,,,10:34.0 53-39 Turnover by bantoda01 (bad pass)
+255,fg_miss,,,53.0,39.0,,podzibr01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:11.0 podzibr01 misses 2-pt jump shot from 12 ft 53-39
+256,rebound,,,53.0,39.0,,,,,,,,,,,offensive,curryst01,False,,,,,,,,,,,,,,,,,,,10:09.0 Offensive rebound by curryst01 53-39
+257,fg_make,,,55.0,39.0,2.0,moodymo01,2.0,layup,3.0,curryst01,,,,,,,,,,,,,,,,,,,,,,,,,,10:06.0 moodymo01 makes 2-pt layup from 3 ft (assist by curryst01 ) +2 55-39
+258,foul,,,55.0,39.0,,,,,,,,,,,,,,shooting,clingdo01,moodymo01,,,,,,,,,,,,,,,,10:06.0 Shooting foul by clingdo01 (drawn by moodymo01 ) 55-39
+259,free_throw,,,56.0,39.0,1.0,moodymo01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,10:06.0 moodymo01 makes free throw 1 of 1 +1 56-39
+260,fg_miss,,,56.0,39.0,,bantoda01,2.0,jump shot,8.0,,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,9:57.0 56-39 bantoda01 misses 2-pt jump shot from 8 ft (block by greendr01 )
+261,rebound,,,56.0,39.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,9:57.0 56-39 Offensive rebound by Team
+262,fg_miss,,,56.0,39.0,,clingdo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:54.0 56-39 clingdo01 misses 3-pt jump shot from 25 ft
+263,rebound,,,56.0,39.0,,,,,,,,,,,defensive,butleji01,False,,,,,,,,,,,,,,,,,,,9:51.0 Defensive rebound by butleji01 56-39
+264,fg_make,,,59.0,39.0,3.0,greendr01,3.0,jump shot,25.0,podzibr01,,,,,,,,,,,,,,,,,,,,,,,,,,9:36.0 greendr01 makes 3-pt jump shot from 25 ft (assist by podzibr01 ) +3 59-39
+265,fg_make,,,59.0,42.0,3.0,thybuma01,3.0,jump shot,24.0,bantoda01,,,,,,,,,,,,,,,,,,,,,,,,,,9:21.0 59-42 +3 thybuma01 makes 3-pt jump shot from 24 ft (assist by bantoda01 )
+266,turnover,,,59.0,42.0,,,,,,,,,,,,,,,,,curryst01,bad pass; steal by thybuma01,thybuma01,,,,,,,,,,,,,9:11.0 Turnover by curryst01 (bad pass; steal by thybuma01 ) 59-42
+267,turnover,,,59.0,42.0,,,,,,,,,,,,,,,,,bantoda01,bad pass; steal by moodymo01,moodymo01,,,,,,,,,,,,,9:07.0 59-42 Turnover by bantoda01 (bad pass; steal by moodymo01 )
+268,fg_make,,,61.0,42.0,2.0,curryst01,2.0,layup,1.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,9:02.0 curryst01 makes 2-pt layup from 1 ft (assist by greendr01 ) +2 61-42
+269,foul,,,61.0,42.0,,,,,,,,,,,,,,personal,moodymo01,bantoda01,,,,,,,,,,,,,,,,8:56.0 61-42 Personal foul by moodymo01 (drawn by bantoda01 )
+270,turnover,,,61.0,42.0,,,,,,,,,,,,,,,,,bantoda01,bad pass; steal by greendr01,greendr01,,,,,,,,,,,,,8:45.0 61-42 Turnover by bantoda01 (bad pass; steal by greendr01 )
+271,fg_make,,,63.0,42.0,2.0,butleji01,2.0,jump shot,11.0,podzibr01,,,,,,,,,,,,,,,,,,,,,,,,,,8:37.0 butleji01 makes 2-pt jump shot from 11 ft (assist by podzibr01 ) +2 63-42
+272,fg_miss,,,63.0,42.0,,bantoda01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:21.0 63-42 bantoda01 misses 3-pt jump shot from 29 ft
+273,rebound,,,63.0,42.0,,,,,,,,,,,defensive,butleji01,False,,,,,,,,,,,,,,,,,,,8:17.0 Defensive rebound by butleji01 63-42
+274,fg_make,,,65.0,42.0,2.0,curryst01,2.0,layup,2.0,butleji01,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 curryst01 makes 2-pt layup from 2 ft (assist by butleji01 ) +2 65-42
+275,timeout,,,65.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,8:14.0 65-42 Portland full timeout
+276,substitution,,,65.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:14.0 65-42 cissosi01 enters the game for bantoda01
+277,turnover,,,65.0,42.0,,,,,,,,,,,,,,,,,cissosi01,lost ball; steal by moodymo01,moodymo01,,,,,,,,,,,,,8:06.0 65-42 Turnover by cissosi01 (lost ball; steal by moodymo01 )
+278,fg_miss,,,65.0,42.0,,curryst01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:01.0 curryst01 misses 3-pt jump shot from 28 ft 65-42
+279,rebound,,,65.0,42.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,7:56.0 65-42 Defensive rebound by clingdo01
+280,turnover,,,65.0,42.0,,,,,,,,,,,,,,,,,cissosi01,bad pass; steal by butleji01,butleji01,,,,,,,,,,,,,7:51.0 65-42 Turnover by cissosi01 (bad pass; steal by butleji01 )
+281,fg_miss,,,65.0,42.0,,moodymo01,2.0,layup,6.0,,clingdo01,,,,,,,,,,,,,,,,,,,,,,,,,7:46.0 moodymo01 misses 2-pt layup from 6 ft (block by clingdo01 ) 65-42
+282,rebound,,,65.0,42.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,7:43.0 65-42 Defensive rebound by clingdo01
+283,fg_miss,,,65.0,42.0,,camarto01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:24.0 65-42 camarto01 misses 2-pt jump shot from 9 ft
+284,rebound,,,65.0,42.0,,,,,,,,,,,defensive,podzibr01,False,,,,,,,,,,,,,,,,,,,7:21.0 Defensive rebound by podzibr01 65-42
+285,fg_make,,,67.0,42.0,2.0,butleji01,2.0,dunk,3.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 butleji01 makes 2-pt dunk from 3 ft (assist by greendr01 ) +2 67-42
+286,turnover,,,67.0,42.0,,,,,,,,,,,,,,,,,thybuma01,bad pass; steal by butleji01,butleji01,,,,,,,,,,,,,6:54.0 67-42 Turnover by thybuma01 (bad pass; steal by butleji01 )
+287,turnover,,,67.0,42.0,,,,,,,,,,,,,,,,,greendr01,bad pass,,,,,,,,,,,,,,6:42.0 Turnover by greendr01 (bad pass) 67-42
+288,substitution,,,67.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:42.0 hieldbu01 enters the game for butleji01 67-42
+289,substitution,,,67.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:42.0 kuminjo01 enters the game for podzibr01 67-42
+290,foul,,,67.0,42.0,,,,,,,,,,,,,,shooting,curryst01,thybuma01,,,,,,,,,,,,,,,,6:32.0 67-42 Shooting foul by curryst01 (drawn by thybuma01 )
+291,free_throw,,,67.0,42.0,,thybuma01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:32.0 67-42 thybuma01 misses free throw 1 of 2
+292,rebound,,,67.0,42.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,6:32.0 67-42 Offensive rebound by Team
+293,substitution,,,67.0,42.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:32.0 67-42 walkeja01 enters the game for clingdo01
+294,free_throw,,,67.0,43.0,1.0,thybuma01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:32.0 67-43 +1 thybuma01 makes free throw 2 of 2
+295,fg_miss,,,67.0,43.0,,moodymo01,2.0,layup,3.0,,murrakr01,,,,,,,,,,,,,,,,,,,,,,,,,6:09.0 moodymo01 misses 2-pt layup from 3 ft (block by murrakr01 ) 67-43
+296,rebound,,,67.0,43.0,,,,,,,,,,,defensive,walkeja01,False,,,,,,,,,,,,,,,,,,,6:06.0 67-43 Defensive rebound by walkeja01
+297,fg_make,,,67.0,45.0,2.0,walkeja01,2.0,dunk,3.0,cissosi01,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 67-45 +2 walkeja01 makes 2-pt dunk from 3 ft (assist by cissosi01 )
+298,timeout,,,67.0,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,6:02.0 Golden State full timeout 67-45
+299,substitution,,,67.0,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 looneke01 enters the game for greendr01 67-45
+300,substitution,,,67.0,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 paytoga02 enters the game for moodymo01 67-45
+301,substitution,,,67.0,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:02.0 67-45 ruperra01 enters the game for thybuma01
+302,foul,,,67.0,45.0,,,,,,,,,,,,,,personal,camarto01,curryst01,,,,,,,,,,,,,,,,5:54.0 Personal foul by camarto01 (drawn by curryst01 ) 67-45
+303,foul,,,67.0,45.0,,,,,,,,,,,,,,offensive,paytoga02,camarto01,,,,,,,,,,,,,,,,5:44.0 Offensive foul by paytoga02 (drawn by camarto01 ) 67-45
+304,turnover,,,67.0,45.0,,,,,,,,,,,,,,,,,paytoga02,offensive foul,,,,,,,,,,,,,,5:44.0 Turnover by paytoga02 (offensive foul) 67-45
+305,turnover,,,67.0,45.0,,,,,,,,,,,,,,,,,walkeja01,step out of bounds,,,,,,,,,,,,,,5:28.0 67-45 Turnover by walkeja01 (step out of bounds)
+306,fg_miss,,,67.0,45.0,,curryst01,3.0,jump shot,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:13.0 curryst01 misses 3-pt jump shot from 31 ft 67-45
+307,rebound,,,67.0,45.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,5:12.0 Offensive rebound by Team 67-45
+308,foul,,,67.0,45.0,,,,,,,,,,,,,,loose ball,ruperra01,looneke01,,,,,,,,,,,,,,,,5:12.0 67-45 Loose ball foul by ruperra01 (drawn by looneke01 )
+309,fg_miss,,,67.0,45.0,,kuminjo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:00.0 kuminjo01 misses 3-pt jump shot from 26 ft 67-45
+310,rebound,,,67.0,45.0,,,,,,,,,,,defensive,cissosi01,False,,,,,,,,,,,,,,,,,,,4:56.0 67-45 Defensive rebound by cissosi01
+311,fg_miss,,,67.0,45.0,,walkeja01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:51.0 67-45 walkeja01 misses 2-pt layup from 4 ft
+312,rebound,,,67.0,45.0,,,,,,,,,,,offensive,walkeja01,False,,,,,,,,,,,,,,,,,,,4:50.0 67-45 Offensive rebound by walkeja01
+313,foul,,,67.0,45.0,,,,,,,,,,,,,,shooting,looneke01,walkeja01,,,,,,,,,,,,,,,,4:50.0 67-45 Shooting foul by looneke01 (drawn by walkeja01 )
+314,free_throw,,,67.0,46.0,1.0,walkeja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:50.0 67-46 +1 walkeja01 makes free throw 1 of 2
+315,free_throw,,,67.0,47.0,1.0,walkeja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:50.0 67-47 +1 walkeja01 makes free throw 2 of 2
+316,fg_miss,,,67.0,47.0,,curryst01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:28.0 curryst01 misses 3-pt jump shot from 27 ft 67-47
+317,rebound,,,67.0,47.0,,,,,,,,,,,defensive,murrakr01,False,,,,,,,,,,,,,,,,,,,4:25.0 67-47 Defensive rebound by murrakr01
+318,fg_miss,,,67.0,47.0,,murrakr01,2.0,jump shot,9.0,,hieldbu01,,,,,,,,,,,,,,,,,,,,,,,,,4:16.0 67-47 murrakr01 misses 2-pt jump shot from 9 ft (block by hieldbu01 )
+319,rebound,,,67.0,47.0,,,,,,,,,,,defensive,looneke01,False,,,,,,,,,,,,,,,,,,,4:14.0 Defensive rebound by looneke01 67-47
+320,fg_miss,,,67.0,47.0,,hieldbu01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:06.0 hieldbu01 misses 3-pt jump shot from 23 ft 67-47
+321,rebound,,,67.0,47.0,,,,,,,,,,,defensive,walkeja01,False,,,,,,,,,,,,,,,,,,,4:02.0 67-47 Defensive rebound by walkeja01
+322,fg_make,,,67.0,50.0,3.0,walkeja01,3.0,jump shot,23.0,cissosi01,,,,,,,,,,,,,,,,,,,,,,,,,,3:45.0 67-50 +3 walkeja01 makes 3-pt jump shot from 23 ft (assist by cissosi01 )
+323,fg_miss,,,67.0,50.0,,kuminjo01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:26.0 kuminjo01 misses 2-pt jump shot from 10 ft 67-50
+324,rebound,,,67.0,50.0,,,,,,,,,,,defensive,cissosi01,False,,,,,,,,,,,,,,,,,,,3:23.0 67-50 Defensive rebound by cissosi01
+325,foul,,,67.0,50.0,,,,,,,,,,,,,,shooting,hieldbu01,walkeja01,,,,,,,,,,,,,,,,3:21.0 67-50 Shooting foul by hieldbu01 (drawn by walkeja01 )
+326,free_throw,,,67.0,51.0,1.0,walkeja01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:21.0 67-51 +1 walkeja01 makes free throw 1 of 2
+327,free_throw,,,67.0,52.0,1.0,walkeja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:21.0 67-52 +1 walkeja01 makes free throw 2 of 2
+328,foul,,,67.0,52.0,,,,,,,,,,,,,,shooting,cissosi01,kuminjo01,,,,,,,,,,,,,,,,3:01.0 Shooting foul by cissosi01 (drawn by kuminjo01 ) 67-52
+329,free_throw,,,67.0,52.0,,kuminjo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:01.0 kuminjo01 misses free throw 1 of 2 67-52
+330,rebound,,,67.0,52.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:01.0 Offensive rebound by Team 67-52
+331,free_throw,,,68.0,52.0,1.0,kuminjo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:01.0 kuminjo01 makes free throw 2 of 2 +1 68-52
+332,turnover,,,68.0,52.0,,,,,,,,,,,,,,,,,cissosi01,lost ball; steal by kuminjo01,kuminjo01,,,,,,,,,,,,,2:45.0 68-52 Turnover by cissosi01 (lost ball; steal by kuminjo01 )
+333,foul,,,68.0,52.0,,,,,,,,,,,,,,shooting,walkeja01,kuminjo01,,,,,,,,,,,,,,,,2:43.0 Shooting foul by walkeja01 (drawn by kuminjo01 ) 68-52
+334,instant_replay,,,68.0,52.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 Instant Replay (Request: Stands) 68-52
+335,free_throw,,,69.0,52.0,1.0,kuminjo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:43.0 kuminjo01 makes free throw 1 of 2 +1 69-52
+336,substitution,,,69.0,52.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 butleji01 enters the game for curryst01 69-52
+337,substitution,,,69.0,52.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 podzibr01 enters the game for paytoga02 69-52
+338,substitution,,,69.0,52.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:43.0 69-52 minayju01 enters the game for camarto01
+339,free_throw,,,70.0,52.0,1.0,kuminjo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:43.0 kuminjo01 makes free throw 2 of 2 +1 70-52
+340,fg_miss,,,70.0,52.0,,walkeja01,2.0,hook shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:30.0 70-52 walkeja01 misses 2-pt hook shot from 7 ft
+341,rebound,,,70.0,52.0,,,,,,,,,,,defensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,2:28.0 Defensive rebound by hieldbu01 70-52
+342,fg_miss,,,70.0,52.0,,hieldbu01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:14.0 hieldbu01 misses 3-pt jump shot from 26 ft 70-52
+343,rebound,,,70.0,52.0,,,,,,,,,,,defensive,murrakr01,False,,,,,,,,,,,,,,,,,,,2:10.0 70-52 Defensive rebound by murrakr01
+344,fg_make,,,70.0,54.0,2.0,ruperra01,2.0,layup,3.0,murrakr01,,,,,,,,,,,,,,,,,,,,,,,,,,2:04.0 70-54 +2 ruperra01 makes 2-pt layup from 3 ft (assist by murrakr01 )
+345,fg_miss,,,70.0,54.0,,podzibr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:37.0 podzibr01 misses 3-pt jump shot from 23 ft 70-54
+346,rebound,,,70.0,54.0,,,,,,,,,,,defensive,walkeja01,False,,,,,,,,,,,,,,,,,,,1:34.0 70-54 Defensive rebound by walkeja01
+347,fg_make,,,70.0,56.0,2.0,walkeja01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:29.0 70-56 +2 walkeja01 makes 2-pt layup from 2 ft
+348,fg_make,,,72.0,56.0,2.0,butleji01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:07.0 butleji01 makes 2-pt layup from 2 ft +2 72-56
+349,foul,,,72.0,56.0,,,,,,,,,,,,,,shooting,minayju01,butleji01,,,,,,,,,,,,,,,,1:07.0 Shooting foul by minayju01 (drawn by butleji01 ) 72-56
+350,free_throw,,,73.0,56.0,1.0,butleji01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,1:07.0 butleji01 makes free throw 1 of 1 +1 73-56
+351,fg_miss,,,73.0,56.0,,ruperra01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:49.0 73-56 ruperra01 misses 2-pt jump shot from 14 ft
+352,rebound,,,73.0,56.0,,,,,,,,,,,offensive,murrakr01,False,,,,,,,,,,,,,,,,,,,0:47.0 73-56 Offensive rebound by murrakr01
+353,foul,,,73.0,56.0,,,,,,,,,,,,,,personal,looneke01,murrakr01,,,,,,,,,,,,,,,,0:47.0 73-56 Personal foul by looneke01 (drawn by murrakr01 )
+354,free_throw,,,73.0,57.0,1.0,murrakr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:47.0 73-57 +1 murrakr01 makes free throw 1 of 2
+355,free_throw,,,73.0,57.0,,murrakr01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:47.0 73-57 murrakr01 misses free throw 2 of 2
+356,rebound,,,73.0,57.0,,,,,,,,,,,defensive,hieldbu01,False,,,,,,,,,,,,,,,,,,,0:45.0 Defensive rebound by hieldbu01 73-57
+357,fg_make,,,75.0,57.0,2.0,kuminjo01,2.0,layup,2.0,butleji01,,,,,,,,,,,,,,,,,,,,,,,,,,0:30.0 kuminjo01 makes 2-pt layup from 2 ft (assist by butleji01 ) +2 75-57
+358,fg_miss,,,75.0,57.0,,minayju01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:12.0 75-57 minayju01 misses 2-pt layup from 3 ft
+359,rebound,,,75.0,57.0,,,,,,,,,,,defensive,kuminjo01,False,,,,,,,,,,,,,,,,,,,0:09.0 Defensive rebound by kuminjo01 75-57
+360,fg_make,,,77.0,57.0,2.0,butleji01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:03.0 butleji01 makes 2-pt layup from 2 ft +2 77-57
+361,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+362,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+363,foul,,,77.0,57.0,,,,,,,,,,,,,,shooting,ruperra01,butleji01,,,,,,,,,,,,,,,,11:46.0 Shooting foul by ruperra01 (drawn by butleji01 ) 77-57
+364,free_throw,,,78.0,57.0,1.0,butleji01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:46.0 butleji01 makes free throw 1 of 2 +1 78-57
+365,free_throw,,,79.0,57.0,1.0,butleji01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:46.0 butleji01 makes free throw 2 of 2 +1 79-57
+366,fg_make,,,79.0,59.0,2.0,minayju01,2.0,layup,3.0,cissosi01,,,,,,,,,,,,,,,,,,,,,,,,,,11:30.0 79-59 +2 minayju01 makes 2-pt layup from 3 ft (assist by cissosi01 )
+367,fg_miss,,,79.0,59.0,,postqu01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:09.0 postqu01 misses 3-pt jump shot from 23 ft 79-59
+368,rebound,,,79.0,59.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,11:06.0 79-59 Defensive rebound by clingdo01
+369,fg_make,,,79.0,61.0,2.0,ruperra01,2.0,layup,5.0,clingdo01,,,,,,,,,,,,,,,,,,,,,,,,,,10:56.0 79-61 +2 ruperra01 makes 2-pt layup from 5 ft (assist by clingdo01 )
+370,fg_miss,,,79.0,61.0,,butleji01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:42.0 butleji01 misses 2-pt layup from 4 ft 79-61
+371,rebound,,,79.0,61.0,,,,,,,,,,,defensive,murrakr01,False,,,,,,,,,,,,,,,,,,,10:39.0 79-61 Defensive rebound by murrakr01
+372,foul,,,79.0,61.0,,,,,,,,,,,,,,offensive,minayju01,podzibr01,,,,,,,,,,,,,,,,10:37.0 79-61 Offensive foul by minayju01 (drawn by podzibr01 )
+373,turnover,,,79.0,61.0,,,,,,,,,,,,,,,,,minayju01,offensive foul,,,,,,,,,,,,,,10:37.0 79-61 Turnover by minayju01 (offensive foul)
+374,timeout,,,79.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,10:37.0 Golden State full timeout 79-61
+375,instant_replay,,,79.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:37.0 Instant Replay (Challenge: Ruling Stands) 79-61
+376,substitution,,,79.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:37.0 79-61 bantoda01 enters the game for cissosi01
+377,substitution,,,79.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:37.0 79-61 camarto01 enters the game for minayju01
+378,fg_miss,,,79.0,61.0,,greendr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:20.0 greendr01 misses 3-pt jump shot from 26 ft 79-61
+379,rebound,,,79.0,61.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,10:18.0 79-61 Defensive rebound by Team
+380,fg_make,,,79.0,64.0,3.0,ruperra01,3.0,jump shot,24.0,murrakr01,,,,,,,,,,,,,,,,,,,,,,,,,,10:06.0 79-64 +3 ruperra01 makes 3-pt jump shot from 24 ft (assist by murrakr01 )
+381,foul,,,79.0,64.0,,,,,,,,,,,,,,shooting,clingdo01,butleji01,,,,,,,,,,,,,,,,9:46.0 Shooting foul by clingdo01 (drawn by butleji01 ) 79-64
+382,free_throw,,,80.0,64.0,1.0,butleji01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:46.0 butleji01 makes free throw 1 of 2 +1 80-64
+383,free_throw,,,81.0,64.0,1.0,butleji01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:46.0 butleji01 makes free throw 2 of 2 +1 81-64
+384,turnover,,,81.0,64.0,,,,,,,,,,,,,,,,,murrakr01,bad pass; steal by podzibr01,podzibr01,,,,,,,,,,,,,9:33.0 81-64 Turnover by murrakr01 (bad pass; steal by podzibr01 )
+385,fg_miss,,,81.0,64.0,,postqu01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:22.0 postqu01 misses 3-pt jump shot from 27 ft 81-64
+386,rebound,,,81.0,64.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,9:19.0 81-64 Defensive rebound by camarto01
+387,fg_make,,,81.0,66.0,2.0,ruperra01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:58.0 81-66 +2 ruperra01 makes 2-pt jump shot from 7 ft
+388,fg_make,,,84.0,66.0,3.0,postqu01,3.0,jump shot,23.0,butleji01,,,,,,,,,,,,,,,,,,,,,,,,,,8:38.0 postqu01 makes 3-pt jump shot from 23 ft (assist by butleji01 ) +3 84-66
+389,foul,,,84.0,66.0,,,,,,,,,,,,,,offensive,ruperra01,podzibr01,,,,,,,,,,,,,,,,8:22.0 84-66 Offensive foul by ruperra01 (drawn by podzibr01 )
+390,turnover,,,84.0,66.0,,,,,,,,,,,,,,,,,ruperra01,offensive foul,,,,,,,,,,,,,,8:22.0 84-66 Turnover by ruperra01 (offensive foul)
+391,foul,,,84.0,66.0,,,,,,,,,,,,,,shooting,murrakr01,butleji01,,,,,,,,,,,,,,,,8:04.0 Shooting foul by murrakr01 (drawn by butleji01 ) 84-66
+392,free_throw,,,85.0,66.0,1.0,butleji01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:04.0 butleji01 makes free throw 1 of 2 +1 85-66
+393,free_throw,,,86.0,66.0,1.0,butleji01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:04.0 butleji01 makes free throw 2 of 2 +1 86-66
+394,fg_miss,,,86.0,66.0,,bantoda01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 86-66 bantoda01 misses 3-pt jump shot from 24 ft
+395,rebound,,,86.0,66.0,,,,,,,,,,,offensive,clingdo01,False,,,,,,,,,,,,,,,,,,,7:52.0 86-66 Offensive rebound by clingdo01
+396,fg_miss,,,86.0,66.0,,murrakr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:48.0 86-66 murrakr01 misses 3-pt jump shot from 25 ft
+397,rebound,,,86.0,66.0,,,,,,,,,,,defensive,moodymo01,False,,,,,,,,,,,,,,,,,,,7:46.0 Defensive rebound by moodymo01 86-66
+398,fg_make,,,89.0,66.0,3.0,butleji01,3.0,jump shot,23.0,greendr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:28.0 butleji01 makes 3-pt jump shot from 23 ft (assist by greendr01 ) +3 89-66
+399,fg_miss,,,89.0,66.0,,camarto01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:04.0 89-66 camarto01 misses 3-pt jump shot from 26 ft
+400,rebound,,,89.0,66.0,,,,,,,,,,,offensive,murrakr01,False,,,,,,,,,,,,,,,,,,,7:02.0 89-66 Offensive rebound by murrakr01
+401,foul,,,89.0,66.0,,,,,,,,,,,,,,shooting,greendr01,murrakr01,,,,,,,,,,,,,,,,7:02.0 89-66 Shooting foul by greendr01 (drawn by murrakr01 )
+402,free_throw,,,89.0,67.0,1.0,murrakr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:02.0 89-67 +1 murrakr01 makes free throw 1 of 2
+403,substitution,,,89.0,67.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:02.0 hieldbu01 enters the game for moodymo01 89-67
+404,free_throw,,,89.0,68.0,1.0,murrakr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:02.0 89-68 +1 murrakr01 makes free throw 2 of 2
+405,fg_miss,,,89.0,68.0,,butleji01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:46.0 butleji01 misses 2-pt jump shot from 13 ft 89-68
+406,rebound,,,89.0,68.0,,,,,,,,,,,defensive,camarto01,False,,,,,,,,,,,,,,,,,,,6:43.0 89-68 Defensive rebound by camarto01
+407,fg_make,,,89.0,70.0,2.0,camarto01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:38.0 89-70 +2 camarto01 makes 2-pt layup from 4 ft
+408,fg_miss,,,89.0,70.0,,podzibr01,2.0,jump shot,18.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:15.0 podzibr01 misses 2-pt jump shot from 18 ft 89-70
+409,rebound,,,89.0,70.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,6:13.0 89-70 Defensive rebound by clingdo01
+410,fg_miss,,,89.0,70.0,,ruperra01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:00.0 89-70 ruperra01 misses 3-pt jump shot from 27 ft
+411,rebound,,,89.0,70.0,,,,,,,,,,,defensive,podzibr01,False,,,,,,,,,,,,,,,,,,,5:57.0 Defensive rebound by podzibr01 89-70
+412,fg_miss,,,89.0,70.0,,greendr01,2.0,hook shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:50.0 greendr01 misses 2-pt hook shot from 6 ft 89-70
+413,rebound,,,89.0,70.0,,,,,,,,,,,defensive,clingdo01,False,,,,,,,,,,,,,,,,,,,5:48.0 89-70 Defensive rebound by clingdo01
+414,substitution,,,89.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:48.0 89-70 cissosi01 enters the game for murrakr01
+415,fg_miss,,,89.0,70.0,,clingdo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:32.0 89-70 clingdo01 misses 3-pt jump shot from 27 ft
+416,rebound,,,89.0,70.0,,,,,,,,,,,defensive,podzibr01,False,,,,,,,,,,,,,,,,,,,5:29.0 Defensive rebound by podzibr01 89-70
+417,timeout,,,89.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Golden State full,,,,5:25.0 Golden State full timeout 89-70
+418,substitution,,,89.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 looneke01 enters the game for butleji01 89-70
+419,substitution,,,89.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 paytoga02 enters the game for greendr01 89-70
+420,substitution,,,89.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 santogu01 enters the game for postqu01 89-70
+421,substitution,,,89.0,70.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 89-70 thybuma01 enters the game for camarto01
+422,fg_miss,,,89.0,70.0,,hieldbu01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:12.0 hieldbu01 misses 2-pt jump shot from 14 ft 89-70
+423,rebound,,,89.0,70.0,,,,,,,,,,,offensive,looneke01,False,,,,,,,,,,,,,,,,,,,5:09.0 Offensive rebound by looneke01 89-70
+424,fg_make,,,92.0,70.0,3.0,podzibr01,3.0,jump shot,26.0,santogu01,,,,,,,,,,,,,,,,,,,,,,,,,,5:04.0 podzibr01 makes 3-pt jump shot from 26 ft (assist by santogu01 ) +3 92-70
+425,foul,,,92.0,70.0,,,,,,,,,,,,,,personal,paytoga02,cissosi01,,,,,,,,,,,,,,,,4:52.0 92-70 Personal foul by paytoga02 (drawn by cissosi01 )
+426,turnover,,,92.0,70.0,,,,,,,,,,,,,,,,,thybuma01,bad pass; steal by paytoga02,paytoga02,,,,,,,,,,,,,4:46.0 92-70 Turnover by thybuma01 (bad pass; steal by paytoga02 )
+427,fg_miss,,,92.0,70.0,,hieldbu01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:29.0 hieldbu01 misses 3-pt jump shot from 23 ft 92-70
+428,rebound,,,92.0,70.0,,,,,,,,,,,defensive,cissosi01,False,,,,,,,,,,,,,,,,,,,4:26.0 92-70 Defensive rebound by cissosi01
+429,fg_miss,,,92.0,70.0,,thybuma01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 92-70 thybuma01 misses 3-pt jump shot from 25 ft
+430,rebound,,,92.0,70.0,,,,,,,,,,,defensive,paytoga02,False,,,,,,,,,,,,,,,,,,,4:15.0 Defensive rebound by paytoga02 92-70
+431,fg_make,,,94.0,70.0,2.0,hieldbu01,2.0,layup,3.0,paytoga02,,,,,,,,,,,,,,,,,,,,,,,,,,4:12.0 hieldbu01 makes 2-pt layup from 3 ft (assist by paytoga02 ) +2 94-70
+432,fg_miss,,,94.0,70.0,,bantoda01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:57.0 94-70 bantoda01 misses 3-pt jump shot from 26 ft
+433,rebound,,,94.0,70.0,,,,,,,,,,,offensive,clingdo01,False,,,,,,,,,,,,,,,,,,,3:51.0 94-70 Offensive rebound by clingdo01
+434,fg_miss,,,94.0,70.0,,clingdo01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:51.0 94-70 clingdo01 misses 2-pt layup at rim
+435,rebound,,,94.0,70.0,,,,,,,,,,,offensive,clingdo01,False,,,,,,,,,,,,,,,,,,,3:50.0 94-70 Offensive rebound by clingdo01
+436,fg_make,,,94.0,72.0,2.0,clingdo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:48.0 94-72 +2 clingdo01 makes 2-pt layup from 2 ft
+437,fg_make,,,96.0,72.0,2.0,hieldbu01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:34.0 hieldbu01 makes 2-pt jump shot from 9 ft +2 96-72
+438,fg_miss,,,96.0,72.0,,ruperra01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:21.0 96-72 ruperra01 misses 3-pt jump shot from 29 ft
+439,rebound,,,96.0,72.0,,,,,,,,,,,defensive,podzibr01,False,,,,,,,,,,,,,,,,,,,3:18.0 Defensive rebound by podzibr01 96-72
+440,fg_make,,,99.0,72.0,3.0,podzibr01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 podzibr01 makes 3-pt jump shot from 29 ft +3 99-72
+441,timeout,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Portland full,,,,3:12.0 99-72 Portland full timeout
+442,substitution,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 jackstr02 enters the game for hieldbu01 99-72
+443,substitution,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 keybr01 enters the game for looneke01 99-72
+444,substitution,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 knoxke01 enters the game for paytoga02 99-72
+445,substitution,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 spencpa01 enters the game for podzibr01 99-72
+446,substitution,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 99-72 minayju01 enters the game for bantoda01
+447,substitution,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 99-72 murrakr01 enters the game for clingdo01
+448,substitution,,,99.0,72.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:12.0 99-72 walkeja01 enters the game for thybuma01
+449,foul,,,99.0,72.0,,,,,,,,,,,,,,shooting,santogu01,ruperra01,,,,,,,,,,,,,,,,3:05.0 99-72 Shooting foul by santogu01 (drawn by ruperra01 )
+450,free_throw,,,99.0,73.0,1.0,ruperra01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:05.0 99-73 +1 ruperra01 makes free throw 1 of 2
+451,free_throw,,,99.0,74.0,1.0,ruperra01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:05.0 99-74 +1 ruperra01 makes free throw 2 of 2
+452,fg_make,,,101.0,74.0,2.0,knoxke01,2.0,dunk,3.0,jackstr02,,,,,,,,,,,,,,,,,,,,,,,,,,2:48.0 knoxke01 makes 2-pt dunk from 3 ft (assist by jackstr02 ) +2 101-74
+453,fg_make,,,101.0,76.0,2.0,ruperra01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:38.0 101-76 +2 ruperra01 makes 2-pt layup from 3 ft
+454,fg_miss,,,101.0,76.0,,knoxke01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 knoxke01 misses 3-pt jump shot from 27 ft 101-76
+455,rebound,,,101.0,76.0,,,,,,,,,,,defensive,cissosi01,False,,,,,,,,,,,,,,,,,,,2:15.0 101-76 Defensive rebound by cissosi01
+456,turnover,,,101.0,76.0,,,,,,,,,,,,,,,,,cissosi01,lost ball; steal by spencpa01,spencpa01,,,,,,,,,,,,,2:13.0 101-76 Turnover by cissosi01 (lost ball; steal by spencpa01 )
+457,turnover,,,101.0,76.0,,,,,,,,,,,,,,,,,santogu01,lost ball; steal by walkeja01,walkeja01,,,,,,,,,,,,,2:10.0 Turnover by santogu01 (lost ball; steal by walkeja01 ) 101-76
+458,fg_make,,,101.0,78.0,2.0,minayju01,2.0,layup,4.0,cissosi01,,,,,,,,,,,,,,,,,,,,,,,,,,2:05.0 101-78 +2 minayju01 makes 2-pt layup from 4 ft (assist by cissosi01 )
+459,foul,,,101.0,78.0,,,,,,,,,,,,,,shooting,murrakr01,keybr01,,,,,,,,,,,,,,,,2:00.0 Shooting foul by murrakr01 (drawn by keybr01 ) 101-78
+460,free_throw,,,102.0,78.0,1.0,keybr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:00.0 keybr01 makes free throw 1 of 2 +1 102-78
+461,free_throw,,,102.0,78.0,,keybr01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:00.0 keybr01 misses free throw 2 of 2 102-78
+462,rebound,,,102.0,78.0,,,,,,,,,,,defensive,walkeja01,False,,,,,,,,,,,,,,,,,,,1:56.0 102-78 Defensive rebound by walkeja01
+463,foul,,,102.0,78.0,,,,,,,,,,,,,,shooting,santogu01,walkeja01,,,,,,,,,,,,,,,,1:54.0 102-78 Shooting foul by santogu01 (drawn by walkeja01 )
+464,free_throw,,,102.0,78.0,,walkeja01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:54.0 102-78 walkeja01 misses free throw 1 of 2
+465,rebound,,,102.0,78.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:54.0 102-78 Offensive rebound by Team
+466,free_throw,,,102.0,79.0,1.0,walkeja01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:54.0 102-79 +1 walkeja01 makes free throw 2 of 2
+467,turnover,,,102.0,79.0,,,,,,,,,,,,,,,,,keybr01,bad pass,,,,,,,,,,,,,,1:39.0 Turnover by keybr01 (bad pass) 102-79
+468,fg_make,,,102.0,82.0,3.0,walkeja01,3.0,jump shot,25.0,ruperra01,,,,,,,,,,,,,,,,,,,,,,,,,,1:28.0 102-82 +3 walkeja01 makes 3-pt jump shot from 25 ft (assist by ruperra01 )
+469,foul,,,102.0,82.0,,,,,,,,,,,,,,shooting,cissosi01,keybr01,,,,,,,,,,,,,,,,1:25.0 Shooting foul by cissosi01 (drawn by keybr01 ) 102-82
+470,free_throw,,,102.0,82.0,,keybr01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:25.0 keybr01 misses free throw 1 of 2 102-82
+471,rebound,,,102.0,82.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:25.0 Offensive rebound by Team 102-82
+472,free_throw,,,103.0,82.0,1.0,keybr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:25.0 keybr01 makes free throw 2 of 2 +1 103-82
+473,turnover,,,103.0,82.0,,,,,,,,,,,,,,,,,cissosi01,bad pass; steal by jackstr02,jackstr02,,,,,,,,,,,,,1:16.0 103-82 Turnover by cissosi01 (bad pass; steal by jackstr02 )
+474,turnover,,,103.0,82.0,,,,,,,,,,,,,,,,,jackstr02,bad pass; steal by murrakr01,murrakr01,,,,,,,,,,,,,1:13.0 Turnover by jackstr02 (bad pass; steal by murrakr01 ) 103-82
+475,fg_make,,,103.0,84.0,2.0,murrakr01,2.0,dunk,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:12.0 103-84 +2 murrakr01 makes 2-pt dunk from 4 ft
+476,turnover,,,103.0,84.0,,,,,,,,,,,,,,,,,knoxke01,out of bounds lost ball,,,,,,,,,,,,,,0:59.0 Turnover by knoxke01 (out of bounds lost ball) 103-84
+477,fg_miss,,,103.0,84.0,,ruperra01,2.0,jump shot,6.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:50.0 103-84 ruperra01 misses 2-pt jump shot from 6 ft
+478,rebound,,,103.0,84.0,,,,,,,,,,,defensive,keybr01,False,,,,,,,,,,,,,,,,,,,0:50.0 Defensive rebound by keybr01 103-84
+479,turnover,,,103.0,84.0,,,,,,,,,,,,,,,,,santogu01,bad pass; steal by walkeja01,walkeja01,,,,,,,,,,,,,0:41.0 Turnover by santogu01 (bad pass; steal by walkeja01 ) 103-84
+480,fg_make,,,103.0,86.0,2.0,walkeja01,2.0,layup,3.0,murrakr01,,,,,,,,,,,,,,,,,,,,,,,,,,0:38.0 103-86 +2 walkeja01 makes 2-pt layup from 3 ft (assist by murrakr01 )
+481,turnover,,,103.0,86.0,,,,,,,,,,,,,,,,,knoxke01,bad pass; steal by minayju01,minayju01,,,,,,,,,,,,,0:21.0 Turnover by knoxke01 (bad pass; steal by minayju01 ) 103-86
+482,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter

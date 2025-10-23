@@ -1,0 +1,515 @@
+source_row_index,event_type,score_before_home,score_before_away,score_after_home,score_after_away,score_change,shooter_pid,shot_value,shot_action,shot_distance_ft,assisted_by_pid,block_by_pid,ft_result,ft_seq_num,ft_seq_total,rebound_type,rebounder_pid,team_rebound_flag,foul_type,fouler_pid,drawn_by_pid,turnover_committer_pid,turnover_detail,steal_by_pid,violation_label,violation_by,violation_detail,jumper1_pid,jumper2_pid,possession_winner_pid,player_in_pid,player_out_pid,timeout_team,period_kind,period_ordinal,unparsed,raw_text
+1,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12:00.0 Jump ball: colliza01 vs. cartewe01 ( giddejo01 gains possession)
+2,fg_miss,,,0.0,0.0,,buzelma01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:46.0 buzelma01 misses 2-pt layup from 4 ft 0-0
+3,rebound,,,0.0,0.0,,,,,,,,,,,offensive,giddejo01,False,,,,,,,,,,,,,,,,,,,11:44.0 Offensive rebound by giddejo01 0-0
+4,fg_miss,,,0.0,0.0,,giddejo01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:42.0 giddejo01 misses 3-pt jump shot from 27 ft 0-0
+5,rebound,,,0.0,0.0,,,,,,,,,,,defensive,caldwke01,False,,,,,,,,,,,,,,,,,,,11:39.0 0-0 Defensive rebound by caldwke01
+6,turnover,,,0.0,0.0,,,,,,,,,,,,,,,,,banchpa01,out of bounds lost ball,,,,,,,,,,,,,,11:26.0 0-0 Turnover by banchpa01 (out of bounds lost ball)
+7,foul,,,0.0,0.0,,,,,,,,,,,,,,shooting,cartewe01,colliza01,,,,,,,,,,,,,,,,11:09.0 Shooting foul by cartewe01 (drawn by colliza01 ) 0-0
+8,free_throw,,,1.0,0.0,1.0,colliza01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:09.0 colliza01 makes free throw 1 of 2 +1 1-0
+9,free_throw,,,2.0,0.0,1.0,colliza01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:09.0 colliza01 makes free throw 2 of 2 +1 2-0
+10,fg_make,,,2.0,2.0,2.0,caldwke01,2.0,jump shot,11.0,banchpa01,,,,,,,,,,,,,,,,,,,,,,,,,,10:55.0 2-2 +2 caldwke01 makes 2-pt jump shot from 11 ft (assist by banchpa01 )
+11,turnover,,,2.0,2.0,,,,,,,,,,,,,,,,,buzelma01,lost ball; steal by anthoco01,anthoco01,,,,,,,,,,,,,10:36.0 Turnover by buzelma01 (lost ball; steal by anthoco01 ) 2-2
+12,turnover,,,2.0,2.0,,,,,,,,,,,,,,,,,anthoco01,bad pass; steal by whiteco01,whiteco01,,,,,,,,,,,,,10:29.0 2-2 Turnover by anthoco01 (bad pass; steal by whiteco01 )
+13,fg_miss,,,2.0,2.0,,jonestr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:21.0 jonestr01 misses 3-pt jump shot from 25 ft 2-2
+14,rebound,,,2.0,2.0,,,,,,,,,,,offensive,giddejo01,False,,,,,,,,,,,,,,,,,,,10:20.0 Offensive rebound by giddejo01 2-2
+15,fg_miss,,,2.0,2.0,,giddejo01,2.0,layup,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:19.0 giddejo01 misses 2-pt layup at rim 2-2
+16,rebound,,,2.0,2.0,,,,,,,,,,,defensive,banchpa01,False,,,,,,,,,,,,,,,,,,,10:18.0 2-2 Defensive rebound by banchpa01
+17,fg_miss,,,2.0,2.0,,banchpa01,2.0,jump shot,9.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:59.0 2-2 banchpa01 misses 2-pt jump shot from 9 ft
+18,rebound,,,2.0,2.0,,,,,,,,,,,offensive,cartewe01,False,,,,,,,,,,,,,,,,,,,9:56.0 2-2 Offensive rebound by cartewe01
+19,fg_make,,,2.0,4.0,2.0,cartewe01,2.0,dunk,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:56.0 2-4 +2 cartewe01 makes 2-pt dunk from 2 ft
+20,foul,,,2.0,4.0,,,,,,,,,,,,,,offensive,colliza01,wagnefr01,,,,,,,,,,,,,,,,9:47.0 Offensive foul by colliza01 (drawn by wagnefr01 ) 2-4
+21,turnover,,,2.0,4.0,,,,,,,,,,,,,,,,,colliza01,offensive foul,,,,,,,,,,,,,,9:47.0 Turnover by colliza01 (offensive foul) 2-4
+22,fg_miss,,,2.0,4.0,,banchpa01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:31.0 2-4 banchpa01 misses 3-pt jump shot from 27 ft
+23,rebound,,,2.0,4.0,,,,,,,,,,,defensive,jonestr01,False,,,,,,,,,,,,,,,,,,,9:28.0 Defensive rebound by jonestr01 2-4
+24,foul,,,2.0,4.0,,,,,,,,,,,,,,shooting,cartewe01,giddejo01,,,,,,,,,,,,,,,,9:25.0 Shooting foul by cartewe01 (drawn by giddejo01 ) 2-4
+25,free_throw,,,3.0,4.0,1.0,giddejo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:25.0 giddejo01 makes free throw 1 of 2 +1 3-4
+26,free_throw,,,4.0,4.0,1.0,giddejo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:25.0 giddejo01 makes free throw 2 of 2 +1 4-4
+27,fg_make,,,4.0,6.0,2.0,cartewe01,2.0,dunk,1.0,wagnefr01,,,,,,,,,,,,,,,,,,,,,,,,,,9:11.0 4-6 +2 cartewe01 makes 2-pt dunk from 1 ft (assist by wagnefr01 )
+28,foul,,,4.0,6.0,,,,,,,,,,,,,,shooting,colliza01,cartewe01,,,,,,,,,,,,,,,,9:11.0 4-6 Shooting foul by colliza01 (drawn by cartewe01 )
+29,free_throw,,,4.0,6.0,,cartewe01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,9:11.0 4-6 cartewe01 misses free throw 1 of 1
+30,rebound,,,4.0,6.0,,,,,,,,,,,defensive,colliza01,False,,,,,,,,,,,,,,,,,,,9:09.0 Defensive rebound by colliza01 4-6
+31,fg_miss,,,4.0,6.0,,buzelma01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:03.0 buzelma01 misses 2-pt layup from 4 ft 4-6
+32,rebound,,,4.0,6.0,,,,,,,,,,,offensive,giddejo01,False,,,,,,,,,,,,,,,,,,,9:00.0 Offensive rebound by giddejo01 4-6
+33,fg_miss,,,4.0,6.0,,jonestr01,2.0,jump shot,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:50.0 jonestr01 misses 2-pt jump shot from 11 ft 4-6
+34,rebound,,,4.0,6.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,8:48.0 4-6 Defensive rebound by Team
+35,foul,,,4.0,6.0,,,,,,,,,,,,,,loose ball,giddejo01,banchpa01,,,,,,,,,,,,,,,,8:48.0 Loose ball foul by giddejo01 (drawn by banchpa01 ) 4-6
+36,fg_make,,,4.0,8.0,2.0,anthoco01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:28.0 4-8 +2 anthoco01 makes 2-pt layup from 2 ft
+37,fg_make,,,6.0,8.0,2.0,jonestr01,2.0,layup,3.0,whiteco01,,,,,,,,,,,,,,,,,,,,,,,,,,8:23.0 jonestr01 makes 2-pt layup from 3 ft (assist by whiteco01 ) +2 6-8
+38,fg_miss,,,6.0,8.0,,cartewe01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:08.0 6-8 cartewe01 misses 2-pt jump shot from 12 ft
+39,rebound,,,6.0,8.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,8:08.0 Defensive rebound by giddejo01 6-8
+40,substitution,,,6.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:08.0 smithja04 enters the game for colliza01 6-8
+41,fg_miss,,,6.0,8.0,,buzelma01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:56.0 buzelma01 misses 3-pt jump shot from 24 ft 6-8
+42,rebound,,,6.0,8.0,,,,,,,,,,,offensive,giddejo01,False,,,,,,,,,,,,,,,,,,,7:54.0 Offensive rebound by giddejo01 6-8
+43,fg_make,,,9.0,8.0,3.0,whiteco01,3.0,jump shot,29.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,7:49.0 whiteco01 makes 3-pt jump shot from 29 ft (assist by giddejo01 ) +3 9-8
+44,fg_make,,,9.0,11.0,3.0,anthoco01,3.0,jump shot,24.0,cartewe01,,,,,,,,,,,,,,,,,,,,,,,,,,7:32.0 9-11 +3 anthoco01 makes 3-pt jump shot from 24 ft (assist by cartewe01 )
+45,fg_miss,,,9.0,11.0,,smithja04,2.0,jump shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:07.0 smithja04 misses 2-pt jump shot from 3 ft 9-11
+46,rebound,,,9.0,11.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:07.0 Offensive rebound by Team 9-11
+47,foul,,,9.0,11.0,,,,,,,,,,,,,,loose ball,caldwke01,giddejo01,,,,,,,,,,,,,,,,7:07.0 9-11 Loose ball foul by caldwke01 (drawn by giddejo01 )
+48,foul,,,9.0,11.0,,,,,,,,,,,,,,personal,anthoco01,whiteco01,,,,,,,,,,,,,,,,7:02.0 Personal foul by anthoco01 (drawn by whiteco01 ) 9-11
+49,fg_make,,,12.0,11.0,3.0,buzelma01,3.0,jump shot,26.0,smithja04,,,,,,,,,,,,,,,,,,,,,,,,,,6:56.0 buzelma01 makes 3-pt jump shot from 26 ft (assist by smithja04 ) +3 12-11
+50,foul,,,12.0,11.0,,,,,,,,,,,,,,shooting,buzelma01,banchpa01,,,,,,,,,,,,,,,,6:45.0 12-11 Shooting foul by buzelma01 (drawn by banchpa01 )
+51,timeout,,,12.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Orlando full,,,,6:45.0 12-11 Orlando full timeout
+52,substitution,,,12.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:45.0 huertke01 enters the game for whiteco01 12-11
+53,substitution,,,12.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:45.0 12-11 bitadgo01 enters the game for cartewe01
+54,substitution,,,12.0,11.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:45.0 12-11 howarje01 enters the game for wagnefr01
+55,free_throw,,,12.0,12.0,1.0,banchpa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:45.0 12-12 +1 banchpa01 makes free throw 1 of 2
+56,free_throw,,,12.0,13.0,1.0,banchpa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:45.0 12-13 +1 banchpa01 makes free throw 2 of 2
+57,fg_make,,,14.0,13.0,2.0,buzelma01,2.0,jump shot,21.0,jonestr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:31.0 buzelma01 makes 2-pt jump shot from 21 ft (assist by jonestr01 ) +2 14-13
+58,fg_miss,,,14.0,13.0,,anthoco01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:19.0 14-13 anthoco01 misses 3-pt jump shot from 30 ft
+59,rebound,,,14.0,13.0,,,,,,,,,,,defensive,jonestr01,False,,,,,,,,,,,,,,,,,,,6:17.0 Defensive rebound by jonestr01 14-13
+60,turnover,,,14.0,13.0,,,,,,,,,,,,,,,,,huertke01,bad pass; steal by howarje01,howarje01,,,,,,,,,,,,,6:14.0 Turnover by huertke01 (bad pass; steal by howarje01 ) 14-13
+61,fg_make,,,14.0,15.0,2.0,howarje01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:08.0 14-15 +2 howarje01 makes 2-pt layup from 2 ft
+62,fg_make,,,16.0,15.0,2.0,giddejo01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:01.0 giddejo01 makes 2-pt layup from 3 ft +2 16-15
+63,fg_make,,,16.0,18.0,3.0,caldwke01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:43.0 16-18 +3 caldwke01 makes 3-pt jump shot from 26 ft
+64,turnover,,,16.0,18.0,,,,,,,,,,,,,,,,,giddejo01,bad pass; steal by caldwke01,caldwke01,,,,,,,,,,,,,5:33.0 Turnover by giddejo01 (bad pass; steal by caldwke01 ) 16-18
+65,turnover,,,16.0,18.0,,,,,,,,,,,,,,,,,caldwke01,bad pass,,,,,,,,,,,,,,5:32.0 16-18 Turnover by caldwke01 (bad pass)
+66,fg_miss,,,16.0,18.0,,smithja04,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 smithja04 misses 3-pt jump shot from 25 ft 16-18
+67,rebound,,,16.0,18.0,,,,,,,,,,,defensive,banchpa01,False,,,,,,,,,,,,,,,,,,,5:22.0 16-18 Defensive rebound by banchpa01
+68,fg_miss,,,16.0,18.0,,howarje01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:11.0 16-18 howarje01 misses 3-pt jump shot from 23 ft
+69,rebound,,,16.0,18.0,,,,,,,,,,,offensive,banchpa01,False,,,,,,,,,,,,,,,,,,,5:08.0 16-18 Offensive rebound by banchpa01
+70,fg_make,,,16.0,20.0,2.0,banchpa01,2.0,layup,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:07.0 16-20 +2 banchpa01 makes 2-pt layup from 1 ft
+71,fg_make,,,19.0,20.0,3.0,buzelma01,3.0,jump shot,25.0,huertke01,,,,,,,,,,,,,,,,,,,,,,,,,,4:56.0 buzelma01 makes 3-pt jump shot from 25 ft (assist by huertke01 ) +3 19-20
+72,fg_make,,,19.0,22.0,2.0,caldwke01,2.0,jump shot,20.0,banchpa01,,,,,,,,,,,,,,,,,,,,,,,,,,4:34.0 19-22 +2 caldwke01 makes 2-pt jump shot from 20 ft (assist by banchpa01 )
+73,foul,,,19.0,22.0,,,,,,,,,,,,,,shooting,howarje01,jonestr01,,,,,,,,,,,,,,,,4:25.0 Shooting foul by howarje01 (drawn by jonestr01 ) 19-22
+74,free_throw,,,20.0,22.0,1.0,jonestr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:25.0 jonestr01 makes free throw 1 of 2 +1 20-22
+75,free_throw,,,21.0,22.0,1.0,jonestr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:25.0 jonestr01 makes free throw 2 of 2 +1 21-22
+76,fg_miss,,,21.0,22.0,,anthoco01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:13.0 21-22 anthoco01 misses 3-pt jump shot from 27 ft
+77,rebound,,,21.0,22.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,4:10.0 21-22 Offensive rebound by Team
+78,substitution,,,21.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 hortota01 enters the game for buzelma01 21-22
+79,substitution,,,21.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 phillju01 enters the game for giddejo01 21-22
+80,substitution,,,21.0,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:10.0 whiteco01 enters the game for jonestr01 21-22
+81,fg_miss,,,21.0,22.0,,anthoco01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 21-22 anthoco01 misses 2-pt jump shot from 14 ft
+82,rebound,,,21.0,22.0,,,,,,,,,,,defensive,smithja04,False,,,,,,,,,,,,,,,,,,,3:57.0 Defensive rebound by smithja04 21-22
+83,fg_make,,,23.0,22.0,2.0,phillju01,2.0,dunk,1.0,smithja04,,,,,,,,,,,,,,,,,,,,,,,,,,3:44.0 phillju01 makes 2-pt dunk from 1 ft (assist by smithja04 ) +2 23-22
+84,fg_miss,,,23.0,22.0,,caldwke01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:28.0 23-22 caldwke01 misses 3-pt jump shot from 23 ft
+85,rebound,,,23.0,22.0,,,,,,,,,,,offensive,anthoco01,False,,,,,,,,,,,,,,,,,,,3:25.0 23-22 Offensive rebound by anthoco01
+86,fg_make,,,23.0,24.0,2.0,bitadgo01,2.0,dunk,1.0,anthoco01,,,,,,,,,,,,,,,,,,,,,,,,,,3:22.0 23-24 +2 bitadgo01 makes 2-pt dunk from 1 ft (assist by anthoco01 )
+87,timeout,,,23.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chicago full,,,,3:18.0 Chicago full timeout 23-24
+88,substitution,,,23.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:18.0 23-24 blackan01 enters the game for anthoco01
+89,substitution,,,23.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:18.0 23-24 dasiltr01 enters the game for banchpa01
+90,substitution,,,23.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:18.0 23-24 josepco01 enters the game for caldwke01
+91,substitution,,,23.0,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:18.0 23-24 wagnefr01 enters the game for howarje01
+92,foul,,,23.0,24.0,,,,,,,,,,,,,,offensive,smithja04,josepco01,,,,,,,,,,,,,,,,3:14.0 Offensive foul by smithja04 (drawn by josepco01 ) 23-24
+93,turnover,,,23.0,24.0,,,,,,,,,,,,,,,,,smithja04,offensive foul,,,,,,,,,,,,,,3:14.0 Turnover by smithja04 (offensive foul) 23-24
+94,foul,,,23.0,24.0,,,,,,,,,,,,,,personal,hortota01,wagnefr01,,,,,,,,,,,,,,,,3:07.0 23-24 Personal foul by hortota01 (drawn by wagnefr01 )
+95,fg_miss,,,23.0,24.0,,wagnefr01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:56.0 23-24 wagnefr01 misses 2-pt jump shot from 10 ft
+96,rebound,,,23.0,24.0,,,,,,,,,,,defensive,huertke01,False,,,,,,,,,,,,,,,,,,,2:53.0 Defensive rebound by huertke01 23-24
+97,fg_make,,,25.0,24.0,2.0,phillju01,2.0,layup,2.0,huertke01,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 phillju01 makes 2-pt layup from 2 ft (assist by huertke01 ) +2 25-24
+98,fg_make,,,25.0,26.0,2.0,bitadgo01,2.0,dunk,1.0,dasiltr01,,,,,,,,,,,,,,,,,,,,,,,,,,2:29.0 25-26 +2 bitadgo01 makes 2-pt dunk from 1 ft (assist by dasiltr01 )
+99,foul,,,25.0,26.0,,,,,,,,,,,,,,shooting,wagnefr01,hortota01,,,,,,,,,,,,,,,,2:23.0 Shooting foul by wagnefr01 (drawn by hortota01 ) 25-26
+100,free_throw,,,25.0,26.0,,hortota01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:23.0 hortota01 misses free throw 1 of 2 25-26
+101,rebound,,,25.0,26.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:23.0 Offensive rebound by Team 25-26
+102,free_throw,,,25.0,26.0,,hortota01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:23.0 hortota01 misses free throw 2 of 2 25-26
+103,rebound,,,25.0,26.0,,,,,,,,,,,defensive,dasiltr01,False,,,,,,,,,,,,,,,,,,,2:22.0 25-26 Defensive rebound by dasiltr01
+104,fg_make,,,25.0,28.0,2.0,wagnefr01,2.0,layup,2.0,dasiltr01,,,,,,,,,,,,,,,,,,,,,,,,,,2:11.0 25-28 +2 wagnefr01 makes 2-pt layup from 2 ft (assist by dasiltr01 )
+105,fg_make,,,28.0,28.0,3.0,hortota01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:54.0 hortota01 makes 3-pt jump shot from 23 ft +3 28-28
+106,fg_miss,,,28.0,28.0,,josepco01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:36.0 28-28 josepco01 misses 3-pt jump shot from 26 ft
+107,rebound,,,28.0,28.0,,,,,,,,,,,defensive,huertke01,False,,,,,,,,,,,,,,,,,,,1:32.0 Defensive rebound by huertke01 28-28
+108,fg_miss,,,28.0,28.0,,hortota01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:22.0 hortota01 misses 3-pt jump shot from 24 ft 28-28
+109,rebound,,,28.0,28.0,,,,,,,,,,,defensive,blackan01,False,,,,,,,,,,,,,,,,,,,1:20.0 28-28 Defensive rebound by blackan01
+110,fg_make,,,28.0,31.0,3.0,blackan01,3.0,jump shot,26.0,bitadgo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:02.0 28-31 +3 blackan01 makes 3-pt jump shot from 26 ft (assist by bitadgo01 )
+111,fg_make,,,31.0,31.0,3.0,huertke01,3.0,jump shot,25.0,phillju01,,,,,,,,,,,,,,,,,,,,,,,,,,0:45.0 huertke01 makes 3-pt jump shot from 25 ft (assist by phillju01 ) +3 31-31
+112,foul,,,31.0,31.0,,,,,,,,,,,,,,personal,whiteco01,blackan01,,,,,,,,,,,,,,,,0:40.0 31-31 Personal foul by whiteco01 (drawn by blackan01 )
+113,free_throw,,,31.0,31.0,,blackan01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:40.0 31-31 blackan01 misses free throw 1 of 2
+114,rebound,,,31.0,31.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:40.0 31-31 Offensive rebound by Team
+115,free_throw,,,31.0,31.0,,blackan01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:40.0 31-31 blackan01 misses free throw 2 of 2
+116,rebound,,,31.0,31.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:39.0 31-31 Offensive rebound by Team
+117,foul,,,31.0,31.0,,,,,,,,,,,,,,loose ball,smithja04,bitadgo01,,,,,,,,,,,,,,,,0:39.0 Loose ball foul by smithja04 (drawn by bitadgo01 ) 31-31
+118,free_throw,,,31.0,32.0,1.0,bitadgo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:39.0 31-32 +1 bitadgo01 makes free throw 1 of 2
+119,free_throw,,,31.0,33.0,1.0,bitadgo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,0:39.0 31-33 +1 bitadgo01 makes free throw 2 of 2
+120,fg_make,,,33.0,33.0,2.0,whiteco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:31.0 whiteco01 makes 2-pt layup from 3 ft +2 33-33
+121,fg_miss,,,33.0,33.0,,wagnefr01,2.0,jump shot,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:14.0 33-33 wagnefr01 misses 2-pt jump shot from 14 ft
+122,rebound,,,33.0,33.0,,,,,,,,,,,defensive,hortota01,False,,,,,,,,,,,,,,,,,,,0:10.0 Defensive rebound by hortota01 33-33
+123,turnover,,,33.0,33.0,,,,,,,,,,,,,,,,,hortota01,bad pass,,,,,,,,,,,,,,0:09.0 Turnover by hortota01 (bad pass) 33-33
+124,fg_make,,,33.0,35.0,2.0,wagnefr01,2.0,layup,2.0,josepco01,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 33-35 +2 wagnefr01 makes 2-pt layup from 2 ft (assist by josepco01 )
+125,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,1.0,,0:00.0 End of 1st quarter
+126,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,12:00.0 Start of 2nd quarter
+127,fg_miss,,,33.0,35.0,,dasiltr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:39.0 33-35 dasiltr01 misses 3-pt jump shot from 27 ft
+128,rebound,,,33.0,35.0,,,,,,,,,,,offensive,bitadgo01,False,,,,,,,,,,,,,,,,,,,11:35.0 33-35 Offensive rebound by bitadgo01
+129,fg_make,,,33.0,37.0,2.0,dasiltr01,2.0,layup,3.0,bitadgo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:33.0 33-37 +2 dasiltr01 makes 2-pt layup from 3 ft (assist by bitadgo01 )
+130,timeout,,,33.0,37.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chicago full,,,,11:33.0 Chicago full timeout 33-37
+131,turnover,,,33.0,37.0,,,,,,,,,,,,,,,,,huertke01,bad pass; steal by blackan01,blackan01,,,,,,,,,,,,,11:20.0 Turnover by huertke01 (bad pass; steal by blackan01 ) 33-37
+132,fg_make,,,33.0,39.0,2.0,blackan01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:19.0 33-39 +2 blackan01 makes 2-pt dunk from 1 ft
+133,fg_make,,,35.0,39.0,2.0,huertke01,2.0,jump shot,15.0,terryda01,,,,,,,,,,,,,,,,,,,,,,,,,,10:58.0 huertke01 makes 2-pt jump shot from 15 ft (assist by terryda01 ) +2 35-39
+134,foul,,,35.0,39.0,,,,,,,,,,,,,,shooting,colliza01,dasiltr01,,,,,,,,,,,,,,,,10:38.0 35-39 Shooting foul by colliza01 (drawn by dasiltr01 )
+135,free_throw,,,35.0,40.0,1.0,dasiltr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:38.0 35-40 +1 dasiltr01 makes free throw 1 of 2
+136,free_throw,,,35.0,41.0,1.0,dasiltr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:38.0 35-41 +1 dasiltr01 makes free throw 2 of 2
+137,fg_make,,,38.0,41.0,3.0,whiteco01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:25.0 whiteco01 makes 3-pt jump shot from 26 ft +3 38-41
+138,fg_miss,,,38.0,41.0,,wagnefr01,2.0,layup,4.0,,colliza01,,,,,,,,,,,,,,,,,,,,,,,,,10:00.0 38-41 wagnefr01 misses 2-pt layup from 4 ft (block by colliza01 )
+139,rebound,,,38.0,41.0,,,,,,,,,,,defensive,whiteco01,False,,,,,,,,,,,,,,,,,,,9:58.0 Defensive rebound by whiteco01 38-41
+140,fg_make,,,41.0,41.0,3.0,whiteco01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:55.0 whiteco01 makes 3-pt jump shot from 25 ft +3 41-41
+141,timeout,,,41.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Orlando full,,,,9:55.0 41-41 Orlando full timeout
+142,substitution,,,41.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:55.0 smithja04 enters the game for colliza01 41-41
+143,substitution,,,41.0,41.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:55.0 41-41 banchpa01 enters the game for josepco01
+144,fg_make,,,41.0,43.0,2.0,bitadgo01,2.0,layup,3.0,blackan01,,,,,,,,,,,,,,,,,,,,,,,,,,9:38.0 41-43 +2 bitadgo01 makes 2-pt layup from 3 ft (assist by blackan01 )
+145,fg_make,,,44.0,43.0,3.0,terryda01,3.0,jump shot,23.0,huertke01,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 terryda01 makes 3-pt jump shot from 23 ft (assist by huertke01 ) +3 44-43
+146,fg_miss,,,44.0,43.0,,banchpa01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:06.0 44-43 banchpa01 misses 2-pt layup from 4 ft
+147,rebound,,,44.0,43.0,,,,,,,,,,,defensive,terryda01,False,,,,,,,,,,,,,,,,,,,9:02.0 Defensive rebound by terryda01 44-43
+148,fg_miss,,,44.0,43.0,,whiteco01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:59.0 whiteco01 misses 3-pt jump shot from 28 ft 44-43
+149,rebound,,,44.0,43.0,,,,,,,,,,,defensive,blackan01,False,,,,,,,,,,,,,,,,,,,8:57.0 44-43 Defensive rebound by blackan01
+150,foul,,,44.0,43.0,,,,,,,,,,,,,,shooting,phillju01,banchpa01,,,,,,,,,,,,,,,,8:47.0 44-43 Shooting foul by phillju01 (drawn by banchpa01 )
+151,free_throw,,,44.0,44.0,1.0,banchpa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:47.0 44-44 +1 banchpa01 makes free throw 1 of 2
+152,substitution,,,44.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:47.0 buzelma01 enters the game for huertke01 44-44
+153,substitution,,,44.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:47.0 giddejo01 enters the game for phillju01 44-44
+154,substitution,,,44.0,44.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:47.0 jonestr01 enters the game for whiteco01 44-44
+155,free_throw,,,44.0,45.0,1.0,banchpa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:47.0 44-45 +1 banchpa01 makes free throw 2 of 2
+156,fg_miss,,,44.0,45.0,,smithja04,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:39.0 smithja04 misses 3-pt jump shot from 27 ft 44-45
+157,rebound,,,44.0,45.0,,,,,,,,,,,offensive,buzelma01,False,,,,,,,,,,,,,,,,,,,8:34.0 Offensive rebound by buzelma01 44-45
+158,fg_make,,,46.0,45.0,2.0,jonestr01,2.0,layup,3.0,buzelma01,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 jonestr01 makes 2-pt layup from 3 ft (assist by buzelma01 ) +2 46-45
+159,turnover,,,46.0,45.0,,,,,,,,,,,,,,,,,blackan01,out of bounds lost ball,,,,,,,,,,,,,,8:16.0 46-45 Turnover by blackan01 (out of bounds lost ball)
+160,substitution,,,46.0,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:16.0 46-45 anthoco01 enters the game for bitadgo01
+161,substitution,,,46.0,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:16.0 46-45 caldwke01 enters the game for blackan01
+162,substitution,,,46.0,45.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:16.0 46-45 cartewe01 enters the game for dasiltr01
+163,fg_make,,,48.0,45.0,2.0,giddejo01,2.0,hook shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:59.0 giddejo01 makes 2-pt hook shot from 10 ft +2 48-45
+164,fg_miss,,,48.0,45.0,,banchpa01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:46.0 48-45 banchpa01 misses 2-pt jump shot from 12 ft
+165,rebound,,,48.0,45.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,7:44.0 Defensive rebound by giddejo01 48-45
+166,turnover,,,48.0,45.0,,,,,,,,,,,,,,,,,jonestr01,lost ball; steal by wagnefr01,wagnefr01,,,,,,,,,,,,,7:38.0 Turnover by jonestr01 (lost ball; steal by wagnefr01 ) 48-45
+167,foul,,,48.0,45.0,,,,,,,,,,,,,,shooting,jonestr01,anthoco01,,,,,,,,,,,,,,,,7:24.0 48-45 Shooting foul by jonestr01 (drawn by anthoco01 )
+168,free_throw,,,48.0,46.0,1.0,anthoco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:24.0 48-46 +1 anthoco01 makes free throw 1 of 2
+169,free_throw,,,48.0,47.0,1.0,anthoco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:24.0 48-47 +1 anthoco01 makes free throw 2 of 2
+170,fg_make,,,50.0,47.0,2.0,buzelma01,2.0,layup,1.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,7:15.0 buzelma01 makes 2-pt layup from 1 ft (assist by giddejo01 ) +2 50-47
+171,foul,,,50.0,47.0,,,,,,,,,,,,,,shooting,caldwke01,buzelma01,,,,,,,,,,,,,,,,7:15.0 Shooting foul by caldwke01 (drawn by buzelma01 ) 50-47
+172,free_throw,,,51.0,47.0,1.0,buzelma01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,7:15.0 buzelma01 makes free throw 1 of 1 +1 51-47
+173,timeout,,,51.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chicago full,,,,7:05.0 Chicago full timeout 51-47
+174,instant_replay,,,51.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:05.0 Instant Replay (Challenge: Ruling Stands) 51-47
+175,fg_miss,,,51.0,47.0,,anthoco01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:05.0 51-47 anthoco01 misses 2-pt layup from 4 ft
+176,rebound,,,51.0,47.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,7:05.0 Defensive rebound by Team 51-47
+177,fg_make,,,53.0,47.0,2.0,jonestr01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:45.0 jonestr01 makes 2-pt layup from 2 ft +2 53-47
+178,fg_miss,,,53.0,47.0,,wagnefr01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:29.0 53-47 wagnefr01 misses 3-pt jump shot from 27 ft
+179,rebound,,,53.0,47.0,,,,,,,,,,,defensive,jonestr01,False,,,,,,,,,,,,,,,,,,,6:25.0 Defensive rebound by jonestr01 53-47
+180,fg_miss,,,53.0,47.0,,terryda01,2.0,layup,7.0,,cartewe01,,,,,,,,,,,,,,,,,,,,,,,,,6:17.0 terryda01 misses 2-pt layup from 7 ft (block by cartewe01 ) 53-47
+181,rebound,,,53.0,47.0,,,,,,,,,,,offensive,smithja04,False,,,,,,,,,,,,,,,,,,,6:15.0 Offensive rebound by smithja04 53-47
+182,foul,,,53.0,47.0,,,,,,,,,,,,,,shooting,wagnefr01,jonestr01,,,,,,,,,,,,,,,,6:08.0 Shooting foul by wagnefr01 (drawn by jonestr01 ) 53-47
+183,free_throw,,,54.0,47.0,1.0,jonestr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:08.0 jonestr01 makes free throw 1 of 2 +1 54-47
+184,free_throw,,,55.0,47.0,1.0,jonestr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,6:08.0 jonestr01 makes free throw 2 of 2 +1 55-47
+185,foul,,,55.0,47.0,,,,,,,,,,,,,,offensive,banchpa01,jonestr01,,,,,,,,,,,,,,,,6:00.0 55-47 Offensive foul by banchpa01 (drawn by jonestr01 )
+186,turnover,,,55.0,47.0,,,,,,,,,,,,,,,,,banchpa01,offensive foul,,,,,,,,,,,,,,6:00.0 55-47 Turnover by banchpa01 (offensive foul)
+187,fg_miss,,,55.0,47.0,,giddejo01,2.0,jump shot,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:51.0 giddejo01 misses 2-pt jump shot from 5 ft 55-47
+188,rebound,,,55.0,47.0,,,,,,,,,,,defensive,banchpa01,False,,,,,,,,,,,,,,,,,,,5:48.0 55-47 Defensive rebound by banchpa01
+189,fg_make,,,55.0,49.0,2.0,banchpa01,2.0,jump shot,19.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:42.0 55-49 +2 banchpa01 makes 2-pt jump shot from 19 ft
+190,turnover,,,55.0,49.0,,,,,,,,,,,,,,,,,giddejo01,bad pass; steal by wagnefr01,wagnefr01,,,,,,,,,,,,,5:30.0 Turnover by giddejo01 (bad pass; steal by wagnefr01 ) 55-49
+191,foul,,,55.0,49.0,,,,,,,,,,,,,,shooting,terryda01,banchpa01,,,,,,,,,,,,,,,,5:25.0 55-49 Shooting foul by terryda01 (drawn by banchpa01 )
+192,free_throw,,,55.0,50.0,1.0,banchpa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:25.0 55-50 +1 banchpa01 makes free throw 1 of 2
+193,substitution,,,55.0,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 huertke01 enters the game for jonestr01 55-50
+194,substitution,,,55.0,50.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:25.0 whiteco01 enters the game for terryda01 55-50
+195,free_throw,,,55.0,51.0,1.0,banchpa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:25.0 55-51 +1 banchpa01 makes free throw 2 of 2
+196,fg_make,,,58.0,51.0,3.0,whiteco01,3.0,jump shot,25.0,smithja04,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 whiteco01 makes 3-pt jump shot from 25 ft (assist by smithja04 ) +3 58-51
+197,turnover,,,58.0,51.0,,,,,,,,,,,,,,,,,anthoco01,bad pass; steal by giddejo01,giddejo01,,,,,,,,,,,,,4:58.0 58-51 Turnover by anthoco01 (bad pass; steal by giddejo01 )
+198,fg_miss,,,58.0,51.0,,whiteco01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:52.0 whiteco01 misses 3-pt jump shot from 27 ft 58-51
+199,rebound,,,58.0,51.0,,,,,,,,,,,defensive,anthoco01,False,,,,,,,,,,,,,,,,,,,4:48.0 58-51 Defensive rebound by anthoco01
+200,fg_miss,,,58.0,51.0,,anthoco01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:43.0 58-51 anthoco01 misses 2-pt layup from 4 ft
+201,rebound,,,58.0,51.0,,,,,,,,,,,offensive,cartewe01,False,,,,,,,,,,,,,,,,,,,4:41.0 58-51 Offensive rebound by cartewe01
+202,fg_miss,,,58.0,51.0,,cartewe01,2.0,layup,4.0,,buzelma01,,,,,,,,,,,,,,,,,,,,,,,,,4:40.0 58-51 cartewe01 misses 2-pt layup from 4 ft (block by buzelma01 )
+203,rebound,,,58.0,51.0,,,,,,,,,,,defensive,huertke01,False,,,,,,,,,,,,,,,,,,,4:36.0 Defensive rebound by huertke01 58-51
+204,fg_miss,,,58.0,51.0,,huertke01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:31.0 huertke01 misses 3-pt jump shot from 27 ft 58-51
+205,rebound,,,58.0,51.0,,,,,,,,,,,defensive,cartewe01,False,,,,,,,,,,,,,,,,,,,4:26.0 58-51 Defensive rebound by cartewe01
+206,fg_make,,,58.0,53.0,2.0,banchpa01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 58-53 +2 banchpa01 makes 2-pt layup from 2 ft
+207,foul,,,58.0,53.0,,,,,,,,,,,,,,shooting,huertke01,banchpa01,,,,,,,,,,,,,,,,4:20.0 58-53 Shooting foul by huertke01 (drawn by banchpa01 )
+208,substitution,,,58.0,53.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:20.0 58-53 dasiltr01 enters the game for anthoco01
+209,free_throw,,,58.0,54.0,1.0,banchpa01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,4:20.0 58-54 +1 banchpa01 makes free throw 1 of 1
+210,fg_make,,,60.0,54.0,2.0,whiteco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:05.0 whiteco01 makes 2-pt layup from 3 ft +2 60-54
+211,fg_make,,,60.0,57.0,3.0,cartewe01,3.0,jump shot,23.0,wagnefr01,,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 60-57 +3 cartewe01 makes 3-pt jump shot from 23 ft (assist by wagnefr01 )
+212,fg_make,,,62.0,57.0,2.0,giddejo01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:31.0 giddejo01 makes 2-pt layup from 2 ft +2 62-57
+213,fg_miss,,,62.0,57.0,,dasiltr01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:19.0 62-57 dasiltr01 misses 3-pt jump shot from 26 ft
+214,rebound,,,62.0,57.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,3:16.0 Defensive rebound by giddejo01 62-57
+215,foul,,,62.0,57.0,,,,,,,,,,,,,,offensive,buzelma01,wagnefr01,,,,,,,,,,,,,,,,3:08.0 Offensive foul by buzelma01 (drawn by wagnefr01 ) 62-57
+216,turnover,,,62.0,57.0,,,,,,,,,,,,,,,,,buzelma01,offensive foul,,,,,,,,,,,,,,3:08.0 Turnover by buzelma01 (offensive foul) 62-57
+217,fg_miss,,,62.0,57.0,,dasiltr01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:57.0 62-57 dasiltr01 misses 2-pt layup from 3 ft
+218,rebound,,,62.0,57.0,,,,,,,,,,,defensive,smithja04,False,,,,,,,,,,,,,,,,,,,2:55.0 Defensive rebound by smithja04 62-57
+219,foul,,,62.0,57.0,,,,,,,,,,,,,,shooting,dasiltr01,giddejo01,,,,,,,,,,,,,,,,2:51.0 Shooting foul by dasiltr01 (drawn by giddejo01 ) 62-57
+220,free_throw,,,63.0,57.0,1.0,giddejo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:51.0 giddejo01 makes free throw 1 of 2 +1 63-57
+221,substitution,,,63.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:51.0 63-57 josepco01 enters the game for wagnefr01
+222,unknown,,,63.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by wagnefr01,2:51.0 63-57 Technical foul by wagnefr01
+223,unknown,,,63.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,whiteco01 misses technical free throw,2:51.0 whiteco01 misses technical free throw 63-57
+224,rebound,,,63.0,57.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:51.0 Offensive rebound by Team 63-57
+225,free_throw,,,64.0,57.0,1.0,giddejo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:51.0 giddejo01 makes free throw 2 of 2 +1 64-57
+226,foul,,,64.0,57.0,,,,,,,,,,,,,,personal,smithja04,cartewe01,,,,,,,,,,,,,,,,2:36.0 64-57 Personal foul by smithja04 (drawn by cartewe01 )
+227,timeout,,,64.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chicago full,,,,2:36.0 Chicago full timeout 64-57
+228,instant_replay,,,64.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:36.0 Instant Replay (Challenge: Ruling Stands) 64-57
+229,substitution,,,64.0,57.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:36.0 jonestr01 enters the game for buzelma01 64-57
+230,free_throw,,,64.0,58.0,1.0,cartewe01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:36.0 64-58 +1 cartewe01 makes free throw 1 of 2
+231,free_throw,,,64.0,59.0,1.0,cartewe01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,2:36.0 64-59 +1 cartewe01 makes free throw 2 of 2
+232,fg_miss,,,64.0,59.0,,whiteco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:21.0 whiteco01 misses 2-pt layup from 3 ft 64-59
+233,rebound,,,64.0,59.0,,,,,,,,,,,defensive,josepco01,False,,,,,,,,,,,,,,,,,,,2:19.0 64-59 Defensive rebound by josepco01
+234,fg_make,,,64.0,61.0,2.0,caldwke01,2.0,layup,3.0,dasiltr01,,,,,,,,,,,,,,,,,,,,,,,,,,1:59.0 64-61 +2 caldwke01 makes 2-pt layup from 3 ft (assist by dasiltr01 )
+235,fg_miss,,,64.0,61.0,,huertke01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:47.0 huertke01 misses 2-pt jump shot from 4 ft 64-61
+236,rebound,,,64.0,61.0,,,,,,,,,,,offensive,huertke01,False,,,,,,,,,,,,,,,,,,,1:45.0 Offensive rebound by huertke01 64-61
+237,foul,,,64.0,61.0,,,,,,,,,,,,,,shooting,josepco01,huertke01,,,,,,,,,,,,,,,,1:45.0 Shooting foul by josepco01 (drawn by huertke01 ) 64-61
+238,free_throw,,,65.0,61.0,1.0,huertke01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:45.0 huertke01 makes free throw 1 of 2 +1 65-61
+239,substitution,,,65.0,61.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:45.0 phillju01 enters the game for smithja04 65-61
+240,free_throw,,,66.0,61.0,1.0,huertke01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:45.0 huertke01 makes free throw 2 of 2 +1 66-61
+241,turnover,,,66.0,61.0,,,,,,,,,,,,,,,,,dasiltr01,bad pass; steal by huertke01,huertke01,,,,,,,,,,,,,1:34.0 66-61 Turnover by dasiltr01 (bad pass; steal by huertke01 )
+242,fg_make,,,69.0,61.0,3.0,huertke01,3.0,jump shot,25.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,1:28.0 huertke01 makes 3-pt jump shot from 25 ft (assist by giddejo01 ) +3 69-61
+243,fg_miss,,,69.0,61.0,,josepco01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:07.0 69-61 josepco01 misses 3-pt jump shot from 27 ft
+244,rebound,,,69.0,61.0,,,,,,,,,,,offensive,banchpa01,False,,,,,,,,,,,,,,,,,,,1:04.0 69-61 Offensive rebound by banchpa01
+245,fg_make,,,69.0,63.0,2.0,banchpa01,2.0,dunk,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:02.0 69-63 +2 banchpa01 makes 2-pt dunk from 1 ft
+246,fg_miss,,,69.0,63.0,,giddejo01,2.0,jump shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:58.0 giddejo01 misses 2-pt jump shot from 4 ft 69-63
+247,rebound,,,69.0,63.0,,,,,,,,,,,defensive,banchpa01,False,,,,,,,,,,,,,,,,,,,0:56.0 69-63 Defensive rebound by banchpa01
+248,fg_miss,,,69.0,63.0,,banchpa01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:48.0 69-63 banchpa01 misses 3-pt jump shot from 26 ft
+249,rebound,,,69.0,63.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,0:45.0 69-63 Offensive rebound by Team
+250,substitution,,,69.0,63.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:45.0 buzelma01 enters the game for phillju01 69-63
+251,substitution,,,69.0,63.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:45.0 69-63 wagnefr01 enters the game for cartewe01
+252,fg_make,,,69.0,66.0,3.0,caldwke01,3.0,jump shot,25.0,josepco01,,,,,,,,,,,,,,,,,,,,,,,,,,0:43.0 69-66 +3 caldwke01 makes 3-pt jump shot from 25 ft (assist by josepco01 )
+253,fg_miss,,,69.0,66.0,,huertke01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:36.0 huertke01 misses 3-pt jump shot from 26 ft 69-66
+254,rebound,,,69.0,66.0,,,,,,,,,,,defensive,dasiltr01,False,,,,,,,,,,,,,,,,,,,0:31.0 69-66 Defensive rebound by dasiltr01
+255,fg_miss,,,69.0,66.0,,dasiltr01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:19.0 69-66 dasiltr01 misses 2-pt layup from 3 ft
+256,rebound,,,69.0,66.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,0:16.0 Defensive rebound by giddejo01 69-66
+257,fg_miss,,,69.0,66.0,,whiteco01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:01.0 whiteco01 misses 3-pt jump shot from 26 ft 69-66
+258,rebound,,,69.0,66.0,,,,,,,,,,,defensive,caldwke01,False,,,,,,,,,,,,,,,,,,,0:01.0 69-66 Defensive rebound by caldwke01
+259,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,2.0,,0:00.0 End of 2nd quarter
+260,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,12:00.0 Start of 3rd quarter
+261,fg_miss,,,69.0,66.0,,wagnefr01,3.0,jump shot,24.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:44.0 69-66 wagnefr01 misses 3-pt jump shot from 24 ft
+262,rebound,,,69.0,66.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,11:43.0 69-66 Offensive rebound by Team
+263,foul,,,69.0,66.0,,,,,,,,,,,,,,loose ball,whiteco01,caldwke01,,,,,,,,,,,,,,,,11:43.0 Loose ball foul by whiteco01 (drawn by caldwke01 ) 69-66
+264,fg_make,,,69.0,68.0,2.0,wagnefr01,2.0,jump shot,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:34.0 69-68 +2 wagnefr01 makes 2-pt jump shot from 10 ft
+265,violation,,,69.0,68.0,,,,,,,,,,,,,,,,,,,,Violation,Team,kicked ball,,,,,,,,,,11:21.0 69-68 Violation by Team (kicked ball)
+266,fg_miss,,,69.0,68.0,,giddejo01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:07.0 giddejo01 misses 3-pt jump shot from 26 ft 69-68
+267,rebound,,,69.0,68.0,,,,,,,,,,,defensive,anthoco01,False,,,,,,,,,,,,,,,,,,,11:07.0 69-68 Defensive rebound by anthoco01
+268,fg_make,,,69.0,70.0,2.0,cartewe01,2.0,layup,2.0,anthoco01,,,,,,,,,,,,,,,,,,,,,,,,,,11:01.0 69-70 +2 cartewe01 makes 2-pt layup from 2 ft (assist by anthoco01 )
+269,foul,,,69.0,70.0,,,,,,,,,,,,,,shooting,buzelma01,cartewe01,,,,,,,,,,,,,,,,11:01.0 69-70 Shooting foul by buzelma01 (drawn by cartewe01 )
+270,free_throw,,,69.0,71.0,1.0,cartewe01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,11:01.0 69-71 +1 cartewe01 makes free throw 1 of 1
+271,fg_miss,,,69.0,71.0,,colliza01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:43.0 colliza01 misses 3-pt jump shot from 23 ft 69-71
+272,rebound,,,69.0,71.0,,,,,,,,,,,defensive,banchpa01,False,,,,,,,,,,,,,,,,,,,10:40.0 69-71 Defensive rebound by banchpa01
+273,fg_make,,,69.0,74.0,3.0,anthoco01,3.0,jump shot,23.0,cartewe01,,,,,,,,,,,,,,,,,,,,,,,,,,10:32.0 69-74 +3 anthoco01 makes 3-pt jump shot from 23 ft (assist by cartewe01 )
+274,timeout,,,69.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chicago full,,,,10:30.0 Chicago full timeout 69-74
+275,substitution,,,69.0,74.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:30.0 phillju01 enters the game for buzelma01 69-74
+276,foul,,,69.0,74.0,,,,,,,,,,,,,,shooting,cartewe01,giddejo01,,,,,,,,,,,,,,,,10:08.0 Shooting foul by cartewe01 (drawn by giddejo01 ) 69-74
+277,free_throw,,,69.0,74.0,,giddejo01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:08.0 giddejo01 misses free throw 1 of 2 69-74
+278,rebound,,,69.0,74.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,10:08.0 Offensive rebound by Team 69-74
+279,free_throw,,,70.0,74.0,1.0,giddejo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,10:08.0 giddejo01 makes free throw 2 of 2 +1 70-74
+280,fg_miss,,,70.0,74.0,,banchpa01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:47.0 70-74 banchpa01 misses 3-pt jump shot from 25 ft
+281,rebound,,,70.0,74.0,,,,,,,,,,,offensive,caldwke01,False,,,,,,,,,,,,,,,,,,,9:43.0 70-74 Offensive rebound by caldwke01
+282,fg_make,,,70.0,76.0,2.0,caldwke01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:30.0 70-76 +2 caldwke01 makes 2-pt jump shot from 16 ft
+283,foul,,,70.0,76.0,,,,,,,,,,,,,,personal,caldwke01,whiteco01,,,,,,,,,,,,,,,,9:23.0 Personal foul by caldwke01 (drawn by whiteco01 ) 70-76
+284,foul,,,70.0,76.0,,,,,,,,,,,,,,shooting,cartewe01,whiteco01,,,,,,,,,,,,,,,,9:17.0 Shooting foul by cartewe01 (drawn by whiteco01 ) 70-76
+285,free_throw,,,71.0,76.0,1.0,whiteco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:17.0 whiteco01 makes free throw 1 of 2 +1 71-76
+286,substitution,,,71.0,76.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:17.0 71-76 bitadgo01 enters the game for cartewe01
+287,free_throw,,,72.0,76.0,1.0,whiteco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:17.0 whiteco01 makes free throw 2 of 2 +1 72-76
+288,fg_miss,,,72.0,76.0,,banchpa01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 72-76 banchpa01 misses 2-pt jump shot from 12 ft
+289,rebound,,,72.0,76.0,,,,,,,,,,,defensive,whiteco01,False,,,,,,,,,,,,,,,,,,,9:03.0 Defensive rebound by whiteco01 72-76
+290,turnover,,,72.0,76.0,,,,,,,,,,,,,,,,,phillju01,lost ball; steal by caldwke01,caldwke01,,,,,,,,,,,,,8:59.0 Turnover by phillju01 (lost ball; steal by caldwke01 ) 72-76
+291,fg_make,,,72.0,78.0,2.0,wagnefr01,2.0,layup,2.0,caldwke01,,,,,,,,,,,,,,,,,,,,,,,,,,8:54.0 72-78 +2 wagnefr01 makes 2-pt layup from 2 ft (assist by caldwke01 )
+292,foul,,,72.0,78.0,,,,,,,,,,,,,,shooting,bitadgo01,colliza01,,,,,,,,,,,,,,,,8:41.0 Shooting foul by bitadgo01 (drawn by colliza01 ) 72-78
+293,free_throw,,,72.0,78.0,,colliza01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:41.0 colliza01 misses free throw 1 of 2 72-78
+294,rebound,,,72.0,78.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:41.0 Offensive rebound by Team 72-78
+295,free_throw,,,73.0,78.0,1.0,colliza01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:41.0 colliza01 makes free throw 2 of 2 +1 73-78
+296,fg_miss,,,73.0,78.0,,banchpa01,3.0,jump shot,27.0,,phillju01,,,,,,,,,,,,,,,,,,,,,,,,,8:27.0 73-78 banchpa01 misses 3-pt jump shot from 27 ft (block by phillju01 )
+297,rebound,,,73.0,78.0,,,,,,,,,,,offensive,wagnefr01,False,,,,,,,,,,,,,,,,,,,8:23.0 73-78 Offensive rebound by wagnefr01
+298,fg_miss,,,73.0,78.0,,wagnefr01,2.0,hook shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:23.0 73-78 wagnefr01 misses 2-pt hook shot from 3 ft
+299,rebound,,,73.0,78.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,8:23.0 73-78 Offensive rebound by Team
+300,fg_make,,,73.0,80.0,2.0,anthoco01,2.0,layup,2.0,bitadgo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:11.0 73-80 +2 anthoco01 makes 2-pt layup from 2 ft (assist by bitadgo01 )
+301,foul,,,73.0,80.0,,,,,,,,,,,,,,shooting,colliza01,anthoco01,,,,,,,,,,,,,,,,8:11.0 73-80 Shooting foul by colliza01 (drawn by anthoco01 )
+302,free_throw,,,73.0,81.0,1.0,anthoco01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,8:11.0 73-81 +1 anthoco01 makes free throw 1 of 1
+303,fg_miss,,,73.0,81.0,,jonestr01,2.0,layup,4.0,,wagnefr01,,,,,,,,,,,,,,,,,,,,,,,,,7:54.0 jonestr01 misses 2-pt layup from 4 ft (block by wagnefr01 ) 73-81
+304,rebound,,,73.0,81.0,,,,,,,,,,,offensive,jonestr01,False,,,,,,,,,,,,,,,,,,,7:51.0 Offensive rebound by jonestr01 73-81
+305,fg_miss,,,73.0,81.0,,jonestr01,2.0,jump shot,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:49.0 jonestr01 misses 2-pt jump shot from 16 ft 73-81
+306,rebound,,,73.0,81.0,,,,,,,,,,,offensive,colliza01,False,,,,,,,,,,,,,,,,,,,7:47.0 Offensive rebound by colliza01 73-81
+307,unknown,,,73.0,81.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Turnover by Team (shot clock),7:46.0 Turnover by Team (shot clock) 73-81
+308,fg_make,,,73.0,83.0,2.0,caldwke01,2.0,jump shot,18.0,wagnefr01,,,,,,,,,,,,,,,,,,,,,,,,,,7:30.0 73-83 +2 caldwke01 makes 2-pt jump shot from 18 ft (assist by wagnefr01 )
+309,fg_miss,,,73.0,83.0,,whiteco01,2.0,layup,4.0,,bitadgo01,,,,,,,,,,,,,,,,,,,,,,,,,7:21.0 whiteco01 misses 2-pt layup from 4 ft (block by bitadgo01 ) 73-83
+310,rebound,,,73.0,83.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,7:21.0 Offensive rebound by Team 73-83
+311,substitution,,,73.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:21.0 buzelma01 enters the game for jonestr01 73-83
+312,substitution,,,73.0,83.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7:21.0 huertke01 enters the game for phillju01 73-83
+313,fg_make,,,75.0,83.0,2.0,whiteco01,2.0,jump shot,13.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:11.0 whiteco01 makes 2-pt jump shot from 13 ft +2 75-83
+314,fg_make,,,75.0,85.0,2.0,banchpa01,2.0,layup,2.0,wagnefr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:48.0 75-85 +2 banchpa01 makes 2-pt layup from 2 ft (assist by wagnefr01 )
+315,fg_make,,,77.0,85.0,2.0,giddejo01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:40.0 giddejo01 makes 2-pt layup from 3 ft +2 77-85
+316,fg_miss,,,77.0,85.0,,anthoco01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:31.0 77-85 anthoco01 misses 3-pt jump shot from 25 ft
+317,rebound,,,77.0,85.0,,,,,,,,,,,defensive,buzelma01,False,,,,,,,,,,,,,,,,,,,6:28.0 Defensive rebound by buzelma01 77-85
+318,turnover,,,77.0,85.0,,,,,,,,,,,,,,,,,colliza01,traveling,,,,,,,,,,,,,,6:23.0 Turnover by colliza01 (traveling) 77-85
+319,foul,,,77.0,85.0,,,,,,,,,,,,,,personal,colliza01,bitadgo01,,,,,,,,,,,,,,,,6:07.0 77-85 Personal foul by colliza01 (drawn by bitadgo01 )
+320,substitution,,,77.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:07.0 smithja04 enters the game for colliza01 77-85
+321,substitution,,,77.0,85.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:07.0 77-85 howarje01 enters the game for wagnefr01
+322,fg_make,,,77.0,87.0,2.0,anthoco01,2.0,layup,2.0,caldwke01,,,,,,,,,,,,,,,,,,,,,,,,,,5:58.0 77-87 +2 anthoco01 makes 2-pt layup from 2 ft (assist by caldwke01 )
+323,foul,,,77.0,87.0,,,,,,,,,,,,,,shooting,buzelma01,anthoco01,,,,,,,,,,,,,,,,5:58.0 77-87 Shooting foul by buzelma01 (drawn by anthoco01 )
+324,free_throw,,,77.0,88.0,1.0,anthoco01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,5:58.0 77-88 +1 anthoco01 makes free throw 1 of 1
+325,foul,,,77.0,88.0,,,,,,,,,,,,,,personal,caldwke01,giddejo01,,,,,,,,,,,,,,,,5:49.0 Personal foul by caldwke01 (drawn by giddejo01 ) 77-88
+326,free_throw,,,78.0,88.0,1.0,giddejo01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:49.0 giddejo01 makes free throw 1 of 2 +1 78-88
+327,substitution,,,78.0,88.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:49.0 78-88 dasiltr01 enters the game for caldwke01
+328,free_throw,,,79.0,88.0,1.0,giddejo01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:49.0 giddejo01 makes free throw 2 of 2 +1 79-88
+329,fg_miss,,,79.0,88.0,,dasiltr01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:31.0 79-88 dasiltr01 misses 3-pt jump shot from 23 ft
+330,rebound,,,79.0,88.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,5:27.0 Defensive rebound by giddejo01 79-88
+331,fg_make,,,82.0,88.0,3.0,whiteco01,3.0,jump shot,26.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,5:23.0 whiteco01 makes 3-pt jump shot from 26 ft (assist by giddejo01 ) +3 82-88
+332,foul,,,82.0,88.0,,,,,,,,,,,,,,personal,whiteco01,anthoco01,,,,,,,,,,,,,,,,5:07.0 82-88 Personal foul by whiteco01 (drawn by anthoco01 )
+333,free_throw,,,82.0,89.0,1.0,anthoco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:07.0 82-89 +1 anthoco01 makes free throw 1 of 2
+334,substitution,,,82.0,89.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:07.0 hortota01 enters the game for giddejo01 82-89
+335,free_throw,,,82.0,90.0,1.0,anthoco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:07.0 82-90 +1 anthoco01 makes free throw 2 of 2
+336,fg_miss,,,82.0,90.0,,whiteco01,2.0,layup,5.0,,anthoco01,,,,,,,,,,,,,,,,,,,,,,,,,4:54.0 whiteco01 misses 2-pt layup from 5 ft (block by anthoco01 ) 82-90
+337,rebound,,,82.0,90.0,,,,,,,,,,,offensive,smithja04,False,,,,,,,,,,,,,,,,,,,4:53.0 Offensive rebound by smithja04 82-90
+338,fg_make,,,84.0,90.0,2.0,smithja04,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:51.0 smithja04 makes 2-pt layup from 3 ft +2 84-90
+339,fg_make,,,84.0,92.0,2.0,howarje01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:41.0 84-92 +2 howarje01 makes 2-pt layup from 2 ft
+340,foul,,,84.0,92.0,,,,,,,,,,,,,,shooting,anthoco01,whiteco01,,,,,,,,,,,,,,,,4:36.0 Shooting foul by anthoco01 (drawn by whiteco01 ) 84-92
+341,free_throw,,,85.0,92.0,1.0,whiteco01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:36.0 whiteco01 makes free throw 1 of 2 +1 85-92
+342,free_throw,,,86.0,92.0,1.0,whiteco01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,4:36.0 whiteco01 makes free throw 2 of 2 +1 86-92
+343,fg_miss,,,86.0,92.0,,howarje01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:21.0 86-92 howarje01 misses 3-pt jump shot from 25 ft
+344,rebound,,,86.0,92.0,,,,,,,,,,,defensive,huertke01,False,,,,,,,,,,,,,,,,,,,4:17.0 Defensive rebound by huertke01 86-92
+345,turnover,,,86.0,92.0,,,,,,,,,,,,,,,,,buzelma01,step out of bounds,,,,,,,,,,,,,,4:09.0 Turnover by buzelma01 (step out of bounds) 86-92
+346,substitution,,,86.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4:09.0 terryda01 enters the game for buzelma01 86-92
+347,fg_miss,,,86.0,92.0,,howarje01,3.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:59.0 86-92 howarje01 misses 3-pt jump shot from 22 ft
+348,rebound,,,86.0,92.0,,,,,,,,,,,defensive,whiteco01,False,,,,,,,,,,,,,,,,,,,3:56.0 Defensive rebound by whiteco01 86-92
+349,fg_make,,,88.0,92.0,2.0,whiteco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 whiteco01 makes 2-pt layup from 3 ft +2 88-92
+350,timeout,,,88.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Orlando full,,,,3:50.0 88-92 Orlando full timeout
+351,substitution,,,88.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 88-92 blackan01 enters the game for anthoco01
+352,substitution,,,88.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 88-92 cartewe01 enters the game for bitadgo01
+353,substitution,,,88.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:50.0 88-92 wagnefr01 enters the game for dasiltr01
+354,turnover,,,88.0,92.0,,,,,,,,,,,,,,,,,blackan01,bad pass,,,,,,,,,,,,,,3:35.0 88-92 Turnover by blackan01 (bad pass)
+355,foul,,,88.0,92.0,,,,,,,,,,,,,,shooting,wagnefr01,smithja04,,,,,,,,,,,,,,,,3:19.0 Shooting foul by wagnefr01 (drawn by smithja04 ) 88-92
+356,free_throw,,,89.0,92.0,1.0,smithja04,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:19.0 smithja04 makes free throw 1 of 2 +1 89-92
+357,substitution,,,89.0,92.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3:19.0 giddejo01 enters the game for whiteco01 89-92
+358,free_throw,,,89.0,92.0,,smithja04,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,3:19.0 smithja04 misses free throw 2 of 2 89-92
+359,rebound,,,89.0,92.0,,,,,,,,,,,defensive,wagnefr01,False,,,,,,,,,,,,,,,,,,,3:17.0 89-92 Defensive rebound by wagnefr01
+360,fg_miss,,,89.0,92.0,,wagnefr01,2.0,layup,3.0,,terryda01,,,,,,,,,,,,,,,,,,,,,,,,,3:06.0 89-92 wagnefr01 misses 2-pt layup from 3 ft (block by terryda01 )
+361,rebound,,,89.0,92.0,,,,,,,,,,,defensive,smithja04,False,,,,,,,,,,,,,,,,,,,3:04.0 Defensive rebound by smithja04 89-92
+362,fg_make,,,92.0,92.0,3.0,huertke01,3.0,jump shot,26.0,hortota01,,,,,,,,,,,,,,,,,,,,,,,,,,2:54.0 huertke01 makes 3-pt jump shot from 26 ft (assist by hortota01 ) +3 92-92
+363,fg_make,,,92.0,95.0,3.0,cartewe01,3.0,jump shot,23.0,banchpa01,,,,,,,,,,,,,,,,,,,,,,,,,,2:39.0 92-95 +3 cartewe01 makes 3-pt jump shot from 23 ft (assist by banchpa01 )
+364,fg_miss,,,92.0,95.0,,smithja04,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:31.0 smithja04 misses 3-pt jump shot from 26 ft 92-95
+365,rebound,,,92.0,95.0,,,,,,,,,,,defensive,banchpa01,False,,,,,,,,,,,,,,,,,,,2:27.0 92-95 Defensive rebound by banchpa01
+366,fg_miss,,,92.0,95.0,,howarje01,2.0,dunk,2.0,,smithja04,,,,,,,,,,,,,,,,,,,,,,,,,2:14.0 92-95 howarje01 misses 2-pt dunk from 2 ft (block by smithja04 )
+367,rebound,,,92.0,95.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,2:13.0 Defensive rebound by giddejo01 92-95
+368,fg_make,,,94.0,95.0,2.0,terryda01,2.0,dunk,2.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,2:08.0 terryda01 makes 2-pt dunk from 2 ft (assist by giddejo01 ) +2 94-95
+369,fg_miss,,,94.0,95.0,,cartewe01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:55.0 94-95 cartewe01 misses 3-pt jump shot from 27 ft
+370,rebound,,,94.0,95.0,,,,,,,,,,,defensive,smithja04,False,,,,,,,,,,,,,,,,,,,1:52.0 Defensive rebound by smithja04 94-95
+371,fg_miss,,,94.0,95.0,,giddejo01,2.0,hook shot,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:45.0 giddejo01 misses 2-pt hook shot from 4 ft 94-95
+372,rebound,,,94.0,95.0,,,,,,,,,,,defensive,cartewe01,False,,,,,,,,,,,,,,,,,,,1:42.0 94-95 Defensive rebound by cartewe01
+373,foul,,,94.0,95.0,,,,,,,,,,,,,,shooting,terryda01,banchpa01,,,,,,,,,,,,,,,,1:38.0 94-95 Shooting foul by terryda01 (drawn by banchpa01 )
+374,free_throw,,,94.0,95.0,,banchpa01,,,,,,misses,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:38.0 94-95 banchpa01 misses free throw 1 of 2
+375,rebound,,,94.0,95.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,1:38.0 94-95 Offensive rebound by Team
+376,free_throw,,,94.0,96.0,1.0,banchpa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:38.0 94-96 +1 banchpa01 makes free throw 2 of 2
+377,fg_miss,,,94.0,96.0,,huertke01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:30.0 huertke01 misses 3-pt jump shot from 28 ft 94-96
+378,rebound,,,94.0,96.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,1:29.0 94-96 Defensive rebound by Team
+379,substitution,,,94.0,96.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:29.0 94-96 dasiltr01 enters the game for banchpa01
+380,fg_miss,,,94.0,96.0,,wagnefr01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:08.0 94-96 wagnefr01 misses 3-pt jump shot from 25 ft
+381,rebound,,,94.0,96.0,,,,,,,,,,,defensive,smithja04,False,,,,,,,,,,,,,,,,,,,1:04.0 Defensive rebound by smithja04 94-96
+382,turnover,,,94.0,96.0,,,,,,,,,,,,,,,,,huertke01,bad pass; steal by blackan01,blackan01,,,,,,,,,,,,,0:47.0 Turnover by huertke01 (bad pass; steal by blackan01 ) 94-96
+383,fg_make,,,94.0,98.0,2.0,wagnefr01,2.0,layup,2.0,blackan01,,,,,,,,,,,,,,,,,,,,,,,,,,0:42.0 94-98 +2 wagnefr01 makes 2-pt layup from 2 ft (assist by blackan01 )
+384,turnover,,,94.0,98.0,,,,,,,,,,,,,,,,,hortota01,lost ball; steal by howarje01,howarje01,,,,,,,,,,,,,0:31.0 Turnover by hortota01 (lost ball; steal by howarje01 ) 94-98
+385,fg_make,,,94.0,101.0,3.0,blackan01,3.0,jump shot,23.0,wagnefr01,,,,,,,,,,,,,,,,,,,,,,,,,,0:14.0 94-101 +3 blackan01 makes 3-pt jump shot from 23 ft (assist by wagnefr01 )
+386,fg_make,,,96.0,101.0,2.0,giddejo01,2.0,jump shot,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 giddejo01 makes 2-pt jump shot from 12 ft +2 96-101
+387,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,3.0,,0:00.0 End of 3rd quarter
+388,period_start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,12:00.0 Start of 4th quarter
+389,fg_miss,,,96.0,101.0,,huertke01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,11:48.0 huertke01 misses 3-pt jump shot from 26 ft 96-101
+390,rebound,,,96.0,101.0,,,,,,,,,,,offensive,terryda01,False,,,,,,,,,,,,,,,,,,,11:43.0 Offensive rebound by terryda01 96-101
+391,fg_make,,,98.0,101.0,2.0,jonestr01,2.0,jump shot,12.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,11:30.0 jonestr01 makes 2-pt jump shot from 12 ft (assist by giddejo01 ) +2 98-101
+392,foul,,,98.0,101.0,,,,,,,,,,,,,,shooting,huertke01,dasiltr01,,,,,,,,,,,,,,,,11:01.0 98-101 Shooting foul by huertke01 (drawn by dasiltr01 )
+393,free_throw,,,98.0,102.0,1.0,dasiltr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:01.0 98-102 +1 dasiltr01 makes free throw 1 of 2
+394,free_throw,,,98.0,103.0,1.0,dasiltr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,11:01.0 98-103 +1 dasiltr01 makes free throw 2 of 2
+395,turnover,,,98.0,103.0,,,,,,,,,,,,,,,,,terryda01,step out of bounds,,,,,,,,,,,,,,10:49.0 Turnover by terryda01 (step out of bounds) 98-103
+396,fg_make,,,98.0,105.0,2.0,wagnefr01,2.0,jump shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:34.0 98-105 +2 wagnefr01 makes 2-pt jump shot from 3 ft
+397,foul,,,98.0,105.0,,,,,,,,,,,,,,shooting,smithja04,wagnefr01,,,,,,,,,,,,,,,,10:34.0 98-105 Shooting foul by smithja04 (drawn by wagnefr01 )
+398,free_throw,,,98.0,106.0,1.0,wagnefr01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,10:34.0 98-106 +1 wagnefr01 makes free throw 1 of 1
+399,fg_miss,,,98.0,106.0,,smithja04,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:20.0 smithja04 misses 3-pt jump shot from 26 ft 98-106
+400,rebound,,,98.0,106.0,,,,,,,,,,,defensive,houstca01,False,,,,,,,,,,,,,,,,,,,10:17.0 98-106 Defensive rebound by houstca01
+401,fg_miss,,,98.0,106.0,,cartewe01,2.0,hook shot,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,10:06.0 98-106 cartewe01 misses 2-pt hook shot from 8 ft
+402,rebound,,,98.0,106.0,,,,,,,,,,,defensive,smithja04,False,,,,,,,,,,,,,,,,,,,10:06.0 Defensive rebound by smithja04 98-106
+403,fg_miss,,,98.0,106.0,,terryda01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:59.0 terryda01 misses 3-pt jump shot from 27 ft 98-106
+404,rebound,,,98.0,106.0,,,,,,,,,,,defensive,blackan01,False,,,,,,,,,,,,,,,,,,,9:57.0 98-106 Defensive rebound by blackan01
+405,foul,,,98.0,106.0,,,,,,,,,,,,,,personal,smithja04,wagnefr01,,,,,,,,,,,,,,,,9:49.0 98-106 Personal foul by smithja04 (drawn by wagnefr01 )
+406,substitution,,,98.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 buzelma01 enters the game for huertke01 98-106
+407,substitution,,,98.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 colliza01 enters the game for smithja04 98-106
+408,substitution,,,98.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 whiteco01 enters the game for terryda01 98-106
+409,substitution,,,98.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:49.0 98-106 bitadgo01 enters the game for cartewe01
+410,foul,,,98.0,106.0,,,,,,,,,,,,,,shooting,colliza01,wagnefr01,,,,,,,,,,,,,,,,9:44.0 98-106 Shooting foul by colliza01 (drawn by wagnefr01 )
+411,substitution,,,98.0,106.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9:44.0 smithja04 enters the game for colliza01 98-106
+412,free_throw,,,98.0,107.0,1.0,wagnefr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:44.0 98-107 +1 wagnefr01 makes free throw 1 of 2
+413,free_throw,,,98.0,107.0,,wagnefr01,,,,,,misses,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,9:44.0 98-107 wagnefr01 misses free throw 2 of 2
+414,rebound,,,98.0,107.0,,,,,,,,,,,defensive,smithja04,False,,,,,,,,,,,,,,,,,,,9:41.0 Defensive rebound by smithja04 98-107
+415,fg_miss,,,98.0,107.0,,whiteco01,3.0,jump shot,29.0,,,,,,,,,,,,,,,,,,,,,,,,,,,9:24.0 whiteco01 misses 3-pt jump shot from 29 ft 98-107
+416,rebound,,,98.0,107.0,,,,,,,,,,,defensive,houstca01,False,,,,,,,,,,,,,,,,,,,9:21.0 98-107 Defensive rebound by houstca01
+417,fg_miss,,,98.0,107.0,,wagnefr01,2.0,jump shot,4.0,,buzelma01,,,,,,,,,,,,,,,,,,,,,,,,,9:16.0 98-107 wagnefr01 misses 2-pt jump shot from 4 ft (block by buzelma01 )
+418,rebound,,,98.0,107.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,9:13.0 Defensive rebound by giddejo01 98-107
+419,fg_make,,,101.0,107.0,3.0,whiteco01,3.0,jump shot,25.0,jonestr01,,,,,,,,,,,,,,,,,,,,,,,,,,9:07.0 whiteco01 makes 3-pt jump shot from 25 ft (assist by jonestr01 ) +3 101-107
+420,fg_miss,,,101.0,107.0,,blackan01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,8:43.0 101-107 blackan01 misses 3-pt jump shot from 26 ft
+421,rebound,,,101.0,107.0,,,,,,,,,,,defensive,whiteco01,False,,,,,,,,,,,,,,,,,,,8:39.0 Defensive rebound by whiteco01 101-107
+422,fg_make,,,103.0,107.0,2.0,jonestr01,2.0,layup,3.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 jonestr01 makes 2-pt layup from 3 ft (assist by giddejo01 ) +2 103-107
+423,timeout,,,103.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Orlando full,,,,8:31.0 103-107 Orlando full timeout
+424,substitution,,,103.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 103-107 anthoco01 enters the game for bitadgo01
+425,substitution,,,103.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 103-107 banchpa01 enters the game for blackan01
+426,substitution,,,103.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 103-107 caldwke01 enters the game for houstca01
+427,substitution,,,103.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:31.0 103-107 cartewe01 enters the game for wagnefr01
+428,foul,,,103.0,107.0,,,,,,,,,,,,,,shooting,smithja04,cartewe01,,,,,,,,,,,,,,,,8:11.0 103-107 Shooting foul by smithja04 (drawn by cartewe01 )
+429,unknown,,,103.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Technical foul by smithja04,8:11.0 Technical foul by smithja04 103-107
+430,unknown,,,103.0,107.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,smithja04 ejected from game,8:11.0 smithja04 ejected from game 103-107
+431,unknown,,,103.0,108.0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,caldwke01 makes technical free throw,8:11.0 103-108 +1 caldwke01 makes technical free throw
+432,substitution,,,103.0,108.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8:11.0 phillju01 enters the game for smithja04 103-108
+433,free_throw,,,103.0,109.0,1.0,cartewe01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:11.0 103-109 +1 cartewe01 makes free throw 1 of 2
+434,free_throw,,,103.0,110.0,1.0,cartewe01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,8:11.0 103-110 +1 cartewe01 makes free throw 2 of 2
+435,fg_miss,,,103.0,110.0,,whiteco01,2.0,layup,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:57.0 whiteco01 misses 2-pt layup from 4 ft 103-110
+436,rebound,,,103.0,110.0,,,,,,,,,,,defensive,banchpa01,False,,,,,,,,,,,,,,,,,,,7:55.0 103-110 Defensive rebound by banchpa01
+437,foul,,,103.0,110.0,,,,,,,,,,,,,,shooting,giddejo01,banchpa01,,,,,,,,,,,,,,,,7:48.0 103-110 Shooting foul by giddejo01 (drawn by banchpa01 )
+438,free_throw,,,103.0,111.0,1.0,banchpa01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:48.0 103-111 +1 banchpa01 makes free throw 1 of 2
+439,free_throw,,,103.0,112.0,1.0,banchpa01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,7:48.0 103-112 +1 banchpa01 makes free throw 2 of 2
+440,fg_make,,,105.0,112.0,2.0,giddejo01,2.0,jump shot,7.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:36.0 giddejo01 makes 2-pt jump shot from 7 ft +2 105-112
+441,fg_make,,,105.0,114.0,2.0,anthoco01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:18.0 105-114 +2 anthoco01 makes 2-pt layup from 2 ft
+442,fg_make,,,107.0,114.0,2.0,jonestr01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,7:12.0 jonestr01 makes 2-pt layup from 3 ft +2 107-114
+443,foul,,,107.0,114.0,,,,,,,,,,,,,,shooting,anthoco01,jonestr01,,,,,,,,,,,,,,,,7:12.0 Shooting foul by anthoco01 (drawn by jonestr01 ) 107-114
+444,free_throw,,,108.0,114.0,1.0,jonestr01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,7:12.0 jonestr01 makes free throw 1 of 1 +1 108-114
+445,fg_miss,,,108.0,114.0,,banchpa01,2.0,jump shot,22.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:49.0 108-114 banchpa01 misses 2-pt jump shot from 22 ft
+446,rebound,,,108.0,114.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,6:46.0 Defensive rebound by giddejo01 108-114
+447,fg_miss,,,108.0,114.0,,buzelma01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:41.0 buzelma01 misses 3-pt jump shot from 23 ft 108-114
+448,rebound,,,108.0,114.0,,,,,,,,,,,offensive,jonestr01,False,,,,,,,,,,,,,,,,,,,6:37.0 Offensive rebound by jonestr01 108-114
+449,fg_miss,,,108.0,114.0,,whiteco01,3.0,jump shot,28.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:37.0 whiteco01 misses 3-pt jump shot from 28 ft 108-114
+450,rebound,,,108.0,114.0,,,,,,,,,,,defensive,anthoco01,False,,,,,,,,,,,,,,,,,,,6:36.0 108-114 Defensive rebound by anthoco01
+451,fg_miss,,,108.0,114.0,,dasiltr01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,6:25.0 108-114 dasiltr01 misses 2-pt layup from 3 ft
+452,rebound,,,108.0,114.0,,,,,,,,,,,defensive,phillju01,False,,,,,,,,,,,,,,,,,,,6:24.0 Defensive rebound by phillju01 108-114
+453,fg_make,,,110.0,114.0,2.0,whiteco01,2.0,layup,4.0,jonestr01,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 whiteco01 makes 2-pt layup from 4 ft (assist by jonestr01 ) +2 110-114
+454,foul,,,110.0,114.0,,,,,,,,,,,,,,shooting,anthoco01,whiteco01,,,,,,,,,,,,,,,,6:18.0 Shooting foul by anthoco01 (drawn by whiteco01 ) 110-114
+455,substitution,,,110.0,114.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6:18.0 110-114 wagnefr01 enters the game for dasiltr01
+456,free_throw,,,111.0,114.0,1.0,whiteco01,,,,,,makes,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:18.0 whiteco01 makes free throw 1 of 1 +1 111-114
+457,fg_make,,,111.0,116.0,2.0,caldwke01,2.0,dunk,1.0,anthoco01,,,,,,,,,,,,,,,,,,,,,,,,,,6:08.0 111-116 +2 caldwke01 makes 2-pt dunk from 1 ft (assist by anthoco01 )
+458,foul,,,111.0,116.0,,,,,,,,,,,,,,shooting,phillju01,caldwke01,,,,,,,,,,,,,,,,6:08.0 111-116 Shooting foul by phillju01 (drawn by caldwke01 )
+459,free_throw,,,111.0,116.0,,caldwke01,,,,,,misses,1.0,1.0,,,,,,,,,,,,,,,,,,,,,,6:08.0 111-116 caldwke01 misses free throw 1 of 1
+460,rebound,,,111.0,116.0,,,,,,,,,,,defensive,buzelma01,False,,,,,,,,,,,,,,,,,,,6:07.0 Defensive rebound by buzelma01 111-116
+461,fg_make,,,113.0,116.0,2.0,whiteco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:54.0 whiteco01 makes 2-pt layup from 3 ft +2 113-116
+462,foul,,,113.0,116.0,,,,,,,,,,,,,,shooting,buzelma01,wagnefr01,,,,,,,,,,,,,,,,5:44.0 113-116 Shooting foul by buzelma01 (drawn by wagnefr01 )
+463,free_throw,,,113.0,117.0,1.0,wagnefr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:44.0 113-117 +1 wagnefr01 makes free throw 1 of 2
+464,substitution,,,113.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:44.0 113-117 blackan01 enters the game for anthoco01
+465,substitution,,,113.0,117.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5:44.0 113-117 houstca01 enters the game for cartewe01
+466,free_throw,,,113.0,118.0,1.0,wagnefr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,5:44.0 113-118 +1 wagnefr01 makes free throw 2 of 2
+467,fg_miss,,,113.0,118.0,,whiteco01,3.0,jump shot,30.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:32.0 whiteco01 misses 3-pt jump shot from 30 ft 113-118
+468,rebound,,,113.0,118.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,5:30.0 113-118 Defensive rebound by Team
+469,fg_miss,,,113.0,118.0,,wagnefr01,2.0,jump shot,7.0,,buzelma01,,,,,,,,,,,,,,,,,,,,,,,,,5:15.0 113-118 wagnefr01 misses 2-pt jump shot from 7 ft (block by buzelma01 )
+470,rebound,,,113.0,118.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,5:15.0 113-118 Offensive rebound by Team
+471,fg_miss,,,113.0,118.0,,giddejo01,2.0,jump shot,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,5:08.0 giddejo01 misses 2-pt jump shot from 3 ft 113-118
+472,rebound,,,113.0,118.0,,,,,,,,,,,defensive,caldwke01,False,,,,,,,,,,,,,,,,,,,5:06.0 113-118 Defensive rebound by caldwke01
+473,fg_miss,,,113.0,118.0,,wagnefr01,2.0,layup,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,4:49.0 113-118 wagnefr01 misses 2-pt layup from 2 ft
+474,rebound,,,113.0,118.0,,,,,,,,,,,defensive,buzelma01,False,,,,,,,,,,,,,,,,,,,4:46.0 Defensive rebound by buzelma01 113-118
+475,fg_make,,,116.0,118.0,3.0,jonestr01,3.0,jump shot,24.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,4:42.0 jonestr01 makes 3-pt jump shot from 24 ft (assist by giddejo01 ) +3 116-118
+476,fg_make,,,116.0,121.0,3.0,houstca01,3.0,jump shot,26.0,wagnefr01,,,,,,,,,,,,,,,,,,,,,,,,,,4:19.0 116-121 +3 houstca01 makes 3-pt jump shot from 26 ft (assist by wagnefr01 )
+477,fg_make,,,118.0,121.0,2.0,whiteco01,2.0,layup,3.0,giddejo01,,,,,,,,,,,,,,,,,,,,,,,,,,3:49.0 whiteco01 makes 2-pt layup from 3 ft (assist by giddejo01 ) +2 118-121
+478,fg_miss,,,118.0,121.0,,houstca01,3.0,jump shot,26.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:25.0 118-121 houstca01 misses 3-pt jump shot from 26 ft
+479,rebound,,,118.0,121.0,,,,,,,,,,,defensive,whiteco01,False,,,,,,,,,,,,,,,,,,,3:22.0 Defensive rebound by whiteco01 118-121
+480,timeout,,,118.0,121.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Chicago full,,,,3:16.0 Chicago full timeout 118-121
+481,fg_miss,,,118.0,121.0,,jonestr01,2.0,layup,2.0,,blackan01,,,,,,,,,,,,,,,,,,,,,,,,,3:11.0 jonestr01 misses 2-pt layup from 2 ft (block by blackan01 ) 118-121
+482,rebound,,,118.0,121.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,3:11.0 Offensive rebound by Team 118-121
+483,fg_miss,,,118.0,121.0,,giddejo01,3.0,jump shot,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,3:01.0 giddejo01 misses 3-pt jump shot from 25 ft 118-121
+484,rebound,,,118.0,121.0,,,,,,,,,,,offensive,buzelma01,False,,,,,,,,,,,,,,,,,,,2:58.0 Offensive rebound by buzelma01 118-121
+485,fg_miss,,,118.0,121.0,,whiteco01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,2:56.0 whiteco01 misses 3-pt jump shot from 27 ft 118-121
+486,rebound,,,118.0,121.0,,,,,,,,,,,offensive,,True,,,,,,,,,,,,,,,,,,,2:54.0 Offensive rebound by Team 118-121
+487,timeout,,,118.0,121.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,Orlando full,,,,2:54.0 118-121 Orlando full timeout
+488,instant_replay,,,118.0,121.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:54.0 118-121 Instant Replay (Challenge: Stands)
+489,fg_make,,,120.0,121.0,2.0,whiteco01,2.0,dunk,1.0,buzelma01,,,,,,,,,,,,,,,,,,,,,,,,,,2:42.0 whiteco01 makes 2-pt dunk from 1 ft (assist by buzelma01 ) +2 120-121
+490,turnover,,,120.0,121.0,,,,,,,,,,,,,,,,,banchpa01,lost ball; steal by jonestr01,jonestr01,,,,,,,,,,,,,2:29.0 120-121 Turnover by banchpa01 (lost ball; steal by jonestr01 )
+491,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2:27.0 Jump ball: buzelma01 vs. houstca01 ( jonestr01 gains possession)
+492,fg_make,,,123.0,121.0,3.0,whiteco01,3.0,jump shot,30.0,jonestr01,,,,,,,,,,,,,,,,,,,,,,,,,,2:18.0 whiteco01 makes 3-pt jump shot from 30 ft (assist by jonestr01 ) +3 123-121
+493,turnover,,,123.0,121.0,,,,,,,,,,,,,,,,,wagnefr01,bad pass; steal by whiteco01,whiteco01,,,,,,,,,,,,,2:01.0 123-121 Turnover by wagnefr01 (bad pass; steal by whiteco01 )
+494,fg_miss,,,123.0,121.0,,whiteco01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:45.0 whiteco01 misses 3-pt jump shot from 27 ft 123-121
+495,rebound,,,123.0,121.0,,,,,,,,,,,defensive,,True,,,,,,,,,,,,,,,,,,,1:43.0 123-121 Defensive rebound by Team
+496,foul,,,123.0,121.0,,,,,,,,,,,,,,loose ball,phillju01,wagnefr01,,,,,,,,,,,,,,,,1:43.0 Loose ball foul by phillju01 (drawn by wagnefr01 ) 123-121
+497,free_throw,,,123.0,122.0,1.0,wagnefr01,,,,,,makes,1.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 123-122 +1 wagnefr01 makes free throw 1 of 2
+498,substitution,,,123.0,122.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1:43.0 123-122 cartewe01 enters the game for houstca01
+499,free_throw,,,123.0,123.0,1.0,wagnefr01,,,,,,makes,2.0,2.0,,,,,,,,,,,,,,,,,,,,,,1:43.0 123-123 +1 wagnefr01 makes free throw 2 of 2
+500,fg_make,,,125.0,123.0,2.0,whiteco01,2.0,layup,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:28.0 whiteco01 makes 2-pt layup from 3 ft +2 125-123
+501,fg_miss,,,125.0,123.0,,caldwke01,3.0,jump shot,23.0,,,,,,,,,,,,,,,,,,,,,,,,,,,1:07.0 125-123 caldwke01 misses 3-pt jump shot from 23 ft
+502,rebound,,,125.0,123.0,,,,,,,,,,,defensive,giddejo01,False,,,,,,,,,,,,,,,,,,,1:04.0 Defensive rebound by giddejo01 125-123
+503,turnover,,,125.0,123.0,,,,,,,,,,,,,,,,,phillju01,off goaltending,,,,,,,,,,,,,,0:58.0 Turnover by phillju01 (off goaltending) 125-123
+504,instant_replay,,,125.0,123.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:58.0 Instant Replay (Request: Ruling Stands) 125-123
+505,substitution,,,125.0,123.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:58.0 125-123 anthoco01 enters the game for blackan01
+506,turnover,,,125.0,123.0,,,,,,,,,,,,,,,,,wagnefr01,out of bounds lost ball,,,,,,,,,,,,,,0:39.0 125-123 Turnover by wagnefr01 (out of bounds lost ball)
+507,substitution,,,125.0,123.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:39.0 125-123 blackan01 enters the game for anthoco01
+508,foul,,,125.0,123.0,,,,,,,,,,,,,,personal,cartewe01,phillju01,,,,,,,,,,,,,,,,0:26.0 Personal foul by cartewe01 (drawn by phillju01 ) 125-123
+509,jump_ball,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:14.0 Jump ball: cartewe01 vs. whiteco01 ( blackan01 gains possession)
+510,turnover,,,125.0,123.0,,,,,,,,,,,,,,,,,whiteco01,lost ball; steal by cartewe01,cartewe01,,,,,,,,,,,,,0:14.0 Turnover by whiteco01 (lost ball; steal by cartewe01 ) 125-123
+511,fg_miss,,,125.0,123.0,,banchpa01,3.0,jump shot,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,0:02.0 125-123 banchpa01 misses 3-pt jump shot from 27 ft
+512,rebound,,,125.0,123.0,,,,,,,,,,,offensive,cartewe01,False,,,,,,,,,,,,,,,,,,,0:02.0 125-123 Offensive rebound by cartewe01
+513,instant_replay,,,125.0,123.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0:00.0 125-123 Instant Replay (Request: Ruling Stands)
+514,period_end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,quarter,4.0,,0:00.0 End of 4th quarter
